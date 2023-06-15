@@ -1,0 +1,353 @@
+:root {
+  --header-image: url('./img/asummersend_header.png');
+  --body-color: #fceaff;
+  --body-bg: #1f0033;
+  --content-bg: #000000;
+  --content: #43256E;
+  --title-color: #FF29D8;
+  --title-border: #d3aad5;
+  --code-bg: #241445;
+  --code-border: #82668f;
+  --link-color: #d270ff;
+  --link-hover: #7E4197;
+  --blockquote-bg: #222121;
+  --blockquote-border: #4d4385;
+  --box-bg: #13092D;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/assets/fonts/Nunito-VariableFont_wght.ttf') format("truetype");
+  font-weight: 125 950;
+  font-stretch: 75% 125%;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/assets/fonts/Nunito-Italic-VariableFont_wght.ttf') format("truetype");
+  font-weight: 125 950;
+  font-stretch: 75% 125%;
+  font-style: italic;
+}
+
+html,
+body {
+scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: var(--body-bg);
+  background-size: 65px;
+  color: var(--body-color);
+  background-image: var(--body-bg-image);
+  background-attachment: fixed;
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--title-color);
+}
+
+h1 {
+  font-size: 2.2rem;
+  border-bottom: 3px solid var(--title-border);
+  padding-bottom: 8px;
+}
+
+h1:not(:first-child) {
+  padding-top: 30px;
+}
+
+h2 {
+  font-size: 1.7rem;
+}
+
+strong {
+  color: var(--title-color);
+}
+
+hr {
+  width: 75%;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+blockquote {
+  border-left: var(--blockquote-border) 3px solid;
+  background: var(--blockquote-bg);
+  padding: 0.1px 0.75rem;
+  margin: 0 1.5rem;
+}
+
+.linkBtn {
+  font: 1.1rem 'Source Sans Pro', Arial, sans-serif;
+  border: 2px solid var(--link-color);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin: 0.25em 0.15em;
+  background: none;
+  color: var(--link-color);
+  cursor: pointer;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.linkBtn:hover {
+  cursor:pointer;
+  color: white;
+  background-color: var(--link-color);
+  transition: 0.5s;
+}
+
+span.monospace {
+  font-family: monospace;
+  border: 1px solid var(--code-border);
+  padding: 2px;
+  background-color: var(--code-bg);
+}
+
+.code-snippet {
+  background-color: var(--code-bg);
+  border: 1px solid var(--code-border);
+  display: block;
+  padding: 0.5em;
+  overflow-x: auto;
+  word-break: break-all;
+}
+
+.box {
+  background-color: var(--box-bg);
+  border: 1px solid var(--title-color);
+  padding: 10px;
+}
+
+.full-width-youtube-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.full-width-youtube-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* CONTAINER for wrapping the entire website */
+#container {
+  max-width: 1100px;
+  /* the width of the layout */
+  /* if you change the above value, scroll to the bottom
+and change the media query according to the comment! */
+  margin: 0 auto;
+  /* this centers the entire page */
+}
+
+/* For all links on your page EXCEPT for the navigation */
+#container a {
+  color: var(--link-color);
+  font-weight: bold;
+}
+
+#container a:hover {
+  color: var(--link-hover);
+}
+
+#header {
+  width: 100%;
+  background-color: var(--content-bg);
+  height: 480px;
+  background-image: var(--header-image);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* NAVIGATION SECTION */
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  max-width: 900px;
+}
+
+#navbar {
+  height: 40px;
+  background-color: var(--content-bg);
+  width: 100%;
+  margin-bottom: 10px;
+  z-index: 999;
+}
+
+#navbar ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+#navbar li {
+  padding-top: 10px;
+}
+
+#navbar li a {
+  color: var(--link-color);
+  /* navbar text color */
+  font-weight: 800;
+  text-decoration: none;
+  /* this removes the underline */
+}
+
+#navbar li a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+#flex {
+  display: flex;
+}
+
+/* EXTRAS */
+#topBar {
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  font-size: smaller;
+  background-color: var(--box-bg);
+}
+
+/* MAIN CONTENT AREA, between the sidebars */
+main {
+  font-size: 1.2rem;
+  flex: 1;
+  order: 2;
+}
+
+.content-section {
+  background-color: var(--content-bg);
+  padding: 20px;
+}
+
+.content-section:not(:first-child) {
+  margin-top: 10px;
+}
+
+/* This colors BOTH sidebars
+If you want to style them separately,
+create styles for #leftSidebar and #rightSidebar */
+aside {
+  background-color: var(--content-bg);
+  width: 200px;
+  padding: 20px;
+  font-size: smaller;
+  /* this makes the sidebar text slightly smaller */
+}
+
+aside h1, aside h2, aside h3 {
+  margin-bottom: 0;
+}
+
+aside ul {
+  margin-top: 0.5rem;
+}
+
+aside .box ul {
+  padding-left: 10px;
+}
+
+#leftSidebar {
+  order: 1;
+  margin-right: 10px;
+}
+
+#rightSidebar {
+  order: 3;
+  margin-left: 10px;
+}
+
+.sidebar-content {
+  position: sticky;
+  top: 40px;
+  font-size: 0.9rem;
+}
+
+/* TABLE OF CONTENTS */
+
+.toc-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.toc-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 1rem;
+}
+
+.toc-list li {
+  margin-bottom: 0.5em;
+}
+
+
+/* FOOTER */
+
+footer {
+  background-color: var(--content-bg);
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+/* MEDIA QUERY STARTS HERE */
+
+/* To keep things responsive,
+if you want to change the width of your page,
+take your new width of the #container, and then subtrack it by 100.
+Use this new number as the "max-width" value below */
+
+@media only screen and (max-width: 1000px) {
+  #flex {
+      flex-wrap: wrap;
+  }
+
+  aside {
+      width: 100%;
+  }
+
+  /* the order of the items is adjusted here for responsiveness.
+  since the sidebars would be too small on a mobile device. */
+  main {
+      order: 1;
+  }
+
+  #leftSidebar {
+      order: 2;
+      margin-right: 10px;
+  }
+
+  #rightSidebar {
+      order: 3;
+      margin-left: 10px;
+  }
+
+  #navbar ul {
+      flex-wrap: wrap;
+  }
+}
