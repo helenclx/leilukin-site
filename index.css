@@ -1,55 +1,137 @@
-body {
-  font-size: 16px;
-  font-family: 'Source Sans Pro', Arial, sans-serif;
-  color: #FFFFFF;
-  background: #000000;
-  text-align: center;
-  align-items: center;
-  line-height: 1.6;
-}
-  
-a {
-	color: #6EAEFA;
+/* CSS RESET */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-a:visited { color: #6EAEFA; }
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+       scroll-behavior: auto;
+    }
+  
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* STYLING BEGINS */
+body {
+    font-size: 1rem; /* 16px */
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    color: #FFFFFF;
+    background: #000000;
+    text-align: center;
+    align-items: center;
+}
 
 main {
-  background: #000000;
-  max-width: 900px;
-  position: relative;
-  margin: 0 auto;
-  }
+    background: #000000;
+    max-width: 56rem;
+    position: relative;
+    margin: 0 auto;
+}
+
+.index__banner {
+    width: 100%;
+}
 
 h1 {
-  font-size: 4rem;
-  color: #BA6FE8;
-  font-weight: normal;
-  letter-spacing:5px;
-  margin-top: 0.5em;
-  margin-bottom: 0em;
-  }
+    font-size: 4rem;
+    color: #BA6FE8;
+    font-weight: normal;
+    letter-spacing: 0.08em;
+    margin: 2rem 0;
+    line-height: 1;
+}
 
 p {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
 }
 
-.indexBtn {
-  font: 2rem 'Source Sans Pro', Arial, sans-serif;
-  font-weight: 600;
-  border: none;
-  border-radius: 10px;
-  padding: 15px 20px;
-  margin: 0.25em 0.15em;
-  background-color: #7A37A3;
-  color: white;
-  cursor: pointer;
-  text-transform: uppercase;
+.index__btn-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
-.indexBtn:hover {
-  cursor: pointer;
-  color: white;
-  background-color: #BA6FE8;
-  transition: 0.5s;
+.index__link {
+    text-decoration: none;
+    font: 2rem 'Source Sans Pro', Arial, sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.625rem;
+    padding: 1rem 1.25rem;
+    margin: 0.5rem;
+    background-color: #7A37A3;
+    color: white;
+    text-transform: uppercase;
+}
+
+.index__link:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #BA6FE8;
+    transition: 0.5s;
 }
