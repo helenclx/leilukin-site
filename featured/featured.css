@@ -1,0 +1,12 @@
+@import url("/main.css");
+
+blockquote {
+    margin: 20px 0;
+	padding: 0 20px;
+	border-inline-start: 3px solid #999999;
+}
+
+#source {
+	font-size: 1.6rem;
+	font-weight: bold;
+}
