@@ -38,10 +38,10 @@ scroll-behavior: smooth;
 
 body {
   font-family: 'Nunito', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 1rem; /* 16px */
   margin: 0;
   background-color: var(--body-bg);
-  background-size: 65px;
+  background-size: 4rem;
   color: var(--body-color);
   background-image: var(--body-bg-image);
   background-attachment: fixed;
@@ -60,8 +60,8 @@ h3 {
 
 h1 {
   font-size: 2.2rem;
-  border-bottom: 3px solid var(--title-border);
-  padding-bottom: 8px;
+  border-bottom: 0.18rem solid var(--title-border);
+  padding-bottom: 0.5rem;
 }
 
 h1:not(:first-child) {
@@ -85,15 +85,15 @@ hr {
 blockquote {
   border-left: var(--blockquote-border) 3px solid;
   background: var(--blockquote-bg);
-  padding: 0.1px 0.75rem;
+  padding: 0 0.75rem;
   margin: 0 1.5rem;
 }
 
 .linkBtn {
   font: 1.1rem 'Source Sans Pro', Arial, sans-serif;
-  border: 2px solid var(--link-color);
+  border: 0.125rem solid var(--link-color);
   border-radius: 10px;
-  padding: 12px 16px;
+  padding: 0.75rem 1rem;
   margin: 0.25em 0.15em;
   background: none;
   color: var(--link-color);
@@ -112,9 +112,7 @@ blockquote {
 span.monospace {
   font-family: monospace;
   border: 1px solid var(--code-border);
-  padding: 2px 5px;
-  margin-left: 2px;
-  margin-right: 2px;
+  padding: 2px;
   background-color: var(--code-bg);
 }
 
@@ -171,7 +169,7 @@ and change the media query according to the comment! */
 #header {
   width: 100%;
   background-color: var(--content-bg);
-  height: 500px;
+  height: 480px;
   background-image: var(--header-image);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -186,10 +184,10 @@ and change the media query according to the comment! */
 }
 
 #navbar {
-  height: 40px;
+  height: 2.5rem;
   background-color: var(--content-bg);
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   z-index: 999;
 }
 
@@ -202,7 +200,7 @@ and change the media query according to the comment! */
 }
 
 #navbar li {
-  padding-top: 10px;
+  padding-top: 0.625rem;
 }
 
 #navbar li a {
@@ -225,8 +223,8 @@ and change the media query according to the comment! */
 /* EXTRAS */
 #topBar {
   width: 100%;
-  height: 30px;
-  padding: 10px;
+  height: 1.875rem;
+  padding: 0.625rem;
   font-size: smaller;
   background-color: var(--box-bg);
 }
@@ -240,11 +238,11 @@ main {
 
 .content-section {
   background-color: var(--content-bg);
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .content-section:not(:first-child) {
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 
 /* This colors BOTH sidebars
@@ -252,8 +250,8 @@ If you want to style them separately,
 create styles for #leftSidebar and #rightSidebar */
 aside {
   background-color: var(--content-bg);
-  width: 200px;
-  padding: 20px;
+  width: 12.5rem;
+  padding: 1.25rem;
   font-size: smaller;
   /* this makes the sidebar text slightly smaller */
 }
@@ -267,17 +265,17 @@ aside ul {
 }
 
 aside .box ul {
-  padding-left: 10px;
+  padding-left: 1.25rem;
 }
 
 #leftSidebar {
   order: 1;
-  margin-right: 10px;
+  margin-right: 1.25rem;
 }
 
 #rightSidebar {
   order: 3;
-  margin-left: 10px;
+  margin-left: 1.25rem;
 }
 
 .sidebar-content {
@@ -310,10 +308,10 @@ aside .box ul {
 footer {
   background-color: var(--content-bg);
   width: 100%;
-  height: 40px;
-  padding: 10px;
+  height: 2.5rem;
+  padding: 1.25rem;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 1.25rem;
 }
 
 
@@ -336,17 +334,17 @@ Use this new number as the "max-width" value below */
   /* the order of the items is adjusted here for responsiveness.
   since the sidebars would be too small on a mobile device. */
   main {
-      order: 2;
+      order: 1;
   }
 
   #leftSidebar {
-      order: 3;
-      margin-right: 10px;
+      order: 2;
+      margin-right: 1.25rem;
   }
 
   #rightSidebar {
-      order: 1;
-      margin-left: 10px;
+      order: 3;
+      margin-left: 1.25rem;
   }
 
   #navbar ul {
