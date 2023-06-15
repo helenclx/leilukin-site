@@ -2,17 +2,17 @@
 
 .linkBtn {
     font: 1.3rem 'Source Sans Pro', Arial, sans-serif;
-    border: 2px solid #BA6FE8;
-    border-radius: 10px;
-    padding: 12px 16px;
+    border: 0.125rem solid #BA6FE8;
+    border-radius: 0.6rem;
+    padding: 0.75rem 1rem;
     margin: 0.25em 0.15em;
     background-color: #241445;
     color: #BA6FE8;
     cursor: pointer;
     font-weight: 700;
     text-transform: uppercase;
-  }
-  
+}
+
 .linkBtn:hover {
     cursor:pointer;
     color: white;

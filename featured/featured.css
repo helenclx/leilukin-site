@@ -1,9 +1,9 @@
 @import url("/main.css");
 
 blockquote {
-    margin: 20px 0;
-	padding: 0 20px;
-	border-inline-start: 3px solid #999999;
+    margin: 1.25rem 0;
+	padding: 0 1.25rem;
+	border-inline-start: 0.1875rem solid #999999;
 }
 
 #source {

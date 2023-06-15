@@ -11,7 +11,7 @@
 
 .mod-entry {
     background: #241445;
-    max-width: 850px;
+    max-width: 900px;
     position:relative;
     margin: 1em 0;
     padding: 1em 1.5em 1.5em 1.5em;
@@ -33,8 +33,8 @@
 .filterBtn {
     border: none;
     outline: none;
-    padding: 12px 16px;
-    margin: 3px 0;
+    padding: 0.75rem 1rem;
+    margin: 0.1875rem 0;
     background-color: #d3aad5;
     color: #241445;
     cursor: pointer;
@@ -53,9 +53,9 @@
 
 .linkBtn {
     font: 1.3rem 'Source Sans Pro', Arial, sans-serif;
-    border: 2px solid #BA6FE8;
-    border-radius: 10px;
-    padding: 12px 16px;
+    border: 0.125rem solid #BA6FE8;
+    border-radius: 0.6rem;
+    padding: 0.75rem 1rem;
     margin: 0.25em 0.15em;
     background-color: #241445;
     color: #BA6FE8;
