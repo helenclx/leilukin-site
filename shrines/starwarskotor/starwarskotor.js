@@ -1,11 +1,11 @@
 /* --- SCRIPT FOR THE NAVIGATION BAR --- */
 var navBarHTML = `
     <ul>
-        <li><a href="shrines/starwarskotor/">Home</a></li>
-        <li><a href="shrines/starwarskotor/articles/">Articles</a></li>
-        <li><a href="shrines/starwarskotor/guides/">Guides</a></li>
-        <li><a href="shrines/starwarskotor/resources/">Resources</a></li>
-        <li><a href="home.html">Main Site</a></li>
+        <li><a href="/shrines/starwarskotor/">Home</a></li>
+        <li><a href="/shrines/starwarskotor/articles/">Articles</a></li>
+        <li><a href="/shrines/starwarskotor/guides/">Guides</a></li>
+        <li><a href="/shrines/starwarskotor/resources/">Resources</a></li>
+        <li><a href="/home.html">Main Site</a></li>
     </ul>
 `;
 
