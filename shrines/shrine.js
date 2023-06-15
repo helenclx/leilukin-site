@@ -23,6 +23,6 @@ function stickyFunction() {
 
 // Generate footer content
 var footerHTML = `
-  This shrine is made with ♥ by <a href="/home.html">Leilukin</a>
+  <p>This shrine is made with ♥ by <a href="/home.html">Leilukin</a></p>
 `;
 document.querySelector("#footer").innerHTML = footerHTML;
