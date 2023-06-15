@@ -13,27 +13,27 @@ document.querySelector("#leftSidebarContent").innerHTML = leftSidebarHTML;
 // Variables for the list of navigation links
 var navList = "";
 var navLinks = [
-    `<li><a href="home.html">Home</a></li>`,
-    `<li><a href="about/index.html">About</a></li>`,
-    `<li><a href="blog/index.html">Blog</a></li>`,
-    `<li><a href="articles/index.html">Articles</a></li>`,
-    `<li><a href="mycreations/index.html">My Creations</a></li>`,
-    `<li><a href="mymods/index.html">My Mods</a></li>`,
-    `<li><a href="playlists/index.html">Playlists</a></li>`,
-    `<li><a href="featured/index.html">Featured</a></li>`,
-    `<li><a href="resources/index.html">Resources</a></li>`,
-    `<li><a href="shrines/index.html">Shrines</a></li>`,
-    `<li><a href="links/index.html">Links</a></li>`,
-    `<li><a href="changelog/index.html">Changelog</a></li>`,
-    `<li><a href="sitemap.html">Site Map</a></li>`
+    `<li><a href="/home.html">Home</a></li>`,
+    `<li><a href="/about">About</a></li>`,
+    `<li><a href="/blog">Blog</a></li>`,
+    `<li><a href="/articles">Articles</a></li>`,
+    `<li><a href="/mycreations">My Creations</a></li>`,
+    `<li><a href="/mymods">My Mods</a></li>`,
+    `<li><a href="/playlists">Playlists</a></li>`,
+    `<li><a href="/featured">Featured</a></li>`,
+    `<li><a href="/resources">Resources</a></li>`,
+    `<li><a href="/shrines">Shrines</a></li>`,
+    `<li><a href="/links">Links</a></li>`,
+    `<li><a href="/changelog">Changelog</a></li>`,
+    `<li><a href="/sitemap.html">Site Map</a></li>`
 ];
 
 // To show subpage links when visiting certain pages
 if (currentPath.includes("mymods/")) {
     navLinks.splice(6, 0, `
     <ul>
-        <li><a href="mymods/kotor1mods/index.html">KotOR 1</a></li>
-        <li><a href="mymods/kotor2mods/index.html">KotOR 2</a></li>
+        <li><a href="/mymods/kotor1mods">KotOR 1</a></li>
+        <li><a href="/mymods/kotor2mods">KotOR 2</a></li>
     </ul>
     `);
 }
@@ -41,8 +41,8 @@ if (currentPath.includes("mymods/")) {
 if (currentPath.includes("changelog/")) {
     navLinks.splice(12, 0, `
     <ul>
-        <li><a href="changelog/2022.html">2022</a></li>
-        <li><a href="changelog/layouts.html">Layout Archive</a></li>
+        <li><a href="/changelog/2022.html">2022</a></li>
+        <li><a href="/changelog/layouts.html">Layout Archive</a></li>
     </ul>
     `);
 }
