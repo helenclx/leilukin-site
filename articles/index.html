@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" id="page-top">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,37 +12,37 @@
         <meta property="og:description" content="List of articles published on my website.">
 
         <link rel="stylesheet" href="/main.css" type="text/css" media="all">
-        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
         <link rel="manifest" href="/assets/favicon/site.webmanifest">
 
-        <script src="/main.js" defer></script>
+        <script src="/components/header.js" defer></script>
+        <script src="/components/navbar.js" defer></script>
+        <script src="/components/footer.js" defer></script>
 
         <title>Articles | Leilukin's Hub</title>
     </head>
     <body>
+        <header-component></header-component>
+        <main>
+            <!-- <aside class="left-sidebar">
+                Left sidebar content here
+            </aside> -->
 
-        <div id="container">
-            <div id="headerArea">
-                <div id="header"></div>
-            </div>
-
-            <div id="flex">
-                
-                <aside id="leftSidebar">
-                    <div class="sidebar-content">
-                        <div id="leftSidebarContent"></div>
-                    </div>
-                </aside>
-
-                <main>
+            <div class="content-container">
+                <section class="content-section">
                     <h1>Articles</h1>
-                </main>
-                
+                    <p>Work in progress</p>
+                </section>
             </div>
-            <footer id="footer"></footer>
-        </div>
+
+            <!-- <aside class="right-sidebar">
+                Right sidebar content here
+            </aside> -->
+        </main>
+        <footer-component></footer-component>
     </body>
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" id="page-top">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,80 +12,66 @@
         <meta property="og:description" content="My shrine for A Summer’s End — Hong Kong 1986">
 
         <link rel="stylesheet" href="asummersend.css" type="text/css" media="all">
-        <link rel="icon" type="image/png" href="./img/ase-icon.png">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
 
-        <script src="/shrines/shrine.js" defer></script>
+        <link rel="apple-touch-icon" sizes="180x180" href="./img/ase-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./img/ase-icon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./img/ase-icon.png">
+        <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+        <script src="components/header.js" defer></script>
+        <script src="components/navbar.js" defer></script>
+        <script src="components/sidebar-content.js" defer></script>
+        <script src="components/footer.js" defer></script>
 
         <title>A Summer’s End — Hong Kong 1986 Shrine | Leilukin's Hub</title>
     </head>
     <body>
-        
-        <div id="container">
-            <div id="headerArea">
-                <div id="header"></div>
-                <nav id="navbar">
-                    <ul>
-                        <li><a href="/shrines/asummersend/">Home</a></li>
-                        <li><a href="./playlists.html">Playlists</a></li>
-                        <li><a href="./trivia.html">Trivia</a></li>
-                        <li><a href="./gallery.html">Gallery</a></li>
-                        <li><a href="/home.html">Main Site</a></li>
-                    </ul>
-                </nav>
+        <header-component></header-component>
+        <main>
+            <!-- <aside class="left-sidebar">
+                Left sidebar content here
+            </aside> -->
+
+            <div class="content-container">
+                <section class="content-section">
+                    <h1>Welcome to my <em>A Summer’s End — Hong Kong 1986</em> Shrine!</h1>
+                    <img src="./img/asummersend_header.png" alt="Promotional image of A Summer’s End — Hong Kong 1986">
+                    <p><em>A Summer’s End — Hong Kong 1986</em> is a visual novel developed by Oracle and Bone, a Canada-based independent studio consists of two Asian queer women, Charissa So and Tida Kietsungden. The visual novel tells of a lesbian romance story between Michelle Cheung, an office worker, and Sam Wong, a video store owner, that takes place in Hong Kong in the year of 1986.</p>
+
+                    <p>Initially released in English on 23 Apr, 2020, <em>A Summer’s End</em> has also been translated into Simplified Chinese, Traditional Chinese and Cantonese. The Chinese translations were released on July 9, 2021.</p>
+
+                    <p><em>A Summer’s End</em> is available on <a href="https://store.steampowered.com/app/1111370/A_Summers_End__Hong_Kong_1986/" target="_blank">Steam</a> and <a href="https://oracleandbone.itch.io/a-summers-end" target="_blank">itch.io</a>. It also has an <a href="https://www.asummersend.com/" target="_blank">official website</a>.</p>
+                </section>
+
+                <section class="content-section">
+                    <h2>How I Discovered <em>A Summer’s End — Hong Kong 1986</em></h2>
+                    <img src="./img/ASE-Screenshot-02.png" alt="In-Game Screenshot of A Summer's End 02" width="100%">
+                    <p>I first learned about <em>A Summer’s End — Hong Kong 1986</em> through <a href="https://linuxgameconsortium.com/a-summers-end-hong-kong-1986-just-announced/" target="_blank">Linux Game Consortium</a>, a Linux gaming news website. There was a period where I set up my gaming laptop to dual boot Windows 10 and Linux, so I ended up following Linux gaming news for a while. While Windows is still my main platform for gaming, the discovery of <em>A Summer’s End</em> was the biggest unexpected benefit and surprise when I tried out Linux.</p>
+
+                    <p>As a lesbian, the premise of a visual novel about a sapphic romance already caught my interest, but what urged me to play it even more was the Hong Kong setting, which made my interest in the game personal, since I am a Cantonese-speaking Chinese lesbian who grew up with Hong Kong media. Not to mention, it is rare to see a fiction that tells of a sapphic love story that takes place in Hong Kong.</p>
+                </section>
+
+                <section class="content-section">
+                    <h2>Why <em>A Summer’s End — Hong Kong 1986</em> is Special to Me</h2>
+                    <img src="./img/ASE-Screenshot-05.png" alt="In-Game Screenshot of A Summer's End 05" width="100%">
+                    <p>As a Chinese lesbian who speaks Cantonese and had engaged with a lot of Hong Kong media during my teenage years, <em>A Summer’s End - Hong Kong 1986</em> is the lesbian story that I relate to and feel represented the most.</p>
+
+                    <p>I relate to both the protagonists, Michelle and Sam, as their characters represent different parts of my life as a Chinese lesbian. I also relate to the story’s theme of hoping for the future of our homeland despite the political uncertainties.</p>
+
+                    <p>My standards for lesbian representation in media has also become much higher because of this visual novel, since <em>A Summer’s End</em> is also a perfect example of how some of the best representations of minority groups are actually found in media made by indie creators, especially those who are part of those minority groups, so we shouldn’t rely on mainstream media for representation especially when big name media companies are going to just give us scraps.</p>
+
+                    <p>If you ask me to list just one piece of queer art that means everything to me, that gives me comfort, inspiration, and strength the most, <em>A Summer’s End</em> would be it.</p>
+
+                    <p>I seriously cannot recommend <em>A Summer’s End</em> enough, especially for Asian sapphic women.</p>
+                </section>
             </div>
 
-            <div id="flex">
+            <aside class="right-sidebar">
+                <right-sidebar-component></right-sidebar-component>
+            </aside>
 
-                <aside id="leftSidebar">
-                    <div class="sidebar-content">
-                        <h2>About</h2>
-                        <p><em>A Summer’s End — Hong Kong 1986</em> is a visual novel set in 1980s Hong Kong. It tells of a love story between two women. Lush and vibrant visuals, the game features over 400 unique hand-drawn artwork inspired by Asian cinema and 1980s anime.</p>
-                        <h3>Links</h3>
-                        <ul>
-                            <li><a href="https://www.asummersend.com/" target="_blank">Official Website</a>
-                            </li>
-                            <li><a href="https://store.steampowered.com/app/1111370/A_Summers_End__Hong_Kong_1986/" target="_blank">Steam</a></li>
-                            <li><a href="https://oracleandbone.itch.io/a-summers-end" target="_blank">itch.io</a></li>
-                        </ul>
-                    </div>
-                </aside>
-
-                <main>
-                    <div class="content-section">
-                        <h1>Welcome to my <em>A Summer’s End — Hong Kong 1986</em> Shrine!</h1>
-                        <p><em>A Summer’s End — Hong Kong 1986</em> is a visual novel developed by Oracle and Bone, a Canada-based independent studio consists of two Asian queer women, Charissa So and Tida Kietsungden. The visual novel tells of a lesbian romance story between Michelle Cheung, an office worker, and Sam Wong, a video store owner, that takes place in Hong Kong in the year of 1986.</p>
-
-                        <p>Initially released in English on 23 Apr, 2020, <em>A Summer’s End</em> has also been translated into Simplified Chinese, Traditional Chinese and Cantonese. The Chinese translations were released on July 9, 2021.</p>
-
-                        <p><em>A Summer’s End</em> is available on <a href="https://store.steampowered.com/app/1111370/A_Summers_End__Hong_Kong_1986/" target="_blank">Steam</a> and <a href="https://oracleandbone.itch.io/a-summers-end" target="_blank">itch.io</a>. It also has an <a href="https://www.asummersend.com/" target="_blank">official website</a>.</p>
-                    </div>
-
-                    <div class="content-section">
-                        <h2>How I Discovered <em>A Summer’s End — Hong Kong 1986</em></h2>
-                        <img src="./img/ASE-Screenshot-02.png" alt="In-Game Screenshot of A Summer's End 02" width="100%">
-                        <p>I first learned about <em>A Summer’s End — Hong Kong 1986</em> through <a href="https://linuxgameconsortium.com/a-summers-end-hong-kong-1986-just-announced/" target="_blank">Linux Game Consortium</a>, a Linux gaming news website. There was a period where I set up my gaming laptop to dual boot Windows 10 and Linux, so I ended up following Linux gaming news for a while. While Windows is still my main platform for gaming, the discovery of <em>A Summer’s End</em> was the biggest unexpected benefit and surprise when I tried out Linux.</p>
-
-                        <p>As a lesbian, the premise of a visual novel about a sapphic romance already caught my interest, but what urged me to play it even more was the Hong Kong setting, which made my interest in the game personal, since I am a Cantonese-speaking Chinese lesbian who grew up with Hong Kong media. Not to mention, it is rare to see a fiction that tells of a sapphic love story that takes place in Hong Kong.</p>
-                    </div>
-
-                    <div class="content-section">
-                        <h2>Why <em>A Summer’s End — Hong Kong 1986</em> is Special to Me</h2>
-                        <img src="./img/ASE-Screenshot-05.png" alt="In-Game Screenshot of A Summer's End 05" width="100%">
-                        <p>As a Chinese lesbian who speaks Cantonese and had engaged with a lot of Hong Kong media during my teenage years, <em>A Summer’s End - Hong Kong 1986</em> is the lesbian story that I relate to and feel represented the most.</p>
-
-                        <p>I relate to both the protagonists, Michelle and Sam, as their characters represent different parts of my life as a Chinese lesbian. I also relate to the story’s theme of hoping for the future of our homeland despite the political uncertainties.</p>
-
-                        <p>My standards for lesbian representation in media has also become much higher because of this visual novel, since <em>A Summer’s End</em> is also a perfect example of how some of the best representations of minority groups are actually found in media made by indie creators, especially those who are part of those minority groups, so we shouldn’t rely on mainstream media for representation especially when big name media companies are going to just give us scraps.</p>
-
-                        <p>If you ask me to list just one piece of queer art that means everything to me, that gives me comfort, inspiration, and strength the most, <em>A Summer’s End</em> would be it.</p>
-
-                        <p>I seriously cannot recommend <em>A Summer’s End</em> enough, especially for Asian sapphic women.</p>
-                    </div>
-                </main>
-
-            </div>
-            <footer id="footer"></footer>
-        </div>
-
-</body>
+        </main>
+        <footer-component></footer-component>
+    </body>
 </html>
