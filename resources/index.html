@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" id="page-top">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,54 +12,55 @@
         <meta property="og:description" content="List of resources I have compiled myself.">
 
         <link rel="stylesheet" href="/main.css" type="text/css" media="all">
-        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
         <link rel="manifest" href="/assets/favicon/site.webmanifest">
 
-        <script src="/main.js" defer></script>
+        <script src="/components/header.js" defer></script>
+        <script src="/components/navbar.js" defer></script>
+        <script src="/components/footer.js" defer></script>
 
         <title>Resources | Leilukin's Hub</title>
     </head>
     <body>
+        <header-component></header-component>
+        <main>
+            <!-- <aside class="left-sidebar">
+                Left sidebar content here
+            </aside> -->
 
-        <div id="container">
-            <div id="headerArea">
-                <div id="header"></div>
-            </div>
-
-            <div id="flex">
-                
-                <aside id="leftSidebar">
-                    <div class="sidebar-content">
-                        <div id="leftSidebarContent">
-                        </div>
-                    </div>
-                </aside>
-    
-                <main>
+            <div class="content-container">
+                <section class="content-section">
                     <h1>Resources</h1>
-
                     <p>Here are resources I have compiled myself.</p>
+                </section>
 
+                <section class="content-section">
                     <h2>Leilukin's Masterlists</h2>
                     <ul>
                         <li><a href="./anti-harry-potter-jk-rowling-masterlist.html">Anti-Harry Potter and Anti-J.K. Rowling Masterlist</a></li>
                     </ul>
-                        
+                </section>
+
+                <section class="content-section">
                     <h2>Leilukin's Mod Builds</h2>
                     <p>Lists of video game mods I use for my own playthroughs.</p>
-                        <ul>
-                            <li><a href="https://docs.google.com/document/d/1Hhh_31ZlplT06UaVVwf1so7PnIBRCbT60tCBNn7zHiQ/edit" target="_blank">Mass Effect Legendary Edition</a></li>
-                            <li><a href="https://docs.google.com/document/d/1BTMJ1c-NOjU9q7qNftZac6jkOPluyucILglovcHtiaI/edit" target="_blank">Star Wars: Knights of the Old Republic</a></li>
-                            <li><a href="https://docs.google.com/document/d/15HbD-k-D8WHrp10IjIryAguhq7k2W94pkuGys7Z7xNM/edit" target="_blank">Star Wars: Knights of the Old Republic II: The Sith Lords</a></li>
-                            <li><a href="https://docs.google.com/document/d/1LMMd3yRtLYb35A7oNEN1hRUsoe9-vo2MfMxcM2Wq0MI/edit" target="_blank">Stardew Valley</a></li>
-                        </ul>
-                </main>
-            
+                    <ul>
+                        <li><a href="https://docs.google.com/document/d/1Hhh_31ZlplT06UaVVwf1so7PnIBRCbT60tCBNn7zHiQ/edit" target="_blank">Mass Effect Legendary Edition</a></li>
+                        <li><a href="https://docs.google.com/document/d/1BTMJ1c-NOjU9q7qNftZac6jkOPluyucILglovcHtiaI/edit" target="_blank">Star Wars: Knights of the Old Republic</a></li>
+                        <li><a href="https://docs.google.com/document/d/15HbD-k-D8WHrp10IjIryAguhq7k2W94pkuGys7Z7xNM/edit" target="_blank">Star Wars: Knights of the Old Republic II: The Sith Lords</a></li>
+                        <li><a href="https://docs.google.com/document/d/1LMMd3yRtLYb35A7oNEN1hRUsoe9-vo2MfMxcM2Wq0MI/edit" target="_blank">Stardew Valley</a></li>
+                    </ul>
+                </section>
             </div>
-        <footer id="footer"></footer>
-        </div>
+
+            <!-- <aside class="right-sidebar">
+                Right sidebar content here
+            </aside> -->
+        </main>
+        <footer-component></footer-component>
     </body>
 </html>

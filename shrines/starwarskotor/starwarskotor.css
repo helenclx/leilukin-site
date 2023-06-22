@@ -1,355 +1,553 @@
 :root {
-  --header-image: url('./img/swkotor-header.jpg');
-  --body-color: #fceaff;
-  --body-bg: #212121;
-  --content-bg: #000000;
-  --content: #43256E;
-  --title-color: #ffc400;
-  --title-border: #ffe387;
-  --code-bg: #241445;
-  --code-border: #e4dbbe;
-  --link-color: #bb9671;
-  --link-hover: #94575a;
-  --blockquote-bg: #2f2d2d;
-  --blockquote-border: #4d4385;
-  --box-bg: #13092D;
+    --body-bg-color: #212121;
+    /* --body-bg-image: url('/assets/starsforever.gif'); */
+    --body-font-color: #fceaff;
+    --content-bg-color: #000000;
+
+    --main-heading-color: #ffc400;
+    --sub-heading-color: #ffc400;
+    --title-border-color: #ffe387;
+
+    --bold-font-color: #ff9933;
+    --link-color: #bb9671;
+    --link-hover-color: #94575a;
+    --quote-bg: #2f2d2d;
+    --quote-border-color: #4d4385;
+
+    --code-bg-color: #241445;
+    --code-border-color: #e4dbbe;
+
+    --link-btn-bg: #873eb5;
+    --link-btn-text: white;
+    --link-btn-hover: #241445;
+
+    --header-bg-color: black;
+    --nav-bg: #1c1c1c;
+    --nav-link: white;
+    --nav-submenu-active: #111;
+    --nav-item-hover: #ccc;
+
+    --top-btn-bg: #251347;
+    --top-btn-icon: #d3aad5;
+
+    --footer-bg: #1c1c1c;
 }
 
 @font-face {
-  font-family: 'Nunito';
-  src: url('/assets/fonts/Nunito-VariableFont_wght.ttf') format("truetype");
-  font-weight: 125 950;
-  font-stretch: 75% 125%;
-  font-style: normal;
+    font-family: 'Nunito';
+    src: url('/assets/fonts/Nunito-VariableFont_wght.ttf') format("truetype");
+    font-weight: 125 950;
+    font-stretch: 75% 125%;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Nunito';
-  src: url('/assets/fonts/Nunito-Italic-VariableFont_wght.ttf') format("truetype");
-  font-weight: 125 950;
-  font-stretch: 75% 125%;
-  font-style: italic;
+    font-family: 'Nunito';
+    src: url('/assets/fonts/Nunito-Italic-VariableFont_wght.ttf') format("truetype");
+    font-weight: 125 950;
+    font-stretch: 75% 125%;
+    font-style: italic;
 }
 
-html,
-body {
-scroll-behavior: smooth;
+/* CSS RESET */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-body {
-  font-family: 'Nunito', Arial, sans-serif;
-  font-size: 1rem; /* 16px */
-  margin: 0;
-  background-color: var(--body-bg);
-  background-size: 4rem;
-  color: var(--body-color);
-  background-image: var(--body-bg-image);
-  background-attachment: fixed;
-  line-height: 1.6;
-}
-
-* {
-  box-sizing: border-box;
-}
-
+/* Remove default margin */
+body,
 h1,
 h2,
-h3 {
-  color: var(--title-color);
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* STYLING BEGINS */
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Nunito';
+    color: var(--body-font-color);
+    background-color: var(--body-bg-color);
+    background-image: var(--body-bg-image);
+    background-attachment: fixed;
 }
 
 h1 {
-  font-size: 2.2rem;
-  border-bottom: 0.18rem solid var(--title-border);
-  padding-bottom: 0.5rem;
+    color: var(--main-heading-color);
 }
 
-h1:not(:first-child) {
-  padding-top: 30px;
+h1 {
+    margin-bottom: 1.2rem;
+}
+
+h2, h3 {
+    color: var(--sub-heading-color);
+}
+
+h1 {
+    font-size: 2.2rem;
+    border-bottom: 0.18rem solid var(--title-border-color);
 }
 
 h2 {
-  font-size: 1.7rem;
+    font-size: 1.7rem;
+}
+
+article h2,
+article h3 {
+    margin-top: 1.5rem;
+}
+
+p {
+    padding: 0.5rem 0;;
 }
 
 strong {
-  color: var(--title-color);
+    color: var(--bold-font-color);
 }
 
-hr {
-  width: 75%;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+a {
+    font-weight: 700;
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--link-hover-color);
 }
 
 blockquote {
-  border-left: var(--blockquote-border) 3px solid;
-  background: var(--blockquote-bg);
-  padding: 0 0.75rem;
-  margin: 0 1.5rem;
+    margin: 1.5rem 0;
+    padding: 0.5rem 1rem;
+    border-inline-start: 0.1rem solid var(--main-heading-color);
+    background-color: var(--quote-bg);
 }
 
-.linkBtn {
-  font: 1.1rem 'Source Sans Pro', Arial, sans-serif;
-  border: 0.125rem solid var(--link-color);
-  border-radius: 10px;
-  padding: 0.75rem 1rem;
-  margin: 0.25em 0.15em;
-  background: none;
-  color: var(--link-color);
-  cursor: pointer;
-  font-weight: 700;
-  text-transform: uppercase;
+pre {
+    white-space: pre-wrap;
+    overflow-x: auto;
 }
 
-.linkBtn:hover {
-  cursor:pointer;
-  color: white;
-  background-color: var(--link-color);
-  transition: 0.5s;
+/* HEADER */
+header {
+    width: 100vw;
+    max-height: 20rem;
+    background-color: var(--header-bg-color);
+    /* background: var(--header-img); */
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-span.monospace {
-  font-family: monospace;
-  border: 1px solid var(--code-border);
-  padding: 2px;
-  background-color: var(--code-bg);
+header img {
+    object-fit: contain;
+    height: 100%;
+}
+
+/* NAVIGATION BAR */
+nav {
+    background: var(--nav-bg);
+    padding: 0 0.9rem;
+    width: 100%;
+    z-index: 999;
+}
+
+nav a {
+    color: var(--nav-link);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav__menu,
+.nav__submenu {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.nav__title {
+    font-size: 20px;
+    padding: 0.2rem 0;
+}
+
+.nav__item {
+    padding: 0.6rem;
+}
+
+.nav__item a:hover,
+.nav__item a:hover::after {
+    color: var(--nav-item-hover);
+}
+
+/* Mobile nav__menu */
+.nav__menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__menu li a {
+    display: block;
+    padding: 0.9rem 0.8rem;
+}
+
+.nav__menu li.nav__subitem a {
+    padding: 0.9rem;
+}
+
+.nav__toggle {
+    order: 1;
+    font-size: 1.25rem;
+}
+
+.nav__item {
+    order: 3;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.nav__active .nav__item {
+    display: block;
+}
+
+/* nav__submenu up from mobile screens */
+.nav__submenu {
+    display: none;
+}
+
+.nav__submenu-active .nav__submenu {
+    display: block;
+}
+
+.nav__has-submenu i {
+    font-size: 0.75rem;
+}
+
+.nav__has-submenu > a::after {
+    font-family: "Font Awesome 5 Free";
+    font-size: 0.75rem;
+    line-height: 1.6;
+    font-weight: 900;
+    content: "\f078";
+    color: white;
+    padding-left: 0.3125rem;
+}
+
+.nav__subitem a {
+    padding: 0.625rem 0.9rem;
+}
+
+.nav__submenu-active {
+    background-color: var(--nav-submenu-active);
+    border-radius: 0.1875rem;
+}
+
+/* Added to the navbar with JS when it reaches its scroll position */
+.sticky-nav {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky-nav + main {
+    padding-top: 3.75rem;
+}
+
+/* Tablet nav__menu */
+@media all and (min-width: 43.75rem) {
+    .nav__menu {
+        justify-content: center;
+    }
+
+    .nav__title {
+        flex: 1;
+    }
+
+    .nav__toggle {
+        flex: 1;
+        text-align: right;
+        order: 2;
+    }
+}
+
+/* Desktop nav__menu */
+@media all and (min-width: 60rem) {
+    .nav__menu {
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        background: none;
+    }
+
+    .nav__title {
+        order: 0;
+    }
+
+    .nav__item {
+        order: 1;
+        position: relative;
+        display: block;
+        width: auto;
+    }
+
+    .nav__submenu-active .nav__submenu {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 68px;
+        background: var(--nav-submenu-active);
+    }
+
+    .nav__toggle {
+        display: none;
+    }
+
+    .nav__submenu-active {
+        border-radius: 0;
+    }
+}
+
+/* MAIN CONTENT */
+main, .content-container {
+    gap: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main {
+    font-size: 1.2rem;
+}
+
+article, .content-section {
+    background-color: var(--content-bg-color);
+    padding: 1.35rem;
+}
+
+.article-section {
+    padding: 1.25rem 0;
+}
+
+aside {
+    padding: 1rem;
+    font-size: 0.9rem;
+    background-color: var(--content-bg-color);
+}
+
+article, .content-container {
+    order: 1;
+}
+
+.left-sidebar {
+    order: 2;
+}
+
+.right-sidebar {
+    order: 3;
+}
+
+/* Tablet main content layout */
+@media only screen and (min-width: 43.75rem) {
+    main {
+        flex-direction: row;
+    }
+
+    aside {
+        width: 10rem;
+    }
+
+    article, .content-container {
+        flex: 1;
+        order: 2;
+    }
+
+    .left-sidebar {
+        order: 1;
+    }
+    
+    .right-sidebar {
+        order: 3;
+    }
+}
+
+/* Desktop main content layout */
+@media only screen and (min-width: 60rem) {
+    main {
+        width: 60rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    aside {
+        width: 13rem;
+    }
+}
+
+/* CONTENT ELEMENTS WITH CUSTOM CLASSES */
+.inline-code {
+    font-family: monospace;
+    border: 0.06rem solid var(--code-border-color);
+    padding: 0.125rem 0.3rem;
+    margin-left: 0.125rem;
+    margin-right: 0.125rem;
+    background-color: var(--code-bg-color);
 }
 
 .code-snippet {
-  background-color: var(--code-bg);
-  border: 1px solid var(--code-border);
-  display: block;
-  padding: 0.5em;
-  overflow-x: auto;
-  word-break: break-all;
+    background-color: var(--code-bg-color);
+    border: 0.08rem solid var(--code-border-color);
+    display: block;
+    padding: 0.5em 0.8rem;
+    overflow-x: auto;
+    word-break: keep-all;
 }
 
-.box {
-  background-color: var(--box-bg);
-  border: 1px solid var(--title-color);
-  padding: 10px;
+.text-box {
+    background-color: var(--quote-bg);
+    border: 0.06rem solid var(--main-heading-color);
+    padding: 0.625rem;
+    margin-bottom: 0.8rem;
+}
+
+.link-btn {
+    font: 1.3rem 'Source Sans Pro', Arial, sans-serif;
+    display: inline-block;
+    border: 0.15rem solid var(--link-btn-bg);
+    border-radius: 0.6rem;
+    padding: 0.75rem 1rem;
+    background-color: var(--link-btn-bg);
+    color: var(--link-btn-text);
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.link-btn,
+.link-btn:hover,
+.link-btn:visited {
+    text-decoration: none;
+}
+
+.link-btn:hover {
+    cursor: pointer;
+    background-color: var(--link-btn-hover);
+    transition: 0.5s;
 }
 
 .full-width-youtube-video {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
 }
 
 .full-width-youtube-video iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-
-/* CONTAINER for wrapping the entire website */
-#container {
-  max-width: 1100px;
-  /* the width of the layout */
-  /* if you change the above value, scroll to the bottom
-and change the media query according to the comment! */
-  margin: 0 auto;
-  /* this centers the entire page */
-}
-
-/* For all links on your page EXCEPT for the navigation */
-#container a {
-  color: var(--link-color);
-  font-weight: bold;
-}
-
-#container a:hover {
-  color: var(--link-hover);
-}
-
-#header {
-  width: 100%;
-  background-color: var(--content-bg);
-  height: 480px;
-  background-image: var(--header-image);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-/* NAVIGATION SECTION */
-.sticky-nav {
-  position: fixed;
-  top: 0;
-  max-width: 1100px;
-}
-
-#navbar {
-  height: 2.5rem;
-  background-color: var(--content-bg);
-  width: 100%;
-  margin-bottom: 0.625rem;
-  z-index: 999;
-}
-
-#navbar ul {
-  display: flex;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  justify-content: space-evenly;
-}
-
-#navbar li {
-  padding-top: 0.625rem;
-}
-
-#navbar li a {
-  color: var(--link-color);
-  /* navbar text color */
-  font-weight: 800;
-  text-decoration: none;
-  /* this removes the underline */
-}
-
-#navbar li a:hover {
-  color: var(--link-hover);
-  text-decoration: underline;
-}
-
-#flex {
-  display: flex;
-}
-
-/* EXTRAS */
-#topBar {
-  width: 100%;
-  height: 1.875rem;
-  padding: 0.625rem;
-  font-size: smaller;
-  background-color: var(--box-bg);
-}
-
-/* MAIN CONTENT AREA, between the sidebars */
-main {
-  font-size: 1.2rem;
-  flex: 1;
-  order: 2;
-}
-
-.content-section {
-  background-color: var(--content-bg);
-  padding: 1.25rem;
-}
-
-.content-section:not(:first-child) {
-  margin-top: 0.625rem;
-}
-
-/* This colors BOTH sidebars
-If you want to style them separately,
-create styles for #leftSidebar and #rightSidebar */
-aside {
-  background-color: var(--content-bg);
-  width: 12.5rem;
-  padding: 1.25rem;
-  font-size: smaller;
-  /* this makes the sidebar text slightly smaller */
-}
-
-aside h1, aside h2, aside h3 {
-  margin-bottom: 0;
-}
-
-aside ul {
-  margin-top: 0.5rem;
-}
-
-aside .box ul {
-  padding-left: 1.25rem;
-}
-
-#leftSidebar {
-  order: 1;
-  margin-right: 1.25rem;
-}
-
-#rightSidebar {
-  order: 3;
-  margin-left: 1.25rem;
-}
-
-.sidebar-content {
-  position: sticky;
-  top: 40px;
-  font-size: 0.9rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /* TABLE OF CONTENTS */
-
-.toc-title {
-  font-size: 1.3rem;
-  font-weight: bold;
+.sidebar__toc {
+    position: sticky;
+    top: 5rem;
 }
 
-.toc-list {
-  list-style: none;
-  margin-left: 0;
-  padding-left: 0;
-  font-size: 1rem;
+.sidebar__toc-title {
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
-.toc-list li {
-  margin-bottom: 0.5em;
+.sidebar__toc-list {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 1rem;
 }
 
+.sidebar__toc-list li {
+    margin-bottom: 0.5em;
+}
+
+.sidebar__toc-list ul {
+    padding-left: 1.25rem;
+}
 
 /* FOOTER */
-
 footer {
-  background-color: var(--content-bg);
-  width: 100%;
-  height: 2.5rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1.25rem;
-}
-
-
-/* MEDIA QUERY STARTS HERE */
-
-/* To keep things responsive,
-if you want to change the width of your page,
-take your new width of the #container, and then subtrack it by 100.
-Use this new number as the "max-width" value below */
-
-@media only screen and (max-width: 1000px) {
-  #flex {
-      flex-wrap: wrap;
-  }
-
-  aside {
-      width: 100%;
-  }
-
-  /* the order of the items is adjusted here for responsiveness.
-  since the sidebars would be too small on a mobile device. */
-  main {
-      order: 1;
-  }
-
-  #leftSidebar {
-      order: 2;
-      margin-right: 1.25rem;
-  }
-
-  #rightSidebar {
-      order: 3;
-      margin-left: 1.25rem;
-  }
-
-  #navbar ul {
-      flex-wrap: wrap;
-  }
+    background-color: var(--footer-bg);
+    width: 100vw;
+    padding: 0.5rem;
+    text-align: center;
 }

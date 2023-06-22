@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" id="page-top">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,34 +12,28 @@
         <meta property="og:description" content="Compilation of me and my work getting featured on other websites or platforms, including interviews and spotlights.">
 
         <link rel="stylesheet" href="/main.css" type="text/css" media="all">
-        <link rel="stylesheet" href="featured.css" type="text/css" media="all">
-        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
         <link rel="manifest" href="/assets/favicon/site.webmanifest">
 
-        <script src="/main.js" defer></script>
+        <script src="/components/header.js" defer></script>
+        <script src="/components/navbar.js" defer></script>
+        <script src="/components/footer.js" defer></script>
 
         <title>Featured | Leilukin's Hub</title>
     </head>
     <body>
+        <header-component></header-component>
+        <main>
+            <!-- <aside class="left-sidebar">
+                Left sidebar content here
+            </aside> -->
 
-        <div id="container">
-            <div id="headerArea">
-                <div id="header"></div>
-            </div>
-
-            <div id="flex">
-                
-                <aside id="leftSidebar">
-                    <div class="sidebar-content">
-                        <div id="leftSidebarContent">
-                        </div>
-                    </div>
-                </aside>
-
-                <main>
+            <div class="content-container">
+                <section class="content-section">
                     <h1>Featured</h1>
                     
                     <h2>Interviews with Me</h2>
@@ -47,11 +41,13 @@
                         <li><a href="./kotor2-modder-interview-ars-technica.html">The modders who spent 15 years fixing Knights of the Old Republic 2 @ Ars Technica</a></li>
                         <li><a href="./lgbtq-booklet-interview-misi-bawang.html">Artist Interview for MISI:Bawang's Floating in a Sky Full of Pride</a></li>
                     </ul>
-
-                </main>
-                
+                </section>
             </div>
-            <footer id="footer"></footer>
-        </div>
+
+            <!-- <aside class="right-sidebar">
+                Right sidebar content here
+            </aside> -->
+        </main>
+        <footer-component></footer-component>
     </body>
 </html>

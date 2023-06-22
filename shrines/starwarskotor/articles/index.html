@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" id="page-top">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,48 +12,55 @@
         <meta property="og:description" content="List of my articles for the Star Wars: Knights of the Old Republic series">
 
         <link rel="stylesheet" href="/shrines/starwarskotor/starwarskotor.css" type="text/css" media="all">
-        <link rel="icon" type="image/png" href="/shrines/starwarskotor/img/kotor-icon.png">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
 
-        <script src="/shrines/shrine.js" defer></script>
-        <script src="/shrines/starwarskotor/starwarskotor.js" defer></script>
+        <link rel="apple-touch-icon" sizes="180x180" href="/shrines/starwarskotor/img/kotor-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/shrines/starwarskotor/img/kotor-icon.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/shrines/starwarskotor/img/kotor-icon.png">
+        <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+        <script src="/shrines/starwarskotor/components/header.js" defer></script>
+        <script src="/shrines/starwarskotor/components/navbar.js" defer></script>
+        <script src="/shrines/starwarskotor/components/sidebar-content.js" defer></script>
+        <script src="/shrines/starwarskotor/components/footer.js" defer></script>
 
         <title>Articles | Star Wars: Knights of the Old Republic Shrine | Leilukin's Hub</title>
     </head>
     <body>
-        
-        <div id="container">
-            <div id="headerArea">
-                <div id="header"></div>
-                <nav id="navbar">
-                </nav>
+        <header-component></header-component>
+        <main>
+            <!-- <aside class="left-sidebar">
+                Left sidebar content here
+            </aside> -->
+
+            <div class="content-container">
+                <section class="content-section">
+                    <h1>My <em>Star Wars: Knights of the Old Republic</em> Articles</h1>
+                    <p>Here is a list of articles I have written for the <em>Star Wars: Knights of the Old Republic</em> series.</p>
+                </section>
+
+                <section class="content-section">
+                    <h2><em>KotOR 1</em></h2>
+                    <ul>
+                        <li><a href="./juhani-lesbian-evidence.html">Evidence of Juhani being a Lesbian from <em>Star Wars: Knights of the Old Republic's</em> Game Files</a></li>
+                        <li><a href="./juhani-hostility-towards-canderous.html">How to Access Juhani's Conversaion about Canderous without Restoration Mods</a></li>
+                    </ul>
+                </section>
+
+                <section class="content-section">
+                    <h2><em>KotOR 2</em></h2>
+                    <ul>
+                        <li><a href="./arren-kae-kreia-theory.html">Why I Personally Do Not Subscribe to the “Arren Kae is Kreia” Theory</a></li>
+                        <li><a href="./handmaiden-sisters-mother.html">Where is the Mother of the Handmaiden’s Sisters?</a></li>
+                    </ul>
+                </section>
             </div>
 
-            <div id="flex">
-                
-                <aside id="leftSidebar">
-                    <div class="sidebar-content" id="leftSidebarContent">
-                    </div>
-                </aside>
+            <aside class="right-sidebar">
+                <right-sidebar-component></right-sidebar-component>
+            </aside>
 
-                <main>
-                    <div class="content-section">
-                        <h1>My <em>Star Wars: Knights of the Old Republic</em> Articles</h1>
-                        <p>Here is a list of articles I have written for the <em>Star Wars: Knights of the Old Republic</em> series.</p>
-                    </div>
-
-                    <div class="content-section">
-                        <ul>
-                            <li><a href="./juhani-lesbian-evidence.html">Evidence of Juhani being a Lesbian from <em>Star Wars: Knights of the Old Republic's</em> Game Files</a></li>
-                            <li><a href="./juhani-hostility-towards-canderous.html">How to Access Juhani's Conversaion about Canderous without Restoration Mods</a></li>
-                            <li><a href="./arren-kae-kreia-theory.html">Why I Personally Do Not Subscribe to the “Arren Kae is Kreia” Theory</a></li>
-                            <li><a href="./handmaiden-sisters-mother.html">Where is the Mother of the Handmaiden’s Sisters?</a></li>
-                        </ul>
-                    </div>
-                </main>
-
-            </div>
-            <footer id="footer"></footer>
-        </div>
-
+        </main>
+        <footer-component></footer-component>
     </body>
 </html>

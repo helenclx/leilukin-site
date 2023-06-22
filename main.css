@@ -1,10 +1,36 @@
 :root {
-    --header-image: url('/assets/Leilukins-Hub-website-banner.png');
+    --body-bg-color: #08031A;
     --body-bg-image: url('/assets/starsforever.gif');
-    --content: #43256E;
-    --title-border: #d3aad5;
-    --code-bg: #241445;
-    --code-border: #82668f;
+    --body-font-color: #fceaff;
+    --content-bg-color: #3d2163;
+
+    --main-heading-color: #ED64F5;
+    --sub-heading-color: #e8b86f;
+    --title-border-color: #d3aad5;
+
+    --bold-font-color: #ff9933;
+    --link-color: #ED64F5;
+    --link-hover-color: #c355c9;
+    --quote-bg: #13092D;
+    --quote-border-color: #999999;
+
+    --code-bg-color: #241445;
+    --code-border-color: #82668f;
+
+    --link-btn-bg: #873eb5;
+    --link-btn-text: white;
+    --link-btn-hover: #241445;
+
+    --header-bg-color: black;
+    --nav-bg: #222;
+    --nav-link: white;
+    --nav-submenu-active: #111;
+    --nav-item-hover: #ccc;
+
+    --top-btn-bg: #251347;
+    --top-btn-icon: #d3aad5;
+
+    --footer-bg: #13092D;
 }
 
 @font-face {
@@ -13,7 +39,7 @@
     font-weight: 125 950;
     font-stretch: 75% 125%;
     font-style: normal;
-  }
+}
 
 @font-face {
     font-family: 'Nunito';
@@ -23,75 +49,459 @@
     font-style: italic;
 }
 
-html,
-body {
-	scroll-behavior: smooth;
-}
-
-body {
-    font-family: 'Nunito', Arial, sans-serif;
-    font-size: 1rem; /* 16px */
-    margin: 0;
-    background-color: #08031A;
-    background-size: 4rem;
-    color: #fceaff;
-    background-image: var(--body-bg-image);
-    background-attachment: fixed;
-    line-height: 1.6;
-}
-
-* {
+/* CSS RESET */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+       scroll-behavior: auto;
+    }
+  
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* STYLING BEGINS */
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Nunito';
+    color: var(--body-font-color);
+    background-color: var(--body-bg-color);
+    background-image: var(--body-bg-image);
+    background-attachment: fixed;
+}
+
 h1 {
-    color: #ED64F5;
+    color: var(--main-heading-color);
+}
+
+h1 {
+    margin-bottom: 1.2rem;
 }
 
 h2, h3 {
-    color: #e8b86f;
+    color: var(--sub-heading-color);
 }
 
 h1 {
     font-size: 2.2rem;
-    border-bottom: 0.18rem solid var(--title-border);
-    padding-bottom: 0.5rem;
-}
-
-h1:not(:first-child) {
-    padding-top: 2rem;
+    border-bottom: 0.18rem solid var(--title-border-color);
 }
 
 h2 {
     font-size: 1.7rem;
 }
 
-strong {
-    color: #ff9933;
+article h2,
+article h3 {
+    margin-top: 1.5rem;
 }
 
-span.monospace {
+p {
+    padding: 0.5rem 0;;
+}
+
+strong {
+    color: var(--bold-font-color);
+}
+
+a {
+    font-weight: 700;
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--link-hover-color);
+}
+
+blockquote {
+    margin: 1.5rem 0;
+	padding: 0.5rem 1rem;
+	border-inline-start: 0.1rem solid var(--main-heading-color);
+    background-color: var(--quote-bg);
+}
+
+pre {
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+/* HEADER */
+header {
+    width: 100vw;
+    max-height: 20rem;
+    background-color: var(--header-bg-color);
+    /* background: var(--header-img); */
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header img {
+    object-fit: contain;
+    height: 100%;
+}
+
+/* NAVIGATION BAR */
+nav {
+    background: var(--nav-bg);
+    padding: 0 0.9rem;
+    width: 100%;
+    z-index: 999;
+}
+
+nav a {
+    color: var(--nav-link);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav__menu,
+.nav__submenu {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.nav__title {
+    font-size: 20px;
+    padding: 0.2rem 0;
+}
+
+.nav__item {
+    padding: 0.6rem;
+}
+
+.nav__item a:hover,
+.nav__item a:hover::after {
+    color: var(--nav-item-hover);
+}
+
+/* Mobile nav__menu */
+.nav__menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__menu li a {
+    display: block;
+    padding: 0.9rem 0.8rem;
+}
+
+.nav__menu li.nav__subitem a {
+    padding: 0.9rem;
+}
+
+.nav__toggle {
+    order: 1;
+    font-size: 1.25rem;
+}
+
+.nav__item {
+    order: 3;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.nav__active .nav__item {
+    display: block;
+}
+
+/* nav__submenu up from mobile screens */
+.nav__submenu {
+    display: none;
+}
+
+.nav__submenu-active .nav__submenu {
+    display: block;
+}
+
+.nav__has-submenu i {
+    font-size: 0.75rem;
+}
+
+.nav__has-submenu > a::after {
+    font-family: "Font Awesome 5 Free";
+    font-size: 0.75rem;
+    line-height: 1.6;
+    font-weight: 900;
+    content: "\f078";
+    color: white;
+    padding-left: 0.3125rem;
+}
+
+.nav__subitem a {
+    padding: 0.625rem 0.9rem;
+}
+
+.nav__submenu-active {
+    background-color: var(--nav-submenu-active);
+    border-radius: 0.1875rem;
+}
+
+/* Added to the navbar with JS when it reaches its scroll position */
+.sticky-nav {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky-nav + main {
+    padding-top: 3.75rem;
+}
+
+/* Tablet nav__menu */
+@media all and (min-width: 43.75rem) {
+    .nav__menu {
+        justify-content: center;
+    }
+
+    .nav__title {
+        flex: 1;
+    }
+
+    .nav__toggle {
+        flex: 1;
+        text-align: right;
+        order: 2;
+    }
+}
+
+/* Desktop nav__menu */
+@media all and (min-width: 60rem) {
+    .nav__menu {
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        background: none;
+    }
+
+    .nav__title {
+        order: 0;
+    }
+
+    .nav__item {
+        order: 1;
+        position: relative;
+        display: block;
+        width: auto;
+    }
+
+    .nav__submenu-active .nav__submenu {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 68px;
+        background: var(--nav-submenu-active);
+    }
+
+    .nav__toggle {
+        display: none;
+    }
+
+    .nav__submenu-active {
+        border-radius: 0;
+    }
+}
+
+/* MAIN CONTENT */
+main, .content-container {
+    gap: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+  
+main {
+    font-size: 1.2rem;
+}
+  
+article, .content-section {
+    background-color: var(--content-bg-color);
+    padding: 1.35rem;
+}
+  
+.article-section {
+    padding: 1.25rem 0;
+}
+  
+aside {
+    padding: 1rem;
+    font-size: 0.9rem;
+    background-color: var(--content-bg-color);
+}
+  
+article, .content-container {
+    order: 1;
+}
+  
+.left-sidebar {
+    order: 2;
+}
+  
+.right-sidebar {
+    order: 3;
+}
+  
+/* Tablet main content layout */
+@media only screen and (min-width: 43.75rem) {
+    main {
+        flex-direction: row;
+    }
+  
+    aside {
+        width: 10rem;
+    }
+  
+    article, .content-container {
+        flex: 1;
+        order: 2;
+    }
+  
+    .left-sidebar {
+        order: 1;
+    }
+    
+    .right-sidebar {
+        order: 3;
+    }
+}
+  
+/* Desktop main content layout */
+@media only screen and (min-width: 60rem) {
+    main {
+        width: 60rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+  
+    aside {
+        width: 13rem;
+    }
+}
+
+/* CONTENT ELEMENTS WITH CUSTOM CLASSES */
+.inline-code {
     font-family: monospace;
-    border: 0.06rem solid var(--code-border);
+    border: 0.06rem solid var(--code-border-color);
     padding: 0.125rem 0.3rem;
     margin-left: 0.125rem;
     margin-right: 0.125rem;
-    background-color: var(--code-bg);
+    background-color: var(--code-bg-color);
 }
 
 .code-snippet {
-    background-color: var(--code-bg);
-    border: 0.06rem solid var(--code-border);
-	display: block;
-	padding: 0.5em;
-	overflow-x: auto;
-	word-break: break-all;
+    background-color: var(--code-bg-color);
+    border: 0.08rem solid var(--code-border-color);
+    display: block;
+    padding: 0.5em 0.8rem;
+    overflow-x: auto;
+    word-break: keep-all;
+  }
+
+.text-box {
+    background-color: var(--quote-bg);
+    border: 0.06rem solid var(--main-heading-color);
+    padding: 0.625rem;
+    margin-bottom: 0.8rem;
 }
 
-.box {
-    background-color: #13092D;
-    border: 0.06rem solid #ED64F5;
-    padding: 0.625rem;
+.link-btn {
+    font: 1.3rem 'Source Sans Pro', Arial, sans-serif;
+    display: inline-block;
+    border: 0.15rem solid var(--link-btn-bg);
+    border-radius: 0.6rem;
+    padding: 0.75rem 1rem;
+    background-color: var(--link-btn-bg);
+    color: var(--link-btn-text);
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.link-btn,
+.link-btn:hover,
+.link-btn:visited {
+    text-decoration: none;
+}
+
+.link-btn:hover {
+    cursor: pointer;
+    background-color: var(--link-btn-hover);
+    transition: 0.5s;
 }
 
 .full-width-youtube-video {
@@ -108,194 +518,36 @@ span.monospace {
     height: 100%;
 }
 
-
-/* CONTAINER for wrapping the entire website */
-#container {
-    max-width: 1100px;
-    /* the width of the layout */
-    /* if you change the above value, scroll to the bottom
-and change the media query according to the comment! */
-    margin: 0 auto;
-    /* this centers the entire page */
-}
-
-/* For all links on your page EXCEPT for the navigation */
-#container a {
-    color: #ED64F5;
-    font-weight: bold;
-}
-
-#header {
-    width: 100%;
-    background-color: #13092D;
-    height: 22rem;
-    background-image: var(--header-image);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-/* NAVIGATION SECTION */
-#navbar {
-    height: 2.5rem;
-    background-color: #13092D;
-    width: 100%;
-}
-
-#navbar ul {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    justify-content: space-evenly;
-}
-
-#navbar li {
-    padding-top: 0.625rem;
-}
-
-#navbar li a {
-    color: #ED64F5;
-    /* navbar text color */
-    font-weight: 800;
-    text-decoration: none;
-    /* this removes the underline */
-}
-
-#navbar li a:hover {
-    color: #a49cba;
-    text-decoration: underline;
-}
-
-#flex {
-    display: flex;
-}
-
-/* EXTRAS */
-#topBar {
-    width: 100%;
-    height: 1.875rem;
-    padding: 0.625rem;
-    font-size: smaller;
-    background-color: #13092D;
-}
-
-/* MAIN CONTENT AREA, between the sidebars */
-main {
-    background-color: #3d2163;
-    font-size: 1.2rem;
-    flex: 1;
-    padding: 1.25rem;
-    order: 2;
-}
-
-/* This colors BOTH sidebars
-If you want to style them separately,
-create styles for #leftSidebar and #rightSidebar */
-aside {
-    background-color: #241445;
-    width: 12.5rem;
-    padding: 20px;
-    font-size: smaller;
-    /* this makes the sidebar text slightly smaller */
-}
-
-aside h1, aside h2, aside h3 {
-    margin-bottom: 0;
-}
-
-aside ul {
-    margin-top: 0.5rem;
-}
-
-aside .box ul {
-    padding-left: 0.625rem;
-  }
-  
-
-#leftSidebar {
-    order: 1;
-}
-
-#rightSidebar {
-    order: 3;
-}
-
-.sidebar-content {
-    position: sticky;
-    top: 0;
-    font-size: 0.9rem;
-}
-
 /* TABLE OF CONTENTS */
+.sidebar__toc {
+    position: sticky;
+    top: 5rem;
+}
 
-.toc-title {
+.sidebar__toc-title {
     font-size: 1.3rem;
     font-weight: bold;
 }
 
-.toc-list {
+.sidebar__toc-list {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
     font-size: 1rem;
 }
 
-.toc-list li {
+.sidebar__toc-list li {
     margin-bottom: 0.5em;
 }
 
-
-/* SIDEBAR NAVIGATION LINKS */
-
-.nav-links {
+.sidebar__toc-list ul {
     padding-left: 1.25rem;
-    font-size: 1rem;
-    margin-top: 0;
-    list-style-image: url(./assets/arrow-list.png);
 }
 
+/* FOOTER */
 footer {
-    background-color: #13092D;
-    width: 100%;
-    height: 2.5rem;
-    padding: 0.625rem;
+    background-color: var(--footer-bg);
+    width: 100vw;
+    padding: 0.5rem;
     text-align: center;
-    margin-top: 0;
-}
-
-
-/* MEDIA QUERY STARTS HERE */
-
-/* To keep things responsive,
-if you want to change the width of your page,
-take your new width of the #container, and then subtrack it by 100.
-Use this new number as the "max-width" value below */
-
-@media only screen and (max-width: 1000px) {
-    #flex {
-        flex-wrap: wrap;
-    }
-
-    aside {
-        width: 100%;
-    }
-
-    /* the order of the items is adjusted here for responsiveness.
-    since the sidebars would be too small on a mobile device. */
-    main {
-        order: 2;
-    }
-
-    #leftSidebar {
-        order: 3;
-    }
-
-    #rightSidebar {
-        order: 1;
-    }
-
-    #navbar ul {
-        flex-wrap: wrap;
-    }
 }

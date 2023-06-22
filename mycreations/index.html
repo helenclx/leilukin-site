@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" id="page-top">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,42 +12,40 @@
         <meta property="og:description" content="Links to my works not are not featured on this website.">
 
         <link rel="stylesheet" href="/main.css" type="text/css" media="all">
-        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
         <link rel="manifest" href="/assets/favicon/site.webmanifest">
 
-        <script src="/main.js" defer></script>
+        <script src="/components/header.js" defer></script>
+        <script src="/components/navbar.js" defer></script>
+        <script src="/components/footer.js" defer></script>
 
         <title>My Creations | Leilukin's Hub</title>
     </head>
     <body>
+        <header-component></header-component>
+        <main>
+            <!-- <aside class="left-sidebar">
+                Left sidebar content here
+            </aside> -->
 
-        <div id="container">
-            <div id="headerArea">
-                <div id="header"></div>
-            </div>
-
-            <div id="flex">
-                
-                <aside id="leftSidebar">
-                    <div class="sidebar-content">
-                        <div id="leftSidebarContent">
-                        </div>
-                    </div>
-                </aside>
-
-                <main>
+            <div class="content-container">
+                <section class="content-section">
                     <h1>My Creations</h1>
                     
                     <h2>Drawings</h2>
                     <p>My drawings can be found on my art blog on Tumblr:</p>
-                    <a href="https://leilukinart.tumblr.com/" target="_blank"><button class="linkBtn">🎨 Leilukin's Art Blog</button></a>
-                </main>
-                
+                    <a class="link-btn" href="https://leilukinart.tumblr.com/" target="_blank">🎨 Leilukin's Art Blog</a>
+                </section>
             </div>
-            <footer id="footer"></footer>
-        </div>
+
+            <!-- <aside class="right-sidebar">
+                Right sidebar content here
+            </aside> -->
+        </main>
+        <footer-component></footer-component>
     </body>
 </html>
