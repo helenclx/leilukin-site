@@ -461,9 +461,9 @@ article, .content-container {
     }
 }
 
-@media only screen and (min-width: 68.75rem) {
+@media only screen and (min-width: 65rem) {
     main {
-        width: 68.75rem;
+        width: 65rem;
     }
 }
 
