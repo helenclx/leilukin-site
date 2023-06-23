@@ -192,6 +192,14 @@ pre {
     overflow-x: auto;
 }
 
+.center-el {
+    margin: 0 auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
 /* HEADER */
 header {
     width: 100vw;
