@@ -6,7 +6,7 @@ class Footer extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <footer>
-                Site Launched: September 11, 2022 by Leilukin | <a href="/changelog">Site Changelog</a> | <a href="#page-top">Back to top</a>
+                Site Launched: September 11, 2022 by Leilukin | <a href="/changelog">Website Changelog</a> | <a href="#page-top">Back to top</a>
             </footer>
         `;
     }
