@@ -457,7 +457,13 @@ article, .content-container {
     }
   
     aside {
-        width: 13rem;
+        width: 12rem;
+    }
+}
+
+@media only screen and (min-width: 68.75rem) {
+    main {
+        width: 68.75rem;
     }
 }
 
