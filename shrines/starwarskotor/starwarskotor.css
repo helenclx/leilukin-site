@@ -40,3 +40,13 @@ header img {
     object-position: center;
     height: 100%;
 }
+
+.juhani-history {
+    font-weight: 700;
+    color: rgb(213, 98, 255);
+}
+
+.juhani-personal {
+    font-weight: 700;
+    color: rgb(255, 122, 206);
+}
