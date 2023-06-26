@@ -2,14 +2,13 @@
 
 :root {
     --body-bg-color: #1f0033;
-    /* --body-bg-image: url('/assets/starsforever.gif'); */
+    --body-bg-image: none;
     --body-font-color: #fceaff;
     --content-bg-color: #000000;
 
     --main-heading-color: #FF29D8;
     --sub-heading-color: #FF29D8;
     --title-border-color: #d3aad5;
-
     --bold-font-color: #ff9933;
     --link-color: #d270ff;
     --link-hover-color: #7E4197;
@@ -28,9 +27,6 @@
     --nav-link: white;
     --nav-submenu-active: #111;
     --nav-item-hover: #ccc;
-
-    --top-btn-bg: #251347;
-    --top-btn-icon: #d3aad5;
 
     --footer-bg: #101010;
 }
