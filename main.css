@@ -189,7 +189,7 @@ pre {
     overflow-x: auto;
 }
 
-details {
+summary {
     cursor: pointer;
 }
 
