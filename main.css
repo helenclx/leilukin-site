@@ -7,7 +7,6 @@
     --main-heading-color: #ED64F5;
     --sub-heading-color: #e8b86f;
     --title-border-color: #d3aad5;
-
     --bold-font-color: #ff9933;
     --link-color: #ED64F5;
     --link-hover-color: #c355c9;
@@ -27,9 +26,6 @@
     --nav-link: white;
     --nav-submenu-active: #111;
     --nav-item-hover: #ccc;
-
-    --top-btn-bg: #251347;
-    --top-btn-icon: #d3aad5;
 
     --footer-bg: #13092D;
 }
@@ -113,9 +109,9 @@ select {
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
     html:focus-within {
-       scroll-behavior: auto;
+        scroll-behavior: auto;
     }
-  
+
     *,
     *::before,
     *::after {
@@ -193,10 +189,15 @@ pre {
     overflow-x: auto;
 }
 
+details {
+    cursor: pointer;
+}
+
 .bold-text {
     font-weight: 700;
 }
 
+/* ELEMENT STYLES WITH CUSTOM CLASSES */
 .center-el {
     margin: 0 auto;
 }
@@ -210,15 +211,77 @@ pre {
     color: var(--date-color);
 }
 
-/* HEADER */
+/* CUSTOM CLASSES FOR SPECIAL ELEMENTS */
+.inline-code {
+    font-family: monospace;
+    border: 0.06rem solid var(--code-border-color);
+    padding: 0.125rem 0.3rem;
+    margin-left: 0.125rem;
+    margin-right: 0.125rem;
+    background-color: var(--code-bg-color);
+}
+
+.code-snippet {
+    background-color: var(--code-bg-color);
+    border: 0.08rem solid var(--code-border-color);
+    display: block;
+    padding: 0.5em 0.8rem;
+    overflow-x: auto;
+    word-break: keep-all;
+}
+
+.text-box {
+    background-color: var(--quote-bg);
+    border: 0.06rem solid var(--main-heading-color);
+    padding: 0.625rem;
+    margin-bottom: 0.8rem;
+}
+
+.link-btn {
+    font: 1.3rem 'Source Sans Pro', Arial, sans-serif;
+    display: inline-block;
+    border: 0.15rem solid var(--link-btn-bg);
+    border-radius: 0.6rem;
+    padding: 0.75rem 1rem;
+    margin: 0.3rem;
+    background-color: var(--link-btn-bg);
+    color: var(--link-btn-text);
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.link-btn,
+.link-btn:hover,
+.link-btn:visited {
+    text-decoration: none;
+}
+
+.link-btn:hover {
+    cursor: pointer;
+    background-color: var(--link-btn-hover);
+    transition: 0.5s;
+}
+
+.full-width-youtube-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.full-width-youtube-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* HEADER COMPONENT */
 header {
     width: 100vw;
     max-height: 20rem;
     background-color: var(--header-bg-color);
-    /* background: var(--header-img); */
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -229,7 +292,7 @@ header img {
     height: 100%;
 }
 
-/* NAVIGATION BAR */
+/* NAVIGATION BAR COMPONENT */
 nav {
     background: var(--nav-bg);
     padding: 0 0.9rem;
@@ -336,12 +399,14 @@ nav a {
     top: 0;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+/* Add some top padding to the page content to prevent sudden quick movement
+as the navigation bar gets a new position at the top of the page
+(position:fixed and top:0) */
 .sticky-nav + main {
     padding-top: 3.75rem;
 }
 
-/* Tablet nav__menu */
+/* Tablet navigation menu */
 @media all and (min-width: 43.75rem) {
     .nav__menu {
         justify-content: center;
@@ -358,7 +423,7 @@ nav a {
     }
 }
 
-/* Desktop nav__menu */
+/* Desktop navigation menu */
 @media all and (min-width: 60rem) {
     .nav__menu {
         align-items: flex-start;
@@ -401,34 +466,34 @@ main, .content-container {
     flex-direction: column;
     width: 100%;
 }
-  
+
 main {
     font-size: 1.2rem;
 }
-  
+
 article, .content-section {
     background-color: var(--content-bg-color);
     padding: 1.35rem;
 }
-  
+
 .article-section {
     padding: 1.25rem 0;
 }
-  
+
 aside {
     padding: 1rem;
     font-size: 0.9rem;
     background-color: var(--content-bg-color);
 }
-  
+
 article, .content-container {
     order: 1;
 }
-  
+
 .left-sidebar {
     order: 2;
 }
-  
+
 .right-sidebar {
     order: 3;
 }
@@ -438,16 +503,16 @@ article, .content-container {
     main {
         flex-direction: row;
     }
-  
+
     aside {
         width: 10rem;
     }
-  
+
     article, .content-container {
         flex: 1;
         order: 2;
     }
-  
+
     .left-sidebar {
         order: 1;
     }
@@ -456,7 +521,7 @@ article, .content-container {
         order: 3;
     }
 }
-  
+
 /* Desktop main content layout */
 @media only screen and (min-width: 60rem) {
     main {
@@ -465,7 +530,7 @@ article, .content-container {
         flex-direction: row;
         justify-content: center;
     }
-  
+
     aside {
         width: 12rem;
     }
@@ -475,72 +540,6 @@ article, .content-container {
     main {
         width: 65rem;
     }
-}
-
-/* CONTENT ELEMENTS WITH CUSTOM CLASSES */
-.inline-code {
-    font-family: monospace;
-    border: 0.06rem solid var(--code-border-color);
-    padding: 0.125rem 0.3rem;
-    margin-left: 0.125rem;
-    margin-right: 0.125rem;
-    background-color: var(--code-bg-color);
-}
-
-.code-snippet {
-    background-color: var(--code-bg-color);
-    border: 0.08rem solid var(--code-border-color);
-    display: block;
-    padding: 0.5em 0.8rem;
-    overflow-x: auto;
-    word-break: keep-all;
-  }
-
-.text-box {
-    background-color: var(--quote-bg);
-    border: 0.06rem solid var(--main-heading-color);
-    padding: 0.625rem;
-    margin-bottom: 0.8rem;
-}
-
-.link-btn {
-    font: 1.3rem 'Source Sans Pro', Arial, sans-serif;
-    display: inline-block;
-    border: 0.15rem solid var(--link-btn-bg);
-    border-radius: 0.6rem;
-    padding: 0.75rem 1rem;
-    margin: 0.3rem;
-    background-color: var(--link-btn-bg);
-    color: var(--link-btn-text);
-    cursor: pointer;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.link-btn,
-.link-btn:hover,
-.link-btn:visited {
-    text-decoration: none;
-}
-
-.link-btn:hover {
-    cursor: pointer;
-    background-color: var(--link-btn-hover);
-    transition: 0.5s;
-}
-
-.full-width-youtube-video {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-  }
-  
-.full-width-youtube-video iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
 
 /* TABLE OF CONTENTS */
@@ -569,7 +568,7 @@ article, .content-container {
     padding-left: 1.25rem;
 }
 
-/* FOOTER */
+/* FOOTER COMPONENT */
 footer {
     background-color: var(--footer-bg);
     width: 100vw;
