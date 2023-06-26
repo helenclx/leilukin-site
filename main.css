@@ -16,6 +16,7 @@
 
     --code-bg-color: #241445;
     --code-border-color: #82668f;
+    --date-color: rgb(158, 203, 255);
 
     --link-btn-bg: #873eb5;
     --link-btn-text: white;
@@ -192,12 +193,21 @@ pre {
     overflow-x: auto;
 }
 
+.bold-text {
+    font-weight: 700;
+}
+
 .center-el {
     margin: 0 auto;
 }
 
 .center-text {
     text-align: center;
+}
+
+.date-style {
+    font-weight: 700;
+    color: var(--date-color);
 }
 
 /* HEADER */
