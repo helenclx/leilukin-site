@@ -214,7 +214,7 @@ summary {
 
 /* HEADER COMPONENT */
 header {
-    width: 100vw;
+    width: 100%;
     max-height: 20rem;
     background-color: var(--header-bg-color);
     display: flex;
@@ -230,7 +230,7 @@ header img {
 /* NAVIGATION BAR COMPONENT */
 nav {
     background: var(--nav-bg);
-    padding: 0 0.9rem;
+    padding: 0 0.6rem;
     width: 100%;
     z-index: 999;
 }
@@ -249,12 +249,12 @@ nav a {
 }
 
 .nav__title {
-    font-size: 20px;
+    font-size: 1.2rem;
     padding: 0.2rem 0;
 }
 
 .nav__item {
-    padding: 0.6rem;
+    padding: 0.5rem;
 }
 
 .nav__item a:hover,
@@ -275,7 +275,7 @@ nav a {
     padding: 0.9rem 0.8rem;
 }
 
-.nav__menu li.nav__subitem a {
+.nav__menu li .nav__subitem a {
     padding: 0.9rem;
 }
 
@@ -381,7 +381,7 @@ as the navigation bar gets a new position at the top of the page
         display: block;
         position: absolute;
         left: 0;
-        top: 68px;
+        top: 4.25rem;
         background: var(--nav-submenu-active);
     }
 
@@ -427,6 +427,11 @@ aside {
 
 article, .content-container {
     order: 1;
+}
+
+.sidebar--sticky {
+    position: sticky;
+    top: 5rem;
 }
 
 .left-sidebar {
@@ -592,7 +597,7 @@ article, .content-container {
 /* FOOTER COMPONENT */
 footer {
     background-color: var(--footer-bg);
-    width: 100vw;
+    width: 100%;
     padding: 0.5rem;
     text-align: center;
 }
