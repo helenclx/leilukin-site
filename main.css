@@ -155,8 +155,9 @@ h2 {
     font-size: 1.7rem;
 }
 
-article h2,
-article h3 {
+article:not(.divided-article) h2,
+article h3,
+.content-section h3 {
     margin-top: 1.5rem;
 }
 
@@ -394,7 +395,9 @@ as the navigation bar gets a new position at the top of the page
 }
 
 /* MAIN CONTENT */
-main, .content-container {
+main,
+.content-container,
+.divided-article {
     gap: 0.8rem;
     display: flex;
     flex-direction: column;
@@ -405,7 +408,9 @@ main {
     font-size: 1.2rem;
 }
 
-article, .content-section {
+article:not(.divided-article),
+.content-section,
+.qna-section {
     background-color: var(--content-bg-color);
     padding: 1.35rem;
 }
