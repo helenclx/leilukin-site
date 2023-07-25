@@ -31,8 +31,12 @@
     --footer-bg: #101010;
 }
 
+header {
+    max-height: 20rem;
+}
+
 header img {
     object-fit: cover;
-    object-position: top;
+    object-position: center;
     height: 100%;
 }
