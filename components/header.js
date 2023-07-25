@@ -32,6 +32,7 @@ document.querySelector("nav").innerHTML = `
             </ul>
         </li>
         <li class="nav__item"><a href="/links/">Links</a></li>
+        <li class="nav__item"><a href="https://leilukin.123guestbook.com/">Guestbook</a></li>
         <li class="nav__toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
     </ul>
 `;
