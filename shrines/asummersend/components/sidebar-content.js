@@ -2,7 +2,7 @@
 document.querySelector(".right-sidebar").innerHTML = `
     <div class="sidebar--sticky">
         <h2>About</h2>
-        <p><em>A Summer’s End — Hong Kong 1986</em> is a visual novel set in 1980s Hong Kong. It tells of a love story between two women. Lush and vibrant visuals, the game features over 400 unique hand-drawn artwork inspired by Asian cinema and 1980s anime.</p>
+        <p><cite>A Summer’s End — Hong Kong 1986</cite> is a visual novel set in 1980s Hong Kong. It tells of a love story between two women. Lush and vibrant visuals, the game features over 400 unique hand-drawn artwork inspired by Asian cinema and 1980s anime.</p>
         <h3>Links</h3>
         <ul>
             <li><a href="https://www.asummersend.com/" target="_blank">Official Website</a>
