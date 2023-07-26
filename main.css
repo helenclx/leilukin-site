@@ -185,6 +185,10 @@ blockquote {
     background-color: var(--quote-bg);
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 pre {
     white-space: pre-wrap;
     overflow-x: auto;
@@ -566,6 +570,35 @@ article, .content-container {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/* Website button */
+.site-btn__container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.site-btn__textarea {
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 0.75rem;
+    background-color:black;
+    color: var(--body-font-color);
+}
+
+.copy-txt-btn {
+    border: none;
+    background: var(--link-btn-bg);
+    color: var(--body-font-color);
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.copy-txt-btn:hover {
+    background: var(--link-hover-color);
 }
 
 /* TABLE OF CONTENTS */
