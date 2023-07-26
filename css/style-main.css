@@ -450,11 +450,12 @@ article, .content-container {
     height: 100%;
 }
 
-/* Website button */
+/* Website link button */
 .site-btn__container {
     display: flex;
     gap: 1rem;
     align-items: center;
+    margin: 0.5rem 0;
 }
 
 .site-btn__textarea {
