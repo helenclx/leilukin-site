@@ -1,34 +1,33 @@
 @import url(/css/style-main.css);
 
 :root {
-    --body-bg-color: #212121;
-    --body-bg-image: none;
-    --body-font-color: #fceaff;
-    --content-bg-color: #000000;
+    --clr-body-bg: #212121;
+    --img-body-bg: none;
+    --clr-body-txt: #fceaff;
+    --clr-content-bg: #000000;
 
-    --main-heading-color: #ffc400;
-    --sub-heading-color: #ffc400;
-    --title-border-color: #ffe387;
-    --bold-font-color: #ff9933;
-    --link-color: #bb9671;
-    --link-hover-color: #94575a;
-    --quote-bg: #2f2d2d;
-    --quote-border-color: #4d4385;
+    --clr-main-heading: #ffc400;
+    --clr-sub-heading: #ffc400;
+    --clr-title-border: #ffe387;
+    --clr-bold-txt: #ff9933;
+    --clr-link: #bb9671;
+    --clr-link-hover: #94575a;
+    --clr-quote-bg: #2f2d2d;
+    --clr-quote-border: #4d4385;
 
-    --code-bg-color: #241445;
-    --code-border-color: #e4dbbe;
+    --clr-code-bg: #241445;
+    --clr-code-border: #e4dbbe;
+    --clr-dates: rgb(158, 203, 255);
 
-    --link-btn-bg: #873eb5;
-    --link-btn-text: white;
-    --link-btn-hover: #241445;
+    --clr-link-btn-bg: #873eb5;
+    --clr-link-btn-txt: white;
+    --clr-link-btn-hover: #241445;
 
-    --header-bg-color: black;
-    --nav-bg: #1c1c1c;
-    --nav-link: white;
-    --nav-submenu-active: #111;
-    --nav-item-hover: #ccc;
+    --clr-header-bg: black;
+    --clr-nav-bg: #1c1c1c;
+    --clr-nav-link: white;
 
-    --footer-bg: #1c1c1c;
+    --clr-footer-bg: #1c1c1c;
 }
 
 header img {
