@@ -1,33 +1,31 @@
 :root {
-    --body-bg-color: #08031A;
-    --body-bg-image: url('/assets/starsforever.gif');
-    --body-font-color: #fceaff;
-    --content-bg-color: #3d2163;
+    --clr-body-bg: #08031A;
+    --img-body-bg: url('/assets/starsforever.gif');
+    --clr-body-txt: #fceaff;
+    --clr-content-bg: #3d2163;
 
-    --main-heading-color: #ED64F5;
-    --sub-heading-color: #e8b86f;
-    --title-border-color: #d3aad5;
-    --bold-font-color: #ff9933;
-    --link-color: #ED64F5;
-    --link-hover-color: #c355c9;
-    --quote-bg: #13092D;
-    --quote-border-color: #999999;
+    --clr-main-heading: #ED64F5;
+    --clr-sub-heading: #e8b86f;
+    --clr-title-border: #d3aad5;
+    --clr-bold-txt: #ff9933;
+    --clr-link: #ED64F5;
+    --clr-link-hover: #c355c9;
+    --clr-quote-bg: #13092D;
+    --clr-quote-border: #999999;
 
-    --code-bg-color: #241445;
-    --code-border-color: #82668f;
-    --date-color: rgb(158, 203, 255);
+    --clr-code-bg: #241445;
+    --clr-code-border: #82668f;
+    --clr-dates: rgb(158, 203, 255);
 
-    --link-btn-bg: #873eb5;
-    --link-btn-text: white;
-    --link-btn-hover: #241445;
+    --clr-link-btn-bg: #873eb5;
+    --clr-link-btn-txt: white;
+    --clr-link-btn-hover: #241445;
 
-    --header-bg-color: black;
-    --nav-bg: #222;
-    --nav-link: white;
-    --nav-submenu-active: #111;
-    --nav-item-hover: #ccc;
+    --clr-header-bg: black;
+    --clr-nav-bg: #222;
+    --clr-nav-link: white;
 
-    --footer-bg: #13092D;
+    --clr-footer-bg: #13092D;
 }
 
 @font-face {
@@ -128,14 +126,14 @@ body {
     align-items: center;
     flex-direction: column;
     font-family: 'Nunito';
-    color: var(--body-font-color);
-    background-color: var(--body-bg-color);
-    background-image: var(--body-bg-image);
+    color: var(--clr-body-txt);
+    background-color: var(--clr-body-bg);
+    background-image: var(--img-body-bg);
     background-attachment: fixed;
 }
 
 h1 {
-    color: var(--main-heading-color);
+    color: var(--clr-main-heading);
 }
 
 h1 {
@@ -143,12 +141,12 @@ h1 {
 }
 
 h2, h3 {
-    color: var(--sub-heading-color);
+    color: var(--clr-sub-heading);
 }
 
 h1 {
     font-size: 2.2rem;
-    border-bottom: 0.18rem solid var(--title-border-color);
+    border-bottom: 0.18rem solid var(--clr-title-border);
 }
 
 h2 {
@@ -166,23 +164,23 @@ p {
 }
 
 strong {
-    color: var(--bold-font-color);
+    color: var(--clr-bold-txt);
 }
 
 a {
     font-weight: 700;
-    color: var(--link-color);
+    color: var(--clr-link);
 }
 
 a:hover {
-    color: var(--link-hover-color);
+    color: var(--clr-link-hover);
 }
 
 blockquote {
     margin: 1.5rem 0;
 	padding: 0.5rem 1rem;
-	border-inline-start: 0.1rem solid var(--main-heading-color);
-    background-color: var(--quote-bg);
+	border-inline-start: 0.1rem solid var(--clr-main-heading);
+    background-color: var(--clr-quote-bg);
 }
 
 button:hover {
@@ -213,14 +211,14 @@ summary {
 
 .date-style {
     font-weight: 700;
-    color: var(--date-color);
+    color: var(--clr-dates);
 }
 
 /* HEADER COMPONENT */
 header {
     width: 100%;
     max-height: 20rem;
-    background-color: var(--header-bg-color);
+    background-color: var(--clr-header-bg);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -233,14 +231,14 @@ header img {
 
 /* NAVIGATION BAR COMPONENT */
 nav {
-    background: var(--nav-bg);
+    background: var(--clr-nav-bg);
     padding: 0 0.6rem;
     width: 100%;
     z-index: 999;
 }
 
 nav a {
-    color: var(--nav-link);
+    color: var(--clr-nav-link);
     text-decoration: none;
     cursor: pointer;
 }
@@ -252,14 +250,6 @@ nav a {
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 0.5rem;
-}
-
-.nav__item {
-    padding: 0.5rem;
-}
-
-.nav__item a:hover {
-    color: var(--nav-item-hover);
 }
 
 /* Added to the navbar with JS when it reaches its scroll position */
@@ -293,7 +283,7 @@ main {
 article:not(.divided-article),
 .content-section,
 .qna-section {
-    background-color: var(--content-bg-color);
+    background-color: var(--clr-content-bg);
     padding: 1.35rem;
 }
 
@@ -304,7 +294,7 @@ article:not(.divided-article),
 aside {
     padding: 1rem;
     font-size: 0.9rem;
-    background-color: var(--content-bg-color);
+    background-color: var(--clr-content-bg);
 }
 
 article, .content-container {
@@ -371,16 +361,16 @@ article, .content-container {
 /* CUSTOM CLASSES FOR SPECIAL ELEMENTS */
 .inline-code {
     font-family: monospace;
-    border: 0.06rem solid var(--code-border-color);
+    border: 0.06rem solid var(--clr-code-border);
     padding: 0.125rem 0.3rem;
     margin-left: 0.125rem;
     margin-right: 0.125rem;
-    background-color: var(--code-bg-color);
+    background-color: var(--clr-code-bg);
 }
 
 .code-snippet {
-    background-color: var(--code-bg-color);
-    border: 0.08rem solid var(--code-border-color);
+    background-color: var(--clr-code-bg);
+    border: 0.08rem solid var(--clr-code-border);
     display: block;
     padding: 0.5em 0.8rem;
     overflow-x: auto;
@@ -388,8 +378,8 @@ article, .content-container {
 }
 
 .text-box {
-    background-color: var(--quote-bg);
-    border: 0.06rem solid var(--main-heading-color);
+    background-color: var(--clr-quote-bg);
+    border: 0.06rem solid var(--clr-main-heading);
     padding: 0.625rem;
     margin-bottom: 0.8rem;
 }
@@ -398,12 +388,12 @@ article, .content-container {
 .link-btn {
     font: 1.3rem 'Source Sans Pro', Arial, sans-serif;
     display: inline-block;
-    border: 0.15rem solid var(--link-btn-bg);
+    border: 0.15rem solid var(--clr-link-btn-bg);
     border-radius: 0.6rem;
     padding: 0.75rem 1rem;
     margin: 0.3rem;
-    background-color: var(--link-btn-bg);
-    color: var(--link-btn-text);
+    background-color: var(--clr-link-btn-bg);
+    color: var(--clr-link-btn-txt);
     cursor: pointer;
     font-weight: 700;
     text-transform: uppercase;
@@ -417,7 +407,7 @@ article, .content-container {
 
 .link-btn:hover {
     cursor: pointer;
-    background-color: var(--link-btn-hover);
+    background-color: var(--clr-link-btn-hover);
     transition: 0.5s;
 }
 
@@ -463,13 +453,13 @@ article, .content-container {
     height: 2.5rem;
     font-size: 0.75rem;
     background-color:black;
-    color: var(--body-font-color);
+    color: var(--clr-body-txt);
 }
 
 .copy-txt-btn {
     border: none;
-    background: var(--link-btn-bg);
-    color: var(--body-font-color);
+    background: var(--clr-link-btn-bg);
+    color: var(--clr-body-txt);
     padding: 0.3rem 0.8rem;
     border-radius: 0.5rem;
     font-size: 0.9rem;
@@ -477,7 +467,7 @@ article, .content-container {
 }
 
 .copy-txt-btn:hover {
-    background: var(--link-hover-color);
+    background: var(--clr-link-hover);
 }
 
 /* TABLE OF CONTENTS */
@@ -508,7 +498,7 @@ article, .content-container {
 
 /* FOOTER COMPONENT */
 footer {
-    background-color: var(--footer-bg);
+    background-color: var(--clr-footer-bg);
     width: 100%;
     padding: 0.5rem;
     text-align: center;
