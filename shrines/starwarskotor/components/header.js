@@ -1,17 +1,30 @@
-// Header component content
+/* Header component content */
 document.querySelector("header").innerHTML = `
     <img src="/shrines/starwarskotor/img/swkotor-header.jpg" alt="">
 `;
 
-// Navigation component content
+/* Navigation component content */
 document.querySelector("nav").innerHTML = `
     <ul class="nav__menu">
-        <li class="nav__title"><a href="/shrines/starwarskotor/">Star Wars: KotOR</a></li>
-        <li class="nav__item"><a href="/shrines/starwarskotor/">Home</a></li>
-        <li class="nav__item"><a href="/shrines/starwarskotor/articles/">Articles</a></li>
-        <li class="nav__item"><a href="/shrines/starwarskotor/guides/">Guides</a></li>
-        <li class="nav__item"><a href="/shrines/starwarskotor/resources/">Resources</a></li>
-        <li class="nav__item"><a href="/home.html">Main Site</a></li>
-        <li class="nav__toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        <li><a href="/shrines/starwarskotor/">Home</a></li>
+        <li><a href="/shrines/starwarskotor/articles/">Articles</a></li>
+        <li><a href="/shrines/starwarskotor/guides/">Guides</a></li>
+        <li><a href="/shrines/starwarskotor/resources/">Resources</a></li>
+        <li><a href="/home.html">Main Site</a></li>
     </ul>
 `;
+
+
+/* MAKE THE NAVBAR STICKY */
+const header = document.querySelector("header");
+const navbar = document.querySelector("nav");
+
+window.addEventListener("scroll", e => {
+    const scrollPos = window.scrollY || document.documentElement.scrollTop;
+    const stickyLine = header.scrollHeight - navbar.scrollHeight;
+    if (scrollPos > stickyLine) {
+            navbar.classList.add("sticky-nav");
+    } else {
+            navbar.classList.remove("sticky-nav");
+    }
+});

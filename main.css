@@ -245,96 +245,27 @@ nav a {
     cursor: pointer;
 }
 
-.nav__menu,
-.nav__submenu {
-    list-style-type: none;
-    padding-left: 0;
-    margin: 0;
-}
-
-.nav__title {
-    font-size: 1.2rem;
-    padding: 0.2rem 0;
+.nav__menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 }
 
 .nav__item {
     padding: 0.5rem;
 }
 
-.nav__item a:hover,
-.nav__item a:hover::after {
+.nav__item a:hover {
     color: var(--nav-item-hover);
-}
-
-/* Mobile nav__menu */
-.nav__menu {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav__menu li a {
-    display: block;
-    padding: 0.9rem 0.8rem;
-}
-
-.nav__menu li .nav__subitem a {
-    padding: 0.9rem;
-}
-
-.nav__toggle {
-    order: 1;
-    font-size: 1.25rem;
-}
-
-.nav__item {
-    order: 3;
-    width: 100%;
-    text-align: center;
-    display: none;
-}
-
-.nav__active .nav__item {
-    display: block;
-}
-
-/* nav__submenu up from mobile screens */
-.nav__submenu {
-    display: none;
-}
-
-.nav__submenu-active .nav__submenu {
-    display: block;
-}
-
-.nav__has-submenu i {
-    font-size: 0.75rem;
-}
-
-.nav__has-submenu > a::after {
-    font-family: "Font Awesome 5 Free";
-    font-size: 0.75rem;
-    line-height: 1.6;
-    font-weight: 900;
-    content: "\f078";
-    color: white;
-    padding-left: 0.3125rem;
-}
-
-.nav__subitem a {
-    padding: 0.625rem 0.9rem;
-}
-
-.nav__submenu-active {
-    background-color: var(--nav-submenu-active);
-    border-radius: 0.1875rem;
 }
 
 /* Added to the navbar with JS when it reaches its scroll position */
 .sticky-nav {
     position: fixed;
-    width: 100vw;
+    width: 100%;
     top: 0;
 }
 
@@ -343,59 +274,6 @@ as the navigation bar gets a new position at the top of the page
 (position:fixed and top:0) */
 .sticky-nav + main {
     padding-top: 3.75rem;
-}
-
-/* Tablet navigation menu */
-@media all and (min-width: 43.75rem) {
-    .nav__menu {
-        justify-content: center;
-    }
-
-    .nav__title {
-        flex: 1;
-    }
-
-    .nav__toggle {
-        flex: 1;
-        text-align: right;
-        order: 2;
-    }
-}
-
-/* Desktop navigation menu */
-@media all and (min-width: 60rem) {
-    .nav__menu {
-        align-items: flex-start;
-        flex-wrap: nowrap;
-        background: none;
-    }
-
-    .nav__title {
-        order: 0;
-    }
-
-    .nav__item {
-        order: 1;
-        position: relative;
-        display: block;
-        width: auto;
-    }
-
-    .nav__submenu-active .nav__submenu {
-        display: block;
-        position: absolute;
-        left: 0;
-        top: 4.25rem;
-        background: var(--nav-submenu-active);
-    }
-
-    .nav__toggle {
-        display: none;
-    }
-
-    .nav__submenu-active {
-        border-radius: 0;
-    }
 }
 
 /* MAIN CONTENT */
