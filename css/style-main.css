@@ -470,6 +470,13 @@ article, .content-container {
     background: var(--clr-link-hover);
 }
 
+/* Web button lists */
+.web-btn-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
 /* TABLE OF CONTENTS */
 .sidebar__toc {
     position: sticky;
