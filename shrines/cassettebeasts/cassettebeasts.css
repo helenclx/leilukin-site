@@ -1,0 +1,49 @@
+@import url(/css/style-main.css);
+
+:root {
+    --clr-body-bg: #1f0033;
+    --img-body-bg: url(/shrines/cassettebeasts/img/cassettebeasts-bg.jpg);
+    --clr-body-txt: #000000;
+    --clr-content-bg: #ffffff;
+
+    --clr-main-heading: #000000;
+    --clr-sub-heading: #000000;
+    --clr-title-border: #797979;
+    --clr-bold-txt: #F2814C;
+    --clr-link: #AB75E8;
+    --clr-link-hover: #6914cb;
+    --clr-quote-bg: #dddddd;
+    --clr-quote-border: #777777;
+
+    --clr-code-bg: #dddddd;
+    --clr-code-border: #777777;
+    --clr-dates: rgb(58, 150, 255);
+
+    --clr-link-btn-bg: #873eb5;
+    --clr-link-btn-txt: white;
+    --clr-link-btn-hover: #241445;
+
+    --clr-header-bg: #AB75E8;
+    --clr-nav-bg: #AB75E8;
+    --clr-nav-link: white;
+
+    --clr-footer-bg: #AB75E8;
+}
+
+header {
+    max-height: 20rem;
+}
+
+header img {
+    object-fit: cover;
+    object-position: top;
+    height: 100%;
+}
+
+footer {
+    color: var(--clr-nav-link);
+}
+
+footer a {
+    color: var(--clr-nav-link);
+}
