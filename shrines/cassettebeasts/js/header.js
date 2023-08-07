@@ -8,7 +8,7 @@ document.querySelector("header").innerHTML = `
 document.querySelector("nav").innerHTML = `
     <ul class="nav__menu">
         <li><a href="/shrines/cassettebeasts/">Shrine Home</a></li>
-        <!-- <li><a href="./playlists.html">Playlists</a></li> -->
+        <li><a href="./featured.html">Featured</a></li>
         <li><a href="/home.html">Main Site</a></li>
     </ul>
 `;
