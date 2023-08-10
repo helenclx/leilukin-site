@@ -503,6 +503,11 @@ article, .content-container {
     padding-left: 1.25rem;
 }
 
+/* REFERENCES LIST */
+.references-list {
+    font-size: 0.96em;
+}
+
 /* FOOTER COMPONENT */
 footer {
     background-color: var(--clr-footer-bg);
