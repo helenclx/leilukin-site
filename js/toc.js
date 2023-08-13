@@ -2,7 +2,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     const article = document.querySelector("article");
     const headings = article.querySelectorAll("h2, h3");
     const toc = document.querySelector(".toc");
-    const tocSidebar = document.querySelector(".sidebar__toc");
     const totalHeadings = headings.length;
     let tocOl = document.createElement("ol");
     let tocFragment = new DocumentFragment();
