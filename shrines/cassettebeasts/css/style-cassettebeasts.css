@@ -23,27 +23,27 @@
     --clr-link-btn-txt: white;
     --clr-link-btn-hover: #241445;
 
-    --clr-header-bg: #AB75E8;
-    --clr-nav-bg: #AB75E8;
-    --clr-nav-link: white;
+    --clr-main-header-bg: #AB75E8;
+    --clr-navbar-bg: #AB75E8;
+    --clr-navbar-link: white;
 
-    --clr-footer-bg: #AB75E8;
+    --clr-main-footer-bg: #AB75E8;
 }
 
-header {
+.main-header {
     max-height: 20rem;
 }
 
-header img {
+.main-header img {
     object-fit: cover;
     object-position: top;
     height: 100%;
 }
 
-footer {
-    color: var(--clr-nav-link);
+.main-footer {
+    color: var(--clr-navbar-link);
 }
 
-footer a {
-    color: var(--clr-nav-link);
+.main-footer a {
+    color: var(--clr-navbar-link);
 }

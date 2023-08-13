@@ -1,11 +1,11 @@
-/* Header component content */
-document.querySelector("header").innerHTML = `
+/* ------ MAIN HEADER COMPONENT ------ */
+document.querySelector(".main-header").innerHTML = `
     <img src="/assets/Leilukins-Hub-website-banner.png" alt="">
 `;
 
 
-/* Navigation component content */
-document.querySelector("nav").innerHTML = `
+/* ------ MAIN NAVIGATION BAR COMPONENT ------ */
+document.querySelector(".navbar").innerHTML = `
     <ul class="nav__menu">
         <li><a href="/home.html">Home</a></li>
         <li><a href="/about/">About</a></li>
@@ -22,10 +22,9 @@ document.querySelector("nav").innerHTML = `
     </ul>
 `;
 
-
-/* MAKE THE NAVBAR STICKY */
-const header = document.querySelector("header");
-const navbar = document.querySelector("nav");
+// Make the navigation bar sticky
+const header = document.querySelector(".main-header");
+const navbar = document.querySelector(".navbar");
 
 window.addEventListener("scroll", e => {
     const scrollPos = window.scrollY || document.documentElement.scrollTop;
@@ -36,3 +35,11 @@ window.addEventListener("scroll", e => {
             navbar.classList.remove("sticky-nav");
     }
 });
+
+
+/* ------ MAIN FOOTER COMPONENT ------ */
+document.querySelector(".main-footer").innerHTML = `
+    <p>Made with ♥ by Leilukin | <a href="/sitemap.html">Site Map</a></p>
+    <p>Site Launched: September 11, 2022 | <a href="/changelog">Website Changelog</a></p>
+    <p><a href="#page-top">↑ Back to top ↑</a></p>
+`;
