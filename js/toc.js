@@ -72,7 +72,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
             document.documentElement.clientHeight <
             tocSidebar.offsetHeight + 50
         ) {
-            tocSidebar.style.marginTop = "50px";
+            tocSidebar.style.marginTop = "0";
             tocSidebar.style.position = "static";
         }
     }
