@@ -1,7 +1,6 @@
 .toc {
     background-color: var(--clr-quote-bg);
-    width: max-content;
-    max-width: 95%;
+    max-width: max-content;
     padding: 1rem 1.3rem 0.3rem 1.3rem;
     margin-top: 1rem;
     outline: 1px solid var(--clr-title-border);
