@@ -23,18 +23,18 @@
     --clr-link-btn-txt: white;
     --clr-link-btn-hover: #241445;
 
-    --clr-header-bg: black;
-    --clr-nav-bg: #101010;
-    --clr-nav-link: white;
+    --clr-main-header-bg: black;
+    --clr-navbar-bg: #101010;
+    --clr-navbar-link: white;
 
-    --clr-footer-bg: #101010;
+    --clr-main-footer-bg: #101010;
 }
 
-header {
+.main-header {
     max-height: 20rem;
 }
 
-header img {
+.main-header img {
     object-fit: cover;
     object-position: center;
     height: 100%;

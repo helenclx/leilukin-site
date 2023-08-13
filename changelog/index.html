@@ -19,14 +19,18 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
         <link rel="manifest" href="/assets/favicon/site.webmanifest">
 
-        <script src="/js/header.js" defer></script>
-        <script src="/js/footer.js" defer></script>
+        <script src="/js/main-components.js" defer></script> 
 
         <title>Website Changelog | Leilukin's Hub</title>
     </head>
     <body>
-        <header></header>
-        <nav></nav>
+        <header class="main-header">
+            <noscript>
+                JavaScript is disabled in your browser. To get the best user experience on
+                this website, it is recommended that you enable it.
+            </noscript>
+        </header>
+        <nav class="navbar"></nav>
         <main>
             <!-- <aside class="left-sidebar">
                 Left sidebar content here
@@ -38,6 +42,11 @@
                 <p class="center-text">
                     Archive: <span class="date-style">Latest</span> | <a href="./2022.html">2022</a> | <a href="./layouts.html">Website Layouts</a>
                 </p>
+
+                <p class="date-style">August 13, 2023:</p>
+                <ul>
+                    <li>Streamlined JavaScript code for the website's components.</li>
+                </ul>
 
                 <p class="date-style">August 10, 2023:</p>
                 <ul>
@@ -256,6 +265,6 @@
                 Right sidebar content here
             </aside> -->
         </main>
-        <footer></footer>
+        <footer class="main-footer"></footer>
     </body>
 </html>
