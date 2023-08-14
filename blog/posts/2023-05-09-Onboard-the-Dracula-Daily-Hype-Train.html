@@ -24,11 +24,11 @@
         <title>Blog Post</title> <!-- If you leave title as "Blog Post", it will automatically be updated to the post title -->
     </head>
     <body>
-        <div id="container">
-            <div id="header">...</div>
-                <div id="content">
-                    <h1 id="postTitleH1"></h1>
-                    <h4 id="postDate"></h4>
+        <main class="blog-container" id="container">
+            <header class="blog-header" id="header">...</header>
+                <article class="blog-content" id="content">
+                    <h1 class="blog-post__title" id="postTitleH1"></h1>
+                    <h2 class="blog-post__date" id="postDate"></h2>
                     
                     <p><a href="https://draculadaily.com/" target="_blank"><cite>Dracula Daily</cite></a>, the free subscription newsletter that sends Bram Stoker's 1897 novel <cite>Dracula</cite> to subscribers via email, became an internet sensation, especially on Tumblr. Some of my Tumblr mutuals were also on the hype train, though I missed it.</p>
 
@@ -36,9 +36,9 @@
                     
                     <p>Confession: This is actually my first time reading <cite>Dracula</cite>, so I am looking forward to this serialised way of reading the novel!</p>
 
-                    <div id="nextprev"></div>
-                </div> <!-- end of div id="content" -->
-            <div id="footer"></div>
-        </div> <!-- end of div id="container" -->
+                    <section class="blog-nextprev" id="nextprev"></section>
+                </article> <!-- end of article id="content" -->
+            <footer class="blog-footer" id="footer"></footer>
+        </main> <!-- end of main id="container" -->
     </body>
 </html>
