@@ -16,7 +16,7 @@
 
 body {
     background-color: black;
-    background-image: url('./img/bg_fingerlessGloves.png');
+    background-image: url('../img/bg_fingerlessGloves.png');
     background-position: top;
     background-repeat: repeat-x;
     background-attachment: fixed;
