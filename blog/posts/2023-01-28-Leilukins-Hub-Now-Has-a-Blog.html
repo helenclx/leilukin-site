@@ -24,23 +24,23 @@
         <title>Blog Post</title> <!-- If you leave title as "Blog Post", it will automatically be updated to the post title -->
     </head>
     <body>
-        <div id="container">
-            <div id="header">...</div>
-                <div id="content">
-                    <h1 id="postTitleH1"></h1>
-                    <h4 id="postDate"></h4>
-                    
-                    <p>I finally built a blog on my own website!</p>
+        <main class="blog-container" id="container">
+            <header class="blog-header" id="header">...</header>
+            <article class="blog-content" id="content">
+                <h1 class="blog-post__title" id="postTitleH1"></h1>
+                <h2 class="blog-post__date" id="postDate"></h2>
+                
+                <p>I finally built a blog on my own website!</p>
 
-                    <p>After launching this site in September 2022, I had been considering setting up a blog here, as I want a blog that is hosted on my own site, but it was not until I discovered <a href="https://zonelets.net/" target="_blank">Zonelets</a>, a HTML blogging engine created with Neocities in mind, and it was exactly what I was looking for to build a blog on my own Neocities site: it is simple enough for beginners to use, yet also open for more customisation and flexibility for users who have enough knowledge about HTML, CSS and JavaScript.</p>
-                    
-                    <p>My site does have an <a href="/articles" target="_blank">articles</a> section, but what makes this blog different from the articles is that the articles are meant to be timeless, sort of like my public statements for certain topics, while posts from this blog are more like journals or reactions to a timely subject.</p>
-                    
-                    <p>Welcome to my blog! Hope you enjoy your stay on this blog and my website!</p>
+                <p>After launching this site in September 2022, I had been considering setting up a blog here, as I want a blog that is hosted on my own site, but it was not until I discovered <a href="https://zonelets.net/" target="_blank">Zonelets</a>, a HTML blogging engine created with Neocities in mind, and it was exactly what I was looking for to build a blog on my own Neocities site: it is simple enough for beginners to use, yet also open for more customisation and flexibility for users who have enough knowledge about HTML, CSS and JavaScript.</p>
+                
+                <p>My site does have an <a href="/articles" target="_blank">articles</a> section, but what makes this blog different from the articles is that the articles are meant to be timeless, sort of like my public statements for certain topics, while posts from this blog are more like journals or reactions to a timely subject.</p>
+                
+                <p>Welcome to my blog! Hope you enjoy your stay on this blog and my website!</p>
 
-                    <div id="nextprev"></div>
-                </div> <!-- end of div id="content" -->
-            <div id="footer"></div>
-        </div> <!-- end of div id="container" -->
+                <section class="blog-nextprev" id="nextprev"></section>
+            </article> <!-- end of div id="content" -->
+            <footer class="blog-footer" id="footer"></footer>
+        </main> <!-- end of div id="container" -->
     </body>
 </html>

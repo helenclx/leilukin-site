@@ -88,8 +88,8 @@ hr {
     border-color: #a3bdc4; 
 }
 
-/*#CONTAINER is the rectangle that has contains everything but the background!*/
-#container {
+/* The rectangle that has contains everything but the background */
+.blog-container {
     margin: 3em auto;
     width: 90%;
     max-width: 68.75rem;
@@ -101,18 +101,17 @@ hr {
     outline-offset: 0;
 }
 
-#content {
+.blog-content {
     padding: 0.5rem 5% 1rem 5%;
 }
 
-
-/*HEADER STYLE*/
-#header {
+/* HEADER STYLE */
+.blog-header {
     background-color: black;
     padding: 0 5%;
 }
 
-#header ul {
+.blog-header ul {
     display: inline-block;
     list-style-type: none;
     padding: 0;
@@ -120,7 +119,7 @@ hr {
     margin-top: 1em;
 }
 
-#header li {
+.blog-header li {
     font-size: 1.2em;
     display: inline-block;
     margin-right: 0.2em;
@@ -128,7 +127,7 @@ hr {
     margin-top: 0.8em;
 }
 
-#header li a {
+.blog-header li a {
     color: #443;
     background-color: #b6b59e;
     border-width: 0.3em;
@@ -139,28 +138,38 @@ hr {
     font-weight: 900;
 }
 
-#header li a:hover {
+.blog-header li a:hover {
     background-color: #ceccaa;
     border-color: #98987d;
 }
 
-#header li a:active {
+.blog-header li a:active {
     background-color: #8e8d74;
     border-color: #71715c;
     color: black;
 }
 
-/*POST LIST STYLE*/
-#postlistdiv ul {
-    font-size: 1.2em;
+/* POST TITLE STYLE */
+.blog-post__title {
+    font-size: 1.75em;
+}
+
+/* POST DATE STYLE */
+.blog-post__date {
+    font-size: 1.1em;
+}
+
+/* POST LIST STYLE */
+.blog-post-list ul,
+.blog-recent-post-list ul {
+    font-size: 1.1em;
     padding: 0;
     list-style-type: none;
 }
 
-#recentpostlistdiv ul {
-    font-size: 1.1em;
-    padding: 0;
-    list-style-type: none;
+.blog-post-list ul li,
+.blog-recent-post-list ul li {
+    margin-bottom: 0.5em;
 }
 
 .moreposts {
@@ -169,18 +178,18 @@ hr {
 }
 
 /*NEXT AND PREVIOUS LINKS STYLE*/
-#nextprev {
+.blog-nextprev {
     text-align: center;
     margin-top: 1.4em;
 }
 
-/*DISQUS STYLE*/
+/* DISQUS STYLE */
 #disqus_thread {
     margin-top: 1.6em;
 }
 
-/*FOOTER STYLE*/
-#footer {
+/* FOOTER STYLE */
+.blog-footer {
     font-size: 0.8em;
     padding: 0 5% 0.5rem 5%;
 }
