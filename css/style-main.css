@@ -252,6 +252,10 @@ summary {
     cursor: pointer;
 }
 
+.navbar a:hover {
+    color: var(--clr-link-hover);
+}
+
 .nav__menu {
     list-style: none;
     padding: 0;
