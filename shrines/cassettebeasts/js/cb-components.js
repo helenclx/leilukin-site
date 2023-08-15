@@ -1,6 +1,6 @@
 /* ------ CASSETTE BEASTS SHRINE HEADER COMPONENT ------ */
 document.querySelector(".main-header").innerHTML = `
-    <img src="./img/cassettebeasts-header.png" alt="">
+    <img src="/shrines/cassettebeasts/img/cassettebeasts-header.png" alt="">
 `;
 
 
@@ -8,6 +8,7 @@ document.querySelector(".main-header").innerHTML = `
 document.querySelector(".navbar").innerHTML = `
     <ul class="nav__menu">
         <li><a href="/shrines/cassettebeasts/">Shrine Home</a></li>
+        <li><a href="./gamelog">Game Log</a></li>
         <li><a href="./featured.html">Featured</a></li>
         <li><a href="./trivia.html">Trivia</a></li>
         <li><a href="/home.html">Main Site</a></li>
