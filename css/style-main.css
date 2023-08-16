@@ -497,7 +497,7 @@ article, .content-container {
 
 /* FOOTER COMPONENT */
 .main-footer {
-    background-color: var(--clr-main-footer-bg);
+    background: var(--clr-main-footer-bg);
     width: 100%;
     padding: 0.5rem;
     text-align: center;
