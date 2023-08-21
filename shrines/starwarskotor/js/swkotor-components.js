@@ -10,6 +10,7 @@ document.querySelector(".navbar").innerHTML = `
         <li><a href="/shrines/starwarskotor/articles/">Articles</a></li>
         <li><a href="/shrines/starwarskotor/guides/">Guides</a></li>
         <li><a href="/shrines/starwarskotor/resources/">Resources</a></li>
+        <li><a href="/shrines/starwarskotor/universes/">Universes</a></li>
         <li><a href="/home.html">Main Site</a></li>
     </ul>
 `;
