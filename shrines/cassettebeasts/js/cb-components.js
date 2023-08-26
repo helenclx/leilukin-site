@@ -8,10 +8,11 @@ document.querySelector(".main-header").innerHTML = `
 document.querySelector(".navbar").innerHTML = `
     <ul class="nav__menu">
         <li><a href="/shrines/cassettebeasts/">Shrine Home</a></li>
-        <li><a href="./gamelog">Game Log</a></li>
-        <li><a href="./featured.html">Featured</a></li>
-        <li><a href="./devinsights.html">Dev Insights</a></li>
-        <li><a href="./trivia.html">Trivia</a></li>
+        <li><a href="/shrines/cassettebeasts/articles">Articles</a></li>
+        <li><a href="/shrines/cassettebeasts/gamelog">Game Log</a></li>
+        <li><a href="/shrines/cassettebeasts/featured.html">Featured</a></li>
+        <li><a href="/shrines/cassettebeasts/devinsights.html">Dev Insights</a></li>
+        <li><a href="/shrines/cassettebeasts/trivia.html">Trivia</a></li>
         <li><a href="/home.html">Main Site</a></li>
     </ul>
 `;
