@@ -429,13 +429,23 @@ article, .content-container {
     margin: 1.5rem 0;
 }
 
-.qna-accordion__question {
+.qna-accordion__question{
     font-weight: 700;
 }
+
 .qna-accordion__answer {
     padding: 0.75rem 1.5rem;
     margin-top: 0.5rem;
     background: hsla(0, 0%, 100%, 0.15);
+}
+
+/* Spoiler Accordion */
+.spoiler-accordion__hint {
+    font-weight: 700;
+}
+
+.spoiler-accordion__spoiler {
+    padding: 0 1.5rem;
 }
 
 /* Embedded YouTube video */
