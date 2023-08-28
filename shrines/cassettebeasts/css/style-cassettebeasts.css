@@ -40,6 +40,12 @@
     height: 100%;
 }
 
+@media only screen and (min-width: 60rem) {
+    .main-header img {
+        object-position: top -4.5rem right 0;
+    }
+}
+
 .main-footer {
     color: var(--clr-navbar-link);
 }
