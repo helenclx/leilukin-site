@@ -121,11 +121,13 @@ select {
 }
 
 /* STYLING BEGINS */
+
+/* General Styles */
 body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-family: 'Nunito';
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
     color: var(--clr-body-txt);
     background-color: var(--clr-body-bg);
     background-image: var(--img-body-bg);
@@ -160,7 +162,7 @@ article h3,
 }
 
 p {
-    padding: 0.5rem 0;;
+    padding: 0.5rem 0;
 }
 
 hr {
@@ -424,28 +426,32 @@ article, .content-container {
     transition: 0.5s;
 }
 
-/* Q & A accordion */
+/* Q&A accordion */
 .qna-accordion {
-    margin: 1.5rem 0;
+    padding: 1rem 0;
 }
 
-.qna-accordion__question{
+.qna-accordion__question {
     font-weight: 700;
 }
 
 .qna-accordion__answer {
-    padding: 0.75rem 1.5rem;
+    padding: 0.7rem 1.5rem;
     margin-top: 0.5rem;
     background: hsla(0, 0%, 100%, 0.15);
 }
 
 /* Spoiler Accordion */
+.spoiler-accordion {
+    padding: 0.5rem 0;
+}
+
 .spoiler-accordion__hint {
     font-weight: 700;
 }
 
 .spoiler-accordion__spoiler {
-    padding: 0 1.5rem;
+    padding: 0 1rem;
 }
 
 /* Embedded YouTube video */
