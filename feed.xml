@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Leilukin's Hub</title>
+    <link>https://leilukin.neocities.org/</link>
+    <description>Leilukin's personal website.</description>
+    <language>en-gb</language>
+    <image>
+      <title>Leilukin's Hub</title>
+      <link>https://leilukin.neocities.org/</link>
+      <url>https://leilukin.neocities.org/assets/Leilukins-Hub-website-banner-black-bg.png</url>
+      <width>900</width>
+      <height>300</height>
+    </image>
+    <item>
+      <title>Changelog: August 28, 2023</title>
+      <pubDate>Tue, 28 Aug 2023 22:19:25 +0800</pubDate>
+      <description>
+        <![CDATA[
+          <ul>
+            <li><a href="/shrines/asummersend/"><cite>A Summer’s End — Hong Kong 1986</cite> shrine</a>: Updated the main page with information about the spiritual sequel <cite>In the Ocean I Learned to Float</cite>.</li>
+            <li><a href="/shrines/cassettebeasts/"><cite>Cassette Beasts</cite> shrine</a>: Adjusted header image and added more images to the home page.</li>
+          </ul>
+        ]]>
+      </description>
+    </item>
+  </channel>
+</rss>
