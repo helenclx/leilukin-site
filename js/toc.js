@@ -47,11 +47,22 @@ window.addEventListener('DOMContentLoaded', (event) => {
         }
         tocOl.append(tocFragment);
         toc.append(tocOl);
+        
         const tocClone = tocOl.cloneNode(true);
-        tocSidebar.appendChild(tocClone);
+        if (tocSidebar) {
+            tocSidebar.appendChild(tocClone);
+        }
     } else {
         toc.classList.add('hidden');
         leftSidebar.classList.add('hidden');
+    }
+
+    // Close article ToC accordion and the left sidebar for small screen sizes
+    if (window.innerWidth < 480) {
+        toc.removeAttribute("open");
+        leftSidebar.classList.add("hidden");
+    } else {
+        toc.setAttribute("open", true);
     }
 
     // Remove the stickiness of the sidebar ToC if it is larger than screen height
