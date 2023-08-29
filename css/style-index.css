@@ -1,3 +1,18 @@
+:root {
+    --clr-body-bg: #000000;
+    --clr-body-txt: #ffffff;
+    --clr-h1: #BA6FE8;
+    --clr-link-btn-bg: #7A37A3;
+    --clr-link-btn-hover: #BA6FE8;
+
+    --fs-h1: 4rem;
+    --fs-body: 1rem;
+    --fs-link-btn: 2rem;
+
+    --fw-reg: 400;
+    --fw-link-btn: 600;
+}
+
 /* CSS RESET */
 /* Box sizing rules */
 *,
@@ -76,7 +91,7 @@ select {
 
 /* STYLING BEGINS */
 body {
-    font-size: 1rem; /* 16px */
+    font-size: var(--clr-body-bg);
     font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
     color: #FFFFFF;
     background: #000000;
@@ -96,9 +111,9 @@ main {
 }
 
 h1 {
-    font-size: 4rem;
-    color: #BA6FE8;
-    font-weight: normal;
+    font-size: var(--fs-h1);
+    color: var(--clr-h1);
+    font-weight: var(--fw-reg);
     letter-spacing: 0.08em;
     margin: 2rem 0;
     line-height: 1;
@@ -116,19 +131,28 @@ p {
 
 .index__link {
     text-decoration: none;
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: var(--fs-link-btn);
+    font-weight: var(--fw-link-btn);
     border: none;
     border-radius: 0.6rem;
     padding: 1rem 1.25rem;
     margin: 0.5rem;
-    background: #7A37A3;
-    color: white;
+    background: var(--clr-link-btn-bg);
+    color: var(--clr-body-txt);
     text-transform: uppercase;
 }
 
 .index__link:hover {
     cursor: pointer;
-    background: #BA6FE8;
+    background: var(--clr-link-btn-hover);
     transition: 0.5s;
+}
+
+.index__link:focus {
+    outline-offset: 0.2rem;
+    outline: 0.2rem solid var(--clr-body-txt);
+}
+
+a:focus img {
+    outline: 0.2rem solid var(--clr-body-txt);
 }
