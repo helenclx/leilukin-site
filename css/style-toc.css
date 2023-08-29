@@ -42,7 +42,7 @@
 /* Sidebar Table of Contents */
 .sidebar__toc {
     position: sticky;
-    top: 5rem;
+    top: 4rem;
 }
 
 .sidebar__toc-title {
