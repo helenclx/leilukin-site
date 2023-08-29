@@ -64,14 +64,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
         toc.setAttribute('open', true);
     }
 
-    // Hide the left sidebar if the ToC is larger than screen height
+    // Remove the stickiness of the sidebar ToC if it is larger than screen height
     function preventSidebarOverflow() {
         if (document.documentElement.clientHeight < tocSidebar.offsetHeight + 50) {
-            // tocSidebar.style.marginTop = "0";
-            // tocSidebar.style.position = "static";
-            leftSidebar.style.display = "none";
-        } else {
-            leftSidebar.style.display = "flex";
+            tocSidebar.style.marginTop = "0";
+            tocSidebar.style.position = "static";
         }
     }
     preventSidebarOverflow();
