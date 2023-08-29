@@ -225,7 +225,8 @@ summary {
 }
 
 .center-el {
-    margin: 0 auto;
+    display: grid;
+    place-content: center;
 }
 
 .center-text {
