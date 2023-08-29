@@ -99,8 +99,7 @@ body {
 }
 
 body,
-main,
-.index__btn-wrapper {
+main {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,7 +124,9 @@ p {
 }
 
 .index__btn-wrapper {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 1.5rem 0;
 }
 
