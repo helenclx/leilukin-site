@@ -173,6 +173,10 @@ strong {
     color: var(--clr-bold-txt);
 }
 
+:focus {
+    outline: 0.15rem solid var(--clr-body-txt);
+}
+
 a {
     font-weight: 700;
     color: var(--clr-link);
@@ -180,6 +184,14 @@ a {
 
 a:hover {
     color: var(--clr-link-hover);
+}
+
+a:not([class]):focus {
+    outline: 0.15rem solid var(--clr-link);
+}
+
+a:focus img {
+    outline: 0.2rem solid var(--clr-body-txt);
 }
 
 blockquote {
@@ -191,6 +203,11 @@ blockquote {
 
 button:hover {
     cursor: pointer;
+}
+
+button:focus,
+detail:focus {
+    outline-offset: 0.2rem;
 }
 
 pre {
@@ -256,6 +273,11 @@ summary {
 
 .navbar a:hover {
     color: var(--clr-link-hover);
+}
+
+.navbar a:focus {
+    outline-offset: 0.3rem;
+    outline: 0.15rem solid var(--clr-navbar-link);
 }
 
 .nav__menu {
@@ -376,15 +398,14 @@ article, .content-container {
 /* CUSTOM CLASSES FOR SPECIAL ELEMENTS */
 .inline-code {
     font-family: monospace;
-    border: 0.06rem solid var(--clr-code-border);
+    border: 0.07rem solid var(--clr-code-border);
     padding: 0.125rem 0.3rem;
-    margin-left: 0.125rem;
-    margin-right: 0.125rem;
-    background-color: var(--clr-code-bg);
+    margin: 0 0.125rem;
+    background: var(--clr-code-bg);
 }
 
 .code-snippet {
-    background-color: var(--clr-code-bg);
+    background: var(--clr-code-bg);
     border: 0.08rem solid var(--clr-code-border);
     display: block;
     padding: 0.5em 0.8rem;
@@ -393,7 +414,7 @@ article, .content-container {
 }
 
 .text-box {
-    background-color: var(--clr-quote-bg);
+    background: var(--clr-quote-bg);
     border: 0.06rem solid var(--clr-main-heading);
     padding: 0.625rem;
     margin-bottom: 0.8rem;
@@ -407,7 +428,7 @@ article, .content-container {
     border-radius: 0.6rem;
     padding: 0.75rem 1rem;
     margin: 0.3rem;
-    background-color: var(--clr-link-btn-bg);
+    background: var(--clr-link-btn-bg);
     color: var(--clr-link-btn-txt);
     cursor: pointer;
     font-weight: 700;
@@ -422,8 +443,13 @@ article, .content-container {
 
 .link-btn:hover {
     cursor: pointer;
-    background-color: var(--clr-link-btn-hover);
+    background: var(--clr-link-btn-hover);
     transition: 0.5s;
+}
+
+.link-btn:focus {
+    outline-offset: 0.2rem;
+    outline: 0.15rem solid var(--clr-link);
 }
 
 /* Q&A accordion */

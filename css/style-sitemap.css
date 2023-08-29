@@ -9,6 +9,10 @@ main ul {
     list-style: none;
 }
 
+.link-list a:focus {
+    outline: 0.15rem solid var(--clr-link);
+}
+
 .link-list li {
     padding-left: 0.5em;
     align-items: start;
