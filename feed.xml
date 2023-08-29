@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
+    <generator>RSS Builder by B!Soft</generator>
     <title>Leilukin's Hub</title>
     <link>https://leilukin.neocities.org/</link>
     <description>Leilukin's personal website.</description>
@@ -13,8 +14,22 @@
       <height>300</height>
     </image>
     <item>
+      <title>Changelog: August 29, 2023</title>
+      <pubDate>Tue, 29 Aug 2023 22:15:02 +0800</pubDate>
+      <description>
+        <![CDATA[
+          <ul>
+            <li>Added link button for the site's RSS feed.</li>
+            <li>Fixed the overflow issue of header images.</li>
+            <li>Added custom style for the <a href="https://leilukin.neocities.org/sitemap.html">Site Map</a> page.</li>
+            <li>Improved accessibility of the site's design by customising the CSS <code>:focus</code> selector.</li>
+          </ul>
+        ]]>
+      </description>
+    </item>
+    <item>
       <title>Changelog: August 28, 2023</title>
-      <pubDate>Tue, 28 Aug 2023 22:19:25 +0800</pubDate>
+      <pubDate>Tue, 29 Aug 2023 22:14:49 +0800</pubDate>
       <description>
         <![CDATA[
           <ul>
