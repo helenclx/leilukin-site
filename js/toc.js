@@ -60,20 +60,18 @@ window.addEventListener('DOMContentLoaded', (event) => {
     const windowWidth = window.innerWidth;
     if (windowWidth < 480) {
         toc.removeAttribute('open');
-        leftSidebar.classList.add('hidden');
     } else {
         toc.setAttribute('open', true);
-        leftSidebar.classList.remove('hidden');
     }
 
-    // Don't make the sidebar ToC sticky if it is larger than screen height
+    // Hide the left sidebar if the ToC is larger than screen height
     function preventSidebarOverflow() {
-        if (
-            document.documentElement.clientHeight <
-            tocSidebar.offsetHeight + 50
-        ) {
-            tocSidebar.style.marginTop = "0";
-            tocSidebar.style.position = "static";
+        if (document.documentElement.clientHeight < tocSidebar.offsetHeight + 50) {
+            // tocSidebar.style.marginTop = "0";
+            // tocSidebar.style.position = "static";
+            leftSidebar.style.display = "none";
+        } else {
+            leftSidebar.style.display = "flex";
         }
     }
     preventSidebarOverflow();
