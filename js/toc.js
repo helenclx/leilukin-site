@@ -1,6 +1,5 @@
 // Auto generate table of contents
 // Code based on https://techindetail.com/table-of-contents-javascript/
-
 window.addEventListener('DOMContentLoaded', (event) => {
     const article = document.querySelector("article");
     const headings = article.querySelectorAll("h2, h3");
@@ -53,15 +52,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
     } else {
         toc.classList.add('hidden');
         leftSidebar.classList.add('hidden');
-    }
-
-    // Open the article ToC and hide the left sidebar for small screen size
-    // Code based on https://codepen.io/neptotech/pen/RwjRjOZ
-    const windowWidth = window.innerWidth;
-    if (windowWidth < 480) {
-        toc.removeAttribute('open');
-    } else {
-        toc.setAttribute('open', true);
     }
 
     // Remove the stickiness of the sidebar ToC if it is larger than screen height
