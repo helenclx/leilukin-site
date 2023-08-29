@@ -174,7 +174,7 @@ strong {
 }
 
 :focus {
-    outline: 0.15rem solid var(--clr-body-txt);
+    outline: 0.15em solid var(--clr-body-txt);
 }
 
 a {
@@ -191,7 +191,7 @@ a:not([class]):focus {
 }
 
 a:focus img {
-    outline: 0.2rem solid var(--clr-body-txt);
+    outline: 0.2em solid var(--clr-body-txt);
 }
 
 blockquote {
@@ -207,7 +207,7 @@ button:hover {
 
 button:focus,
 detail:focus {
-    outline-offset: 0.2rem;
+    outline-offset: 0.2em;
 }
 
 pre {
@@ -276,8 +276,8 @@ summary {
 }
 
 .navbar a:focus {
-    outline-offset: 0.3rem;
-    outline: 0.15rem solid var(--clr-navbar-link);
+    outline-offset: 0.3em;
+    outline: 0.15em solid var(--clr-navbar-link);
 }
 
 .nav__menu {
@@ -448,8 +448,8 @@ article, .content-container {
 }
 
 .link-btn:focus {
-    outline-offset: 0.2rem;
-    outline: 0.15rem solid var(--clr-link);
+    outline-offset: 0.2em;
+    outline: 0.15em solid var(--clr-link);
 }
 
 /* Q&A accordion */

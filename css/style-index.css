@@ -94,7 +94,7 @@ body {
     font-size: var(--clr-body-bg);
     font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
     color: #FFFFFF;
-    background: #000000;
+    background: var(--clr-body-bg);
     text-align: center;
 }
 
@@ -149,10 +149,10 @@ p {
 }
 
 .index__link:focus {
-    outline-offset: 0.2rem;
-    outline: 0.2rem solid var(--clr-body-txt);
+    outline-offset: 0.2em;
+    outline: 0.2em solid var(--clr-body-txt);
 }
 
 a:focus img {
-    outline: 0.2rem solid var(--clr-body-txt);
+    outline: 0.2em solid var(--clr-body-txt);
 }
