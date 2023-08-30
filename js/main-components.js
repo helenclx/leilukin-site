@@ -40,7 +40,7 @@ window.addEventListener("scroll", e => {
 /* ------ MAIN FOOTER COMPONENT ------ */
 document.querySelector(".main-footer").innerHTML = `
     <p>Made with ♥ by Leilukin | <a href="/sitemap.html">Site Map</a></p>
-    <p>Site Launched: September 11, 2022 | <a href="/changelog">Website Changelog</a></p>
+    <p>Site Launched: 11 September 2022 | <a href="/changelog">Website Changelog</a></p>
     <p>
         <a href="#page-top">
             <i class="fa fa-arrow-up"></i> Back to top <i class="fa fa-arrow-up"></i>

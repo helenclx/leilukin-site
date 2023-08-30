@@ -48,6 +48,10 @@ document.querySelector(".right-sidebar").innerHTML = `
 
 /* ------ A SUMMER'S END SHRINE FOOTER COMPONENT ------ */
 document.querySelector(".main-footer").innerHTML = `
-    <p>Made with ♥ by Leilukin | Shrine Launched: February 16, 2023</p>
-    <p><a href="#page-top">Back to top</a></p>
+    <p>Made with ♥ by Leilukin | Shrine Launched: 16 February 2023</p>
+    <p>
+        <a href="#page-top">
+            <i class="fa fa-arrow-up"></i> Back to top <i class="fa fa-arrow-up"></i>
+        </a>
+    </p>
 `;

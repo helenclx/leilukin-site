@@ -51,6 +51,10 @@ document.querySelector(".right-sidebar").innerHTML = `
 
 /* ------ CASSETTE BEASTS SHRINE FOOTER COMPONENT ------ */
 document.querySelector(".main-footer").innerHTML = `
-    <p>Made with ♥ by Leilukin | Shrine Launched: August 3, 2023</p>
-    <p><a href="#page-top">Back to top</a></p>
+    <p>Made with ♥ by Leilukin | Shrine Launched: 3 August 2023</p>
+    <p>
+        <a href="#page-top">
+            <i class="fa fa-arrow-up"></i> Back to top <i class="fa fa-arrow-up"></i>
+        </a>
+    </p>
 `;
