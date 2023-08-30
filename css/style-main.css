@@ -242,6 +242,11 @@ summary {
     display: none;
 }
 
+.article-list {
+    display: grid;
+    gap: 0.5em;
+}
+
 /* HEADER COMPONENT */
 .main-header {
     width: 100%;
