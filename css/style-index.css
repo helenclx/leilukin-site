@@ -150,8 +150,8 @@ p {
 }
 
 .index__link:focus {
-    outline-offset: 0.2em;
-    outline: 0.2em solid var(--clr-body-txt);
+    outline-offset: 0.15em;
+    outline: 0.1em solid var(--clr-body-txt);
 }
 
 a:focus img {
