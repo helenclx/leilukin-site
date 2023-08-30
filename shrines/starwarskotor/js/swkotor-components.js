@@ -46,6 +46,10 @@ document.querySelector(".right-sidebar").innerHTML = `
 
 /* ------ STAR WARS KOTOR SHRINE FOOTER COMPONENT ------ */
 document.querySelector(".main-footer").innerHTML = `
-    <p>Made with ♥ and the Force by Leilukin | Shrine Launched: February 17, 2023</p>
-    <p><a href="#page-top">Back to top</a></p>
+    <p>Made with ♥ and the Force by Leilukin | Shrine Launched: 17 February 2023</p>
+    <p>
+        <a href="#page-top">
+            <i class="fa fa-arrow-up"></i> Back to top <i class="fa fa-arrow-up"></i>
+        </a>
+    </p>
 `;
