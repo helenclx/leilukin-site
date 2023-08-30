@@ -6,7 +6,7 @@ document.querySelector(".main-header").innerHTML = `
 /* Navigation component content */
 document.querySelector(".navbar").innerHTML = `
     <ul class="nav__menu">
-        <li><a href="/shrines/starwarskotor/">Home</a></li>
+        <li><a href="/shrines/starwarskotor/">Shrine Home</a></li>
         <li><a href="/shrines/starwarskotor/articles/">Articles</a></li>
         <li><a href="/shrines/starwarskotor/guides/">Guides</a></li>
         <li><a href="/shrines/starwarskotor/resources/">Resources</a></li>
