@@ -14,6 +14,18 @@
       <height>300</height>
     </image>
     <item>
+      <title>Changelog: 30 August 2023</title>
+      <pubDate>Wed, 30 Aug 2023 21:35:31 +0800</pubDate>
+      <description><![CDATA[
+        <ul>
+          <li><cite>Star Wars: Knights of the Old Republic</cite> <a href="https://leilukin.neocities.org/shrines/starwarskotor/">shrine</a>: Added new article: <a href="https://leilukin.neocities.org/shrines/starwarskotor/articles/tslrcm-first-kotor2-playthrough.html">Should You Use The Sith Lords Restored Content Mod in Your First <cite>Star Wars: KotOR 2</cite> Playthrough?</a>.</li>
+          <li>Adjusted spacing between each item in the article index lists.</li>
+          <li>Make the date format consistent throughout the entire site by using the Day-Month-Year format.</li>
+          <li>Fixed broken links in the <a href="https://leilukin.neocities.org/changelog/2022.html">2022 changelog archive</a> due to the affected pages moved to other parts of the site.</li>
+        </ul>
+      ]]></description>
+    </item>
+    <item>
       <title>Should You Use The Sith Lords Restored Content Mod in Your First Star Wars: KotOR 2 Playthrough?</title>
       <pubDate>Wed, 30 Aug 2023 10:43:04 +0800</pubDate>
       <link>https://leilukin.neocities.org/shrines/starwarskotor/articles/tslrcm-first-kotor2-playthrough</link>
