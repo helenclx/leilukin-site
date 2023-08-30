@@ -14,31 +14,39 @@
       <height>300</height>
     </image>
     <item>
+      <title>Should You Use The Sith Lords Restored Content Mod in Your First Star Wars: KotOR 2 Playthrough?</title>
+      <pubDate>Wed, 30 Aug 2023 10:43:04 +0800</pubDate>
+      <link>https://leilukin.neocities.org/shrines/starwarskotor/articles/tslrcm-first-kotor2-playthrough</link>
+      <guid isPermaLink="true">https://leilukin.neocities.org/shrines/starwarskotor/articles/tslrcm-first-kotor2-playthrough</guid>
+      <author>Leilukin</author>
+      <description><![CDATA[
+        <p>New article on my <a href="https://leilukin.neocities.org/shrines/starwarskotor"><cite>Star Wars: Knights of the Old Republic</cite> shrine</a>.</p>
+        
+        <p>The Sith Lords Restored Content Mod (TSLRCM) is widely regarded as essential for the best experience with <cite>Star Wars: Knights of the Old Republic II: The Sith Lords</cite>, but should you use the mod in your very first <cite>KotOR 2<cite> playthrough?</p>
+      ]]></description>
+    </item>
+    <item>
       <title>Changelog: August 29, 2023</title>
       <pubDate>Tue, 29 Aug 2023 22:15:02 +0800</pubDate>
-      <description>
-        <![CDATA[
+      <description><![CDATA[
           <ul>
             <li>Added link button for the site's RSS feed.</li>
             <li>Fixed the overflow issue of header images.</li>
             <li>Added custom style for the <a href="https://leilukin.neocities.org/sitemap.html">Site Map</a> page.</li>
             <li>Improved accessibility of the site's design by customising the CSS <code>:focus</code> selector.</li>
           </ul>
-        ]]>
-      </description>
+        ]]></description>
     </item>
     <item>
       <title>Changelog: August 28, 2023</title>
       <pubDate>Tue, 29 Aug 2023 22:14:49 +0800</pubDate>
-      <description>
-        <![CDATA[
+      <description><![CDATA[
           <ul>
             <li><a href="https://leilukin.neocities.org/shrines/asummersend/"><cite>A Summer’s End — Hong Kong 1986</cite> shrine</a>: Updated the main page with information about the spiritual sequel <cite>In the Ocean I Learned to Float</cite>.</li>
             <li><a href="https://leilukin.neocities.org/shrines/cassettebeasts/"><cite>Cassette Beasts</cite> shrine</a>: Adjusted header image and added more images to the home page.</li>
             <li>Leilukin Hub now has an <a href="https://leilukin.neocities.org/feed.xml" target="blank">RSS feed</a>.</li>
           </ul>
-        ]]>
-      </description>
+        ]]></description>
     </item>
   </channel>
 </rss>
