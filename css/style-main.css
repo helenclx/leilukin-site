@@ -421,9 +421,9 @@ article, .content-container {
 
 .text-box {
     background: var(--clr-quote-bg);
-    border: 0.06rem solid var(--clr-main-heading);
-    padding: 0.625rem;
-    margin-bottom: 0.8rem;
+    border: 0.1em solid var(--clr-main-heading);
+    padding: 0.4em 0.8em;
+    margin: 0.5em 0;
 }
 
 /* Link button */
