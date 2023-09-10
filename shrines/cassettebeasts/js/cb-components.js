@@ -36,7 +36,7 @@ window.addEventListener("scroll", e => {
 document.querySelector(".right-sidebar").innerHTML = `
     <div class="sidebar--sticky">
         <h2>About</h2>
-        <p><cite>Cassette Beasts</cite> is an 80’s vibe Creature Collector turn-based RPG set in a vast and colourful open world. Record and collect awesome monster forms to use in turn-based battles, or for their abilities to traverse the world. Use the Fusion System to create unique and powerful by combining any two monsters.</p>
+        <p>Welcome to Leilukin's shrine for <cite>Cassette Beasts</cite>, an indie monster taming turn-based open-world RPG developed by Bytten Studio and published by Raw Fury.</p>
         <h3>Links</h3>
         <ul>
             <li><a href="https://www.cassettebeasts.com/" target="_blank">Official Website</a>
