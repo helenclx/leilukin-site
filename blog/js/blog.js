@@ -31,6 +31,7 @@ let authorLink = "https://leilukin.neocities.org/"; // Enter your website, socia
     use a date it must still follow that format.*/
 
 let postsArray = [
+    [ "posts/2023-09-11-Happy-1st-Anniversary-to-Leilukins-Hub.html", encodeURI( `Happy 1st Anniversary to Leilukin's Hub` ) ],
     [ "posts/2023-07-28-My-First-Birthday-After-the-Launch-of-Leilukins-Hub.html", encodeURI( `My First Birthday After the Launch of Leilukin's Hub` ) ],
     [ "posts/2023-05-09-Onboard-the-Dracula-Daily-Hype-Train.html" ],
     [ "posts/2023-01-28-Leilukins-Hub-Now-Has-a-Blog.html", encodeURI( `Leilukin's Hub Now Has a Blog!` ) ]
