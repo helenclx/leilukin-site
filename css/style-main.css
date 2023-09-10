@@ -334,12 +334,6 @@ article:not(.divided-article),
     padding: 1.25rem 0;
 }
 
-aside {
-    padding: 1rem;
-    font-size: 0.9rem;
-    background-color: var(--clr-content-bg);
-}
-
 article, .content-container {
     order: 1;
 }
@@ -349,12 +343,24 @@ article, .content-container {
     top: 5rem;
 }
 
+.left-sidebar,
+.right-sidebar {
+    padding: 1rem;
+    font-size: 0.9rem;
+    background-color: var(--clr-content-bg);
+}
+
 .left-sidebar {
     order: 2;
 }
 
 .right-sidebar {
     order: 3;
+}
+
+.left-sidebar:empty,
+.right-sidebar:empty {
+    display: none;
 }
 
 /* Tablet main content layout */
