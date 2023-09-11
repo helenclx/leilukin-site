@@ -14,6 +14,18 @@
       <height>300</height>
     </image>
     <item>
+      <title>Changelog: 11 September 2023</title>
+      <pubDate>Mon, 11 Sep 2023 23:00:44 +0800</pubDate>
+      <description><![CDATA[
+        <ul>
+          <li>New blog post: <a href="https://leilukin.neocities.org/blog/posts/2023-09-11-Happy-1st-Anniversary-to-Leilukins-Hub.html">Happy 1st Anniversary to Leilukin's Hub</a>.</li>
+          <li>Updated the <a href="https://leilukin.neocities.org/about/">About</a> page.</li>
+          <li>Modified <a href="https://leilukin.neocities.org/blog/">blog</a> style.</li>
+          <li>Added the blog's new layout to the <a href="https://leilukin.neocities.org/changelog/layouts.html">layout archive</a>.</li>
+        </ul>
+      ]]></description>
+    </item>
+    <item>
       <title>Happy 1st Anniversary to Leilukin's Hub</title>
       <pubDate>Mon, 11 Sep 2023 00:21:26 +0800</pubDate>
       <link>https://leilukin.neocities.org/blog/posts/2023-09-11-Happy-1st-Anniversary-to-Leilukins-Hub.html</link>
