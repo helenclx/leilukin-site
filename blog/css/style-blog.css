@@ -16,9 +16,10 @@
 
 body {
     background-color: black;
-    background-image: url('../img/bg_fingerlessGloves.png');
-    background-position: top;
+    background-image: url('../img/bg_space.png');
+    background-position: center;
     background-repeat: repeat-x;
+    background-size: contain;
     background-attachment: fixed;
     font-size: 1.3rem;
     font-family: 'Nunito', Arial, sans-serif;
@@ -84,7 +85,7 @@ h1, h2, h3, h4, h5 {
 
 hr {
     border-width: 0.1rem 0 0 0;
-    border-style: dashed;
+    border-style: dotted;
     border-color: #a3bdc4; 
 }
 
@@ -95,10 +96,9 @@ hr {
     max-width: 68.75rem;
     background-color: black;
     color: #dddddd;
-    outline-color: #425e74;
-    outline-style: ridge;
-    outline-width: 0.5rem;
-    outline-offset: 0;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 0 -2px 10px 0 #c7d8f4 inset;
 }
 
 .blog-content {
@@ -107,7 +107,6 @@ hr {
 
 /* HEADER STYLE */
 .blog-header {
-    background-color: black;
     padding: 0 5%;
 }
 
@@ -120,36 +119,36 @@ hr {
 }
 
 .blog-header li {
-    font-size: 1.2em;
+    font-size: 1em;
     display: inline-block;
-    margin-right: 0.2em;
-    margin-bottom: 0.8em;
-    margin-top: 0.8em;
+    margin-right: 0.5em;
+    margin-top: 0.7em;
 }
 
 .blog-header li a {
-    color: #443;
-    background-color: #b6b59e;
-    border-width: 0.3em;
-    border-style: outset;
-    border-color: #86866d;
-    padding: 0.3em 1.5em 0.2em 0.5em;
+    color: white;
+    background-color: #1b548e;
+    border-radius: 20rem;
+    border: 3px solid #7cd8ff;
+    padding: 0.4rem 2rem;
+    box-shadow: 0 -2px 12px 0 #23a4f8 inset;
+    text-transform: uppercase;
     text-decoration: none;
-    font-weight: 900;
 }
 
 .blog-header li a:hover {
-    background-color: #ceccaa;
-    border-color: #98987d;
+    background-color: #1f64aa;
+    text-decoration: none;
 }
 
 .blog-header li a:active {
     background-color: #8e8d74;
-    border-color: #71715c;
-    color: black;
+    text-decoration: none;
+    box-shadow: 0 -2px 12px 0 #fe83ff inset;
 }
 
 /* POST TITLE STYLE */
+.blog__title,
 .blog-post__title {
     font-size: 1.75em;
 }
