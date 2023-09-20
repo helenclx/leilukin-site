@@ -14,6 +14,15 @@
       <height>300</height>
     </image>
     <item>
+      <title>Changelog: 15 September 2023</title>
+      <pubDate>Fri, 15 Sep 2023 22:30:34 +0800</pubDate>
+      <description><![CDATA[
+        <ul>
+          <li><cite>Cassette Beasts</cite> <a href="https://leilukin.neocities.org/shrines/cassettebeasts/">shrine</a>: Updated the <a href="https://leilukin.neocities.org/shrines/cassettebeasts/devinsights.html">Developer Insight</a> page by adding an Event Showcase section.</li>
+        </ul>
+      ]]></description>
+    </item>
+    <item>
       <title>Changelog: 13 September 2023</title>
       <pubDate>Wed, 13 Sep 2023 22:45:43 +0800</pubDate>
       <description><![CDATA[
@@ -106,18 +115,6 @@
         
         <p>The Sith Lords Restored Content Mod (TSLRCM) is widely regarded as essential for the best experience with <cite>Star Wars: Knights of the Old Republic II: The Sith Lords</cite>, but should you use the mod in your very first <cite>KotOR 2<cite> playthrough?</p>
       ]]></description>
-    </item>
-    <item>
-      <title>Changelog: 29 August 2023</title>
-      <pubDate>Tue, 29 Aug 2023 22:15:02 +0800</pubDate>
-      <description><![CDATA[
-          <ul>
-            <li>Added link button for the site's RSS feed.</li>
-            <li>Fixed the overflow issue of header images.</li>
-            <li>Added custom style for the <a href="https://leilukin.neocities.org/sitemap.html">Site Map</a> page.</li>
-            <li>Improved accessibility of the site's design by customising the CSS <code>:focus</code> selector.</li>
-          </ul>
-        ]]></description>
     </item>
   </channel>
 </rss>
