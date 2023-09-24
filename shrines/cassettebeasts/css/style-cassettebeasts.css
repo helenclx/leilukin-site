@@ -8,10 +8,10 @@
 
     --clr-main-heading: #000000;
     --clr-sub-heading: #000000;
-    --clr-title-border: #505050;
-    --clr-bold-txt: #F2814C;
-    --clr-link: #AB75E8;
-    --clr-link-hover: #6914cb;
+    --clr-title-border: #7629db;
+    --clr-bold-txt: #f8560b;
+    --clr-link: #7629db;
+    --clr-link-hover: #270e48;
     --clr-quote-bg: #f3f2f2;
     --clr-quote-border: #414141;
 
@@ -23,11 +23,11 @@
     --clr-link-btn-txt: white;
     --clr-link-btn-hover: #241445;
 
-    --clr-main-header-bg: #AB75E8;
-    --clr-navbar-bg: #AB75E8;
+    --clr-main-header-bg: #9b59b6;
+    --clr-navbar-bg: #9b59b6;
     --clr-navbar-link: white;
 
-    --clr-main-footer-bg: #AB75E8;
+    --clr-main-footer-bg: #9b59b6;
 }
 
 .main-header {
