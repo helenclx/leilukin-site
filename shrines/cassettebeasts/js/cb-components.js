@@ -11,7 +11,6 @@ document.querySelector(".navbar").innerHTML = `
         <li><a href="/shrines/cassettebeasts/articles">Articles</a></li>
         <li><a href="/shrines/cassettebeasts/gamelog">Game Log</a></li>
         <li><a href="/shrines/cassettebeasts/featured.html">Featured</a></li>
-        <li><a href="/shrines/cassettebeasts/devinsights.html">Dev Insights</a></li>
         <li><a href="/shrines/cassettebeasts/trivia.html">Trivia</a></li>
         <li><a href="/home.html">Main Site</a></li>
     </ul>
