@@ -36,7 +36,7 @@ window.addEventListener("scroll", e => {
 document.querySelector(".right-sidebar").innerHTML = `
     <div class="sidebar--sticky">
         <h2>About</h2>
-        <p>Welcome to Leilukin's shrine for <cite>Cassette Beasts</cite>, an indie monster taming turn-based open-world RPG developed by Bytten Studio and published by Raw Fury.</p>
+        <p>Welcome to Leilukin's shrine for <cite>Cassette Beasts</cite>, an indie monster collecting turn-based open-world RPG developed by Bytten Studio and published by Raw Fury.</p>
         <h3>Links</h3>
         <ul>
             <li><a href="https://www.cassettebeasts.com/" target="_blank">Official Website</a>
