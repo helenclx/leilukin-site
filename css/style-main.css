@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
 :root {
     --clr-body-bg: #08031A;
     --img-body-bg: url('/assets/starsforever.png');
@@ -26,22 +28,8 @@
     --clr-navbar-link: white;
 
     --clr-main-footer-bg: #13092D;
-}
 
-@font-face {
-    font-family: 'Nunito';
-    src: url('/assets/fonts/Nunito-VariableFont_wght.ttf') format("truetype");
-    font-weight: 125 950;
-    font-stretch: 75% 125%;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('/assets/fonts/Nunito-Italic-VariableFont_wght.ttf') format("truetype");
-    font-weight: 125 950;
-    font-stretch: 75% 125%;
-    font-style: italic;
+    --ff-primary: 'Noto Sans';
 }
 
 /* CSS RESET */
@@ -127,7 +115,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+    font-family: var(--ff-primary), Arial, Helvetica, sans-serif;
     color: var(--clr-body-txt);
     background-color: var(--clr-body-bg);
     background-image: var(--img-body-bg);

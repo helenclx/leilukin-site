@@ -1,18 +1,4 @@
-@font-face {
-    font-family: 'Nunito';
-    src: url('/assets/fonts/Nunito-VariableFont_wght.ttf') format("truetype");
-    font-weight: 125 950;
-    font-stretch: 75% 125%;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Nunito';
-    src: url('/assets/fonts/Nunito-Italic-VariableFont_wght.ttf') format("truetype");
-    font-weight: 125 950;
-    font-stretch: 75% 125%;
-    font-style: italic;
-}
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 
 /* CSS RESET */
 /* Box sizing rules */
@@ -100,7 +86,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     font-size: 1.3rem;
-    font-family: 'Nunito', Arial, sans-serif;
+    font-family: 'Noto Sans', Arial, sans-serif;
     min-height: 100vh;
     display: flex;
     align-items: center;
