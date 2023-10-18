@@ -14,6 +14,15 @@
       <height>300</height>
     </image>
     <item>
+      <title>Changelog: 18 October 2923</title>
+      <pubDate>Wed, 18 Oct 2023 16:56:23 +0800</pubDate>
+      <description><![CDATA[
+        <ul>
+          <li><cite>Cassette Beasts</cite> <a href="https://leilukin.neocities.org/shrines/cassettebeasts/">shrine</a>: Added Developer Notes section to the <a href="https://leilukin.neocities.org/shrines/cassettebeasts/trivia.html">Trivia</a> page.</li>
+        </ul>
+      ]]></description>
+    </item>
+    <item>
       <title>My Cassette Beasts Pombomb Plushie Arrived!</title>
       <pubDate>Fri, 13 Oct 2023 22:47:22 +0800</pubDate>
       <link>https://leilukin.neocities.org/blog/posts/2023-10-13-My-Cassette-Beasts-Pombomb-Plushie-Arrived.html</link>
@@ -101,15 +110,6 @@
           <li><cite>Star Wars: Knights of the Old Republic</cite> <a href="https://leilukin.neocities.org/shrines/starwarskotor/">shrine</a>: Hide the right sidebar.</li>
           <li><cite>A Summer’s End — Hong Kong 1986</cite> <a href="https://leilukin.neocities.org/shrines/asummersend/">shrine</a>: Change the content of the right sidebar.</li>
           <li><cite>Cassette Beasts</cite> <a href="https://leilukin.neocities.org/shrines/cassettebeasts/">shrine</a>: Change the content of the right sidebar.</li>
-        </ul>
-      ]]></description>
-    </item>
-    <item>
-      <title>Changelog: 7 September 2023</title>
-      <pubDate>Thu, 7 Sep 2023 23:55:33 +0800</pubDate>
-      <description><![CDATA[
-        <ul>
-          <li><cite>Cassette Beasts</cite> <a href="https://leilukin.neocities.org/shrines/cassettebeasts/">shrine</a>: The <a href="https://leilukin.neocities.org/shrines/cassettebeasts/articles/">Articles</a> page now includes other people's <cite>Cassette Beasts</cite> articles that I recommend.</li>
         </ul>
       ]]></description>
     </item>
