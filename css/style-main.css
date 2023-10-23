@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 
+/* ------------------- */
+/* Custom Properties   */
+/* ------------------- */
+
 :root {
     --clr-body-bg: #08031A;
     --img-body-bg: url('/assets/starsforever.png');
@@ -32,7 +36,10 @@
     --ff-primary: 'Noto Sans';
 }
 
-/* CSS RESET */
+/* ------------------- */
+/* CSS Reset           */
+/* ------------------- */
+
 /* Box sizing rules */
 *,
 *::before,
@@ -108,7 +115,9 @@ select {
     }
 }
 
-/* STYLING BEGINS */
+/* ------------------- */
+/* STYLING BEGINS      */
+/* ------------------- */
 
 /* General Styles */
 body {
@@ -249,6 +258,7 @@ summary {
 .main-header img {
     object-fit: scale-down;
     overflow: hidden;
+    filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
 }
 
 /* NAVIGATION BAR COMPONENT */
@@ -532,9 +542,86 @@ article, .content-container {
     gap: 0.5rem;
 }
 
-/* REFERENCES LIST */
+/* References list */
 .references-list {
     font-size: 0.96em;
+}
+
+/* Pride flag backgrounds */
+.flag-ace {
+	background: repeating-linear-gradient(
+		#000000 0 25%,
+		#a3a3a3 0 50%,
+		#ffffff 0 75%,
+		#800080 0 100%
+	);
+}
+
+.flag-bi {
+	background: repeating-linear-gradient(
+		#d60270 0 40%,
+		#9b4f97 0 60%,
+		#0038a7 0 100%
+	);
+}
+
+.flag-lesbian {
+	background: repeating-linear-gradient(
+		#d52d00 0 14.29%,
+		#ef7627 0 28.57%,
+		#ff9a56 0 42.86%,
+		#ffffff 0 57.14%,
+		#d362a4 0 71.43%,
+		#b85490 0 86.71%,
+		#a30262 0 100%
+	);
+}
+
+.flag-non-binary {
+	background: repeating-linear-gradient(
+		#fff430 0 25%,
+		#ffffff 0 50%,
+		#9c59d1 0 75%,
+		#000000 0 100%
+	);
+}
+
+.flag-pan {
+	background: repeating-linear-gradient(
+		#ff218c 0 33.33%,
+		#ffd800 0 66.67%,
+		#21b1ff 0 100%
+	);
+}
+
+.flag-rainbow {
+	background: repeating-linear-gradient(
+		#e40303 0 16.67%,
+		#ff8c00 0 33.33%,
+		#ffed00 0 50%,
+		#008026 0 66.67%,
+		#004dff 0 83.33%,
+		#750787 0 100%
+	);
+}
+
+.flag-trans {
+	background: repeating-linear-gradient(
+		#5bcefa 0 20%,
+		#f5a9b8 0 40%,
+		#ffffff 0 60%,
+		#f5a9b8 0 80%,
+		#5bcefa 0 100%
+	);
+}
+
+.flag-intersex {
+	background: radial-gradient(closest-side circle at center,
+		#ffd800 44%,
+		#7902aa 44%,
+		#7902aa 56%,
+		#ffd800 56%
+	);
 }
 
 /* FOOTER COMPONENT */
