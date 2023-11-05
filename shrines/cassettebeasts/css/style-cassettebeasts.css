@@ -3,10 +3,10 @@
 :root {
     --clr-body-bg: #1f0033;
     --img-body-bg: url(/shrines/cassettebeasts/img/cassettebeasts-bg.jpg);
-    --clr-body-txt: #000000;
+    --clr-body-txt: #333333;
     --clr-content-bg: #ffffff;
 
-    --clr-main-heading: #000000;
+    --clr-main-heading: #333333;
     --clr-sub-heading: #000000;
     --clr-title-border: #7629db;
     --clr-bold-txt: #f8560b;
