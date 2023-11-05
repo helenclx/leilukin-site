@@ -172,7 +172,7 @@ hr {
 .blog-container {
     width: 95%;
     max-width: 68.75rem;
-    background-color: black;
+    background-color: #101010;
     color: #dddddd;
     border-radius: 2rem;
     overflow: hidden;
