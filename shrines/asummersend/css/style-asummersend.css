@@ -4,7 +4,7 @@
     --clr-body-bg: #1f0033;
     --img-body-bg: none;
     --clr-body-txt: #fceaff;
-    --clr-content-bg: #000000;
+    --clr-content-bg: #101010;
 
     --clr-main-heading: #FF29D8;
     --clr-sub-heading: #FF29D8;
@@ -23,11 +23,11 @@
     --clr-link-btn-txt: white;
     --clr-link-btn-hover: #241445;
 
-    --clr-main-header-bg: black;
-    --clr-navbar-bg: #101010;
+    --clr-main-header-bg: #101010;
+    --clr-navbar-bg: #181818;
     --clr-navbar-link: white;
 
-    --clr-main-footer-bg: #101010;
+    --clr-main-footer-bg: #181818;
 }
 
 .main-header {
