@@ -644,6 +644,18 @@ article, .content-container {
         linear-gradient(#e40303 0 16.66%, #ff8c00 0 33.33%, #ffed00 0 50%, #008026 0 66.66%, #004dff 0 83.33%, #750787 0);
 }
 
+.flag-progress-intersex {
+    background:
+        radial-gradient(circle at 9.75% 50%, #0000 6.66%, #7902aa 6.7% 8.33%, #0000 8.4%),
+        conic-gradient(at 26.66% 50%, #0000 222.75deg, #ffd800 0 317.25deg, #0000 0),
+        conic-gradient(at 33% 50%, #0000 222.75deg, #ffffff 0 317.25deg, #0000 0),
+        conic-gradient(at 39% 50%, #0000 222.75deg, #f5a9b8 0 317.25deg, #0000 0),
+        conic-gradient(at 45.66% 50%, #0000 222.75deg, #5bcefa 0 317.25deg, #0000 0),
+        conic-gradient(at 52% 50%, #0000 222.75deg, #753000 0 317.25deg, #0000 0),
+        conic-gradient(at 58.33% 50%, #0000 222.75deg, #000 0 317.25deg, #0000 0),
+        linear-gradient(#e40303 0 16.66%, #ff8c00 0 33.33%, #ffed00 0 50%, #008026 0 66.66%, #004dff 0 83.33%, #750787 0);
+}
+
 /* FOOTER COMPONENT */
 .main-footer {
     background: var(--clr-main-footer-bg);
