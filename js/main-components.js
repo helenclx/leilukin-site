@@ -46,7 +46,9 @@ function getTodayEvent() {
 	else if (month == 4 && day == 26)
 		return "Lesbian Visibility Day";
 	else if (month == 5 && day == 17)
-		return "IDAHOBIT";          
+		return "IDAHOBIT";
+    else if (month == 5 && day == 19)
+		return "Agender Pride Day";        
 	else if (month == 5 && day == 25)
 		return "Pansexual and Panromantic Awareness & Visibility Day";
 	else if (month == 6)
@@ -85,6 +87,9 @@ function getBanner(day) {
             break;
         case "IDAHOBIT":
             return "flag-progress";
+            break;
+        case "Agender Pride Day":
+            return "flag-agender";
             break;
         case "Pansexual and Panromantic Awareness & Visibility Day":
             return "flag-pan";
@@ -137,6 +142,11 @@ function getBlurbHtml(day) {
         case "IDAHOBIT":
             return `
                 Today is <a href="https://may17.org" target="_blank">International Day Against Homophobia, Biphobia and Transphobia</a></span>
+            `;
+            break;
+        case "Agender Pride Day":
+            return `
+                Today is <a href="https://www.believeoutloud.com/voices/article/agender-pride-day/" target="_blank">Agender Pride Day</a></span>
             `;
             break;
         case "Pansexual and Panromantic Awareness & Visibility Day":
