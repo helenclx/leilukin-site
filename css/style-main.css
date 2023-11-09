@@ -567,11 +567,93 @@ article, .content-container {
 	);
 }
 
+.flag-agender {
+    background: linear-gradient(
+        black 0 14.28%,
+        silver 0 28.57%,
+        white 0 42.85%,
+        #a3fa73 0 57.14%,
+        white 0 71.42%,
+        silver 0 85.71%,
+        black 0
+    );
+}
+
+.flag-aro {
+    background: linear-gradient(
+        #0a2 20%,
+        #7d6 0 40%,
+        white 0 60%,
+        darkgray 0 80%,
+        black 0
+    );
+}
+
 .flag-bi {
 	background: repeating-linear-gradient(
 		#d60270 0 40%,
 		#9b4f97 0 60%,
 		#0038a7 0 100%
+	);
+}
+
+.flag-demigirl {
+    background: linear-gradient(
+        #7F7F7F 0 14.28%,
+        #C4C4C4 0 28.57%,
+        #FDADC8 0 42.85%,
+        white 0 57.14%,
+        #FDADC8 0 71.42%,
+        #C4C4C4 0 85.71%,
+        #7F7F7F 0
+    );
+}
+
+.flag-bigender {
+    background: linear-gradient(
+        #d074a2 0 14.28%,
+        #f8a1cd 0 28.57%,
+        #d9c6ea 0 42.85%,
+        white 0 57.14%,
+        #d9c6ea 0 71.42%,
+        #90c8ec 0 85.71%,
+        #6583d5 0
+    );
+}
+
+.flag-gilbert-baker {
+    background: linear-gradient(
+        #FF6599 12.5%,
+        #e40303 0 25%,
+        #ff8c00 0 37.5%,
+        #ffed00 0 50%,
+        #008026 0 62.5%,
+        #00C0C0 0 75%,
+        #004dff 0 87.5%,
+        #750787 0
+    );
+}
+
+.flag-gilbert-baker-2017 {
+    background: linear-gradient(
+        #CD66FF 11.1%,
+        #FF6599 0 22.2%,
+        #e40303 0 33.3%,
+        #ff8c00 0 44.4%,
+        #ffed00 0 55.5%,
+        #008026 0 66.6%,
+        #00C0C0 0 77.7%,
+        #004dff 0 88.8%,
+        #750787 0
+    );
+}
+
+.flag-intersex {
+	background: radial-gradient(closest-side circle at center,
+		#ffd800 44%,
+		#7902aa 44%,
+		#7902aa 56%,
+		#ffd800 56%
 	);
 }
 
@@ -604,36 +686,6 @@ article, .content-container {
 	);
 }
 
-.flag-rainbow {
-	background: repeating-linear-gradient(
-		#e40303 0 16.67%,
-		#ff8c00 0 33.33%,
-		#ffed00 0 50%,
-		#008026 0 66.67%,
-		#004dff 0 83.33%,
-		#750787 0 100%
-	);
-}
-
-.flag-trans {
-	background: repeating-linear-gradient(
-		#5bcefa 0 20%,
-		#f5a9b8 0 40%,
-		#ffffff 0 60%,
-		#f5a9b8 0 80%,
-		#5bcefa 0 100%
-	);
-}
-
-.flag-intersex {
-	background: radial-gradient(closest-side circle at center,
-		#ffd800 44%,
-		#7902aa 44%,
-		#7902aa 56%,
-		#ffd800 56%
-	);
-}
-
 .flag-progress {
 	background:
         conic-gradient(at 14% 50%, #0000 221.25deg, #ffffff 222deg 318deg, #0000 318.25deg),
@@ -654,6 +706,27 @@ article, .content-container {
         conic-gradient(at 52% 50%, #0000 222.75deg, #753000 0 317.25deg, #0000 0),
         conic-gradient(at 58.33% 50%, #0000 222.75deg, #000 0 317.25deg, #0000 0),
         linear-gradient(#e40303 0 16.66%, #ff8c00 0 33.33%, #ffed00 0 50%, #008026 0 66.66%, #004dff 0 83.33%, #750787 0);
+}
+
+.flag-rainbow {
+	background: repeating-linear-gradient(
+		#e40303 0 16.67%,
+		#ff8c00 0 33.33%,
+		#ffed00 0 50%,
+		#008026 0 66.67%,
+		#004dff 0 83.33%,
+		#750787 0 100%
+	);
+}
+
+.flag-trans {
+	background: repeating-linear-gradient(
+		#5bcefa 0 20%,
+		#f5a9b8 0 40%,
+		#ffffff 0 60%,
+		#f5a9b8 0 80%,
+		#5bcefa 0 100%
+	);
 }
 
 /* FOOTER COMPONENT */
