@@ -19,20 +19,18 @@ function loadHeader() {
     };
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    const todayEvent = getTodayEvent();
-    const headerTopBarEl = document.querySelector(".main-header__top-bar");
-    const headerImgEl = document.querySelector(".main-header__img");
+const todayEvent = getTodayEvent();
+const headerTopBarEl = document.querySelector(".main-header__top-bar");
+const headerImgEl = document.querySelector(".main-header__img");
 
-    if (todayEvent != "No event") {
-        if (todayEvent == "Leilukin's Birthday" || todayEvent == "Leilukin's Hub Anniversary") {
-            headerTopBarEl.innerHTML = getBlurbHtml(todayEvent);
-        } else {
-            headerImgEl.classList.add(getBanner(todayEvent));
-            headerTopBarEl.innerHTML = getBlurbHtml(todayEvent);
-        }
-    };
-});
+if (todayEvent != "No event") {
+    if (todayEvent == "Leilukin's Birthday" || todayEvent == "Leilukin's Hub Anniversary") {
+        headerTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+    } else {
+        headerImgEl.classList.add(getBanner(todayEvent));
+        headerTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+    }
+};
 
 function getTodayEvent() {
 	const date = new Date();
@@ -190,7 +188,6 @@ function getBlurbHtml(day) {
             return ``;
 	}
 }
-
 
 
 /* ------ MAIN NAVIGATION BAR COMPONENT ------ */
