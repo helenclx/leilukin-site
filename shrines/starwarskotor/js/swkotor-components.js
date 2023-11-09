@@ -1,7 +1,57 @@
 /* ------ STAR WARS KOTOR SHRINE HEADER COMPONENT ------ */
-document.querySelector(".main-header").innerHTML = `
-    <img src="/shrines/starwarskotor/img/swkotor-header.jpg" alt="">
-`;
+const header = document.querySelector(".main-header");
+
+header.innerHTML = loadHeader();
+
+function loadHeader() {
+    const headerTopBar = `<div class="main-header__top-bar"></div>`;
+    const headerImg = `<img src="/shrines/starwarskotor/img/swkotor-header.jpg
+    " alt="">`;
+    const todayEvent = getTodayEvent();
+
+    if (todayEvent == "No event") {
+        return headerImg;
+    } else {
+        return headerTopBar + headerImg;
+    };
+}
+
+const todayEvent = getTodayEvent();
+const headerTopBarEl = document.querySelector(".main-header__top-bar");
+
+if (todayEvent != "No event") {
+	headerTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+};
+
+function getTodayEvent() {
+	const date = new Date();
+	const month = date.getMonth() + 1;
+	const day = date.getDate();
+		
+	if (month == 7 && day == 16)
+		return "KotOR 1 Anniversary";
+	else if (month == 12 && day == 6)
+		return "KotOR 2 Anniversary";
+	else
+		return "No event";
+}
+
+function getBlurbHtml(day) {
+	switch (day) {
+        case "KotOR 1 Anniversary":
+            return `
+                Today is the anniversary of the release of <cite>Star Wars: Knihgts of the Old Republic</cite>
+            `;
+            break;
+        case "KotOR 2 Anniversary":
+            return `
+                Today is the anniversary of the release of <cite>Star Wars: Knights of the Old Republic II — The Sith Lords</cite>
+            `;
+            break;
+        default:
+            return ``;
+	}
+}
 
 /* Navigation component content */
 document.querySelector(".navbar").innerHTML = `
@@ -16,7 +66,6 @@ document.querySelector(".navbar").innerHTML = `
 `;
 
 // Make the navigation bar sticky
-const header = document.querySelector(".main-header");
 const navbar = document.querySelector(".navbar");
 
 window.addEventListener("scroll", e => {
