@@ -1,7 +1,70 @@
 /* ------ A SUMMER'S END SHRINE HEADER COMPONENT ------ */
-document.querySelector(".main-header").innerHTML = `
-    <img src="./img/asummersend_header.png" alt="">
-`;
+const header = document.querySelector(".main-header");
+
+header.innerHTML = loadHeader();
+
+function loadHeader() {
+    const headerTopBar = `<div class="main-header__top-bar"></div>`;
+    const headerImg = `<img src="./img/asummersend_header.png" alt="">`;
+    const todayEvent = getTodayEvent();
+
+    if (todayEvent == "No event") {
+        return headerImg;
+    } else {
+        return headerTopBar + headerImg;
+    };
+}
+
+const todayEvent = getTodayEvent();
+const headerTopBarEl = document.querySelector(".main-header__top-bar");
+
+if (todayEvent != "No event") {
+	headerTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+};
+
+function getTodayEvent() {
+	const date = new Date();
+	const month = date.getMonth() + 1;
+	const day = date.getDate();
+		
+	if (month == 2 && day == 16)
+		return "Michelle's Birthday";
+	else if (month == 4 && day == 23)
+		return "ASE Anniversary";
+	else if (month == 8 && day == 9)
+		return "Cecelia's Birthday";
+	else if (month == 12 && day == 28)
+		return "Sam's Birthday";
+	else
+		return "No event";
+}
+
+function getBlurbHtml(day) {
+	switch (day) {
+        case "Michelle's Birthday":
+            return `
+                Today is Michelle Cheung's birthday. Happy Birthday Michelle!
+            `;
+            break;
+        case "ASE Anniversary":
+            return `
+                Today is the anniversary of the release of <cite>A Summer’s End — Hong Kong 1986</cite>!
+            `;
+            break;
+        case "Cecelia's Birthday":
+            return `
+                Today is Cecelia Cortes' birthday. Happy Birthday Cecelia!
+            `;
+            break;
+        case "Sam's Birthday":
+            return `
+                Today is Sam Wong's birthday. Happy Birthday Sam!
+            `;
+            break;
+        default:
+            return ``;
+	}
+}
 
 
 /* ------ A SUMMER'S END SHRINE NAVIGATION BAR COMPONENT ------ */
@@ -16,7 +79,6 @@ document.querySelector(".navbar").innerHTML = `
 `;
 
 // Make the navigation bar sticky
-const header = document.querySelector(".main-header");
 const navbar = document.querySelector(".navbar");
 
 window.addEventListener("scroll", e => {
