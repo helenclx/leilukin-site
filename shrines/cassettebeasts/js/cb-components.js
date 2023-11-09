@@ -1,7 +1,56 @@
 /* ------ CASSETTE BEASTS SHRINE HEADER COMPONENT ------ */
-document.querySelector(".main-header").innerHTML = `
-    <img src="/shrines/cassettebeasts/img/cassettebeasts-header.png" alt="">
-`;
+const header = document.querySelector(".main-header");
+
+header.innerHTML = loadHeader();
+
+function loadHeader() {
+    const headerTopBar = `<div class="main-header__top-bar"></div>`;
+    const headerImg = `<img src="/shrines/cassettebeasts/img/cassettebeasts-header.png" alt="">`;
+    const todayEvent = getTodayEvent();
+
+    if (todayEvent == "No event") {
+        return headerImg;
+    } else {
+        return headerTopBar + headerImg;
+    };
+}
+
+const todayEvent = getTodayEvent();
+const headerTopBarEl = document.querySelector(".main-header__top-bar");
+
+if (todayEvent != "No event") {
+	headerTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+};
+
+function getTodayEvent() {
+	const date = new Date();
+	const month = date.getMonth() + 1;
+	const day = date.getDate();
+		
+	if (month == 4 && day == 26)
+		return "CB Anniversary";
+	else if (month == 9 && day == 12)
+		return "Pier Anniversary";
+	else
+		return "No event";
+}
+
+function getBlurbHtml(day) {
+	switch (day) {
+        case "CB Anniversary":
+            return `
+                Today is the anniversary of the release of <cite>Cassette Beasts</cite>!
+            `;
+            break;
+        case "Pier Anniversary":
+            return `
+                Today is the anniversary of the release of <cite>Pier of the Unknown</cite>, the first DLC expansion of <cite>Cassette Beasts</cite>!
+            `;
+            break;
+        default:
+            return ``;
+	}
+}
 
 
 /* ------ CASSETTE BEASTS SHRINE NAVIGATION BAR COMPONENT ------ */
@@ -17,7 +66,6 @@ document.querySelector(".navbar").innerHTML = `
 `;
 
 // Make the navigation bar sticky
-const header = document.querySelector(".main-header");
 const navbar = document.querySelector(".navbar");
 
 window.addEventListener("scroll", e => {
