@@ -72,7 +72,7 @@ function getTodayEvent() {
 function getBanner(day) {
 	switch (day) {
         case "Zero Discrimination Day":
-            return "flag-progress";
+            return "flag-progress-intersex";
             break;
         case "Trans Day of Visibility":
             return "flag-trans";
@@ -90,7 +90,7 @@ function getBanner(day) {
             return "flag-pan";
             break;
         case "Pride Month":
-            return "flag-progress";
+            return "flag-progress-intersex";
             break;
         case "Non-Binary People's Day":
             return "flag-non-binary";
