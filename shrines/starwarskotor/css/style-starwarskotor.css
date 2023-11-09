@@ -30,6 +30,10 @@
     --clr-main-footer-bg: #171717;
 }
 
+.main-header {
+    max-height: 20rem;
+}
+
 .main-header img {
     object-fit: cover;
     object-position: center;
