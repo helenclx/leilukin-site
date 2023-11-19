@@ -14,6 +14,17 @@
       <height>300</height>
     </image>
     <item>
+      <title>I Can Finally Game on a Solid-State Drive</title>
+      <pubDate>Sun, 19 Nov 2023 17:10:18 +0800</pubDate>
+      <link>https://leilukin.neocities.org/blog/2023-11-19-I-Can-Finally-Game-on-a-Solid-State-Drive.html</link>
+      <author>Leilukin</author>
+      <description><![CDATA[
+        <p>New blog post.</p>
+
+        <p>I just got the solid-state drive (SSD) of my 5-year-old gaming laptop replaced with a new onw with a larger storage capacity, allowing me to install games on an SSD to enjoy the benefit of gaming on an SSD.</p>
+      ]]></description>
+    </item>
+    <item>
       <title>Changelog: 9 November 2023</title>
       <pubDate>Thu, 9 Nov 2023 20:09:00 +0800</pubDate>
       <description><![CDATA[
@@ -49,7 +60,7 @@
       <author>Leilukin</author>
       <description><![CDATA[
         <p>New blog post.</p>
-        
+
         <p>The official Cassette Beasts Pombomb plushie I purchased finally arrived.</p>
       ]]></description>
     </item>
@@ -109,17 +120,6 @@
           <li>Modified <a href="https://leilukin.neocities.org/blog/">blog</a> style.</li>
           <li>Added the blog's new layout to the <a href="https://leilukin.neocities.org/changelog/layouts.html">layout archive</a>.</li>
         </ul>
-      ]]></description>
-    </item>
-    <item>
-      <title>Happy 1st Anniversary to Leilukin's Hub</title>
-      <pubDate>Mon, 11 Sep 2023 00:21:26 +0800</pubDate>
-      <link>https://leilukin.neocities.org/blog/posts/2023-09-11-Happy-1st-Anniversary-to-Leilukins-Hub.html</link>
-      <author>Leilukin</author>
-      <description><![CDATA[
-        <p>New blog post.</p>
-        
-        <p>Celebrating the first anniversary of Leilukin's Hub and reflecting on the evolution of my website throughout past year.</p>
       ]]></description>
     </item>
   </channel>
