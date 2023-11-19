@@ -1,5 +1,5 @@
 /*Welcome to the script file! Your 1st time here, you should update
-    the basic info section to include your name and website/social 
+    the basic info section to include your name and website/social
     media link (if desired). Most of the time, you will just come
     here to update the posts array. However, you can also edit or
     add your own scripts to do whatever you like!*/
@@ -22,15 +22,16 @@ let authorLink = "https://leilukin.neocities.org/"; // Enter your website, socia
 
 //==[ 2. POSTS ARRAY ]==
 
-/*Each time you make a new post, add the filepath here at the top of postsArray.
+/* Each time you make a new post, add the filepath here at the top of postsArray.
     This will cause all the right links to appear and work.
     NOTE: It's important to follow this exact naming convention, because the scripts
     below are expecting it ( 'posts/YYYY-MM-DD-Title-of-Your-Post.html', ). You can
-    alter the scripts if you want to use a different naming convention*/
-/*UPDATE: as of version 1.3, you may omit the date if you would like. But if you
-    use a date it must still follow that format.*/
+    alter the scripts if you want to use a different naming convention */
+/* UPDATE: as of version 1.3, you may omit the date if you would like. But if you
+    use a date it must still follow that format. */
 
 let postsArray = [
+    [ "posts/2023-11-19-I-Can-Finally-Game-on-a-Solid-State-Drive.html", encodeURI( `I Can Finally Game on a Solid-State Drive` ) ],
     [ "posts/2023-10-30-Support-for-My-Steam-Review-of-A-Summers-End.html", encodeURI( `Support for My Steam Review of A Summer's End — Hong Kong 1986` ) ],
     [ "posts/2023-10-13-My-Cassette-Beasts-Pombomb-Plushie-Arrived.html", encodeURI( `My Cassette Beasts Pombomb Plushie Arrived!` ) ],
     [ "posts/2023-09-11-Happy-1st-Anniversary-to-Leilukins-Hub.html", encodeURI( `Happy 1st Anniversary to Leilukin's Hub` ) ],
@@ -60,7 +61,7 @@ if ( url.includes("posts/") ) {
 const mainSiteURL = "/home.html";
 
 //Write the Header HTML, a series of list items containing links.
-let headerHTML = '<ul> <li><a href="' + relativePath + '/index.html">Blog</a></li>' + 
+let headerHTML = '<ul> <li><a href="' + relativePath + '/index.html">Blog</a></li>' +
 '<li><a href="' + relativePath + '/archive.html">Archive</a></li>' +
 '<li><a href="' + mainSiteURL + '">Main Site</a></li> </ul>';
 
@@ -88,7 +89,7 @@ function formatPostTitle(i) {
     if ( postsArray[i].length > 1 ) {
         //Remember how we had to use encodeURI for special characters up above? Now we use decodeURI to get them back.
         return decodeURI(postsArray[i][1]);
-    } else { 
+    } else {
     //If there is no alternate post title, check if the post uses the date format or not, and return the proper title
 	if (  postDateFormat.test ( postsArray[i][0].slice( 6,17 ) ) ) {
 	  return postsArray[i][0].slice(17,-5).replace(/-/g," ");
@@ -171,7 +172,7 @@ let nextlink = "";
 let prevlink = "";
 
 /*If you're on the newest blog post, there's no point to
- a "Next Post" link, right? And vice versa with the oldest 
+ a "Next Post" link, right? And vice versa with the oldest
  post! That's what the following code handles.*/
 if ( postsArray.length < 2 ) {
     nextprevHTML = '<a href="' + relativePath + '/index.html">Blog</a>';
@@ -192,8 +193,8 @@ if ( postsArray.length < 2 ) {
 //==[ 4. INSERTING THE SECTIONS INTO OUR ACTUAL HTML PAGES ]==
 
 /*Here we check if each relevant div exists. If so, we inject the correct HTML!
-    NOTE: All of these sections are optional to use on any given page. For example, if there's 
-    one particular blog post where we don't want the footer to appear, 
+    NOTE: All of these sections are optional to use on any given page. For example, if there's
+    one particular blog post where we don't want the footer to appear,
     we simply don't put a <div id="footer"> on that page.*/
 
 if (document.getElementById("nextprev")) {
