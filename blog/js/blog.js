@@ -31,6 +31,7 @@ let authorLink = "https://leilukin.neocities.org/"; // Enter your website, socia
     use a date it must still follow that format. */
 
 let postsArray = [
+    [ "posts/2023-11-20-Finally-Beat-A-Bugs-Life-Video-Game-24-Years-Later.html", encodeURI( `Finally Beat A Bug's Life The Video Game — 24 Years Later` ) ],
     [ "posts/2023-11-19-I-Can-Finally-Game-on-a-Solid-State-Drive.html", encodeURI( `I Can Finally Game on a Solid-State Drive` ) ],
     [ "posts/2023-10-30-Support-for-My-Steam-Review-of-A-Summers-End.html", encodeURI( `Support for My Steam Review of A Summer's End — Hong Kong 1986` ) ],
     [ "posts/2023-10-13-My-Cassette-Beasts-Pombomb-Plushie-Arrived.html", encodeURI( `My Cassette Beasts Pombomb Plushie Arrived!` ) ],
