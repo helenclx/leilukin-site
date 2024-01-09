@@ -14,6 +14,15 @@
       <height>300</height>
     </image>
     <item>
+      <title>Changelog: 9 January 2024</title>
+      <pubDate>Tue, 9 Jan 2024 17:29:48 +0800</pubDate>
+      <description><![CDATA[
+        <ul>
+          <li><cite>Cassette Beasts</cite> <a href="/shrines/cassettebeasts/">shrine</a>: Added a new section: My Contributions to the <cite>Cassette Beasts</cite> community.</li>
+        </ul>
+      ]]></description>
+    </item>
+    <item>
       <title>Finally Beat A Bug's Life The Video Game — 24 Years Later</title>
       <pubDate>Mon, 20 Nov 2023 20:13:18 +0800</pubDate>
       <link>https://leilukin.neocities.org/blog/2023-11-20-Finally-Beat-A-Bugs-Life-Video-Game-24-Years-Later.html</link>
@@ -109,15 +118,6 @@
       <description><![CDATA[
         <ul>
           <li><cite>Cassette Beasts</cite> <a href="https://leilukin.neocities.org/shrines/cassettebeasts/">shrine</a>: Updated the <a href="https://leilukin.neocities.org/shrines/cassettebeasts/devinsights.html">Developer Insight</a> page by adding an Event Showcase section.</li>
-        </ul>
-      ]]></description>
-    </item>
-    <item>
-      <title>Changelog: 13 September 2023</title>
-      <pubDate>Wed, 13 Sep 2023 22:45:43 +0800</pubDate>
-      <description><![CDATA[
-        <ul>
-          <li><cite>Cassette Beasts</cite> <a href="https://leilukin.neocities.org/shrines/cassettebeasts/">shrine</a>: Updated the <a href="/shrines/cassettebeasts/trivia.html">Trivia</a> page's Development History section with new information about the "Pier of the Unknown" DLC.</li>
         </ul>
       ]]></description>
     </item>
