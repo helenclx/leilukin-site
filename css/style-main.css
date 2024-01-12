@@ -216,6 +216,20 @@ summary {
     cursor: pointer;
 }
 
+dl {
+    display: grid;
+    grid-gap: 0.4rem 1rem;
+    grid-template-columns: max-content;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    grid-column-start: 2;
+}
+
 /* ELEMENT STYLES WITH CUSTOM CLASSES */
 .bold-text {
     font-weight: 700;
@@ -389,7 +403,7 @@ article, .content-container {
     .left-sidebar {
         order: 1;
     }
-    
+
     .right-sidebar {
         order: 3;
     }
