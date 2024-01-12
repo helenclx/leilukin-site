@@ -216,9 +216,11 @@ summary {
     cursor: pointer;
 }
 
+
+
 dl {
     display: grid;
-    grid-gap: 0.4rem 1rem;
+    grid-gap: 0.5rem 1rem;
     grid-template-columns: max-content;
 }
 
