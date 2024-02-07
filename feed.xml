@@ -14,6 +14,15 @@
       <height>300</height>
     </image>
     <item>
+      <title>Changelog: 7 February 2024</title>
+      <pubDate>Wed, 7 Feb 2024 21:49:21 +0800</pubDate>
+      <description><![CDATA[
+          <ul>
+              <li><a href="/mycreations/">My Creations</a>: Added My Characters section.</li>
+          </ul>
+      ]]></description>
+    </item>
+    <item>
       <title>Changelog: 9 January 2024</title>
       <pubDate>Tue, 9 Jan 2024 17:29:48 +0800</pubDate>
       <description><![CDATA[
@@ -109,15 +118,6 @@
       <description><![CDATA[
         <ul>
           <li><cite>Cassette Beasts</cite> <a href="https://leilukin.neocities.org/shrines/cassettebeasts/">shrine</a>: Removed the Developer Insight page since the official <cite>Cassette Beasts</cite> wiki not has a page for a <a href="https://wiki.cassettebeasts.com/wiki/List_of_Interviews" target="blankk">list of interviews</a> the <cite>Cassette Beasts</cite> staff participated in.</li>
-        </ul>
-      ]]></description>
-    </item>
-    <item>
-      <title>Changelog: 15 September 2023</title>
-      <pubDate>Fri, 15 Sep 2023 22:30:34 +0800</pubDate>
-      <description><![CDATA[
-        <ul>
-          <li><cite>Cassette Beasts</cite> <a href="https://leilukin.neocities.org/shrines/cassettebeasts/">shrine</a>: Updated the <a href="https://leilukin.neocities.org/shrines/cassettebeasts/devinsights.html">Developer Insight</a> page by adding an Event Showcase section.</li>
         </ul>
       ]]></description>
     </item>
