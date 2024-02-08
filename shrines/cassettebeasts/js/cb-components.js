@@ -26,7 +26,7 @@ function getTodayEvent() {
 	const date = new Date();
 	const month = date.getMonth() + 1;
 	const day = date.getDate();
-		
+
 	if (month == 4 && day == 26)
 		return "CB Anniversary";
 	else if (month == 9 && day == 12)
@@ -61,6 +61,7 @@ document.querySelector(".navbar").innerHTML = `
         <li><a href="/shrines/cassettebeasts/gamelog">Game Log</a></li>
         <li><a href="/shrines/cassettebeasts/featured.html">Featured</a></li>
         <li><a href="/shrines/cassettebeasts/trivia.html">Trivia</a></li>
+        <li><a href="/shrines/cassettebeasts/resources.html">Resources</a></li>
         <li><a href="/home.html">Main Site</a></li>
     </ul>
 `;
