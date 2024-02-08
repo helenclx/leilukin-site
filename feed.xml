@@ -14,6 +14,15 @@
       <height>300</height>
     </image>
     <item>
+      <title>Changelog: 8 February 2024</title>
+      <pubDate>Thu, 8 Feb 2024 10:30:34 +0800</pubDate>
+      <description><![CDATA[
+        <ul>
+            <li><cite>Cassette Beasts</cite> <a href="/shrines/cassettebeasts/">shrine</a>: Added <a href="/shrines/cassettebeasts/resources.html">Resources</a> page.</li>
+        </ul>
+      ]]></description>
+    </item>
+    <item>
       <title>Changelog: 7 February 2024</title>
       <pubDate>Wed, 7 Feb 2024 21:49:21 +0800</pubDate>
       <description><![CDATA[
@@ -109,15 +118,6 @@
         <ul>
           <li>Changed this website's font to Noto Sans.</li>
           <li><cite>Cassette Beasts</cite> <a href="https://leilukin.neocities.org/shrines/cassettebeasts/">shrine</a>: Added link to my record of all the bootleg mosnters I have encountered to the <a href="https://leilukin.neocities.org/shrines/cassettebeasts/gamelog/">Game Log</a> page.</li>
-        </ul>
-      ]]></description>
-    </item>
-    <item>
-      <title>Changelog: 28 September 2023</title>
-      <pubDate>Thu, 28 Sep 2023 23:10:22 +0800</pubDate>
-      <description><![CDATA[
-        <ul>
-          <li><cite>Cassette Beasts</cite> <a href="https://leilukin.neocities.org/shrines/cassettebeasts/">shrine</a>: Removed the Developer Insight page since the official <cite>Cassette Beasts</cite> wiki not has a page for a <a href="https://wiki.cassettebeasts.com/wiki/List_of_Interviews" target="blankk">list of interviews</a> the <cite>Cassette Beasts</cite> staff participated in.</li>
         </ul>
       ]]></description>
     </item>
