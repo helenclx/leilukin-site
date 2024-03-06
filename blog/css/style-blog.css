@@ -158,14 +158,14 @@ a {
     color: #ffc000;
 }
 
-a:hover { 
+a:hover {
     background-color: #34220b;
 }
 
 hr {
     border-width: 0.1rem 0 0 0;
     border-style: dotted;
-    border-color: #a3bdc4; 
+    border-color: #a3bdc4;
 }
 
 /* The rectangle that has contains everything but the background */
@@ -222,6 +222,11 @@ hr {
 .blog__title,
 .blog-post__title {
     font-size: 1.75em;
+}
+
+/* POST STYLE */
+.blog-post__figure--img {
+    padding: 1rem 0;
 }
 
 /* POST DATE STYLE */
