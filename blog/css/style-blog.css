@@ -80,11 +80,11 @@ select {
 /* General styles */
 body {
     background-color: black;
-    background-image: url('../img/bg_space.png');
-    background-position: center;
-    background-repeat: repeat-x;
+    background: url('../img/bg_space.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
     font-size: 1.3rem;
     font-family: 'Noto Sans', Arial, sans-serif;
     min-height: 100vh;
