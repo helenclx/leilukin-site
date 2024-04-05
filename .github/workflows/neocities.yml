@@ -22,5 +22,5 @@ jobs:
       uses: bcomnes/deploy-to-neocities@v2.0.2
       with:
         api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
-        cleanup: false
+        cleanup: true
         dist_dir: Leilukins-Hub-public
