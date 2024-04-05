@@ -14,6 +14,15 @@
       <height>300</height>
     </image>
     <item>
+      <title>Changelog: 5 April 2024</title>
+      <pubDate>Fri, 5 Apr 2024 17:58:14 +0800</pubDate>
+      <description><![CDATA[
+        <ul>
+          <li>Add table of contents to my <a href="/mycreations/kotor1mods/"><cite>Star Wars: Knights of the Old Republic</cite></a> and <a href="/mycreations/kotor2mods/"><cite>Star Wars: Knights of the Old Republic II: The Sith Lords</cite> mods</a>.</li>
+        </ul>
+      ]]></description>
+    </item>
+    <item>
       <title>I Received a Lifetime Premium Membership on Nexus Mods for Free</title>
       <pubDate>Thu, 7 Mar 2024 00:07:04 +0800</pubDate>
       <link>https://leilukin.neocities.org/blog/posts/2024-03-06-I-Received-a-Lifetime-Premium-Membership-on-Nexus-Mods-for-Free.html</link>
@@ -119,16 +128,6 @@
       <description><![CDATA[
         <ul>
           <li><cite>Cassette Beasts</cite> <a href="https://leilukin.neocities.org/shrines/cassettebeasts/">shrine</a>: Updated the Development History section of the <a href="https://leilukin.neocities.org/shrines/cassettebeasts/trivia.html">Trivia</a> page with info about the release of Update 1.5 and "Pier of the Unknown" DLC.</li>
-        </ul>
-      ]]></description>
-    </item>
-    <item>
-      <title>Changelog: 3 October 2023</title>
-      <pubDate>Tue, 3 Oct 2023 23:20:28 +0800</pubDate>
-      <description><![CDATA[
-        <ul>
-          <li>Changed this website's font to Noto Sans.</li>
-          <li><cite>Cassette Beasts</cite> <a href="https://leilukin.neocities.org/shrines/cassettebeasts/">shrine</a>: Added link to my record of all the bootleg mosnters I have encountered to the <a href="https://leilukin.neocities.org/shrines/cassettebeasts/gamelog/">Game Log</a> page.</li>
         </ul>
       ]]></description>
     </item>
