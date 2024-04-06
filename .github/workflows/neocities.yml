@@ -17,10 +17,18 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     # Set up any tools and build steps here
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: lts/*
+    - name: Install deps and build
+      run: |
+        bun i
+        bun run build
     # When the dist_dir is ready, deploy it to neocities
     - name: Deploy to neocities
       uses: bcomnes/deploy-to-neocities@v2.0.2
       with:
         api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
         cleanup: true
-        dist_dir: Leilukins-Hub
+        dist_dir: "_site/"
