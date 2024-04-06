@@ -14,10 +14,14 @@
 
         {# CSS #}
         <link rel="stylesheet" href="{{'/assets/css/main.css' | url | safe}}">
+        {% if toc %}
+            <link rel="stylesheet" href="{{'/assets/css/toc.css' | url | safe}}">
+        {% endif %}
 
         {# CDNs #}
         {% include "components/cdn.njk" %}
 
+        {# Favicon #}
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
@@ -26,6 +30,7 @@
         {# JavaScript #}
         <script src="/assets/js/navbar.js" defer></script>
         <script src="/assets/js/events.js" defer></script>
+        {% if toc %} <script src="/assets/js/toc.js" defer></script> {% endif %}
 
         <title>{{ title }} | Leilukin's Hub</title>
     </head>
