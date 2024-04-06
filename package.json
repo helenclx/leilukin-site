@@ -1,6 +1,10 @@
 {
   "name": "neocities-leilukin",
   "module": "index.ts",
+  "scripts": {
+    "dev": "bun",
+    "build": "bun run build"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
