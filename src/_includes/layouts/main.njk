@@ -17,6 +17,9 @@
         {% if toc %}
             <link rel="stylesheet" href="{{'/assets/css/toc.css' | url | safe}}">
         {% endif %}
+        {% if sitemap %}
+            <link rel="stylesheet" href="{{'/assets/css/sitemap.css' | url | safe}}">
+        {% endif %}
 
         {# CDNs #}
         {% include "components/cdn.njk" %}
