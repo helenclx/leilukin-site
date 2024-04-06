@@ -21,6 +21,11 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: lts/*
+    # Set up bun
+    - name: Use Bun
+      uses: oven-sh/setup-bun@v1
+      with:
+        bun-version: latest
     - name: Install deps and build
       run: |
         bun i
