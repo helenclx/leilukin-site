@@ -30,11 +30,16 @@
         {# JavaScript #}
         <script src="/assets/js/navbar.js" defer></script>
         <script src="/assets/js/events.js" defer></script>
+        <script src="/assets/js/scroll.js" defer></script>
         {% if toc %} <script src="/assets/js/toc.js" defer></script> {% endif %}
 
         <title>{{ title }} | Leilukin's Hub</title>
     </head>
     <body>
+        <button class="top-btn hidden" aria-label="Scroll to top">
+            <img src="/assets/images/elements/top.svg" alt="">
+        </button>
+
         {% include "components/header.njk" %}
         {% include "components/navbar.njk" %}
         <main>
