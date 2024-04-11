@@ -4,6 +4,7 @@ const pluginWebc = require("@11ty/eleventy-plugin-webc");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const metagen = require('eleventy-plugin-metagen');
 const anchors_plugin = require('@orchidjs/eleventy-plugin-ids');
+const pluginTOC = require('eleventy-plugin-toc');
 
 module.exports = function (eleventyConfig) {
     // Copy files
@@ -21,6 +22,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(anchors_plugin, {
         selectors: ['h2','h3','h4','h5','h6'],
     });
+    eleventyConfig.addPlugin(pluginTOC);
 
     return {
         dir: {
