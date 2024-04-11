@@ -229,33 +229,6 @@ dd {
     grid-column-start: 2;
 }
 
-/* HEADER COMPONENT */
-.main-header {
-    width: 100%;
-    background-color: var(--clr-main-header-bg);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-.main-header__top-bar {
-    background-color: var(--clr-navbar-bg);
-    width: 100%;
-    padding: 0.5em 0;
-}
-
-.main-header__img {
-    display: grid;
-    place-content: center;
-}
-
-.main-header img {
-    object-fit: scale-down;
-    overflow: hidden;
-    filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
-}
-
 /* MAIN CONTENT */
 main,
 .content-container,

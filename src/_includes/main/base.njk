@@ -37,14 +37,14 @@
         <link rel="manifest" href="/assets/favicon/site.webmanifest">
 
         {# JavaScript #}
-        <script src="/assets/js/navbar.js" defer></script>
-        <script src="/assets/js/events.js" defer></script>
         {% if toc %} <script src="/assets/js/toc.js" defer></script> {% endif %}
 
         <title>{{ title }} | Leilukin's Hub</title>
     </head>
     <body>
-        {% include "main/header.njk" %}
+        {% renderTemplate "webc" %}
+            <header-main></header-main>
+        {% endrenderTemplate %}
         {% renderTemplate "webc" %}
             <navbar></navbar>
         {% endrenderTemplate %}
