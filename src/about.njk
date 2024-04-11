@@ -24,22 +24,12 @@ metadata:
 
         <p>You can link to my website with this button:</p>
 
-        <div class="site-btn__container">
-            <div>
-                <a href="https://leilukin.neocities.org/" target="_blank"><img src="/assets/leilukin/Leilukins-Hub-button.png" alt="Button of Leilukin's Hub" title="Leilukin's Hub"></a>
-            </div>
-            <textarea class="site-btn__textarea textarea-for-copy"><a href="https://leilukin.neocities.org/" target="_blank"><img src="https://leilukin.neocities.org/assets/leilukin/Leilukins-Hub-button.png" alt="Button of Leilukin's Hub" title="Leilukin's Hub"></a></textarea>
-            <button class="copy-txt-btn">Copy HTML</button>
-            <script>
-                document.querySelector(".copy-txt-btn").onclick = () => {
-                    document.querySelector(".textarea-for-copy").select();
-                    document.execCommand('copy');
-                }
-            </script>
-        </div>
+        {% renderTemplate "webc" %}
+            <site-btn></site-btn>
+        {% endrenderTemplate %}
 
         <p>If you also have a Neocities account, you can follow this site through its <a href="https://neocities.org/site/leilukin" target="_blank">Neocities profile</a>.</p>
-        <a href="https://neocities.org/site/leilukin" target="_blank"><img src="/assets/hosted-by-neocities.png" alt="a website button with Penelope the cat, the mascot of Neocities, and the text &quot;hosted by neocities&quot;" title="Hosted by Neocities"></a>
+        <a href="https://neocities.org/site/leilukin" target="_blank"><img src="/assets/banners/hosted-by-neocities.png" alt="a website button with Penelope the cat, the mascot of Neocities, and the text 'hosted by neocities'" title="Hosted by Neocities"></a>
     </section>
 
     <sectioin class="content-section">
