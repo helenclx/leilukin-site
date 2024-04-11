@@ -18,20 +18,9 @@ metadata:
         <h2>Link to My Website</h2>
 
         <p>You can link to my website with this button:</p>
-
-        <div class="site-btn__container">
-            <div>
-                <a href="https://leilukin.neocities.org/" target="_blank"><img src="/assets/leilukin/Leilukins-Hub-button.png" alt="Button of Leilukin's Hub" title="Leilukin's Hub"></a>
-            </div>
-            <textarea class="site-btn__textarea textarea-for-copy"><a href="https://leilukin.neocities.org/" target="_blank"><img src="https://leilukin.neocities.org/assets/leilukin/Leilukins-Hub-button.png" alt="Button of Leilukin's Hub" title="Leilukin's Hub"></a></textarea>
-            <button class="copy-txt-btn">Copy HTML</button>
-            <script>
-                document.querySelector(".copy-txt-btn").onclick = () => {
-                    document.querySelector(".textarea-for-copy").select();
-                    document.execCommand('copy');
-                }
-            </script>
-        </div>
+        {% renderTemplate "webc" %}
+            <site-btn></site-btn>
+        {% endrenderTemplate %}
 
         <p>Credit to <a href="https://github.com/hekate2" target="_blank">hekate2</a> for their <a href="https://hekate2.github.io/buttonmaker/" target="_blank">88x31 Web Button Maker</a>!</p>
     </section>
