@@ -454,36 +454,6 @@ article, .content-container {
     height: 100%;
 }
 
-/* Website link button */
-.site-btn__container {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    margin: 0.5rem 0;
-}
-
-.site-btn__textarea {
-    width: 10rem;
-    height: 2.5rem;
-    font-size: 0.75rem;
-    background-color:black;
-    color: var(--clr-body-txt);
-}
-
-.copy-txt-btn {
-    border: none;
-    background: var(--clr-link-btn-bg);
-    color: var(--clr-body-txt);
-    padding: 0.3rem 0.8rem;
-    border-radius: 0.5rem;
-    font-size: 0.9rem;
-    font-weight: bold;
-}
-
-.copy-txt-btn:hover {
-    background: var(--clr-link-hover);
-}
-
 /* Web button lists */
 .web-btn-wrapper {
     display: flex;
