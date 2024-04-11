@@ -256,52 +256,6 @@ dd {
     filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
 }
 
-/* NAVIGATION BAR COMPONENT */
-.navbar {
-    background: var(--clr-navbar-bg);
-    padding: 0 0.6rem;
-    width: 100%;
-    z-index: 999;
-}
-
-.navbar a {
-    color: var(--clr-navbar-link);
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.navbar a:hover {
-    color: var(--clr-link-hover);
-}
-
-.navbar a:focus {
-    outline-offset: 0.3em;
-    outline: 0.15em solid var(--clr-navbar-link);
-}
-
-.nav__menu {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-
-/* Added to the navbar with JS when it reaches its scroll position */
-.sticky-nav {
-    position: fixed;
-    width: 100%;
-    top: 0;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement
-as the navigation bar gets a new position at the top of the page
-(position:fixed and top:0) */
-.sticky-nav + main {
-    padding-top: 2rem;
-}
-
 /* MAIN CONTENT */
 main,
 .content-container,

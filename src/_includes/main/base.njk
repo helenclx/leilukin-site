@@ -45,14 +45,14 @@
     </head>
     <body>
         {% include "main/header.njk" %}
-        {% include "main/navbar.njk" %}
+        {% renderTemplate "webc" %}
+            <navbar></navbar>
+        {% endrenderTemplate %}
         <main>
             <!-- <aside class="left-sidebar">
                 Left sidebar content here
             </aside> -->
-
             {{ content | safe }}
-
             <!-- <aside class="right-sidebar">
                 Right sidebar content here
             </aside> -->
