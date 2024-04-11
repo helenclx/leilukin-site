@@ -5,10 +5,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <meta property="og:url" content="https://leilukin.neocities.org/">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="Leilukin's Hub">
-        <meta property="og:description" content="Welcome to Leilukin's personal website">
+        <meta property="og:title" content="{% if title %}{{ title }}{% else %}Leilukin's Hub{% endif %}">
+        {% metagen
+            desc=desc or metadata.desc,
+            url=url + page.url,
+            locale="en_GB",
+            site_name="Leilukin's Hub",
+            img=image,
+            img_alt=alt,
+            twitter_card_type=type,
+            twitter_handle=twitter
+        %}
 
         <link rel="stylesheet" href="{{'/assets/css/index.css' | url | safe}}">
 
