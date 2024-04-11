@@ -12,6 +12,8 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-webc": "^0.11.2",
+    "install": "^0.13.0"
   }
 }
