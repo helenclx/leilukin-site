@@ -72,9 +72,8 @@ metadata:
 
         <p>You can contact me via email: <a href="mailto:leilukin@outlook.com">leilukin@outlook.com</a>.</p>
 
-        <p>If you enjoy my work, you can support me on Ko-Fi or Buy Me a Coffee:
-        <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#7A37A3', 'A1042UH4');kofiwidget2.draw();</script><br><br>
-        <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="leilukin" data-color="#7a37a3" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#ffffff" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
-        </p>
+        {% renderTemplate "webc" %}
+            <support-me></support-me>
+        {% endrenderTemplate %}
     </sectioin>
 </article>
