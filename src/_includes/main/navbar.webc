@@ -62,8 +62,9 @@
 
 <script webc:keep webc:bucket="defer">
     // Make the navigation bar sticky
-    const navbar = document.querySelector("navbar");
 
+    // const header = document.querySelector(".main-header");
+    // const navbar = document.querySelector("navbar");
     window.addEventListener("scroll", e => {
         const scrollPos = window.scrollY || document.documentElement.scrollTop;
         const stickyLine = document.querySelector(".main-header").scrollHeight - navbar.scrollHeight;
