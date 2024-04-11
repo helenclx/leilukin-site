@@ -12,7 +12,9 @@ module.exports = function (eleventyConfig) {
 
     // Installed Plug-ins
     eleventyConfig.addPlugin(EleventyRenderPlugin);
-    eleventyConfig.addPlugin(pluginWebc);
+    eleventyConfig.addPlugin(pluginWebc, {
+        components: "./src/_includes/**/*.webc",
+    });
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(metagen);
 
