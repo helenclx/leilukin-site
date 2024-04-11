@@ -1,5 +1,6 @@
 // Installed Plug-ins
 const pluginWebc = require("@11ty/eleventy-plugin-webc");
+const metagen = require('eleventy-plugin-metagen');
 
 module.exports = function (eleventyConfig) {
     // Copy files
@@ -9,6 +10,7 @@ module.exports = function (eleventyConfig) {
 
     // Installed Plug-ins
     eleventyConfig.addPlugin(pluginWebc);
+    eleventyConfig.addPlugin(metagen);
 
     return {
         dir: {
