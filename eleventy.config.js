@@ -1,4 +1,5 @@
 // Installed Plug-ins
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginWebc = require("@11ty/eleventy-plugin-webc");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const metagen = require('eleventy-plugin-metagen');
@@ -10,6 +11,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ "./src/assets/feed/": "/" });
 
     // Installed Plug-ins
+    eleventyConfig.addPlugin(EleventyRenderPlugin);
     eleventyConfig.addPlugin(pluginWebc);
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(metagen);
