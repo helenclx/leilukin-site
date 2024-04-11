@@ -1,0 +1,49 @@
+<button class="top-btn hidden" aria-label="Scroll to top">
+    <img src="/assets/images/elements/top.svg" alt="">
+</button>
+
+<style webc:keep webc:bucket="defer">
+    :root {
+        --clr-top-btn: #FFD05A;
+    }
+
+    .top-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 999;
+        border: none;
+        background-color: var(--clr-top-btn);
+        border-radius: 50em;
+        padding: 0.5em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn img {
+        width: 2rem;
+    }
+</style>
+
+<script webc:keep webc:bucket="defer">
+    const topButton = document.querySelector(".top-btn");
+
+    window.onscroll = () => {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            topButton.classList.remove("hidden");
+        } else {
+            topButton.classList.add("hidden");
+        }
+    }
+
+    topButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+        });
+    });
+</script>
