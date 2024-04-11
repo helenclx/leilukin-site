@@ -1,0 +1,77 @@
+<nav class="navbar">
+    <ul class="nav__menu">
+        <li><a href="/home">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/articles/">Articles</a></li>
+        <li><a href="/mycreations/">My Creations</a></li>
+        <li><a href="/featured/">Featured</a></li>
+        <li><a href="/resources/">Resources</a></li>
+        <li><a href="/shrines/">Shrines</a></li>
+        <li><a href="/links/">Links</a></li>
+        <li><a href="https://leilukin.123guestbook.com/">Guestbook</a></li>
+    </ul>
+</nav>
+
+<style webc:keep webc:bucket="defer">
+    navbar {
+        background: var(--clr-navbar-bg);
+        padding: 0 0.6rem;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .navbar a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar a:hover {
+        color: var(--clr-link-hover);
+    }
+
+    .navbar a:focus {
+        outline-offset: 0.3em;
+        outline: 0.15em solid var(--clr-navbar-link);
+    }
+
+    .nav__menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    /* Added to the navbar with JS when it reaches its scroll position */
+    .sticky-nav {
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+
+    /* Add some top padding to the page content to prevent sudden quick movement
+    as the navigation bar gets a new position at the top of the page
+    (position:fixed and top:0) */
+    .sticky-nav + main {
+        padding-top: 2rem;
+    }
+</style>
+
+<script webc:keep webc:bucket="defer">
+    // Make the navigation bar sticky
+    const header = document.querySelector(".main-header");
+    const navbar = document.querySelector("navbar");
+
+    window.addEventListener("scroll", e => {
+        const scrollPos = window.scrollY || document.documentElement.scrollTop;
+        const stickyLine = header.scrollHeight - navbar.scrollHeight;
+        if (scrollPos > stickyLine) {
+                navbar.classList.add("sticky-nav");
+        } else {
+                navbar.classList.remove("sticky-nav");
+        }
+    });
+</script>
