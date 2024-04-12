@@ -459,11 +459,6 @@ article, .content-container {
     gap: 0.5rem;
 }
 
-/* References list */
-.references-list {
-    font-size: 0.96em;
-}
-
 /* Pride flag backgrounds */
 .flag-ace {
 	background: repeating-linear-gradient(
