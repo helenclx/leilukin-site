@@ -1,4 +1,4 @@
-<div class="site-btn__container">
+<div webc:root="override" class="site-btn__container">
     <div>
         <a href="https://leilukin.neocities.org/" target="_blank"><img src="/assets/leilukin/Leilukins-Hub-button.png" alt="Button of Leilukin's Hub" title="Leilukin's Hub"></a>
     </div>
