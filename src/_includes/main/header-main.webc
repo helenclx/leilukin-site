@@ -1,4 +1,4 @@
-<header class="main-header">
+<header webc:root="override" class="main-header">
     <noscript>
         JavaScript is disabled in your browser. To get the best user experience on
         this website, it is recommended that you enable it.
@@ -10,7 +10,7 @@
 </header>
 
 <style webc:keep webc:bucket="defer">
-    header-main {
+    .main-header {
         width: 100%;
         background-color: var(--clr-main-header-bg);
         display: flex;

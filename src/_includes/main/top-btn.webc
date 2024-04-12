@@ -1,4 +1,4 @@
-<button class="top-btn hidden" aria-label="Scroll to top">
+<button webc:root="override" class="top-btn hidden" aria-label="Scroll to top">
     <img src="/assets/images/elements/top.svg" alt="">
 </button>
 

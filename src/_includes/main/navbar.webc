@@ -1,4 +1,4 @@
-<nav class="navbar">
+<nav webc:root="override" class="navbar">
     <ul class="nav__menu">
         <li><a href="/home">Home</a></li>
         <li><a href="/about/">About</a></li>
@@ -14,7 +14,7 @@
 </nav>
 
 <style webc:keep webc:bucket="defer">
-    navbar {
+    .navbar {
         background: var(--clr-navbar-bg);
         padding: 0 0.6rem;
         width: 100%;
@@ -64,7 +64,7 @@
     // Make the navigation bar sticky
 
     // const header = document.querySelector(".main-header");
-    const navbar = document.querySelector("navbar");
+    const navbar = document.querySelector(".navbar");
     window.addEventListener("scroll", e => {
         const scrollPos = window.scrollY || document.documentElement.scrollTop;
         const stickyLine = document.querySelector(".main-header").scrollHeight - navbar.scrollHeight;
