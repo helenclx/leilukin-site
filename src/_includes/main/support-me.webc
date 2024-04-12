@@ -10,6 +10,7 @@
 <style webc:keep webc:bucket="defer">
     .support-me {
         display: flex;
+        flex-wrap: wrap;
         gap: 1em;
         align-items: center;
     }
