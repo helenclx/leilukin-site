@@ -49,9 +49,11 @@
             <navbar></navbar>
         {% endrenderTemplate %}
         <main>
-            <!-- <aside class="left-sidebar">
-                Left sidebar content here
-            </aside> -->
+            {% if toc %}
+                <aside class="left-sidebar">
+                    {{ content | toc | safe }}
+                </aside>
+            {% endif %}
             {{ content | safe }}
             <!-- <aside class="right-sidebar">
                 Right sidebar content here
