@@ -19,6 +19,23 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addWatchTarget("./src/assets/");
     eleventyConfig.addPassthroughCopy({ "./src/assets/feed/": "/" });
 
+    // Filter: Format dates
+    const dateOptions = {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+    };
+    const dateTimeLocale = new Intl.DateTimeFormat("en-GB", dateOptions);
+    eleventyConfig.addFilter("niceDate", function(date) {
+        return dateTimeLocale.format(date);
+    });
+
+    // Filter: Limit
+    eleventyConfig.addFilter("limit", function(array, limit) {
+        return array.slice(0, limit);
+    });
+
     // Installed Plug-ins
     eleventyConfig.addPlugin(EleventyRenderPlugin);
     eleventyConfig.addPlugin(pluginWebc, {
