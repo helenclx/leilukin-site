@@ -259,7 +259,7 @@ article:not(.divided-article),
 }
 
 article, .content-container {
-    order: 1;
+    order: 2;
 }
 
 .sidebar--sticky {
@@ -275,7 +275,7 @@ article, .content-container {
 }
 
 .left-sidebar {
-    order: 2;
+    order: 1;
 }
 
 .right-sidebar {
@@ -290,11 +290,21 @@ article, .content-container {
 /* Tablet main content layout */
 @media only screen and (min-width: 43.75rem) {
     main {
+        width: 43.75rem;
+    }
+}
+
+/* Desktop main content layout */
+@media only screen and (min-width: 60rem) {
+    main {
+        width: 60rem;
+        display: flex;
         flex-direction: row;
+        justify-content: center;
     }
 
     aside {
-        width: 10rem;
+        width: 12rem;
     }
 
     article, .content-container {
@@ -311,23 +321,13 @@ article, .content-container {
     }
 }
 
-/* Desktop main content layout */
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 80rem) {
     main {
-        width: 60rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        width: 75rem;
     }
 
     aside {
-        width: 12rem;
-    }
-}
-
-@media only screen and (min-width: 65rem) {
-    main {
-        width: 65rem;
+        width: 15rem;
     }
 }
 
