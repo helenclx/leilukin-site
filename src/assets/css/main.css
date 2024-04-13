@@ -223,6 +223,34 @@ dd {
     grid-column-start: 2;
 }
 
+/* UTILITY CLASSES */
+.bold-text {
+    font-weight: 700;
+}
+
+.center-el {
+    display: grid;
+    place-content: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.date-style {
+    font-weight: 700;
+    color: var(--clr-dates);
+}
+
+.hidden {
+    display: none;
+}
+
+.article-list {
+    display: grid;
+    gap: 0.5em;
+}
+
 /* MAIN CONTENT */
 main,
 .content-container,
@@ -469,7 +497,7 @@ article, .content-container {
     gap: 0.5rem;
 }
 
-/* Article Table of Contents */
+/* Table of Contents */
 .toc__wrapper {
     position: sticky;
     top: 4rem;
@@ -693,32 +721,4 @@ article, .content-container {
 
 .main-footer p {
     padding: 0;
-}
-
-/* UTILITY CLASSES */
-.bold-text {
-    font-weight: 700;
-}
-
-.center-el {
-    display: grid;
-    place-content: center;
-}
-
-.center-text {
-    text-align: center;
-}
-
-.date-style {
-    font-weight: 700;
-    color: var(--clr-dates);
-}
-
-.hidden {
-    display: none;
-}
-
-.article-list {
-    display: grid;
-    gap: 0.5em;
 }
