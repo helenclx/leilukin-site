@@ -248,6 +248,16 @@ article:not(.divided-article),
     padding: 1.25rem 0;
 }
 
+.article__info {
+    text-align: center;
+    display: grid;
+    margin-bottom: 0.5em;
+}
+
+.article__info p {
+    padding: 0.1em 0;
+}
+
 article, .content-container {
     order: 1;
 }
