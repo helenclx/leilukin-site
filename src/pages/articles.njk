@@ -9,13 +9,13 @@ metadata:
 <div class="content-container">
     <section class="content-section">
         <h1>Articles</h1>
-        <p>List of articles I have written.</p>
     </section>
 
     <section class="content-section">
         <h2>My Articles</h2>
+        <p>Articles I have written.</p>
         <ul class="article-list">
-            {% for article in collections.articles %}
+            {% for article in collections["my articles"] %}
                 <li>
                     <h3><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></h3>
                     <time>{{ article.date | niceDate }}</time>
@@ -29,6 +29,19 @@ metadata:
         <ul class="article-list">
             <li>My <cite>Cassette Beasts</cite> shrine <a href="/shrines/cassettebeasts/articles/">Articles</a> page</li>
             <li>My <cite>Star Wars: Knights of the Old Republic</cite> shrine <a href="/shrines/starwarskotor/articles/">Articles</a> page</li>
+        </ul>
+    </section>
+
+    <section class="content-section">
+        <h2>Featured Articles</h2>
+        <p>Articles featuring other people's interview with me.</p>
+        <ul class="article-list">
+            {% for article in collections["featured articles"] %}
+                <li>
+                    <h3><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></h3>
+                    <time>{{ article.date | niceDate }}</time>
+                </li>
+            {% endfor %}
         </ul>
     </section>
 </div>
