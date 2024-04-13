@@ -10,8 +10,8 @@
         {% metagen
             desc=desc or metadata.desc,
             url=url + page.url,
-            locale="en_MY",
-            site_name="Leilukin's Hub",
+            locale=sitemeta.siteLocale,
+            site_name=sitemeta.siteName,
             img=image,
             img_alt=alt,
             twitter_card_type=type,
@@ -33,7 +33,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
         <link rel="manifest" href="/assets/favicon/site.webmanifest">
 
-        <title>{{ title }} | Leilukin's Hub</title>
+        <title>{{ title }} | {{ sitemeta.siteName }}</title>
     </head>
     <body>
         {% renderTemplate "webc" %}

@@ -2,7 +2,8 @@
 layout: start/base
 tags: pages
 desc: Welcome to Leilukin's personal website.
-h1: Welcome to Leilukin's Hub!
+eleventyComputed:
+    h1: Welcome to {{ sitemeta.siteName | safe }}!
 ---
 
 <section class="index__btn-wrapper">
@@ -11,7 +12,7 @@ h1: Welcome to Leilukin's Hub!
 </section>
 
 <footer>
-    <a href="/feed.xml" target="blank" title="Leilukin's Hub RSS Feed">
+    <a href="/feed.xml" target="blank" title="{{ sitemeta.siteName }} RSS Feed">
         <img src="/assets/buttons/rss-button.gif" alt="RSS feed button">
     </a>
 </footer>
