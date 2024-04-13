@@ -5,6 +5,8 @@ date: 2023-08-14
 desc: About my lack of interest in shipping and dislike of shipping culture in fandom, and why.
 ---
 
+<p class="center-text"><i>(Note: The original version of this writing was posted on my Tumblr blog on 3 May 2021)</i></p>
+
 I feel that the older I get, the less interested I am in shipping in general, and the less I can understand grown adults in late 20s or older who build their personality around shipping and cannot engage with any fiction without shipping something (before I remade my Tumblr account in 2015, I used to follow a 30-something-year-old fandom blogger who was literally like this).
 
 I have also come to actually dislike shipping culture, especially the mindset of engaging with media primarily through a shipping lens at the expense of the characterisation, non-romantic relationships, themes, and general content of a piece of media. Throughout my years of experience with various fandoms, I have witnessed so many incredible characters and non-romantic relationships get ignored or underappreciated by the fandom because they’re not part of a popular ship. On the other hand, there are also many amazing characters get mischaracterised to make a fanon ship work, or get reduced to a handful of tropes as shippers Flanderise them in their shipping fan works.
