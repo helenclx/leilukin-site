@@ -7,16 +7,7 @@
 
         {# Meta data #}
         <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ sitemeta.siteName }}{% endif %}">
-        {% metagen
-            desc=desc or metadata.desc,
-            url=url + page.url,
-            locale=sitemeta.siteLocale,
-            site_name=sitemeta.siteName,
-            img=image,
-            img_alt=alt,
-            twitter_card_type=type,
-            twitter_handle=twitter
-        %}
+        {% include "metagen.njk" %}
 
         {# CSS #}
         <link rel="stylesheet" href="{{'/assets/css/index.css' | url | safe}}">
