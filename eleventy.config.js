@@ -4,6 +4,7 @@ const pluginWebc = require("@11ty/eleventy-plugin-webc");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const metagen = require('eleventy-plugin-metagen');
 const pluginTOC = require('eleventy-plugin-nesting-toc');
+const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
 
 // Configure slug filter
 const slugify = require("slugify");
@@ -26,6 +27,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(metagen);
     eleventyConfig.addPlugin(pluginTOC, { tags: ['h2', 'h3', 'h4', 'h5'] });
+    eleventyConfig.addPlugin(emojiReadTime);
 
     // Configure slug filter
     eleventyConfig.addFilter("slug", (str) => {
