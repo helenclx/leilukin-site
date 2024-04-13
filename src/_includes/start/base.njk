@@ -6,12 +6,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         {# Meta data #}
-        <meta property="og:title" content="{% if title %}{{ title }}{% else %}Leilukin's Hub{% endif %}">
+        <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ sitemeta.siteName }}{% endif %}">
         {% metagen
             desc=desc or metadata.desc,
             url=url + page.url,
-            locale="en_MY",
-            site_name="Leilukin's Hub",
+            locale=sitemeta.siteLocale,
+            site_name=sitemeta.siteName,
             img=image,
             img_alt=alt,
             twitter_card_type=type,
@@ -27,11 +27,11 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
         <link rel="manifest" href="/assets/favicon/site.webmanifest">
 
-        <title>{% if title %} {{ title }} | {% endif %} Leilukin's Hub</title>
+        <title>{% if title %} {{ title }} | {% endif %} {{ sitemeta.siteName }}</title>
     </head>
     <body>
         <main>
-            <img src="/assets/leilukin/Leilukins-Hub-website-banner.png" alt="Leilukin's Hub website banner">
+            <img src="/assets/leilukin/Leilukins-Hub-website-banner.png" alt="{{ sitemeta.siteName }} website banner">
             <h1>{{ h1 }}</h1>
 
             {{ content | safe }}
