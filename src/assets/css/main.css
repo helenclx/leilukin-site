@@ -132,19 +132,15 @@ body {
 
 h1 {
     color: var(--clr-main-heading);
-}
-
-h1 {
+    font-size: 2.2rem;
+    border-bottom: 0.18rem solid var(--clr-title-border);
     margin-bottom: 1.2rem;
+    text-align: center;
 }
 
 h2, h3, h4, h5, h6 {
     color: var(--clr-sub-heading);
-}
-
-h1 {
-    font-size: 2.2rem;
-    border-bottom: 0.18rem solid var(--clr-title-border);
+    margin-top: 2em;
 }
 
 h2 {
@@ -253,41 +249,40 @@ dd {
 
 /* MAIN CONTENT */
 main,
-.content-container,
-.divided-article {
-    gap: 0.8rem;
-    display: flex;
-    flex-direction: column;
+.main__header {
     width: 100%;
 }
 
 main {
     font-size: 1.2rem;
+    display: grid;
+    gap: 0.8rem;
+    grid-template-areas:
+        'mheadr'
+        'leftsb'
+        'articl'
+        'rightb';
 }
 
-article:not(.divided-article),
-.content-section,
-.qna-section {
+.main__header {
     background-color: var(--clr-content-bg);
-    padding: 1.35rem;
+    padding: 1em;
+    grid-area: mheadr;
 }
 
-.article-section {
-    padding: 1.25rem 0;
+article {
+    grid-area: articl;
+    background-color: var(--clr-content-bg);
+    padding: 1.4rem;
 }
 
 .article__info {
     text-align: center;
     display: grid;
-    margin-bottom: 0.5em;
 }
 
 .article__info p {
     padding: 0.1em 0;
-}
-
-article, .content-container {
-    order: 2;
 }
 
 .sidebar--sticky {
@@ -303,11 +298,11 @@ article, .content-container {
 }
 
 .left-sidebar {
-    order: 1;
+    grid-area: leftsb;
 }
 
 .right-sidebar {
-    order: 3;
+    grid-area: rightb;
 }
 
 .left-sidebar:empty,
@@ -325,27 +320,10 @@ article, .content-container {
 /* Desktop main content layout */
 @media only screen and (min-width: 60rem) {
     main {
-        width: 60rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    aside {
-        width: 12rem;
-    }
-
-    article, .content-container {
-        flex: 1;
-        order: 2;
-    }
-
-    .left-sidebar {
-        order: 1;
-    }
-
-    .right-sidebar {
-        order: 3;
+        /* width: 60rem; */
+        grid-template-areas:
+            'mheadr mheadr mheadr mheadr'
+            'leftsb articl articl rightb';
     }
 }
 
