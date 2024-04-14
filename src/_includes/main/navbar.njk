@@ -1,17 +1,13 @@
-<nav webc:root="override" class="navbar">
+<nav class="navbar">
     <ul class="nav__menu">
-        <li><a href="/home">Home</a></li>
-        <li><a href="/about/">About</a></li>
-        <li><a href="/articles/">Articles</a></li>
-        <li><a href="/blog/">Blog</a></li>
-        <li><a href="/mycreations/">My Creations</a></li>
-        <li><a href="/shrines/">Shrines</a></li>
-        <li><a href="/links/">Links</a></li>
+        {% for page in collections.pages %}
+            <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+        {%- endfor %}
         <li><a href="https://leilukin.123guestbook.com/">Guestbook</a></li>
     </ul>
 </nav>
 
-<style webc:keep webc:bucket="defer">
+<style>
     .navbar {
         background: var(--clr-navbar-bg);
         padding: 0 0.6rem;
@@ -58,9 +54,8 @@
     }
 </style>
 
-<script webc:keep webc:bucket="defer">
+<script defer>
     // Make the navigation bar sticky
-
     // const header = document.querySelector(".main-header");
     const navbar = document.querySelector(".navbar");
     window.addEventListener("scroll", e => {

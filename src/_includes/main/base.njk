@@ -27,12 +27,8 @@
         <title>{{ title }} | {{ sitemeta.siteName }}</title>
     </head>
     <body>
-        {% renderTemplate "webc" %}
-            <header-main></header-main>
-        {% endrenderTemplate %}
-        {% renderTemplate "webc" %}
-            <navbar></navbar>
-        {% endrenderTemplate %}
+        {% include "main/header.njk" %}
+        {% include "main/navbar.njk" %}
         <main>
             <!-- <aside class="left-sidebar">
                 Left sidebar content here
@@ -43,8 +39,6 @@
             </aside> -->
         </main>
         {% include "main/footer.njk" %}
-        {% renderTemplate "webc" %}
-            <top-btn></top-btn>
-        {% endrenderTemplate %}
+        {% include "main/top-btn.njk" %}
     </body>
 </html>
