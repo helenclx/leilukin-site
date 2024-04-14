@@ -247,8 +247,7 @@ dd {
 }
 
 /* MAIN CONTENT */
-main,
-.main__header {
+main {
     width: 100%;
 }
 
@@ -256,23 +255,14 @@ main {
     font-size: 1.2rem;
     display: grid;
     gap: 0.8rem;
-    grid-template-areas:
-        'mheadr'
-        'leftsb'
-        'articl'
-        'rightb';
 }
 
-.main__header {
+.main__header,
+article,
+.left-sidebar,
+.right-sidebar {
     background-color: var(--clr-content-bg);
-    padding: 1em;
-    grid-area: mheadr;
-}
-
-article {
-    grid-area: articl;
-    background-color: var(--clr-content-bg);
-    padding: 1.4rem;
+    padding: 1.5rem clamp(1rem, 5%, 3rem);
 }
 
 .article__info {
@@ -291,17 +281,8 @@ article {
 
 .left-sidebar,
 .right-sidebar {
-    padding: 1rem;
     font-size: 0.9rem;
     background-color: var(--clr-content-bg);
-}
-
-.left-sidebar {
-    grid-area: leftsb;
-}
-
-.right-sidebar {
-    grid-area: rightb;
 }
 
 .left-sidebar:empty,
@@ -311,29 +292,29 @@ article {
 
 /* Tablet main content layout */
 @media only screen and (min-width: 43.75rem) {
-    main {
+    /* main {
         width: 43.75rem;
-    }
+    } */
 }
 
 /* Desktop main content layout */
 @media only screen and (min-width: 60rem) {
-    main {
-        /* width: 60rem; */
+    /* main {
+        width: 60rem;
         grid-template-areas:
             'mheadr mheadr mheadr mheadr'
             'leftsb articl articl rightb';
-    }
+    } */
 }
 
 @media only screen and (min-width: 80rem) {
-    main {
+    /* main {
         width: 75rem;
     }
 
     aside {
         width: 15rem;
-    }
+    } */
 }
 
 /* HEADING WRAPPER AND ANCHOR */
