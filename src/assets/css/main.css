@@ -301,20 +301,20 @@ main {
 /* Desktop main content layout */
 @media only screen and (min-width: 60rem) {
     .article__wrapper {
-        grid-template-areas: 'a b c';
+        grid-template-areas: 'leftbar article rightbar';
         grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
     }
 
     .article {
-        grid-area: b;
+        grid-area: article;
     }
 
     .left-sidebar {
-        grid-area: a;
+        grid-area: leftbar;
     }
 
     .right-sidebar {
-        grid-area: c;
+        grid-area: rightbar;
     }
 }
 
