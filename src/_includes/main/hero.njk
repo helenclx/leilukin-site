@@ -1,43 +1,43 @@
-<header webc:root="override" class="main-header">
-    <div class="main-header__top-bar"></div>
-    <div class="main-header__img">
+<header class="hero">
+    <div class="hero__top-bar"></div>
+    <div class="hero__img">
         <img src="/assets/leilukin/Leilukins-Hub-website-banner.png" alt="Banner of Leilukin's Hub">
     </div>
 </header>
 
-<style webc:keep webc:bucket="defer">
-    .main-header {
+<style>
+    .hero {
         width: 100%;
-        background-color: var(--clr-main-header-bg);
+        background-color: var(--clr-hero-bg);
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
     }
 
-    .main-header__top-bar {
+    .hero__top-bar {
         background-color: var(--clr-navbar-bg);
         width: 100%;
         padding: 0.5em 0;
     }
 
-    .main-header__img {
+    .hero__img {
         display: grid;
         place-content: center;
     }
 
-    .main-header img {
+    .hero img {
         object-fit: scale-down;
         overflow: hidden;
         filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
     }
 </style>
 
-<script webc:keep webc:bucket="defer">
-    const header = document.querySelector(".main-header");
+<script defer>
+    const hero = document.querySelector(".hero");
     const todayEvent = getTodayEvent();
-    const headerTopBarEl = document.querySelector(".main-header__top-bar");
-    const headerImgEl = document.querySelector(".main-header__img");
+    const headerTopBarEl = document.querySelector(".hero__top-bar");
+    const headerImgEl = document.querySelector(".hero__img");
 
     if (todayEvent != "No event") {
         if (todayEvent == "Leilukin's Birthday" || todayEvent == "Leilukin's Hub Anniversary") {

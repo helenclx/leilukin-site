@@ -27,16 +27,10 @@
         <title>{{ title }} | {{ sitemeta.siteName }}</title>
     </head>
     <body>
-        {% include "main/header.njk" %}
+        {% include "main/hero.njk" %}
         {% include "main/navbar.njk" %}
         <main>
-            <!-- <aside class="left-sidebar">
-                Left sidebar content here
-            </aside> -->
             {{ content | safe }}
-            <!-- <aside class="right-sidebar">
-                Right sidebar content here
-            </aside> -->
         </main>
         {% include "main/footer.njk" %}
         {% include "main/top-btn.njk" %}

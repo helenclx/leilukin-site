@@ -56,11 +56,11 @@
 
 <script defer>
     // Make the navigation bar sticky
-    // const header = document.querySelector(".main-header");
+    // const hero = document.querySelector(".hero");
     const navbar = document.querySelector(".navbar");
     window.addEventListener("scroll", e => {
         const scrollPos = window.scrollY || document.documentElement.scrollTop;
-        const stickyLine = document.querySelector(".main-header").scrollHeight - navbar.scrollHeight;
+        const stickyLine = hero.scrollHeight - navbar.scrollHeight;
         if (scrollPos > stickyLine) {
                 navbar.classList.add("sticky-nav");
         } else {
