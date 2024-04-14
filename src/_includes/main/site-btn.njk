@@ -1,4 +1,4 @@
-<div webc:root="override" class="site-btn__container">
+<div class="site-btn__container">
     <div>
         <a href="https://leilukin.neocities.org/" target="_blank"><img src="/assets/leilukin/Leilukins-Hub-button.png" alt="Button of Leilukin's Hub" title="Leilukin's Hub"></a>
     </div>
@@ -6,7 +6,7 @@
     <button class="copy-txt-btn">Copy HTML</button>
 </div>
 
-<style webc:keep webc:bucket="defer">
+<style>
     .site-btn__container {
         display: flex;
         gap: 1rem;
@@ -37,7 +37,7 @@
     }
 </style>
 
-<script webc:keep webc:bucket="defer">
+<script defer>
     document.querySelector(".copy-txt-btn").onclick = () => {
         document.querySelector(".textarea-for-copy").select();
         document.execCommand('copy');

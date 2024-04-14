@@ -18,9 +18,7 @@ metadata:
         <h2>Link to My Website</h2>
 
         <p>You can link to my website with this button:</p>
-        {% renderTemplate "webc" %}
-            <site-btn></site-btn>
-        {% endrenderTemplate %}
+        {% include "main/site-btn.njk" %}
 
         <p>Credit to <a href="https://github.com/hekate2" target="_blank">hekate2</a> for their <a href="https://hekate2.github.io/buttonmaker/" target="_blank">88x31 Web Button Maker</a>!</p>
     </section>
@@ -63,8 +61,6 @@ metadata:
 
     <section class="content-section">
         <h2>Support Me</h2>
-        {% renderTemplate "webc" %}
-            <support-me></support-me>
-        {% endrenderTemplate %}
+        {% include "main/support-me.njk" %}
     </section>
 </div>

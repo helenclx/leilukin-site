@@ -24,9 +24,7 @@ metadata:
 
         <p>You can link to my website with this button:</p>
 
-        {% renderTemplate "webc" %}
-            <site-btn></site-btn>
-        {% endrenderTemplate %}
+        {% include "main/site-btn.njk" %}
 
         <p>If you also have a Neocities account, you can follow this site through its <a href="https://neocities.org/site/leilukin" target="_blank">Neocities profile</a>.</p>
         <a href="https://neocities.org/site/leilukin" target="_blank"><img src="/assets/banners/hosted-by-neocities.png" alt="a website button with Penelope the cat, the mascot of Neocities, and the text 'hosted by neocities'" title="Hosted by Neocities"></a>
@@ -62,8 +60,6 @@ metadata:
 
         <p>You can contact me via email: <a href="mailto:leilukin@outlook.com">leilukin@outlook.com</a>.</p>
 
-        {% renderTemplate "webc" %}
-            <support-me></support-me>
-        {% endrenderTemplate %}
+        {% include "main/support-me.njk" %}
     </sectioin>
 </article>

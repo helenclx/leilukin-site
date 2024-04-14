@@ -1,8 +1,8 @@
-<button webc:root="override" class="top-btn hidden" aria-label="Scroll to top">
-    <img src="/assets/images/elements/top.svg" alt="">
+<button class="top-btn hidden">
+    <img src="/assets/images/elements/top.svg" alt="Scroll to top">
 </button>
 
-<style webc:keep webc:bucket="defer">
+<style>
     :root {
         --clr-top-btn: #FFD05A;
     }
@@ -28,7 +28,7 @@
     }
 </style>
 
-<script webc:keep webc:bucket="defer">
+<script defer>
     const topButton = document.querySelector(".top-btn");
 
     window.onscroll = () => {
