@@ -1,11 +1,7 @@
 <header webc:root="override" class="main-header">
-    <noscript>
-        JavaScript is disabled in your browser. To get the best user experience on
-        this website, it is recommended that you enable it.
-    </noscript>
     <div class="main-header__top-bar"></div>
     <div class="main-header__img">
-        <img src="/assets/leilukin/Leilukins-Hub-website-banner.png" alt="">
+        <img src="/assets/leilukin/Leilukins-Hub-website-banner.png" alt="Banner of Leilukin's Hub">
     </div>
 </header>
 
