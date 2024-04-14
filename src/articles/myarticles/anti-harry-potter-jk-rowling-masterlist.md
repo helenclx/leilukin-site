@@ -7,9 +7,14 @@ desc: My masterlist of criticisms of the Harry Potter series and J.K. Rowling.
 ---
 
 <figure style="margin: 1rem 0;">
-    <img src="/assets/banners/harry-potter-free-site.png" alt="A banner with an anime girl and a text that reads 'This site is Harry Potter free' in red and 'Looking for it? Leave.'" style="margin: 0 auto;">
-    <figcaption class="center-text" style="font-size: 0.9em;">(Credit to Tumblr user <a href="https://comradesaucegay.tumblr.com/post/621403039459426304" target="blank">comradesaucegay</a> for this Harry Potter-free site banner)</figcaption>
+    <img src="/assets/banners/harry-potter-free-site.png" alt="A banner of an anime girl with a Harry Potter-free message" style="margin: 0 auto;">
+    <figcaption class="center-text" style="font-size: 0.9em;">
+        This site is Harry Potter free. Looking for it? Leave.
+    </figcaption>
 </figure>
+
+<p class="center-text">(Credit to Tumblr user <a href="https://comradesaucegay.tumblr.com/post/621403039459426304" target="blank">comradesaucegay</a> for this Harry Potter-free website banner)
+</p>
 
 Like many millennials, I grew up with the Harry Potter series and was a major fan of the series. I had read the original 7 books and watched their film adaptations. The series was a passion of mine throughout my early- to mid-teen years. While the Harry Potter novels were far from the first books I read, they were the first fantasy novels I read, and the series’ concept of a magical world set in a contemporary setting fascinated teenage me.
 
