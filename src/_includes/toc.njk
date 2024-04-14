@@ -1,0 +1,27 @@
+<aside class="left-sidebar">
+    <details class="toc__wrapper">
+        <summary class="toc__heading">
+            Contents
+        </summary>
+        {{ content | toc | safe }}
+    </details>
+</aside>
+<script defer>
+    // Close article ToC accordion for small screen sizes
+    const tocWrapper = docucument.querySelector('.toc__wrapper');
+    const tocEl = docucument.querySelector('.toc');
+    if (window.innerWidth < 480) {
+        tocWrapper.removeAttribute("open");
+    } else {
+        tocWrapper.setAttribute("open", true);
+    }
+
+    // Remove the stickiness of the sidebar ToC if it is larger than screen height
+    function preventSidebarOverflow() {
+        if (document.documentElement.clientHeight < tocEl.offsetHeight + 50) {
+            tocEl.style.marginTop = "0";
+            tocEl.style.position = "static";
+        }
+    }
+    preventSidebarOverflow();
+</script>
