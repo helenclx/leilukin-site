@@ -254,6 +254,14 @@ main,
     gap: 0.8rem;
 }
 
+main {
+    width: 100%;
+}
+
+.article__wrapper {
+    justify-self: center;
+}
+
 .main__header,
 article,
 .left-sidebar,
@@ -302,7 +310,7 @@ article,
 }
 
 @media only screen and (min-width: 80rem) {
-    main {
+    .article__wrapper {
         max-width: 80rem;
     }
 }
