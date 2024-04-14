@@ -17,15 +17,12 @@ eleventyComputed:
     </div>
 </header>
 
-{% if toc %}
-    {% include "toc.njk" %}
-{% endif %}
+<div class="article__wrapper">
+    {% if toc %}
+        {% include "toc.njk" %}
+    {% endif %}
 
-<article>
-    {{ content | safe }}
-</article>
-
-<aside class="right-sidebar">
-<h3>Title</h3>
-<p>Right sidebar content</p>
-</aside>
+    <article>
+        {{ content | safe }}
+    </article>
+</div>
