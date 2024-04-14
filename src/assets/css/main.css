@@ -251,7 +251,6 @@ main,
 .article__wrapper {
     font-size: 1.2rem;
     display: grid;
-    gap: 0.8rem;
 }
 
 main {
@@ -260,14 +259,24 @@ main {
 
 .article__wrapper {
     justify-self: center;
+    gap: 0.8rem;
 }
 
 .main__header,
 .article,
 .left-sidebar,
 .right-sidebar {
-    background-color: var(--clr-content-bg);
     padding: 1.5rem clamp(1rem, 5%, 3rem);
+}
+
+.main__header {
+    background-color: var(--clr-quote-bg);
+}
+
+.article,
+.left-sidebar,
+.right-sidebar {
+    background-color: var(--clr-content-bg);
 }
 
 .article__info {
