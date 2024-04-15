@@ -26,7 +26,7 @@ Therefore, I am compiling this masterlist by curating various materials that are
 
 ## Articles
 
-<ul class="article-list">
+<ul class="content-list">
     <li><a href="https://alinautrata.medium.com/all-the-things-that-are-fucked-up-about-harry-potter-58267e1bf3ee" target="_blank">Harry Potter and the Universal Declaration of Human Rights</a> by Alina Utrata (28 October 2016)</li>
     <li><a href="https://katymontgomerie.medium.com/addressing-the-claims-in-jk-rowlings-justification-for-transphobia-7b6f761e8f8f" target="_blank">Addressing The Claims In JK Rowling’s Justification For Transphobia</a> by Katy Montgomerie (16 June 2020)</li>
     <li><a href="https://www.themarysue.com/is-hogwarts-legacy-anti-semitic-hogwarts-legacy-anti-semitic-allegations-explained/" target="_blank">The Antisemitism of ‘Harry Potter’ Returns in ‘Hogwarts Legacy’</a> by Jack Doyle (8 February 2023)</li>
@@ -36,7 +36,7 @@ Therefore, I am compiling this masterlist by curating various materials that are
 
 ## Videos
 
-<ul class="article-list">
+<ul class="content-list">
     <li><a href="https://www.youtube.com/watch?v=wPwWb9z3XSY" target="_blank">Harry Potter is GARBAGE, and Here's Why</a> by satenmadpun (25 August 2020)</li>
     <li><a href="https://www.youtube.com/watch?v=4AziZgoi3q0" target="_blank">We need to talk about Dudley Dursley- Harry Potter and Fatphobia</a> by Ok2BeFat (30 May 2021)</li>
     <li><a href="https://www.youtube.com/watch?v=-1iaJWSwUZs" target="_blank">Harry Potter</a> by Shaun (4 March 2023)</li>
@@ -51,6 +51,6 @@ Therefore, I am compiling this masterlist by curating various materials that are
 
 ## Podcasts
 
-<ul class="article-list">
+<ul class="content-list">
     <li><a href="https://soundcloud.com/shriekingshack" target="_blank">The Shrieking Shack</a> — A book reading podcast hosted by Xeecee and Liz. Originally a <cite>Harry Potter</cite> reread podcast made by and for lapsed fans that goes through every chapter of the <cite>Harry Potter</cite> books and their film adaptations and analyses the writing and politics of the series and J.K. Rowling.</li>
 </ul>
