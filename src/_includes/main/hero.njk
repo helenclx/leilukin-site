@@ -46,9 +46,7 @@
             headerImgEl.classList.add(getBanner(todayEvent));
             headerTopBarEl.innerHTML = getBlurbHtml(todayEvent);
         }
-    } else {
-        headerTopBarEl.textContent = "Welcome to Leilukin's Hub!";
-    };
+    }
 
     function getTodayEvent() {
         const date = new Date();
