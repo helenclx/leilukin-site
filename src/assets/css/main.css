@@ -141,16 +141,19 @@ h2, h3, h4, h5, h6 {
 
 h2, h3 {
     line-height: 1.2;
-    margin-bottom: 0.4em;
 }
 
-h2 {
+h2, .h2 {
     font-size: clamp(1.55rem,1rem + 3vw,2.15rem);
 }
 
-h3 {
+h3, .h3 {
     font-size: clamp(1.55rem,1rem + 3vw,1.8rem);
+}
 
+h2:has(+ *[class]), .h2:has(+ *[class]),
+h3:has(+ *[class]), .h3:has(+ *[class]) {
+    margin-bottom: 0.5em;
 }
 
 hr {
@@ -272,6 +275,12 @@ main {
     text-align: center;
     display: grid;
     gap: 0.2em;
+}
+
+.content > * + .h2,
+.content__section > * + .h2,
+.article > * + .h2 {
+    margin-top: 2em;
 }
 
 .content > * + :not([class]),
