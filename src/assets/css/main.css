@@ -298,11 +298,6 @@ main {
     font-size: 0.9rem;
 }
 
-.sidebar--sticky {
-    position: sticky;
-    top: 5rem;
-}
-
 /* Desktop main content layout */
 @media only screen and (min-width: 60rem) {
     .content__wrapper {
