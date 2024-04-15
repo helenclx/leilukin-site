@@ -8,7 +8,7 @@ eleventyComputed:
 
 <header class="main__header">
     <h1>{{ articleTitle }}</h1>
-        <div class="article__info">
+    <div class="article__info">
         <p>Posted on {{ date | niceDate }} by {{ sitemeta.siteAuthor.name }}
         {% if updated %}
             • Updated on {{ updated | niceDate }}</p>
