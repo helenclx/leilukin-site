@@ -143,10 +143,6 @@ h2 {
     font-size: 1.7rem;
 }
 
-p {
-    padding: 0.5rem 0;
-}
-
 hr {
     border: 0.05rem solid var(--clr-title-border);
 }
@@ -177,10 +173,10 @@ a:focus img {
 }
 
 blockquote {
-    margin: 1.5rem 0;
-	padding: 0.5rem 1rem;
-	border-inline-start: 0.1rem solid var(--clr-main-heading);
+	padding: 0.7em 1.4em;
+	border-inline-start: 0.1em solid var(--clr-main-heading);
     background-color: var(--clr-quote-bg);
+    margin-bottom: 1em;
 }
 
 button:hover {
@@ -293,20 +289,33 @@ main {
 .article__info {
     text-align: center;
     display: grid;
+    gap: 0.2em;
 }
 
-.article__info p {
-    padding: 0.1em 0;
+
+.content h2, .article h2,
+.content h3, .article h3 {
+    margin-bottom: 0.5em;
 }
 
-.sidebar--sticky {
-    position: sticky;
-    top: 5rem;
+.content p,
+.article p {
+    line-height: 1.6;
+}
+
+.content p:not(:last-child),
+.article p:not(:last-child) {
+    padding-bottom: 1em;
 }
 
 .left-sidebar,
 .right-sidebar {
     font-size: 0.9rem;
+}
+
+.sidebar--sticky {
+    position: sticky;
+    top: 5rem;
 }
 
 /* Desktop main content layout */
