@@ -8,6 +8,8 @@
     --clr-link-btn-bg: #7A37A3;
     --clr-link-btn-hover: #BA6FE8;
 
+    --ff-default: 'Noto Sans';
+
     --fs-h1: 3.1rem;
     --fs-body: 1rem;
     --fs-link-btn: 2rem;
@@ -106,7 +108,7 @@ textarea:not([rows]) {
 
 body {
     font-size: var(--clr-body-bg);
-    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    font-family: var(--ff-default), Arial, Helvetica, sans-serif;
     color: #FFFFFF;
     background: var(--clr-body-bg);
     text-align: center;
