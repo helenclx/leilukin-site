@@ -14,7 +14,7 @@ layout: main/base
         {% include "toc.njk" %}
     {% endif %}
 
-    <div class="content">
+    <div class="content{% if contentIsDivided %} content--divided{% endif %}">
         {{ content | safe }}
     </div>
 </div>

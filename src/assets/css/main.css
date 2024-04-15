@@ -245,23 +245,33 @@ dd {
 
 /* MAIN CONTENT */
 main,
+.content__wrapper,
+.content--divided {
+    display: grid;
+}
+
+main,
 .content__wrapper {
     font-size: 1.2rem;
-    display: grid;
 }
 
 main {
     width: 100%;
 }
 
+.content__wrapper,
+.content--divided {
+    gap: 0.8rem;
+}
+
 .content__wrapper {
     justify-self: center;
-    gap: 0.8rem;
 }
 
 .main__header,
 .article,
-.content,
+.content:not(.content--divided),
+.content__section,
 .left-sidebar,
 .right-sidebar {
     padding: 1.5rem clamp(1rem, 5%, 3rem);
@@ -273,7 +283,8 @@ main {
 }
 
 .article,
-.content,
+.content:not(.content--divided),
+.content__section,
 .left-sidebar,
 .right-sidebar {
     background-color: var(--clr-content-bg);
