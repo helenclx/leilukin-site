@@ -53,7 +53,6 @@
 <script defer>
     // Close article ToC accordion for small screen sizes
     const tocWrapper = docucument.querySelector('.toc__wrapper');
-    const tocEl = docucument.querySelector('.toc');
     if (window.innerWidth < 480) {
         tocWrapper.removeAttribute("open");
     } else {
@@ -62,7 +61,7 @@
 
     // Remove the stickiness of the sidebar ToC if it is larger than screen height
     function preventSidebarOverflow() {
-        if (document.documentElement.clientHeight < tocEl.offsetHeight + 50) {
+        if (document.documentElement.clientHeight < tocWrapper.offsetHeight + 50) {
             tocWrapper.style.marginTop = "0";
             tocWrapper.style.position = "static";
         }
