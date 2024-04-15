@@ -137,6 +137,7 @@ h1 {
 
 h2, h3, h4, h5, h6 {
     color: var(--clr-sub-heading);
+    line-height: 1.5;
 }
 
 h2 {
@@ -209,34 +210,6 @@ dt {
 
 dd {
     grid-column-start: 2;
-}
-
-/* UTILITY CLASSES */
-.bold-text {
-    font-weight: 700;
-}
-
-.center-el {
-    display: grid;
-    place-content: center;
-}
-
-.center-text {
-    text-align: center;
-}
-
-.date-style {
-    font-weight: 700;
-    color: var(--clr-dates);
-}
-
-.hidden {
-    display: none;
-}
-
-.article-list {
-    display: grid;
-    gap: 0.5em;
 }
 
 /* MAIN CONTENT */
@@ -535,6 +508,40 @@ main {
 .toc ol ol a {
     padding: 0;
     font-size: 1rem;
+}
+
+/* UTILITY CLASSES */
+.bold-text {
+    font-weight: 700;
+}
+
+.center-el {
+    display: grid;
+    place-content: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.date-style {
+    font-weight: 700;
+    color: var(--clr-dates);
+}
+
+.hidden {
+    display: none;
+}
+
+.content-list {
+    display: grid;
+    gap: 0.7em;
+}
+
+.content-list a {
+    display: block;
+    font-size: 1.3rem;
+    margin-bottom: 0.1em;
 }
 
 /* Pride flag backgrounds */
