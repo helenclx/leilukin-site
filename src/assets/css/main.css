@@ -116,6 +116,10 @@ textarea:not([rows]) {
 /* ------------------- */
 
 /* General Styles */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
 body {
     display: flex;
     align-items: center;
