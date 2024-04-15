@@ -131,8 +131,8 @@ h1 {
     color: var(--clr-main-heading);
     font-size: 2.2rem;
     border-bottom: 0.18rem solid var(--clr-title-border);
-    margin-bottom: 1.2rem;
-    text-align: center;
+    padding-bottom: 0.3em;
+    margin-bottom: 0.5em;
 }
 
 h2, h3, h4, h5, h6 {
@@ -269,6 +269,7 @@ main {
 
 .main__header {
     background-color: var(--clr-quote-bg);
+    text-align: center;
 }
 
 .article,
