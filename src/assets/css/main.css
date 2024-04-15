@@ -142,6 +142,7 @@ h2, h3, h4, h5, h6 {
 h2, h3 {
     font-size: clamp(1.55rem,1rem + 3vw,2.15rem);
     line-height: 1.2;
+    margin-bottom: 0.4em;
 }
 
 hr {
@@ -265,20 +266,10 @@ main {
     gap: 0.2em;
 }
 
-
-.content h2, .article h2,
-.content h3, .article h3 {
-    margin-bottom: 0.5em;
-}
-
-.content p,
-.article p {
-    line-height: 1.6;
-}
-
-.content p:not(:last-child),
-.article p:not(:last-child) {
-    padding-bottom: 1em;
+.content > * + :not([class]),
+.content__section > * + :not([class]),
+.article > * + :not([class]) {
+    margin-top: 1.15em;
 }
 
 .left-sidebar,
@@ -536,12 +527,6 @@ main {
 .content-list {
     display: grid;
     gap: 0.7em;
-}
-
-.content-list a {
-    display: block;
-    font-size: 1.3rem;
-    margin-bottom: 0.1em;
 }
 
 /* Pride flag backgrounds */
