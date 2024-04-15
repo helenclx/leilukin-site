@@ -14,7 +14,7 @@ contentIsDivided: true
     <ul class="content-list">
         {% for article in collections["my articles"] %}
             <li>
-                <a href="{{ article.url }}">{{ article.data.articleTitle }}</a>
+                <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
                 <time>{{ article.date | niceDate }}</time>
             </li>
         {% endfor %}
@@ -35,7 +35,7 @@ contentIsDivided: true
     <ul class="content-list">
         {% for article in collections["featured articles"] %}
             <li>
-                <a href="{{ article.url }}">{{ article.data.articleTitle }}</a>
+                <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
                 <time>{{ article.date | niceDate }}</time>
             </li>
         {% endfor %}
