@@ -25,7 +25,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(metagen);
     eleventyConfig.addPlugin(pluginTOC, { tags: ['h2', 'h3', 'h4', 'h5'] });
     eleventyConfig.addPlugin(emojiReadTime);
-    eleventyConfig.addPlugin(embedEverything);
+    eleventyConfig.addPlugin(embedEverything, { add: ['soundcloud'] });
 
     // Configure slug filter
     eleventyConfig.addFilter("slug", (str) => {
