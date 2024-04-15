@@ -245,7 +245,7 @@ dd {
 
 /* MAIN CONTENT */
 main,
-.article__wrapper {
+.content__wrapper {
     font-size: 1.2rem;
     display: grid;
 }
@@ -254,7 +254,7 @@ main {
     width: 100%;
 }
 
-.article__wrapper {
+.content__wrapper {
     justify-self: center;
     gap: 0.8rem;
 }
@@ -297,7 +297,7 @@ main {
 
 /* Desktop main content layout */
 @media only screen and (min-width: 60rem) {
-    .article__wrapper {
+    .content__wrapper {
         grid-template-areas: 'leftbar article rightbar';
         grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
     }
@@ -316,7 +316,7 @@ main {
 }
 
 @media only screen and (min-width: 80rem) {
-    .article__wrapper {
+    .content__wrapper {
         max-width: 80rem;
     }
 }
