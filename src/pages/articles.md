@@ -1,8 +1,8 @@
 ---
 layout: main/content
 title: Articles
+desc: List of articles published on my website.
 metadata:
-    desc: List of articles published on my website.
     type: article
 date: 2023-01-04
 templateEngineOverride: njk, md
