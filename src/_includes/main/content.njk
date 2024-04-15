@@ -17,4 +17,8 @@ layout: main/base
     <div class="content {{'content--divided' if isContentDivided }}">
         {{ content | safe }}
     </div>
+
+    {% if tags.includes("blog pages") %}
+        {% include "main/blognav.njk" %}
+    {% endif %}
 </div>
