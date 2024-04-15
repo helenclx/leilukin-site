@@ -261,6 +261,7 @@ main {
 
 .main__header,
 .article,
+.content-list,
 .left-sidebar,
 .right-sidebar {
     padding: 1.5rem clamp(1rem, 5%, 3rem);
@@ -271,6 +272,7 @@ main {
 }
 
 .article,
+.content-list,
 .left-sidebar,
 .right-sidebar {
     background-color: var(--clr-content-bg);
@@ -302,7 +304,8 @@ main {
         grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
     }
 
-    .article {
+    .article,
+    .content-list {
         grid-area: article;
     }
 

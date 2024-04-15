@@ -1,0 +1,22 @@
+---
+layout: main/base
+metadata:
+    type: article
+---
+
+<header class="main__header">
+    <h1>{{ title }}</h1>
+    {% if intro %}
+        <p>{{ intro }}</p>
+    {% endif %}
+</header>
+
+<div class="content__wrapper">
+    {% if toc %}
+        {% include "toc.njk" %}
+    {% endif %}
+
+    <div class="content-list">
+        {{ content | safe }}
+    </div>
+</div>
