@@ -4,6 +4,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const metagen = require('eleventy-plugin-metagen');
 const pluginTOC = require('eleventy-plugin-nesting-toc');
 const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
+const embedEverything = require("eleventy-plugin-embed-everything");
 
 // Configure slug filter
 const slugify = require("slugify");
@@ -18,28 +19,13 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addWatchTarget("./src/assets/");
     eleventyConfig.addPassthroughCopy({ "./src/assets/feed/": "/" });
 
-    // Filter: Format dates
-    const dateOptions = {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-    };
-    const dateTimeLocale = new Intl.DateTimeFormat("en-GB", dateOptions);
-    eleventyConfig.addFilter("niceDate", function(date) {
-        return dateTimeLocale.format(date);
-    });
-
-    // Filter: Limit
-    eleventyConfig.addFilter("limit", function(array, limit) {
-        return array.slice(0, limit);
-    });
-
     // Installed Plug-ins
     eleventyConfig.addPlugin(EleventyRenderPlugin);
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(metagen);
     eleventyConfig.addPlugin(pluginTOC, { tags: ['h2', 'h3', 'h4', 'h5'] });
     eleventyConfig.addPlugin(emojiReadTime);
+    eleventyConfig.addPlugin(embedEverything);
 
     // Configure slug filter
     eleventyConfig.addFilter("slug", (str) => {
@@ -102,6 +88,22 @@ module.exports = function (eleventyConfig) {
 
     /* This is the part that tells 11ty to swap to our custom config */
     eleventyConfig.setLibrary("md", markdownLibrary);
+
+    // Filter: Format dates
+    const dateOptions = {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+    };
+    const dateTimeLocale = new Intl.DateTimeFormat("en-GB", dateOptions);
+    eleventyConfig.addFilter("niceDate", function(date) {
+        return dateTimeLocale.format(date);
+    });
+
+    // Filter: Limit
+    eleventyConfig.addFilter("limit", function(array, limit) {
+        return array.slice(0, limit);
+    });
 
     return {
         dir: {
