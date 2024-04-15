@@ -25,4 +25,8 @@ eleventyComputed:
     <article class="article">
         {{ content | safe }}
     </article>
+
+    {% if tags.includes("blog pages") %}
+        {% include "main/blognav.njk" %}
+    {% endif %}
 </div>
