@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         {# Meta data #}
-        <meta property="og:title" content="{{ title }}">
+        <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ sitemeta.siteName }}{% endif %}">
         {% include "metagen.njk" %}
 
         {# CSS #}
@@ -24,7 +24,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
         <link rel="manifest" href="/assets/favicon/site.webmanifest">
 
-        <title>{{ title }} | {{ sitemeta.siteName }}</title>
+        <title>{% if title %} {{ title }} | {% endif %} {{ sitemeta.siteName }}</title>
     </head>
     <body>
         {% include "main/hero.njk" %}
