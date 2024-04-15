@@ -1,4 +1,7 @@
 {
     "tags": "articles",
-    "layout": "main/article"
+    "layout": "main/article",
+    "eleventyComputed": {
+        "title": "{{ articleTitle }} | Articles"
+    }
 }

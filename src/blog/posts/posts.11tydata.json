@@ -1,4 +1,7 @@
 {
     "layout": "main/article",
-    "tags": "posts"
+    "tags": "posts",
+    "eleventyComputed": {
+        "title": "{{ articleTitle }} | Blog"
+    }
 }
