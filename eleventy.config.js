@@ -89,17 +89,10 @@ module.exports = function (eleventyConfig) {
     /* This is the part that tells 11ty to swap to our custom config */
     eleventyConfig.setLibrary("md", markdownLibrary);
 
-    // Add contents to a feed items collection
-    eleventyConfig.addCollection("feedItems", function (collectionApi) {
-        return collectionApi.getFilteredByTags(
-            'articles', 'posts', 'changelogs'
-        );
-    });
-
     // Add content categories to a collection
     eleventyConfig.addCollection("categories", function(collectionApi) {
         let categories = new Set();
-        let contents = collectionApi.getFilteredByTags('articles', 'posts');
+        let contents = collectionApi.getFilteredByTag('contents');
         contents.forEach(p => {
             let cats = p.data.categories;
             cats.forEach(c => categories.add(c));
