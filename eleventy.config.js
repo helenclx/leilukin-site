@@ -121,9 +121,9 @@ module.exports = function (eleventyConfig) {
         return dateTimeLocale.format(date);
     });
 
-    // Filter: Limit
-    eleventyConfig.addFilter("limit", function(array, limit) {
-        return array.slice(0, limit);
+    // Filter: Limit number of items displayed
+    eleventyConfig.addFilter("itemLimit", function(array, itemLimit) {
+        return array.slice(0, itemLimit);
     });
 
     return {
