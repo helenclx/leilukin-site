@@ -393,7 +393,7 @@ main {
 .text-box {
     background: var(--clr-quote-bg);
     border: 0.1em solid var(--clr-main-heading);
-    padding: 0.4em 0.8em;
+    padding: 0.8em;
     margin: 0.5em 0;
 }
 
