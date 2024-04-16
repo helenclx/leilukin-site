@@ -11,7 +11,7 @@ date: 2022-01-02
 <article>
     {% for log in collections["changelog 2022"] | reverse %}
         <div class="heading-wrapper h2">
-            <h2 id="{{ log.fileSlug }}">{{ log.data.title }}</h2>
+            <h2 id="{{ log.fileSlug }}">{{ log.date | niceDate }}</h2>
             <a class="heading-anchor" href="#{{ log.fileSlug }}" aria-labelledby="{{ log.fileSlug }}"><span hidden="">#</span></a>
         </div>
         {{ log.templateContent | safe }}
