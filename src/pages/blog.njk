@@ -4,4 +4,41 @@ title: Blog
 desc: Blog hosted on Leilukin's personal website.
 tags: blog pages
 pageTitle: Welcome to Leilukin's Hub Blog!
+pagination:
+    data: collections.posts
+    size: 5
+    alias: postList
+    reverse: true
+permalink: "/{{ page.fileSlug }}{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}{% endif %}/"
 ---
+
+<ul class="blog__postlist">
+    {% for post in postList %}
+        <li>
+            <h2 class="blog__title">
+                <a href="{{ post.url }}">
+                    {% if post.data.title %}{{ post.data.articleTitle }}
+                    {% else %}
+                        <code>{{ post.url }}</code>
+                    {% endif %}
+                </a>
+            </h2>
+            <time>{{ post.date | niceDate }}</time>
+            <p>{{ post.data.desc }}</p>
+        </li>
+    {% endfor %}
+</ul>
+
+<p class="center-text">
+    {% if pagination.href.previous %}
+        <a href=" {{ pagination.href.previous }}">Previous</a>
+    {% else %}
+        Previous
+    {% endif %}
+    /
+    {% if pagination.href.next %}
+        <a href=" {{ pagination.href.next }}">Next</a>
+    {% else %}
+        Next
+    {% endif %}
+</p>
