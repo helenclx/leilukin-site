@@ -1,0 +1,6 @@
+{%- macro siteLayoutArchive(params) -%}
+    <h2>{{ params.title }}</h2>
+    {% for screenshot in params.screenshots %}
+        <img src="/assets/layouts/{{ screenshot.imgFile }}" alt="{{ screenshot.imgAlt }}">
+    {% endfor %}
+{%- endmacro -%}
