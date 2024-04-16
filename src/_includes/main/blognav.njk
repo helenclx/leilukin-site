@@ -3,8 +3,7 @@
         <h2 class="blog__nav--title">Blog Navigation</h2>
         <ul class="blog__nav--links">
         {% for page in collections["blog pages"] %}
-            <li><a href="{{ page.url }}">{{ page.data.blogNav }}</a>
-            </li>
+            <li><a href="{{ page.url }}">{{ page.data.blogNav }}</a></li>
         {% endfor %}
     </ul>
     </nav>
