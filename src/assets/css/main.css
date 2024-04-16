@@ -133,7 +133,7 @@ body {
 
 h1 {
     color: var(--clr-main-heading);
-    font-size: clamp(2rem,1rem + 5vw,3rem);
+    font-size: clamp(2rem, 1rem + 5vw, 3rem);
     border-bottom: 0.18rem solid var(--clr-title-border);
     padding-bottom: 0.3em;
     margin-bottom: 0.5em;
@@ -148,11 +148,11 @@ h1, h2, h3 {
 }
 
 h2, .h2 {
-    font-size: clamp(1.55rem,1rem + 3vw,2.15rem);
+    font-size: clamp(1.55rem, 1rem + 3vw, 2.15rem);
 }
 
 h3, .h3 {
-    font-size: clamp(1.55rem,1rem + 3vw,1.8rem);
+    font-size: clamp(1.55rem, 1rem + 3vw, 1.8rem);
 }
 
 h2:has(+ *[class]), .h2:has(+ *[class]),
