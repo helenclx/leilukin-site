@@ -1,5 +1,5 @@
 {
-    "layout": "main/article",
+    "layout": "main/blogpost",
     "tags": ["posts", "contents", "feed items"],
     "eleventyComputed": {
         "title": "{{ articleTitle }} | Blog"
