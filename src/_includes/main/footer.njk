@@ -1,4 +1,23 @@
-<footer class="main-footer">
-    <p>Made with ♥ by {{ sitemeta.siteAuthor.name }} | <a href="/sitemap">Site Map</a></p>
-    <p>Site Launched: 11 September 2022 | <a href="/changelog">Website Changelog</a></p>
+<footer class="footer">
+    <p>Made with ♥ by {{ sitemeta.siteAuthor.name }} since <time>11 September 2022</time></p>
+    <p><a href="/sitemap">Site Map</a> | <a href="/changelogs">Changelogs</a>  | <a href="/feed.xml">RSS</a></p>
 </footer>
+
+<style>
+    .footer {
+        background: var(--clr-main-footer-bg);
+        width: 72%;
+        padding: 0.8rem;
+        text-align: center;
+    }
+
+    .footer p {
+        padding: 0;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .footer {
+            width: 100%;
+        }
+    }
+</style>
