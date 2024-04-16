@@ -33,14 +33,14 @@ permalink: "/{{ page.fileSlug }}{% if pagination.pageNumber > 0 %}/page/{{ pagin
 
 <p class="center-text">
     {% if pagination.href.previous %}
-        <a href=" {{ pagination.href.previous }}">Previous</a>
+        <a href=" {{ pagination.href.previous }}">Newer</a>
     {% else %}
-        Previous
+        Newer
     {% endif %}
     /
     {% if pagination.href.next %}
-        <a href=" {{ pagination.href.next }}">Next</a>
+        <a href=" {{ pagination.href.next }}">Older</a>
     {% else %}
-        Next
+        Older
     {% endif %}
 </p>
