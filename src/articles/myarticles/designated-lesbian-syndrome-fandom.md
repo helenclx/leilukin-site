@@ -3,6 +3,7 @@ layout: main/article
 articleTitle: Designated Lesbian Syndrome in Fandom
 date: 2023-08-18
 desc: On fandom's tokenisation of lesbians, and how I hate it as a lesbian myself.
+categories: ["fandom culture"]
 ---
 
 Over the years of interacting with and observing fandom, I have come to [dislike fandom and shipping culture](my-dislike-of-shipping-culture.html) for many reasons. One major reason I want to talk about here is the "Designated Lesbian Syndrome" phenomenon.
