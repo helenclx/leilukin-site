@@ -1,0 +1,17 @@
+---
+layout: main/changelog
+title: Changelog
+pageTitle: Website Changelog
+desc: Changelog of my website.
+metadata:
+    type: article
+date: 2023-01-09
+---
+
+<h2>Latest Changelog:</h2>
+<article>
+    {% for log in collections["changelog 2024"]  | reverse %}
+        <h3>{{ log.data.title }}</h3>
+        {{ log.templateContent | safe }}
+    {%- endfor %}
+</article>
