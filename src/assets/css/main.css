@@ -3,7 +3,7 @@
 /* ------------------- */
 :root {
     --clr-body-bg: #08031A;
-    --img-body-bg: url('/assets/images/bg/starsforever.png');
+    /* --img-body-bg: url('/assets/images/bg/starsforever.png'); */
     --clr-body-txt: #fceaff;
     --clr-content-bg: #3d2163;
 
@@ -143,7 +143,7 @@ h2, h3, h4, h5, h6 {
     color: var(--clr-sub-heading);
 }
 
-h2, h3 {
+h1, h2, h3 {
     line-height: 1.2;
 }
 
@@ -253,7 +253,6 @@ main {
     justify-self: center;
 }
 
-.main__header,
 .article,
 .content:not(.content--divided),
 .content__section,
@@ -263,7 +262,8 @@ main {
 }
 
 .main__header {
-    background-color: var(--clr-quote-bg);
+    /* background-color: var(--clr-quote-bg); */
+    padding: 2.5rem clamp(1rem, 5%, 3rem);
     text-align: center;
 }
 
