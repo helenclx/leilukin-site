@@ -7,7 +7,7 @@
 
         {# Meta data #}
         <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ sitemeta.siteName }}{% endif %}">
-        {% include "metagen.njk" %}
+        {% include "global/metagen.njk" %}
 
         {# CSS #}
         <link rel="stylesheet" href="{{'/assets/css/main.css' | url | safe}}">
@@ -30,6 +30,6 @@
             {{ content | safe }}
         </main>
         {% include "main/footer.njk" %}
-        {% include "main/top-btn.njk" %}
+        {% include "global/top-btn.njk" %}
     </body>
 </html>
