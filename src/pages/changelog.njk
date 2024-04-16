@@ -6,12 +6,32 @@ desc: Changelog of my website.
 metadata:
     type: article
 date: 2023-01-09
+pagination:
+    data: collections["changelogs"]
+    size: 20
+    alias: changelogs
+    reverse: true
+permalink: "/{{ page.fileSlug }}{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}{% endif %}/"
 ---
 
-<h2>Latest Changelog:</h2>
+<h2>Latest Changelogs</h2>
 <article>
-    {% for log in collections["changelog 2024"]  | reverse %}
-        <h3>{{ log.data.title }}</h3>
+    {% for log in changelogs %}
+        <h3>{{ log.data.date | niceDate }}</h3>
         {{ log.templateContent | safe }}
     {%- endfor %}
 </article>
+
+<p class="center-text">
+    {% if pagination.href.previous %}
+        <a href=" {{ pagination.href.previous }}">Previous</a>
+    {% else %}
+        Previous
+    {% endif %}
+    /
+    {% if pagination.href.next %}
+        <a href=" {{ pagination.href.next }}">Next</a>
+    {% else %}
+        Next
+    {% endif %}
+</p>
