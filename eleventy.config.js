@@ -89,6 +89,27 @@ module.exports = function (eleventyConfig) {
     /* This is the part that tells 11ty to swap to our custom config */
     eleventyConfig.setLibrary("md", markdownLibrary);
 
+    // Add content categories to a collection
+    eleventyConfig.addCollection("categories", function(collectionApi) {
+        let categories = new Set();
+        let contents = collectionApi.getFilteredByTags('articles', 'posts');
+        contents.forEach(p => {
+            let cats = p.data.categories;
+            cats.forEach(c => categories.add(c));
+        });
+        return Array.from(categories).sort();
+    });
+
+    // Filter contents by category
+    eleventyConfig.addFilter("filterByCategory", function(contents, cat) {
+        cat = cat.toLowerCase();
+        let result = contents.filter(item => {
+            let cats = item.data.categories.map(c => c.toLowerCase());
+            return cats.includes(cat);
+        });
+        return result;
+    });
+
     // Filter: Format dates
     const dateOptions = {
         year: 'numeric',
