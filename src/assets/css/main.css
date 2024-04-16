@@ -329,18 +329,6 @@ main {
     }
 }
 
-/* FOOTER COMPONENT */
-.main-footer {
-    background: var(--clr-main-footer-bg);
-    width: 100%;
-    padding: 0.8rem;
-    text-align: center;
-}
-
-.main-footer p {
-    padding: 0;
-}
-
 /* HEADING WRAPPER AND ANCHOR */
 .heading-wrapper {
     display: flex;
