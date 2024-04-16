@@ -190,10 +190,14 @@ a:focus img {
 }
 
 blockquote {
-	padding: 0.7em 1.4em;
+	padding: 1em 1.4em 1.4em;
 	border-inline-start: 0.1em solid var(--clr-main-heading);
     background-color: var(--clr-quote-bg);
     margin-bottom: 1em;
+}
+
+blockquote > * + :not([class]) {
+    margin-top: 1.15em;
 }
 
 button:hover {
