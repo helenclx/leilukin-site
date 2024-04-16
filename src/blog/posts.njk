@@ -9,3 +9,34 @@ layout: main/content
 tags: blog pages
 blogNav: Archive
 ---
+
+<ul class="blog__postlist">
+    {% for post in postList %}
+        <li>
+            <h2 class="blog__title">
+                <a href="{{ post.url }}">
+                    {% if post.data.title %}{{ post.data.articleTitle }}
+                    {% else %}
+                        <code>{{ post.url }}</code>
+                    {% endif %}
+                </a>
+            </h2>
+            <time>{{ post.date | niceDate }}</time>
+            <p>{{ post.data.desc }}</p>
+        </li>
+    {% endfor %}
+</ul>
+
+<p class="center-text">
+    {% if pagination.href.previous %}
+        <a href=" {{ pagination.href.previous }}">Previous</a>
+    {% else %}
+        Previous
+    {% endif %}
+    /
+    {% if pagination.href.next %}
+        <a href=" {{ pagination.href.next }}">Next</a>
+    {% else %}
+        Next
+    {% endif %}
+</p>
