@@ -11,6 +11,13 @@ metadata:
         {% if updated %}
             • Updated on {{ updated | niceDate }}</p>
         {% endif %}
+        {% if categories %}
+            <p>Categories:
+                {% for cat in categories %}
+                    <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
+                {% endfor %}
+            </p>
+        {% endif %}
         <p>{{ content | emojiReadTime }}</p>
     </div>
 </header>
