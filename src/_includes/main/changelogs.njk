@@ -7,6 +7,10 @@ layout: main/content
 <nav class="changelog__nav">
     <p class="changelog__nav--title">Changelog Archive:</p>
     <ul class="changelog__nav--links">
+        <li>
+            <a {% if currentUrl === "/changelogs/" %}aria-current="page"{% endif %} href="/changelogs">Latest</a>
+        </li>
+        |
         {% for page in collections["changelog pages"] | reverse %}
             <li>
                 <a
@@ -37,6 +41,7 @@ layout: main/content
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     .changelog__nav {
@@ -44,11 +49,13 @@ layout: main/content
         gap: 0.2em;
         align-self: center;
         font-weight: 600;
+        gap: 0.5em;
     }
 
     .changelog__nav--links {
         margin: 0;
         padding: 0;
+        line-height: 1.1;
     }
 
     .changelog__nav--links {
