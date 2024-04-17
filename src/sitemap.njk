@@ -2,7 +2,8 @@
 layout: main/content
 title: Site Map
 eleventyExcludeFromCollections: true
-desc: Site map of Leilukin's Hub.
+eleventyComputed:
+    desc: Site map of {{ sitemeta.siteName | safe }}.
 ---
 
 <p>This page lists the links to the pages on my website for easier navigation.</p>
@@ -11,49 +12,53 @@ desc: Site map of Leilukin's Hub.
     {% for page in collections.pages %}
         <li>
             <a href="{{ page.url }}">{{ page.data.title or page.data.metadata.title }}</a>
-            {% if page.data.title === "Blog" %}
-                <ul>
-                    {% for page in collections["blog pages"] %}
-                        {% if page.data.title !== "Blog" %}
-                            <li>
-                                <a href="{{ page.url }}">{{ page.data.title or page.data.metadata.title }}</a>
-                            </li>
-                        {% endif %}
-                    {%- endfor %}
-                </ul>
-            {% endif %}
-
-            {% if page.data.title === "Articles" %}
-                <ul>
-                    {% for page in collections["articles"] %}
-                        <li>
-                            <a href="{{ page.url }}">{{ page.data.articleTitle }}</a>
-                        </li>
-                    {%- endfor %}
-                </ul>
-            {% endif %}
-
-            {% if page.data.title === "Projects" %}
-                <ul>
-                    {% for page in collections["project pages"] %}
-                        <li>
-                            <a href="{{ page.url }}">{{ page.data.title }}</a>
-                        </li>
-                    {%- endfor %}
-                </ul>
-            {% endif %}
-
-            {% if page.data.title === "Changelogs" %}
-                <ul>
-                    {% for page in collections["changelog pages"] %}
-                        <li>
-                            <a href="{{ page.url }}">{{ page.data.changelogNav }}</a>
-                        </li>
-                    {%- endfor %}
-                </ul>
-            {% endif %}
         </li>
+        {% if page.data.title === "Blog" %}
+            <ul>
+                {% for page in collections["blog pages"] %}
+                    {% if page.data.title !== "Blog" %}
+                        <li>
+                            <a href="{{ page.url }}">{{ page.data.title or page.data.metadata.title }}</a>
+                        </li>
+                    {% endif %}
+                {%- endfor %}
+            </ul>
+        {% endif %}
+
+        {% if page.data.title === "Articles" %}
+            <ul>
+                {% for page in collections["articles"] %}
+                    <li>
+                        <a href="{{ page.url }}">{{ page.data.articleTitle }}</a>
+                    </li>
+                {%- endfor %}
+            </ul>
+        {% endif %}
+
+        {% if page.data.title === "Projects" %}
+            <ul>
+                {% for page in collections["project pages"] %}
+                    <li>
+                        <a href="{{ page.url }}">{{ page.data.title }}</a>
+                    </li>
+                {%- endfor %}
+            </ul>
+        {% endif %}
+
+        {% if page.data.title === "Changelogs" %}
+            <ul>
+                {% for page in collections["changelog pages"] %}
+                    <li>
+                        <a href="{{ page.url }}">{{ page.data.changelogNav }}</a>
+                    </li>
+                {%- endfor %}
+            </ul>
+        {% endif %}
     {%- endfor %}
+
+    {% for archive in collections.archive %}
+        <li><a href="{{ archive.url }}">{{ archive.data.title }}</a></li>
+    {% endfor %}
 </ul>
 
 <style>
