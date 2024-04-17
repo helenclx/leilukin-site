@@ -8,7 +8,7 @@ metadata:
 
 <p>This page lists the links to the pages on my website for easier navigation.</p>
 
-<ul role="list" class="link-list">
+<ul role="list" class="sitemap">
     {% for page in collections.pages %}
         <li>
             <a href="{{ page.url }}">{{ page.data.title or page.data.metadata.title }}</a>
@@ -51,34 +51,34 @@ metadata:
         gap: 0.5rem;
     }
 
-    .link-list {
+    .sitemap {
         margin: 0 0 0 1em;
         padding: 0;
         list-style: none;
     }
 
-    .link-list a:focus {
+    .sitemap a:focus {
         outline: 0.15rem solid var(--clr-link);
     }
 
-    .link-list li {
+    .sitemap li {
         padding-left: 0.5em;
         align-items: start;
     }
 
-    .link-list li::marker {
+    .sitemap li::marker {
         content: "▶";
     }
 
-    .link-list ul li::marker {
+    .sitemap ul li::marker {
         content: "★";
     }
 
-    .link-list ul ul li::marker {
+    .sitemap ul ul li::marker {
         content: "♥";
     }
 
-    .link-list ul ul ul li::marker {
+    .sitemap ul ul ul li::marker {
         content: "❣";
     }
 </style>
