@@ -6,98 +6,44 @@ metadata:
     desc: Site map of Leilukin's Hub.
 ---
 
-<article>
-    <h1>Site Map</h1>
-    <p>This page lists the links to the pages on my website for easier navigation.</p>
+<p>This page lists the links to the pages on my website for easier navigation.</p>
 
-    <ul role="list" class="link-list">
-        <li><a href="/">Index</a></li>
-        <li><a href="/home">Home</a></li>
-        <li><a href="/about/">About</a></li>
-        <li><a href="/blog/">Blog</a></li>
-        <ul>
-            <li><a href="/blog/archive">Archive</a></li>
-        </ul>
-        <li><a href="/articles/">Articles</a></li>
-        <ul>
-            <li><a href="/articles/my-dislike-of-shipping-culture">My Disinterest in Shipping and Dislike of Shipping Culture</a></li>
-            <li><a href="/articles/designated-lesbian-syndrome-fandom">Designated Lesbian Syndrome in Fandom</a></li>
-        </ul>
-        <li><a href="/mycreations/">My Creations</a></li>
-        <ul>
-            <li>My Mods:</li>
-            <ul>
-                <li><a href="/mycreations/kotor1mods/"><cite>Star Wars: Knights of the Old Republic</cite></a></li>
-                <li><a href="/mycreations/kotor2mods/"><cite>Star Wars: Knights of the Old Republic II: The Sith Lords</cite></a></li>
-            </ul>
-            <li><a href="/mycreations/playlists/">Playlists</a></li>
-        </ul>
-        <li><a href="/featured/">Featured</a></li>
-        <ul>
-            <li><a href="/featured/kotor2-modder-interview-ars-technica">The modders who spent 15 years fixing Knights of the Old Republic 2 @ Ars Technica</a></li>
-            <li><a href="/featured/lgbtq-booklet-interview-misi-bawang">Artist Interview for MISI:Bawang's Floating in a Sky Full of Pride</a></li>
-        </ul>
-        <li><a href="/shrines/">Shrines</a></li>
-        <ul>
-            <li><a href="/shrines/asummersend/"><cite>A Summer’s End — Hong Kong 1986</cite></a></li>
-            <ul>
-                <li><a href="/shrines/asummersend/playlists">Playlists</a></li>
-                <li><a href="/shrines/asummersend/trivia">Trivia</a></li>
-                <li><a href="/shrines/asummersend/gallery">Gallery</a></li>
-            </ul>
-            <li><a href="/shrines/starwarskotor/"><cite>Star Wars: Knights of the Old Republic</cite></a></li>
-            <ul>
-                <li><a href="/shrines/starwarskotor/articles/">Articles</a></li>
+<ul role="list" class="link-list">
+    {% for page in collections.pages %}
+        <li>
+            <a href="{{ page.url }}">{{ page.data.title or page.data.metadata.title }}</a>
+            {% if page.data.title === "Blog" %}
                 <ul>
-                    <li><a href="/shrines/starwarskotor/articles/faq-same-gender-romance-mods">Frequently Asked Questions (FAQ) for My Same-Gender Romance Mods for <cite>Star Wars: Knight of the Old Republic</cite> Series</a></li>
-                    <li><a href="/shrines/starwarskotor/articles/juhani-lesbian-evidence">Evidence of Juhani being a Lesbian from <em>Star Wars: Knights of the Old Republic's</em> Game Files</a></li>
-                    <li><a href="/shrines/starwarskotor/articles/juhani-hostility-towards-canderous">How to Access Juhani's Conversaion about Canderous without Restoration Mods</a></li>
-                    <li><a href="/shrines/starwarskotor/articles/keep-juhani-a-lesbian">Keep Juhani a Lesbian and Keep Juhani's Romance Exclusive to Female Characters</a></li>
-                    <li><a href="/shrines/starwarskotor/articles/arren-kae-kreia-theory">Why I Personally Do Not Subscribe to the “Arren Kae is Kreia” Theory</a></li>
-                    <li><a href="/shrines/starwarskotor/articles/handmaiden-sisters-mother">Where is the Mother of the Handmaiden’s Sisters?</a></li>
-                    <li><a href="/shrines/starwarskotor/articles/partyswap-management-takeover">On Me Taking Over the Management and Development of DarthTyren's PartySwap Mod</a></li>
-                    <li><a href="/shrines/starwarskotor/articles/tslrcm-first-kotor2-playthrough">Should You Use The Sith Lords Restored Content Mod in Your First <cite>Star Wars: KotOR 2</cite> Playthrough?</a></li>
+                    {% for page in collections["blog pages"] %}
+                        {% if page.data.title !== "Blog" %}
+                            <li>
+                                <a href="{{ page.url }}">{{ page.data.title or page.data.metadata.title }}</a>
+                            </li>
+                        {% endif %}
+                    {%- endfor %}
                 </ul>
-                <li><a href="/shrines/starwarskotor/guides/">Guides</a></li>
+            {% endif %}
+            {% if page.data.title === "Articles" %}
                 <ul>
-                    <li><a href="/shrines/starwarskotor/guides/kotor-juhani-romance-guide">Juhani Romance Guide</a></li>
-                    <li><a href="/shrines/starwarskotor/guides/kotor-redeeming-bastila-guide">Redeeming Bastila Guide</a></li>
-                    <li><a href="/shrines/starwarskotor/guides/kotor-sandral-matale-feud-guide">Sandral-Matale Feud Ending Guide</a></li>
+                    {% for page in collections["articles"] %}
+                        <li>
+                            <a href="{{ page.url }}">{{ page.data.articleTitle }}</a>
+                        </li>
+                    {%- endfor %}
                 </ul>
-                <li><a href="/shrines/starwarskotor/resources/">Resources</a></li>
+            {% endif %}
+            {% if page.data.title === "Changelogs" %}
                 <ul>
-                    <li><a href="/shrines/starwarskotor/resources/kotor-same-gender-romance-mods">List of Same-Gender Romance Mods for the <em>KotOR</em> Series</a></li>
-                    <li><a href="/shrines/starwarskotor/resources/kotor2-female-exile-recruit-handmaiden-mods">List of <em>KotOR 2</em> Mods that Allow Female Exiles to Recruit the Handmaiden as a Party Member</a></li>
-                    <li><a href="/shrines/starwarskotor/resources/tslrcm-m478ep-modules-music">The Sith Lords Restored Content Mod + M4-78 Enhancement Project Modules, Warp Codes & Music Overview</a></li>
+                    {% for page in collections["changelog pages"] %}
+                        <li>
+                            <a href="{{ page.url }}">{{ page.data.changelogNav }}</a>
+                        </li>
+                    {%- endfor %}
                 </ul>
-                <li><a href="/shrines/starwarskotor/universes/">Leilukin's <cite>KotOR</cite> Universes</a></li>
-            </ul>
-            <li><a href="/shrines/cassettebeasts/"><cite>Cassette Beasts</cite></a></li>
-            <ul>
-                <li><a href="/shrines/cassettebeasts/articles/">Articles</a></li>
-                <ul>
-                    <li><a href="/shrines/cassettebeasts/articles/cassette-beasts-more-than-a-pokemon-clone">How <cite>Cassette Beasts</cite> is Much More than a <cite>Pokémon</cite> Clone</a></li>
-                </ul>
-                <li><a href="/shrines/cassettebeasts/gamelog">Game Log</a></li>
-                <li><a href="/shrines/cassettebeasts/featured">Featured</a></li>
-                <li><a href="/shrines/cassettebeasts/trivia">Trivia</a></li>
-                <li><a href="/shrines/cassettebeasts/resources">Resources</a></li>
-            </ul>
-        </ul>
-        <li><a href="/links/">Links</a></li>
-        <li><a href="/changelog/">Changelog</a></li>
-        <ul>
-            <li><a href="/changelog/2023">Changelog Archive: 2023</a></li>
-            <li><a href="/changelog/2022">Changelog Archive: 2022</a></li>
-            <li><a href="/changelog/layouts/">Layout Archive</a></li>
-            <li>Updates:</li>
-            <ul>
-                <li><a href="/changelog/updates/2023-redesign">2023 New Year Redesign of Leilukin's Hub</a></li>
-                <li><a href="/changelog/updates/2023-june-layout-rewrite">June 2023 Layout Rewrite</a></li>
-            </ul>
-        </ul>
-    </ul>
-</article>
+            {% endif %}
+        </li>
+    {%- endfor %}
+</ul>
 
 <style>
     main ul {
