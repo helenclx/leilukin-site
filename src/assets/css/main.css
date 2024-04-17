@@ -297,11 +297,6 @@ main {
     margin-top: 1.15em;
 }
 
-.left-sidebar,
-.right-sidebar {
-    font-size: 0.9rem;
-}
-
 /* Desktop main content layout */
 @media only screen and (min-width: 60rem) {
     .content__wrapper {
