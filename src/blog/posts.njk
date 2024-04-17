@@ -1,9 +1,4 @@
 ---
-pagination:
-    data: collections.posts
-    size: 10
-    alias: postList
-    reverse: true
 title: Blog Archive
 layout: main/content
 tags: blog pages
@@ -12,7 +7,7 @@ eleventyComputed:
 ---
 
 <ul class="blog__postlist">
-    {% for post in postList %}
+    {% for post in collections.posts | reverse %}
         <li class="blog__postlist--item">
             <h2 class="blog__postlist--title">
                 <a href="{{ post.url }}">
