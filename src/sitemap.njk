@@ -44,17 +44,16 @@ eleventyComputed:
                 {%- endfor %}
             </ul>
         {% endif %}
-
-        {% if page.data.title === "Changelogs" %}
-            <ul>
-                {% for page in collections["changelog pages"] %}
-                    <li>
-                        <a href="{{ page.url }}">{{ page.data.changelogNav }}</a>
-                    </li>
-                {%- endfor %}
-            </ul>
-        {% endif %}
     {%- endfor %}
+
+    <li><a href="/changelogs/">Changelogs</a></li>
+    <ul>
+        {% for page in collections["changelog pages"] %}
+            <li>
+                <a href="{{ page.url }}">{{ page.data.changelogNav }}</a>
+            </li>
+        {%- endfor %}
+    </ul>
 
     {% for archive in collections.archive %}
         <li><a href="{{ archive.url }}">{{ archive.data.title }}</a></li>
@@ -88,7 +87,7 @@ eleventyComputed:
     }
 
     .sitemap ul {
-        padding-left: 1em;
+        padding-left: 1.4em;
     }
 
     .sitemap ul li::marker {
