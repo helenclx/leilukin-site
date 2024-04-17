@@ -5,9 +5,14 @@ date: 2023-10-13
 categories: ["cassette beasts"]
 ---
 
+YAAAYYYYYYYY! I finally received my Pombomb plushie on 11 October 2023!
+
 [![Official Cassette Beasts Pombom plushie wrapped in a plastic bag](https://i.postimg.cc/QtmpHVs3/2023-10-11-14-25-27.jpg)](https://postimg.cc/MMccL6vP)
+
 [![Side view of the official Cassette Beasts Pombom plushie](https://i.postimg.cc/k4vyKfQL/2023-10-11-14-28-36.jpg)](https://postimg.cc/dkDdKRS9)
+
 [![Front view of the official Cassette Beasts Pombom plushie](https://i.postimg.cc/7hPnV0Xh/2023-10-11-14-29-09.jpg)](https://postimg.cc/47Mc4KDR)
+
 [![Back view of the official Cassette Beasts Pombom plushie](https://i.postimg.cc/qq72n0MC/2023-10-11-14-30-36.jpg)](https://postimg.cc/5YZHdhzx)
 
 Cassette Beasts has become my favourite monster collecting game and one of my all-time favourite games since the first time I played it. In fact, I have created a [Cassette Beasts shrine](/shrines/cassettebeasts/) on my own website here. Among the monsters from Cassette Beasts, [Pombomb](https://wiki.cassettebeasts.com/wiki/Pombomb) is one of my favourites.
