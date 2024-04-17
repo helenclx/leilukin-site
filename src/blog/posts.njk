@@ -7,6 +7,8 @@ pagination:
 title: Blog Archive
 layout: main/content
 tags: blog pages
+eleventyComputed:
+    desc: Archive of blog posts on {{ sitemeta.siteName | safe }}
 ---
 
 <ul class="blog__postlist">

@@ -1,0 +1,25 @@
+<aside class="right-sidebar">
+    <nav class="content__nav">
+        <h2 class="content__nav--title">Content Index</h2>
+        <ul class="content__nav--links">
+            {% for archive in collections.archive %}
+                <li><a href="{{ archive.url }}">{{ archive.data.title }}</a></li>
+            {% endfor %}
+            <li><a href="/articles/">Articles</a></li>
+            {% for page in collections["blog pages"] %}
+                <li><a href="{{ page.url }}">{{ page.data.navTitle or page.data.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+</aside>
+
+<style>
+    .content__nav {
+        position: sticky;
+        top: 4rem;
+    }
+
+    .content__nav--title {
+        font-size: 1.7rem;
+    }
+</style>
