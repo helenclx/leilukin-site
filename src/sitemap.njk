@@ -22,6 +22,7 @@ desc: Site map of Leilukin's Hub.
                     {%- endfor %}
                 </ul>
             {% endif %}
+
             {% if page.data.title === "Articles" %}
                 <ul>
                     {% for page in collections["articles"] %}
@@ -31,6 +32,17 @@ desc: Site map of Leilukin's Hub.
                     {%- endfor %}
                 </ul>
             {% endif %}
+
+            {% if page.data.title === "Projects" %}
+                <ul>
+                    {% for page in collections["project pages"] %}
+                        <li>
+                            <a href="{{ page.url }}">{{ page.data.title }}</a>
+                        </li>
+                    {%- endfor %}
+                </ul>
+            {% endif %}
+
             {% if page.data.title === "Changelogs" %}
                 <ul>
                     {% for page in collections["changelog pages"] %}
