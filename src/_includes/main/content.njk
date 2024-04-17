@@ -18,7 +18,7 @@ layout: main/base
         {{ content | safe }}
     </div>
 
-    {% if tags and tags.includes("blog pages") %}
-        {% include "blog/blognav.njk" %}
+    {% if title === "Articles" or tags and tags.includes("blog pages") %}
+        {% include "main/content-nav.njk" %}
     {% endif %}
 </div>
