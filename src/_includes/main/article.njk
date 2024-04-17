@@ -24,7 +24,7 @@ metadata:
         {{ content | safe }}
     </article>
 
-    {% if tags.includes("posts") %}
+    {% if tags and tags.includes("posts") %}
         {% include "blog/blognav.njk" %}
     {% endif %}
 </div>
