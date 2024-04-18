@@ -46,7 +46,7 @@
     }
 
     /* Added to the navbar with JS when it reaches its scroll position */
-    .sticky-nav {
+    .nav--sticky {
         position: fixed;
         width: 100%;
         top: 0;
@@ -55,7 +55,7 @@
     /* Add some top padding to the page content to prevent sudden quick movement
     as the navigation bar gets a new position at the top of the page
     (position:fixed and top:0) */
-    .sticky-nav + main {
+    .nav--sticky + main {
         padding-top: 2rem;
     }
 </style>
@@ -68,9 +68,9 @@
         const scrollPos = window.scrollY || document.documentElement.scrollTop;
         const stickyLine = hero.scrollHeight - navbar.scrollHeight;
         if (scrollPos > stickyLine) {
-                navbar.classList.add("sticky-nav");
+                navbar.classList.add("nav--sticky");
         } else {
-                navbar.classList.remove("sticky-nav");
+                navbar.classList.remove("nav--sticky");
         }
     });
 </script>
