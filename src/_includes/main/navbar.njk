@@ -65,9 +65,9 @@
     // const hero = document.querySelector(".hero");
     const navbar = document.querySelector(".navbar");
     window.addEventListener("scroll", () => {
-        const scrollPos = window.scrollY || document.documentElement.scrollTop;
+        const scrollPosition = window.scrollY || document.documentElement.scrollTop;
         const stickyLine = hero.scrollHeight - navbar.scrollHeight;
-        if (scrollPos > stickyLine) {
+        if (scrollPosition > stickyLine) {
             navbar.classList.add("nav--sticky");
         } else {
             navbar.classList.remove("nav--sticky");
