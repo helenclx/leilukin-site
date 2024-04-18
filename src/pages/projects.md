@@ -26,13 +26,9 @@ My drawings can be found on my art blog on Tumblr:
 
 - [Star Wars: Knights of the Old Republic II: The Sith Lords](./kotor2mods)
 
----
-
 ## My Playlists
 
 You can check out the playlists I have made on [my dedicated page](./playlists/).
-
----
 
 ## My Characters
 
