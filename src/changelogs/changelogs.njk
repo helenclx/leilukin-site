@@ -13,12 +13,22 @@ pagination:
 permalink: "/{{ page.fileSlug }}{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}{% endif %}/"
 ---
 
-<h2>Latest Changelogs</h2>
 <article>
+    <h2>Latest Changelogs</h2>
     {% for log in changelogs %}
-        <h3>{{ log.data.date | niceDate }}</h3>
+        <h3 class="date-style">{{ log.data.date | niceDate }}</h3>
         {{ log.templateContent | safe }}
     {%- endfor %}
 </article>
 
 {% include "global/pagination-oldnew.njk" %}
+
+<style>
+    h2 + h3 {
+        margin-top: 1.5em;
+    }
+
+    h3 + ul {
+        margin-bottom: 3em;
+    }
+</style>
