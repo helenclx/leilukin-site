@@ -20,11 +20,15 @@ Articles I have written.
     {%- endfor -%}
 </ul>
 
+---
+
 ## My Articles for Video Games with Their Own Pages
 <ul class="content-list">
     <li>My <cite>Cassette Beasts</cite> shrine <a href="/shrines/cassettebeasts/articles/">Articles</a> page</li>
     <li>My <cite>Star Wars: Knights of the Old Republic</cite> shrine <a href="/shrines/starwarskotor/articles/">Articles</a> page</li>
 </ul>
+
+---
 
 ## Featured Articles
 Articles featuring other people's interview with me.
