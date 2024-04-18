@@ -44,6 +44,25 @@ eleventyComputed:
                 {%- endfor %}
             </ul>
         {% endif %}
+
+        {% if page.data.title === "Shrines" %}
+            <ul>
+                {% for page in collections["shrine home"] %}
+                    <li>
+                        <a href="{{ page.url }}">{{ page.data.title }}</a>
+                    </li>
+                    <ul>
+                        {% if "asummersend" in page.url %}
+                            {% for page in collections["a summers end shrine page"] %}
+                                <li>
+                                    <a href="{{ page.url }}">{{ page.data.title }}</a>
+                                </li>
+                            {% endfor %}
+                        {% endif %}
+                    </ul>
+                {%- endfor %}
+            </ul>
+        {% endif %}
     {%- endfor %}
 
     <li><a href="/changelogs/">Changelogs</a></li>
