@@ -24,7 +24,7 @@ layout: main/base
 		</div>
     {% endif %}
 
-    {% if title === "Articles" or tags and tags.includes("articles") or tags and tags.includes("blog pages") %}
+    {% if isArticle or title === "Articles" or tags and tags.includes("blog pages") %}
         {% include "main/content-nav.njk" %}
     {% endif %}
 </div>
