@@ -25,12 +25,12 @@
         <title>{{ pageTitle }}</title>
     </head>
     <body>
-        {% include "main/hero.njk" %}
-        {% include "main/navbar.njk" %}
+        {% block name %}{% include "global/hero.njk" %}{% endblock %}
+        {% block navbar %}{% include "global/navbar.njk" %}{% endblock %}
         <main>
             {{ content | safe }}
         </main>
-        {% include "main/footer.njk" %}
+        {% block footer %}{% include "global/footer.njk" %}{% endblock %}
         {% include "global/top-btn.njk" %}
     </body>
 </html>
