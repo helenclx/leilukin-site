@@ -16,8 +16,6 @@ My drawings can be found on my art blog on Tumblr:
 
 <a class="link-btn" href="https://leilukinart.tumblr.com/" target="_blank">🎨 Leilukin's Art Blog</a>
 
----
-
 ## My Video Game Mods
 
 [![Banner of Leilukin's mods for Star Wars: Knights of the Old Republic](/assets/projects/my-kotor1-mods-header.png)](./kotor1mods)
