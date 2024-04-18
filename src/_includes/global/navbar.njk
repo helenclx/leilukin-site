@@ -1,0 +1,69 @@
+<nav class="navbar">
+    <ul class="nav__menu">
+        {% block navbarLinks %}
+            {{ navbarLinks }}
+        {% endblock %}
+    </ul>
+</nav>
+
+<style>
+    .navbar {
+        background: var(--clr-navbar-bg);
+        padding: 0 0.6rem;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .navbar a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar a:hover {
+        color: var(--clr-link-hover);
+    }
+
+    .navbar a:focus {
+        outline-offset: 0.3em;
+        outline: 0.15em solid var(--clr-navbar-link);
+    }
+
+    .nav__menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    /* Added to the navbar with JS when it reaches its scroll position */
+    .nav--sticky {
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+
+    /* Add some top padding to the page content to prevent sudden quick movement
+    as the navigation bar gets a new position at the top of the page
+    (position:fixed and top:0) */
+    .nav--sticky + main {
+        padding-top: 2rem;
+    }
+</style>
+
+<script defer>
+    // Make the navigation bar sticky
+    // const hero = document.querySelector(".hero");
+    const navbar = document.querySelector(".navbar");
+    window.addEventListener("scroll", () => {
+        const scrollPosition = window.scrollY || document.documentElement.scrollTop;
+        const stickyLine = hero.scrollHeight - navbar.scrollHeight;
+        if (scrollPosition > stickyLine + 55) {
+            navbar.classList.add("nav--sticky");
+        } else {
+            navbar.classList.remove("nav--sticky");
+        }
+    });
+</script>
