@@ -1,44 +1,10 @@
-<header class="hero">
-    <div class="hero__top-bar hidden"></div>
-    <div class="hero__img">
-        <img src="/assets/leilukin/Leilukins-Hub-website-banner.png" alt="Banner of Leilukin's Hub">
-    </div>
-</header>
+{% extends "global/hero.njk" %}
 
-<style>
-    .hero {
-        width: 100%;
-        background-color: var(--clr-hero-bg);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
+{% block heroImg %}
+    <img src="/assets/leilukin/Leilukins-Hub-website-banner.png" alt="Banner of Leilukin's Hub">
+{% endblock %}
 
-    .hero__top-bar {
-        background-color: var(--clr-navbar-bg);
-        width: 100%;
-        padding: 0.5em 0;
-    }
-
-    .hero__img {
-        display: grid;
-        place-content: center;
-    }
-
-    .hero img {
-        object-fit: scale-down;
-        overflow: hidden;
-        filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
-    }
-</style>
-
-<script defer>
-    const hero = document.querySelector(".hero");
-    const todayEvent = getTodayEvent();
-    const heroTopBarEl = document.querySelector(".hero__top-bar");
-    const headerImgEl = document.querySelector(".hero__img");
-
+{% block eventScript %}
     if (todayEvent != "No event") {
         heroTopBarEl.classList.remove('hidden');
 
@@ -216,4 +182,4 @@
                 return ``;
         }
     }
-</script>
+{% endblock %}
