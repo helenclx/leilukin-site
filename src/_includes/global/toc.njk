@@ -1,13 +1,20 @@
 <aside class="left-sidebar">
     <details class="toc__wrapper sidebar--sticky">
         <summary class="toc__heading">
-            Table of Contents
+            On This Page
         </summary>
         {{ content | toc | safe }}
     </details>
 </aside>
 
 <style>
+    .toc__wrapper {
+        max-height: 89vh;
+        overflow: auto;
+        background-color: var(--clr-content-bg);
+        padding: 1rem 1.3rem;
+    }
+
     .toc__heading {
         font-size: 1.3rem;
         font-weight: 700;
@@ -16,14 +23,14 @@
     }
 
     .toc ol,
-    .toc ol ol  {
+    .toc ol ol {
         display: grid;
         gap: 0.3em;
     }
 
     .toc ol {
         border-top: 0.1em solid var(--clr-title-border);
-        padding-left: 1.5em;
+        padding-left: 1.7em;
         padding-top: 1em;
     }
 
@@ -44,22 +51,3 @@
         font-size: 1rem;
     }
 </style>
-
-<script defer>
-    // Close article ToC accordion for small screen sizes
-    const tocWrapper = docucument.querySelector('.toc__wrapper');
-    if (window.innerWidth < 480) {
-        tocWrapper.removeAttribute("open");
-    } else {
-        tocWrapper.setAttribute("open", true);
-    }
-
-    // Remove the stickiness of the sidebar ToC if it is larger than screen height
-    function preventSidebarOverflow() {
-        if (document.documentElement.clientHeight < tocWrapper.offsetHeight + 50) {
-            tocWrapper.style.marginTop = "0";
-            tocWrapper.style.position = "static";
-        }
-    }
-    preventSidebarOverflow();
-</script>
