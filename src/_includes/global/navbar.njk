@@ -60,7 +60,7 @@
     window.addEventListener("scroll", () => {
         const scrollPosition = window.scrollY || document.documentElement.scrollTop;
         const stickyLine = hero.scrollHeight - navbar.scrollHeight;
-        if (scrollPosition > stickyLine + 55) {
+        if (scrollPosition > stickyLine + 100) {
             navbar.classList.add("nav--sticky");
         } else {
             navbar.classList.remove("nav--sticky");
