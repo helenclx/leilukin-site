@@ -2,7 +2,7 @@
 layout: asummersend/content
 title: Trivia
 pageTitle: A Summer's End — Hong Kong 1986 Trivia
-desc: A collection of trivia about A Summer's End — Hong Kong 1986
+desc: A collection of trivia about A Summer's End — Hong Kong 1986.
 tags: a summers end shrine page
 toc: true
 ---
