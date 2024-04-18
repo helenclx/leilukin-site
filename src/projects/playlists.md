@@ -17,7 +17,7 @@ I have carefully selected and arranged these tracks, so the lyrics would reflect
 
 Since Oracle and Bone has cited Anita Mui as a major inspiration for them and this visual novel, I have also included multiple songs performed by Anita Mui in this mix. Because A Summer’s End is a lesbian story, when I was choosing which songs to include in this mix, I also prioritize songs that were performed by women artists.
 
-<a class="link-btn" href="https://open.spotify.com/playlist/3SIV7VjSKhspYwugVIQjug" target="_blank">Listen on Spotify</a><br><br>
+<a class="link-btn" href="https://open.spotify.com/playlist/3SIV7VjSKhspYwugVIQjug" target="_blank">Listen on Spotify</a>
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3SIV7VjSKhspYwugVIQjug?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
@@ -29,6 +29,6 @@ Collection of Mandarin queer anthems.
 
 I made this playlist after discovering Wikipedia's list of Chinese queer anthems on [its Mandarin article for Gay Anthem (同志國歌)](https://zh.wikipedia.org/wiki/%E5%90%8C%E5%BF%97%E5%9C%8B%E6%AD%8C#%E8%8F%AF%E8%AA%9E).
 
-<a class="link-btn" href="https://open.spotify.com/playlist/5JXAUPZkmv1cFScAfhOkXh" target="_blank">Listen on Spotify</a><br><br>
+<a class="link-btn" href="https://open.spotify.com/playlist/5JXAUPZkmv1cFScAfhOkXh" target="_blank">Listen on Spotify</a>
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5JXAUPZkmv1cFScAfhOkXh?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
