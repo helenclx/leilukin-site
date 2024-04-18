@@ -9,9 +9,9 @@ date: 2022-01-07
 
 Internet shrines are website pages dedicated to specific topics or interests. Here is a list of shrines I have made for my own website.
 
-## [A Summer’s End — Hong Kong 1986](./asummersend/)
+## [A Summer's End — Hong Kong 1986](./asummersend/)
 
-![Header of A Summer’s End — Hong Kong 1986](/assets/asummersend/images/ASE_Key_art_intro.png)
+![Header of A Summer's End — Hong Kong 1986](/assets/asummersend/images/ASE_Key_art_intro.png)
 
 ## [Star Wars: Knights of the Old Republic](./starwarskotor/)
 
