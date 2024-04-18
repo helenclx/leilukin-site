@@ -4,7 +4,7 @@
     {% set currentUrl %}{{ page.url }}{% endset %}
     {% for page in collections.pages %}
         <li>
-            <a href="{{ page.url }}" {% if currentUrl === page.url %}aria-current="page"{% endif %}>
+            <a {% if currentUrl === page.url %}aria-current="page"{% endif %} href="{{ page.url }}">
                 {{ page.data.title or page.data.metadata.title }}
             </a>
         </li>
