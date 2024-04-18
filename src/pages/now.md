@@ -6,6 +6,8 @@ metadata:
     type: article
 date: 2022-01-03
 updated: 2024-04-18
+eleventyNavigation:
+    key: Now
 ---
 
 *This page was last updated on {{ updated | niceDate }}.*

@@ -7,6 +7,8 @@ metadata:
 date: 2022-01-05
 templateEngineOverride: njk, md
 toc: true
+eleventyNavigation:
+    key: Articles
 ---
 
 ## My Articles

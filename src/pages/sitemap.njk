@@ -8,75 +8,20 @@ eleventyComputed:
 
 <p>This page lists the links to the pages on my website for easier navigation.</p>
 
+{% set navPages = collections.all | eleventyNavigation %}
+{% macro renderNavListItem(entry) -%}
+    <li{% if entry.url == page.url %} class="my-active-class"{% endif %}>
+        <a href="{{ entry.url }}">{{ entry.title }}</a>
+    {%- if entry.children.length -%}
+        <ul>
+            {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
+        </ul>
+    {%- endif -%}
+    </li>
+{%- endmacro %}
+
 <ul role="list" class="sitemap">
-    {% for page in collections.pages %}
-        <li>
-            <a href="{{ page.url }}">{{ page.data.title or page.data.metadata.title }}</a>
-        </li>
-        {% if page.data.title === "Blog" %}
-            <ul>
-                {% for page in collections["blog pages"] %}
-                    {% if page.data.title !== "Blog" %}
-                        <li>
-                            <a href="{{ page.url }}">{{ page.data.title or page.data.metadata.title }}</a>
-                        </li>
-                    {% endif %}
-                {%- endfor %}
-            </ul>
-        {% endif %}
-
-        {% if page.data.title === "Articles" %}
-            <ul>
-                {% for page in collections["articles"] %}
-                    <li>
-                        <a href="{{ page.url }}">{{ page.data.articleTitle }}</a>
-                    </li>
-                {%- endfor %}
-            </ul>
-        {% endif %}
-
-        {% if page.data.title === "Projects" %}
-            <ul>
-                {% for page in collections["project pages"] %}
-                    <li>
-                        <a href="{{ page.url }}">{{ page.data.title }}</a>
-                    </li>
-                {%- endfor %}
-            </ul>
-        {% endif %}
-
-        {% if page.data.title === "Shrines" %}
-            <ul>
-                {% for page in collections["shrine home"] %}
-                    <li>
-                        <a href="{{ page.url }}">{{ page.data.title }}</a>
-                    </li>
-                    <ul>
-                        {% if "asummersend" in page.url %}
-                            {% for page in collections["a summers end shrine page"] %}
-                                <li>
-                                    <a href="{{ page.url }}">{{ page.data.title }}</a>
-                                </li>
-                            {% endfor %}
-                        {% endif %}
-                    </ul>
-                {%- endfor %}
-            </ul>
-        {% endif %}
-    {%- endfor %}
-
-    <li><a href="/changelogs/">Changelogs</a></li>
-    <ul>
-        {% for page in collections["changelog pages"] %}
-            <li>
-                <a href="{{ page.url }}">{{ page.data.changelogNav }}</a>
-            </li>
-        {%- endfor %}
-    </ul>
-
-    {% for archive in collections.archive %}
-        <li><a href="{{ archive.url }}">{{ archive.data.title }}</a></li>
-    {% endfor %}
+    {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
 </ul>
 
 <style>

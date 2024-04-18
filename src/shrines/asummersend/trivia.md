@@ -5,6 +5,10 @@ pageTitle: A Summer's End — Hong Kong 1986 Trivia
 desc: A collection of trivia about A Summer's End — Hong Kong 1986.
 tags: a summers end shrine page
 toc: true
+eleventyNavigation:
+    key: Trivia
+    parent: A Summer's End — Hong Kong 1986 Shrine
+    order: 2
 ---
 
 Here is a collection of trivia about the characters from A Summer’s End provided by the developer Oracle and Bone on their social media pages, especially [Tumblr](https://oracleandbone.tumblr.com/).

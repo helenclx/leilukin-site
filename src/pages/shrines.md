@@ -5,6 +5,8 @@ desc: Index of my personal e-shrines.
 metadata:
     type: article
 date: 2022-01-07
+eleventyNavigation:
+    key: Shrines
 ---
 
 Internet shrines are website pages dedicated to specific topics or interests. Here is a list of shrines I have made for my own website.

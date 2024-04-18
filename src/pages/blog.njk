@@ -12,6 +12,8 @@ pagination:
     alias: postList
     reverse: true
 permalink: "/{{ page.fileSlug }}{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}{% endif %}/"
+eleventyNavigation:
+    key: Blog
 ---
 
 <ul class="blog__posts">

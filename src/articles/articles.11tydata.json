@@ -2,6 +2,10 @@
     "tags": ["articles", "contents", "feed items"],
     "layout": "main/article",
     "eleventyComputed": {
-        "title": "{{ articleTitle }} | Articles"
+        "title": "{{ articleTitle }} | Articles",
+        "eleventyNavigation": {
+            "key": "{{ articleTitle }}",
+            "parent": "Articles"
+        }
     }
 }

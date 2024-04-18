@@ -5,6 +5,10 @@ pageTitle: A Summer's End — Hong Kong 1986 Playlists
 desc: List of A Summer's End — Hong Kong 1986 playlists.
 tags: a summers end shrine page
 toc: true
+eleventyNavigation:
+    key: Playlists
+    parent: A Summer's End — Hong Kong 1986 Shrine
+    order: 1
 ---
 
 A Summer’s End — Hong Kong 1986 is a gold mine of music. Not only that the visual novel has a great soundtrack (its [official soundtrack](https://www.asummersend.com/original-soundtrack) was released on August 21, 2020), but the developer Oracle and Bone has also compiled playlists related to the game.
