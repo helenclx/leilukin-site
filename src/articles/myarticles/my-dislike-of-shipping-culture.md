@@ -1,5 +1,4 @@
 ---
-layout: main/article
 articleTitle: My Disinterest in Shipping and Dislike of Shipping Culture
 date: 2023-08-14
 desc: About my lack of interest in shipping and dislike of shipping culture in fandom, and why.

@@ -1,5 +1,4 @@
 ---
-layout: main/article
 articleTitle: Anti-Harry Potter and Anti-J.K. Rowling Masterlist
 date: 2023-03-19
 updated: 2024-01-09

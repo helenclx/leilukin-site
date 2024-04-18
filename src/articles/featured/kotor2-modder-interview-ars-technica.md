@@ -1,5 +1,4 @@
 ---
-layout: main/article
 articleTitle: The modders who spent 15 years fixing Knights of the Old Republic 2 @ Ars Technica
 date: 2022-09-11
 desc: Ars Technica's article on the KotOR 2's modding community to celebrate the game's 15th anniversary. I was interviewed for my same-gender romance mods for KotOR 2.
