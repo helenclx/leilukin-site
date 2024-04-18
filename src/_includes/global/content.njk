@@ -51,6 +51,8 @@
     {% if tags and tags.includes("contents") or title === "Articles" or tags and tags.includes("blog pages") %}
         {% include "main/content-nav.njk" %}
     {% endif %}
+
+    {% block shrineInfo %}{% endblock %}
 </div>
 
 <style>

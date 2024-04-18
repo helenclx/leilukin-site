@@ -2,21 +2,6 @@
 layout: asummersend/base
 ---
 
-<header class="main__header">
-    <h1>{{ pageTitle or title }}</h1>
-    {% if desc %}
-        <p>{{ desc }}</p>
-    {% endif %}
-</header>
+{% extends "global/content.njk" %}
 
-<div class="content__wrapper">
-    {% if toc %}
-        {% include "global/toc.njk" %}
-    {% endif %}
-
-    <div class="content {{'content--divided' if isContentDivided }}">
-        {{ content | safe }}
-    </div>
-
-    {% include "asummersend/shrineinfo.njk" %}
-</div>
+{% block shrineInfo %}{% include "asummersend/shrineinfo.njk" %}{% endblock %}
