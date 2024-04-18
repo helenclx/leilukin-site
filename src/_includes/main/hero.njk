@@ -1,5 +1,5 @@
 <header class="hero">
-    <div class="hero__top-bar"></div>
+    <div class="hero__top-bar hidden"></div>
     <div class="hero__img">
         <img src="/assets/leilukin/Leilukins-Hub-website-banner.png" alt="Banner of Leilukin's Hub">
     </div>
@@ -40,14 +40,14 @@
     const headerImgEl = document.querySelector(".hero__img");
 
     if (todayEvent != "No event") {
+        headerTopBarEl.classList.remove('hidden');
+
         if (todayEvent == "Leilukin's Birthday" || todayEvent == "Leilukin's Hub Anniversary") {
             headerTopBarEl.innerHTML = getBlurbHtml(todayEvent);
         } else {
             headerImgEl.classList.add(getBanner(todayEvent));
             headerTopBarEl.innerHTML = getBlurbHtml(todayEvent);
         }
-    } else {
-        headerTopBarEl.style.display = 'none';
     }
 
     function getTodayEvent() {
