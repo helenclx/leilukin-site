@@ -7,7 +7,7 @@ tags: a summers end shrine page
 toc: true
 eleventyNavigation:
     key: Trivia
-    parent: A Summer's End — Hong Kong 1986 Shrine
+    parent: A Summer's End Shrine
     order: 2
 ---
 
