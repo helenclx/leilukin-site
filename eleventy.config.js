@@ -1,6 +1,7 @@
 // Installed Plug-ins
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const metagen = require('eleventy-plugin-metagen');
 const pluginTOC = require('eleventy-plugin-nesting-toc');
 const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
@@ -22,6 +23,7 @@ module.exports = function (eleventyConfig) {
     // Installed Plug-ins
     eleventyConfig.addPlugin(EleventyRenderPlugin);
     eleventyConfig.addPlugin(pluginRss);
+    eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPlugin(metagen);
     eleventyConfig.addPlugin(pluginTOC, { tags: ['h2', 'h3', 'h4', 'h5'] });
     eleventyConfig.addPlugin(emojiReadTime);
