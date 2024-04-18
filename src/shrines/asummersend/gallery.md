@@ -6,7 +6,7 @@ desc: My gallery for A Summer's End — Hong Kong 1986.
 tags: a summers end shrine page
 eleventyNavigation:
     key: Gallery
-    parent: A Summer's End — Hong Kong 1986 Shrine
+    parent: A Summer's End Shrine
     order: 3
 ---
 
