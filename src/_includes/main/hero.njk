@@ -36,17 +36,17 @@
 <script defer>
     const hero = document.querySelector(".hero");
     const todayEvent = getTodayEvent();
-    const headerTopBarEl = document.querySelector(".hero__top-bar");
+    const heroTopBarEl = document.querySelector(".hero__top-bar");
     const headerImgEl = document.querySelector(".hero__img");
 
     if (todayEvent != "No event") {
-        headerTopBarEl.classList.remove('hidden');
+        heroTopBarEl.classList.remove('hidden');
 
         if (todayEvent == "Leilukin's Birthday" || todayEvent == "Leilukin's Hub Anniversary") {
-            headerTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+            heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
         } else {
             headerImgEl.classList.add(getBanner(todayEvent));
-            headerTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+            heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
         }
     }
 
