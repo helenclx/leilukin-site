@@ -1,7 +1,6 @@
-{% set currentUrl %}{{ page.url }}{% endset %}
-
 <nav class="navbar">
     <ul class="nav__menu">
+        {% set currentUrl %}{{ page.url }}{% endset %}
         {% for page in collections.pages %}
             <li>
                 <a href="{{ page.url }}" {% if currentUrl === page.url %}aria-current="page"{% endif %}>
