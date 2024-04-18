@@ -1,0 +1,22 @@
+---
+layout: asummersend/base
+---
+
+<header class="main__header">
+    <h1>{{ pageTitle or title }}</h1>
+    {% if desc %}
+        <p>{{ desc }}</p>
+    {% endif %}
+</header>
+
+<div class="content__wrapper">
+    {% if toc %}
+        {% include "global/toc.njk" %}
+    {% endif %}
+
+    <div class="content {{'content--divided' if isContentDivided }}">
+        {{ content | safe }}
+    </div>
+
+    {% include "asummersend/rightsidebar.njk" %}
+</div>
