@@ -1,6 +1,18 @@
+{% set currentUrl %}{{ page.url }}{% endset %}
+
 <footer class="footer">
     <p>Made with ♥ by {{ sitemeta.siteAuthor.name }} since <time>11 September 2022</time></p>
-    <p><a href="/sitemap">Site Map</a> | <a href="/changelogs">Changelogs</a>  | <a href="/feed.xml">RSS</a></p>
+    <ul class="footer__links">
+        <li>
+            <a {% if currentUrl === "/sitemap/" %}aria-current="page"{% endif %} href="/sitemap/">Site Map</a>
+        </li>
+        |
+        <li>
+            <a {% if currentUrl === "/changelogs/" %}aria-current="page"{% endif %} href="/changelogs/">Changelogs</a>
+        </li>
+        |
+        <li><a href="/feed.xml">RSS</a></li>
+    </ul>
 </footer>
 
 <style>
@@ -9,10 +21,20 @@
         width: 72%;
         padding: 0.8rem;
         text-align: center;
+        display: grid;
     }
 
     .footer p {
         padding: 0;
+    }
+
+    .footer__links {
+        justify-self: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 0.7em;
     }
 
     @media only screen and (min-width: 600px) {
