@@ -250,7 +250,7 @@ main {
 
 .content__wrapper,
 .content--divided {
-    gap: 0.8rem;
+    gap: 1rem;
 }
 
 .content__wrapper {
@@ -259,9 +259,7 @@ main {
 
 .article,
 .content:not(.content--divided),
-.content__section,
-.left-sidebar,
-.right-sidebar {
+.content__section {
     padding: 1.5rem clamp(1rem, 5%, 3rem);
 }
 
