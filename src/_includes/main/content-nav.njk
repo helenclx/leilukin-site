@@ -1,5 +1,5 @@
 <aside class="right-sidebar">
-    <nav class="content__nav">
+    <nav class="content__nav sidebar--sticky">
         <h2 class="content__nav--title">Content Index</h2>
         <ul class="content__nav--links">
             {% for archive in collections.archive %}
@@ -14,11 +14,6 @@
 </aside>
 
 <style>
-    .content__nav {
-        position: sticky;
-        top: 4rem;
-    }
-
     .content__nav--title {
         font-size: 1.7rem;
     }

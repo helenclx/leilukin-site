@@ -273,9 +273,7 @@ main {
 
 .article,
 .content:not(.content--divided),
-.content__section,
-.left-sidebar,
-.right-sidebar {
+.content__section {
     background-color: var(--clr-content-bg);
 }
 
@@ -295,6 +293,11 @@ main {
 .content__section > * + :not([class]),
 .article > * + :not([class]) {
     margin-top: 1.15em;
+}
+
+.sidebar--sticky {
+    position: sticky;
+    top: 4rem;
 }
 
 /* Desktop main content layout */
