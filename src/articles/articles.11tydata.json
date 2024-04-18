@@ -1,6 +1,7 @@
 {
     "tags": ["articles", "contents", "feed items"],
-    "layout": "main/article",
+    "layout": "main/content",
+    "isArticle": true,
     "eleventyComputed": {
         "title": "{{ articleTitle }} | Articles",
         "eleventyNavigation": {

@@ -1,5 +1,6 @@
 ---
-layout: main/article
+layout: main/content
+isArticle: true
 articleTitle: Designated Lesbian Syndrome in Fandom
 date: 2023-08-18
 desc: On fandom's tokenisation of lesbians, and how I hate it as a lesbian myself.
