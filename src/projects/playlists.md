@@ -21,8 +21,6 @@ Since Oracle and Bone has cited Anita Mui as a major inspiration for them and th
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3SIV7VjSKhspYwugVIQjug?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
----
-
 ## Mandopop LGBTQ+ Anthem 華語流行音樂同志國歌
 
 ![A playlist cover image made of the progress pride flag, with Chinese words meaning queer anthem on top](/assets/projects/playlists/Mandopop-LGBTQ+-Anthem-Cover.png)
