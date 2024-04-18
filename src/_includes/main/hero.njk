@@ -46,6 +46,8 @@
             headerImgEl.classList.add(getBanner(todayEvent));
             headerTopBarEl.innerHTML = getBlurbHtml(todayEvent);
         }
+    } else {
+        headerTopBarEl.style.display = 'none';
     }
 
     function getTodayEvent() {
