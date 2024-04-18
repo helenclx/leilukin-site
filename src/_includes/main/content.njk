@@ -52,7 +52,7 @@ layout: main/base
 		</div>
     {% endif %}
 
-    {% if isArticle or title === "Articles" or tags and tags.includes("blog pages") %}
+    {% if tags.includes("articles") or title === "Articles" or tags and tags.includes("blog pages") %}
         {% include "main/content-nav.njk" %}
     {% endif %}
 </div>
