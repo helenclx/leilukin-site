@@ -4,6 +4,10 @@ title: Gallery
 pageTitle: A Summer's End — Hong Kong 1986 Gallery
 desc: My gallery for A Summer's End — Hong Kong 1986.
 tags: a summers end shrine page
+eleventyNavigation:
+    key: Gallery
+    parent: A Summer's End — Hong Kong 1986 Shrine
+    order: 3
 ---
 
 A Summer’s End — Hong Kong 1986 was lovingly crafted by its developer Oracle and Bone with gorgeous art, so i want to make a page dedicated to my appreciation for the visual novel’s art.

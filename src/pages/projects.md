@@ -6,6 +6,8 @@ metadata:
     type: article
 date: 2022-01-06
 toc: true
+eleventyNavigation:
+    key: Projects
 ---
 
 ## My Drawings

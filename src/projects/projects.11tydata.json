@@ -1,3 +1,9 @@
 {
-    "tags": "project pages"
+    "tags": "project pages",
+    "eleventyComputed": {
+        "eleventyNavigation": {
+            "key": "{{ title }}",
+            "parent": "Projects"
+        }
+    }
 }
