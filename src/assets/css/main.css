@@ -267,6 +267,7 @@ main {
     /* background-color: var(--clr-quote-bg); */
     padding: 2.5rem clamp(1rem, 5%, 3rem);
     text-align: center;
+    display: grid;
 }
 
 .article,
