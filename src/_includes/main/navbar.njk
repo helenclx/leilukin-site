@@ -64,7 +64,7 @@
     // Make the navigation bar sticky
     // const hero = document.querySelector(".hero");
     const navbar = document.querySelector(".navbar");
-    window.addEventListener("scroll", e => {
+    window.addEventListener("scroll", () => {
         const scrollPos = window.scrollY || document.documentElement.scrollTop;
         const stickyLine = hero.scrollHeight - navbar.scrollHeight;
         if (scrollPos > stickyLine) {
