@@ -14,9 +14,15 @@ layout: main/base
         {% include "global/toc.njk" %}
     {% endif %}
 
-    <div class="content {{'content--divided' if isContentDivided }}">
-        {{ content | safe }}
-    </div>
+    {% if isArticle %}
+        <article class="article">
+            {{ content | safe }}
+        </article>
+    {% else %}
+		<div class="content {{'content--divided' if isContentDivided }}">
+			{{ content | safe }}
+		</div>
+    {% endif %}
 
     {% if title === "Articles" or tags and tags.includes("articles") or tags and tags.includes("blog pages") %}
         {% include "main/content-nav.njk" %}
