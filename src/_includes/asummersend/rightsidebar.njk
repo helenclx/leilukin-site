@@ -15,14 +15,24 @@
 <style>
     .right-sidebar {
         background-color: var(--clr-content-bg);
-        font-size: 90%;
+        font-size: clamp(0.9rem, 0.9rem + 3vw, 1rem);
     }
 
     .sidebar-nav {
         padding: 1rem;
     }
 
+    .sidebar-nav h2 {
+        font-size: clamp(1.5rem, 1rem + 3vw, 1.7rem);
+        margin-bottom: 0.2em;
+    }
+
     .sidebar-nav h3 {
+        font-size: clamp(1.3rem, 1rem + 3vw, 1.5rem);
         margin-top: 1em;
+    }
+
+    .sidebar-nav ul {
+        margin-top: 0.5em;
     }
 </style>
