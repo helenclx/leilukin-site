@@ -18,7 +18,6 @@ module.exports = function (eleventyConfig) {
     // Copy files
     eleventyConfig.addPassthroughCopy("./src/assets/");
     eleventyConfig.addWatchTarget("./src/assets/");
-    eleventyConfig.addPassthroughCopy({ "./src/assets/feed/": "/" });
 
     // Installed Plug-ins
     eleventyConfig.addPlugin(EleventyRenderPlugin);
