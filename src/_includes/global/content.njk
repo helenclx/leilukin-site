@@ -1,14 +1,16 @@
 <header class="main__header">
     {% if isArticle %}
-        <ul class="breadcrumbs">
-            {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(articleTitle) %}
-            {%- for entry in breadcrumbNavPages %}
-            <li>
-                <a href="{{ entry.url }}" {% if entry.url == page.url %} class="breadcrumbs--active"{% endif %}>{{ entry.title }}</a>
-            </li>
-            ➔
-            {%- endfor %}
-        </ul>
+        {% if eleventyNavigation %}
+            <ul class="breadcrumbs">
+                {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(articleTitle) %}
+                {%- for entry in breadcrumbNavPages %}
+                <li>
+                    <a href="{{ entry.url }}" {% if entry.url == page.url %} class="breadcrumbs--active"{% endif %}>{{ entry.title }}</a>
+                </li>
+                ➔
+                {%- endfor %}
+            </ul>
+        {% endif %}
 
         <h1>{{ articleTitle }}</h1>
         <div class="article__info">
@@ -48,7 +50,12 @@
 		</div>
     {% endif %}
 
-    {% if tags and tags.includes("contents") or page.url === "/articles/" or tags and tags.includes("blog pages") %}
+    {% if
+        tags and tags.includes("articles")
+        or tags and tags.includes("posts")
+        or page.url === "/articles/"
+        or tags and tags.includes("blog pages")
+    %}
         {% include "main/content-nav.njk" %}
     {% endif %}
 
