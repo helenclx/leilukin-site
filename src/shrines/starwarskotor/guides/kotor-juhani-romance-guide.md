@@ -161,4 +161,4 @@ These mods are not required to complete Juhani's romance, but they add or enhanc
     <li><a href="https://deadlystream.com/files/file/567-party-on-the-leviathan/" target="_blank">Party on the Leviathan!</a><span class="bold-text"> by Fair Strides:</span> Restores Juhani's conversation, including romance conversation with a female player character, on the Leviathan, by spawning the rest of the Ebon Hawk crew on the Leviathan after you are rescued.</li>
 </ul>
 
-**NOTE: I DO NOT support any mods that make Juhani a romance option for male characters under any circumstances. [Read this article on why I firmly believe Juhani's romance should remain exclusive to female characters.](../articles/keep-juhani-a-lesbian.html) In addition, I DO NOT support any mods that make Juhani look like a human.**
+**NOTE: I DO NOT support any mods that make Juhani a romance option for male characters under any circumstances. [Read this article on why I firmly believe Juhani's romance should remain exclusive to female characters.](/shrines/starwarskotor/articles/keep-juhani-a-lesbian) In addition, I DO NOT support any mods that make Juhani look like a human.**
