@@ -1,0 +1,11 @@
+{
+    "tags": ["contents", "feed items", "kotor articles"],
+    "layout": "starwarskotor/content",
+    "isArticle": true,
+    "eleventyComputed": {
+        "eleventyNavigation": {
+            "key": "{{ articleTitle }}",
+            "parent": "KotOR Articles"
+        }
+    }
+}
