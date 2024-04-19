@@ -10,7 +10,7 @@ categories: ["star wars kotor"]
 
 The fact that Juhani from Star Wars: Knights of the Old Republic is a canon lesbian character is a fairly common knowledge among LGBTQ+ fans of Star Wars. However, occasionally I still see people who do not know that the first KotOR game has the very first confirmed gay character in any Star Wars media, including the old Star Wars Expanded Universe; there are some other people who actually believe that Juhani is bisexual.
 
-Therefore, as a lesbian and someone who has [made mods](/projects/) for the Knights of the Old Republic games and written a [detailed Juhani romance guide](https://docs.google.com/document/d/1X_EUsoKVpaCfbbi-t5NNqMsoPeAoFsxvIRMcv5rHFBQ/edit), I would like to present hard evidence from the game files to point out that **Juhani is in fact a lesbian, a woman who is exclusively attracted to women**.
+Therefore, as a lesbian and someone who has [made mods](/projects/#my-video-game-mods) for the Knights of the Old Republic games and written a [detailed Juhani romance guide](/shrines/starwarskotor/guides/kotor-juhani-romance-guide), I would like to present hard evidence from the game files to point out that **Juhani is in fact a lesbian, a woman who is exclusively attracted to women**.
 
 The most crucial evidence comes from `k_hjuh_dialog.dlg`, Juhani’s main dialogue file which contains all the conversations covered in my Juhani Romance Guide. If you use the [KotOR Tool](https://deadlystream.com/files/file/280-kotor-tool/) to browse the game files, `k_hjuh_dialog.dlg` is under KotOR I > BIFs > templates.bif > Dialog. I recommend using [DLGEditor](https://deadlystream.com/files/file/750-dlg-editor/) to view the .dlg files from KotOR games.
 
