@@ -7,19 +7,6 @@ templateEngineOverride: njk, md
 toc: true
 ---
 
-<section class="content__section">
-    <h2>Filter by Categories</h2>
-    <div id="myBtnContainer">
-        <button class="filter-btn active" onclick="filterSelection('all')">All</button>
-        <button class="filter-btn" onclick="filterSelection('same-gender-romances')">Same-Gender Romances</button>
-        <button class="filter-btn" onclick="filterSelection('party-members')">Party Members</button>
-        <button class="filter-btn" onclick="filterSelection('npcs')">NPCs</button>
-        <button class="filter-btn" onclick="filterSelection('items')">Items</button>
-        <button class="filter-btn" onclick="filterSelection('misc')">Miscellaneous</button>
-        <button class="filter-btn" onclick="filterSelection('patches')">Patches</button>
-    </div>
-</section>
-
 <section class="content__section filter-div same-gender-romances">
     <h2>Same-Gender Romances</h2>
     <div class="center-text">
