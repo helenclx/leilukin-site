@@ -31,7 +31,7 @@
         </title>
     </head>
     <body>
-        {% block name %}{% include "global/hero.njk" %}{% endblock %}
+        {% block hero %}{% include "global/hero.njk" %}{% endblock %}
         {% block navbar %}{% include "global/navbar.njk" %}{% endblock %}
         <main>
             {{ content | safe }}
