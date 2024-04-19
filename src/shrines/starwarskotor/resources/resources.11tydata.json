@@ -1,5 +1,5 @@
 {
-    "tags": ["contents", "feed items", "kotor guides"],
+    "tags": ["contents", "feed items", "kotor resources"],
     "layout": "starwarskotor/content",
     "isArticle": true,
     "eleventyComputed": {
