@@ -422,14 +422,18 @@ main {
 }
 
 .qna-accordion__answer {
-    padding: 0.7rem 1.5rem;
-    margin-top: 0.5rem;
+    padding: 0.7em 1.3em 1.5em;
+    margin-top: 0.5em;
     background: hsla(0, 0%, 100%, 0.15);
+}
+
+.qna-accordion__answer p + p {
+    margin-top: 1em;
 }
 
 /* Spoiler Accordion */
 .spoiler-accordion {
-    padding: 0.5rem 0;
+    padding: 0.5em 0;
 }
 
 .spoiler-accordion__hint {
