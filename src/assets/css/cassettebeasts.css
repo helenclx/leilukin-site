@@ -28,22 +28,21 @@
     --clr-main-footer-bg: #9b59b6;
 }
 
-.main-header img {
+.hero img {
     object-fit: cover;
     object-position: top;
-    max-height: 20rem;
 }
 
 @media only screen and (min-width: 60rem) {
-    .main-header img {
+    .hero img {
         object-position: top -4.5rem right 0;
     }
 }
 
-.main-footer {
+.footer {
     color: var(--clr-navbar-link);
 }
 
-.main-footer a {
+.footer a {
     color: var(--clr-navbar-link);
 }
