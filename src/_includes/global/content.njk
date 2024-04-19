@@ -1,5 +1,5 @@
 <header class="main__header">
-    {% if isArticle %}
+    {% if isArticle or hasBreadcrumbs %}
         <ul class="breadcrumbs">
             {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(articleTitle) %}
             {%- for entry in breadcrumbNavPages %}
@@ -9,7 +9,9 @@
             ➔
             {%- endfor %}
         </ul>
+    {% endif %}
 
+    {% if isArticle %}
         <h1>{{ articleTitle }}</h1>
         <div class="article__info">
             <p>Posted on {{ date | niceDate }} by {{ sitemeta.siteAuthor.name }}
