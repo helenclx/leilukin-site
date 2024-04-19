@@ -65,21 +65,21 @@ Bytten Studio has written a blog post on [their design philosophy of <cite>Casse
 
 The YouTube channel Lockstin & Gnoggin has a video that explains the names and designs of the monsters and Archangels: [EVERY Cassette Beast EXPLAINED! 🖭](https://www.youtube.com/watch?v=GlKQzL6gpxc). The video was [retweeted](https://i.postimg.cc/tRdtkBSF/Screenshot-2023-10-05-at-14-27-39-Lockstin-on-X.png) by Bytten Studio.
 
-The idea of copying monster forms to transform into came from Tom Coxon's dream. Jay Baylis, inspired by <cite>Kamen Rider</cite>, later suggested doing the copying and transforming with physical cassette tapes.[\[Source\]](https://store.steampowered.com/news/app/1321440/view/3669908058337516561)
+The idea of copying monster forms to transform into came from Tom Coxon's dream. Jay Baylis, inspired by <cite>Kamen Rider</cite>, later suggested doing the copying and transforming with physical cassette tapes. [\[Source\]](https://store.steampowered.com/news/app/1321440/view/3669908058337516561)
 
-Another oddball source of inspiration for Tom the story [“The Beatles Never Broke Up”](https://thebeatlesneverbrokeup.com/story/), about a man who in 2009 hit his head and woke up in another world where the Beatles still exist, where people still use analogue technology, and where parallel universe travel is commonplace.[\[Source\]](https://store.steampowered.com/news/app/1321440/view/3669908058337516561)
+Another oddball source of inspiration for Tom the story [“The Beatles Never Broke Up”](https://thebeatlesneverbrokeup.com/story/), about a man who in 2009 hit his head and woke up in another world where the Beatles still exist, where people still use analogue technology, and where parallel universe travel is commonplace. [\[Source\]](https://store.steampowered.com/news/app/1321440/view/3669908058337516561)
 
-The presentation of Archangels is inspired a little by the Witches in Puella Magi Madoka Magica.[\[Source\]](https://store.steampowered.com/news/app/1321440/view/3669908058337516561)
+The presentation of Archangels is inspired a little by the Witches in Puella Magi Madoka Magica. [\[Source\]](https://store.steampowered.com/news/app/1321440/view/3669908058337516561)
 
-The way the relationship system ties into fusions is heavily influenced by Steven Universe, which both Tom and Jay are fans of.[\[Source\]](https://store.steampowered.com/news/app/1321440/view/3669908058337516561)
+The way the relationship system ties into fusions is heavily influenced by Steven Universe, which both Tom and Jay are fans of. [\[Source\]](https://store.steampowered.com/news/app/1321440/view/3669908058337516561)
 
-The AP system in Cassette Beasts is taken from board and card games.[\[Source\]](https://store.steampowered.com/news/app/1321440/view/3669908058337516561)
+The AP system in Cassette Beasts is taken from board and card games. [\[Source\]](https://store.steampowered.com/news/app/1321440/view/3669908058337516561)
 
-Jay cited comic author Grant Morrison as an influence on the broader themes of the game (as well as the strange English surrealism of the setting), as Morrison's stories often explore the nature of fiction, multiple realities, and their influence on one another.[\[Source\]](https://store.steampowered.com/news/app/1321440/view/3669908058337516561)
+Jay cited comic author Grant Morrison as an influence on the broader themes of the game (as well as the strange English surrealism of the setting), as Morrison's stories often explore the nature of fiction, multiple realities, and their influence on one another. [\[Source\]](https://store.steampowered.com/news/app/1321440/view/3669908058337516561)
 
-Archangels Morgante and Aleph were inspired by Morgan le Fay and King Arthur from Arturian legends, but with an unusual twist that Aleph is portrayed as a conqueror instead of a "rightful king" to reflect Britain's history of conquest.[\[Source\]](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9v6q5/)
+Archangels Morgante and Aleph were inspired by Morgan le Fay and King Arthur from Arturian legends, but with an unusual twist that Aleph is portrayed as a conqueror instead of a "rightful king" to reflect Britain's history of conquest. [\[Source\]](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9v6q5/)
 
-The ideas for the other Archangels came after Morgante and Aleph. Their themes were kind of arbitrarily chosen to match the design Jay had given them.[\[Source\]](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9v6q5/)
+The ideas for the other Archangels came after Morgante and Aleph. Their themes were kind of arbitrarily chosen to match the design Jay had given them. [\[Source\]](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9v6q5/)
 
 Bytten Studio made a point to not put in a huge amount of Japanese mythological monsters in comparison to mythology from other nations, especially since well-known mons franchises such as Shin Megami Tensei, Pokémon and Digimon are Japanese franchises; they do not want to seem derivative. [\[Source\]](https://discord.com/channels/594939411775619102/709417227652431942/1206255854211305523)
 
@@ -146,6 +146,6 @@ Common words and phrases:
 
 ## The Developers
 
-Jay Baylis' favourite monster catching game is Pokémon Ruby/Sapphire.[\[Source\]](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9qo03/)
+Jay Baylis' favourite monster catching game is Pokémon Ruby/Sapphire. [\[Source\]](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9qo03/)
 
-Tom Coxon's favourite monster catching game is Siralim Ultimate.[\[Source\]](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9qicf/)
+Tom Coxon's favourite monster catching game is Siralim Ultimate. [\[Source\]](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9qicf/)
