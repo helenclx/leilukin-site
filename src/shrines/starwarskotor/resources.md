@@ -38,14 +38,14 @@ Here are the modifications for the KotOR series I have created.
 ## My Mod Lists
 
 <ul class="content-list">
-    <li><a href="../kotor-same-gender-romance-mods">List of Same-Gender Romance Mods for the <cite>KotOR</cite> Series</a></li>
-    <li><a href="../kotor2-female-exile-recruit-handmaiden-mods">List of <cite>KotOR 2</cite> Mods that Allow Female Exiles to Recruit the Handmaiden as a Party Member</a></li>
+    <li><a href="./kotor-same-gender-romance-mods">List of Same-Gender Romance Mods for the <cite>KotOR</cite> Series</a></li>
+    <li><a href="./kotor2-female-exile-recruit-handmaiden-mods">List of <cite>KotOR 2</cite> Mods that Allow Female Exiles to Recruit the Handmaiden as a Party Member</a></li>
 </ul>
 
 ## References
 
 <ul class="content-list">
-    <li><a href="../tslrcm-m478ep-modules-music.html">The Sith Lords Restored Content Mod + M4-78 Enhancement Project Modules, Warp Codes & Music Overview</a></li>
+    <li><a href="./tslrcm-m478ep-modules-music">The Sith Lords Restored Content Mod + M4-78 Enhancement Project Modules, Warp Codes & Music Overview</a></li>
 </ul>
 
 ## My Mod Builds
