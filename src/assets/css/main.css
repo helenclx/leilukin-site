@@ -328,15 +328,14 @@ main {
 /* HEADING WRAPPER AND ANCHOR */
 .heading-wrapper {
     display: flex;
-    gap: 0.4em;
+    gap: 0.3em;
     margin-top: 1.5rem;
     align-items: baseline;
 }
 
 .heading-anchor {
-    font-size: max(0.75em, 1.75rem);
     line-height: 1;
-    opacity: 0.75;
+    opacity: 0.8;
     order: -1;
     text-decoration: none;
 }
