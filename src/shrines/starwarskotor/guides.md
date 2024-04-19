@@ -14,6 +14,14 @@ eleventyNavigation:
 ---
 
 ## My KotOR Guides
+<ul class="content-list">
+    {%- for article in collections["kotor guides"] -%}
+        <li>
+            <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
+            <time>{{ article.date | niceDate }}</time>
+        </li>
+    {%- endfor -%}
+</ul>
 
 ## KotOR 1 Guides by Others
 <ul class="content-list">
