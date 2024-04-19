@@ -5,7 +5,7 @@
     "eleventyComputed": {
         "title": "{{ articleTitle }} | Articles",
         "eleventyNavigation": {
-            "key": "{{ articleTitle or title }}",
+            "key": "{{ articleTitle }}",
             "parent": "KotOR Articles"
         }
     }
