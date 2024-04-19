@@ -48,7 +48,7 @@
 		</div>
     {% endif %}
 
-    {% if tags and tags.includes("contents") or title === "Articles" or tags and tags.includes("blog pages") %}
+    {% if tags and tags.includes("contents") or page.url === "/articles/" or tags and tags.includes("blog pages") %}
         {% include "main/content-nav.njk" %}
     {% endif %}
 
