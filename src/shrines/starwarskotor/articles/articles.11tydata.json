@@ -3,6 +3,7 @@
     "layout": "starwarskotor/content",
     "isArticle": true,
     "eleventyComputed": {
+        "title": "{{ articleTitle }} | Articles",
         "eleventyNavigation": {
             "key": "{{ articleTitle or title }}",
             "parent": "KotOR Articles"
