@@ -9,7 +9,7 @@ eleventyNavigation:
     key: Cassette Beasts Trivia
     parent: Cassette Beasts Shrine
     title: Trivia
-    order: 3
+    order: 4
 ---
 
 ## Where to Find <cite>Cassette Beasts</cite> Trivia
