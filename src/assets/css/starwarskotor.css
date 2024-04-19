@@ -28,10 +28,9 @@
     --clr-main-footer-bg: #171717;
 }
 
-.main-header img {
+.hero img {
     object-fit: cover;
     object-position: center;
-    max-height: 20rem;
 }
 
 .juhani-history {
