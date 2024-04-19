@@ -14,6 +14,14 @@ eleventyNavigation:
 ---
 
 ## My Articles for Both Games
+<ul class="content-list">
+    {%- for article in collections["kotor both articles"] -%}
+        <li>
+            <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
+            <time>{{ article.date | niceDate }}</time>
+        </li>
+    {%- endfor -%}
+</ul>
 
 ## My KotOR 1 Articles
 
