@@ -1,10 +1,9 @@
 :root {
-    --clr-body-bg: #1f0033;
-    --img-body-bg: url(/assets/cassettebeasts/images/cassettebeasts-bg.jpg);
+    --clr-body-bg: #f0f0f0;
     --clr-body-txt: #333333;
     --clr-content-bg: #ffffff;
 
-    --clr-top-btn: #FFD05A;
+    --clr-top-btn: #AB75E8;
 
     --clr-main-heading: #333333;
     --clr-sub-heading: #000000;
@@ -23,22 +22,11 @@
     --clr-link-btn-txt: white;
     --clr-link-btn-hover: #241445;
 
-    --clr-main-header-bg: #9b59b6;
+    --clr-hero-bg: #9b59b6;
     --clr-navbar-bg: #9b59b6;
     --clr-navbar-link: white;
 
     --clr-main-footer-bg: #9b59b6;
-}
-
-.hero img {
-    object-fit: cover;
-    object-position: top;
-}
-
-@media only screen and (min-width: 60rem) {
-    .hero img {
-        object-position: top -4.5rem right 0;
-    }
 }
 
 .footer {
