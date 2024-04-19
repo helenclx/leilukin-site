@@ -1,6 +1,7 @@
 {
     "tags": ["contents", "kotor resources"],
     "layout": "starwarskotor/content",
+    "hasBreadcrumbs": true,
     "eleventyComputed": {
         "title": "{{ articleTitle }} | Resources",
         "eleventyNavigation": {
