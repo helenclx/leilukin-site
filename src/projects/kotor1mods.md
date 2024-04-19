@@ -7,17 +7,6 @@ templateEngineOverride: njk, md
 toc: true
 ---
 
-<section class="content__section">
-    <h2>Filter by Caegories</h2>
-    <div id="myBtnContainer">
-        <button class="filter-btn active" onclick="filterSelection('all')">All</button>
-        <button class="filter-btn" onclick="filterSelection('pc-party-members')">Player & Party Members</button>
-        <button class="filter-btn" onclick="filterSelection('npcs')">NPCs</button>
-        <button class="filter-btn" onclick="filterSelection('gameplay')">Gameplay</button>
-        <button class="filter-btn" onclick="filterSelection('music')">Music</button>
-    </div>
-</section>
-
 <section class="content__section filter-div pc-party-members">
     <h2>Player & Party Members</h2>
 
