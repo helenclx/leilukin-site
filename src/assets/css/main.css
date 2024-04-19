@@ -465,6 +465,12 @@ main {
     text-align: center;
 }
 
+.indent-text {
+    padding: 1em 0 1em 2em;
+    display: grid;
+    gap: 1em;
+}
+
 .date-style {
     font-weight: 700;
     color: var(--clr-dates);
