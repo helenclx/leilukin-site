@@ -1,13 +1,76 @@
-<p class="center-text">
-    {% if pagination.href.previous %}
-        <a href=" {{ pagination.href.previous }}">Newer</a>
-    {% else %}
-        Newer
-    {% endif %}
-    /
-    {% if pagination.href.next %}
-        <a href=" {{ pagination.href.next }}">Older</a>
-    {% else %}
-        Older
-    {% endif %}
-</p>
+<nav aria-label="pagination" class="pagination__wrapper">
+    <ul class="pagination">
+        <li>
+            {% if pagination.href.first %}
+                <a href=" {{ pagination.href.first }}">Newest</a>
+            {% else %}
+                Newest
+            {% endif %}
+        </li>
+        <li>
+            {% if pagination.href.previous %}
+                <a href=" {{ pagination.href.previous }}">Newer</a>
+            {% else %}
+                Newer
+            {% endif %}
+        </li>
+        <li>
+             {% if pagination.href.next %}
+                <a href=" {{ pagination.href.next }}">Older</a>
+            {% else %}
+                Older
+            {% endif %}
+        </li>
+        <li>
+            {% if pagination.href.last %}
+                <a href=" {{ pagination.href.last }}">Oldest</a>
+            {% else %}
+                Oldest
+            {% endif %}
+        </li>
+    </ul>
+</nav>
+
+<style>
+    .pagination__wrapper {
+        display: grid;
+        place-content: center;
+        margin-top: 1.5em;
+    }
+
+    .pagination {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .pagination li {
+        text-align: center;
+        padding: 0.3em 0.7em;
+        color: var(--clr-link-hover);
+        background-color: var(--clr-code-bg);
+    }
+
+    .pagination li:has(a) {
+        background-color: var(--clr-title-border);
+    }
+
+    .pagination li:has(a):hover {
+        cursor: pointer;
+        background-color: var(--clr-link-hover);
+    }
+
+    .pagination li:has(a):focus-within {
+        outline: 0.2em solid var(--clr-title-border);
+        outline-offset: 0.15em;
+    }
+
+    .pagination li a {
+        color: var(--clr-link-btn-hover);
+        text-decoration: none;
+    }
+</style>
