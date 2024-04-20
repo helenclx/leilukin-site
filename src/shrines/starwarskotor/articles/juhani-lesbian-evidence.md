@@ -15,6 +15,7 @@ Therefore, as a lesbian and someone who has [made mods](/projects/#my-video-game
 The most crucial evidence comes from `k_hjuh_dialog.dlg`, Juhani’s main dialogue file which contains all the conversations covered in my Juhani Romance Guide. If you use the [KotOR Tool](https://deadlystream.com/files/file/280-kotor-tool/) to browse the game files, `k_hjuh_dialog.dlg` is under KotOR I > BIFs > templates.bif > Dialog. I recommend using [DLGEditor](https://deadlystream.com/files/file/750-dlg-editor/) to view the .dlg files from KotOR games.
 
 Here is a screenshot of my DLGEditor with the most relevant part of the `k_hjuh_dialog.dlg` file:
+
 ![A screenshot of Version 2.3.2 of the DLG Editor displaying Juhani's main dialogue file, with the first conversation highlighted](/assets/starwarskotor/articles/juhani-lesbian-in-game-evidence.png)
 ([Click to view the image in its original size](/assets/starwarskotor/articles/juhani-lesbian-in-game-evidence.png))
 
