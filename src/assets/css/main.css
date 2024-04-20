@@ -32,6 +32,8 @@
 
     --clr-main-footer-bg: #13092D;
 
+    --clr-mod-entry-bg: #241445;
+
     --ff-primary: 'Noto Sans';
 
     --ms-paragraph-margin: 1.15em;
@@ -394,7 +396,7 @@ main {
 
 .mod-entry {
     gap: 1em;
-    background: #241445;
+    background: var(--clr-mod-entry-bg);
     margin: 1em 0;
     padding: 1em;
 }
