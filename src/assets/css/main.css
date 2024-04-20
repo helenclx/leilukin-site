@@ -213,9 +213,26 @@ details:focus {
     outline-offset: 0.2em;
 }
 
+code {
+    font-family: monospace;
+    border: 0.07rem solid var(--clr-code-border);
+    padding: 0.125rem 0.3rem;
+    margin: 0 0.125rem;
+    background: var(--clr-code-bg);
+}
+
 pre {
     white-space: pre-wrap;
     overflow-x: auto;
+}
+
+pre code {
+    background: var(--clr-code-bg);
+    border: 0.08rem solid var(--clr-code-border);
+    display: block;
+    padding: 0.5em 0.8rem;
+    overflow-x: auto;
+    word-break: keep-all;
 }
 
 summary {
@@ -364,23 +381,6 @@ main {
 }
 
 /* SPECIAL ELEMENTS */
-.inline-code {
-    font-family: monospace;
-    border: 0.07rem solid var(--clr-code-border);
-    padding: 0.125rem 0.3rem;
-    margin: 0 0.125rem;
-    background: var(--clr-code-bg);
-}
-
-.code-snippet {
-    background: var(--clr-code-bg);
-    border: 0.08rem solid var(--clr-code-border);
-    display: block;
-    padding: 0.5em 0.8rem;
-    overflow-x: auto;
-    word-break: keep-all;
-}
-
 .text-box {
     background: var(--clr-quote-bg);
     border: 0.1em solid var(--clr-main-heading);
