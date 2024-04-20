@@ -228,7 +228,6 @@ pre {
 
 pre code {
     background: var(--clr-code-bg);
-    border: 0.08rem solid var(--clr-code-border);
     display: block;
     padding: 0.5em 0.8rem;
     overflow-x: auto;
