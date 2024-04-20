@@ -7,6 +7,12 @@ toc: true
 ---
 {% from "main/mod-entry.njk" import modEntry %}
 
+## Important Note for Steam Users
+
+If you play KotOR 2 on Steam, I **DO NOT recommend using the Steam Workshop to mod KotOR 2 at all**, especially if you want to use any of my mods. I recommend reading this post on [why NOT to use the Steam Workshop](https://deadlystream.com/topic/7321-why-not-to-use-the-steam-workshop/).
+
+The sheer amount of mod compatibility issues the Steam Workshop can cause to KotOR 2 mods is precisely why **I will *never* upload any of my KotOR 2 mods to Steam Workshop**.
+
 ## Same-Gender Romances
 
 <h3 class="center-text" style="color: inherit;">Before you ask any questions about my same-gender romance mods for the <cite>KotOR</cite> series, <a href="/shrines/starwarskotor/articles/faq-same-gender-romance-mods" target="_blank">read the FAQ article</a> first!</h3>
