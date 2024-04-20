@@ -1,7 +1,10 @@
 {% extends "global/hero.njk" %}
 
 {% block heroImg %}
-    <img src="/assets/cassettebeasts/images/cassettebeasts-header.png" alt="Banner of Cassette Beasts Shrine">
+    <picture>
+        <source srcset="/assets/cassettebeasts/images/cassettebeasts-header-640.png" media="(orientation: portrait)" />
+        <img src="/assets/cassettebeasts/images/cassettebeasts-header-320.png" alt="Banner of Cassette Beasts Shrine" />
+    </picture>
 {% endblock %}
 
 {% block eventScript %}
