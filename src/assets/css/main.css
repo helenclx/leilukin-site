@@ -386,14 +386,34 @@ main {
     margin: 0.5em 0;
 }
 
+.mod-entry,
+.mod-entry__downloads {
+    display: grid;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.mod-entry {
+    background: #241445;
+    margin: 1em 0;
+    padding: 1em;
+}
+
+/* Tablet screen size */
+@media only screen and (min-width: 37.5rem) {
+    .mod-entry__downloads {
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    }
+}
+
 /* Link button */
 .link-btn {
-    font: 1.3rem 'Source Sans Pro', Arial, sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
     display: inline-block;
-    border: 0.15rem solid var(--clr-link-btn-bg);
-    border-radius: 0.6rem;
-    padding: 0.75rem 1rem;
-    margin: 0.3rem;
+    border: 0.15em solid var(--clr-link-btn-bg);
+    border-radius: 0.6em;
+    padding: 0.5em 1em;
     background: var(--clr-link-btn-bg);
     color: var(--clr-link-btn-txt);
     cursor: pointer;
