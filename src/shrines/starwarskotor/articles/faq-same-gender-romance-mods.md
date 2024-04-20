@@ -1,5 +1,5 @@
 ---
-articleTitle: "FAQ for My Star Wars: KotOR Same-Gender Romance Mods"
+articleTitle: "Frequently Asked Questions (FAQ) for My Star Wars: KotOR Same-Gender Romance Mods"
 date: 2021-09-25
 updated: 2024-04-19
 desc: "Frequently asked questions for my same-gender romance mods for Star Wars: Knights of the Old Republic series."
