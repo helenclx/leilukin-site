@@ -1,31 +1,52 @@
+{% set firstLabel = "Newest" %}
+{% set prevLabel = "Newer" %}
+{% set nextLabel = "Older" %}
+{% set lastLabel = "Oldest" %}
+
 <nav aria-label="pagination" class="pagination__wrapper">
     <ul class="pagination">
         <li>
             {% if pagination.href.first %}
-                <a href=" {{ pagination.href.first }}">Newest</a>
+                <a href=" {{ pagination.href.first }}">
+                    <i class="fa-solid fa-angles-left"></i>
+                    {{ firstLabel }}
+                </a>
             {% else %}
-                Newest
+                <i class="fa-solid fa-angles-left"></i>
+                {{ firstLabel }}
             {% endif %}
         </li>
         <li>
             {% if pagination.href.previous %}
-                <a href=" {{ pagination.href.previous }}">Newer</a>
+                <a href=" {{ pagination.href.previous }}">
+                    <i class="fa-solid fa-angle-left"></i>
+                    {{ prevLabel }}
+                </a>
             {% else %}
-                Newer
+                <i class="fa-solid fa-angle-left"></i>
+                {{ prevLabel }}
             {% endif %}
         </li>
         <li>
              {% if pagination.href.next %}
-                <a href=" {{ pagination.href.next }}">Older</a>
+                <a href=" {{ pagination.href.next }}">
+                    {{ nextLabel }}
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
             {% else %}
-                Older
+                {{ nextLabel }}
+                <i class="fa-solid fa-angle-right"></i>
             {% endif %}
         </li>
         <li>
             {% if pagination.href.last %}
-                <a href=" {{ pagination.href.last }}">Oldest</a>
+                <a href=" {{ pagination.href.last }}">
+                    {{ lastLabel }}
+                    <i class="fa-solid fa-angles-right"></i>
+                </a>
             {% else %}
-                Oldest
+                {{ lastLabel }}
+                <i class="fa-solid fa-angles-right"></i>
             {% endif %}
         </li>
     </ul>
