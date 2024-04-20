@@ -1,7 +1,10 @@
 {% extends "global/hero.njk" %}
 
 {% block heroImg %}
-    <img src="/assets/starwarskotor/images/swkotor-header.jpg" alt="Banner of Star Wars: Knights of the Old Republic Shrine">
+    <picture>
+        <source srcset="/assets/starwarskotor/images/swkotor-header-320.png" media="(orientation: landscape)" />
+        <img src="/assets/starwarskotor/images/swkotor-header.jpg" alt="anner of Star Wars: Knights of the Old Republic Shrine" />
+    </picture>
 {% endblock %}
 
 {% block eventScript %}
