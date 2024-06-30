@@ -14,32 +14,32 @@ eleventyNavigation:
 
 ## My Articles for Both Games
 <ul>
-    {%- for article in collections["kotor both articles"] -%}
-        <li>
-            <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
-            <p>{{ article.date | formatDate }}</p>
-        </li>
-    {%- endfor -%}
+{%- for article in collections["kotor both articles"] -%}
+    <li>
+        <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
+        <p>{{ article.date | formatDate }}</p>
+    </li>
+{%- endfor -%}
 </ul>
 
 ## My KotOR 1 Articles
 <ul>
-    {%- for article in collections["kotor 1 articles"] -%}
-        <li>
-            <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
-            <p>{{ article.date | formatDate }}</p>
-        </li>
-    {%- endfor -%}
+{%- for article in collections["kotor 1 articles"] -%}
+    <li>
+        <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
+        <p>{{ article.date | formatDate }}</p>
+    </li>
+{%- endfor -%}
 </ul>
 
 ## My KotOR 2 Articles
 <ul>
-    {%- for article in collections["kotor 2 articles"] -%}
-        <li>
-            <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
-            <p>{{ article.date | formatDate }}</p>
-        </li>
-    {%- endfor -%}
+{%- for article in collections["kotor 2 articles"] -%}
+    <li>
+        <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
+        <p>{{ article.date | formatDate }}</p>
+    </li>
+{%- endfor -%}
 </ul>
 
 ## KotOR Articles I Recommend
