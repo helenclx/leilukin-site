@@ -161,7 +161,8 @@ p + .adoptables { margin-top: 1em; }
     list-style: none;
     padding: 0;
     display: flex;
-    gap: 0.7em;
+    flex-wrap: wrap;
+    gap: 0.5em;
 }
 
 .tab__btn {
