@@ -155,7 +155,9 @@ p + .adoptables { margin-top: 1em; }
 
 /* Tabs */
 .tabwrap section { display: none; }
-.tabwrap section:target { display: block; }
+
+.tabwrap section:target,
+.tabwrap section:has(*:target) { display: block; }
 
 .tabs {
     list-style: none;
