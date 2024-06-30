@@ -17,11 +17,11 @@ eleventyComputed:
 {% container "section", "content__section" %}
 ## My Code Projects
 <ul>
-<!-- {%- for project in collections["code projects"] -%}
+{%- for project in collections["code projects"] -%}
     <li>
-        <a href="{{ project.url }}">{{ project.data.articleTitle }}</a>
+        <a href="{{ project.url }}">{{ project.data.title }}</a>
     </li>
-{%- endfor -%} -->
+{%- endfor -%}
 </ul>
 {% endcontainer %}
 
