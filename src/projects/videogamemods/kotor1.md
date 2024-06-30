@@ -1,5 +1,4 @@
 ---
-layout: main/content.njk
 title: "My Mods for Star Wars: Knights of the Old Republic"
 desc: "List of video game mods I have made for Star Wars: Knights of the Old Republic."
 categories: ["star wars kotor"]

@@ -1,5 +1,6 @@
 {
     "tags": "project pages",
+    "layout": "main/content.njk",
     "hasBreadcrumbs": true,
     "eleventyComputed": {
         "eleventyNavigation": {
