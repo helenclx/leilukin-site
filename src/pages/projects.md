@@ -18,9 +18,7 @@ eleventyComputed:
 ## My Code Projects
 <ul>
 {%- for project in collections["code projects"] -%}
-    <li>
-        <a href="{{ project.url }}">{{ project.data.title }}</a>
-    </li>
+    <li><a href="{{ project.url }}">{{ project.data.title }}</a> — {{ project.data.desc }}</li>
 {%- endfor -%}
 </ul>
 {% endcontainer %}
