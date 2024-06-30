@@ -47,5 +47,5 @@ Making same-gender romance mods for {% cite "KotOR 2" %} was the primary motivat
 
 I love modding the {% cite "KotOR" %} games, not only because the games are a special interest of mine, but also I love creating things for my interests. Modifying the games made me feel like I have the power to change the game to make them better and more enjoyable, and thus improve my experience with playing the games.
 
-You can check out all the {% cite "KotOR" %} mods I have created, including [{% cite "KotOR 1" %} mods](/projects/mods/kotor1) and [{% cite "KotOR 2" %} mods](/projects/mods/kotor2), on my main site's [Projects](/projects/#my-video-game-mods) pages.
+You can check out all the {% cite "KotOR" %} mods I have created, including [{% cite "KotOR 1" %} mods](/projects/videogamemods/kotor1) and [{% cite "KotOR 2" %} mods](/projects/videogamemods/kotor2), on my main site's [Projects](/projects/#my-video-game-mods) pages.
 {% endcontainer %}
