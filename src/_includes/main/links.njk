@@ -21,9 +21,9 @@ isContentDivided: true
 <article class="tabwrap">
 {% for group in linkGroups %}
     <section id="{{ group.data.title | slugify }}" class="content__section">
-        {% headingAnchor 2 %}
-            {{ group.data.title }}
-        {% endheadingAnchor %}
+    {% headingAnchor 2 %}
+        {{ group.data.title }}
+    {% endheadingAnchor %}
         {{ group.templateContent | safe }}
         <a href="#linktabs" class="tab__btn" style="margin-top: 3em;">Back to tabs</a>
     </section>
