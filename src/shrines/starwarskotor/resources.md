@@ -14,8 +14,8 @@ eleventyNavigation:
 
 ## My Mods
 Here are the modifications for the KotOR series I have created.
-* [{% cite "Star Wars: Knights of the Old Republic" %}](/projects/kotor1mods/)
-* [{% cite "Star Wars: Knights of the Old Republic II: The Sith Lords" %}](/projects/kotor2mods/)
+* [{% cite "Star Wars: Knights of the Old Republic" %}](/projects/mods/kotor1/)
+* [{% cite "Star Wars: Knights of the Old Republic II: The Sith Lords" %}](/projects/mods/kotor2/)
 
 ## My Modder's Resource
 * [Missing K1 Party Member Ports for TSL](https://deadlystream.com/files/file/2249-missing-k1-party-member-ports-for-tsl-modders-resource/)
