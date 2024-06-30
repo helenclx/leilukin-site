@@ -1,0 +1,28 @@
+---
+layout: main/content.njk
+articleElement: true
+isContentDivided: true
+---
+{% set linkGroups = collections["link groups"] %}
+
+<section class="content__section">
+    {% include "main/site-btn.njk" %}
+
+    <p>Use the following tabs to view my link collection by category.</p>
+    <nav>
+        <ul>
+        {% for group in linkGroups %}
+            <li><a href="#{{ group.data.title | slugify }}">{{ group.data.title }}</a></li>
+        {%- endfor %}
+        </ul>
+    </nav>
+</section>
+
+<article class="tabwrap">
+{% for group in linkGroups %}
+    <section id="{{ group.data.title | slugify }}" class="content__section">
+        <h2>{{ group.data.title }}</h2>
+        {{ group.templateContent | safe }}
+    </section>
+{%- endfor %}
+</article>

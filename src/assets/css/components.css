@@ -153,6 +153,15 @@ p + .adoptables { margin-top: 1em; }
     margin: 0;
 }
 
+/* Tabs */
+.tabwrap section {
+	display: none;
+}
+
+.tabwrap section:target {
+	display: block;
+}
+
 /* Web ring */
 .webring {
     border: 0.08em outset;
