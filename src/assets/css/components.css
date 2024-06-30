@@ -154,12 +154,29 @@ p + .adoptables { margin-top: 1em; }
 }
 
 /* Tabs */
-.tabwrap section {
-	display: none;
+.tabwrap section { display: none; }
+.tabwrap section:target { display: block; }
+
+.tabs {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 0.7em;
 }
 
-.tabwrap section:target {
-	display: block;
+.tab__btn {
+    display: inline-block;
+    color: var(--clr-code-bg);
+    background-color: var(--clr-title-border);
+    text-decoration: none;
+    padding: 0.4em 0.8em;
+}
+
+.tab__btn:hover { background-color: #d5c2d6; }
+
+.tab__btn:active {
+    color: var(--clr-title-border);
+    background-color: var(--clr-code-bg);
 }
 
 /* Web ring */

@@ -10,9 +10,9 @@ isContentDivided: true
 
     <p>Use the following tabs to view my link collection by category.</p>
     <nav>
-        <ul>
+        <ul class="tabs">
         {% for group in linkGroups %}
-            <li><a href="#{{ group.data.title | slugify }}">{{ group.data.title }}</a></li>
+            <li><a class="tab__btn" href="#{{ group.data.title | slugify }}">{{ group.data.title }}</a></li>
         {%- endfor %}
         </ul>
     </nav>
@@ -23,6 +23,7 @@ isContentDivided: true
     <section id="{{ group.data.title | slugify }}" class="content__section">
         <h2>{{ group.data.title }}</h2>
         {{ group.templateContent | safe }}
+        <a href="#linktabs" class="tab__btn" style="margin-top: 3em;">Back to tabs</a>
     </section>
 {%- endfor %}
 </article>
