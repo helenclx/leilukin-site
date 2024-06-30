@@ -14,12 +14,12 @@ eleventyNavigation:
 
 ## My KotOR Guides
 <ul>
-    {%- for article in collections["kotor guides"] -%}
-        <li>
-            <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
-            <p>{{ article.date | formatDate }}</p>
-        </li>
-    {%- endfor -%}
+{%- for article in collections["kotor guides"] -%}
+    <li>
+        <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
+        <p>{{ article.date | formatDate }}</p>
+    </li>
+{%- endfor -%}
 </ul>
 
 ## KotOR 1 Guides by Others

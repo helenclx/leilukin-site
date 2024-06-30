@@ -14,12 +14,12 @@ eleventyNavigation:
 
 ## My {% cite "Cassette Beasts" %} Articles
 <ul>
-    {%- for article in collections["cassette beasts articles"] -%}
-        <li>
-            <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
-            <p>{{ article.date | formatDate }}</p>
-        </li>
-    {%- endfor -%}
+{%- for article in collections["cassette beasts articles"] -%}
+    <li>
+        <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
+        <p>{{ article.date | formatDate }}</p>
+    </li>
+{%- endfor -%}
 </ul>
 
 ## {% cite "Cassette Beasts" %} Articles I Recommend

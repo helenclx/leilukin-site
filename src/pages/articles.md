@@ -9,12 +9,12 @@ eleventyNavigation:
 ## My Articles
 Articles I have written.
 <ul>
-    {%- for article in collections["my articles"] -%}
-        <li>
-            <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
-            <p>{{ article.date | formatDate }}</p>
-        </li>
-    {%- endfor -%}
+{%- for article in collections["my articles"] -%}
+    <li>
+        <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
+        <p>{{ article.date | formatDate }}</p>
+    </li>
+{%- endfor -%}
 </ul>
 
 ## My Articles for Video Games with Their Own Pages
@@ -24,10 +24,10 @@ Articles I have written.
 ## Featured Articles
 Articles featuring other people's interview with me.
 <ul>
-    {%- for article in collections["featured articles"] -%}
-        <li>
-            <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
-            <p>{{ article.date | formatDate }}</p>
-        </li>
-    {%- endfor -%}
+{%- for article in collections["featured articles"] -%}
+    <li>
+        <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
+        <p>{{ article.date | formatDate }}</p>
+    </li>
+{%- endfor -%}
 </ul>
