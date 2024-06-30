@@ -15,6 +15,17 @@ eleventyComputed:
 {% endcontainer %}
 
 {% container "section", "content__section" %}
+## My Code Projects
+<ul>
+<!-- {%- for project in collections["code projects"] -%}
+    <li>
+        <a href="{{ project.url }}">{{ project.data.articleTitle }}</a>
+    </li>
+{%- endfor -%} -->
+</ul>
+{% endcontainer %}
+
+{% container "section", "content__section" %}
 ## My Drawings
 
 My drawings can be found on my art blog on Tumblr:
@@ -26,9 +37,13 @@ My drawings can be found on my art blog on Tumblr:
 ## My Video Game Mods
 
 I have created mods (short for "modifications") for the following video games:
-
-* [Star Wars: Knights of the Old Republic](./videogamemods/kotor1)
-* [Star Wars: Knights of the Old Republic II: The Sith Lords](./videogamemods/kotor2)
+<ul>
+{%- for mods in collections["video game mods"] -%}
+    <li>
+        <a href="{{ mods.url }}">{{ mods.data.title }}</a>
+    </li>
+{%- endfor -%}
+</ul>
 {% endcontainer %}
 
 {% container "section", "content__section" %}
