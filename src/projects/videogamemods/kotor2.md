@@ -37,7 +37,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor2/mods/926"
+            url: "https://www.nexusmods.com/kotor2/videogamemods/926"
         }
     ]
 }) }}
@@ -53,7 +53,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor2/mods/927"
+            url: "https://www.nexusmods.com/kotor2/videogamemods/927"
         }
     ]
 }) }}
@@ -69,7 +69,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor2/mods/925"
+            url: "https://www.nexusmods.com/kotor2/videogamemods/925"
         }
     ]
 }) }}
@@ -85,7 +85,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor2/mods/933"
+            url: "https://www.nexusmods.com/kotor2/videogamemods/933"
         }
     ]
 }) }}
@@ -101,7 +101,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor2/mods/928"
+            url: "https://www.nexusmods.com/kotor2/videogamemods/928"
         }
     ]
 }) }}
@@ -117,7 +117,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor2/mods/1036"
+            url: "https://www.nexusmods.com/kotor2/videogamemods/1036"
         }
     ]
 }) }}
@@ -147,7 +147,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor2/mods/932"
+            url: "https://www.nexusmods.com/kotor2/videogamemods/932"
         }
     ]
 }) }}
@@ -163,7 +163,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor2/mods/1181"
+            url: "https://www.nexusmods.com/kotor2/videogamemods/1181"
         }
     ]
 }) }}
@@ -179,7 +179,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor2/mods/1185"
+            url: "https://www.nexusmods.com/kotor2/videogamemods/1185"
         }
     ]
 }) }}
@@ -209,7 +209,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor2/mods/1180"
+            url: "https://www.nexusmods.com/kotor2/videogamemods/1180"
         }
     ]
 }) }}
@@ -225,7 +225,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor2/mods/1188"
+            url: "https://www.nexusmods.com/kotor2/videogamemods/1188"
         }
     ]
 }) }}
@@ -241,7 +241,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor2/mods/1178"
+            url: "https://www.nexusmods.com/kotor2/videogamemods/1178"
         }
     ]
 }) }}
@@ -259,7 +259,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor2/mods/934"
+            url: "https://www.nexusmods.com/kotor2/videogamemods/934"
         }
     ]
 }) }}
@@ -275,7 +275,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor2/mods/1190"
+            url: "https://www.nexusmods.com/kotor2/videogamemods/1190"
         }
     ]
 }) }}
@@ -291,7 +291,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor2/mods/1183"
+            url: "https://www.nexusmods.com/kotor2/videogamemods/1183"
         }
     ]
 }) }}
@@ -307,7 +307,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor2/mods/1177"
+            url: "https://www.nexusmods.com/kotor2/videogamemods/1177"
         }
     ]
 }) }}
@@ -325,7 +325,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor2/mods/1184"
+            url: "https://www.nexusmods.com/kotor2/videogamemods/1184"
         }
     ]
 }) }}

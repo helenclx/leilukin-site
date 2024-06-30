@@ -9,7 +9,7 @@ On 6 December 2019, to celebrate the 15th anniversary of {% cite "Star Wars: Kni
 
 > ### Romance? Yes, Please
 >
-> [Unlike the first KOTOR](https://starwars.fandom.com/wiki/Juhani), there are no same-gender romance options in Obsidian’s sequel. Leilukin, a modder on the Nexus Forums, has focused much of her modding work since 2016 on [fixing that oversight.](https://www.nexusmods.com/kotor2/mods/927)
+> [Unlike the first KOTOR](https://starwars.fandom.com/wiki/Juhani), there are no same-gender romance options in Obsidian’s sequel. Leilukin, a modder on the Nexus Forums, has focused much of her modding work since 2016 on [fixing that oversight.](https://www.nexusmods.com/kotor2/videogamemods/927)
 >
 > “As much as I love KOTOR2, I have always been frustrated by the fact that the romance content with the companions and certain NPCs… are all heterosexual,” she said.
 >

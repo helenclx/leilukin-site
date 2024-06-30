@@ -18,7 +18,7 @@ Released on 23 April 2005, Stoffe's [Handmaiden Choice for Females](https://www.
 
 ## Handmaiden 4 Females - Disciple 4 Males by Hassat Hunter
 
-Released on 14 March 2014, Hassat Hunter made [Handmaiden 4 Females - Disciple 4 Males](https://www.moddb.com/mods/the-sith-lords-restored-content-mod-tslrcm/addons/handmaiden-4-females-disciple-4-males-183) based on Stoffe's Handmaiden Choice for Females, so the mod would be compatible with The Sith Lords Restored Content Mod (TSLRCM). However, this version retains the flaw of Handmaiden still referring to a female Exile with “he/him” pronouns. Additioally, the mod is outdated and no longer supported.
+Released on 14 March 2014, Hassat Hunter made [Handmaiden 4 Females - Disciple 4 Males](https://www.moddb.com/videogamemods/the-sith-lords-restored-content-mod-tslrcm/addons/handmaiden-4-females-disciple-4-males-183) based on Stoffe's Handmaiden Choice for Females, so the mod would be compatible with The Sith Lords Restored Content Mod (TSLRCM). However, this version retains the flaw of Handmaiden still referring to a female Exile with “he/him” pronouns. Additioally, the mod is outdated and no longer supported.
 
 ## PartySwap by DarthTyren
 
@@ -30,7 +30,7 @@ This in turn, however, also prevents female Exiles from getting any dialogue tha
 
 ## Handmaiden and Female Exile - Disciple and Male Exile Romance by Leilukin
 
-My mod, released on 2 January 2017 and can be downloaded form both [Deadly Stream](https://deadlystream.com/files/file/977-handmaiden-and-female-exile-disciple-and-male-exile-romance/) and [Nexus Mods](https://www.nexusmods.com/kotor2/mods/927). As the mod name suggests, this mod allows you to recruit and romance the Handmaiden as a female Exile, ditto for the Disciple as a male Exile. My mod also requires [The Sith Lords Restored Content Mod (TSLRCM)](https://deadlystream.com/files/file/578-tsl-restored-content-mod/) to work.
+My mod, released on 2 January 2017 and can be downloaded form both [Deadly Stream](https://deadlystream.com/files/file/977-handmaiden-and-female-exile-disciple-and-male-exile-romance/) and [Nexus Mods](https://www.nexusmods.com/kotor2/videogamemods/927). As the mod name suggests, this mod allows you to recruit and romance the Handmaiden as a female Exile, ditto for the Disciple as a male Exile. My mod also requires [The Sith Lords Restored Content Mod (TSLRCM)](https://deadlystream.com/files/file/578-tsl-restored-content-mod/) to work.
 
 My mod fixes any potential gender/pronouns mix-up by editing dialogue and splicing audio, so users of my mod can fully enjoy the Handmaiden and the Disciple's romance content without worrying about their Exile getting misgendered.
 

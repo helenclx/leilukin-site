@@ -27,8 +27,8 @@ My drawings can be found on my art blog on Tumblr:
 
 I have created mods (short for "modifications") for the following video games:
 
-* [Star Wars: Knights of the Old Republic](./mods/kotor1)
-* [Star Wars: Knights of the Old Republic II: The Sith Lords](./mods/kotor2)
+* [Star Wars: Knights of the Old Republic](./videogamemods/kotor1)
+* [Star Wars: Knights of the Old Republic II: The Sith Lords](./videogamemods/kotor2)
 {% endcontainer %}
 
 {% container "section", "content__section" %}
