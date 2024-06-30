@@ -1,5 +1,4 @@
 ---
-layout: main/content.njk
 title: "My Mods for Star Wars: Knights of the Old Republic II: The Sith Lords"
 desc: "List of video game mods I have made for Star Wars: Knights of the Old Republic II: The Sith Lords."
 categories: ["star wars kotor 2"]
