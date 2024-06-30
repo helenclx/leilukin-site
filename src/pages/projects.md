@@ -10,7 +10,8 @@ eleventyComputed:
 
 {% container "section", "content__section" %}
 ## My Other Websites
-* [Leilukin's Hub Tumbleblog](https://tumbleblog.leilukin.com/) — My tumbleblog powered by [Chyrp Lite](https://chyrplite.net/).
+* [Leilukin's Hub Tumbleblog](https://tumbleblog.leilukin.com/) — My tumbleblog powered by [Chyrp Lite](https://chyrplite.net/)
+* [Beehive](https://fan.leilukin.com/) — My fanlisting collective
 {% endcontainer %}
 
 {% container "section", "content__section" %}
