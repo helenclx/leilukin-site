@@ -59,7 +59,7 @@ However, I am most active on Tumblr, so if you want to interact with me on a soc
 I also have media catalogues online on the following platforms:
 
 * <i class="fa-brands fa-steam-symbol"></i> [Steam](https://steamcommunity.com/id/leilukin/)
-* <i class="fa-solid fa-book-open"></i> [The StoryGraph](https://app.thestorygraph.com/profile/leilukin)
+* [The StoryGraph](https://app.thestorygraph.com/profile/leilukin)
 
 You can contact me via email: {{sitemeta.siteAuthor.email}}.
 
