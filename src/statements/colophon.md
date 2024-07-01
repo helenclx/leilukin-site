@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-06-13
+updated: 2024-07-01
 toc: true
 eleventyNavigation:
     order: 13
@@ -32,6 +32,7 @@ Information about how this website is built.
 * [@uncenter/eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc)
 
 ### markdown-it plugins
+Eleventy has the Markdown parser [markdown-it](https://www.npmjs.com/package/markdown-it) built in to render Markdown to HTML.
 * [markdown-it-anchor](https://www.npmjs.com/package/markdown-it-anchor)
 * [markdown-it-attribution](https://www.npmjs.com/package/markdown-it-attribution)
 * [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
@@ -48,7 +49,7 @@ Information about how this website is built.
 Due to this website being a static site, JavaScript is used to create dynamic and interactive components of this site. Here is a list of how JavaScript is used on this site:
 
 * The header of every page uses JavaScript to detect the visitor's current date, so the header will display a top blurb and in some cases also changes the header background on certain dates, including:
-    * LGBTQ+ events, International Women's Day, website anniversary and my birthday;
+    * LGBTQ+ events, International Women's Day, Disability Pride Month, website anniversary and my birthday;
     * Release anniversaries of media with dedicated shrines, including:
         * [{% cite "A Summer’s End — Hong Kong 1986" %}](/shrines/asummersend)
         * [{% cite "Star Wars: Knights of the Old Republic" %}](/shrines/starwarskotor)
