@@ -42,7 +42,7 @@ I speak Mandarin, English, Cantonese and Malay, though I am most fluent in Manda
 
 I am also autistic, so I use this website as a platform to catalogue my interests.
 
-Leilukin is not my real name, but it is an internet pseudonym that I have used since I was a teenager, so the name has become my online identity.
+Leilukin is not my real name, but it is an internet pseudonym that I have used since I was a teenager, so the name has become my online identity, and I prefer to go by Leilukin on informal online spaces.
 
 Social media platforms you can find me on:
 
