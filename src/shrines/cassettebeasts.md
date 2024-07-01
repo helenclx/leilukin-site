@@ -22,7 +22,7 @@ eleventyComputed:
 
 {% cite "Cassette Beasts" %} is a 2D/3D hybrid monster collecting open-world role-playing video game developed by Bytten Studio, an indie team based in Brighton, United Kingdom, co-founded by Jay Baylis and Tom Coxon, and published by Raw Fury.
 
-First released on Steam and Windows on 26 April 2023, later on console on 25 May 2023, {% cite "Casette Beasts" %} is available on Windows, Linux, Steam, Xbox Series X|S, Xbox One, Gamepass and Nintendo Switch.
+First released on Steam and Windows on 26 April 2023, later on console on 25 May 2023, {% cite "Cassette Beasts" %} is available on Windows, Linux, Steam, Xbox Series X|S, Xbox One, Gamepass and Nintendo Switch.
 
 {% cite "Cassette Beasts" %} also has an [official website](https://www.cassettebeasts.com/) and [official wiki](https://wiki.cassettebeasts.com/wiki/Main_Page).
 
