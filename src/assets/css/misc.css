@@ -107,17 +107,14 @@ body {
     text-align: center;
 }
 
-body,
-main {
+body, main {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-main {
-    max-width: 90%;
-}
+main { max-width: 90%; }
 
 h1 {
     font-size: var(--fs-h1);
@@ -128,9 +125,7 @@ h1 {
     line-height: 1;
 }
 
-p {
-    font-size: var(--fs-p);
-}
+p { font-size: var(--fs-p); }
 
 .index__btn-wrapper {
     display: flex;
