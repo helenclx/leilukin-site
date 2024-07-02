@@ -78,6 +78,8 @@ In addition, my passion for {% cite "Cassette Beasts" %} drives me to contribute
 
 Since I already had basic skills and knowledge of Python, I contributed my code to [cbpickaxe](https://github.com/ExcaliburZero/cbpickaxe), a Python library and set of scripts for data mining {% cite "Cassette Beasts" %}, specifically to [add support for finding dialogue strings of IDs that require pronoun identifiers](https://github.com/ExcaliburZero/cbpickaxe/pull/3). My code was approved and merged into cbpickaxe starting from [version 0.1.2](https://github.com/ExcaliburZero/cbpickaxe/releases/tag/v0.1.2).
 
+I created and am running [Land of Confusion](https://fan.leilukin.com/cassettebeasts), the fanlisting for {% cite "Cassette Beasts" %} which is part of [The Fanlistings Network](https://thefanlistings.org/). If you are a fan of {% cite "Cassette Beasts" %}, you are more than welcome to join my fanlisting!
+
 On Tumblr, I run the [Cassette Beasts Source](https://cassettebeastssource.tumblr.com/) blog, an unofficial {% cite "Cassette Beasts" %} fan site blog that I founded on 25 February 2024. I created a fan site blog on Tumblr due to the fact that Bytten Studio does not have an official Tumblr account, and I want a Tumblr blog dedicated to sharing and archiving {% cite "Cassette Beasts" %} news and fan works.
 
 I have also contributed to [{% cite "Cassette Beasts" %} TVTropes pages](https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/CassetteBeasts) (I have had a TVTropes account since 18 February 2012), by editing the pages to add information about the game. I was the one who created the [Trivia page](https://tvtropes.org/pmwiki/pmwiki.php/Trivia/CassetteBeasts) for the game on TVTropes.
