@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2024-06-24
+updated: 2024-07-02
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -17,13 +17,13 @@ You can also check out my [status.cafe profile](https://status.cafe/users/leiluk
 
 I have been making a more active effort in participating in personal web spaces and connecting with other webmasters, through various methods including leaving messages on others' guestbooks, sending other webmasters emails, linking to each other's websites, following each other's Neocities profiles, etc.
 
-Furthermore, I joined [32-Bit Cafe](https://32bit.cafe/) on both its Discourse forum and Discord on 15 June 2024.
+Furthermore, I joined [32-Bit Cafe](https://32bit.cafe/) on both its Discourse forum and Discord on 15 June 2024, and earned the [New Member of the Month for June 2024](https://tumbleblog.leilukin.com/2024/07/02/earned-32-bit-cafe-new-member-of-the-month-award-for-june-2024/) on the Discourse forum.
 
 ## What I am Working on
 
 ### Building a {% cite "Cassette Beasts" %} Fanlisting and My Fanlisting Collective
 
-[The Fanlistings Network](https://thefanlistings.org/) has [approved my application to build and run a {% cite "Cassette Beasts" %} fanlisting](/blog/posts/2024-06-24-cassette-beasts-fanlisting-approved). so I am working on building the {% cite "Cassette Beasts" %} fanlisting and my fanlisting colellective to gather all fanlistings I own, join and have applied in one place.
+Ihad been working on building buiing the {% cite "Cassette Beasts" %} fanlisting, with the [approval]((/blog/posts/2024-06-24-cassette-beasts-fanlisting-approved)) from [The Fanlistings Network](https://thefanlistings.org/), and my fanlisting colellective to gather all fanlistings I own, join and have applied in one place. Both the {% cite "Cassette Beasts" %} fanlisting and my fanlisting collective have been [launched](/blog/posts/2024-07-02-fanlisting-collective-launch) on 2 July 2024.
 
 ### Updating my {% cite "Star Wars: Knights of the Old Republic" %} mods
 
