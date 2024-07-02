@@ -2,18 +2,25 @@
 articleTitle: Cassette Beasts Fanlisting and My Fanlisting Collective Launched
 desc: Announcing the launch of my fanlisting collective, Cassette Beasts fanlisting and the release of my BellaBuffs fork.
 date: 2024-07-02
-categories: ["cassette beasts", "site updates"]
+categories: ["cassette beasts", "site updates", "code projects"]
 ---
 
-I am incredibly excited to announce the official launch of [Land of Confusion](), [The Fanlisting Network](https://thefanlistings.org/)-approved fanlisting for {% cite "Cassette Beasts" %}, and [Beehive](https://fan.leilukin.com), my fanlisting collective! 🥳
+I am incredibly excited to announce the official launch of [Land of Confusion](https://fan.leilukin.com/cassettebeasts), [The Fanlistings Network](https://thefanlistings.org/)-approved fanlisting for {% cite "Cassette Beasts" %}, and [Beehive](https://fan.leilukin.com), my fanlisting collective! 🥳
 
 If you are a fan of {% cite "Cassette Beasts" %}, feel free to join my fanlisting! If you like fanlistings as well, feel free to check out my fanlisting collective!
 
-In [my previous post](/blog/posts/2024-06-24-cassette-beasts-fanlisting-approved), I announced that The Fanlistings Network had approved my application for building and running a fanlisting for {% cite "Cassette Beasts" %}. The launch of my  {% cite "Cassette Beasts" %}  fanlisting is a major moment for me as both a webmaster and a {% cite "Cassette Beasts" %} fan, as I am enthusiastic about the fact that the very first fanlisting I create would be for my absolute favourite video game.
+In addition, in light of the launch of my first fanlisting, I am also releasing [my fork of BellaBuffs](/projects/code/bellabuffs-phpmailer), the fanlisting script written in PHP, with integration of [PHPMailer](https://github.com/PHPMailer/PHPMailer), the email sending library!
 
 My fanlisting collective and {% cite "Cassette Beasts" %} fanlisting are hosted on [InfinityFree](https://www.infinityfree.com/), since [Netlify](https://www.netlify.com/), which currently hosts the main site of Leilukin's Hub, does not support PHP.
 
-In addition, in light of the launch of my first fanlisting, I am also releasing [my fork of BellaBuffs](/projects/code/bellabuffs-phpmailer), the fanlisting script written in PHP, with integration of [PHPMailer](https://github.com/PHPMailer/PHPMailer), the email sending library!
+## A Milestone
+
+In [my previous post](/blog/posts/2024-06-24-cassette-beasts-fanlisting-approved), I announced that The Fanlistings Network (also known as TFL.org) had approved my application for building and running a fanlisting for {% cite "Cassette Beasts" %}.
+
+After completing the {% cite "Cassette Beasts" %} fanlisting on 30 June 2024, I submitted a [finished form](https://thefanlistings.org/finished.php) to TFL.org to let them know that I have finished my fanlisting. The Fanlistings Network responded by emailing me and informing me thatthey have added the URL of my {% cite "Cassette Beasts" %} fanlisting to the list of approved fanlistings under the Games category and the [Computer, Console, & Video Games subcategory](https://www.thefanlistings.org/browse.php?show=games&start=8) ([view the web archive version](https://web.archive.org/web/20240702062715/https://www.thefanlistings.org/browse.php?show=games&start=8)).
+
+
+The launch of my  {% cite "Cassette Beasts" %}  fanlisting is a major moment for me as both a webmaster and a {% cite "Cassette Beasts" %} fan, as I am enthusiastic about the fact that the very first fanlisting I create would be for my absolute favourite video game.
 
 ## First Foray in PHP
 
