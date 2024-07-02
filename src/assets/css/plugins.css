@@ -5,9 +5,7 @@
     align-items: baseline;
 }
 
-* + .heading-wrapper {
-    margin-top: 1.8em;
-}
+* + .heading-wrapper { margin-top: 1.8em; }
 
 .heading-anchor {
     order: -1;
@@ -19,14 +17,10 @@
     outline-offset: 0.05em;
 }
 
-.heading-anchor [hidden] {
-    display: block;
-}
+.heading-anchor [hidden] { display: block; }
 
 /* BLOCKQUOTES With CITATIONS */
-.c-blockquote__attribution {
-    text-align: left;
-}
+.c-blockquote__attribution { text-align: left; }
 
 .c-blockquote__attribution::before {
     content: "—";
@@ -34,13 +28,8 @@
 }
 
 /* FOOTNOTES */
-.footnote-ref {
-    margin-left: 0.2em;
-}
-
-.footnote-ref a:target {
-    scroll-margin-block: calc(var(--sz-navbar-ht) + 5ex);
-}
+.footnote-ref { margin-left: 0.2em; }
+.footnote-ref a:target { scroll-margin-block: calc(var(--sz-navbar-ht) + 5ex); }
 
 .footnotes {
     margin-top: 3em;

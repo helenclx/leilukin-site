@@ -1,15 +1,10 @@
 /* UTILITY CLASSES */
-.bold-text {
-    font-weight: 700;
-}
+.bold-text { font-weight: 700; }
+.center-text { text-align: center; }
 
 .center-el {
     display: grid;
     place-content: center;
-}
-
-.center-text {
-    text-align: center;
 }
 
 .indent-text {
@@ -23,9 +18,7 @@
     color: var(--clr-dates);
 }
 
-.hidden {
-    display: none;
-}
+.hidden { display: none; }
 
 .visually-hidden {
     position: absolute;

@@ -6,9 +6,7 @@
 * File Description: Styles for the guestbook control
 * CSS variables come from https://groundedwren.neocities.org/styles/gwBoilerPlatePersonalization.css
 */
-:root {
-    --icon-color: var(--clr-body-txt);
-}
+:root { --icon-color: var(--clr-body-txt); }
 
 .comment-form {
     display: grid;
@@ -18,9 +16,7 @@
 }
 
 .comment-form,
-.input-horizontal-wrapper {
-    gap: 1em;
-}
+.input-horizontal-wrapper { gap: 1em; }
 
 .comment-form-title {
     text-align: center;
@@ -45,13 +41,9 @@
 }
 
 .input-vertical input:focus,
-.comment-box-container textarea:focus {
-    outline: 0.15em solid var(--clr-link);
-}
+.comment-box-container textarea:focus { outline: 0.15em solid var(--clr-link); }
 
-.comment-box-container textarea {
-    resize: vertical;
-}
+.comment-box-container textarea { resize: vertical; }
 
 .inline-banner {
 	padding: 0.5em;
@@ -63,13 +55,9 @@
     background-color: var(--clr-quote-bg);
 }
 
-.inline-banner.warning {
-    background-color: #9e0f00;
-}
+.inline-banner.warning { background-color: #9e0f00; }
 
-.inline-banner.warning a {
-    color: unset;
-}
+.inline-banner.warning a { color: unset; }
 
 .form-footer,
 .comment-footer {
@@ -77,9 +65,7 @@
     gap: 0.5em;
 }
 
-.form-footer {
-    justify-content: flex-end;
-}
+.form-footer { justify-content: flex-end; }
 
 .form-footer input,
 .comment-footer button,
@@ -93,23 +79,12 @@
 }
 
 .comment-footer button,
-.show-comment {
-    font-size: initial;
-}
+.show-comment { font-size: initial; }
 
-gw-comment-card:not(.collapsed) .show-comment {
-	display: none;
-}
-gw-comment-card.collapsed .comment-article > *:not(.comment-header) {
-	display: none !important;
-}
-gw-comment-card.collapsed .show-comment {
-	display: block;
-}
-
-gw-comment-card.collapsed .comment-header-right time {
-	display: none;
-}
+gw-comment-card:not(.collapsed) .show-comment { display: none; }
+gw-comment-card.collapsed .comment-article > *:not(.comment-header) { display: none !important; }
+gw-comment-card.collapsed .show-comment { display: block; }
+gw-comment-card.collapsed .comment-header-right time { display: none; }
 
 .comments-container {
     display: flex;
@@ -131,9 +106,7 @@ gw-comment-card.collapsed .comment-header-right time {
     margin: 0.5em 0;
 }
 
-.comment-article > button {
-    max-width: fit-content;
-}
+.comment-article > button { max-width: fit-content; }
 
 .comment-header {
     display: grid;

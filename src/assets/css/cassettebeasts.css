@@ -33,10 +33,6 @@
 
 .hero__top-bar,
 .footer,
-.footer a {
-    color: var(--clr-navbar-link);
-}
+.footer a { color: var(--clr-navbar-link); }
 
-.footer a:focus {
-    outline-color: var(--clr-navbar-link);
-}
+.footer a:focus { outline-color: var(--clr-navbar-link); }
