@@ -23,7 +23,7 @@ Furthermore, I joined [32-Bit Cafe](https://32bit.cafe/) on both its Discourse f
 
 ### Building a {% cite "Cassette Beasts" %} Fanlisting and My Fanlisting Collective
 
-Ihad been working on building buiing the {% cite "Cassette Beasts" %} fanlisting, with the [approval]((/blog/posts/2024-06-24-cassette-beasts-fanlisting-approved)) from [The Fanlistings Network](https://thefanlistings.org/), and my fanlisting colellective to gather all fanlistings I own, join and have applied in one place. Both the {% cite "Cassette Beasts" %} fanlisting and my fanlisting collective have been [launched](/blog/posts/2024-07-02-fanlisting-collective-launch) on 2 July 2024.
+I had been working on building buiing the {% cite "Cassette Beasts" %} fanlisting, with the [approval]((/blog/posts/2024-06-24-cassette-beasts-fanlisting-approved)) from [The Fanlistings Network](https://thefanlistings.org/), and my fanlisting colellective to gather all fanlistings I own, join and have applied in one place. Both the {% cite "Cassette Beasts" %} fanlisting and my fanlisting collective have been [launched](/blog/posts/2024-07-02-fanlisting-collective-launch) on 2 July 2024.
 
 ### Updating my {% cite "Star Wars: Knights of the Old Republic" %} mods
 
