@@ -137,7 +137,7 @@ p + .adoptables { margin-top: 1em; }
     display: inline-block;
     position: absolute;
     background-color: var(--clr-quote-bg);
-    border: 0.15em solid var(--clr-title-border);
+    border: 0.15em solid var(--clr-main-heading);
     padding: 0.25em 0.5em;
 }
 
