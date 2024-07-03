@@ -3,108 +3,38 @@ title: Websites
 date: 2023-01-28
 ---
 
+{%- macro siteButton(url, file, alt, tooltip=alt, width=88, height=31) -%}
+    <li class="tipcontainer">
+        <a href="{{ url }}" class="tipactivator">
+            <img src="/assets/buttons/{{ file }}" alt="{{ alt }}" width="{{ width }}" height="{{ height }}" loading="lazy">
+        </a>
+        <p class="tooltip">{{ tooltip }}</p>
+    </li>
+{%- endmacro -%}
+
 <h3>Personal Sites I Enjoy</h3>
+
 <ul class="web-btn-wrapper">
-    <li>
-        <a href="https://karuma.me/" title="10kph">
-            <img src="/assets/buttons/sites/10kph.png" alt="10kph" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://www.autisticasfxxk.com/" title="Autistic As Fxxk">
-            <img src="/assets/buttons/sites/autisticasfxxk.gif" alt="Autistic As Fxxk" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://divergentrays.com/" title="Divergent Rays">
-            <img src="/assets/buttons/sites/divergentrays.png" alt="Divergent Rays" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://cyberneticdryad.neocities.org/" title="Dryad Glen">
-            <img src="/assets/buttons/sites/dryadglen.png" alt="Dryad Glen" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://frills.dev/" title="Frills">
-            <img src="/assets/buttons/sites/frills.png" alt="Frills" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://groundedwren.com/" title="Grounded Wren">
-            <img src="/assets/buttons/sites/groundedwren.png" alt="Grounded Wren" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://jasm1nii.xyz/" title="jasmine's journal">
-            <img src="/assets/buttons/sites/jasminesjournal.png" alt="jasmine's journal" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://jefbecker.com/" title="JEFBECKER">
-            <img src="/assets/buttons/sites/jefbecker.png" alt="JEFBECKER" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://kalechips.net/" title="Kalechips">
-            <img src="/assets/buttons/sites/kalechips.png" alt="Kalechips" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://lostletters.neocities.org/" title="Lost Letters">
-            <img src="/assets/buttons/sites/lostletters.gif" alt="Lost Letters" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://macaque.moe/" title="Macaque">
-            <img src="/assets/buttons/sites/macaque.png" alt="Macaque" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://mycorrhiza.space/" title="Mycorrhiza's Space">
-            <img src="/assets/buttons/sites/mycorrhiza.png" alt="Mycorrhiza's Space" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://owlsroost.xyz/" title="Owl's Roost">
-            <img src="/assets/buttons/sites/owlsroost.gif" alt="Owl's Roost" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://pinkvampyr.leprd.space/" title="Pinkvampyr">
-            <img src="/assets/buttons/sites/pinkvampyr.gif" alt="Pinkvampyr" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://sanguineroyal.com/" title="Sanguine Royal">
-            <img src="/assets/buttons/sites/sanguineroyal.gif" alt="Sanguine Royal" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://solaria.neocities.org/" title="Solaria's Webspace">
-            <img src="/assets/buttons/sites/solaria.png" alt="Solaria's Webspace" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://starbreaker.org/" title="🤘 starbreaker.org 🤘">
-            <img src="/assets/buttons/sites/starbreaker.avif" alt="🤘 starbreaker.org 🤘" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://symliadoo.com/" title="sym's living room 🍨">
-            <img src="/assets/buttons/sites/symliadoo.png" alt="sym's living room 🍨" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://whiona.me/" title="Whiona">
-            <img src="/assets/buttons/sites/whiona.png" alt="Whiona" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://xandra.cc/" title="Museum of Alexandra">
-            <img src="/assets/buttons/sites/xandra.png" alt="Museum of Alexandra" width="88" height="31" loading="lazy">
-        </a>
-    </li>
+    {{ siteButton("https://karuma.me/", "sites/10kph.png", "10kph") }}
+    {{ siteButton("https://www.autisticasfxxk.com/", "sites/autisticasfxxk.gif", "Autistic As Fxxk") }}
+    {{ siteButton("ttps://divergentrays.com/", "sites/divergentrays.png", "Divergent Rays") }}
+    {{ siteButton("https://cyberneticdryad.neocities.org/", "sites/dryadglen.png", "Dryad Glen") }}
+    {{ siteButton("https://frills.dev/", "sites/frills.png", "Frills") }}
+    {{ siteButton("https://groundedwren.com/", "sites/groundedwren.png", "Grounded Wren") }}
+    {{ siteButton("https://jasm1nii.xyz/", "sites/jasminesjournal.png", "jasmine's journal") }}
+    {{ siteButton("https://jefbecker.com/", "sites/jefbecker.png", "JEFBECKER") }}
+    {{ siteButton("https://kalechips.net/", "sites/kalechips.png", "Kalechips") }}
+    {{ siteButton("https://lostletters.neocities.org/", "sites/lostletters.gif", "Lost Letters") }}
+    {{ siteButton("https://macaque.moe/", "sites/macaque.png", "Macaque") }}
+    {{ siteButton("https://mycorrhiza.space/", "sites/mycorrhiza.png", "Mycorrhiza's Space") }}
+    {{ siteButton("https://owlsroost.xyz/", "sites/owlsroost.gif", "Owl's Roost") }}
+    {{ siteButton("https://pinkvampyr.leprd.space/", "sites/pinkvampyr.gif", "Pinkvampyr") }}
+    {{ siteButton("https://sanguineroyal.com/", "sites/sanguineroyal.gif", "Sanguine Royal") }}
+    {{ siteButton("https://solaria.neocities.org/", "sites/solaria.png", "Solaria's Webspace") }}
+    {{ siteButton("https://starbreaker.org/", "sites/starbreaker.avif", "🤘 starbreaker.org 🤘") }}
+    {{ siteButton("https://symliadoo.com/", "sites/symliadoo.png", "sym's living room 🍨") }}
+    {{ siteButton("https://whiona.me/", "sites/whiona.png", "Whiona") }}
+    {{ siteButton("https://xandra.cc/", "sites/xandra.png", "Museum of Alexandra") }}
 </ul>
 
 <h3>Link Exchanges</h3>
@@ -114,50 +44,18 @@ date: 2023-01-28
 
 <h3>Directories</h3>
 <ul class="web-btn-wrapper">
-    <li>
-        <a href="https://pinkvampyr.leprd.space/accessiblenet/" title="Accessibility Net Directory">
-            <img src="/assets/buttons/directories/accessiblenet.png" alt="Accessible Net Directory" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://indieseek.xyz/" title="Indieseek.xyz Indie Web Directory">
-            <img src="/assets/buttons/directories/indieseek.png" alt="Indieseek.xyz Indie Web Directory" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://linklane.net/" title="Link Lane">
-            <img src="/assets/buttons/directories/linklane.png" alt="Link Lane" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://list-me.com/" title="List-Me.com">
-            <img src="/assets/buttons/directories/list-me.png" alt="List-Me.com" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://kalechips.net/responsive/" title="Responsive Web Directory">
-            <img src="/assets/buttons/directories/responsiveweb.png" alt="Responsive Web Directory" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://smoothsailing.asclaria.org/" title="Smooth Sailing Listings">
-            <img src="/assets/buttons/directories/smoothsailing.png" alt="Smooth Sailing Listings" width="88" height="31" loading="lazy">
-        </a>
-    </li>
+    {{ siteButton("https://pinkvampyr.leprd.space/accessiblenet/", "directories/accessiblenet.png", "Accessibility Net Directory") }}
+    {{ siteButton("https://indieseek.xyz/", "directories/indieseek.png", "Indieseek.xyz Indie Web Directory") }}
+    {{ siteButton("https://linklane.net/", "directories/linklane.png", "Link Lane") }}
+    {{ siteButton("https://list-me.com/", "directories/list-me.png", "List-Me.com") }}
+    {{ siteButton("https://kalechips.net/responsive/", "directories/responsiveweb.png", "Responsive Web Directory") }}
+    {{ siteButton("https://smoothsailing.asclaria.org/", "directories/smoothsailing.png", "Smooth Sailing Listings") }}
 </ul>
 
 <h3>Communities</h3>
 <ul class="web-btn-wrapper">
-    <li>
-        <a href="https://32bit.cafe/" title="32-Bit Cafe">
-            <img src="/assets/buttons/communities/32-bit-cafe.png" alt="32-Bit Cafe" width="88" height="31" loading="lazy">
-        </a>
-    </li>
-    <li>
-        <a href="https://zine.kalechips.net/index" title="Salad Magazine">
-            <img src="/assets/buttons/communities/saladmagazine.png" alt="Salad Magazine" width="88" height="31" loading="lazy">
-        </a>
-    </li>
+    {{ siteButton("https://32bit.cafe/", "communities/32-bit-cafe.png", "32-Bit Cafe") }}
+    {{ siteButton("https://zine.kalechips.net/index", "communities/saladmagazine.png", "Salad Magazine") }}
 </ul>
 
 <h3>Fanlistings</h3>
