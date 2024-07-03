@@ -28,7 +28,7 @@ More information about this site can be found on the following pages:
 
 ### Link to This Site
 
-{% include "main/site-btn.njk" %}
+{% include "main/my-button.njk" %}
 {% endcontainer %}
 
 {% container "article", "content__section" %}
