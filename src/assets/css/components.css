@@ -148,6 +148,7 @@ p + .adoptables { margin-top: 1em; }
 .tabs {
     list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 0.5em;
