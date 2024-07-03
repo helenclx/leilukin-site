@@ -132,6 +132,12 @@ p + .adoptables { margin-top: 1em; }
 .tooltip { display: none; }
 .tipcontainer { position: relative; }
 
+.tipactivator {
+    display: block;
+    padding: 0;
+    border: none;
+}
+
 .tipactivator:hover + .tooltip,
 .tipactivator:focus + .tooltip {
     display: inline-block;

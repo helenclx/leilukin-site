@@ -73,15 +73,23 @@ eleventyComputed:
 <section class="content__section">
     <h2>Always Proud</h2>
     <div class="flag-progress-intersex-lesbian" role="img" aria-label="Custom pride flag which combines the lesbian pride flag and the progress pride flag triangle" style="height: 20rem; margin-bottom: 1em;"></div>
-    <div class="web-btn-wrapper">
-        <img src="/assets/buttons/pride/progress.png" alt="Website button of the 2018 Progress Flag" title="2018 Progress Flag by Daniel Quasar (2018)" width="88" height="31" loading="lazy">
-        <img src="/assets/buttons/pride/9_stripe.png" alt="Website button of the 9 stripe rainbow flag" title="Nine-Stripe Rainbow Flag by Gilbert Baker (2017)" width="88" height="31" loading="lazy">
-        <img src="/assets/buttons/pride/lesbian.png" alt="Website button of the lesbian pride flag" title="I am a lesbian" width="88" height="31" loading="lazy">
-        <img src="/assets/buttons/pride/nonbinary.png" alt="Website button of the non-binary pride flag" title="I am non-binary" width="88" height="31" loading="lazy">
-        <img src="/assets/buttons/pride/demigirl.png" alt="Website button of the demigirl pride flag" title="I am a demiwoman" width="88" height="31" loading="lazy">
-        <img src="/assets/buttons/pride/agender.png" alt="Website button of the agender pride flag" title="I am agender" width="88" height="31" loading="lazy">
-        <img src="/assets/buttons/pride/bigender.png" alt="Website button of the bigender pride flag" title="I am bigender" width="88" height="31" loading="lazy">
-    </div>
+    {%- macro prideButton(file, alt, tooltip=alt, width=88, height=31) -%}
+        <li class="tipcontainer">
+            <button class="tipactivator">
+                <img src="/assets/buttons/pride/{{ file }}.png" alt="{{ alt }}" width="{{ width }}" height="{{ height }}" loading="lazy">
+            </button>
+            <p class="tooltip">{{ tooltip }}</p>
+        </li>
+    {%- endmacro -%}
+    <ul class="web-btn-wrapper">
+        {{ prideButton("progress", "2018 Progress Flag", "2018 Progress Flag by Daniel Quasar (2018)") }}
+        {{ prideButton("9_stripe", "9 stripe rainbow flag", "Nine-Stripe Rainbow Flag by Gilbert Baker (2017)") }}
+        {{ prideButton("lesbian", "Lesbian pride flag", "I am a lesbian") }}
+        {{ prideButton("nonbinary", "Non-binary pride flag", "I am a non-binary") }}
+        {{ prideButton("demigirl", "Demigirl pride flag", "I am a demiwoman") }}
+        {{ prideButton("agender", "Agender pride flag", "I am agender") }}
+        {{ prideButton("bigender", "Bigender pride flag", "I am bigender") }}
+    </ul>
     <p>Credit to <a href="https://rainy.gay/pride/pridebuttons">Dime</a> for these pride buttons!</p>
 </section>
 
