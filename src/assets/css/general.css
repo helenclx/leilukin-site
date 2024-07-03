@@ -48,10 +48,8 @@ a {
 }
 
 a:hover { color: var(--clr-link-hover); }
-
 a:not([class]):focus { outline: 0.15rem solid var(--clr-link); }
-
-a:focus img { outline: 0.2em solid var(--clr-body-txt); }
+a:hover img, a:focus img { outline: 0.2em solid var(--clr-body-txt); }
 
 :not(.c-blockquote) > blockquote,
 .c-blockquote {
