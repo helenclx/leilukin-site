@@ -208,6 +208,7 @@ p + .adoptables { margin-top: 1em; }
     padding: 0;
     margin: 0 !important;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .webring__link {
