@@ -138,16 +138,12 @@ https://kalechips.net/projects/snippets/burger #}
 </style>
 
 <script>
-    window.onload = () => {
-        const navbarBurger = document.querySelector(".navbar__burger");
-
-        navbarBurger.addEventListener("keydown", (event) => {
-            const key = event.code;
-            if (key == "Escape") {
-                navbarBurger.removeAttribute("open");
-                navbarBurger.ariaExpanded = false;
-                document.querySelector(".navbar__toggle").focus();
-            }
-        });
-    };
+    const navbarBurger = document.querySelector(".navbar__burger");
+    navbarBurger.addEventListener("keydown", (event) => {
+        if (event.key == "Escape") {
+            navbarBurger.removeAttribute("open");
+            navbarBurger.ariaExpanded = false;
+            document.querySelector(".navbar__toggle").focus();
+        }
+    });
 </script>
