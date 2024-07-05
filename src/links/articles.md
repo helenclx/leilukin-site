@@ -1,6 +1,7 @@
 ---
 title: Articles
 date: 2024-07-03
+updated: 2024-07-04
 ---
 
 ### LGBTQ+
@@ -9,6 +10,10 @@ date: 2024-07-03
 
 ### Pop Culture
 * [On Letting People Enjoy Things](https://medium.com/@EstherRosenfield/let-people-enjoy-things-12021d00285a) by Esther Rosenfield
+* [In Defence of Critique: Let People Enjoy Not Enjoying Things](https://www.evilfemale.blog/p/in-defence-of-critique-let-people) by charlie squire
+
+### Web
+* [Nostalgia is Bullshit](https://wings.nu/nostalgia/) by Rin
 
 ### Uncategorised
 * [Laziness Does Not Exist](https://medium.com/7fe325749a24/laziness-does-not-exist-3af27e312d01) by Devon Price
