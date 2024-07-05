@@ -139,7 +139,8 @@ p + .adoptables { margin-top: 1em; }
 }
 
 .tipactivator:hover + .tooltip,
-.tipactivator:focus + .tooltip {
+.tipactivator:focus + .tooltip,
+.tooltip:hover {
     display: inline-block;
     position: absolute;
     background-color: var(--clr-quote-bg);
