@@ -1,9 +1,9 @@
 ---
 title: Accessibility
 keyword: accessibility statement
-updated: 2024-07-05
+updated: 2024-07-06
 eleventyNavigation:
-    order: 12
+    order: 13
 ---
 
 Even though this website is primarily meant to be my own space of self-expression, I also want every visitor to my website to have the best possible experience of browsing my website. Accessibility is also relevant to me as a disabled and neurodivergent person.
@@ -16,7 +16,7 @@ High-level overview of the accessibility features of this site:
 * Responsive design and mobile-friendly layout
 * Semantic HTML, enhanced by Web Accessibility Initiative – Accessible Rich Internet Applications (WAI-ARIA)
 * Sufficient colour contrast between text and background colours
-*  Alt text for all non-decorative images, occasionally accompanied with longer image descriptions
+* Alt text for all non-decorative images, occasionally accompanied with longer image descriptions
 * Keyboard navigation-friendly: Every interactive element can be focused and interacted with keyboard buttons, with visible outline when focused
 * Logical content and heading flow
 * Links to skip to the main content or the top of the page
@@ -37,10 +37,6 @@ I use the following tools to test my site for accessibility:
 * VoiceOver screen reader for iOS
 
 In addition, I test the accessibility of my website manually by navigating with keyboard alone.
-
-## Known Issues
-
-The tooltips for some site buttons displayed on this site cannot be dismissed with a keypress, which is required to meet [WCAG success criterion for 1.4.13: Content on Hover or Focus (Level AA)](https://www.w3.org/WAI/WCAG21/Understanding/content-on-hover-or-focus.html).
 
 ## Feedback
 
