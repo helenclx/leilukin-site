@@ -4,6 +4,7 @@ tags: pages
 metadata:
     title: Home
 isContentDivided: true
+hasTooltips: true
 eleventyNavigation:
     key: Home
     order: 1
@@ -74,11 +75,10 @@ eleventyComputed:
     <h2>Always Proud</h2>
     <div class="flag-progress-intersex-lesbian" role="img" aria-label="Custom pride flag which combines the lesbian pride flag and the progress pride flag triangle" style="height: 20rem; margin-bottom: 1em;"></div>
     {%- macro prideButton(file, alt, tooltip=alt, width=88, height=31) -%}
-        <li class="tipcontainer">
-            <button class="tipactivator" style="cursor: unset;">
+        <li data-tooltip>
+            <button data-tooltip-trigger title="{{ tooltip }}" style="cursor: unset; padding: 0; margin: 0; border: 0;">
                 <img src="/assets/buttons/pride/{{ file }}.png" alt="{{ alt }}" width="{{ width }}" height="{{ height }}" loading="lazy">
             </button>
-            <p class="tooltip">{{ tooltip }}</p>
         </li>
     {%- endmacro -%}
     <ul class="web-btn-wrapper">

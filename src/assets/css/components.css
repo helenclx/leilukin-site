@@ -128,28 +128,6 @@
 
 p + .adoptables { margin-top: 1em; }
 
-/* Tooltips */
-.tooltip { display: none; }
-.tipcontainer { position: relative; }
-
-.tipactivator {
-    display: block;
-    padding: 0;
-    border: none;
-}
-
-.tipactivator:hover + .tooltip,
-.tipactivator:focus + .tooltip,
-.tooltip:hover {
-    display: inline-block;
-    position: absolute;
-    background-color: var(--clr-quote-bg);
-    border: 0.15em solid var(--clr-main-heading);
-    padding: 0.25em 0.5em;
-    z-index: 998;
-    font-size: 1rem;
-}
-
 /* Web button lists */
 .web-btn-wrapper {
     display: flex;
