@@ -4,11 +4,10 @@ date: 2023-01-28
 ---
 
 {%- macro siteButton(url, file, alt, tooltip=alt, width=88, height=31) -%}
-    <li class="tipcontainer">
-        <a href="{{ url }}" class="tipactivator">
+    <li data-tooltip>
+        <a href="{{ url }}" data-tooltip-trigger title="{{ tooltip }}">
             <img src="/assets/buttons/{{ file }}" alt="{{ alt }}" width="{{ width }}" height="{{ height }}" loading="lazy">
         </a>
-        <p class="tooltip">{{ tooltip }}</p>
     </li>
 {%- endmacro -%}
 
