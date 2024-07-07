@@ -19,9 +19,9 @@ Here, I am compiling a list of resources related to Palestine. This list is not 
 * [Decolonize Palestine](https://decolonizepalestine.com/)
 * Haymarket's [Free Ebooks for a Free Palestine](https://www.haymarketbooks.org/blogs/495-free-ebooks-for-a-free-palestine)
 
-## Donation and Charity
+## Donations and Charities
 
-* [Click to help Palestine on arab.org](https://arab.org/click-to-help/palestine/)
+* [Daily click to help Palestine on arab.org](https://arab.org/click-to-help/palestine/)
 * [Palestine Children's Relief Fund](https://www.pcrf.net/)
 * [eSims for Gaza](https://gazaesims.com/)
 * [Gaza Funds](https://gazafunds.com)
