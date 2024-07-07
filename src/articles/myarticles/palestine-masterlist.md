@@ -41,7 +41,7 @@ Here, I am compiling a list of resources related to Palestine. This list is not 
 ## Boycotts
 
 * [BDS Movement](https://bdsmovement.net/)
-* Attention to website owners: [Boycott Wix](https://boycottwix.org/) — The BDS movement [lists Wix as an organic boycott target](https://bdsmovement.net/Act-Now-Against-These-Companies-Profiting-From-Genocide), meaning the BDS movement did not initiate this grassroots boycott campaign, but supports it due to the boycotted brand's complicity in Israel's genocide and apartheid against Palestinians.
+* Attention to website owners: [Boycott Wix](https://boycottwix.org/) — The BDS movement has [listed Wix as an organic boycott target](https://bdsmovement.net/Act-Now-Against-These-Companies-Profiting-From-Genocide), meaning the BDS movement did not initiate this grassroots boycott campaign, but supports it due to the boycotted brand's complicity in Israel's genocide and apartheid against Palestinians.
 
 ## Spotlight Crowdfunding Campaigns
 
