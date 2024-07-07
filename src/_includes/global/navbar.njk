@@ -2,6 +2,11 @@
 https://kalechips.net/projects/snippets/burger #}
 
 {% set navLinksEl %}
+{%- if tags and tags.includes("shrine pages") %}
+    <li>
+        <a {% if currentUrl === shrineHomeUrl %}aria-current="page"{% endif %} href="{{ shrineHomeUrl }}">Shrine Home</a>
+    </li>
+{%- endif -%}
 {% block navbarLinks %}{% endblock %}
 {%- if tags and tags.includes("shrine pages") %}
     <li><a href="/shrines/">Shrine Directory</a></li>
