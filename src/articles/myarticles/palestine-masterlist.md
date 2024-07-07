@@ -18,6 +18,13 @@ Here, I am compiling a list of resources related to Palestine. This list is not 
 
 * [Decolonize Palestine](https://decolonizepalestine.com/)
 * Haymarket's [Free Ebooks for a Free Palestine](https://www.haymarketbooks.org/blogs/495-free-ebooks-for-a-free-palestine)
+* [Palestine, Today: Explore how Palestine has been transformed since the Nakba](https://today.visualizingpalestine.org/)
+* [Palestine Open Maps](https://palopenmaps.org/)
+* [Palestine Remembered](https://www.palestineremembered.com/)
+
+## Articles
+
+* [What is the Ethical Way to Climb Out of Hell?](https://medium.com/@thegriefwitch/what-is-the-ethical-way-to-climb-out-of-hell-8ed51bdc327b) by The Grief Witch (17 October 2023)
 
 ## Donations and Charities
 
