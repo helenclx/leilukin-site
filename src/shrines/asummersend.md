@@ -55,3 +55,11 @@ I seriously cannot recommend {% cite "A Summer’s End" %} enough, especially fo
 
 (I also posted this section of text as my review of {% cite "A Summer’s End" %} on Steam, and [received a lot of support](/blog/posts/2023-10-30-support-for-my-steam-review-of-a-summers-end) for it)
 {% endcontainer %}
+
+{% container "article", "content__section" %}
+## Featured Articles About {% cite "A Summer’s End — Hong Kong 1986" %}
+
+* [Trust, Confidence, and Hope in A Summer’s End – Hong Kong 1986: A Reparative Reading](https://www.gamejournal.it/i11-02_poirier-poulin) by Samuel Poirier-Poulin
+
+You can find [articles and interviews that featured {% cite "A Summer’s End — Hong Kong 1986" %}](https://www.asummersend.com/press-kit-featured-articles) on the official {% cite "A Summer’s End" %} website.
+{% endcontainer %}
