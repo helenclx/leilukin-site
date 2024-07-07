@@ -1,17 +1,17 @@
 <footer class="footer">
-    {%- block footerContent %}
-        {{ footerContent }}
-    {% endblock -%}
+{%- block footerContent %}
+    {{ footerContent }}
+{% endblock -%}
 
-    {%- if tags and tags.includes("shrine pages") %}
-        <nav class="footer__shrines">
-            <p>Back to:</p>
-            <ul class="footer__links">
-                <li><a href="/shrines/">Shrine Index</a></li>
-                <li><a href="/">{{ sitemeta.siteName }}</a></li>
-            </ul>
-        </nav>
-    {%- endif -%}
+{%- if tags and tags.includes("shrine pages") %}
+    <nav class="footer__shrines">
+        <p>Back to:</p>
+        <ul class="footer__links">
+            <li><a href="/shrines/">Shrine Directory</a></li>
+            <li><a href="/">{{ sitemeta.siteName }}</a></li>
+        </ul>
+    </nav>
+{%- endif -%}
 
     {%- include "global/top-btn.njk" %}
 </footer>

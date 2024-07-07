@@ -1,7 +1,13 @@
 {# Accessible hamburger menu code based on:
 https://kalechips.net/projects/snippets/burger #}
 
-{% set navLinksEl %}{% block navbarLinks %}{{ navbarLinks }}{% endblock %}{% endset %}
+{% set navLinksEl %}
+{% block navbarLinks %}{{ navbarLinks }}{% endblock %}
+{%- if tags and tags.includes("shrine pages") %}
+    <li><a href="/shrines/">Shrine Directory</a></li>
+    <li><a href="/">Main Site</a></li>
+{%- endif -%}
+{% endset %}
 
 <nav class="navbar">
     <details class="navbar__burger">
