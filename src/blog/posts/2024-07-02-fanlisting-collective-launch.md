@@ -32,7 +32,7 @@ Unfortunately, I encountered a critical issue with Enthusiast when I tried it: w
 
 Therefore, I later tried BellaBuffs, and chose BellaBuffs as the script to power my fanlistings, then code my own fanlisting collective myself.
 
-There were a few setbacks I encountered when I was building the [{% cite "Cassette Beasts" %} fanlisting](https://fan.leilukin.com/cassettebeasts) with BellaBuffs and hosting the fanlisting on InfinityFree — I learned that InfinityFree's free hosting plan [does not support PHP `mail()` function](https://forum.infinityfree.com/t/sending-email-from-your-website-php-mail/49242), which is used by BellaBuff.
+There were a few setbacks I encountered when I was building the [{% cite "Cassette Beasts" %} fanlisting](https://fan.leilukin.com/cassettebeasts) with BellaBuffs and hosting the fanlisting on InfinityFree — I learned that InfinityFree's free hosting plan [does not support PHP `mail()` function](https://forum.infinityfree.com/t/sending-email-from-your-website-php-mail/49242), which is used by BellaBuffs.
 
 ## Integrating PHPMailer into BellaBuffs
 
