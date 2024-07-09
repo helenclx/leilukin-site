@@ -66,3 +66,4 @@ There have been Palestinians who reached out to me on Tumblr to ask for help wit
 * [Help Ahmed family to travel to a save place](https://www.gofundme.com/f/help-ahmed-family-to-travel) (veridied by [nabulsi](https://www.tumblr.com/nabulsi/752576616277868544/hello-how-are-you-my-name-is-ahmed-im-from))
 * [Help my family escape Gaza](https://www.gofundme.com/f/byt93-help-my-family-escape-gaza) (verified by [nabulsi](https://www.tumblr.com/nabulsi/754296720770383872/donate-to-help-my-family-escape-gaza-organized-by))
 * [Hope for Gaza: Support Ashraf's Family Rebuild Their Lives](https://www.gofundme.com/f/hope-for-gaza-support-ashrafs-family-rebuild-their-lives) (verified by [90-ghost](https://www.tumblr.com/90-ghost/754535164856664064/legit-fundraiser))
+* [Help Zaen and Yehya to get out of Gaza](https://www.gofundme.com/f/help-sara-and-her-family-to-evacuate-gaza) (verified by [90-ghost](https://www.tumblr.com/90-ghost/754093176508268544))
