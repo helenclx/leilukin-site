@@ -103,36 +103,24 @@ date: 2023-01-28
         <link rel="stylesheet" href="https://dykewrite.neocities.org/webring/onionring.css">
     </li>
     <li>
-        <script src="https://eggring.neocities.org/js/hatring.js"></script>
-        <script src="https://eggring.neocities.org/js/eggring-config.js"></script>
-        <script>window.onload = function() { eggring.buildWidget(); };</script>
-        <nav id="eggring"></nav>
-        <style>
-            #eggring {
-                background-color: white;
-                border-radius: 5px;
-                border: 4px double #b08cdc;
-                width: 20%;
-                height: 75px;
-                display: flex;
-                flex-direction: column;
-            }
-            #eggring a {
-                color: #c8b175;
-                display: flex;
-                justify-content: center;
-            }
-            #eggring a:hover { color: #c69827; }
-            #eggring img {
-                display: flex;
-                width: 40px;
-            }
-            .eggringName { white-space: nowrap; }
-            .eggringNav {
-                display: flex;
-                justify-content: space-between;
-            }
-        </style>
+        <script src="https://eggring.neocities.org/js/hatring.js"></script><script src="https://eggring.neocities.org/js/eggring-config.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() { eggring.createLinks(); });
+        </script>
+        <nav class="webring">
+            <p class="webring__name">🥚 <a id="eggringIndex" href="https://eggring.neocities.org/">The Eggring</a> 🥚</p>
+            <ul class="webring__links">
+                <li class="webring__link">
+                    <a id="eggringPrev" href="https://confetticake.neocities.org/">Previous Site</a>
+                </li>
+                <li class="webring__link">
+                    <a id="eggringRand">Random Site</a>
+                </li>
+                <li class="webring__link">
+                    <a id="eggringNext" href="https://thecozy.cat/">Next Site</a>
+                </li>
+            </ul>
+        </nav>
     </li>
     <li>
         <div id='focusfirst-webring'>
