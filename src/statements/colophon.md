@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-07-06
+updated: 2024-07-11
 toc: true
 eleventyNavigation:
     order: 14
@@ -14,7 +14,7 @@ Information about how this website is built.
 * Templating languages: Nunjucks and Markdown
 * Code written with Visual Studio Code
 * JavaScript runtime: [Bun](https://bun.sh)
-* Source code available on [GitHub](https://github.com/helenclx/leilukin-site)
+* Source code available on [GitHub](https://github.com/helenclx/leilukin-site) and its [Gitea mirror](https://git.32bit.cafe/Leilukin/leilukin-site)
 
 ## Host and Domain
 * Deployed to [Netlify](https://www.netlify.com/) from this site's GitHub repository
