@@ -108,11 +108,11 @@ The idea of copying monster forms to transform into came from Tom Coxon's dream.
 
 Another oddball source of inspiration for Tom the story [“The Beatles Never Broke Up”](https://thebeatlesneverbrokeup.com/story/), about a man who in 2009 hit his head and woke up in another world where the Beatles still exist, where people still use analogue technology, and where parallel universe travel is commonplace.[^cb-steam-blog-20230228]
 
-The presentation of Archangels is inspired a little by the Witches in Puella Magi Madoka Magica.[^cb-steam-blog-20230228]
+The presentation of Archangels is inspired a little by the Witches in {% cite "Puella Magi Madoka Magica" %}.[^cb-steam-blog-20230228]
 
-The way the relationship system ties into fusions is heavily influenced by Steven Universe, which both Tom and Jay are fans of.[^cb-steam-blog-20230228]
+The way the relationship system ties into fusions is heavily influenced by {% cite "Steven Universe" %}, which both Tom and Jay are fans of.[^cb-steam-blog-20230228]
 
-The AP system in Cassette Beasts is taken from board and card games.[^cb-steam-blog-20230228]
+The AP system in {% cite "Cassette Beasts" %} is taken from board and card games.[^cb-steam-blog-20230228]
 
 Jay cited comic author Grant Morrison as an influence on the broader themes of the game (as well as the strange English surrealism of the setting), as Morrison's stories often explore the nature of fiction, multiple realities, and their influence on one another.[^cb-steam-blog-20230228]
 
@@ -142,7 +142,7 @@ Common words and phrases:
 
 #### Meredith
 
-Often staggers her words, like, uh, this. Uses british slang where appropriate. Most likely to (mildly) swear/curse.
+Often staggers her words, like, uh, this. Uses British slang where appropriate. Most likely to (mildly) swear/curse.
 
 Common words and phrases:
 
@@ -177,19 +177,19 @@ Common words and phrases:
 
 #### Viola
 
-Lightly used Shakespearian english. Very formal. Often uses quotes adapted (made less complex) from [actual Shakespeare](https://www.rsc.org.uk/shakespeares-plays/famous-quotes).
+Lightly used Shakespearian English. Very formal. Often uses quotes adapted (made less complex) from [actual Shakespeare](https://www.rsc.org.uk/shakespeares-plays/famous-quotes).
 
 Common words and phrases:
 
-* Dear \[character name\]
+* Dear [character name]
 * Alas
-* Spirit (instead of archangels)
+* Spirit (instead of Archangels)
 
 ## The Developers
 
-Jay Baylis' favourite monster catching game is Pokémon Ruby/Sapphire.^[Jay Baylis' (u/SamuriFerret) [comment](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9qo03/). Bytten Studio's AMA on r/NintendoSwitch. 1 July 2023.]
+Jay Baylis' favourite monster catching game is {% cite "Pokémon Ruby/Sapphire" %}.^[Jay Baylis' (u/SamuriFerret) [comment](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9qo03/). Bytten Studio's AMA on r/NintendoSwitch. 1 July 2023.]
 
-Tom Coxon's favourite monster catching game is Siralim Ultimate.^[Tom Coxon's (u/tcoxon) [comment](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9qicf/). Bytten Studio's AMA on r/NintendoSwitch. 1 July 2023.]
+Tom Coxon's favourite monster catching game is {% cite "Siralim Ultimate" %}.^[Tom Coxon's (u/tcoxon) [comment](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9qicf/). Bytten Studio's AMA on r/NintendoSwitch. 1 July 2023.]
 
 ## Frequently Asked Topics
 
