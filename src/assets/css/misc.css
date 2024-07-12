@@ -150,7 +150,7 @@ p { font-size: var(--fs-p); }
 .index__link:hover {
     cursor: pointer;
     background: var(--clr-link-btn-hover);
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .index__link:focus {
