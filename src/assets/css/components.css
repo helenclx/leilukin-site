@@ -194,3 +194,6 @@ p + .adoptables { margin-top: 1em; }
     border: 0.08em solid;
     padding: 0.2em 0.4em;
 }
+
+/* Remove external link icon from Website Carbon badge */
+#wcb_a::after { all: revert; }
