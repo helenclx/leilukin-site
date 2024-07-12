@@ -62,11 +62,12 @@
 }
 
 .link-btn {
+    --btn-right-padding: 0.8em;
     text-align: center;
     display: inline-block;
     border: 0.1em solid var(--clr-link-btn-bg);
     border-radius: 0.5em;
-    padding: 0.4em 0.8em;
+    padding: 0.4em var(--btn-right-padding);
     background: var(--clr-link-btn-bg);
     color: var(--clr-link-btn-txt);
     font-weight: 700;
@@ -85,6 +86,9 @@
     outline: 0.15em solid var(--clr-link-btn-txt);
     outline-offset: -0.25em;
 }
+
+.link-btn[href^="http"] { padding-right: calc(var(--btn-right-padding) + 1.1em); }
+.link-btn[href^="http"]::after { background-color: var(--clr-link-btn-txt); }
 
 /* Content Accordion */
 * + .content-accordion { margin-top: var(--sz-paragraph-margin); }
