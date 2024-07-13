@@ -1,7 +1,7 @@
 ---
 title: Webmastery
 date: 2024-07-01
-updated: 2024-07-04
+updated: 2024-07-13
 ---
 
 ### Webmastery Tutorials
@@ -16,8 +16,11 @@ updated: 2024-07-04
 
 ### Web Accessibility
 
-* [The Access Manifesto](https://joeclark.org/book/sashay/serialization/AccessManifesto.html) by Joe Clark — Worth nting that this was originally written in 2002
+* [The Access Manifesto](https://joeclark.org/book/sashay/serialization/AccessManifesto.html) by Joe Clark — Worth noting that this was originally written in 2002
 * [You Should Care About Accessibility](https://owlsroost.xyz/articles/2023-08-20-you-should-care-about-accessibility.html) by Owl
+* [A Field Guide to Web Accessibility](https://theultimatemotherfuckingwebsite.com/) by Valery
+* [Resources for Beginners to Learn About Web Accessibility and Web Design](https://www.tumblr.com/foxpunk/700063063948312576/hey-you-yeah-you-with-the-cool-neocities) curated by foxpunk
+* [5 ways to make your neocities site more accessible](https://sleepydev.neocities.org/posts/5%20Ways%20to%20make%20your%20Neocities%20site%20more%20accessible) by Sleepy dev
 * [Three Common Accessibility Problems and How to Fix Them](https://solaria.neocities.org/beginnersaccessibility) by Solaria
 * [What I've Learned About Web Accessibility as a Dyslexic, Sighted, Mouse User](https://solaria.neocities.org/accessibility) by Solaria
 
