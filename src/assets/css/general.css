@@ -51,8 +51,11 @@ a:hover { color: var(--clr-link-hover); }
 a:not([class]):focus { outline: 0.15rem solid var(--clr-link); }
 a:hover img, a:focus img { outline: 0.2em solid var(--clr-body-txt); }
 
-a[href^="http"]:not([href*="leilukin.com"]):not(:has(img, svg, picture)) { padding-right: 1.25em; }
-a[href^="http"]:not([href*="leilukin.com"]):not(:has(img, svg, picture))::after {
+a[href^="http"]:not([href*="leilukin.com"]):not(:has(img, svg, picture)),
+.external-link { padding-right: 1.25em; }
+
+a[href^="http"]:not([href*="leilukin.com"]):not(:has(img, svg, picture))::after,
+.external-link::after {
     position: absolute;
     content: "";
     display: inline-block;
