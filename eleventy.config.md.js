@@ -138,7 +138,7 @@ module.exports = function (eleventyConfig) {
         const warningMarkup = markdownLibrary.renderInline(warning);
         const contentMarkup = markdownLibrary.render(content);
         return `<details class="contnet-warning">
-            <summary class="contnet-warning__warning"><strong>⚠️ Content Warning:</strong> ${warningMarkup}</summary>
+            <summary class="contnet-warning__warning"><strong><span aria-hidden="true">⚠️</span> Content Warning:</strong> ${warningMarkup}</summary>
             <div class="contnet-warning__content">${contentMarkup}</div>
         </details>`;
     });
