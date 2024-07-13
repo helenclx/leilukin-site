@@ -1,7 +1,7 @@
 ---
 title: Accessibility
 keyword: accessibility statement
-updated: 2024-07-06
+updated: 2024-07-14
 eleventyNavigation:
     order: 13
 ---
