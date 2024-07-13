@@ -54,7 +54,7 @@
 
 /* Link button */
 .link-btn--wrapper {
-    list-style: none;
+    list-style-type: "";
     padding: 0;
     display: flex;
     flex-wrap: wrap;
@@ -139,7 +139,7 @@ p + .adoptables { margin-top: 1em; }
     flex-wrap: wrap;
     gap: 0.5em;
     align-items: center;
-    list-style: none;
+    list-style-type: "";
     padding: 0;
     margin: 0;
 }
@@ -151,7 +151,7 @@ p + .adoptables { margin-top: 1em; }
 .tabwrap section:has(*:target) { display: block; }
 
 .tabs {
-    list-style: none;
+    list-style-type: "";
     padding: 0;
     margin: 0;
     display: flex;
@@ -187,7 +187,7 @@ p + .adoptables { margin-top: 1em; }
 }
 
 .webring__links {
-    list-style: none;
+    list-style-type: "";
     padding: 0;
     margin: 0 !important;
     display: flex;
