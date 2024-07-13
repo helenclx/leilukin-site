@@ -13,6 +13,7 @@ updated: 2024-07-13
 
 * [Reducing HTML Redundancy](https://owlsroost.xyz/articles/2023-12-23-reducing-html-redundancy.html) by Owl
 * [How to Make Your Site Mobile-Friendly](https://owlsroost.xyz/articles/2024-06-24-how-to-make-your-site-mobile-friendly.html) by Owl
+* [My Neocities workflow: using Eleventy and the CLI to speed up development](https://whiona.weblog.lol/2023/10/my-neocities-workflow:-using-eleventy-and-the-cli-to-speed-up-development) by Whiona — A guide for using the static site generator Eleventy, written for Neocities users
 
 ### Web Accessibility
 
