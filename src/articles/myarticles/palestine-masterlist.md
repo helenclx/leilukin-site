@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19
-updated: 2024-07-09
+updated: 2024-07-13
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 ---
@@ -67,3 +67,4 @@ There have been Palestinians who reached out to me on Tumblr to ask for help wit
 * [Help my family escape Gaza](https://www.gofundme.com/f/byt93-help-my-family-escape-gaza) (verified by [nabulsi](https://www.tumblr.com/nabulsi/754296720770383872/donate-to-help-my-family-escape-gaza-organized-by))
 * [Hope for Gaza: Support Ashraf's Family Rebuild Their Lives](https://www.gofundme.com/f/hope-for-gaza-support-ashrafs-family-rebuild-their-lives) (verified by [90-ghost](https://www.tumblr.com/90-ghost/754535164856664064/legit-fundraiser))
 * [Help Zaen and Yehya to get out of Gaza](https://www.gofundme.com/f/help-sara-and-her-family-to-evacuate-gaza) (verified by [90-ghost](https://www.tumblr.com/90-ghost/754093176508268544))
+* [A Father's Plea: Help Save My Family](https://www.gofundme.com/f/btuqqt-save-my-familys-life) (verified by [el-shab-hussein](https://www.tumblr.com/el-shab-hussein/754087744556449792/vetted-family-fundraiser-masterpost-3))
