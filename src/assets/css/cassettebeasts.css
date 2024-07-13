@@ -31,6 +31,26 @@
     --clr-main-footer-bg: #9b59b6;
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --clr-body-bg: #141414;
+        --clr-body-txt: #fff;
+        --clr-content-bg: #242424;
+
+        --clr-top-btn-bg: #552190;
+
+        --clr-main-heading: #daaced;
+        --clr-sub-heading: #fff;
+        --clr-title-border: #9964de;
+        --clr-bold-txt: #ff9869;
+        --clr-link: #ce97ff;
+        --clr-link-hover: #b366f7;
+
+        --clr-navbar-bg: #3a0873;
+        --clr-main-footer-bg: #3a0873;
+    }
+}
+
 .hero__top-bar,
 .footer,
 .footer a { color: var(--clr-navbar-link); }
