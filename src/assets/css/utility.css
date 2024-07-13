@@ -18,6 +18,11 @@
     color: var(--clr-dates);
 }
 
+.inline-icon {
+    height: 1em;
+    fill: currentColor;
+}
+
 .hidden { display: none; }
 
 .visually-hidden {

@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-07-11
+updated: 2024-07-13
 toc: true
 eleventyNavigation:
     order: 14
@@ -43,7 +43,6 @@ Eleventy has the Markdown parser [markdown-it](https://www.npmjs.com/package/mar
 ## Self-hosted Assets
 * [Lexend](https://www.lexend.com/) font family (used as the default font of this site)
 * [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) typeface (used as the monospace font of this site)
-* [Font Awesome](https://fontawesome.com/) (brand icons only)
 
 ## JavaScript
 Due to this website being a static site, JavaScript is used to create dynamic and interactive components of this site. Here is a list of how JavaScript is used on this site:
