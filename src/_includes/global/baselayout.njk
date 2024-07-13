@@ -57,7 +57,7 @@
         </main>
         {% block footer %}{% include "global/footer.njk" %}{% endblock %}
         {% if hasTooltips %}
-            <script src="{{'/assets/js/tooltips.js' | url | safe}}" defer></script>
+            <script src="{{'/assets/js/tooltips.js' | url | safe}}"></script>
             <script>
                 var selector = '[data-tooltip]';
                 var els = document.querySelectorAll(selector);
