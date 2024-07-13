@@ -88,8 +88,6 @@
 }
 
 a.link-btn[href^="http"]:not([href*="leilukin.com"]) { padding-right: calc(var(--btn-right-padding) + 1.1em); }
-a.link-btn[href^="http"]:not([href*="leilukin.com"])::after { background-color: var(--clr-link-btn-txt); }
-a.link-btn[href^="http"]:not([href*="leilukin.com"]):hover::after { background-color: var(--clr-link-hover); }
 
 /* Content Accordion */
 * + .content-accordion { margin-top: var(--sz-paragraph-margin); }
