@@ -14,7 +14,7 @@ https://kalechips.net/projects/snippets/burger #}
 {%- endif -%}
 {% endset %}
 
-<nav class="navbar">
+<nav class="navbar" aria-label="Top level">
     <details class="navbar__burger">
         <summary class="navbar__toggle" id="toggle">
             <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,7 +22,7 @@ https://kalechips.net/projects/snippets/burger #}
             </svg>
             Navigation
         </summary>
-        <nav class="navbar__menu">
+        <nav class="navbar__menu" aria-label="Top level hamburger menu">
             <ul class="navbar__menu--links">
                 {{ navLinksEl | safe }}
                 <li class="skip"><a href="#toggle">Close Menu</a></li>

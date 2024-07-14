@@ -1,7 +1,6 @@
 <header class="main__header">
     {% if isArticle or hasBreadcrumbs %}
-        <nav>
-            <h2 class="visually-hidden">Breadcrumbs</h2>
+        <nav aria-label="Breadcrumbs">
             <ol class="breadcrumbs">
                 {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(articleTitle or pageTitle or title) %}
                 {%- for entry in breadcrumbNavPages %}
@@ -48,8 +47,7 @@
         {{ content | safe }}
 
     {% if tags and tags.includes("posts") %}
-        <nav class="blog__post--pagination">
-            <h2 class="visually-hidden">Next and Previous Blog Posts</h2>
+        <nav class="blog__post--pagination" aria-label="Next and Previous Blog Posts">
             {%- if collections.posts %}
                 {%- set previousPost = collections.posts | getPreviousCollectionItem %}
                 {%- set nextPost = collections.posts | getNextCollectionItem %}
