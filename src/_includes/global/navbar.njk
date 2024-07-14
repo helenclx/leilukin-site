@@ -66,18 +66,14 @@ https://kalechips.net/projects/snippets/burger #}
         background-color: inherit;
     }
 
-    .navbar__toggle::-webkit-details-marker {
-        display: none;
-    }
+    .navbar__toggle::-webkit-details-marker { display: none; }
 
     .navbar__toggle:focus,
     .navbar a:focus {
         outline: 0.15em solid var(--clr-navbar-link);
     }
 
-    .navbar a:focus {
-        outline-offset: 0.1em;
-    }
+    .navbar a:focus { outline-offset: 0.1em; }
 
     .navbar__menu--links,
     .navbar__links {
@@ -119,27 +115,14 @@ https://kalechips.net/projects/snippets/burger #}
         padding: 0.2em 0 0 0;
     }
 
-    .navbar__links a:hover {
-        color: var(--clr-link-hover);
-    }
-
-    .navbar__links a:focus {
-        outline-offset: 0.2em;
-    }
+    .navbar__links a:hover { color: var(--clr-link-hover); }
+    .navbar__links a:focus { outline-offset: 0.2em; }
 
     /* Tablet screen size */
     @media only screen and (min-width: 43.75rem) {
-        .navbar {
-            padding: 0 0.6em;
-        }
-
-        .navbar__burger {
-            display: none;
-        }
-
-        .navbar__toggle {
-            display: none;
-        }
+        .navbar { padding: 0 0.6em; }
+        .navbar__burger { display: none; }
+        .navbar__toggle { display: none; }
 
         .navbar__links {
             display: flex;
