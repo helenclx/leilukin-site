@@ -4,8 +4,8 @@
 {% endblock -%}
 
 {%- if tags and tags.includes("shrine pages") %}
-    <nav class="footer__shrines">
-        <p>Back to:</p>
+    <nav class="footer__shrines" aria-labelledby="backto-title">
+        <p id="backto-title">Back to:</p>
         <ul class="footer__links">
             <li><a href="/shrines/">Shrine Directory</a></li>
             <li><a href="/">{{ sitemeta.siteName }}</a></li>

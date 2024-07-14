@@ -1,6 +1,6 @@
 <aside class="right-sidebar" aria-label="Right sidebar">
-    <nav class="content__nav sidebar--sticky" aria-labelledby="my-contents">
-        <h2 class="content__nav--title" id="my-contents">My Contents</h2>
+    <nav class="content__nav sidebar--sticky" aria-labelledby="my-contents-title">
+        <h2 class="content__nav--title" id="my-contents-title">My Contents</h2>
         <ul class="content__nav--links">
             {% for archive in collections.archive %}
                 <li><a href="{{ archive.url }}">{{ archive.data.title }}</a></li>

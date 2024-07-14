@@ -5,8 +5,8 @@ articleElement: true
 
 {% set currentUrl %}{{ page.url }}{% endset %}
 
-<nav class="changelog__nav">
-    <p class="changelog__nav--title">Changelog Archive:</p>
+<nav class="changelog__nav" aria-labelledby="changelog-nav-title">
+    <p class="changelog__nav--title" id="changelog-nav-title">Changelog Archive:</p>
     <ul class="changelog__nav--links">
         <li><a
             {% if currentUrl === "/changelogs/" %}aria-current="page"{% endif %}
