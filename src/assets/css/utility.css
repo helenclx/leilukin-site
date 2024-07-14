@@ -19,6 +19,7 @@
 }
 
 .inline-icon {
+    vertical-align: -10%;
     height: 1em;
     fill: currentColor;
 }
