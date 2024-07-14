@@ -14,7 +14,8 @@ isContentDivided: true
     <h2>Links by Category</h2>
 
     <p>Use the following tabs to view my link collection by category.</p>
-    <nav>
+    <nav aria-labelledby="tabs-title">
+        <h3 class="visually-hidden" id="tabs-title">Tabs Group</h3>
         <ul class="tabs">
         {% for group in linkGroups %}
             <li><a class="tab__btn" href="#{{ group.data.title | slugify }}">{{ group.data.title }}</a></li>
