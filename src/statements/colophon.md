@@ -42,7 +42,7 @@ Eleventy has the Markdown parser [markdown-it](https://www.npmjs.com/package/mar
 
 ## Self-hosted Assets
 * [Lexend](https://www.lexend.com/) font family (used as the default font of this site)
-* [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) typeface (used as the monospace font of this site)
+* [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) typeface (used as the monospaced font of this site)
 
 ## JavaScript
 Due to this website being a static site, JavaScript is used to create dynamic and interactive components of this site. Here is a list of how JavaScript is used on this site:
