@@ -23,7 +23,7 @@ High-level overview of the accessibility features of this site:
 * Sufficient font size that can be enlarged without breaking the site layout
 * No autoplaying audio or video
 
-This site uses the [Lexend](https://www.lexend.com/) font family as the default font and [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) as the monospace font to improve text readability.
+This site uses the [Lexend](https://www.lexend.com/) font family as the default font and [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) as the monospaced font to improve text readability.
 
 ## Testing
 
