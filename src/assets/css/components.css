@@ -87,7 +87,7 @@
     outline-offset: -0.25em;
 }
 
-a.link-btn[href^="http"]:not([href*="leilukin.com"]) { padding-right: calc(var(--btn-right-padding) + var(--sz-link-padding)); }
+a.link-btn[href^="http"]:not([href*="leilukin.com"]) { padding-right: calc(var(--btn-right-padding) + var(--sz-external-link)); }
 
 /* Content Accordion */
 * + .content-accordion { margin-top: var(--sz-paragraph-margin); }
