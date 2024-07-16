@@ -1,6 +1,6 @@
 ---
 title: Resources
-date: 2024-07-02
+date: 2024-07-16
 ---
 
 ### Archives
