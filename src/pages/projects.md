@@ -55,14 +55,3 @@ You can check out the playlists I have made on [my dedicated page](./playlists/)
 
 I have created my own characters for various media and universes. [You can check out my characters here](https://www.notion.so/leilukin/Leilukin-s-Characters-b377e277f01b4474945e85cf4cb15ada?pvs=4).
 {% endcontainer %}
-
-{% container "section", "content__section" %}
-## My Mod Builds
-
-Lists of video game mods I use for my own playthroughs.
-
-* [Mass Effect Legendary Edition](https://docs.google.com/document/d/1Hhh_31ZlplT06UaVVwf1so7PnIBRCbT60tCBNn7zHiQ/edit)
-* [Star Wars: Knights of the Old Republic](https://docs.google.com/document/d/1BTMJ1c-NOjU9q7qNftZac6jkOPluyucILglovcHtiaI/edit)
-* [Star Wars: Knights of the Old Republic II: The Sith Lords](https://docs.google.com/document/d/15HbD-k-D8WHrp10IjIryAguhq7k2W94pkuGys7Z7xNM/edit)
-* [Stardew Valley](https://docs.google.com/document/d/1LMMd3yRtLYb35A7oNEN1hRUsoe9-vo2MfMxcM2Wq0MI/edit)
-{% endcontainer %}
