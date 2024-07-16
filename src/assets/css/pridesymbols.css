@@ -202,5 +202,6 @@
     background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='651.83px' height='300px' viewBox='-90.33 0 651.83 300' enable-background='new -90.33 0 651.83 300' xml:space='preserve' %3E%3Cpolygon fill='%233BB07D' stroke='%233BB07D' stroke-width='0.3514' stroke-miterlimit='10' points='561.5,300 162.902,0.664 112.268,0.664 510.867,300 '/%3E%3Cpolygon fill='%237BC2E0' stroke='%237BC2E0' stroke-width='0.3514' stroke-miterlimit='10' points='510.711,300 112.113,0.664 61.478,0.664 460.078,300 '/%3E%3Cpolygon fill='%23E8E8E8' stroke='%23E8E8E8' stroke-width='0.3514' stroke-miterlimit='10' points='460.077,300 61.478,0.664 8.094,0.664 406.693,300 '/%3E%3Cpolygon fill='%23EEDE77' stroke='%23EEDE77' stroke-width='0.3514' stroke-miterlimit='10' points='406.692,300 8.095,0.664 -41.016,0.664 357.584,300 '/%3E%3Cpolygon fill='%23CF7280' stroke='%23CF7280' stroke-width='0.3514' stroke-miterlimit='10' points='357.378,300 -41.22,0.664 -90.33,0.664 308.27,300 '/%3E%3C/svg%3E");
     background-color: #595959;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
+    background-position: center;
 }
