@@ -1,7 +1,7 @@
 ---
 title: Webmastery
 date: 2024-07-01
-updated: 2024-07-13
+updated: 2024-07-16
 ---
 
 ### Webmastery Tutorials
@@ -28,3 +28,4 @@ updated: 2024-07-13
 ### Webmastery Resources
 
 * [Resources List for the Personal Web](https://discourse.32bit.cafe/t/resources-list-for-the-personal-web/49) by 32-Bit Cafe — I have also contributed to this list
+* [URL-encoder for SVG](https://yoksel.github.io/url-encoder/)
