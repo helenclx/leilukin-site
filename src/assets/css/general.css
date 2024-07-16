@@ -40,7 +40,7 @@ h4, .h4 { font-size: var(--fs-h4); }
 
 strong { color: var(--clr-bold-txt); }
 
-:focus { outline: 0.15em solid var(--clr-body-txt); }
+:focus { outline: 0.15em solid currentColor; }
 
 a {
     font-weight: 700;
