@@ -36,7 +36,7 @@ Please make sure you have downloaded and installed the latest version of my mods
 
 When you are asking for technical support, please provide details for the issues you encountered: when and how did your problem start happening and what mods you have installed. Simply saying "mod doesn't work" DOES NOT help the mod author to figure out the cause of your issue. When I ask you for more details, please answer my questions honestly, so I can identify how to solve your problems. Telling me ALL the mods you use will help me greatly in figuring out if your issue was caused by mod conflict or not.
 
-If you play KotOR 2 on Steam, **make sure there are no leftover Steam Workshop folders in your Steam directory**, because Steam Workshop mods will likely conflict with my mods, and even unsubscribing Steam Workshop mods does not always remove all Workshop mod files completely. To check for any leftover Steam Workshop files, go to the Steam Workshop folder in your Steam directory (/\Steam\SteamApps\Workshop\), and delete all the sub-folders in the Steam Workshop folder if they are present.
+If you play KotOR 2 on Steam, **make sure there are no leftover Steam Workshop folders in your Steam directory**, because Steam Workshop mods will likely conflict with my mods, and even unsubscribing Steam Workshop mods does not always remove all Workshop mod files completely. To check for any leftover Steam Workshop files, go to the Steam Workshop folder in your Steam directory ([`/\Steam\SteamApps\Workshop\`]{.break-word}), and delete all the sub-folders in the Steam Workshop folder if they are present.
 
 ### When I installed your mod, I got the error message: <i>"[ERROR] Unhandled exception: Access violation at address [a bunch of numbers]. Write of address [a bunch of numbers] (0)"</i>.
 
@@ -62,11 +62,11 @@ For example, for Handmaiden and Female Exile – Disciple and Male Exile Romance
 If you cannot find those .mod files in your Modules folder, your issue might be caused by your computer registering two different installation locations for {% cite "KotOR 2" %}. I suggest you check out [this guide on how to make sure your computer recognize the version of {% cite "KotOR 2" %} game where you want to install KotOR 2 mods on](https://steamcommunity.com/sharedfiles/filedetails/?id=779622644). While the guide focuses on Steam version of {% cite "KotOR 2" %}, you could edit the registry to make your computer properly recognise the installation location of your {% cite "KotOR 2" %} game.
 
 Here are the default installation locations of {% cite "KotOR 2" %} depending on the game version:
-* Steam (32-bit Windows): [`C:\Program Files\Steam\steamapps\common\Knights of the Old Republic II`]{style="word-break: break-word;"}
-* Steam (64-bit Windows): [`C:\Program Files (x86)\Steam\steamapps\common\Knights of the Old Republic II`]{style="word-break: break-word;"}
-* Retail CD (32-bit Windows): [`C:\Program Files\LucasArts\SWKotOR2\`]{style="word-break: break-word;"}
-* Retail CD (64-bit Windows): [`C:\Program Files (x86)\LucasArts\SWKotOR2\`]{style="word-break: break-word;"}
-* Steam (32-bit Windows): [`C:\GOG Games\Star Wars - KotOR2`]{style="word-break: break-word;"}
+* Steam (32-bit Windows): [`C:\Program Files\Steam\steamapps\common\Knights of the Old Republic II`]{.break-word}
+* Steam (64-bit Windows): [`C:\Program Files (x86)\Steam\steamapps\common\Knights of the Old Republic II`]{.break-word}
+* Retail CD (32-bit Windows): [`C:\Program Files\LucasArts\SWKotOR2\`]{.break-word}
+* Retail CD (64-bit Windows): [`C:\Program Files (x86)\LucasArts\SWKotOR2\`]{.break-word}
+* Steam (32-bit Windows): [`C:\GOG Games\Star Wars - KotOR2`]{.break-word}
 
 If you do not know if you have Windows 64-bit or 32-bit, [refer this article to find out](https://www.lifewire.com/am-i-running-a-32-bit-or-64-bit-version-of-windows-2624475).
 
@@ -157,7 +157,7 @@ If Handmaiden does not join your female Exile's party when you are using my Hand
 
 * **You did not install my mod correctly**. Either you get errors when installing the “Default Installation” option, or you did not install DarthTyren's PartySwap mod first before installing the “PartySwap Compatible” option of my mod.
 * **You have a `holorec.dlg` file in the Override folder**, either from a mod you are using or a mod you previously used. If there is a `holorec.dlg` in your Override folder, delete it.
-* **You may have some leftover Steam Workshop folders in your Steam directory** that overrides the portion where Handmaiden is supposed to join your party. To solve this, go to the Steam Workshop folder in your Steam directory (/\\Steam\\SteamApps\\Workshop\\), and delete all the sub-folders in the Steam Workshop folder.
+* **You may have some leftover Steam Workshop folders in your Steam directory** that overrides the portion where Handmaiden is supposed to join your party. To solve this, go to the Steam Workshop folder in your Steam directory ([`/\Steam\SteamApps\Workshop\`]{.break-word}), and delete all the sub-folders in the Steam Workshop folder.
 * Similar to the above, **you may have some leftover files from a mod you used in your previous playthrough** in your {% cite "KotOR 2" %} game directory that interferes the portion where Handmaiden is supposed to join your party. The best way to solve this is to uninstall your game, delete your {% cite "KotOR 2" %} game folder entirely, and then re-install the game and the mods you want to use.
 
 ### Can you make your mod so you always recruit Handmaiden or Disciple only regardless of the Exile's gender?
