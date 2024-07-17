@@ -1,6 +1,6 @@
 ---
 title: Resources
-date: 2024-07-16
+date: 2024-07-18
 ---
 
 ### Archives
@@ -14,6 +14,7 @@ date: 2024-07-16
 
 ### Gaming
 * [3DS Hacks Guide](https://3ds.hacks.guide/)
+* [Fuck off EA App](https://github.com/p0358/Fuck_off_EA_App)
 
 ### Video Game Mods
 These are lists of video game mods I use for my own playthroughs.
