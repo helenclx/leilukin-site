@@ -49,7 +49,7 @@ a {
 
 a:hover { color: var(--clr-link-hover); }
 a:not([class]):focus { outline: 0.15rem solid var(--clr-link); }
-a:hover img, a:focus img { outline: 0.2em solid var(--clr-body-txt); }
+a:hover img, a:focus img { outline: 0.2em solid currentColor; }
 
 a[href^="http"]:not([href*="leilukin.com"]):not(:has(img, svg, picture)),
 .external-link { padding-right: var(--sz-external-link); }
