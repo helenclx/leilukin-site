@@ -12,11 +12,6 @@
     {% if hasTooltips %}
         <link rel="stylesheet" href="{{'/assets/css/tooltips.css' | url | safe}}">
     {% endif %}
-    {% if customCSSSheets %}
-        {%- for sheet in customCSSSheets -%}
-        <link rel="stylesheet" href="{{'/assets/css/' + sheet + '.css' | url | safe}}">
-        {%- endfor -%}
-    {% endif %}
         <style>{% getBundle "css" %}</style>
 
         {# Fonts #}
@@ -38,12 +33,10 @@
         {% block favicon %}{% include "global/favicon.njk" %}{% endblock %}
 
         {# JavaScript #}
+    {% if toc %}
         <script src="{{'/assets/js/details-utils.js'}}" defer></script>
-    {% if customJSFiles %}
-        {%- for jsFile in customJSFiles -%}
-        <script src="{{'/assets/js/' + jsFile + '.js' | url | safe}}" defer></script>
-        {%- endfor -%}
     {% endif %}
+        <script>{% getBundle "js" %}</script>
 
         <title>
             {% block pageTitle %}{{ title + " | " if title }}{{ sitemeta.siteName | safe }}{% endblock %}

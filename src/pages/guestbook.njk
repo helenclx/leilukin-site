@@ -1,12 +1,14 @@
 ---
 title: Guestbook
-customCSSSheets: ["comments"]
-customJSFiles: ["svgIconControl", "googleSheetsReaderGizmo", "comments"]
 eleventyNavigation:
     order: 10
 eleventyComputed:
     desc: Leave a message for {{ sitemeta.siteAuthor.name }}.
 ---
+{%- css %}{% include "src/assets/css/comments.css" %}{%- endcss %}
+{%- js %}{% include "src/assets/js/svgIconControl.js" %}{%- endjs %}
+{%- js %}{% include "src/assets/js/googleSheetsReaderGizmo.js" %}{%- endjs %}
+{%- js %}{% include "src/assets/js/comments.js" %}{%- endjs %}
 
 <p class="center-text">Guestbook Archive: <a href="https://web.archive.org/web/20240528231121/https%3A%2F%2Fleilukin.123guestbook.com%2F">123Guestbook</a></p>
 
