@@ -31,11 +31,11 @@ content-wrapper,
 
 .content ul:not([class]), .content ol:not([class]) {
     display: grid;
-    gap: 0.7em;
+    gap: var(--sz-content-list-gap);
 }
 
 .content ul ul, .content ol ol,
-.content ul ol, .content ol ul { margin-top: 0.7em; }
+.content ul ol, .content ol ul { margin-top: var(--sz-content-list-gap); }
 
 .sidebar--sticky {
     position: sticky;
