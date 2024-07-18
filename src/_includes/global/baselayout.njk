@@ -33,10 +33,10 @@
         {% block favicon %}{% include "global/favicon.njk" %}{% endblock %}
 
         {# JavaScript #}
+        <script src="{% getBundleFileUrl 'js' %}" defer></script>
     {% if toc %}
         <script src="{{'/assets/js/details-utils.js'}}" defer></script>
     {% endif %}
-        <script>{% getBundle "js" %}</script>
 
         <title>
             {% block pageTitle %}{{ title + " | " if title }}{{ sitemeta.siteName | safe }}{% endblock %}
