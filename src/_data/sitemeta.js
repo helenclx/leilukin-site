@@ -8,6 +8,6 @@ export default {
 	siteAuthor: {
 		name: "Leilukin",
 		email: "contact@leilukin.com",
-		url: "https://leilukin.com/about"
+		url: () => this.siteUrl + "/about"
 	}
 }
