@@ -1,4 +1,3 @@
 {
-    "tags": "my articles",
-    "permalink": "/articles/{{ page.fileSlug }}/"
+    "tags": "my articles"
 }
