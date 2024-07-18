@@ -22,7 +22,10 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPlugin(metagen);
     eleventyConfig.addPlugin(emojiReadTime);
+
+    // Eleventy bundle plugin
     eleventyConfig.addBundle("css");
+    eleventyConfig.addBundle("js");
 
     // Add content categories to a collection
     eleventyConfig.addCollection("categories", function(collectionApi) {
