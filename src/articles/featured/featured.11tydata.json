@@ -1,4 +1,3 @@
 {
-    "tags": "featured articles",
-    "permalink": "/articles/{{ page.fileSlug }}/"
+    "tags": "featured articles"
 }
