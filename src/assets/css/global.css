@@ -48,6 +48,7 @@
     --sz-main-padding: clamp(1rem, 5%, 4rem);
     --sz-navbar-ht: 4rem;
     --sz-external-link: 1.25em;
+    --sz-content-list-gap: 0.7em;
 }
 
 /* ------------------- */
