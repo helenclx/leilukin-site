@@ -25,6 +25,12 @@
     fill: currentColor;
 }
 
+.inline-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7em 1.5em;
+}
+
 .hidden { display: none; }
 
 .visually-hidden {
