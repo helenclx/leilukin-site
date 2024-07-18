@@ -12,7 +12,7 @@
 
 {%- css %}#statuscafe-content { margin-bottom: 0.5em; }{% endcss %}
 
-<script>
+{%- js %}
     const statusCafeContent = document.getElementById("statuscafe-content");
     statusCafeContent.innerHTML = `
         <p>Fetching data from status.cafe...</p>
@@ -36,4 +36,4 @@
         }
     };
     fetchStatusCafe();
-</script>
+{% endjs %}

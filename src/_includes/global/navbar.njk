@@ -133,7 +133,7 @@ https://kalechips.net/projects/snippets/burger #}
     }
 {% endcss %}
 
-<script>
+{%- js %}
     const navbarBurger = document.querySelector(".navbar__burger");
     navbarBurger.addEventListener("keydown", (event) => {
         if (event.key == "Escape") {
@@ -142,4 +142,4 @@ https://kalechips.net/projects/snippets/burger #}
             document.querySelector(".navbar__toggle").focus();
         }
     });
-</script>
+{% endjs %}

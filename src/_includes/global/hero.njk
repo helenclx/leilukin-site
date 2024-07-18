@@ -35,7 +35,7 @@
     }
 {% endcss %}
 
-<script>
+{%- js %}
     const hero = document.querySelector(".hero");
     const heroTopBarEl = document.querySelector(".hero__top-bar");
     const headerImgEl = document.querySelector(".hero__img");
@@ -43,4 +43,4 @@
     {% block eventScript %}
         {{ eventScript }}
     {% endblock %}
-</script>
+{% endjs %}
