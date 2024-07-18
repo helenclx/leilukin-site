@@ -8,7 +8,23 @@
     gap: 1em;
 }
 
-/* Mod entry */
+/* Inline Navigation */
+.inline-nav {
+    --inline-nav-gap: 0.5em;
+    list-style-type: "";
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 0.25em var(--inline-nav-gap);
+    flex-wrap: wrap;
+}
+
+.inline-nav li:not(:last-child)::after {
+    content: '•';
+    padding-left: var(--inline-nav-gap);
+}
+
+/* Mod Entry */
 .mod-entry,
 .mod-entry__downloads {
     display: grid;

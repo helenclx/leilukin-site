@@ -7,7 +7,7 @@ articleElement: true
 
 <nav class="changelog__nav" aria-labelledby="changelog-nav-title">
     <p class="changelog__nav--title" id="changelog-nav-title">Changelog Archive:</p>
-    <ul class="changelog__nav--links">
+    <ul class="inline-nav changelog__nav--links">
         <li><a
             {% if currentUrl === "/changelogs/" %}aria-current="page"{% endif %}
             href="/changelogs"
@@ -43,21 +43,9 @@ articleElement: true
         gap: 0.5em;
     }
 
-    .changelog__nav--links {
-        list-style-type: "";
-        margin: 0;
-        padding: 0;
-        gap: 0.25em 0.5em;
-    }
-
     .changelog__nav--links li {
         text-align: center;
         align-self: center;
-    }
-
-    .changelog__nav--links li:not(:last-child)::after {
-        content: '•';
-        padding-left: 0.5em;
     }
 
     .changelog__nav--links [aria-current="page"] {
