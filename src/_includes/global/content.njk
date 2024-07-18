@@ -86,7 +86,7 @@
     {% block shrineInfo %}{% endblock %}
 </content-wrapper>
 
-<style>
+{%- css %}
     .breadcrumbs {
         list-style-type: "";
         padding: 0;
@@ -118,11 +118,6 @@
         grid-template-areas: 'prev next';
     }
 
-    .blog__post--prev {
-        grid-area: prev;
-    }
-
-    .blog__post--next {
-        grid-area: next;
-    }
-</style>
+    .blog__post--prev { grid-area: prev; }
+    .blog__post--next { grid-area: next; }
+{% endcss %}

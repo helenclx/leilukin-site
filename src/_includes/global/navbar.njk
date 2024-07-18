@@ -36,7 +36,7 @@ https://kalechips.net/projects/snippets/burger #}
     </ul>
 </nav>
 
-<style>
+{%- css %}
     :root {
         --icon-burger: url(/assets/icons/burger.svg);
         --icon-close: url(/assets/icons/close.svg);
@@ -131,7 +131,7 @@ https://kalechips.net/projects/snippets/burger #}
             padding: 0;
         }
     }
-</style>
+{% endcss %}
 
 <script>
     const navbarBurger = document.querySelector(".navbar__burger");

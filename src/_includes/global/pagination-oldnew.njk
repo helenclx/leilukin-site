@@ -57,7 +57,7 @@ Newer{% endset %}
     </ul>
 </nav>
 
-<style>
+{%- css %}
     .pagination__wrapper {
         display: grid;
         place-content: center;
@@ -100,7 +100,5 @@ Newer{% endset %}
         text-decoration: none;
     }
 
-    .pagination li a:focus {
-        outline: none;
-    }
-</style>
+    .pagination li a:focus { outline: none; }
+{% endcss %}
