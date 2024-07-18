@@ -4,7 +4,11 @@
     <img fetchpriority="high" src="/assets/leilukin/Leilukins-Hub-website-banner.avif" alt="Banner of Leilukin's Hub" width="900" height="300">
 {% endblock %}
 
-{%- css %}.hero img { filter: drop-shadow(0.1rem 0.1rem 0.2rem black); }{% endcss %}
+{% set heroDropShadow %}
+drop-shadow(0.1rem 0.1rem 0.2rem black)
+drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
+{% endset%}
+{%- css %}.hero img { filter: {{ heroDropShadow }}; }{% endcss %}
 
 {% block eventScript %}
     const todayEvent = getTodayEvent();
