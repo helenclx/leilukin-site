@@ -6,7 +6,7 @@
 {%- if tags and tags.includes("shrine pages") %}
     <nav class="footer__shrines" aria-labelledby="backto-title">
         <p id="backto-title">Back to:</p>
-        <ul class="footer__links">
+        <ul class="inline-nav footer__links">
             <li><a href="/shrines/">Shrine Directory</a></li>
             <li><a href="/">{{ sitemeta.siteName }}</a></li>
         </ul>
@@ -18,9 +18,7 @@
 </footer>
 
 <style>
-    :root {
-        --footer-gap: 0.5em;
-    }
+    :root { --footer-gap: 0.5em; }
 
     .footer {
         margin-top: auto;
@@ -40,19 +38,6 @@
         column-gap: var(--footer-gap);
     }
 
-    .footer__links {
-        justify-self: center;
-        list-style-type: "";
-        margin: 0;
-        padding: 0;
-    }
-
-    .footer__links li:not(:last-child)::after {
-        content: '•';
-        padding-left: var(--footer-gap);
-    }
-
-    .footer__shrines {
-        align-self: center;
-    }
+    .footer__links { justify-self: center; }
+    .footer__shrines { align-self: center; }
 </style>
