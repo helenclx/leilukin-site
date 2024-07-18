@@ -69,3 +69,4 @@ There have been Palestinians who reached out to me on Tumblr to ask for help wit
 * [Help Zaen and Yehya to get out of Gaza](https://www.gofundme.com/f/help-sara-and-her-family-to-evacuate-gaza) (verified by [90-ghost](https://www.tumblr.com/90-ghost/754093176508268544))
 * [A Father's Plea: Help Save My Family](https://www.gofundme.com/f/btuqqt-save-my-familys-life) (verified by [el-shab-hussein](https://www.tumblr.com/el-shab-hussein/754087744556449792/vetted-family-fundraiser-masterpost-3))
 * [Help Moamen Majed rebuild his life after the war](https://www.gofundme.com/f/help-moamen-majed-rebuild-his-life-after-the-war) (verified by [90-ghost](https://www.tumblr.com/90-ghost/755355718664830976/moamenmajed-gaza-are-they-a-vetted-fundraiser))
+* [Save Gaza: A Brighter Future for Aya and Her Family](https://www.gofundme.com/f/save-gaza-a-brighter-future-for-aya-and-her-family) (verified by [90-ghost](https://www.tumblr.com/90-ghost/754992024939347968))
