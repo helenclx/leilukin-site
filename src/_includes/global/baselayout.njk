@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="{{'/assets/css/' + sheet + '.css' | url | safe}}">
         {%- endfor -%}
     {% endif %}
+        <style>{% getBundle "css" %}</style>
 
         {# Fonts #}
         {% include "global/fontdefault.njk" %}

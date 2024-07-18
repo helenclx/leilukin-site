@@ -7,7 +7,7 @@
     </div>
 </header>
 
-<style>
+{%- css %}
     .hero {
         width: 100%;
         background-color: var(--clr-hero-bg);
@@ -32,9 +32,8 @@
         object-fit: contain;
         overflow: hidden;
         max-height: 16rem;
-        {% block heroDropShadowStyle %}{% endblock %}
     }
-</style>
+{% endcss %}
 
 <script>
     const hero = document.querySelector(".hero");

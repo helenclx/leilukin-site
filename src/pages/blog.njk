@@ -43,11 +43,8 @@ eleventyComputed:
     {% include "global/pagination-oldnew.njk" %}
 </section>
 
-<style>
-    .blog__posts,
-    .blog__post {
-        display: grid;
-    }
+{%- css %}
+    .blog__posts, .blog__post { display: grid; }
 
     .blog__posts {
         list-style-type: none;
@@ -62,9 +59,7 @@ eleventyComputed:
         border-bottom: var(--bdr-blogpost);
     }
 
-    .blog__post:first-of-type {
-        border-top: var(--bdr-blogpost);
-    }
+    .blog__post:first-of-type { border-top: var(--bdr-blogpost); }
 
     .blog__post--title {
         font-size: clamp(1.55rem, 1rem + 3vw, 1.8rem);
@@ -76,4 +71,4 @@ eleventyComputed:
         color: var(--clr-sub-heading);
         font-weight: 700;
     }
-</style>
+{% endcss %}
