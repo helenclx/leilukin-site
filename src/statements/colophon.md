@@ -10,7 +10,7 @@ eleventyNavigation:
 Information about how this website is built.
 
 ## Technology
-* Built with the static site generator [Eleventy](https://www.11ty.dev/)
+* Built with the static site generator [Eleventy](https://www.11ty.dev/) (version 3.0)
 * Templating languages: Nunjucks and Markdown
 * Code written with Visual Studio Code
 * JavaScript runtime: [Bun](https://bun.sh)
