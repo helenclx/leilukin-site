@@ -1,16 +1,22 @@
 /* CONFIGURATION FOR MARKDOWN TEMPLATES */
 
 // Installed Plugins
-const pluginTOC = require('@uncenter/eleventy-plugin-toc');
-const embedEverything = require("eleventy-plugin-embed-everything");
+import pluginTOC from '@uncenter/eleventy-plugin-toc';
+import embedEverything from "eleventy-plugin-embed-everything";
 
 // Configure slug filter
-const slugify = require("slugify");
-// Configure markdown-it plugins
-const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
+import slugify from "slugify";
 
-module.exports = function (eleventyConfig) {
+// markdown-it plugins
+import markdownIt from "markdown-it";
+import markdownItAnchor from "markdown-it-anchor";
+import markdownItAttribution from "markdown-it-attribution";
+import markdownItAttrs from "markdown-it-attrs";
+import markdownItBracketedSpans from 'markdown-it-bracketed-spans';
+import markdownItDefList from "markdown-it-deflist";
+import markdownItFootnote from "markdown-it-footnote";
+
+export default function (eleventyConfig) {
     // Installed Plugins
     eleventyConfig.addPlugin(pluginTOC, {
         tags: ['h2', 'h3', 'h4', 'h5', 'h6'],
@@ -73,11 +79,11 @@ module.exports = function (eleventyConfig) {
         linkify: true,
     })
         .use(markdownItAnchor, markdownItAnchorOptions)
-        .use(require("markdown-it-attribution"))
-        .use(require("markdown-it-attrs"))
-        .use(require("markdown-it-bracketed-spans"))
-        .use(require("markdown-it-deflist"))
-        .use(require('markdown-it-footnote'));
+        .use(markdownItAttribution)
+        .use(markdownItAttrs)
+        .use(markdownItBracketedSpans)
+        .use(markdownItDefList)
+        .use(markdownItFootnote);
 
     // Configure linkify
     markdownLibrary.linkify.set({ fuzzyLink: false });
