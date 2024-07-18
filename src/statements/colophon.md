@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-07-13
+updated: 2024-07-18
 toc: true
 eleventyNavigation:
     order: 14
@@ -18,7 +18,7 @@ Information about how this website is built.
 
 ## Host and Domain
 * Deployed to [Netlify](https://www.netlify.com/) from this site's GitHub repository
-* The domain name, `{{ sitemeta.siteDomain }}`, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/)
+* The domain name, `{{ sitemeta.siteDomain }}`, was registered on 30 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/)
 
 ## Plugins
 * Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
@@ -41,8 +41,8 @@ Eleventy has the Markdown parser [markdown-it](https://www.npmjs.com/package/mar
 * [markdown-it-footnote](https://www.npmjs.com/package/markdown-it-footnote)
 
 ## Self-hosted Assets
-* [Lexend](https://www.lexend.com/) font family (used as the default font of this site)
-* [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) typeface (used as the monospaced font of this site)
+* [Lexend](https://www.lexend.com/) font family — used as the default font of this site
+* [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) typeface — used as the monospaced font of this site
 
 ## JavaScript
 Due to this website being a static site, JavaScript is used to create dynamic and interactive components of this site. Here is a list of how JavaScript is used on this site:
