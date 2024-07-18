@@ -1,6 +1,7 @@
 /* UTILITY CLASSES */
 .bold-text { font-weight: 700; }
 .center-text { text-align: center; }
+.inline-img { display: inline-block; }
 .break-word { word-break: break-word; }
 
 .center-el {
