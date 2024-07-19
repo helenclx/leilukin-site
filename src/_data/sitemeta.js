@@ -1,13 +1,11 @@
-export default {
-	siteName: "Leilukin's Hub",
-	siteUrl: "https://leilukin.com" || "http://localhost:8080",
-	siteDomain: "leilukin.com",
-	siteLocale: "en_MY",
-	siteLanguage: "en",
-	siteDescription: "Leilukin's personal website.",
-	siteAuthor: {
-		name: "Leilukin",
-		email: "contact@leilukin.com",
-		url: () => this.siteUrl + "/about"
-	}
-}
+export const siteName = "Leilukin's Hub";
+export const siteDomain = "leilukin.com";
+export const siteUrl = "https://" + siteDomain || "http://localhost:8080";
+export const siteAuthor = {
+	name: "Leilukin",
+	email: "contact@leilukin.com",
+	url: siteUrl + "/about"
+};
+export const siteLocale = "en_MY";
+export const siteLanguage = "en";
+export const siteDescription = siteAuthor.name + "'s personal website.";
