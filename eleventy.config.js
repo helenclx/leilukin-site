@@ -27,7 +27,7 @@ export default function (eleventyConfig) {
 
     // Eleventy bundle plugin
     eleventyConfig.addBundle("css");
-    eleventyConfig.addBundle("js");
+    eleventyConfig.addBundle("js", { toFileDirectory: "assets/js" });
 
     // Add content categories to a collection
     eleventyConfig.addCollection("categories", function(collectionApi) {
