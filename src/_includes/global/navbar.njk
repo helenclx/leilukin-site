@@ -1,145 +1,97 @@
-{# Accessible hamburger menu code based on:
-https://kalechips.net/projects/snippets/burger #}
-
 {% set navLinksEl %}
-{%- if tags and tags.includes("shrine pages") %}
-    <li>
-        <a {% if currentUrl === shrineHomeUrl %}aria-current="page"{% endif %} href="{{ shrineHomeUrl }}">Shrine Home</a>
-    </li>
-{%- endif -%}
-{% block navbarLinks %}{% endblock %}
-{%- if tags and tags.includes("shrine pages") %}
-    <li><a href="/shrines/">Shrine Directory</a></li>
-    <li><a href="/">Main Site</a></li>
-{%- endif -%}
+    {%- if tags and tags.includes("shrine pages") %}
+        <li>
+            <a {% if currentUrl === shrineHomeUrl %}aria-current="page"{% endif %} href="{{ shrineHomeUrl }}">Shrine Home</a>
+        </li>
+    {%- endif -%}
+    {% block navbarLinks %}{% endblock %}
+    {%- if tags and tags.includes("shrine pages") %}
+        <li><a href="/shrines/">Shrine Directory</a></li>
+        <li><a href="/">Main Site</a></li>
+    {%- endif -%}
 {% endset %}
 
 <nav class="navbar" aria-labelledby="top-level-nav-title">
-    <h2 class="visually-hidden" id="top-level-nav-title">Top Level Navigation Bar</h2>
-    <details class="navbar__burger">
-        <summary class="navbar__toggle" id="navbar-toggle">
-            <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            Navigation
-        </summary>
-        <nav class="navbar__menu" aria-labelledby="hamburger-nav-title">
-            <h3 class="visually-hidden" id="hamburger-nav-title">Hamburger Menu</h3>
-            <ul class="navbar__menu--links">
-                {{ navLinksEl | safe }}
-                <li class="skip"><a href="#navbar-toggle">Close Menu</a></li>
-            </ul>
-        </nav>
-    </details>
-    <ul class="navbar__links">
-        {{ navLinksEl | safe }}
-    </ul>
+    <h2 class="visually-hidden" id="top-level-nav-title">Top Level</h2>
+    <ul class="navbar__menu navbar__links">{{ navLinksEl | safe }}</ul>
+    <button class="navbar__toggle" popovertarget="nav-menu" aria-labelledby="nav-toggle-title">
+        <svg aria-hidden="true" focusable="false" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+        Navigation
+    </button>
 </nav>
+<div popover id="nav-menu" class="navbar__popover">
+    <ul class="navbar__menu">{{ navLinksEl | safe }}</ul>
+</div>
 
 {%- css %}
-    :root {
-        --icon-burger: url(/assets/icons/burger.svg);
-        --icon-close: url(/assets/icons/close.svg);
-        --sz-icon: 2.5rem;
-    }
-
     .navbar {
         background: var(--clr-navbar-bg);
         width: 100%;
         z-index: 998;
         position: sticky;
         top: 0;
-    }
-
-    .navbar__toggle {
-        color: var(--clr-navbar-link);
-        font-size: 1.25rem;
-        font-weight: 700;
-    }
-
-    .navbar__toggle {
-        list-style-type: none;
-        display: flex;
-        align-items: center;
-        gap: 0.3em;
-        padding: 0.4em 0.6em;
-        background-color: inherit;
-    }
-
-    .navbar__toggle::-webkit-details-marker { display: none; }
-
-    .navbar__toggle:focus,
-    .navbar a:focus {
-        outline: 0.15em solid var(--clr-navbar-link);
+        padding: 0.6em;
     }
 
     .navbar a:focus { outline-offset: 0.1em; }
 
-    .navbar__menu--links,
-    .navbar__links {
-        list-style-type: "";
-        flex-wrap: wrap;
-        gap: 1em;
+    .navbar__toggle {
+        background-color: inherit;
+        color: var(--clr-navbar-link);
+        border: none;
+        padding: 0;
+        font-size: 1.25rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 0.3em;
     }
 
-    .navbar__menu--links a,
-    .navbar__links a {
+    .navbar__toggle svg { fill: currentColor; }
+    .navbar__toggle:focus,
+    .navbar a:focus { outline: 0.15em solid var(--clr-navbar-link); }
+
+    .navbar__menu {
+        list-style-type: "";
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 1.5em;
+        text-align: center;
+    }
+
+    .navbar__menu a {
         color: var(--clr-navbar-link);
         text-decoration: none;
         cursor: pointer;
-        display: block;
+        display: inline-block;
     }
 
-    .navbar__menu--links {
-        display: flex;
-        padding: 0 1em;
+    .navbar__menu a:hover { color: var(--clr-link-hover); }
+    .navbar__menu a:focus { outline-offset: 0.2em; }
+    .navbar__links { display: none; }
+
+    .navbar__popover {
+        background-color: var(--clr-navbar-bg);
+        border: 0.15em solid var(--clr-navbar-link);
+        padding: 1.5em;
+        width: 80%;
     }
 
-    .skip a {
-        position: absolute;
-        left: -10000px;
-        top: auto;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
+    .navbar__popover::backdrop {
+        background-color: black;
+        opacity: 0.5;
     }
-
-    .skip a:focus {
-        position: static;
-        width: auto;
-        height: auto;
-    }
-
-    .navbar__links {
-        display: none;
-        padding: 0.2em 0 0 0;
-    }
-
-    .navbar__links a:hover { color: var(--clr-link-hover); }
-    .navbar__links a:focus { outline-offset: 0.2em; }
 
     /* Tablet screen size */
     @media only screen and (min-width: 43.75rem) {
-        .navbar { padding: 0 0.6em; }
-        .navbar__burger { display: none; }
+        .navbar { padding: 1em 0.6em; }
         .navbar__toggle { display: none; }
 
         .navbar__links {
             display: flex;
             justify-content: space-evenly;
             gap: 0.5em;
-            padding: 0;
         }
     }
 {% endcss %}
-
-{%- js %}
-    const navbarBurger = document.querySelector(".navbar__burger");
-    navbarBurger.addEventListener("keydown", (event) => {
-        if (event.key == "Escape") {
-            navbarBurger.removeAttribute("open");
-            navbarBurger.ariaExpanded = false;
-            document.querySelector(".navbar__toggle").focus();
-        }
-    });
-{% endjs %}

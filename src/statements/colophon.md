@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-07-18
+updated: 2024-07-20
 toc: true
 eleventyNavigation:
     order: 14
@@ -54,7 +54,6 @@ Due to this website being a static site, JavaScript is used to create dynamic an
         * [{% cite "Star Wars: Knights of the Old Republic" %}](/shrines/starwarskotor)
         * [{% cite "Cassette Beasts" %}](/shrines/cassettebeasts)
     * Birthdays of characters from {% cite "A Summer’s End — Hong Kong 1986" %} on its shrine.
-* When this site is viewed on mobile devices, the navigation bar's hamburger menu uses JavaScript to enable using the Escape key to close the navigation manu.
 * Scott O'Hara's [ARIA Tooltips](https://github.com/scottaohara/a11y_tooltips) script is used to implement accessible tooltips that meet Web Content Accessibility Guidelines (WCAG) 2.2 success criterion for [1.4.13: Content on Hover or Focus (Level AA)](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), by allowing visitors to see tooltips on keyboard focus and dismiss tooltips by pressing the Escape key.
 * Zach Leatherman's [details-utils](https://www.npmjs.com/package/@zachleat/details-utils) JavaScript package is used to automatically expand sidebar table of contents on wide screens.
 * [status.cafe](https://status.cafe/) widget, which is placed on the home page, uses JavaScript to fetch data of my latest status update.

@@ -81,8 +81,6 @@ blockquote > * + :not([class]),
 .c-blockquote__attribution { margin-top: var(--sz-paragraph-margin); }
 
 button:hover { cursor: pointer; }
-
-button:focus,
 details:focus { outline-offset: 0.2em; }
 
 figure {
