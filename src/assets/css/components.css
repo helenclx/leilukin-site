@@ -146,6 +146,8 @@ a.link-btn[href^="http"]:not([href*="leilukin.com"]) { padding-right: calc(var(-
     flex-wrap: wrap;
     align-items: flex-end;
     gap: 0.5em;
+    overflow-x: clip;
+    overflow-clip-margin: 0.5em;
 }
 
 p + .adoptables { margin-top: 1em; }
