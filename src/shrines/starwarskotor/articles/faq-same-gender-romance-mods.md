@@ -1,7 +1,7 @@
 ---
 articleTitle: "Frequently Asked Questions (FAQ) for My Star Wars: KotOR Same-Gender Romance Mods"
 date: 2021-09-25
-updated: 2024-05-24
+updated: 2024-07-20
 desc: "Frequently asked questions for my same-gender romance mods for Star Wars: Knights of the Old Republic series."
 tags: kotor both articles
 categories: ["star wars kotor", "star wars kotor 2", "video game mods"]
@@ -16,15 +16,15 @@ This article compiles the frequently asked questions I have received for my same
 PLEASE READ THIS ARTICLE BEFORE ASKING QUESTIONS ABOUT MY ROMANCE MODS!{.center-text style="font-size: 1.8rem; font-weight: 700; margin-top: 1em;"}
 
 My same-gender romance mods for KotOR 1 include:
-* [Carth Onasi and Male PC Romance](https://deadlystream.com/files/file/2140-carth-onasi-and-male-pc-romance/)
+* [Carth Onasi and Male PC Romance](/projects/videogamemods/kotor1/#carth-onasi-and-male-pc-romance)
 
 My same-gender romance mods for KotOR 2 include:
-* [Alternate Revan Romances REDUX](https://deadlystream.com/files/file/1004-alternate-revan-romances-redux/)
-* [Atton Rand and Male Exile Romance](https://deadlystream.com/files/file/972-atton-rand-and-male-exile-romance/)
-* [Dahnis Flirt Option for Female PC](https://deadlystream.com/files/file/1400-dahnis-flirt-option-for-female-pc/)
-* [Darth Sion and Male Exile Mod](https://deadlystream.com/files/file/996-darth-sion-and-male-exile-mod/)
-* [Handmaiden and Female Exile – Disciple and Male Exile Romance](https://deadlystream.com/files/file/977-handmaiden-and-female-exile-disciple-and-male-exile-romance/)
-* [Visas Marr and Female Exile Romance](https://deadlystream.com/files/file/968-visas-marr-and-female-exile-romance/)
+* [Alternate Revan Romances REDUX](/projects/videogamemods/kotor2/#visas-marr-and-female-exile-romance)
+* [Atton Rand and Male Exile Romance](/projects/videogamemods/kotor2/#atton-rand-and-male-exile-romance)
+* [Dahnis Flirt Option for Female PC](/projects/videogamemods/kotor2/#dahnis-flirt-option-for-female-pc)
+* [Darth Sion and Male Exile Mod](/projects/videogamemods/kotor2/#darth-sion-and-male-exile-mod)
+* [Handmaiden and Female Exile – Disciple and Male Exile Romance](/projects/videogamemods/kotor2/#handmaiden-and-female-exile-disciple-and-male-exile-romance)
+* [Visas Marr and Female Exile Romance](/projects/videogamemods/kotor2/#visas-marr-and-female-exile-romance)
 
 I have also compiled a [list of all the same-gender romance mods](/shrines/starwarskotor/resources/kotor-same-gender-romance-mods) various modders had created throughout the history of KotOR modding.
 
