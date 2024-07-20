@@ -33,8 +33,6 @@
         padding: 0.6em;
     }
 
-    .navbar a:focus { outline-offset: 0.1em; }
-
     .navbar__toggle {
         background-color: inherit;
         color: var(--clr-navbar-link);
@@ -48,6 +46,9 @@
     }
 
     .navbar__toggle svg { fill: currentColor; }
+
+    .navbar__toggle:focus,
+    .navbar a:focus { outline-offset: 0.1em; }
     .navbar__toggle:focus,
     .navbar a:focus { outline: 0.15em solid var(--clr-navbar-link); }
 
