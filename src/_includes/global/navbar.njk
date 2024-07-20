@@ -33,25 +33,6 @@
         padding: 0.6em;
     }
 
-    .navbar__toggle {
-        background-color: inherit;
-        color: var(--clr-navbar-link);
-        border: none;
-        padding: 0;
-        font-size: 1.25rem;
-        font-weight: 700;
-        display: flex;
-        align-items: center;
-        gap: 0.3em;
-    }
-
-    .navbar__toggle svg { fill: currentColor; }
-
-    .navbar__toggle:focus,
-    .navbar a:focus { outline-offset: 0.1em; }
-    .navbar__toggle:focus,
-    .navbar a:focus { outline: 0.15em solid var(--clr-navbar-link); }
-
     .navbar__menu {
         list-style-type: "";
         margin: 0;
@@ -71,6 +52,25 @@
     .navbar__menu a:hover { color: var(--clr-link-hover); }
     .navbar__menu a:focus { outline-offset: 0.2em; }
     .navbar__links { display: none; }
+
+    .navbar__toggle {
+        background-color: inherit;
+        color: var(--clr-navbar-link);
+        border: none;
+        padding: 0;
+        font-size: 1.25rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 0.3em;
+    }
+
+    .navbar__toggle svg { fill: currentColor; }
+
+    .navbar__toggle:focus,
+    .navbar__menu a:focus { outline-offset: 0.1em; }
+    .navbar__toggle:focus,
+    .navbar__menu a:focus { outline: 0.15em solid var(--clr-navbar-link); }
 
     .navbar__popover {
         background-color: var(--clr-navbar-bg);
