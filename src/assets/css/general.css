@@ -98,10 +98,12 @@ figcaption {
     margin-top: 0.2em;
 }
 
-code { font-family: var(--ff-monospace), ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace; }
+code {
+    font-family: var(--ff-monospace), ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+    word-break: break-word;
+}
 
 :not(pre) > code { padding: 0.125em 0.25em; }
-
 :not(pre) > code,
 pre { background-color: var(--clr-code-bg); }
 
