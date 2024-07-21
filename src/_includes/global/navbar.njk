@@ -37,8 +37,9 @@
         list-style-type: "";
         margin: 0;
         padding: 0;
-        display: grid;
-        gap: 1.5em;
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
         text-align: center;
     }
 
@@ -75,7 +76,8 @@
     .navbar__popover {
         background-color: var(--clr-navbar-bg);
         border: 0.15em solid var(--clr-navbar-link);
-        padding: 2em 3em;
+        padding: 1.5em;
+        max-width: 85%;
     }
 
     .navbar__popover::backdrop {
@@ -90,6 +92,7 @@
 
         .navbar__links {
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-evenly;
             gap: 0.5em;
         }
