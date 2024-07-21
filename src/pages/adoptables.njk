@@ -7,6 +7,12 @@ eleventyNavigation:
     order: 8
 ---
 
+{%- macro myPixelArt(file, alt, tooltip=alt) -%}
+    <li data-tooltip>
+        <img src="/assets/adoptables/{{ file }}" alt="{{ alt }}" data-tooltip-trigger title="{{ tooltip }}" loading="lazy" tabindex="0">
+    </li>
+{%- endmacro -%}
+
 {%- macro adoptable(url, file, alt, tooltip=alt) -%}
     <li data-tooltip>
         <a href="{{ url }}" data-tooltip-trigger title="{{ tooltip }}">
@@ -39,6 +45,20 @@ eleventyNavigation:
 
     <h3>Made by a Girl</h3>
     <a href="https://lovesick.cafe/grrrl"><img src="/assets/adoptables/pixelcliques/madebyagirl.png" alt="Made by a Girl pixel clique" loading="lazy"></a>
+</section>
+
+<section class="content__section">
+    <h2>Kitty Friends Pixel Club</h2>
+    <p>A pixel club hosted by <a href="https://divergentrays.com/kitty">Divergent Rays</a>.</p>
+
+    <h3>My Kitty Friends</h3>
+    <ul class="adoptables">
+        {{ myPixelArt("kittyfriends/leilukin-blackkitty.png", "Leilukin's black kitty friend") }}
+        {{ myPixelArt("kittyfriends/leilukin-purplekitty.png", "Leilukin's purple kitty friend") }}
+    </ul>
+
+    <h3>Adopted Kitty Friends</h3>
+    <ul class="adoptables"></ul>
 </section>
 
 <section class="content__section">
