@@ -1,8 +1,9 @@
 ---
 title: Adoptables
-desc: A collection of creatures and stuff I have adopted from other websites.
+desc: A collection of stuff I have adopted from other websites.
 isContentDivided: true
 hasTooltips: true
+updated: 2024-07-22
 eleventyNavigation:
     order: 8
 ---
@@ -20,6 +21,10 @@ eleventyNavigation:
         </a>
     </li>
 {%- endmacro -%}
+
+<section class="content__section">
+    <p>(This page was last updated on {{ updated | formatDate }})</p>
+</section>
 
 {% include "main/virtualpets.njk" %}
 
