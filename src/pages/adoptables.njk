@@ -21,6 +21,8 @@ eleventyNavigation:
     </li>
 {%- endmacro -%}
 
+{% include "main/virtualpets.njk" %}
+
 <section class="content__section">
     <h2>Personal Website Adoptables</h2>
     <p>These are adopted from other personal websites.</p>
@@ -73,6 +75,18 @@ eleventyNavigation:
 </section>
 
 <section class="content__section">
+    <h2>Salad Magazine</h2>
+    <p><a href="https://zine.kalechips.net/index">Salad Magazine</a> is a web-based zine for creative works run by <a href="https://kalechips.net/">Kalechips</a>.</p>
+
+    <h3><a href="https://zine.kalechips.net/issues/3/semper/index.html">Sparkle Snails</a></h3>
+    <div class="adoptables">
+        <img src="/assets/adoptables/salad-magazine/semper-inksnail-black.png" alt="Black snail pixel art by Semper" loading="lazy">
+        <img src="/assets/adoptables/salad-magazine/semper-inksnail-sparkle.png" alt="Sparkle snail pixel art by Semper" loading="lazy">
+    </div>
+    <p>These snails were made by <a href="https://mycorrhiza.space/">Semper</a> for <a href="https://zine.kalechips.net/issues/3/">Issue 3</a>.</p>
+</section>
+
+<section class="content__section">
     <h2>32-Bit Cafe Code Jam: Destination Vacation</h2>
     <p>Stuff I collected from <a href="https://tilde.32bit.cafe/~ribose/events/destination/map.html">32-Bit Cafe's Community Code Jam #4: Destination Vacation</a> in June 2024, including a passport with stamps from the code jam entries, and extra goodies from some of the participants.</p>
     <ul class="adoptables">
@@ -83,5 +97,3 @@ eleventyNavigation:
         {{ adoptable("https://ribo.zone/sunday/fish/", "32bitcafe-vacation/ribose-riverfish.png", "Ribose's fishing button") }}
     </ul>
 </section>
-
-{% include "main/virtualpets.njk" %}
