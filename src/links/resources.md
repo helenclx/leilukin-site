@@ -10,6 +10,7 @@ date: 2024-07-23
 
 ### Bypass Paywalls
 * [Paywall Reader](https://paywallreader.com/)
+* [Bypass Paywall Clean](https://github.com/bpc-clone/bpc_updates) browser extension
 
 ### Images
 * [Squoosh](https://squoosh.app/) — Privacy-friendly image compressor
