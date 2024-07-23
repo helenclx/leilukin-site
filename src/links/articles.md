@@ -1,7 +1,7 @@
 ---
 title: Articles
 date: 2024-07-03
-updated: 2024-07-15
+updated: 2024-07-23
 ---
 
 ### LGBTQ+
