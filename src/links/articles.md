@@ -8,6 +8,10 @@ updated: 2024-07-15
 * [I Am A Transwoman. I Am In The Closet. I Am Not Coming Out.](https://medium.com/@jencoates/i-am-a-transwoman-i-am-in-the-closet-i-am-not-coming-out-4c2dd1907e42) by Jennifer Coates
 * [On “Male Socialization” and the “Trans Masc Versus Trans Fem” Discourse™](https://juliaserano.substack.com/p/on-male-socialization-and-the-trans) by Julia Serano
 
+### Race
+* [“BIPOC”, the Shared Oppression Myth, and the Black Natives It Erases](https://medium.com/@kihnindewa/bipoc-the-shared-oppression-myth-and-the-black-natives-it-erases-dd0cdcd93230) by Kihnindewa
+ ([archive.today link](https://archive.is/20230625143617/https://medium.com/@kihnindewa/bipoc-the-shared-oppression-myth-and-the-black-natives-it-erases-dd0cdcd93230))
+
 ### Media Criticism
 * [On Letting People Enjoy Things](https://medium.com/@EstherRosenfield/let-people-enjoy-things-12021d00285a) by Esther Rosenfield
 * [In Defence of Critique: Let People Enjoy Not Enjoying Things](https://www.evilfemale.blog/p/in-defence-of-critique-let-people) by charlie squire
