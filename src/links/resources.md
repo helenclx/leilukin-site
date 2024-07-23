@@ -1,16 +1,15 @@
 ---
 title: Resources
-date: 2024-07-18
+date: 2024-07-23
 ---
 
 ### Archives
 * [The Anarchist Library](https://theanarchistlibrary.org/)
 * [Internet Archive](https://archive.org/)
+* [archive.today](https://archive.ph/)
 
-### Bypass Paywalls and Reading Distractions
-* [12ft](https://12ft.io/)
-* [Freedium](https://freedium.cfd/) — Bypass Medium paywalls
-* [Read Medium](https://readmedium.com/)
+### Bypass Paywalls
+* [Paywall Reader](https://paywallreader.com/)
 
 ### Images
 * [Squoosh](https://squoosh.app/) — Privacy-friendly image compressor
