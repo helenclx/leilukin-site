@@ -71,6 +71,5 @@ There have been Palestinians who reached out to me on Tumblr to ask for help wit
 * [Help Moamen Majed rebuild his life after the war](https://www.gofundme.com/f/help-moamen-majed-rebuild-his-life-after-the-war) (verified by [90-ghost](https://www.tumblr.com/90-ghost/755355718664830976/moamenmajed-gaza-are-they-a-vetted-fundraiser))
 * [Save Gaza: A Brighter Future for Aya and Her Family](https://www.gofundme.com/f/save-gaza-a-brighter-future-for-aya-and-her-family) (verified by [90-ghost](https://www.tumblr.com/90-ghost/754992024939347968))
 * [EMERGENCY: help my relatives evacuate to safety](https://www.gofundme.com/f/emergency-help-my-relatives-evacuate-to-safety) (verified by [90-ghost](https://www.tumblr.com/90-ghost/756556584649424896))
-* [Help Palestine and Family Survive the Gaza Crisis](https://www.gofundme.com/f/help-palestine-and-family-survive-the-gaza-crisis) (verified by [90-ghost](https://www.tumblr.com/90-ghost/756556732829974528))
 * [Support Safaa's Quest To Get Her Family To Safety](https://www.gofundme.com/f/support-safaas-quest-to-get-her-family-to-safety) (verified by [90-ghost](https://www.tumblr.com/90-ghost/756556669674274816))
 * [Help Doaa Rebuild Her Sewing Business](https://www.gofundme.com/f/help-doaa-rebuild-her-sewing-business) (verified by [90-ghost](https://www.tumblr.com/90-ghost/756556522290626560))
