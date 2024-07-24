@@ -54,11 +54,10 @@
     .navbar__menu a:focus { outline-offset: 0.2em; }
 
     .navbar__links {
-        display: none;
+        display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
         gap: 0.5em;
-
     }
 
     .navbar__toggle {
@@ -68,7 +67,7 @@
         padding: 0;
         font-size: 1.25rem;
         font-weight: 700;
-        display: flex;
+        display: none;
         align-items: center;
         gap: 0.3em;
     }
@@ -92,6 +91,11 @@
         opacity: 0.5;
     }
 
+    @supports selector([popover]) {
+        .navbar__toggle { display: flex; }
+        .navbar__links { display: none; }
+    }
+
     /* Tablet screen size */
     @media only screen and (min-width: 43.75rem) {
         .navbar { padding: 1em 0.6em; }
@@ -99,15 +103,3 @@
         .navbar__links { display: flex; }
     }
 {% endcss %}
-
-{%- js %}
-function supportsPopover() {
-    return HTMLElement.prototype.hasOwnProperty("popover");
-}
-const popoverSupported = supportsPopover();
-
-if (!popoverSupported) {
-    document.querySelector(".navbar__toggle").style.display = "none";
-    document.querySelector(".navbar__links").style.display = "flex";
-}
-{% endjs %}
