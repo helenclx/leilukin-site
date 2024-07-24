@@ -52,7 +52,14 @@
 
     .navbar__menu a:hover { color: var(--clr-link-hover); }
     .navbar__menu a:focus { outline-offset: 0.2em; }
-    .navbar__links { display: none; }
+
+    .navbar__links {
+        display: none;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 0.5em;
+
+    }
 
     .navbar__toggle {
         background-color: inherit;
@@ -89,12 +96,18 @@
     @media only screen and (min-width: 43.75rem) {
         .navbar { padding: 1em 0.6em; }
         .navbar__toggle, .navbar__popover { display: none; }
-
-        .navbar__links {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-            gap: 0.5em;
-        }
+        .navbar__links { display: flex; }
     }
 {% endcss %}
+
+{%- js %}
+function supportsPopover() {
+    return HTMLElement.prototype.hasOwnProperty("popover");
+}
+const popoverSupported = supportsPopover();
+
+if (!popoverSupported) {
+    document.querySelector(".navbar__toggle").style.display = "none";
+    document.querySelector(".navbar__links").style.display = "flex";
+}
+{% endjs %}
