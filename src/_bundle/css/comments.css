@@ -110,7 +110,7 @@ gw-comment-card.collapsed .comment-header-right time { display: none; }
 
 .comment-header {
     display: grid;
-    grid-template-columns: 0fr max-content 1fr;
+    grid-template-columns: 0fr auto 1fr;
     gap: 0.4em;
     align-items: baseline;
 }
@@ -136,4 +136,5 @@ gw-comment-card.collapsed .comment-header-right time { display: none; }
 .commenter-name {
     font-size: 1.1em;
     font-weight: 700;
+    overflow-wrap: break-word;
 }
