@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-07-20
+updated: 2024-07-25
 toc: true
 eleventyNavigation:
     order: 14
@@ -17,7 +17,7 @@ Information about how this website is built.
 * Source code available on [GitHub](https://github.com/helenclx/leilukin-site) and its [Gitea mirror](https://git.32bit.cafe/Leilukin/leilukin-site)
 
 ## Host and Domain
-* Deployed to [Netlify](https://www.netlify.com/) from this site's GitHub repository
+* Deployed to [Hostinger](https://www.hostinger.my/) from this site's GitHub repository
 * The domain name, `{{ sitemeta.siteDomain }}`, was registered on 30 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/)
 
 ## Plugins
