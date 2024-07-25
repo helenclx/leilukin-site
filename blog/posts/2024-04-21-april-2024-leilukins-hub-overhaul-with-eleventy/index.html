@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="top">
+    <head>
+        
+    
+        <meta property="og:title" content="April 2024 Leilukin&#39;s Hub Overhaul with Eleventy | Blog">
+    
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Leilukin">
+<meta name="description" content="I rebuilt my website with the static site generator Eleventy in April 2024.">
+<meta name="generator" content="Eleventy v3.0.0">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://leilukin.com/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:locale" content="en_MY">
+<meta property="og:description" content="I rebuilt my website with the static site generator Eleventy in April 2024.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://leilukin.com/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/">
+<meta name="twitter:description" content="I rebuilt my website with the static site generator Eleventy in April 2024.">
+<link rel="canonical" href="https://leilukin.com/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/">
+
+
+        
+        <link rel="stylesheet" href="/assets/css/global.css"><link rel="stylesheet" href="/assets/css/general.css"><link rel="stylesheet" href="/assets/css/content.css"><link rel="stylesheet" href="/assets/css/plugins.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/pridesymbols.css"><link rel="stylesheet" href="/assets/css/utility.css">
+    
+        <style>.toc__wrapper {
+        max-height: 89vh;
+        overflow-x: auto;
+        background-color: var(--clr-content-bg);
+        padding: 1rem 1.3rem;
+    }
+
+    .toc__heading {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: var(--clr-sub-heading);
+        cursor: pointer;
+    }
+
+    .toc ol,
+    .toc ol ol {
+        display: grid;
+        gap: 0.3em;
+    }
+
+    .toc ol {
+        border-top: 0.1em solid var(--clr-title-border);
+        padding-left: 1.3em;
+        padding-top: 1em;
+    }
+
+    .toc ol ol {
+        border-top: none;
+        list-style-type: disc;
+        padding-left: 1em;
+        padding-top: 0.3em;
+    }
+
+    .toc ol a {
+        font-size: 1.1rem;
+        padding-left: 0.3em;
+    }
+
+    .toc ol ol a {
+        padding: 0;
+        font-size: 1rem;
+    }
+.content__nav {
+        padding: 1.2em clamp(1em, 5%, 1.5em);
+        background-color: var(--clr-content-bg);
+    }
+
+    .content__nav--title {
+        font-size: 1.7rem;
+    }
+.breadcrumbs {
+        list-style-type: "";
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .breadcrumbs li::after {
+        content: '➔';
+        padding-left: 0.3em;
+    }
+
+    .blog__post--pagination {
+        padding-top: 1em;
+        margin-top: 2.5em;
+        border-top: 0.1em solid var(--clr-title-border);
+    }
+
+    .blog__post--nextprev {
+        list-style-type: "";
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 0.7em;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 'prev next';
+    }
+
+    .blog__post--prev { grid-area: prev; }
+    .blog__post--next { grid-area: next; }
+.hero img { filter: 
+drop-shadow(0.1rem 0.1rem 0.2rem black)
+drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
+; }
+.hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background-color: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0.7em;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: contain;
+        overflow: hidden;
+        max-height: 16rem;
+    }
+.navbar {
+        background: var(--clr-navbar-bg);
+        width: 100%;
+        z-index: 998;
+        position: sticky;
+        top: 0;
+        padding: 0.6em;
+    }
+
+    .navbar__menu {
+        list-style-type: "";
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .navbar__menu a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .navbar__menu a:hover { color: var(--clr-link-hover); }
+    .navbar__menu a:focus { outline-offset: 0.2em; }
+
+    .navbar__links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 0.5em;
+    }
+
+    .navbar__toggle {
+        background-color: inherit;
+        color: var(--clr-navbar-link);
+        border: none;
+        padding: 0;
+        font-size: 1.25rem;
+        font-weight: 700;
+        display: none;
+        align-items: center;
+        gap: 0.3em;
+    }
+
+    .navbar__toggle svg { fill: currentColor; }
+
+    .navbar__toggle:focus,
+    .navbar__menu a:focus { outline-offset: 0.1em; }
+    .navbar__toggle:focus,
+    .navbar__menu a:focus { outline: 0.15em solid var(--clr-navbar-link); }
+
+    .navbar__popover {
+        background-color: var(--clr-navbar-bg);
+        border: 0.15em solid var(--clr-navbar-link);
+        padding: 1.5em;
+        max-width: 85%;
+    }
+
+    .navbar__popover::backdrop {
+        background-color: black;
+        opacity: 0.5;
+    }
+
+    @supports selector([popover]) {
+        .navbar__toggle { display: flex; }
+        .navbar__links { display: none; }
+    }
+
+    /* Tablet screen size */
+    @media only screen and (min-width: 43.75rem) {
+        .navbar { padding: 1em 0.6em; }
+        .navbar__toggle, .navbar__popover { display: none; }
+        .navbar__links { display: flex; }
+    }
+.top-btn,
+    .top-btn:hover {
+        color: var(--clr-top-btn-txt);
+        text-decoration: none;
+    }
+
+    .top-btn {
+        position: fixed;
+        bottom: 0.5rem;
+        right: 0.5rem;
+        z-index: 999;
+
+        background-color: var(--clr-top-btn-bg);
+        display: flex;
+        align-items: center;
+        border-radius: 50em;
+        padding: 0.3em 0.5em;
+        gap: 0.2em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn-bg);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn__arrow {
+        display: inline-block;
+        width: 1em;
+        aspect-ratio: 1 / 1;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+    }
+:root { --footer-gap: 0.5em; }
+
+    .footer {
+        margin-top: auto;
+        width: 100%;
+        background: var(--clr-main-footer-bg);
+        padding: 1.5rem 1rem clamp(1.5rem, calc(100% - 1.5rem), 3.5rem);
+        text-align: center;
+        display: grid;
+        gap: var(--footer-gap);
+    }
+
+    .footer__links,
+    .footer__shrines {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: var(--footer-gap);
+    }
+
+    .footer__links { justify-self: center; }
+    .footer__shrines { align-self: center; }</style>
+
+        
+        <link rel="preload" href="/assets/fonts/lexend/lexend-v19-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/lexend/lexend-v19-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+
+<style>
+    /* lexend-regular - latin */
+    @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        src: url('/assets/fonts/lexend/lexend-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+
+    /* lexend-600 - latin */
+    @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        src: url('/assets/fonts/lexend/lexend-v19-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+
+    /* lexend-700 - latin */
+    @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 700;
+        src: url('/assets/fonts/lexend/lexend-v19-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+</style>
+        <link rel="stylesheet" href="/assets/fonts/intel-one-mono/intel-one-mono.css">
+
+        
+        <link rel="me" href="mailto:contact@leilukin.com">
+        <link rel="me" href="https://mstdn.social/@leilukin">
+        <link rel="me" href="https://twitter.com/Leilukin">
+        <link rel="me" href="https://github.com/Leilukin">
+        <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+
+        
+        <link rel="webmention" href="https://webmention.io/leilukin.com/webmention">
+
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+        
+        <script src="/assets/js/MnPoD-suxd.js" defer></script>
+    
+        <script src="/assets/js/details-utils.js" defer></script>
+    
+
+        <title>
+            April 2024 Leilukin&#39;s Hub Overhaul with Eleventy | Blog | Leilukin's Hub
+        </title>
+    </head>
+    <body>
+        <div class="skip-btn"><a href="#content">Skip to content</a></div>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <img fetchpriority="high" src="/assets/leilukin/Leilukins-Hub-website-banner.avif" alt="Banner of Leilukin's Hub" width="900" height="300">
+
+    </div>
+</header>
+        
+
+<nav class="navbar" aria-labelledby="top-level-nav-title">
+    <h2 class="visually-hidden" id="top-level-nav-title">Top Level</h2>
+    <ul class="navbar__menu navbar__links">
+    
+    
+        <li>
+            <a  href="/">Home</a>
+        </li>
+        <li>
+            <a  href="/about/">About</a>
+        </li>
+        <li>
+            <a  href="/now/">Now</a>
+        </li>
+        <li>
+            <a  href="/blog/">Blog</a>
+        </li>
+        <li>
+            <a  href="/articles/">Articles</a>
+        </li>
+        <li>
+            <a  href="/projects/">Projects</a>
+        </li>
+        <li>
+            <a  href="/shrines/">Shrines</a>
+        </li>
+        <li>
+            <a  href="/adoptables/">Adoptables</a>
+        </li>
+        <li>
+            <a  href="/links/">Links</a>
+        </li>
+        <li>
+            <a  href="/guestbook/">Guestbook</a>
+        </li>
+</ul>
+    <button class="navbar__toggle" popovertarget="nav-menu" aria-label="Toggle navigation menu">
+        <svg aria-hidden="true" focusable="false" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+        Navigation
+    </button>
+</nav>
+<div popover id="nav-menu" class="navbar__popover">
+    <ul class="navbar__menu">
+    
+    
+        <li>
+            <a  href="/">Home</a>
+        </li>
+        <li>
+            <a  href="/about/">About</a>
+        </li>
+        <li>
+            <a  href="/now/">Now</a>
+        </li>
+        <li>
+            <a  href="/blog/">Blog</a>
+        </li>
+        <li>
+            <a  href="/articles/">Articles</a>
+        </li>
+        <li>
+            <a  href="/projects/">Projects</a>
+        </li>
+        <li>
+            <a  href="/shrines/">Shrines</a>
+        </li>
+        <li>
+            <a  href="/adoptables/">Adoptables</a>
+        </li>
+        <li>
+            <a  href="/links/">Links</a>
+        </li>
+        <li>
+            <a  href="/guestbook/">Guestbook</a>
+        </li>
+</ul>
+</div>
+        <main id="content">
+            <header class="main__header">
+    
+        <nav aria-labelledby="breadcrumbs-title">
+            <h2 class="visually-hidden" id="breadcrumbs-title">Breadcrumbs</h2>
+            <ol class="breadcrumbs">
+                
+                <li>
+                    <a href="/blog/">Blog</a>
+                </li>
+                <li>
+                    <a href="/blog/posts/">Blog Archive</a>
+                </li>
+            </ol>
+        </nav>
+    
+
+    <h1>April 2024 Leilukin&#39;s Hub Overhaul with Eleventy</h1>
+
+    
+        <div class="article__info">
+            <p>Posted on 21 April 2024 by Leilukin
+            
+            
+                <p>Categories:
+                    
+                        <a href="/categories/site-updates">site updates</a>
+                    
+                </p>
+            
+            <p>🍿  7 min. read</p>
+        </div>
+    
+</header>
+
+<content-wrapper>
+    
+        <aside class="left-sidebar" aria-label="Left sidebar">
+    <details-utils force-open="(min-width: 60rem)" force-restore>
+        <details class="toc__wrapper sidebar--sticky">
+            <summary class="toc__heading" id="toc-heading">
+                Table of Contents
+            </summary>
+            <nav class="toc" aria-labelledby="toc-heading"><ol><li><a href="#challenges-of-maintaining-a-growing-website">Challenges of Maintaining a Growing Website</a></li>
+<li><a href="#why-eleventy">Why Eleventy?</a></li>
+<li><a href="#new-features-of-leilukins-hub">New Features of Leilukin's Hub</a><ol><li><a href="#pagination">Pagination</a></li>
+<li><a href="#estimated-reading-time-for-articles-and-blog-posts">Estimated Reading Time for Articles and Blog Posts</a></li>
+<li><a href="#heading-anchor-links">Heading Anchor Links</a></li>
+<li><a href="#content-categories">Content Categories</a></li>
+<li><a href="#archive-for-all-my-articles-and-blog-posts">Archive for All My Articles and Blog Posts</a></li>
+<li><a href="#breadcrumbs">Breadcrumbs</a></li>
+<li><a href="#now-page">Now Page</a></li></ol></li>
+<li><a href="#improved-features-of-leilukins-hub">Improved Features of Leilukin's Hub</a><ol><li><a href="#blog">Blog</a></li>
+<li><a href="#site-map">Site Map</a></li>
+<li><a href="#rss-feed">RSS Feed</a></li></ol></li>
+<li><a href="#other-notable-changes-of-leilukins-hub">Other Notable Changes of Leilukin's Hub</a><ol><li><a href="#direct-visit-to-leilukins-hub-home-page">Direct Visit to Leilukin's Hub Home Page</a></li></ol></li>
+<li><a href="#my-creation-page-renamed-to-projects">My Creation Page Renamed to Projects</a><ol><li><a href="#site-updates-being-blog-posts">Site Updates being Blog Posts</a></li>
+<li><a href="#featured-articles-being-part-of-articles">Featured Articles being Part of Articles</a></li>
+<li><a href="#responsive-shrine-header-images">Responsive Shrine Header Images</a></li>
+<li><a href="#scroll-to-top-function">Scroll-to-Top Function</a></li>
+<li><a href="#site-layout">Site Layout</a></li></ol></li>
+<li><a href="#use-github-actions-to-deploy-leilukins-hub-to-neocities">Use GitHub Actions to deploy Leilukin's Hub to Neocities</a></li>
+<li><a href="#a-weeks-worth-of-effort-well-spent">A Week's Worth of Effort Well-Spent</a></li></ol></nav>
+        </details>
+    </details-utils>
+</aside>
+
+    
+
+    
+
+    <article class="content">
+        <p>Leilukin's Hub just overgone a major overhaul: In April 2024, I have been rebuilding this entire website with the <a href="https://en.wikipedia.org/wiki/Static_site_generator">static site generator</a> (SSG), <a href="https://www.11ty.dev/">Eleventy</a>, and the process was completed on 20 April 2024.</p>
+<p>After building this website for more than a year, Eleventy finally provided the solution for me to maintain, manage and update my website in more dynamic and sufficient ways to save time.</p>
+<div class="heading-wrapper h2">
+<h2 id="challenges-of-maintaining-a-growing-website">Challenges of Maintaining a Growing Website</h2>
+<a class="heading-anchor" href="#challenges-of-maintaining-a-growing-website" aria-labelledby="challenges-of-maintaining-a-growing-website"><span hidden>#</span></a></div>
+<p>Leilukin's Hub has come a long way since launch on 11 September 2022, from a small website with a few pages and a simple layout, to a full-fledged personal website with multiple <a href="/articles">articles</a>, a <a href="/blog">blog</a>, a couple of <a href="/shrines">shrines</a> with additional features such as sticky navigation bar, table of contents, etc. Meanwhile, I have also been learning web development, which helped to improve this website in multiple ways.</p>
+<p>However, more content on my website also means more work to maintain. In particular, I have been trying to find ways to render components that share across multiple pages on my site, such as the header, navigation bar and footer, without having to copy and pasting the code of these components over and over whenever I want to add a new page. I had used JavaScript for this, but it is still not the best solution because I still needed to add a link to my JavaScript file in HTML. Thankfully, I eventually discovered Eleventy as the solution.</p>
+<div class="heading-wrapper h2">
+<h2 id="why-eleventy">Why Eleventy?</h2>
+<a class="heading-anchor" href="#why-eleventy" aria-labelledby="why-eleventy"><span hidden>#</span></a></div>
+<p>There are <a href="https://jamstack.org/generators/">many static site generators</a>, so why I choose Eleventy over others? The main reason is Eleventy's flexibility. You can start building your website with Eleventy with something as simple as <a href="https://hamatti.org/posts/index-md-is-valid-eleventy-project/">an <code>index.md</code> Markdown file</a>.</p>
+<p>In addition, Eleventy's own features, support for many <a href="https://www.11ty.dev/docs/languages/">template languages</a> and plugins allow me to have control over how I build and customise my own website, some of which I will highlight as I elaborate the changes and improvements I had made to this website below.</p>
+<div class="heading-wrapper h2">
+<h2 id="new-features-of-leilukins-hub">New Features of Leilukin's Hub</h2>
+<a class="heading-anchor" href="#new-features-of-leilukins-hub" aria-labelledby="new-features-of-leilukins-hub"><span hidden>#</span></a></div>
+<div class="heading-wrapper h3">
+<h3 id="pagination">Pagination</h3>
+<a class="heading-anchor" href="#pagination" aria-labelledby="pagination"><span hidden>#</span></a></div>
+<p>Leilukin's Hub <a href="/blog">blog</a> and main <a href="/changelogs">changelogs</a> page now has pagination, thanks to <a href="https://www.11ty.dev/docs/pagination/">Eleventy's built-in support for the feature</a>.</p>
+<div class="heading-wrapper h3">
+<h3 id="estimated-reading-time-for-articles-and-blog-posts">Estimated Reading Time for Articles and Blog Posts</h3>
+<a class="heading-anchor" href="#estimated-reading-time-for-articles-and-blog-posts" aria-labelledby="estimated-reading-time-for-articles-and-blog-posts"><span hidden>#</span></a></div>
+<p>Thanks to <a href="https://www.npmjs.com/package/@11tyrocks/eleventy-plugin-emoji-readtime">Emoji Read Time</a>, a community plugin for Eleventy, my articles and blog posts now show the piece's estimated reading time before the main content.</p>
+<div class="heading-wrapper h3">
+<h3 id="heading-anchor-links">Heading Anchor Links</h3>
+<a class="heading-anchor" href="#heading-anchor-links" aria-labelledby="heading-anchor-links"><span hidden>#</span></a></div>
+<p>For the articles, blog posts and some other pages that have headings, I have enabled anchor links on the headings by referring to the <a href="https://11ty.rocks/eleventyjs/slugs-anchors/#enable-anchor-links-on-content-headings">11ty Slugs and Anchors guide</a> from the website 11ty Rocks!, installing and configuring the <a href="https://www.npmjs.com/package/markdown-it-anchor">markdown-it-anchor</a> plugin.</p>
+<p>Having a plugin that automatically generates heading anchor links also allows me to generate table of contents by installing <a href="https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc">uncenter's eleventy-plugin-toc</a> plugin.</p>
+<div class="heading-wrapper h3">
+<h3 id="content-categories">Content Categories</h3>
+<a class="heading-anchor" href="#content-categories" aria-labelledby="content-categories"><span hidden>#</span></a></div>
+<p>Eleventy's <a href="https://www.11ty.dev/docs/collections/">collection</a> feature allows users to group site content by tags and create custom collections. This feature allows me to add categories to my articles and blog posts, and in turn allows visitors to browse my website by <a href="/categories">categories</a>.</p>
+<div class="heading-wrapper h3">
+<h3 id="archive-for-all-my-articles-and-blog-posts">Archive for All My Articles and Blog Posts</h3>
+<a class="heading-anchor" href="#archive-for-all-my-articles-and-blog-posts" aria-labelledby="archive-for-all-my-articles-and-blog-posts"><span hidden>#</span></a></div>
+<p>Eleventy's collection feature also allows me to dynamically display links to my articles and posts when I make a new one, without needing to edit more pages to add the new links myself. Therefore, I took advantage of this feature by creating an [archive] page to display all my articles and blog posts.</p>
+<p>Furthermore, my articles, blog and posts now has a right sidebar with links to my articles, blog posts as well as their archives and categories.</p>
+<div class="heading-wrapper h3">
+<h3 id="breadcrumbs">Breadcrumbs</h3>
+<a class="heading-anchor" href="#breadcrumbs" aria-labelledby="breadcrumbs"><span hidden>#</span></a></div>
+<p>Some contents on Leilukin's Hub now has <a href="https://www.seoptimer.com/blog/breadcrumbs-website/">breadcrumbs</a>, which shows the locations of these contents within this website and provides another means for visitors to navigate this site.</p>
+<div class="heading-wrapper h3">
+<h3 id="now-page">Now Page</h3>
+<a class="heading-anchor" href="#now-page" aria-labelledby="now-page"><span hidden>#</span></a></div>
+<p>Inspired by the <a href="https://nownownow.com/about">nownownow.com</a> website, I have added a <a href="/now">Now page</a> to Leilukin's Hub. This page is about what I am doing and focusing at the moment. The page can be updated at any time, so feel free to check it out when you visit this website to learn what I am up to!</p>
+<div class="heading-wrapper h2">
+<h2 id="improved-features-of-leilukins-hub">Improved Features of Leilukin's Hub</h2>
+<a class="heading-anchor" href="#improved-features-of-leilukins-hub" aria-labelledby="improved-features-of-leilukins-hub"><span hidden>#</span></a></div>
+<div class="heading-wrapper h3">
+<h3 id="blog">Blog</h3>
+<a class="heading-anchor" href="#blog" aria-labelledby="blog"><span hidden>#</span></a></div>
+<p>Leilukin's Hub blog was <a href="/blog/posts/2023-01-28-leilukins-hub-now-has-a-blog/">launched on 28 January 2023</a>. Formerly, the blog was built with <a href="https://zonelets.net/">Zonelets</a>; now I take advantage of Eleventy's flexibility by recreating Leilukin's Hub blog with it, thus using the main site's layout for the blog instead of <a href="/changelogs/layouts/#11-september-2023-blog-layout">using a different layout</a>. This makes the blog actually feels like it is part of this website.</p>
+<div class="heading-wrapper h3">
+<h3 id="site-map">Site Map</h3>
+<a class="heading-anchor" href="#site-map" aria-labelledby="site-map"><span hidden>#</span></a></div>
+<p>Visually, my <a href="/sitemap">site map</a> does not change much other than tweaking the spacing, but under the hood, I use the Eleventy's official <a href="https://www.11ty.dev/docs/plugins/navigation/">Navigation</a> plugin to generate the links to my pages in a hierarchical manner.</p>
+<div class="heading-wrapper h3">
+<h3 id="rss-feed">RSS Feed</h3>
+<a class="heading-anchor" href="#rss-feed" aria-labelledby="rss-feed"><span hidden>#</span></a></div>
+<p>I had created an <a href="/feed.xml">RSS feed</a> for Leilukin's Hub's changelogs and blog posts for a while, but previously I had to create new entries in the feed manually by using <a href="https://sourceforge.net/projects/rss-builder/">RSS Builder</a>. Now by installing and setting up Eleventy's official <a href="https://www.11ty.dev/docs/plugins/rss/">RSS</a> plugin, new feed entries will be generated automatically when I make new changelogs, articles and blog posts.</p>
+<div class="heading-wrapper h2">
+<h2 id="other-notable-changes-of-leilukins-hub">Other Notable Changes of Leilukin's Hub</h2>
+<a class="heading-anchor" href="#other-notable-changes-of-leilukins-hub" aria-labelledby="other-notable-changes-of-leilukins-hub"><span hidden>#</span></a></div>
+<p>The following changes are not related to any features inherent to Eleventy or its plugins, but they were part of my process of rebuilding Leilukin's Hub.</p>
+<div class="heading-wrapper h3">
+<h3 id="direct-visit-to-leilukins-hub-home-page">Direct Visit to Leilukin's Hub Home Page</h3>
+<a class="heading-anchor" href="#direct-visit-to-leilukins-hub-home-page" aria-labelledby="direct-visit-to-leilukins-hub-home-page"><span hidden>#</span></a></div>
+<p>I have removed the splash page that was used as the very first page you saw when you visited the link leilukin.neocities.org. Now when you visit the link to my website, you will immediately see the home page wihout any extra step.</p>
+<div class="heading-wrapper h2">
+<h2 id="my-creation-page-renamed-to-projects">My Creation Page Renamed to Projects</h2>
+<a class="heading-anchor" href="#my-creation-page-renamed-to-projects" aria-labelledby="my-creation-page-renamed-to-projects"><span hidden>#</span></a></div>
+<p>The page listing the things I have created has been renamed from &quot;My Creation&quot; to <a href="/projects">&quot;Projects&quot;</a>.</p>
+<div class="heading-wrapper h3">
+<h3 id="site-updates-being-blog-posts">Site Updates being Blog Posts</h3>
+<a class="heading-anchor" href="#site-updates-being-blog-posts" aria-labelledby="site-updates-being-blog-posts"><span hidden>#</span></a></div>
+<p>Previously, longer <a href="/categories/site-updates/">site updates</a> were made into their own pages, since Leilukin's Hub did not have its own blog when I made the first site update post. Now these updates are converted into blog posts.</p>
+<div class="heading-wrapper h3">
+<h3 id="featured-articles-being-part-of-articles">Featured Articles being Part of Articles</h3>
+<a class="heading-anchor" href="#featured-articles-being-part-of-articles" aria-labelledby="featured-articles-being-part-of-articles"><span hidden>#</span></a></div>
+<p>Formerly, pages that featured my interviews were on their own page called &quot;featured&quot;. Now, these <a href="/articles/#featured-articles">featured articles</a> are merged into the <a href="/articles">articles</a> page.</p>
+<div class="heading-wrapper h3">
+<h3 id="responsive-shrine-header-images">Responsive Shrine Header Images</h3>
+<a class="heading-anchor" href="#responsive-shrine-header-images" aria-labelledby="responsive-shrine-header-images"><span hidden>#</span></a></div>
+<p>I have created two different resolutions of each header image of my <a href="/shrines">shrines</a>. Which version of the shrine header image gets displayed depends on if your screen is horizontal or vertical.</p>
+<div class="heading-wrapper h3">
+<h3 id="scroll-to-top-function">Scroll-to-Top Function</h3>
+<a class="heading-anchor" href="#scroll-to-top-function" aria-labelledby="scroll-to-top-function"><span hidden>#</span></a></div>
+<p>Previously, this site's scroll-to-top function was placed in the footer. Now, I created a scroll-to-top button in the bottom right corner of the page when you scroll down.</p>
+<div class="heading-wrapper h3">
+<h3 id="site-layout">Site Layout</h3>
+<a class="heading-anchor" href="#site-layout" aria-labelledby="site-layout"><span hidden>#</span></a></div>
+<p>The main title of each page is now displayed above both the main content and sidebars, instead of just above the main content like in the <a href="/changelogs/layouts/#23-june-2023">previous layout</a>. This change was made so when this site is viewed on mobile, the table of contents of the left sidebar will be displayed above the main content but still below the page's main title. Previously, I had to place the table of contents on both the left sidebar and the main content's body, and hide the sidebar table of contents when viewed on mobile.</p>
+<p>I also use <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS grid</a> to set the page layout in that the main content's width will remain the same instead of expanding if there is no sidebar on the page.</p>
+<div class="heading-wrapper h2">
+<h2 id="use-github-actions-to-deploy-leilukins-hub-to-neocities">Use GitHub Actions to deploy Leilukin's Hub to Neocities</h2>
+<a class="heading-anchor" href="#use-github-actions-to-deploy-leilukins-hub-to-neocities" aria-labelledby="use-github-actions-to-deploy-leilukins-hub-to-neocities"><span hidden>#</span></a></div>
+<p>Eleventy is great for reducing many workloads in maintaining and updating my website, so how about publishing the website to Neocities? That is where the <a href="https://docs.github.com/en/actions">GitHub actions</a> comes in.</p>
+<p>Before I decided to use a static site generator to rebuild Leilukin's Hub, I discovered the GitHub action named <a href="https://github.com/bcomnes/deploy-to-neocities">deploy-to-neocities</a>, which as the name suggests, allows you to publish your website directly from a GitHub repository to Neocities. I succeeded in deploying all the files of Leilukin's Hub to Neocities with it even before starting to rebuild my website with Eleventy.</p>
+<p>I have been using Visual Studio Code to write the code for Leilukin's Hub, and saving a copy of all the files of my website on my own computer. The combination of creating a Git repository for Leilukin's Hub and using the deploy-to-neocities GitHub action saves the time and workload needed to log in to Neocities, navigate the files and folders and open a file to edit the code every time I want to make a change to my website.</p>
+<div class="heading-wrapper h2">
+<h2 id="a-weeks-worth-of-effort-well-spent">A Week's Worth of Effort Well-Spent</h2>
+<a class="heading-anchor" href="#a-weeks-worth-of-effort-well-spent" aria-labelledby="a-weeks-worth-of-effort-well-spent"><span hidden>#</span></a></div>
+<p>I had spent a whole week in rebuilding Leilukin's Hub from scratch with Eleventy, and at last completing the process on 20 April 2024. Most of the time rebuilding this website was spent on setting up layout templates, rather than changing the format of my articles and blog posts from HTML to markdown. However, the effort and time spent was worth it, and Leilukin's Hub feels new again.</p>
+<p>Welcome to the rebuilt Leilukin's Hub! 🥳</p>
+
+
+    
+        <nav class="blog__post--pagination" aria-labelledby="nextprev-title">
+            <h2 class="visually-hidden" id="nextprev-title">Next and Previous Blog Posts</h2>
+                    <ul class="blog__post--nextprev">
+                        <li class="blog__post--prev">
+                            <p>Previous Post:</p>
+                            <a href="/blog/posts/2024-03-06-i-received-a-lifetime-premium-membership-on-nexus-mods-for-free/">I Received a Lifetime Premium Membership on Nexus Mods for Free</a>
+                        </li>
+                    
+                        <li class="blog__post--next">
+                            <p>Next Post:</p>
+                            <a href="/blog/posts/2024-04-27-lesbian-visibility-day1-year-anniversary-of-cassette-beasts/">Happy Lesbian Visibility Day and 1-Year Anniversary of Cassette Beasts</a>
+                        </li>
+                    
+                    </ul>
+        </nav>
+    
+    </article>
+
+    
+        <aside class="right-sidebar" aria-label="Right sidebar">
+    <nav class="content__nav sidebar--sticky" aria-labelledby="my-contents-title">
+        <h2 class="content__nav--title" id="my-contents-title">My Contents</h2>
+        <ul class="content__nav--links">
+            
+                <li><a href="/archive/">Content Archive</a></li>
+            
+                <li><a href="/categories/">Content Categories</a></li>
+            
+            <li><a href="/articles/">Articles</a></li>
+            
+                <li><a href="/blog/posts/">Blog Archive</a></li>
+            
+                <li><a href="/blog/">Blog Home</a></li>
+            
+        </ul>
+    </nav>
+</aside>
+    
+
+    
+</content-wrapper>
+        </main>
+        <footer class="footer">
+    <p>Made with ♥ by Leilukin since 11 September 2022</p>
+
+    
+    <ul class="inline-nav footer__links">
+        <li><a href="/feed.xml">RSS</a></li>
+        <li><a
+            
+            href="/sitemap/
+        ">Site Map</a></li>
+        <li><a
+            
+            href="/changelogs/"
+        >Changelogs</a></li><li><a
+                
+                href="/accessibility/"
+            >Accessibility</a></li><li><a
+                
+                href="/colophon/"
+            >Colophon</a></li></ul>
+<div class="h-card hidden">
+    <span class="p-name p-nickname">Leilukin</span>
+    <a href="/" class="u-url">Home page</a>
+    <img src="https://i.postimg.cc/RZJgS6tY/leilukin-bee.avif" alt="Leilukin" class="u-photo" loading="lazy">
+    <span class="p-country-name">Malaysia</span>
+    <span class="p-note">They/she. A proudly queer and autistic <span class="p-gender-identity">non-binary</span> lesbian from Malaysia.</span>
+</div><a href="#top" class="top-btn">
+    <svg class="top-btn__arrow" focusable="false" aria-hidden="true" viewBox="0 0 26 28">
+        <path d="M25.172 15.172c0 0.531-0.219 1.031-0.578 1.406l-1.172 1.172c-0.375 0.375-0.891 0.594-1.422 0.594s-1.047-0.219-1.406-0.594l-4.594-4.578v11c0 1.125-0.938 1.828-2 1.828h-2c-1.062 0-2-0.703-2-1.828v-11l-4.594 4.578c-0.359 0.375-0.875 0.594-1.406 0.594s-1.047-0.219-1.406-0.594l-1.172-1.172c-0.375-0.375-0.594-0.875-0.594-1.406s0.219-1.047 0.594-1.422l10.172-10.172c0.359-0.375 0.875-0.578 1.406-0.578s1.047 0.203 1.422 0.578l10.172 10.172c0.359 0.375 0.578 0.891 0.578 1.422z"></path>
+    </svg>
+    Back to Top
+</a>
+</footer>
+        
+    </body>
+</html>

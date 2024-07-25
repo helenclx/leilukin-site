@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="top">
+    <head>
+        
+    
+        <meta property="og:title" content="Colophon">
+    
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Leilukin">
+<meta name="description" content="Leilukin's Hub's colophon page.">
+<meta name="generator" content="Eleventy v3.0.0">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://leilukin.com/colophon/">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:locale" content="en_MY">
+<meta property="og:description" content="Leilukin's Hub's colophon page.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://leilukin.com/colophon/">
+<meta name="twitter:description" content="Leilukin's Hub's colophon page.">
+<link rel="canonical" href="https://leilukin.com/colophon/">
+
+
+        
+        <link rel="stylesheet" href="/assets/css/global.css"><link rel="stylesheet" href="/assets/css/general.css"><link rel="stylesheet" href="/assets/css/content.css"><link rel="stylesheet" href="/assets/css/plugins.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/pridesymbols.css"><link rel="stylesheet" href="/assets/css/utility.css">
+    
+        <style>.toc__wrapper {
+        max-height: 89vh;
+        overflow-x: auto;
+        background-color: var(--clr-content-bg);
+        padding: 1rem 1.3rem;
+    }
+
+    .toc__heading {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: var(--clr-sub-heading);
+        cursor: pointer;
+    }
+
+    .toc ol,
+    .toc ol ol {
+        display: grid;
+        gap: 0.3em;
+    }
+
+    .toc ol {
+        border-top: 0.1em solid var(--clr-title-border);
+        padding-left: 1.3em;
+        padding-top: 1em;
+    }
+
+    .toc ol ol {
+        border-top: none;
+        list-style-type: disc;
+        padding-left: 1em;
+        padding-top: 0.3em;
+    }
+
+    .toc ol a {
+        font-size: 1.1rem;
+        padding-left: 0.3em;
+    }
+
+    .toc ol ol a {
+        padding: 0;
+        font-size: 1rem;
+    }
+.breadcrumbs {
+        list-style-type: "";
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .breadcrumbs li::after {
+        content: '➔';
+        padding-left: 0.3em;
+    }
+
+    .blog__post--pagination {
+        padding-top: 1em;
+        margin-top: 2.5em;
+        border-top: 0.1em solid var(--clr-title-border);
+    }
+
+    .blog__post--nextprev {
+        list-style-type: "";
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 0.7em;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 'prev next';
+    }
+
+    .blog__post--prev { grid-area: prev; }
+    .blog__post--next { grid-area: next; }
+.hero img { filter: 
+drop-shadow(0.1rem 0.1rem 0.2rem black)
+drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
+; }
+.hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background-color: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0.7em;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: contain;
+        overflow: hidden;
+        max-height: 16rem;
+    }
+.navbar {
+        background: var(--clr-navbar-bg);
+        width: 100%;
+        z-index: 998;
+        position: sticky;
+        top: 0;
+        padding: 0.6em;
+    }
+
+    .navbar__menu {
+        list-style-type: "";
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .navbar__menu a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .navbar__menu a:hover { color: var(--clr-link-hover); }
+    .navbar__menu a:focus { outline-offset: 0.2em; }
+
+    .navbar__links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 0.5em;
+    }
+
+    .navbar__toggle {
+        background-color: inherit;
+        color: var(--clr-navbar-link);
+        border: none;
+        padding: 0;
+        font-size: 1.25rem;
+        font-weight: 700;
+        display: none;
+        align-items: center;
+        gap: 0.3em;
+    }
+
+    .navbar__toggle svg { fill: currentColor; }
+
+    .navbar__toggle:focus,
+    .navbar__menu a:focus { outline-offset: 0.1em; }
+    .navbar__toggle:focus,
+    .navbar__menu a:focus { outline: 0.15em solid var(--clr-navbar-link); }
+
+    .navbar__popover {
+        background-color: var(--clr-navbar-bg);
+        border: 0.15em solid var(--clr-navbar-link);
+        padding: 1.5em;
+        max-width: 85%;
+    }
+
+    .navbar__popover::backdrop {
+        background-color: black;
+        opacity: 0.5;
+    }
+
+    @supports selector([popover]) {
+        .navbar__toggle { display: flex; }
+        .navbar__links { display: none; }
+    }
+
+    /* Tablet screen size */
+    @media only screen and (min-width: 43.75rem) {
+        .navbar { padding: 1em 0.6em; }
+        .navbar__toggle, .navbar__popover { display: none; }
+        .navbar__links { display: flex; }
+    }
+.top-btn,
+    .top-btn:hover {
+        color: var(--clr-top-btn-txt);
+        text-decoration: none;
+    }
+
+    .top-btn {
+        position: fixed;
+        bottom: 0.5rem;
+        right: 0.5rem;
+        z-index: 999;
+
+        background-color: var(--clr-top-btn-bg);
+        display: flex;
+        align-items: center;
+        border-radius: 50em;
+        padding: 0.3em 0.5em;
+        gap: 0.2em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn-bg);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn__arrow {
+        display: inline-block;
+        width: 1em;
+        aspect-ratio: 1 / 1;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+    }
+:root { --footer-gap: 0.5em; }
+
+    .footer {
+        margin-top: auto;
+        width: 100%;
+        background: var(--clr-main-footer-bg);
+        padding: 1.5rem 1rem clamp(1.5rem, calc(100% - 1.5rem), 3.5rem);
+        text-align: center;
+        display: grid;
+        gap: var(--footer-gap);
+    }
+
+    .footer__links,
+    .footer__shrines {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: var(--footer-gap);
+    }
+
+    .footer__links { justify-self: center; }
+    .footer__shrines { align-self: center; }</style>
+
+        
+        <link rel="preload" href="/assets/fonts/lexend/lexend-v19-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/lexend/lexend-v19-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+
+<style>
+    /* lexend-regular - latin */
+    @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        src: url('/assets/fonts/lexend/lexend-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+
+    /* lexend-600 - latin */
+    @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        src: url('/assets/fonts/lexend/lexend-v19-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+
+    /* lexend-700 - latin */
+    @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 700;
+        src: url('/assets/fonts/lexend/lexend-v19-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+</style>
+        <link rel="stylesheet" href="/assets/fonts/intel-one-mono/intel-one-mono.css">
+
+        
+        <link rel="me" href="mailto:contact@leilukin.com">
+        <link rel="me" href="https://mstdn.social/@leilukin">
+        <link rel="me" href="https://twitter.com/Leilukin">
+        <link rel="me" href="https://github.com/Leilukin">
+        <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+
+        
+        <link rel="webmention" href="https://webmention.io/leilukin.com/webmention">
+
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+        
+        <script src="/assets/js/MnPoD-suxd.js" defer></script>
+    
+        <script src="/assets/js/details-utils.js" defer></script>
+    
+
+        <title>
+            Colophon | Leilukin's Hub
+        </title>
+    </head>
+    <body>
+        <div class="skip-btn"><a href="#content">Skip to content</a></div>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <img fetchpriority="high" src="/assets/leilukin/Leilukins-Hub-website-banner.avif" alt="Banner of Leilukin's Hub" width="900" height="300">
+
+    </div>
+</header>
+        
+
+<nav class="navbar" aria-labelledby="top-level-nav-title">
+    <h2 class="visually-hidden" id="top-level-nav-title">Top Level</h2>
+    <ul class="navbar__menu navbar__links">
+    
+    
+        <li>
+            <a  href="/">Home</a>
+        </li>
+        <li>
+            <a  href="/about/">About</a>
+        </li>
+        <li>
+            <a  href="/now/">Now</a>
+        </li>
+        <li>
+            <a  href="/blog/">Blog</a>
+        </li>
+        <li>
+            <a  href="/articles/">Articles</a>
+        </li>
+        <li>
+            <a  href="/projects/">Projects</a>
+        </li>
+        <li>
+            <a  href="/shrines/">Shrines</a>
+        </li>
+        <li>
+            <a  href="/adoptables/">Adoptables</a>
+        </li>
+        <li>
+            <a  href="/links/">Links</a>
+        </li>
+        <li>
+            <a  href="/guestbook/">Guestbook</a>
+        </li>
+</ul>
+    <button class="navbar__toggle" popovertarget="nav-menu" aria-label="Toggle navigation menu">
+        <svg aria-hidden="true" focusable="false" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+        Navigation
+    </button>
+</nav>
+<div popover id="nav-menu" class="navbar__popover">
+    <ul class="navbar__menu">
+    
+    
+        <li>
+            <a  href="/">Home</a>
+        </li>
+        <li>
+            <a  href="/about/">About</a>
+        </li>
+        <li>
+            <a  href="/now/">Now</a>
+        </li>
+        <li>
+            <a  href="/blog/">Blog</a>
+        </li>
+        <li>
+            <a  href="/articles/">Articles</a>
+        </li>
+        <li>
+            <a  href="/projects/">Projects</a>
+        </li>
+        <li>
+            <a  href="/shrines/">Shrines</a>
+        </li>
+        <li>
+            <a  href="/adoptables/">Adoptables</a>
+        </li>
+        <li>
+            <a  href="/links/">Links</a>
+        </li>
+        <li>
+            <a  href="/guestbook/">Guestbook</a>
+        </li>
+</ul>
+</div>
+        <main id="content">
+            <header class="main__header">
+    
+
+    <h1>Colophon</h1>
+
+    
+        
+            <p>Leilukin&#39;s Hub&#39;s colophon page.</p>
+        
+    
+</header>
+
+<content-wrapper>
+    
+        <aside class="left-sidebar" aria-label="Left sidebar">
+    <details-utils force-open="(min-width: 60rem)" force-restore>
+        <details class="toc__wrapper sidebar--sticky">
+            <summary class="toc__heading" id="toc-heading">
+                Table of Contents
+            </summary>
+            <nav class="toc" aria-labelledby="toc-heading"><ol><li><a href="#technology">Technology</a></li>
+<li><a href="#host-and-domain">Host and Domain</a></li>
+<li><a href="#plugins">Plugins</a><ol><li><a href="#eleventy-community-plugins">Eleventy Community Plugins</a></li>
+<li><a href="#markdown-it-plugins">markdown-it plugins</a></li></ol></li>
+<li><a href="#self-hosted-assets">Self-hosted Assets</a></li>
+<li><a href="#javascript">JavaScript</a></li></ol></nav>
+        </details>
+    </details-utils>
+</aside>
+
+    
+
+    
+
+    <article class="content">
+        
+<p>Information about how this website is built.</p>
+<div class="heading-wrapper h2">
+<h2 id="technology">Technology</h2>
+<a class="heading-anchor" href="#technology" aria-labelledby="technology"><span hidden>#</span></a></div>
+<ul>
+<li>Built with the static site generator <a href="https://www.11ty.dev/">Eleventy</a> (version 3.0)</li>
+<li>Templating languages: Nunjucks and Markdown</li>
+<li>Code written with Visual Studio Code</li>
+<li>JavaScript runtime: <a href="https://bun.sh">Bun</a></li>
+<li>Source code available on <a href="https://github.com/helenclx/leilukin-site">GitHub</a> and its <a href="https://git.32bit.cafe/Leilukin/leilukin-site">Gitea mirror</a></li>
+</ul>
+<div class="heading-wrapper h2">
+<h2 id="host-and-domain">Host and Domain</h2>
+<a class="heading-anchor" href="#host-and-domain" aria-labelledby="host-and-domain"><span hidden>#</span></a></div>
+<ul>
+<li>Deployed to <a href="https://www.netlify.com/">Netlify</a> from this site's GitHub repository</li>
+<li>The domain name, <code>leilukin.com</code>, was registered on 30 May 2024, was purchased from, registered on, and is managed by <a href="https://porkbun.com/">Porkbun</a></li>
+</ul>
+<div class="heading-wrapper h2">
+<h2 id="plugins">Plugins</h2>
+<a class="heading-anchor" href="#plugins" aria-labelledby="plugins"><span hidden>#</span></a></div>
+<ul>
+<li>Eleventy's official <a href="https://www.11ty.dev/docs/plugins/rss/">RSS</a> plugin</li>
+<li>Eleventy's official <a href="https://www.11ty.dev/docs/plugins/navigation/">Navigation</a> plugin</li>
+<li><a href="https://www.npmjs.com/package/@zachleat/details-utils">@zachleat/details-utils</a></li>
+</ul>
+<div class="heading-wrapper h3">
+<h3 id="eleventy-community-plugins">Eleventy Community Plugins</h3>
+<a class="heading-anchor" href="#eleventy-community-plugins" aria-labelledby="eleventy-community-plugins"><span hidden>#</span></a></div>
+<ul>
+<li><a href="https://www.npmjs.com/package/@11tyrocks/eleventy-plugin-emoji-readtime">@11tyrocks/eleventy-plugin-emoji-readtime</a></li>
+<li><a href="https://www.npmjs.com/package/eleventy-plugin-embed-everything">eleventy-plugin-embed-everything</a></li>
+<li><a href="https://www.npmjs.com/package/eleventy-plugin-metagen">eleventy-plugin-metagen</a></li>
+<li><a href="https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc">@uncenter/eleventy-plugin-toc</a></li>
+</ul>
+<div class="heading-wrapper h3">
+<h3 id="markdown-it-plugins">markdown-it plugins</h3>
+<a class="heading-anchor" href="#markdown-it-plugins" aria-labelledby="markdown-it-plugins"><span hidden>#</span></a></div>
+<p>Eleventy has the Markdown parser <a href="https://www.npmjs.com/package/markdown-it">markdown-it</a> built in to render Markdown to HTML.</p>
+<ul>
+<li><a href="https://www.npmjs.com/package/markdown-it-anchor">markdown-it-anchor</a></li>
+<li><a href="https://www.npmjs.com/package/markdown-it-attribution">markdown-it-attribution</a></li>
+<li><a href="https://www.npmjs.com/package/markdown-it-attrs">markdown-it-attrs</a></li>
+<li><a href="https://www.npmjs.com/package/markdown-it-bracketed-spans">markdown-it-bracketed-spans</a></li>
+<li><a href="https://www.npmjs.com/package/markdown-it-deflist">markdown-it-deflist</a></li>
+<li><a href="https://www.npmjs.com/package/markdown-it-footnote">markdown-it-footnote</a></li>
+</ul>
+<div class="heading-wrapper h2">
+<h2 id="self-hosted-assets">Self-hosted Assets</h2>
+<a class="heading-anchor" href="#self-hosted-assets" aria-labelledby="self-hosted-assets"><span hidden>#</span></a></div>
+<ul>
+<li><a href="https://www.lexend.com/">Lexend</a> font family — used as the default font of this site</li>
+<li><a href="https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html">Intel One Mono</a> typeface — used as the monospaced font of this site</li>
+</ul>
+<div class="heading-wrapper h2">
+<h2 id="javascript">JavaScript</h2>
+<a class="heading-anchor" href="#javascript" aria-labelledby="javascript"><span hidden>#</span></a></div>
+<p>Due to this website being a static site, JavaScript is used to create dynamic and interactive components of this site. Here is a list of how JavaScript is used on this site:</p>
+<ul>
+<li>The header of every page uses JavaScript to detect the visitor's current date, so the header will display a top blurb and in some cases also changes the header background on certain dates, including:
+<ul>
+<li>LGBTQ+ events, International Women's Day, Disability Pride Month, website anniversary and my birthday;</li>
+<li>Release anniversaries of media with dedicated shrines, including:
+<ul>
+<li><a href="/shrines/asummersend"><cite>A Summer’s End — Hong Kong 1986</cite></a></li>
+<li><a href="/shrines/starwarskotor"><cite>Star Wars: Knights of the Old Republic</cite></a></li>
+<li><a href="/shrines/cassettebeasts"><cite>Cassette Beasts</cite></a></li>
+</ul>
+</li>
+<li>Birthdays of characters from <cite>A Summer’s End — Hong Kong 1986</cite> on its shrine.</li>
+</ul>
+</li>
+<li>Scott O'Hara's <a href="https://github.com/scottaohara/a11y_tooltips">ARIA Tooltips</a> script is used to implement accessible tooltips that meet Web Content Accessibility Guidelines (WCAG) 2.2 success criterion for <a href="https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html">1.4.13: Content on Hover or Focus (Level AA)</a>, by allowing visitors to see tooltips on keyboard focus and dismiss tooltips by pressing the Escape key.</li>
+<li>Zach Leatherman's <a href="https://www.npmjs.com/package/@zachleat/details-utils">details-utils</a> JavaScript package is used to automatically expand sidebar table of contents on wide screens.</li>
+<li><a href="https://status.cafe/">status.cafe</a> widget, which is placed on the home page, uses JavaScript to fetch data of my latest status update.</li>
+<li><a href="https://www.websitecarbon.com/badge/">Website Carbon Badge</a>, which is placed on the home page, uses JavaScript to calculate the carbon footprint of this website.</li>
+<li><a href="/links">Links page</a>'s <a href="/links/#joined">Joined tab</a> includes webring widgets that use JavaScript.</li>
+<li><a href="/guestbook">Guestbook</a> uses JavaScript to render a form, send form data to my private Discord channel via Discord webhook, and fetch data from Google Sheets to display messages on the web page (guestbook code by <a href="https://groundedwren.neocities.org/pages/controls/guestbookDemo">Vera Konigin</a>).</li>
+</ul>
+<p>You can still access most of the content of this site with JavaScript disabled, but the above components will not work as intended.</p>
+
+
+<p>(This colophon page was last updated on 20 July 2024)</p>
+
+    
+    </article>
+
+    
+
+    
+</content-wrapper>
+        </main>
+        <footer class="footer">
+    <p>Made with ♥ by Leilukin since 11 September 2022</p>
+
+    
+    <ul class="inline-nav footer__links">
+        <li><a href="/feed.xml">RSS</a></li>
+        <li><a
+            
+            href="/sitemap/
+        ">Site Map</a></li>
+        <li><a
+            
+            href="/changelogs/"
+        >Changelogs</a></li><li><a
+                
+                href="/accessibility/"
+            >Accessibility</a></li><li><a
+                
+                href="/colophon/"
+            >Colophon</a></li></ul>
+<div class="h-card hidden">
+    <span class="p-name p-nickname">Leilukin</span>
+    <a href="/" class="u-url">Home page</a>
+    <img src="https://i.postimg.cc/RZJgS6tY/leilukin-bee.avif" alt="Leilukin" class="u-photo" loading="lazy">
+    <span class="p-country-name">Malaysia</span>
+    <span class="p-note">They/she. A proudly queer and autistic <span class="p-gender-identity">non-binary</span> lesbian from Malaysia.</span>
+</div><a href="#top" class="top-btn">
+    <svg class="top-btn__arrow" focusable="false" aria-hidden="true" viewBox="0 0 26 28">
+        <path d="M25.172 15.172c0 0.531-0.219 1.031-0.578 1.406l-1.172 1.172c-0.375 0.375-0.891 0.594-1.422 0.594s-1.047-0.219-1.406-0.594l-4.594-4.578v11c0 1.125-0.938 1.828-2 1.828h-2c-1.062 0-2-0.703-2-1.828v-11l-4.594 4.578c-0.359 0.375-0.875 0.594-1.406 0.594s-1.047-0.219-1.406-0.594l-1.172-1.172c-0.375-0.375-0.594-0.875-0.594-1.406s0.219-1.047 0.594-1.422l10.172-10.172c0.359-0.375 0.875-0.578 1.406-0.578s1.047 0.203 1.422 0.578l10.172 10.172c0.359 0.375 0.578 0.891 0.578 1.422z"></path>
+    </svg>
+    Back to Top
+</a>
+</footer>
+        
+    </body>
+</html>

@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="top">
+    <head>
+        
+    
+        <meta property="og:title" content="The Search for a Guestbook Solution for Leilukin&#39;s Hub | Blog">
+    
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Leilukin">
+<meta name="description" content="I spent a great deal of time in searching for a guestbook for Leilukin's hub.">
+<meta name="generator" content="Eleventy v3.0.0">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://leilukin.com/blog/posts/2024-05-29-new-guestbook-leilukins-hub/">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:locale" content="en_MY">
+<meta property="og:description" content="I spent a great deal of time in searching for a guestbook for Leilukin's hub.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://leilukin.com/blog/posts/2024-05-29-new-guestbook-leilukins-hub/">
+<meta name="twitter:description" content="I spent a great deal of time in searching for a guestbook for Leilukin's hub.">
+<link rel="canonical" href="https://leilukin.com/blog/posts/2024-05-29-new-guestbook-leilukins-hub/">
+
+
+        
+        <link rel="stylesheet" href="/assets/css/global.css"><link rel="stylesheet" href="/assets/css/general.css"><link rel="stylesheet" href="/assets/css/content.css"><link rel="stylesheet" href="/assets/css/plugins.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/pridesymbols.css"><link rel="stylesheet" href="/assets/css/utility.css">
+    
+        <style>.content__nav {
+        padding: 1.2em clamp(1em, 5%, 1.5em);
+        background-color: var(--clr-content-bg);
+    }
+
+    .content__nav--title {
+        font-size: 1.7rem;
+    }
+.breadcrumbs {
+        list-style-type: "";
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .breadcrumbs li::after {
+        content: '➔';
+        padding-left: 0.3em;
+    }
+
+    .blog__post--pagination {
+        padding-top: 1em;
+        margin-top: 2.5em;
+        border-top: 0.1em solid var(--clr-title-border);
+    }
+
+    .blog__post--nextprev {
+        list-style-type: "";
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 0.7em;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 'prev next';
+    }
+
+    .blog__post--prev { grid-area: prev; }
+    .blog__post--next { grid-area: next; }
+.hero img { filter: 
+drop-shadow(0.1rem 0.1rem 0.2rem black)
+drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
+; }
+.hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background-color: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0.7em;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: contain;
+        overflow: hidden;
+        max-height: 16rem;
+    }
+.navbar {
+        background: var(--clr-navbar-bg);
+        width: 100%;
+        z-index: 998;
+        position: sticky;
+        top: 0;
+        padding: 0.6em;
+    }
+
+    .navbar__menu {
+        list-style-type: "";
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .navbar__menu a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .navbar__menu a:hover { color: var(--clr-link-hover); }
+    .navbar__menu a:focus { outline-offset: 0.2em; }
+
+    .navbar__links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 0.5em;
+    }
+
+    .navbar__toggle {
+        background-color: inherit;
+        color: var(--clr-navbar-link);
+        border: none;
+        padding: 0;
+        font-size: 1.25rem;
+        font-weight: 700;
+        display: none;
+        align-items: center;
+        gap: 0.3em;
+    }
+
+    .navbar__toggle svg { fill: currentColor; }
+
+    .navbar__toggle:focus,
+    .navbar__menu a:focus { outline-offset: 0.1em; }
+    .navbar__toggle:focus,
+    .navbar__menu a:focus { outline: 0.15em solid var(--clr-navbar-link); }
+
+    .navbar__popover {
+        background-color: var(--clr-navbar-bg);
+        border: 0.15em solid var(--clr-navbar-link);
+        padding: 1.5em;
+        max-width: 85%;
+    }
+
+    .navbar__popover::backdrop {
+        background-color: black;
+        opacity: 0.5;
+    }
+
+    @supports selector([popover]) {
+        .navbar__toggle { display: flex; }
+        .navbar__links { display: none; }
+    }
+
+    /* Tablet screen size */
+    @media only screen and (min-width: 43.75rem) {
+        .navbar { padding: 1em 0.6em; }
+        .navbar__toggle, .navbar__popover { display: none; }
+        .navbar__links { display: flex; }
+    }
+.top-btn,
+    .top-btn:hover {
+        color: var(--clr-top-btn-txt);
+        text-decoration: none;
+    }
+
+    .top-btn {
+        position: fixed;
+        bottom: 0.5rem;
+        right: 0.5rem;
+        z-index: 999;
+
+        background-color: var(--clr-top-btn-bg);
+        display: flex;
+        align-items: center;
+        border-radius: 50em;
+        padding: 0.3em 0.5em;
+        gap: 0.2em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn-bg);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn__arrow {
+        display: inline-block;
+        width: 1em;
+        aspect-ratio: 1 / 1;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+    }
+:root { --footer-gap: 0.5em; }
+
+    .footer {
+        margin-top: auto;
+        width: 100%;
+        background: var(--clr-main-footer-bg);
+        padding: 1.5rem 1rem clamp(1.5rem, calc(100% - 1.5rem), 3.5rem);
+        text-align: center;
+        display: grid;
+        gap: var(--footer-gap);
+    }
+
+    .footer__links,
+    .footer__shrines {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: var(--footer-gap);
+    }
+
+    .footer__links { justify-self: center; }
+    .footer__shrines { align-self: center; }</style>
+
+        
+        <link rel="preload" href="/assets/fonts/lexend/lexend-v19-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/lexend/lexend-v19-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+
+<style>
+    /* lexend-regular - latin */
+    @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        src: url('/assets/fonts/lexend/lexend-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+
+    /* lexend-600 - latin */
+    @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        src: url('/assets/fonts/lexend/lexend-v19-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+
+    /* lexend-700 - latin */
+    @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 700;
+        src: url('/assets/fonts/lexend/lexend-v19-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+</style>
+        <link rel="stylesheet" href="/assets/fonts/intel-one-mono/intel-one-mono.css">
+
+        
+        <link rel="me" href="mailto:contact@leilukin.com">
+        <link rel="me" href="https://mstdn.social/@leilukin">
+        <link rel="me" href="https://twitter.com/Leilukin">
+        <link rel="me" href="https://github.com/Leilukin">
+        <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+
+        
+        <link rel="webmention" href="https://webmention.io/leilukin.com/webmention">
+
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+        
+        <script src="/assets/js/MnPoD-suxd.js" defer></script>
+    
+
+        <title>
+            The Search for a Guestbook Solution for Leilukin&#39;s Hub | Blog | Leilukin's Hub
+        </title>
+    </head>
+    <body>
+        <div class="skip-btn"><a href="#content">Skip to content</a></div>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <img fetchpriority="high" src="/assets/leilukin/Leilukins-Hub-website-banner.avif" alt="Banner of Leilukin's Hub" width="900" height="300">
+
+    </div>
+</header>
+        
+
+<nav class="navbar" aria-labelledby="top-level-nav-title">
+    <h2 class="visually-hidden" id="top-level-nav-title">Top Level</h2>
+    <ul class="navbar__menu navbar__links">
+    
+    
+        <li>
+            <a  href="/">Home</a>
+        </li>
+        <li>
+            <a  href="/about/">About</a>
+        </li>
+        <li>
+            <a  href="/now/">Now</a>
+        </li>
+        <li>
+            <a  href="/blog/">Blog</a>
+        </li>
+        <li>
+            <a  href="/articles/">Articles</a>
+        </li>
+        <li>
+            <a  href="/projects/">Projects</a>
+        </li>
+        <li>
+            <a  href="/shrines/">Shrines</a>
+        </li>
+        <li>
+            <a  href="/adoptables/">Adoptables</a>
+        </li>
+        <li>
+            <a  href="/links/">Links</a>
+        </li>
+        <li>
+            <a  href="/guestbook/">Guestbook</a>
+        </li>
+</ul>
+    <button class="navbar__toggle" popovertarget="nav-menu" aria-label="Toggle navigation menu">
+        <svg aria-hidden="true" focusable="false" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+        Navigation
+    </button>
+</nav>
+<div popover id="nav-menu" class="navbar__popover">
+    <ul class="navbar__menu">
+    
+    
+        <li>
+            <a  href="/">Home</a>
+        </li>
+        <li>
+            <a  href="/about/">About</a>
+        </li>
+        <li>
+            <a  href="/now/">Now</a>
+        </li>
+        <li>
+            <a  href="/blog/">Blog</a>
+        </li>
+        <li>
+            <a  href="/articles/">Articles</a>
+        </li>
+        <li>
+            <a  href="/projects/">Projects</a>
+        </li>
+        <li>
+            <a  href="/shrines/">Shrines</a>
+        </li>
+        <li>
+            <a  href="/adoptables/">Adoptables</a>
+        </li>
+        <li>
+            <a  href="/links/">Links</a>
+        </li>
+        <li>
+            <a  href="/guestbook/">Guestbook</a>
+        </li>
+</ul>
+</div>
+        <main id="content">
+            <header class="main__header">
+    
+        <nav aria-labelledby="breadcrumbs-title">
+            <h2 class="visually-hidden" id="breadcrumbs-title">Breadcrumbs</h2>
+            <ol class="breadcrumbs">
+                
+                <li>
+                    <a href="/blog/">Blog</a>
+                </li>
+                <li>
+                    <a href="/blog/posts/">Blog Archive</a>
+                </li>
+            </ol>
+        </nav>
+    
+
+    <h1>The Search for a Guestbook Solution for Leilukin&#39;s Hub</h1>
+
+    
+        <div class="article__info">
+            <p>Posted on 29 May 2024 by Leilukin
+            
+            
+                <p>Categories:
+                    
+                        <a href="/categories/site-updates">site updates</a>
+                    
+                </p>
+            
+            <p>🍿  3 min. read</p>
+        </div>
+    
+</header>
+
+<content-wrapper>
+    
+
+    
+
+    <article class="content">
+        <p>On 4 May 2024, the guestbook service 123Guestbook announced that <a href="https://web.archive.org/web/20240504201300/https://www.123guestbook.com/news.php?id=closure">their service would be closed on 1 July 2024</a>.</p>
+<p>I created an account on 123Guestbook and started using it as Leilukin's Hub's guestbook since 25 July 2023. When my 123Guestbook guestbook was open, I received multiple nice messages expressing appreciation for my website and work, including my <a href="/shrines/cassettebeasts"><cite>Cassette Beasts</cite> shrine</a> and my <a href="/shrines/asummersend"><cite>A Summer’s End — Hong Kong 1986</cite> shrine</a> and <a href="../2023-10-30-support-for-my-steam-review-of-a-summers-end">Steam review</a>, so I am sad to see 123Guestbook go. 123Guestbook has been around since 2005, so its closure is a sad reminder that you cannot predict when your favourite website might be gone.</p>
+<p>In light of 123Guestbook's closure, I have disabled the function to add new messages to Leilukin's Hub's previous guestbook at 123Guestbook, and archived the old guestbook at the <a href="https://web.archive.org/web/20240528231121/https%3A%2F%2Fleilukin.123guestbook.com%2F">Internet Archive</a> and <a href="https://archive.ph/9mtpl">archive.today</a>.</p>
+<p>123Guestbook shutting down means I need to find a replacement for Leilukin's Hub guestbook. This turned out to be a more difficult task than I expected, because I was struggling to find an alternative guestbook that satisfied my needs.</p>
+<p>Initially, I looked into other guestbook services such as <a href="https://www.smartgb.com/">SmartGB</a>, <a href="https://www.ultraguest.com/">UltraGuest</a> and the new <a href="https://atabook.org/">Atabook</a>. Dedicated guestbook services offer the ability to moderate messages and change the guestbook's style, but I ended up finding their style customisation options too limited for my liking. It does not help that UltraGuest's guestbook is not mobile-friendly either. This was also when I realised that 123Guestbook's guestbook is also not mobile-friendly.</p>
+<p>In addition, I began to prefer to add features to my website by embedding it on my web page, so it looks like they are part of my website, instead of having to add an external link, or using the HTML <code>&lt;iframe&gt;</code> element, unless the website explicitly uses it for their embeds, such as YouTube. Therefore, another ideal feature for my guestbook is one that I can place into my web page's code.</p>
+<p>Later, I discovered and tried out <a href="https://www.htmlcommentbox.com/">HTML Comment Box</a>, which can be used as a guestbook or a comment widget on your website, and even briefly added it to Leilukin's Hub as my guestbook on <a href="/changelogs/2024/#2024-05-14">14 May 2024</a>. HTML Comment Box widget suits my need for adding a guestbook by including it in my web page's code, so I also created <a href="/guestbook">Leilukin's Hub's own guestbook page</a>.</p>
+<p>You can also <a href="https://www.htmlcommentbox.com/css-guide.html">customise the look of HTML Comment Box with CSS</a>, but (at least as far as I know) you cannot edit the widget's HTML. I found this an issue because HTML Comment Box's widget is not great in accessibility — the comment form does not have form labels (the HTML <code>&lt;label&gt;</code> element), and instead it relies on placeholder text to tell users the purpose of each input. <a href="https://www.boia.org/blog/is-placeholder-text-essential-for-form-accessibility">Using input placeholder text to replace form labels causes accessibility issues</a>.</p>
+<p>When I tried to look for more guestbook alternatives, I suddenly remembered Firebase Realtime Database, and that I had learned to use it from <a href="https://v2.scrimba.com/build-a-mobile-app-with-firebase-c0g">Scrimba</a> to create a JavaScript project with a database without SQL, and decided to code my own guestbook that uses Firebase Realtime Database to store messages. It gave me full control of the look of my guestbook, and more practice in coding things myself. I succeed in implementing it on <a href="/changelogs/2024/#2024-05-19">19 May 2024</a>. Unfortunately, I was not able to implement features to reply to messages and notify me when a new message was received.</p>
+<p>I became increasingly frustrated with not being able to find a way to add a guestbook to my static website that also satisfies my needs, until I discovered the solution that leads to the current iteration of Leilukin's Hub guestbook — <a href="https://groundedwren.neocities.org/pages/demo_controls/guestbookDemo">Grounded Wren's guestbook code</a>.</p>
+<p>Grounded Wren's guestbook code provides just about every guestbook feature I could ask for: message moderation, message replies, full control of the style, notifications for new messages, and making the guestbook actually part of my website. Granted, the guestbook still requires some external tools, namely Discord webhook and Google Sheets, to function, but that is the limitation of not being able to use PHP on static websites because the hosting service (including Neocities) does not support it.</p>
+<p>Finally, I began to use Grounded Wren's guestbook code for the shiny new Leilukin's Hub's guestbook since <a href="/changelogs/2024/#2024-05-25">25 May 2024</a>! I am relieved that my search for a guestbook solution for Leilukin's Hub to replace 123Guestbook was finally completed.</p>
+<p>(That said, it is important to point out that unfortunately, <a href="https://dabric.xyz/post/neocities-csp/">Neocities' stricter Content Security Policy since around the start of 2024</a> prevents widgets like HTML Comment Box and Grounded Wren's guestbook code from properly working on newly registered sites on the free tier. Leilukin's Hub's Neocities account was registered in 2022, so those widgets worked on this site despite being on the free tier, but it is important information for new Neocities users to know)</p>
+
+
+    
+        <nav class="blog__post--pagination" aria-labelledby="nextprev-title">
+            <h2 class="visually-hidden" id="nextprev-title">Next and Previous Blog Posts</h2>
+                    <ul class="blog__post--nextprev">
+                        <li class="blog__post--prev">
+                            <p>Previous Post:</p>
+                            <a href="/blog/posts/2024-05-14-james-somerton-my-video-game-footage/">James Somerton Used My Video Game Footage Without Credit or Permission</a>
+                        </li>
+                    
+                        <li class="blog__post--next">
+                            <p>Next Post:</p>
+                            <a href="/blog/posts/2024-05-31-domain-name-hosting-change-leilukins-hub/">Custom Domain Name and Hosting Change for Leilukin&#39;s Hub</a>
+                        </li>
+                    
+                    </ul>
+        </nav>
+    
+    </article>
+
+    
+        <aside class="right-sidebar" aria-label="Right sidebar">
+    <nav class="content__nav sidebar--sticky" aria-labelledby="my-contents-title">
+        <h2 class="content__nav--title" id="my-contents-title">My Contents</h2>
+        <ul class="content__nav--links">
+            
+                <li><a href="/archive/">Content Archive</a></li>
+            
+                <li><a href="/categories/">Content Categories</a></li>
+            
+            <li><a href="/articles/">Articles</a></li>
+            
+                <li><a href="/blog/posts/">Blog Archive</a></li>
+            
+                <li><a href="/blog/">Blog Home</a></li>
+            
+        </ul>
+    </nav>
+</aside>
+    
+
+    
+</content-wrapper>
+        </main>
+        <footer class="footer">
+    <p>Made with ♥ by Leilukin since 11 September 2022</p>
+
+    
+    <ul class="inline-nav footer__links">
+        <li><a href="/feed.xml">RSS</a></li>
+        <li><a
+            
+            href="/sitemap/
+        ">Site Map</a></li>
+        <li><a
+            
+            href="/changelogs/"
+        >Changelogs</a></li><li><a
+                
+                href="/accessibility/"
+            >Accessibility</a></li><li><a
+                
+                href="/colophon/"
+            >Colophon</a></li></ul>
+<div class="h-card hidden">
+    <span class="p-name p-nickname">Leilukin</span>
+    <a href="/" class="u-url">Home page</a>
+    <img src="https://i.postimg.cc/RZJgS6tY/leilukin-bee.avif" alt="Leilukin" class="u-photo" loading="lazy">
+    <span class="p-country-name">Malaysia</span>
+    <span class="p-note">They/she. A proudly queer and autistic <span class="p-gender-identity">non-binary</span> lesbian from Malaysia.</span>
+</div><a href="#top" class="top-btn">
+    <svg class="top-btn__arrow" focusable="false" aria-hidden="true" viewBox="0 0 26 28">
+        <path d="M25.172 15.172c0 0.531-0.219 1.031-0.578 1.406l-1.172 1.172c-0.375 0.375-0.891 0.594-1.422 0.594s-1.047-0.219-1.406-0.594l-4.594-4.578v11c0 1.125-0.938 1.828-2 1.828h-2c-1.062 0-2-0.703-2-1.828v-11l-4.594 4.578c-0.359 0.375-0.875 0.594-1.406 0.594s-1.047-0.219-1.406-0.594l-1.172-1.172c-0.375-0.375-0.594-0.875-0.594-1.406s0.219-1.047 0.594-1.422l10.172-10.172c0.359-0.375 0.875-0.578 1.406-0.578s1.047 0.203 1.422 0.578l10.172 10.172c0.359 0.375 0.578 0.891 0.578 1.422z"></path>
+    </svg>
+    Back to Top
+</a>
+</footer>
+        
+    </body>
+</html>

@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="top">
+    <head>
+        
+    
+        <meta property="og:title" content="Leilukin's Hub">
+    
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Leilukin">
+<meta name="description" content="Home page of Leilukin's Hub.">
+<meta name="generator" content="Eleventy v3.0.0">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://leilukin.com/">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:locale" content="en_MY">
+<meta property="og:description" content="Home page of Leilukin's Hub.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://leilukin.com/">
+<meta name="twitter:description" content="Home page of Leilukin's Hub.">
+<link rel="canonical" href="https://leilukin.com/">
+
+
+        
+        <link rel="stylesheet" href="/assets/css/global.css"><link rel="stylesheet" href="/assets/css/general.css"><link rel="stylesheet" href="/assets/css/content.css"><link rel="stylesheet" href="/assets/css/plugins.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/pridesymbols.css"><link rel="stylesheet" href="/assets/css/utility.css">
+    
+        <link rel="stylesheet" href="/assets/css/tooltips.css">
+    
+        <style>#statuscafe-content { margin-bottom: 0.5em; }
+.support-me {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        align-items: center;
+        margin-top: 0.7em;
+    }
+.breadcrumbs {
+        list-style-type: "";
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .breadcrumbs li::after {
+        content: '➔';
+        padding-left: 0.3em;
+    }
+
+    .blog__post--pagination {
+        padding-top: 1em;
+        margin-top: 2.5em;
+        border-top: 0.1em solid var(--clr-title-border);
+    }
+
+    .blog__post--nextprev {
+        list-style-type: "";
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 0.7em;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 'prev next';
+    }
+
+    .blog__post--prev { grid-area: prev; }
+    .blog__post--next { grid-area: next; }
+.hero img { filter: 
+drop-shadow(0.1rem 0.1rem 0.2rem black)
+drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
+; }
+.hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background-color: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0.7em;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: contain;
+        overflow: hidden;
+        max-height: 16rem;
+    }
+.navbar {
+        background: var(--clr-navbar-bg);
+        width: 100%;
+        z-index: 998;
+        position: sticky;
+        top: 0;
+        padding: 0.6em;
+    }
+
+    .navbar__menu {
+        list-style-type: "";
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .navbar__menu a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .navbar__menu a:hover { color: var(--clr-link-hover); }
+    .navbar__menu a:focus { outline-offset: 0.2em; }
+
+    .navbar__links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 0.5em;
+    }
+
+    .navbar__toggle {
+        background-color: inherit;
+        color: var(--clr-navbar-link);
+        border: none;
+        padding: 0;
+        font-size: 1.25rem;
+        font-weight: 700;
+        display: none;
+        align-items: center;
+        gap: 0.3em;
+    }
+
+    .navbar__toggle svg { fill: currentColor; }
+
+    .navbar__toggle:focus,
+    .navbar__menu a:focus { outline-offset: 0.1em; }
+    .navbar__toggle:focus,
+    .navbar__menu a:focus { outline: 0.15em solid var(--clr-navbar-link); }
+
+    .navbar__popover {
+        background-color: var(--clr-navbar-bg);
+        border: 0.15em solid var(--clr-navbar-link);
+        padding: 1.5em;
+        max-width: 85%;
+    }
+
+    .navbar__popover::backdrop {
+        background-color: black;
+        opacity: 0.5;
+    }
+
+    @supports selector([popover]) {
+        .navbar__toggle { display: flex; }
+        .navbar__links { display: none; }
+    }
+
+    /* Tablet screen size */
+    @media only screen and (min-width: 43.75rem) {
+        .navbar { padding: 1em 0.6em; }
+        .navbar__toggle, .navbar__popover { display: none; }
+        .navbar__links { display: flex; }
+    }
+.top-btn,
+    .top-btn:hover {
+        color: var(--clr-top-btn-txt);
+        text-decoration: none;
+    }
+
+    .top-btn {
+        position: fixed;
+        bottom: 0.5rem;
+        right: 0.5rem;
+        z-index: 999;
+
+        background-color: var(--clr-top-btn-bg);
+        display: flex;
+        align-items: center;
+        border-radius: 50em;
+        padding: 0.3em 0.5em;
+        gap: 0.2em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn-bg);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn__arrow {
+        display: inline-block;
+        width: 1em;
+        aspect-ratio: 1 / 1;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+    }
+:root { --footer-gap: 0.5em; }
+
+    .footer {
+        margin-top: auto;
+        width: 100%;
+        background: var(--clr-main-footer-bg);
+        padding: 1.5rem 1rem clamp(1.5rem, calc(100% - 1.5rem), 3.5rem);
+        text-align: center;
+        display: grid;
+        gap: var(--footer-gap);
+    }
+
+    .footer__links,
+    .footer__shrines {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: var(--footer-gap);
+    }
+
+    .footer__links { justify-self: center; }
+    .footer__shrines { align-self: center; }</style>
+
+        
+        <link rel="preload" href="/assets/fonts/lexend/lexend-v19-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/lexend/lexend-v19-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+
+<style>
+    /* lexend-regular - latin */
+    @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        src: url('/assets/fonts/lexend/lexend-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+
+    /* lexend-600 - latin */
+    @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        src: url('/assets/fonts/lexend/lexend-v19-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+
+    /* lexend-700 - latin */
+    @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 700;
+        src: url('/assets/fonts/lexend/lexend-v19-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+</style>
+        <link rel="stylesheet" href="/assets/fonts/intel-one-mono/intel-one-mono.css">
+
+        
+        <link rel="me" href="mailto:contact@leilukin.com">
+        <link rel="me" href="https://mstdn.social/@leilukin">
+        <link rel="me" href="https://twitter.com/Leilukin">
+        <link rel="me" href="https://github.com/Leilukin">
+        <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+
+        
+        <link rel="webmention" href="https://webmention.io/leilukin.com/webmention">
+
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+        
+        <script src="/assets/js/3FtQ7AG7yZ.js" defer></script>
+    
+
+        <title>
+            Leilukin's Hub
+        </title>
+    </head>
+    <body>
+        <div class="skip-btn"><a href="#content">Skip to content</a></div>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <img fetchpriority="high" src="/assets/leilukin/Leilukins-Hub-website-banner.avif" alt="Banner of Leilukin's Hub" width="900" height="300">
+
+    </div>
+</header>
+        
+
+<nav class="navbar" aria-labelledby="top-level-nav-title">
+    <h2 class="visually-hidden" id="top-level-nav-title">Top Level</h2>
+    <ul class="navbar__menu navbar__links">
+    
+    
+        <li>
+            <a aria-current="page" href="/">Home</a>
+        </li>
+        <li>
+            <a  href="/about/">About</a>
+        </li>
+        <li>
+            <a  href="/now/">Now</a>
+        </li>
+        <li>
+            <a  href="/blog/">Blog</a>
+        </li>
+        <li>
+            <a  href="/articles/">Articles</a>
+        </li>
+        <li>
+            <a  href="/projects/">Projects</a>
+        </li>
+        <li>
+            <a  href="/shrines/">Shrines</a>
+        </li>
+        <li>
+            <a  href="/adoptables/">Adoptables</a>
+        </li>
+        <li>
+            <a  href="/links/">Links</a>
+        </li>
+        <li>
+            <a  href="/guestbook/">Guestbook</a>
+        </li>
+</ul>
+    <button class="navbar__toggle" popovertarget="nav-menu" aria-label="Toggle navigation menu">
+        <svg aria-hidden="true" focusable="false" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+        Navigation
+    </button>
+</nav>
+<div popover id="nav-menu" class="navbar__popover">
+    <ul class="navbar__menu">
+    
+    
+        <li>
+            <a aria-current="page" href="/">Home</a>
+        </li>
+        <li>
+            <a  href="/about/">About</a>
+        </li>
+        <li>
+            <a  href="/now/">Now</a>
+        </li>
+        <li>
+            <a  href="/blog/">Blog</a>
+        </li>
+        <li>
+            <a  href="/articles/">Articles</a>
+        </li>
+        <li>
+            <a  href="/projects/">Projects</a>
+        </li>
+        <li>
+            <a  href="/shrines/">Shrines</a>
+        </li>
+        <li>
+            <a  href="/adoptables/">Adoptables</a>
+        </li>
+        <li>
+            <a  href="/links/">Links</a>
+        </li>
+        <li>
+            <a  href="/guestbook/">Guestbook</a>
+        </li>
+</ul>
+</div>
+        <main id="content">
+            <header class="main__header">
+    
+
+    <h1>Welcome to Leilukin&#39;s Hub!</h1>
+
+    
+        
+    
+</header>
+
+<content-wrapper>
+    
+
+    
+
+    <div class="content content--divided">
+        
+<section class="content__section">
+    <p>Hello! You can call me Leilukin. Welcome to my website! This site is my own personal hub and corner on the internet.</p>
+
+    <p>You can browse all my contents published on this site through the <a href="/archive">Archive</a> page, or the <a href="/categories">Content Categories</a> page. You can use the <a href="/sitemap">site map</a> to navigate this website.</p>
+
+    <p>Feel free to drop a message and say hi on <a href="/guestbook">my guestbook</a>! You can also contact me by <a href="mailto:contact@leilukin.com">sending me an email</a>. Using <a href="https://useplaintext.email/">plain text email</a> is encouraged.</p>
+
+    <p>Read the <a href="/about">About</a> page to learn more about this site and its webmaster.</p>
+
+    <p>Enjoy your stay!</p>
+
+    <noscript>
+        <div class="text-box">
+            <h2>You have disabled JavaScript</h2>
+            <p>This website uses JavaScript. While you can still access most of the content of this site with JavaScript disabled, some components of this site will not work as intended.</p>
+            <p>You can learn more about how JavaScript is used on this site on the <a href="/colophon/#javascript">JavaScript section of the colophon page</a>.</p>
+        </div>
+    </noscript>
+</section>
+
+<section class="content__section">
+    <h2>Link to My Website</h2>
+
+    <p>You can link to my website with the following button. I strongly recommend you to upload my site button to your own website instead of hotlinking the button.</p>
+
+<img src="/assets/leilukin/Leilukins-Hub-button.png" alt="Leilukin's Hub website button" width="88" height="31" loading="lazy">
+
+<p>(I created this site button myself with Adobe Photoshop CS5)</p>
+</section>
+
+<section class="content__section">
+    <h2>What is New?</h2>
+
+    <div class="text-box">
+        <h3>Major News: 31 May 2024</h3>
+        <p>Leilukin&#39;s Hub now has a custom domain name: <code>leilukin.com</code>! In addition, this site is now hosted on Netlify.</p>
+        <p>You can read <a href="/blog/posts/2024-05-31-domain-name-hosting-change-leilukins-hub">my blog post about the new domain name and hosting change</a> for more information.</p>
+    </div>
+
+    <div id="statuscafe" class="text-box">
+    <h3>My Lastest Status</h3>
+    <div id="statuscafe-userinfo"></div>
+    <div id="statuscafe-content">
+        <noscript>
+            <p>Looks like you have JavaScript disabled. JavaScript is required to fetch my latest status from status.cafe and display it here.</p>
+        </noscript>
+    </div>
+
+    <p><a href="https://status.cafe/users/leilukin">View my statuses on status.cafe</a></p>
+</div>
+
+    <div class="text-box">
+        
+            <h3>Changelog: 22 July 2024</h3>
+            <ul>
+<li>Add a <a href="https://zine.kalechips.net/index">Salad Magazine</a> section to my <a href="/adoptables">Adoptables pages</a>.</li>
+</ul>
+
+        <p><a href="/changelogs">View all site changelogs</a></p>
+    </div>
+    <p>You can subscribe to the <a href="/feed.xml">Leilukin&#39;s Hub RSS feed</a> to get notified of the updates on this website, including new articles, blog posts and website changelogs.</p>
+</section>
+
+<section class="content__section">
+    <h2>Spotlight: Palestine</h2>
+    <img src="/assets/buttons/misc/standwithpalestine.png" alt="Stand with Palestine" width="88" height="31" loading="lazy">
+    <p>From the river to the sea, Palestine will be free.</p>
+    <p><a href="/articles/palestine-masterlist">Palestine Masterlist</a></p>
+    <p>(Credit to <a href="https://hillhouse.neocities.org/journal/notes/palestine">rosemary</a> for the Stand with Palestine button)</p>
+</section>
+
+<section class="content__section">
+    <h2>Virtual Pets</h2>
+    <p>Feel free to check out my virtual pets and feed them!</p>
+    <ul class="adoptables">
+        <li data-tooltip>
+            <a href="https://tamanotchi.world/13150c" data-tooltip-trigger title="Tam, my tamaNOTchi"><img src="https://tamanotchi.world/i2/13150" alt="Tam, my tamaNOTchi" loading="lazy"></a>
+        </li>
+        <li data-tooltip>
+            <a href="https://wobble.town/visit/2042" data-tooltip-trigger title="Shelly, my Wobble"><img src="https://wobble.town/visit/2042/wobble.gif" alt="Shelly, my Wobble" loading="lazy"></a>
+        </li>
+    </ul>
+</section>
+
+<section class="content__section">
+    <h2>Always Proud</h2>
+    <div class="flag-progress-intersex-lesbian" role="img" aria-label="Custom pride flag which combines the lesbian pride flag and the progress pride flag triangle" style="height: 20rem; margin-bottom: 1em;"></div><ul class="web-btn-wrapper">
+        <li data-tooltip>
+            <img src="/assets/buttons/pride/progress.png" alt="2018 Progress Flag" data-tooltip-trigger title="2018 Progress Flag by Daniel Quasar (2018)" width="88" height="31" loading="lazy" tabindex="0">
+        </li>
+        <li data-tooltip>
+            <img src="/assets/buttons/pride/9_stripe.png" alt="9 stripe rainbow flag" data-tooltip-trigger title="Nine-Stripe Rainbow Flag by Gilbert Baker (2017)" width="88" height="31" loading="lazy" tabindex="0">
+        </li>
+        <li data-tooltip>
+            <img src="/assets/buttons/pride/lesbian.png" alt="Lesbian pride flag" data-tooltip-trigger title="I am a lesbian" width="88" height="31" loading="lazy" tabindex="0">
+        </li>
+        <li data-tooltip>
+            <img src="/assets/buttons/pride/nonbinary.png" alt="Non-binary pride flag" data-tooltip-trigger title="I am non-binary" width="88" height="31" loading="lazy" tabindex="0">
+        </li>
+        <li data-tooltip>
+            <img src="/assets/buttons/pride/demigirl.png" alt="Demigirl pride flag" data-tooltip-trigger title="I am a demiwoman" width="88" height="31" loading="lazy" tabindex="0">
+        </li>
+        <li data-tooltip>
+            <img src="/assets/buttons/pride/agender.png" alt="Agender pride flag" data-tooltip-trigger title="I am agender" width="88" height="31" loading="lazy" tabindex="0">
+        </li>
+        <li data-tooltip>
+            <img src="/assets/buttons/pride/bigender.png" alt="Bigender pride flag" data-tooltip-trigger title="I am bigender" width="88" height="31" loading="lazy" tabindex="0">
+        </li>
+        <li data-tooltip>
+            <img src="/assets/buttons/pride/disability.png" alt="Disability pride flag" data-tooltip-trigger title="Visually Safe Disability Pride Flag
+by Ann Magill (2021)" width="88" height="31" loading="lazy" tabindex="0">
+        </li>
+    </ul>
+    <p>Credit to <a href="https://rainy.gay/pride/pridebuttons">Dime</a> for these pride buttons!</p>
+</section>
+
+<section class="content__section">
+    <h2>Web Cliques</h2>
+    <ul>
+    <li><a href="http://aromatic.wings.nu/">aromatic</a> // lavender</li>
+    <li><a href="http://cliqued.wings.nu/">rainbow</a> &#x1F308; black and purple</li>
+    <li>My favourite food is: <a href="https://frankie.fanacular.net/food">Mushrooms</a></li>
+    <li>My favourite hot bevarage is <a href="https://cliques.moudoku.com/hot">Coffee</a></li>
+    <li>
+        <img src="/assets/cliques/caffeineNATION.png" alt="" class="inline-img" width="80" height="15" loading="lazy">
+        <a href="https://caffeinated.wings.nu/">caffeineNATION</a> &#x2615;&#xFE0E; mocha latte
+    </li>
+    <li>
+        <a href="http://cliqued.wings.nu/">OTF</a>
+        <img src="/assets/cliques/OTF.png" alt="" class="inline-img" width="15" height="16" loading="lazy">
+        <a href="/shrines/cassettebeasts"><cite>Cassette Beasts</cite></a>
+    </li>
+    <li>
+        <a href="https://macaque.moe/trickyfox/">LINKED !</a>
+        <img src="/assets/cliques/linked.png" alt="" class="inline-img" width="20" height="20" loading="lazy">
+        <a href="https://wiki.cassettebeasts.com/wiki/Meredith">Meredith Chen</a>
+    </li>
+    <li>
+        My <a href="https://frankie.fanacular.net/otp">One True Pairing</a> is: Sam Wong and Michelle Cheung (<a href="/shrines/asummersend"><cite>A Summer’s End — Hong Kong 1986</cite></a>)
+    </li>
+    <li>
+        <a href="https://starwars.fandom.com/wiki/Juhani">Juhani</a> is the <a href="https://cliques.moudoku.com/guardian">guardian</a> of this website
+    </li>
+    <li>
+        <a href="http://cliqued.wings.nu/">unexpected song</a>
+        <img src="/assets/cliques/unexpectedsong.png" alt="" class="inline-img" width="16" height="16" loading="lazy">
+        <a href="https://bulbapedia.bulbagarden.net/wiki/Steven_Stone">Steven Stone</a>
+    </li>
+    <li>
+        <a href="https://pkmn.caelestis.nu" rel="noopener noreferrer">I Choose You!</a> :: Breloom
+        <img src="/assets/cliques/breloom.png" alt="" class="inline-img" width="23" height="25" loading="lazy">
+    </li>
+    <li>
+        <a href="http://cliqued.wings.nu/">my jam!!</a>
+        <img src="/assets/cliques/myjam.png" alt="" class="inline-img" width="16" height="16" loading="lazy">
+        <a href="https://www.youtube.com/watch?v=lP2-68Y0onM">"Same Old Story"</a>
+    </li>
+</ul>
+
+<p>Pixel cliques I joined can be found on my <a href="/adoptables">Adoptables page</a>.</p>
+</section>
+
+<section class="content__section">
+    <h2>Webrings</h2>
+    <p>Leilukin&#39;s Hub is part of the following webrings:</p>
+    <ul>
+        <li>
+            <a href="https://macaque.moe/autiring/">Autists Online</a>:
+            <a href="https://datoxicwaltz.neocities.org/">Previous Site</a>,
+            <a href="https://draggianuniverse.neocities.org/">Next Site</a>
+        </li>
+        <li>
+            <a href="https://webring.bucketfish.me">bucket webring</a>:
+            <a href="https://webring.bucketfish.me/redirect.html?to=prev&name=Leilukin">Previous Site</a>,
+            <a href="https://webring.bucketfish.me/redirect.html?to=next&name=Leilukin">Next Site</a>
+        </li>
+        <li>
+            <a href="https://cs.sjoy.lol/">CSS JOY Webring</a>:
+            <a href="https://webri.ng/webring/cssjoy/previous?via=https://leilukin.com/" class="external-link">Previous Site</a>,
+            <a href="https://webri.ng/webring/cssjoy/random?via=https://leilukin.com/" class="external-link">Random Site</a>,
+            <a href="https://webri.ng/webring/cssjoy/next?via=https://leilukin.com/" class="external-link">Next Site</a>
+        </li>
+        <li>
+            <a href="https://ikaroll.neocities.org/dsring/">DSRing</a>:
+            <a href="https://jirachis.neocities.org/">Previous Site</a>,
+            <a href="https://poble.cl/">Next Site</a>
+        </li>
+        <li>
+            <a href="https://eggring.neocities.org/">The Eggring</a>:
+            <a href="https://confetticake.neocities.org/">Previous Site</a>,
+            <a href="https://thecozy.cat/">Next Site</a>
+        </li>
+        <li>
+            <a href="https://owlsroost.xyz/webring/index.html">Focus First Webring</a>:
+            <a href="https://foreverliketh.is/">Previous Site</a>,
+            <a href="https://www.write-on.org/">Next Site</a>
+        </li>
+        <li>
+            <a href="https://ghostring.neocities.org/">Ghostring</a>:
+            <a href="https://ghostring.neocities.org/leilukin/previous">Previous Site</a>,
+            <a href="https://ghostring.neocities.org/leilukin/next">Next Site</a>
+        </li>
+        <li>
+            <a href="https://xn--sr8hvo.ws">IndieWeb Webring</a>:
+            <a href="https://xn--sr8hvo.ws/previous">Previous Site</a>,
+            <a href="https://xn--sr8hvo.ws/next">Next Site</a>
+        </li>
+        <li>
+            <a href="https://nenrikido.neocities.org/webrings/journalring/">JournalRing</a>:
+            <a href="https://radiolights.neocities.org/">Previous Site</a>,
+            <a href="https://starry-knight.neocities.org/">Next Site</a>
+        </li>
+        <li>
+            <a href="https://isaacfish.neocities.org/webring/">Queer Coded Webring</a>:
+            <a href="https://isaacfish.neocities.org/webring/25.html">Previous Site</a>,
+            <a href="https://isaacfish.neocities.org/webring/27.html">Next Site</a>
+        </li>
+        <li>
+            <a href="https://webring.dinhe.net/" class="external-link">The retronaut webring</a>:
+            <a href="https://webring.dinhe.net/prev/https://leilukin.com/" class="external-link">Previous Site</a>,
+            <a href="https://webring.dinhe.net/next/https://leilukin.com/" class="external-link">Next Site</a>
+        </li>
+        <li>
+            <a href="https://xandra.cc/safonts/">The Safonts Webring</a>:
+            <a href="https://dylanjava.com/">Previous Site</a>,
+            <a href="https://xandra.cc/safonts/members.html">Members</a>,
+            <a href="https://xandra.cc/">Next Site</a>
+        </li>
+    </ul>
+
+    <p>Pending webring membership:</p>
+    <ul>
+        <li>
+            <a href="https://loop.graycot.dev/webring.html?action=home">Loop Ring</a>:
+            <a href="https://loop.graycot.dev/webring.html?action=list">Members</a>,
+            <a href="https://loop.graycot.dev/webring.html?action=prev">Previous Site</a>,
+            <a href="https://loop.graycot.dev/webring.html?action=rand">Random Site</a>,
+            <a href="https://loop.graycot.dev/webring.html?action=next">Next Site</a>
+        </li>
+        <li>
+            <a href="https://silly.city/">silly city</a>:
+            <a href="https://silly.city/prev?user=Leilukin">Previous Site</a>,
+            <a href="https://silly.city/random">Random Site</a>,
+            <a href="https://silly.city/next?user=Leilukin">Next Site</a>
+        </li>
+    </ul>
+</section>
+
+<section class="content__section">
+    <h2>Badges</h2>
+    <div id="wcb" class="carbonbadge wcb-d">
+        <noscript>
+            <p>Looks like you have JavaScript disabled. JavaScript is required to display the <a href="https://www.websitecarbon.com/badge/">Website Carbon badge</a>.</p>
+        </noscript>
+    </div>
+    <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+</section>
+
+<section class="content__section">
+    <h2>Support Me</h2>
+    <p>If you enjoy my work, you can support me on <a href="https://ko-fi.com/leilukin">Ko-Fi</a>.</p>
+<div class="support-me">
+    <!-- Ko-Fi button -->
+    <a href="https://ko-fi.com/A1042UH4"><img height="36" src="/assets/buttons/misc/ko-fi.webp" border="0" alt="Buy Me a Coffee at ko-fi.com" loading="lazy"></a>
+</div>
+</section>
+
+    
+    </div>
+
+    
+
+    
+</content-wrapper>
+        </main>
+        <footer class="footer">
+    <p>Made with ♥ by Leilukin since 11 September 2022</p>
+
+    
+    <ul class="inline-nav footer__links">
+        <li><a href="/feed.xml">RSS</a></li>
+        <li><a
+            
+            href="/sitemap/
+        ">Site Map</a></li>
+        <li><a
+            
+            href="/changelogs/"
+        >Changelogs</a></li><li><a
+                
+                href="/accessibility/"
+            >Accessibility</a></li><li><a
+                
+                href="/colophon/"
+            >Colophon</a></li></ul>
+<div class="h-card hidden">
+    <span class="p-name p-nickname">Leilukin</span>
+    <a href="/" class="u-url">Home page</a>
+    <img src="https://i.postimg.cc/RZJgS6tY/leilukin-bee.avif" alt="Leilukin" class="u-photo" loading="lazy">
+    <span class="p-country-name">Malaysia</span>
+    <span class="p-note">They/she. A proudly queer and autistic <span class="p-gender-identity">non-binary</span> lesbian from Malaysia.</span>
+</div><a href="#top" class="top-btn">
+    <svg class="top-btn__arrow" focusable="false" aria-hidden="true" viewBox="0 0 26 28">
+        <path d="M25.172 15.172c0 0.531-0.219 1.031-0.578 1.406l-1.172 1.172c-0.375 0.375-0.891 0.594-1.422 0.594s-1.047-0.219-1.406-0.594l-4.594-4.578v11c0 1.125-0.938 1.828-2 1.828h-2c-1.062 0-2-0.703-2-1.828v-11l-4.594 4.578c-0.359 0.375-0.875 0.594-1.406 0.594s-1.047-0.219-1.406-0.594l-1.172-1.172c-0.375-0.375-0.594-0.875-0.594-1.406s0.219-1.047 0.594-1.422l10.172-10.172c0.359-0.375 0.875-0.578 1.406-0.578s1.047 0.203 1.422 0.578l10.172 10.172c0.359 0.375 0.578 0.891 0.578 1.422z"></path>
+    </svg>
+    Back to Top
+</a>
+</footer>
+        
+            <script src="/assets/js/tooltips.js"></script>
+            <script>
+                var selector = '[data-tooltip]';
+                var els = document.querySelectorAll(selector);
+
+                for ( var i = 0; i < els.length; i++ ) {
+                    var dm = new ARIAtip( els[i] );
+                }
+            </script>
+        
+    </body>
+</html>

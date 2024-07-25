@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="top">
+    <head>
+        
+    
+        <meta property="og:title" content="Improving Site Performance of Leilukin&#39;s Hub | Blog">
+    
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Leilukin">
+<meta name="description" content="Steps I hae taken to improve my website's performance.">
+<meta name="generator" content="Eleventy v3.0.0">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://leilukin.com/blog/posts/2024-06-12-performance-improvement-leilukins-hub/">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:locale" content="en_MY">
+<meta property="og:description" content="Steps I hae taken to improve my website's performance.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://leilukin.com/blog/posts/2024-06-12-performance-improvement-leilukins-hub/">
+<meta name="twitter:description" content="Steps I hae taken to improve my website's performance.">
+<link rel="canonical" href="https://leilukin.com/blog/posts/2024-06-12-performance-improvement-leilukins-hub/">
+
+
+        
+        <link rel="stylesheet" href="/assets/css/global.css"><link rel="stylesheet" href="/assets/css/general.css"><link rel="stylesheet" href="/assets/css/content.css"><link rel="stylesheet" href="/assets/css/plugins.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/pridesymbols.css"><link rel="stylesheet" href="/assets/css/utility.css">
+    
+        <style>.content__nav {
+        padding: 1.2em clamp(1em, 5%, 1.5em);
+        background-color: var(--clr-content-bg);
+    }
+
+    .content__nav--title {
+        font-size: 1.7rem;
+    }
+.breadcrumbs {
+        list-style-type: "";
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .breadcrumbs li::after {
+        content: '➔';
+        padding-left: 0.3em;
+    }
+
+    .blog__post--pagination {
+        padding-top: 1em;
+        margin-top: 2.5em;
+        border-top: 0.1em solid var(--clr-title-border);
+    }
+
+    .blog__post--nextprev {
+        list-style-type: "";
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 0.7em;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 'prev next';
+    }
+
+    .blog__post--prev { grid-area: prev; }
+    .blog__post--next { grid-area: next; }
+.hero img { filter: 
+drop-shadow(0.1rem 0.1rem 0.2rem black)
+drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
+; }
+.hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background-color: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0.7em;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: contain;
+        overflow: hidden;
+        max-height: 16rem;
+    }
+.navbar {
+        background: var(--clr-navbar-bg);
+        width: 100%;
+        z-index: 998;
+        position: sticky;
+        top: 0;
+        padding: 0.6em;
+    }
+
+    .navbar__menu {
+        list-style-type: "";
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .navbar__menu a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .navbar__menu a:hover { color: var(--clr-link-hover); }
+    .navbar__menu a:focus { outline-offset: 0.2em; }
+
+    .navbar__links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 0.5em;
+    }
+
+    .navbar__toggle {
+        background-color: inherit;
+        color: var(--clr-navbar-link);
+        border: none;
+        padding: 0;
+        font-size: 1.25rem;
+        font-weight: 700;
+        display: none;
+        align-items: center;
+        gap: 0.3em;
+    }
+
+    .navbar__toggle svg { fill: currentColor; }
+
+    .navbar__toggle:focus,
+    .navbar__menu a:focus { outline-offset: 0.1em; }
+    .navbar__toggle:focus,
+    .navbar__menu a:focus { outline: 0.15em solid var(--clr-navbar-link); }
+
+    .navbar__popover {
+        background-color: var(--clr-navbar-bg);
+        border: 0.15em solid var(--clr-navbar-link);
+        padding: 1.5em;
+        max-width: 85%;
+    }
+
+    .navbar__popover::backdrop {
+        background-color: black;
+        opacity: 0.5;
+    }
+
+    @supports selector([popover]) {
+        .navbar__toggle { display: flex; }
+        .navbar__links { display: none; }
+    }
+
+    /* Tablet screen size */
+    @media only screen and (min-width: 43.75rem) {
+        .navbar { padding: 1em 0.6em; }
+        .navbar__toggle, .navbar__popover { display: none; }
+        .navbar__links { display: flex; }
+    }
+.top-btn,
+    .top-btn:hover {
+        color: var(--clr-top-btn-txt);
+        text-decoration: none;
+    }
+
+    .top-btn {
+        position: fixed;
+        bottom: 0.5rem;
+        right: 0.5rem;
+        z-index: 999;
+
+        background-color: var(--clr-top-btn-bg);
+        display: flex;
+        align-items: center;
+        border-radius: 50em;
+        padding: 0.3em 0.5em;
+        gap: 0.2em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn-bg);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn__arrow {
+        display: inline-block;
+        width: 1em;
+        aspect-ratio: 1 / 1;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+    }
+:root { --footer-gap: 0.5em; }
+
+    .footer {
+        margin-top: auto;
+        width: 100%;
+        background: var(--clr-main-footer-bg);
+        padding: 1.5rem 1rem clamp(1.5rem, calc(100% - 1.5rem), 3.5rem);
+        text-align: center;
+        display: grid;
+        gap: var(--footer-gap);
+    }
+
+    .footer__links,
+    .footer__shrines {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: var(--footer-gap);
+    }
+
+    .footer__links { justify-self: center; }
+    .footer__shrines { align-self: center; }</style>
+
+        
+        <link rel="preload" href="/assets/fonts/lexend/lexend-v19-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/lexend/lexend-v19-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+
+<style>
+    /* lexend-regular - latin */
+    @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        src: url('/assets/fonts/lexend/lexend-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+
+    /* lexend-600 - latin */
+    @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        src: url('/assets/fonts/lexend/lexend-v19-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+
+    /* lexend-700 - latin */
+    @font-face {
+        font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 700;
+        src: url('/assets/fonts/lexend/lexend-v19-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    }
+</style>
+        <link rel="stylesheet" href="/assets/fonts/intel-one-mono/intel-one-mono.css">
+
+        
+        <link rel="me" href="mailto:contact@leilukin.com">
+        <link rel="me" href="https://mstdn.social/@leilukin">
+        <link rel="me" href="https://twitter.com/Leilukin">
+        <link rel="me" href="https://github.com/Leilukin">
+        <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+
+        
+        <link rel="webmention" href="https://webmention.io/leilukin.com/webmention">
+
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+        
+        <script src="/assets/js/MnPoD-suxd.js" defer></script>
+    
+
+        <title>
+            Improving Site Performance of Leilukin&#39;s Hub | Blog | Leilukin's Hub
+        </title>
+    </head>
+    <body>
+        <div class="skip-btn"><a href="#content">Skip to content</a></div>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <img fetchpriority="high" src="/assets/leilukin/Leilukins-Hub-website-banner.avif" alt="Banner of Leilukin's Hub" width="900" height="300">
+
+    </div>
+</header>
+        
+
+<nav class="navbar" aria-labelledby="top-level-nav-title">
+    <h2 class="visually-hidden" id="top-level-nav-title">Top Level</h2>
+    <ul class="navbar__menu navbar__links">
+    
+    
+        <li>
+            <a  href="/">Home</a>
+        </li>
+        <li>
+            <a  href="/about/">About</a>
+        </li>
+        <li>
+            <a  href="/now/">Now</a>
+        </li>
+        <li>
+            <a  href="/blog/">Blog</a>
+        </li>
+        <li>
+            <a  href="/articles/">Articles</a>
+        </li>
+        <li>
+            <a  href="/projects/">Projects</a>
+        </li>
+        <li>
+            <a  href="/shrines/">Shrines</a>
+        </li>
+        <li>
+            <a  href="/adoptables/">Adoptables</a>
+        </li>
+        <li>
+            <a  href="/links/">Links</a>
+        </li>
+        <li>
+            <a  href="/guestbook/">Guestbook</a>
+        </li>
+</ul>
+    <button class="navbar__toggle" popovertarget="nav-menu" aria-label="Toggle navigation menu">
+        <svg aria-hidden="true" focusable="false" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+        Navigation
+    </button>
+</nav>
+<div popover id="nav-menu" class="navbar__popover">
+    <ul class="navbar__menu">
+    
+    
+        <li>
+            <a  href="/">Home</a>
+        </li>
+        <li>
+            <a  href="/about/">About</a>
+        </li>
+        <li>
+            <a  href="/now/">Now</a>
+        </li>
+        <li>
+            <a  href="/blog/">Blog</a>
+        </li>
+        <li>
+            <a  href="/articles/">Articles</a>
+        </li>
+        <li>
+            <a  href="/projects/">Projects</a>
+        </li>
+        <li>
+            <a  href="/shrines/">Shrines</a>
+        </li>
+        <li>
+            <a  href="/adoptables/">Adoptables</a>
+        </li>
+        <li>
+            <a  href="/links/">Links</a>
+        </li>
+        <li>
+            <a  href="/guestbook/">Guestbook</a>
+        </li>
+</ul>
+</div>
+        <main id="content">
+            <header class="main__header">
+    
+        <nav aria-labelledby="breadcrumbs-title">
+            <h2 class="visually-hidden" id="breadcrumbs-title">Breadcrumbs</h2>
+            <ol class="breadcrumbs">
+                
+                <li>
+                    <a href="/blog/">Blog</a>
+                </li>
+                <li>
+                    <a href="/blog/posts/">Blog Archive</a>
+                </li>
+            </ol>
+        </nav>
+    
+
+    <h1>Improving Site Performance of Leilukin&#39;s Hub</h1>
+
+    
+        <div class="article__info">
+            <p>Posted on 12 June 2024 by Leilukin
+            
+            
+                <p>Categories:
+                    
+                        <a href="/categories/site-updates">site updates</a>, 
+                    
+                        <a href="/categories/web-development">web development</a>
+                    
+                </p>
+            
+            <p>🍿  3 min. read</p>
+        </div>
+    
+</header>
+
+<content-wrapper>
+    
+
+    
+
+    <article class="content">
+        <p>Since Leilukin's Hub <a href="/blog/posts/2024-05-31-domain-name-hosting-change-leilukins-hub/">migrated to Netlify and got a custom domain name</a> on 31 May 2024, I have been working on improving the performance of this website. After discovering the static site generator <a href="https://www.11ty.dev/">Eleventy</a> and began to <a href="/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/">rebuilt Leilukin's Hub with Eleventy</a>, I found the <a href="https://www.11ty.dev/speedlify/">Eleventy Leaderboard</a> which inspired me to look into <a href="https://developer.chrome.com/docs/lighthouse/">Google Lighthouse</a> more, since the Eleventy Leaderboard measures the Lighthouse score of websites built with Eleventy.</p>
+<p>I use <a href="https://pagespeed.web.dev/">PageSpeed Insights</a> to measure my website's Lighthouse score. My website achieved 100 in the categories of Accessibility, Best Practices and SEO, but the Performance score could use improvement. As a result, I studied about ways to improve website performance based on PageSpeed Insights' reports about my site.</p>
+<div class="heading-wrapper h2">
+<h2 id="optimising-custom-fonts">Optimising Custom Fonts</h2>
+<a class="heading-anchor" href="#optimising-custom-fonts" aria-labelledby="optimising-custom-fonts"><span hidden>#</span></a></div>
+<p>During the tests of Leilukin's Hub, PageSpeed Insights reported that the biggest factor in impacting the performance of this website is <a href="https://web.dev/articles/cls">Cumulative Layout Shift (CLS)</a>. It took me a while to figure out using a custom font, namely the <a href="https://www.lexend.com/">Lexend font family</a>, was the cause of CLS of Leilukin's Hub — due to using a custom font as the default font, there was a <a href="https://fonts.google.com/knowledge/glossary/fout">flash of unstyled text (FOUT)</a> for the entire page of Leilukin's Hub before the Lexend font loaded.</p>
+<p>This prompted me to research ways to optimise web fonts. Eventually, I solved the issue of FOUT and CLS by preloading the Lexend regular and bold typeface files (I used <a href="https://gwfh.mranftl.com/fonts">google-webfonts-helper</a> to obtain the font files in WOFF2 format) in the <code>&lt;head&gt;</code> element, and turning my CSS stylesheet for Lexend into inline CSS by placing a <code>&lt;style&gt;</code> block for the CSS in the <code>&lt;head&gt;</code> element. Leilukin's Hub Lighthouse performance score improved as a result.</p>
+<p>By testing the site performance of Leilukin's Hub, I also learned that using Font Awesome could impact site performance, largely due to Font Awesome's large CSS files, so I decided to optimise the Font Awesome assets on Leilukin's Hub by using only the brand icons, while removing unused and unneeded font files and CSS properties.</p>
+<div class="heading-wrapper h2">
+<h2 id="converting-images-to-avif-format">Converting Images to AVIF Format</h2>
+<a class="heading-anchor" href="#converting-images-to-avif-format" aria-labelledby="converting-images-to-avif-format"><span hidden>#</span></a></div>
+<p>The next step to improve the site performance of Leilukin's Hub was converting most images on this website to <a href="https://en.wikipedia.org/wiki/AVIF">AVIF</a> format, upon PageSpeed Insight's suggestions of using next-gen image formats such as WEBP and AVIF. I used <a href="https://www.gimp.org/">GNU Image Manipulation Program</a>, <a href="https://www.shutterencoder.com/">Shutter Encoder</a> and <a href="https://imagemagick.org/">ImageMagick</a> to carry out the task of converting images to AVIF.</p>
+<p>Converting images to AVIF reduces the images' file sizes, which in turn saves bandwidth. Being able to host images in AVIF format adds to one more reason I am glad that I decided to migrate Leilukin's Hub from Neocities to Netlify. One of the reasons for the migration is Netlify' lack of file type restriction for free, unlike Neocities which requires paying for the <a href="https://neocities.org/supporter">Supporter plan</a>.</p>
+<p>The only disadvantage of<a href="https://www.netlify.com/pricing/"> Netlify's free plan</a> compared to Neocities' free plan is the lower monthly bandwidth limit — Netlify limits monthly bandwidth for free tier users to 100GB across all deployed sites and projects, while Neocities' limit is 200GB for one website. However, even 100GB per month is more than enough for average users, though taking steps to save bandwidth like using AVIF images still certainly helps.</p>
+<p>On the subject of images, I have also set all images other than the header to <a href="https://developer.mozilla.org/en-US/docs/Web/Performance/Lazy_loading">lazy loading</a> to reduce page load times.</p>
+<div class="heading-wrapper h2">
+<h2 id="perfect-lighthouse-score-achieved">Perfect Lighthouse Score Achieved</h2>
+<a class="heading-anchor" href="#perfect-lighthouse-score-achieved" aria-labelledby="perfect-lighthouse-score-achieved"><span hidden>#</span></a></div>
+<p>At last, after my effort in optimising this website to improve its performance, Leilukin's Hub reached a 100 Performance score, and thus <a href="https://pagespeed.web.dev/analysis/https-leilukin-com/apte02co99">achieved a perfect Lighthouse score</a>!</p>
+<p>I have come to care about my website's performance, because not only has web development evolved into more than a hobby for me, but also it makes visitors' experience with browsing my website better with faster loading times.</p>
+
+
+    
+        <nav class="blog__post--pagination" aria-labelledby="nextprev-title">
+            <h2 class="visually-hidden" id="nextprev-title">Next and Previous Blog Posts</h2>
+                    <ul class="blog__post--nextprev">
+                        <li class="blog__post--prev">
+                            <p>Previous Post:</p>
+                            <a href="/blog/posts/2024-05-31-domain-name-hosting-change-leilukins-hub/">Custom Domain Name and Hosting Change for Leilukin&#39;s Hub</a>
+                        </li>
+                    
+                        <li class="blog__post--next">
+                            <p>Next Post:</p>
+                            <a href="/blog/posts/2024-06-21-leilukins-hub-tumbleblog-launched/">Leilukin&#39;s Hub Tumbleblog Launched</a>
+                        </li>
+                    
+                    </ul>
+        </nav>
+    
+    </article>
+
+    
+        <aside class="right-sidebar" aria-label="Right sidebar">
+    <nav class="content__nav sidebar--sticky" aria-labelledby="my-contents-title">
+        <h2 class="content__nav--title" id="my-contents-title">My Contents</h2>
+        <ul class="content__nav--links">
+            
+                <li><a href="/archive/">Content Archive</a></li>
+            
+                <li><a href="/categories/">Content Categories</a></li>
+            
+            <li><a href="/articles/">Articles</a></li>
+            
+                <li><a href="/blog/posts/">Blog Archive</a></li>
+            
+                <li><a href="/blog/">Blog Home</a></li>
+            
+        </ul>
+    </nav>
+</aside>
+    
+
+    
+</content-wrapper>
+        </main>
+        <footer class="footer">
+    <p>Made with ♥ by Leilukin since 11 September 2022</p>
+
+    
+    <ul class="inline-nav footer__links">
+        <li><a href="/feed.xml">RSS</a></li>
+        <li><a
+            
+            href="/sitemap/
+        ">Site Map</a></li>
+        <li><a
+            
+            href="/changelogs/"
+        >Changelogs</a></li><li><a
+                
+                href="/accessibility/"
+            >Accessibility</a></li><li><a
+                
+                href="/colophon/"
+            >Colophon</a></li></ul>
+<div class="h-card hidden">
+    <span class="p-name p-nickname">Leilukin</span>
+    <a href="/" class="u-url">Home page</a>
+    <img src="https://i.postimg.cc/RZJgS6tY/leilukin-bee.avif" alt="Leilukin" class="u-photo" loading="lazy">
+    <span class="p-country-name">Malaysia</span>
+    <span class="p-note">They/she. A proudly queer and autistic <span class="p-gender-identity">non-binary</span> lesbian from Malaysia.</span>
+</div><a href="#top" class="top-btn">
+    <svg class="top-btn__arrow" focusable="false" aria-hidden="true" viewBox="0 0 26 28">
+        <path d="M25.172 15.172c0 0.531-0.219 1.031-0.578 1.406l-1.172 1.172c-0.375 0.375-0.891 0.594-1.422 0.594s-1.047-0.219-1.406-0.594l-4.594-4.578v11c0 1.125-0.938 1.828-2 1.828h-2c-1.062 0-2-0.703-2-1.828v-11l-4.594 4.578c-0.359 0.375-0.875 0.594-1.406 0.594s-1.047-0.219-1.406-0.594l-1.172-1.172c-0.375-0.375-0.594-0.875-0.594-1.406s0.219-1.047 0.594-1.422l10.172-10.172c0.359-0.375 0.875-0.578 1.406-0.578s1.047 0.203 1.422 0.578l10.172 10.172c0.359 0.375 0.578 0.891 0.578 1.422z"></path>
+    </svg>
+    Back to Top
+</a>
+</footer>
+        
+    </body>
+</html>
