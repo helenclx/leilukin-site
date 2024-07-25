@@ -74,3 +74,4 @@ There have been Palestinians who reached out to me on Tumblr to ask for help wit
 * [Support Safaa's Quest To Get Her Family To Safety](https://www.gofundme.com/f/support-safaas-quest-to-get-her-family-to-safety) (verified by [90-ghost](https://www.tumblr.com/90-ghost/756556669674274816))
 * [Help Doaa Rebuild Her Sewing Business](https://www.gofundme.com/f/help-doaa-rebuild-her-sewing-business) (verified by [90-ghost](https://www.tumblr.com/90-ghost/756556522290626560))
 * [Help the Munna Tashmali Family Rebuild Their Home and Future](https://www.gofundme.com/f/help-the-munna-tashmali-family-rebuild-their-home-and-future) (verified by [nabulsi](https://www.tumblr.com/nabulsi/754393532315353089/donate-to-help-the-munna-tashmali-family-rebuild))
+* [Help Gaza Family Evacuate to Safety](https://www.gofundme.com/f/helping-gaza-family-to-get-out) (verified by [90-ghost](https://www.tumblr.com/90-ghost/756899215473606656))
