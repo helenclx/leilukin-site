@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2024-07-02
+updated: 2024-07-27
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -13,18 +13,16 @@ This is my [/now page](https://nownownow.com/about). You can find more pages lik
 
 You can also check out my [status.cafe profile](https://status.cafe/users/leilukin) for my latest short status updates.
 
+Last updated on 26 July 2024.
+
+## Migrating Leilukin's Hub and Its Subsites to Hostinger
+
+Starting with 25 July 2024, Leilukin's Hub and all its subsites, including its [tumbleblog](https://tumbleblog.leilukin.com/) and [fanlisting collective](https://fan.leilukin.com/), have been migrated to [Hostinger](https://www.hostinger.my/).
+
+You can read my blog post, [Leilukin's Hub has Migrated to Hostinger](/blog/posts/2024-07-27-hostinger-migration-leilukins-hub), to learn more.
+
 ## Participating in Personal Web Spaces
 
 I have been making a more active effort in participating in personal web spaces and connecting with other webmasters, through various methods including leaving messages on others' guestbooks, sending other webmasters emails, linking to each other's websites, following each other's Neocities profiles, etc.
 
 Furthermore, I joined [32-Bit Cafe](https://32bit.cafe/) on both its Discourse forum and Discord on 15 June 2024, and earned the [New Member of the Month for June 2024](https://tumbleblog.leilukin.com/2024/07/02/earned-32-bit-cafe-new-member-of-the-month-award-for-june-2024/) on the Discourse forum.
-
-## What I am Working on
-
-### Building a {% cite "Cassette Beasts" %} Fanlisting and My Fanlisting Collective
-
-I had been working on building buiing the {% cite "Cassette Beasts" %} fanlisting, with the [approval]((/blog/posts/2024-06-24-cassette-beasts-fanlisting-approved)) from [The Fanlistings Network](https://thefanlistings.org/), and my fanlisting colellective to gather all fanlistings I own, join and have applied in one place. Both the {% cite "Cassette Beasts" %} fanlisting and my fanlisting collective have been [launched](/blog/posts/2024-07-02-fanlisting-collective-launch) on 2 July 2024.
-
-### Updating my {% cite "Star Wars: Knights of the Old Republic" %} mods
-
-As part of my collaboration with [KOtOR Community Portal's mod builds](https://kotor.neocities.org/modding/), I have updated [KotOR 1 Twi'lek Male NPC Diversity](/projects/videogamemods/kotor1/#kotor-1-twilek-male-npc-diversity), [PartySwap](/projects/videogamemods/kotor2/#partyswap) and [PartySwap and Extended Enclave Compatibility Patch](/projects/videogamemods/kotor2/#partyswap-and-extended-enclave-compatibility-patch) to ensure my mods are bug-free and compatible with other mods in the mod builds, and to prepare for the next iteration of the mod builds.
