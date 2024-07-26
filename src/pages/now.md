@@ -19,7 +19,7 @@ Last updated on 26 July 2024.
 
 Starting with 25 July 2024, Leilukin's Hub and all its subsites, including its [tumbleblog](https://tumbleblog.leilukin.com/) and [fanlisting collective](https://fan.leilukin.com/), have been migrated to [Hostinger](https://www.hostinger.my/).
 
-You can read my blog post, [Leilukin's Hub has Migrated to Hostinger](/blog/posts/2024-07-27-hostinger-migration-leilukins-hub), to learn more.
+You can read my blog post, [Leilukin's Hub Has Migrated to Hostinger](/blog/posts/2024-07-27-hostinger-migration-leilukins-hub), to learn more.
 
 ## Participating in Personal Web Spaces
 

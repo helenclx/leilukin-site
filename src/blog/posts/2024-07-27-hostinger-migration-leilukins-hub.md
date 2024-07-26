@@ -1,5 +1,5 @@
 ---
-articleTitle: Leilukin's Hub has Migrated to Hostinger
+articleTitle: Leilukin's Hub Has Migrated to Hostinger
 desc: Leilukin's Hub has moved hosts again — this time to Hostinger.
 date: 2024-07-27
 categories: ["site updates"]
