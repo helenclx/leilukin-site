@@ -36,7 +36,7 @@ That said, I do need to consider carefully about how much money I am going to sp
 
 The biggest draw about Hostinger is its pricing — it is not only cheap, but also offering regional pricing. This is a huge deal for people who live in countries with weaker currencies than US Dollars and Euro, as the pricing scales to the level we are more comfortable spending, without worrying about currency conversion rates.
 
-For reference, as of this writing, 1 USD equals approximately 4.6 Malaysian Ringgit (MYR), while the minimum wage in Malaysia is RM1,500, which approximately equals to 321.03 USD, per month. Therefore, if a Malaysian like me is going to spend money, every USD counts.
+For reference, as of this writing, 1 USD equals approximately 4.6 Malaysian Ringgit (MYR), while the minimum wage in Malaysia is 1,500 MYR, which approximately equals to 321.03 USD, per month. Therefore, if a Malaysian like me is going to spend money, every USD counts.
 
 Compare the pricing of the 48-month Premium Shared Hosting plan, which was what I ended up spending to host my websites, of [Hostinger.my](https://www.hostinger.my/) to [Hostinger.com](https://www.hostinger.com/): The plan costs 7.99 per month in MYR (approximately 1.71 USD), while 2.99 per month in USD (approximately 13.97 MYR). This means I ended up saving almost 6 MYR per month by purchasing the plan on the Malaysian branch of Hostinger. This is just comparing Hostinger's own hosting plan with different currencies, let alone comparing Hostinger's hosting plan to its competitors.
 
