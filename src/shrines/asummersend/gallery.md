@@ -46,15 +46,15 @@ I had played {% cite "A Summer’s End" %} with the Passion Patch enabled and un
 The sex scenes between Sam and Michelle added by the Passion Patch are easily the best sapphic sex scenes I have ever seen in any game. Furthermore, Oracle and Bone had written a blog post about their thought process behind the [sexual content in {% cite "A Summer’s End" %}](https://www.asummersend.com/blog/sexual-content). Therefore, I want to dedicate this section to screenshots of these scenes.
 
 {% contentWarning "Adult Content" %}
-![Sam kisses Michelle's cleavage and strokes Michelle's thigh](https://host.leilukin.com/images/asummersend-passion/HK1986-2021-02-06-16-15-22-789.avif){loading="lazy"}
+[![Sam kisses Michelle's cleavage and strokes Michelle's thigh](https://i.postimg.cc/T1FwDpN3/HK1986-2021-02-06-16-15-22-789.avif){loading="lazy"}](https://postimg.cc/YLNMcqw5)
 
-![Sam licks Michelle's bare stomach](https://host.leilukin.com/images/asummersend-passion/HK1986-2021-02-06-16-15-32-530.avif){loading="lazy"}
+[![Sam licks Michelle's bare stomach](https://i.postimg.cc/SRJRRWrP/HK1986-2021-02-06-16-15-32-530.avif){loading="lazy"}](https://postimg.cc/K3hxs3C7)
 
-![Michelle, with her shirt opened and bra exposed, pulls Sam's hand towards her lower body](https://host.leilukin.com/images/asummersend-passion/HK1986-2021-02-06-16-16-42-897.avif){loading="lazy"}
+[![Michelle, with her shirt opened and bra exposed, pulls Sam's hand towards her lower body](https://i.postimg.cc/3rcW6crQ/HK1986-2021-02-06-16-16-42-897.avif){loading="lazy"}](https://postimg.cc/mh7b1VFm)
 
-![Sam fingers Michelle, whose breasts and stomach are exposed](https://host.leilukin.com/images/asummersend-passion/HK1986-2021-02-06-16-16-55-049.avif){loading="lazy"}
+[![Sam fingers Michelle, whose breasts and stomach are exposed](https://i.postimg.cc/sXn13npS/HK1986-2021-02-06-16-16-55-049.avif){loading="lazy"}](https://postimg.cc/njDnkGSc)
 
-![Sam naked on top of Michelle, who caresses Sam's bare breast](https://host.leilukin.com/images/asummersend-passion/HK1986-2021-02-06-16-17-03-633.avif){loading="lazy"}
+[![Sam naked on top of Michelle, who caresses Sam's bare breast](https://i.postimg.cc/Hs8jC9jc/HK1986-2021-02-06-16-17-03-633.avif){loading="lazy"}](https://postimg.cc/gndGVRVm)
 
 These screenshots of {% cite "A Summer’s End" %}'s Passion Patch can also be viewed on [my Postimages gallery](https://postimg.cc/gallery/YBhz5TbR), and are available in PNG and AVIF formats.
 {% endcontentWarning %}
