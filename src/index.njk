@@ -42,8 +42,6 @@ eleventyComputed:
 
 <section class="content__section">
     <h2>What is New?</h2>
-    {% include "main/statuscafe.njk" %}
-
     <div class="text-box">
         {% for log in collections["changelogs"]  | reverse | itemLimit(1) %}
             <h3>Changelog: {{ log.data.date | formatDate }}</h3>
@@ -52,6 +50,8 @@ eleventyComputed:
         <p><a href="/changelogs">View all site changelogs</a></p>
     </div>
     <p>You can subscribe to the <a href="/feed.xml">{{ sitemeta.siteName }} RSS feed</a> to get notified of the updates on this website, including new articles, blog posts and website changelogs.</p>
+
+    {% include "main/statuscafe.njk" %}
 </section>
 
 <section class="content__section">
