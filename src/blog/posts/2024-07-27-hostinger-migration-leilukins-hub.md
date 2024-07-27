@@ -66,7 +66,7 @@ Last but not least, another motivator for me to purchase a premium website hosti
 
 While Hostinger provides domain registration and transfer service, I chose to have the `leilukin.com` domain name stay with [Porkbun](https://porkbun.com/), because I already spent money on the domain name, so Hostinger's hosting plan providing domain name registration for free for the first year does not benefit me.
 
-In addition, Porkbun's renewal rate for domain names is cheaper than Hostinger. For example, Porkbun renews the `.com` domain extension at 10.37 USD, while Hostinger renews at 15.99 USD. Even the Malaysian Ringgit pricing of Hostinger's domain renewal rate for `.com`, 55.99 MYR, is still more expansive than Porkbun's approximately 48.3 MYR rate.
+In addition, Porkbun's renewal rate for domain names is cheaper than Hostinger. For example, Porkbun renews the `.com` domain extension at 10.37 USD per year, while Hostinger renews at 15.99 USD per year. Even the Malaysian Ringgit pricing of Hostinger's domain renewal rate for `.com`, 55.99 MYR per year, is still more expansive than Porkbun's approximately 48.3 MYR per year rate.
 
 ## Wrapping Up
 
