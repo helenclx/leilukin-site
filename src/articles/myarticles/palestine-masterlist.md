@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19
-updated: 2024-07-25
+updated: 2024-07-27
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 ---
@@ -75,3 +75,4 @@ There have been Palestinians who reached out to me on Tumblr to ask for help wit
 * [Help Doaa Rebuild Her Sewing Business](https://www.gofundme.com/f/help-doaa-rebuild-her-sewing-business) (verified by [90-ghost](https://www.tumblr.com/90-ghost/756556522290626560))
 * [Help the Munna Tashmali Family Rebuild Their Home and Future](https://www.gofundme.com/f/help-the-munna-tashmali-family-rebuild-their-home-and-future) (verified by [nabulsi](https://www.tumblr.com/nabulsi/754393532315353089/donate-to-help-the-munna-tashmali-family-rebuild))
 * [Help Gaza Family Evacuate to Safety](https://www.gofundme.com/f/helping-gaza-family-to-get-out) (verified by [90-ghost](https://www.tumblr.com/90-ghost/756899215473606656))
+* [Help us for the sake of God](https://www.gofundme.com/f/help-us-for-the-sake-of-god) (verified by [90-ghost](https://www.tumblr.com/90-ghost/755446251161632768/faites-un-don-%C3%A0-help-us-for-the-sake-of-god))
