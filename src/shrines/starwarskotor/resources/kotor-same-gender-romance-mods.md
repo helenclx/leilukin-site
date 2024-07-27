@@ -76,7 +76,7 @@ Initial Release
 : 20 July 2015
 
 Download
-: [Deadly Stream](https://deadlystream.com/files/file/577-bi-carth/) and [Nexus Mods](https://www.nexusmods.com/kotor/videogamemods/60)
+: [Deadly Stream](https://deadlystream.com/files/file/577-bi-carth/) and [Nexus Mods](https://www.nexusmods.com/kotor/mods/60)
 
 Description
 : Allows Male Revan to romance Carth and flirt with certain male NPCs.
@@ -90,7 +90,7 @@ Initial Release
 : 4 January 2016
 
 Download
-: [Deadly Stream](https://deadlystream.com/files/file/772-juhani-romance-enhancement/) and [Nexus Mods](http://www.nexusmods.com/kotor/videogamemods/73)
+: [Deadly Stream](https://deadlystream.com/files/file/772-juhani-romance-enhancement/) and [Nexus Mods](http://www.nexusmods.com/kotor/mods/73)
 
 Description
 : Improves the final romance conversation with Juhani, including triggering the conversation automatically, provided the conditions for this conversation are met, as well as adding a kiss between Juhani and female Revan.
@@ -138,7 +138,7 @@ Initial Release
 : 6 August 2022
 
 Download
-: [Deadly Stream](https://deadlystream.com/files/file/2140-carth-onasi-and-male-pc-romance/) and [Nexus Mods](https://www.nexusmods.com/kotor/videogamemods/1493)
+: [Deadly Stream](https://deadlystream.com/files/file/2140-carth-onasi-and-male-pc-romance/) and [Nexus Mods](https://www.nexusmods.com/kotor/mods/1493)
 
 Description
 : Inspired by the aforementioned Bi Carth mod, this is my version of a male Revan and Carth romance mod. The biggest differences between my version and forgetcanon’s are that my mod is installed by patching relevant dialogue files, instead of putting modified dialogue files in the Override folder, and I have also edited Carth’s dialogue and spliced audio files to prevent Carth from referring to male Revan as a woman.
@@ -164,7 +164,7 @@ Initial Release
 : 9 March 2015
 
 Download
-: [Deadly Stream](https://deadlystream.com/files/file/529-alternate-revan-romances/) and [Nexus Mods](http://www.nexusmods.com/kotor2/videogamemods/43)
+: [Deadly Stream](https://deadlystream.com/files/file/529-alternate-revan-romances/) and [Nexus Mods](http://www.nexusmods.com/kotor2/mods/43)
 
 Description
 : Allows players to set Revan’s love interest(s), instead of letting the game assume male Revan is romantically involved with Bastila, while female Revan is romantically involved with Carth. Most notably, with this mod, Bastila can be chosen as female Revan’s love interest, and Carth can be chosen as male Revan’s love interest.
@@ -183,7 +183,7 @@ Initial Release
 : 15 December 2016
 
 Download
-: [Deadly Stream](https://deadlystream.com/files/file/968-visas-marr-and-female-exile-romance/) and [Nexus Mods](https://www.nexusmods.com/kotor2/videogamemods/925)
+: [Deadly Stream](https://deadlystream.com/files/file/968-visas-marr-and-female-exile-romance/) and [Nexus Mods](https://www.nexusmods.com/kotor2/mods/925)
 
 Description
 : Makes the Visas romance scene, which occurs near the endgame, available for the Exile regardless of gender.
@@ -197,7 +197,7 @@ Initial Release
 : 27 December 2016
 
 Download
-: [Deadly Stream](https://deadlystream.com/files/file/972-atton-rand-and-male-exile-romance/) and [Nexus Mods](https://www.nexusmods.com/kotor2/videogamemods/926)
+: [Deadly Stream](https://deadlystream.com/files/file/972-atton-rand-and-male-exile-romance/) and [Nexus Mods](https://www.nexusmods.com/kotor2/mods/926)
 
 Description
 : Makes Atton flirt with and express romantic interest in a male Exile.
@@ -214,7 +214,7 @@ Initial Release
 : 2 January 2017
 
 Download
-: [Deadly Stream](https://deadlystream.com/files/file/977-handmaiden-and-female-exile-disciple-and-male-exile-romance/) and [Nexus Mods](https://www.nexusmods.com/kotor2/videogamemods/927)
+: [Deadly Stream](https://deadlystream.com/files/file/977-handmaiden-and-female-exile-disciple-and-male-exile-romance/) and [Nexus Mods](https://www.nexusmods.com/kotor2/mods/927)
 
 Description
 : In addition to allowing Handmaiden to join a female Exile’s party and allowing Disciple to join a male Exile’s party, this mod also makes Handmaiden a romance option for a female Exile, and Disciple for a male Exile. It is worth noting that by allowing Handmaiden to join a female Exile, this mod also enables romantic subtext between Atris and the female Exile.
@@ -231,7 +231,7 @@ Initial Release
 : 12 January 2017
 
 Download
-: [Deadly Stream](https://deadlystream.com/files/file/996-darth-sion-and-male-exile-mod/) and [Nexus Mods](https://www.nexusmods.com/kotor2/videogamemods/928)
+: [Deadly Stream](https://deadlystream.com/files/file/996-darth-sion-and-male-exile-mod/) and [Nexus Mods](https://www.nexusmods.com/kotor2/mods/928)
 
 Description
 : Makes Darth Sion displays romantic attachment (in his own way) to a male Exile.
@@ -248,7 +248,7 @@ Initial Release
 : 26 January 2017
 
 Download
-: [Deadly Stream](https://deadlystream.com/files/file/1004-alternate-revan-romances-redux/) and [Nexus Mods](https://www.nexusmods.com/kotor2/videogamemods/933)
+: [Deadly Stream](https://deadlystream.com/files/file/1004-alternate-revan-romances-redux/) and [Nexus Mods](https://www.nexusmods.com/kotor2/mods/933)
 
 Description
 : My updated version of the Alternate Revan Romances mod, released with felixfelicitas’ permission. My mod fixes many bugs with the original version.
@@ -265,7 +265,7 @@ Initial Release
 : 10 November 2018
 
 Download
-: [Deadly Stream](https://deadlystream.com/files/file/1400-dahnis-flirt-option-for-female-pc/) and [Nexus Mods](https://www.nexusmods.com/kotor2/videogamemods/1036)
+: [Deadly Stream](https://deadlystream.com/files/file/1400-dahnis-flirt-option-for-female-pc/) and [Nexus Mods](https://www.nexusmods.com/kotor2/mods/1036)
 
 Description
 : Makes Dahnis, a minor NPC and one of the Pazaak players on Nar Shaddaa, flirt with the player.
