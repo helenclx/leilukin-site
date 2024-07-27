@@ -76,3 +76,4 @@ There have been Palestinians who reached out to me on Tumblr to ask for help wit
 * [Help the Munna Tashmali Family Rebuild Their Home and Future](https://www.gofundme.com/f/help-the-munna-tashmali-family-rebuild-their-home-and-future) (verified by [nabulsi](https://www.tumblr.com/nabulsi/754393532315353089/donate-to-help-the-munna-tashmali-family-rebuild))
 * [Help Gaza Family Evacuate to Safety](https://www.gofundme.com/f/helping-gaza-family-to-get-out) (verified by [90-ghost](https://www.tumblr.com/90-ghost/756899215473606656))
 * [Help us for the sake of God](https://www.gofundme.com/f/help-us-for-the-sake-of-god) (verified by [90-ghost](https://www.tumblr.com/90-ghost/755446251161632768/faites-un-don-%C3%A0-help-us-for-the-sake-of-god))
+* [we need help](https://www.gofundme.com/f/bfth82-we-need-help) (verified by [90-ghost](https://www.tumblr.com/90-ghost/756901702912868352))
