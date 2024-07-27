@@ -153,7 +153,7 @@ In addition, since Handmaiden replaces Disciple’s place on the Ebon Hawk crew 
 
 That being said, these are all side effects of Handmaiden being exclusive to male Exiles in the vanilla game. Handmaiden Choice for Females was not intentionally made with same-gender romances in mind.
 
-Hassat Hunter had remade the mod into [Handmaiden 4 Females - Disciple for Males](https://www.moddb.com/videogamemods/the-sith-lords-restored-content-mod-tslrcm/addons/handmaiden-4-females-disciple-4-males-183) (originally released on 14 March 2014) to be compatible with The Sith Lords Restored Content Mod (TSLRCM). However, the mod is outdated and no longer supported.
+Hassat Hunter had remade the mod into [Handmaiden 4 Females - Disciple for Males](https://www.moddb.com/mods/the-sith-lords-restored-content-mod-tslrcm/addons/handmaiden-4-females-disciple-4-males-183) (originally released on 14 March 2014) to be compatible with The Sith Lords Restored Content Mod (TSLRCM). However, the mod is outdated and no longer supported.
 
 ### Alternate Revan Romances
 
