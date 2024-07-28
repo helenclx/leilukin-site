@@ -1,82 +1,42 @@
 // Installed Plugins
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import embedEverything from "eleventy-plugin-embed-everything";
 import metagen from 'eleventy-plugin-metagen';
 import emojiReadTime from "@11tyrocks/eleventy-plugin-emoji-readtime";
+import pluginTOC from '@uncenter/eleventy-plugin-toc';
 
-import slugify from "slugify";
-
-import markdownPlugin from "./eleventy.config.md.js";
+// Custom Configurations
+import markdownItConfig from "./src/_config/markdown-it.js";
+import copyConfig from "./src/_config/copy.js";
+import collectionsConfig from "./src/_config/collections.js";
+import filterConfig from "./src/_config/filter.js";
+import shortCodesConfig from "./src/_config/shortcodes.js";
 
 export default function(eleventyConfig) {
-    // Copy files
-    eleventyConfig.addPassthroughCopy("./src/assets/");
-    eleventyConfig.addWatchTarget("./src/assets/");
-    eleventyConfig.addWatchTarget("./src/_bundle/");
-    eleventyConfig.addPassthroughCopy({
-        "node_modules/@zachleat/details-utils/details-utils.js": "assets/js/details-utils.js",
-    });
-
-    // Custom Plugins
-    eleventyConfig.addPlugin(markdownPlugin);
-
     // Installed Plugins
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(eleventyNavigationPlugin);
+    eleventyConfig.addPlugin(embedEverything, { add: ['soundcloud'] });
     eleventyConfig.addPlugin(metagen);
     eleventyConfig.addPlugin(emojiReadTime);
+    eleventyConfig.addPlugin(pluginTOC, {
+        tags: ['h2', 'h3', 'h4', 'h5', 'h6'],
+        wrapper: function (toc) {
+            return `<nav class="toc" aria-labelledby="toc-heading">${toc}</nav>`;
+        },
+    });
+
+    // Custom Configurations
+    eleventyConfig.addPlugin(markdownItConfig);
+    eleventyConfig.addPlugin(copyConfig);
+    eleventyConfig.addPlugin(collectionsConfig);
+    eleventyConfig.addPlugin(filterConfig);
+    eleventyConfig.addPlugin(shortCodesConfig);
 
     // Eleventy bundle plugin
     eleventyConfig.addBundle("css");
     eleventyConfig.addBundle("js", { toFileDirectory: "assets/js" });
-
-    // Add content categories to a collection
-    eleventyConfig.addCollection("categories", function(collectionApi) {
-        let categories = new Set();
-        let contents = collectionApi.getFilteredByTag('contents');
-        contents.forEach(p => {
-            let cats = p.data.categories;
-            cats.forEach(c => categories.add(c));
-        });
-        return Array.from(categories).sort();
-    });
-
-    // Filter contents by category
-    eleventyConfig.addFilter("filterByCategory", function(contents, cat) {
-        cat = cat.toLowerCase();
-        let result = contents.filter(item => {
-            let cats = item.data.categories.map(c => c.toLowerCase());
-            return cats.includes(cat);
-        });
-        return result;
-    });
-
-    // Filter: Format dates
-    const dateOptions = {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-    };
-    const dateTimeLocale = new Intl.DateTimeFormat("en-GB", dateOptions);
-    eleventyConfig.addFilter("formatDate", function(date) {
-        return dateTimeLocale.format(date);
-    });
-
-    // Filter: Limit number of items displayed
-    eleventyConfig.addFilter("itemLimit", function(array, itemLimit) {
-        return array.slice(0, itemLimit);
-    });
-
-    // Shortcode: <cite> tag
-    eleventyConfig.addShortcode('cite', (str) => `<cite>${str}</cite>`);
-
-    // Paired shortcode: Manual heading anchor
-    eleventyConfig.addPairedShortcode('headingAnchor', (title, hLevel, id=slugify(title)) => {
-        return `<div class="heading-wrapper h${hLevel}">
-            <h${hLevel} id="${id}">${title}</h${hLevel}>
-            <a class="heading-anchor" href="#${id}" aria-labelledby="${id}"><span hidden="">#</span></a>
-        </div>`;
-    });
 
     return {
         dir: {
