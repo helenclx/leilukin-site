@@ -13,14 +13,14 @@ export default function(eleventyConfig) {
         </div>`;
     });
 
-    // Paired shortcode: custom container
+    // Custom container
     eleventyConfig.addPairedShortcode('container', (children, el, className) => {
         const classMarkup = className ? ` class="${className}"` : "";
         const content = markdownLibrary.render(children);
         return `<${el}${classMarkup}>${content}</${el}>`;
     });
 
-    // Paired shortcode: image figure and figcaption
+    // Image figure and figcaption
     eleventyConfig.addPairedShortcode('imgFigure', (caption, img, alt=caption, enableLazyLoading=true) => {
         const figcaption = markdownLibrary.renderInline(caption);
         return `<figure>
@@ -29,7 +29,7 @@ export default function(eleventyConfig) {
         </figure>`;
     });
 
-    // Paired shorcode: Content accordion
+    // Content accordion
     eleventyConfig.addPairedShortcode('accordion', (content, summary) => {
         const summaryMarkup = markdownLibrary.renderInline(summary);
         const contentMarkup = markdownLibrary.render(content);
