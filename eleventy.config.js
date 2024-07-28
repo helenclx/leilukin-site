@@ -12,6 +12,7 @@ export default function (eleventyConfig) {
     // Copy files
     eleventyConfig.addPassthroughCopy("./src/assets/");
     eleventyConfig.addWatchTarget("./src/assets/");
+    eleventyConfig.addWatchTarget("./src/_bundle/");
     eleventyConfig.addPassthroughCopy({
         "node_modules/@zachleat/details-utils/details-utils.js": "assets/js/details-utils.js",
     });
