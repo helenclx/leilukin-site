@@ -8,7 +8,7 @@ import pluginTOC from "@uncenter/eleventy-plugin-toc";
 
 // Custom Configurations
 import markdownItConfig from "./src/_config/markdown-it.js";
-import copyConfig from "./src/_config/copy.js";
+import filesConfig from "./src/_config/files.js";
 import collectionsConfig from "./src/_config/collections.js";
 import filterConfig from "./src/_config/filter.js";
 import shortCodesConfig from "./src/_config/shortcodes.js";
@@ -29,7 +29,7 @@ export default function(eleventyConfig) {
 
     // Custom Configurations
     eleventyConfig.addPlugin(markdownItConfig);
-    eleventyConfig.addPlugin(copyConfig);
+    eleventyConfig.addPlugin(filesConfig);
     eleventyConfig.addPlugin(collectionsConfig);
     eleventyConfig.addPlugin(filterConfig);
     eleventyConfig.addPlugin(shortCodesConfig);
