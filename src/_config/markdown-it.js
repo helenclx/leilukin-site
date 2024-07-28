@@ -1,12 +1,3 @@
-/* CONFIGURATION FOR MARKDOWN TEMPLATES */
-
-// Installed Plugins
-import pluginTOC from '@uncenter/eleventy-plugin-toc';
-import embedEverything from "eleventy-plugin-embed-everything";
-
-// Configure slug filter
-import slugify from "slugify";
-
 // markdown-it plugins
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
@@ -16,16 +7,13 @@ import markdownItBracketedSpans from 'markdown-it-bracketed-spans';
 import markdownItDefList from "markdown-it-deflist";
 import markdownItFootnote from "markdown-it-footnote";
 
-export default function(eleventyConfig) {
-    // Installed Plugins
-    eleventyConfig.addPlugin(pluginTOC, {
-        tags: ['h2', 'h3', 'h4', 'h5', 'h6'],
-        wrapper: function (toc) {
-            return `<nav class="toc" aria-labelledby="toc-heading">${toc}</nav>`;
-        },
-    });
-    eleventyConfig.addPlugin(embedEverything, { add: ['soundcloud'] });
+// Configure slug filter
+import slugify from "slugify";
 
+// Enable exporting markdown-it library to another module
+export let markdownLibrary;
+
+export default function(eleventyConfig) {
     // Configure slug filter
     eleventyConfig.addFilter("slug", (str) => {
         if (!str) {
@@ -74,7 +62,7 @@ export default function(eleventyConfig) {
     };
 
     /* Markdown Overrides */
-    let markdownLibrary = markdownIt({
+    markdownLibrary = markdownIt({
         html: true,
         linkify: true,
     })
@@ -116,42 +104,6 @@ export default function(eleventyConfig) {
         markdownLibrary.renderer.rules[rule] = (tokens, idx, options, env, self) => {
             return defaultRender(tokens, idx, options, env, self).replace(...renderRules[rule]);
         }
-    });
-
-    // Paired shortcode: custom container
-    eleventyConfig.addPairedShortcode('container', (children, el, className) => {
-        const classMarkup = className ? ` class="${className}"` : "";
-        const content = markdownLibrary.render(children);
-        return `<${el}${classMarkup}>${content}</${el}>`;
-    });
-
-    // Paired shortcode: image figure and figcaption
-    eleventyConfig.addPairedShortcode('imgFigure', (caption, img, alt=caption, enableLazyLoading=true) => {
-        const figcaption = markdownLibrary.renderInline(caption);
-        return `<figure>
-            <img src="${img}" alt="${alt}"${enableLazyLoading ? ' loading="lazy"' : ''}>
-            <figcaption>${figcaption}</figcaption>
-        </figure>`;
-    });
-
-    // Paired shorcode: Content accordion
-    eleventyConfig.addPairedShortcode('accordion', (content, summary) => {
-        const summaryMarkup = markdownLibrary.renderInline(summary);
-        const contentMarkup = markdownLibrary.render(content);
-        return `<details class="content-accordion">
-            <summary class="content-accordion__summary">${summaryMarkup}</summary>
-            <div class="content-accordion__content">${contentMarkup}</div>
-        </details>`;
-    });
-
-    // Paired shorcode: Content warning accordion
-    eleventyConfig.addPairedShortcode('contentWarning', (content, warning) => {
-        const warningMarkup = markdownLibrary.renderInline(warning);
-        const contentMarkup = markdownLibrary.render(content);
-        return `<details class="contnet-warning">
-            <summary class="contnet-warning__warning"><strong><span aria-hidden="true">⚠️</span> Content Warning:</strong> ${warningMarkup}</summary>
-            <div class="contnet-warning__content">${contentMarkup}</div>
-        </details>`;
     });
 
     /* This is the part that tells 11ty to swap to our custom config */
