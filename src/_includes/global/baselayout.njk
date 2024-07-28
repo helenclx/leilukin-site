@@ -7,6 +7,10 @@
     {% endblock %}
         {% include "global/metagen.njk" %}
 
+        {# Fonts #}
+        {% include "global/fontdefault.njk" %}
+        <link rel="stylesheet" href="{{'/assets/fonts/intel-one-mono/intel-one-mono.css' | url | safe}}">
+
         {# CSS #}
         {% include "global/css-bundle.njk" %}
     {% if hasTooltips %}
@@ -14,9 +18,8 @@
     {% endif %}
         <style>{% getBundle "css" %}</style>
 
-        {# Fonts #}
-        {% include "global/fontdefault.njk" %}
-        <link rel="stylesheet" href="{{'/assets/fonts/intel-one-mono/intel-one-mono.css' | url | safe}}">
+        {# Favicon #}
+        {% block favicon %}{% include "global/favicon.njk" %}{% endblock %}
 
         {# Verifications #}
         <link rel="me" href="mailto:contact@leilukin.com">
@@ -27,9 +30,6 @@
 
         {# Webmention #}
         <link rel="webmention" href="https://webmention.io/leilukin.com/webmention">
-
-        {# Favicon #}
-        {% block favicon %}{% include "global/favicon.njk" %}{% endblock %}
 
         {# JavaScript #}
         <script src="{% getBundleFileUrl 'js' %}" defer></script>
