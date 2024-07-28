@@ -8,7 +8,7 @@ import slugify from "slugify";
 
 import markdownPlugin from "./eleventy.config.md.js";
 
-export default function (eleventyConfig) {
+export default function(eleventyConfig) {
     // Copy files
     eleventyConfig.addPassthroughCopy("./src/assets/");
     eleventyConfig.addWatchTarget("./src/assets/");

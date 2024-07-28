@@ -16,7 +16,7 @@ import markdownItBracketedSpans from 'markdown-it-bracketed-spans';
 import markdownItDefList from "markdown-it-deflist";
 import markdownItFootnote from "markdown-it-footnote";
 
-export default function (eleventyConfig) {
+export default function(eleventyConfig) {
     // Installed Plugins
     eleventyConfig.addPlugin(pluginTOC, {
         tags: ['h2', 'h3', 'h4', 'h5', 'h6'],
