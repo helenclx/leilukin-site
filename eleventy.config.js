@@ -2,9 +2,9 @@
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginEleventyNavigation from "@11ty/eleventy-navigation";
 import pluginEmbedEverything from "eleventy-plugin-embed-everything";
-import pluginMetagen from 'eleventy-plugin-metagen';
+import pluginMetagen from "eleventy-plugin-metagen";
 import pluginEmojiReadTime from "@11tyrocks/eleventy-plugin-emoji-readtime";
-import pluginTOC from '@uncenter/eleventy-plugin-toc';
+import pluginTOC from "@uncenter/eleventy-plugin-toc";
 
 // Custom Configurations
 import markdownItConfig from "./src/_config/markdown-it.js";
