@@ -18,7 +18,7 @@ This website is mostly safe for work, but since I am an adult, I made my website
 
 Feel free to drop a message and say hi on [my guestbook](/guestbook)!
 
-`{{ sitemeta.siteDomain }}` is hosted on [Netlify](https://www.netlify.com/).
+`{{ sitemeta.siteDomain }}` is hosted on [Hostinger](https://www.hostinger.my/).
 
 Initially, {{ sitemeta.siteName }} was hosted on [Neocities](https://neocities.org/). Now visiting `leilukin.neocities.org` will redirect you to `leilukin.com`. That said, I still post about updates to Leilukin's Hub on my Neocities profile, so if you also have a Neocities account, you can still follow me through [my Neocities profile](https://neocities.org/site/leilukin).
 
