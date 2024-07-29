@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19
-updated: 2024-07-27
+updated: 2024-07-29
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 ---
@@ -56,7 +56,7 @@ There have been Palestinians who reached out to me on Tumblr to ask for help wit
 
 * [Help...Save a Pregnant Mother's Life and Support Her Family](https://www.gofundme.com/f/ne9gzx-help-them-to-survive) (verified by [nabulsi](https://www.tumblr.com/nabulsi/751944563232587777) and [90-ghost](https://www.tumblr.com/90-ghost/752304563682476032))
 * [Help Sahar and Her Family to Evacuate Gaza](https://www.gofundme.com/f/help-sahar-and-her-family-to-evacuate-gaza) (verified by [el-shab-hussein](https://www.tumblr.com/el-shab-hussein/749777880017502208/another-fundraiser-i-trust))
-* [Help Us Escape Gaza: A Mother's Plea for Safety](https://www.gofundme.com/f/help-us-escape-gaza-a-mothers-plea-for-safety) (verified by [el-shab-hussein and nabulsi](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?pli=1&gid=0#gid=0&range=B186))
+* [Help Us Escape Gaza: A Mother's Plea for Safety](https://www.gofundme.com/f/help-us-escape-gaza-a-mothers-plea-for-safety) (#182 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/u/0/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/htmlview#gid=0))
 * [From War to Education: Abdelrahman Resilient Journey](https://www.gofundme.com/f/from-war-to-education-abdelrahmans-resilient-journey) (verified by [nabulsi](https://www.tumblr.com/nabulsi/753544070688915456) and [90-ghost](https://www.tumblr.com/90-ghost/753258782216404992))
 * [Please Help Tahani save her children and husband](https://www.gofundme.com/f/i-have-nothing-left-my-home-and-workplace-have-be) (verified by [el-shab-hussein](https://www.tumblr.com/el-shab-hussein/748756401076207616/list-of-fundraisers-for-direct-contacts-from))
 * [Please help Shamaly family SURVIVE Gaza & start a new life!](https://www.gofundme.com/f/please-help-shamaly-family-start-a-new-life) (verified by [nabulsi](https://www.tumblr.com/nabulsi/753715707609530368))
@@ -78,3 +78,6 @@ There have been Palestinians who reached out to me on Tumblr to ask for help wit
 * [Help us for the sake of God](https://www.gofundme.com/f/help-us-for-the-sake-of-god) (verified by [90-ghost](https://www.tumblr.com/90-ghost/755446251161632768/faites-un-don-%C3%A0-help-us-for-the-sake-of-god))
 * [we need help](https://www.gofundme.com/f/bfth82-we-need-help) (verified by [90-ghost](https://www.tumblr.com/90-ghost/756901702912868352))
 * [Help little children of Gaza stay safe and alive!](https://www.gofundme.com/f/help-our-families-evacuate-gaza-before-too-late) (verified by [nabulsi](https://www.tumblr.com/nabulsi/751214090403430400/donate-to-help-little-children-stay-safe-and))
+* [Support Fatima's Family in Gaza After Heartbreaking Tragedy](https://www.gofundme.com/f/support-fatimas-family-in-gaza-after-heartbreaking-tragedy) (verified by [90-ghost](https://www.tumblr.com/90-ghost/756556061504307200))
+* [Get my relatives out of Gaza](https://www.gofundme.com/f/3b6yr-get-my-relatives-out-of-gaza) (verified by [90-ghost](https://www.tumblr.com/90-ghost/757079385198215168/legit-fundraiser))
+* [Help Shaima's family reunite in Egypt](https://www.gofundme.com/f/help-shymaas-family-reunite-in-egypt) (#141 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/u/0/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/htmlview#gid=0))
