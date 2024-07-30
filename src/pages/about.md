@@ -34,7 +34,17 @@ More information about this site can be found on the following pages:
 {% container "article", "content__section" %}
 ## The Webmaster
 
-![Avatar of a drawing of Leilukin bee](/assets/leilukin/leilukin-bee.avif){loading="lazy"}{style="border-radius: 50%; width: 15rem; margin: 0.5em auto;"}
+{% imgFigure "/assets/leilukin/leilukin-bee.avif", "Leilukin bee avatar", "avatar" %}
+[Image description: Digital illustration of a bee wearing red glasses with oval-shaped body and wings on a light green background. Leilukin's signature is at the bottom right of the bee. Description ends]
+{% endimgFigure %}
+
+{%- css %}
+.avatar img {
+    border-radius: 50%;
+    width: 15rem;
+    margin: 0.5em auto;
+}
+{% endcss %}
 
 You can call me {{ sitemeta.siteAuthor.name }}. I am a Malaysian Chinese, queer, non-binary lesbian born in the early 90s. My pronouns are they/them and she/her in English, [他]{lang="zh"} and [她]{lang="zh"} in Chinese.
 
