@@ -26,14 +26,14 @@ eleventyComputed:
     <ul class="blog__posts">
     {% for post in postList %}
         <li class="blog__post">
-            <h2 class="blog__post--title">
+            <h3 class="blog__post--title">
                 <a href="{{ post.url }}">
                     {% if post.data.title %}{{ post.data.articleTitle }}
                     {% else %}
                         <code>{{ post.url }}</code>
                     {% endif %}
                 </a>
-            </h2>
+            </h3>
             <p class="blog__post--time">{{ post.date | formatDate }}</p>
             <p>{{ post.data.desc }}</p>
         </li>
