@@ -1,7 +1,7 @@
 ---
 title: Accessibility
 keyword: accessibility statement
-updated: 2024-07-14
+updated: 2024-08-01
 eleventyNavigation:
     order: 13
 ---
@@ -30,7 +30,6 @@ This site uses the [Lexend](https://www.lexend.com/) font family as the default 
 I use the following tools to test my site for accessibility:
 * WebAIM's [WAVE Browser Extension](https://wave.webaim.org/extension/)
 * [axe DevTools - Web Accessibility Testing](https://www.deque.com/axe/browser-extensions/) browser extension
-* [ANDI Accessibility Testing Tool](https://www.ssa.gov/accessibility/andi/help/install.html)
 * [Alex Clapperton's Colour Contrast Checker](https://colourcontrast.cc/)
 * [NVDA](https://www.nvaccess.org/about-nvda/) screen reader for Windows
 * TalkBack screen reader for Android
