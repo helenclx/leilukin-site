@@ -1,5 +1,5 @@
 ---
-title: BellaBuffs with PHPMailer Integration
+projectTitle: BellaBuffs with PHPMailer Integration
 desc: My fork of BellaBuffs, with PHPMailer powering the email sending features.
 eleventyNavigation:
     order: 4
