@@ -1,6 +1,3 @@
 {
-    "tags": ["code snippets"],
-    "eleventyComputed": {
-        "title": "{{ codeTitle }} | Code Snippets"
-    }
+    "tags": ["code snippets"]
 }

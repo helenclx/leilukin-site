@@ -1,6 +1,3 @@
 {
-    "tags": ["code projects"],
-    "eleventyComputed": {
-        "title": "{{ projectTitle }} | Code Projects"
-    }
+    "tags": ["code projects"]
 }
