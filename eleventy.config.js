@@ -1,6 +1,7 @@
 // Installed Plugins
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginEleventyNavigation from "@11ty/eleventy-navigation";
+import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginEmbedEverything from "eleventy-plugin-embed-everything";
 import pluginMetagen from "eleventy-plugin-metagen";
 import pluginEmojiReadTime from "@11tyrocks/eleventy-plugin-emoji-readtime";
@@ -17,6 +18,7 @@ export default function(eleventyConfig) {
     // Installed Plugins
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(pluginEleventyNavigation);
+    eleventyConfig.addPlugin(pluginSyntaxHighlight, { preAttributes: { tabindex: 0 } });
     eleventyConfig.addPlugin(pluginEmbedEverything, { add: ['soundcloud'] });
     eleventyConfig.addPlugin(pluginMetagen);
     eleventyConfig.addPlugin(pluginEmojiReadTime);

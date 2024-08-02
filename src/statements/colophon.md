@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-07-27
+updated: 2024-08-02
 toc: true
 eleventyNavigation:
     order: 14
@@ -25,6 +25,7 @@ Previously, this website was hosted on [Neocities](https://neocities.org/) until
 ## Plugins
 * Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
 * Eleventy's official [Navigation](https://www.11ty.dev/docs/plugins/navigation/) plugin
+* Eleventy's official [Syntax Highlighting](https://www.11ty.dev/docs/plugins/syntaxhighlight/) plugin
 * [@zachleat/details-utils](https://www.npmjs.com/package/@zachleat/details-utils)
 
 ### Eleventy Community Plugins
@@ -45,6 +46,7 @@ Eleventy has the Markdown parser [markdown-it](https://www.npmjs.com/package/mar
 ## Self-hosted Assets
 * [Lexend](https://www.lexend.com/) font family — used as the default font of this site
 * [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) typeface — used as the monospaced font of this site
+* Eric Bailey's [a11y-syntax-highlighting](https://github.com/ericwbailey/a11y-syntax-highlighting) CSS dark mode stylesheet for Prism.js
 
 ## JavaScript
 Due to this website being a static site, JavaScript is used to create dynamic and interactive components of this site. Here is a list of how JavaScript is used on this site:
