@@ -1,6 +1,6 @@
 ---
 title: Responsive Disability Pride Flag CSS Background
-desc: CSS code snippet of Disability Pride Flag background.
+desc: CSS code snippet of Disability Pride Flag background that can adapt to different widths and screen sizes.
 eleventyNavigation:
     order: 5
 ---
