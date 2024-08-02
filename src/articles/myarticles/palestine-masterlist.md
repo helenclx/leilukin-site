@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19
-updated: 2024-08-01
+updated: 2024-08-02
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 ---
@@ -85,3 +85,4 @@ There have been Palestinians who reached out to me on Tumblr to ask for help wit
 * [Save Ibrahim and his children](https://www.gofundme.com/f/save-ibrahim-and-his-children) (verified by [90-ghost](https://www.tumblr.com/90-ghost/757288769795850240/legit-fundraiser))
 * [Help Shahd in Gaza!](https://www.gofundme.com/f/help-shahd-in-gaza) (#224 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/u/0/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/htmlview#gid=0))
 * [Save Dr. Farhat's family from genocide in Gaza](https://www.gofundme.com/f/saving-dr-farhats-family-towards-hope) (#248 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/u/0/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/htmlview#gid=0))
+* [Assist in evacuating my family from the war in Gaza.](https://www.gofundme.com/f/Help-Mohammed-alhabil-Family) (#166 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A170))
