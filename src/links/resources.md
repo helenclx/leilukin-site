@@ -1,12 +1,12 @@
 ---
 title: Resources
-date: 2024-07-23
+date: 2024-08-02
 ---
 
 ### Archives
 * [The Anarchist Library](https://theanarchistlibrary.org/)
 * [Internet Archive](https://archive.org/)
-* [archive.today](https://archive.ph/)
+* [archive.today](https://archive.is/)
 
 ### Bypass Paywalls
 * [Paywall Reader](https://paywallreader.com/)
