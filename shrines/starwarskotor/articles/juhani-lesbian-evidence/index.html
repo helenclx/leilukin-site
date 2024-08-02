@@ -51,7 +51,7 @@
         <link rel="stylesheet" href="/assets/fonts/intel-one-mono/intel-one-mono.css">
 
         
-        <link rel="stylesheet" href="/assets/css/global.css"><link rel="stylesheet" href="/assets/css/general.css"><link rel="stylesheet" href="/assets/css/content.css"><link rel="stylesheet" href="/assets/css/plugins.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/pridesymbols.css"><link rel="stylesheet" href="/assets/css/utility.css">
+        <link rel="stylesheet" href="/assets/css/global.css"><link rel="stylesheet" href="/assets/css/general.css"><link rel="stylesheet" href="/assets/css/content.css"><link rel="stylesheet" href="/assets/css/plugins.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/a11y-syntax-highlighting-dark.css"><link rel="stylesheet" href="/assets/css/pridesymbols.css"><link rel="stylesheet" href="/assets/css/utility.css">
     
         <style>.right-sidebar {
         background-color: var(--clr-content-bg);
@@ -450,15 +450,14 @@
 <p>The highlighted dialogue shown in the screenshot (”I feel I must apologize for the way I acted towards you before, in the grove. It was wrong of me.”) is the beginning of your first personal conversation with Juhani after Juhani joins your party. Here is a video of the conversation in question:</p>
 <div id="jzqfXoOvGrw" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/jzqfXoOvGrw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <p>As shown in the screenshot above, once you begin this conversation, the script <code>k_hjuh_p17</code> will fire, and this is the source of the script in question:</p>
-<pre><code>void main()
-{
-    int iGender = GetGender(GetPCSpeaker());
-    if (iGender == GENDER_FEMALE)
-    {
-        SetGlobalBoolean(&quot;T_JUHANIROM&quot;, TRUE);
-    }
-}
-</code></pre>
+<pre class="language-c" tabindex="0"><code class="language-c"><span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    <span class="token keyword">int</span> iGender <span class="token operator">=</span> <span class="token function">GetGender</span><span class="token punctuation">(</span><span class="token function">GetPCSpeaker</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>iGender <span class="token operator">==</span> GENDER_FEMALE<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token function">SetGlobalBoolean</span><span class="token punctuation">(</span><span class="token string">"T_JUHANIROM"</span><span class="token punctuation">,</span> TRUE<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span></code></pre>
 <p>(In KotOR Tool, you can see the source script <code>k_hjuh_p17.nss</code> under KotOR I &gt; BIFs &gt; scripts.bif &gt; Script, Source)</p>
 <p>As you may have guessed from the above script, <code>k_hjuh_p17</code> sets the Global Boolean <code>T_JUHANIROM</code> to TRUE if, and ONLY IF, the player character is female. The <code>T_JUHANIROM</code> global is used by the game to check if Juhani’s romance is active or not. In other words, <strong>the game activates Juhani’s romance ONLY IF your player character is female</strong>, as soon as you start Juhani’s personal conversation after she joins your party. <strong>If your player character is male, Juhani’s romance will NOT be activated</strong>.</p>
 <p>Here is the hard evidence from KotOR's game files that Juhani is a lesbian, a woman who is exclusively attracted to women. Juhani is NOT straight. Juhani is NOT bisexual.</p>
