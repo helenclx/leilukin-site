@@ -27,7 +27,7 @@ https://www.youtube.com/watch?v=jzqfXoOvGrw
 
 As shown in the screenshot above, once you begin this conversation, the script `k_hjuh_p17` will fire, and this is the source of the script in question:
 
-```
+```c
 void main()
 {
     int iGender = GetGender(GetPCSpeaker());
