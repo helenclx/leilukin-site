@@ -13,7 +13,10 @@
     </nav>
 {%- endif -%}
 
-    <p><a href="mailto:{{ sitemeta.siteAuthor.email }}">Contact me by email</a></p>
+    <ul class="inline-nav footer__links">
+        <li><a href="mailto:{{ sitemeta.siteAuthor.email }}">Contact me by email</a></li>
+        <li><a href="https://ko-fi.com/leilukin">Support me on Ko-Fi</a></li>
+    </ul>
     {%- include "global/h-card.njk" -%}
     {%- include "global/top-btn.njk" %}
 </footer>
