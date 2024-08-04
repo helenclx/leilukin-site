@@ -107,7 +107,6 @@ a.link-btn[href^="http"]:not([href*="leilukin.com"]) { padding-right: calc(var(-
 
 /* Content Accordion */
 * + .content-accordion { margin-top: var(--sz-paragraph-margin); }
-.content-accordion { padding: 0.5em 0; }
 .content-accordion__summary { font-weight: 700; }
 .content-accordion__content,
 .content-accordion__content p + p { margin-top: 1em; }
