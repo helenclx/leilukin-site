@@ -109,8 +109,15 @@ a.link-btn[href^="http"]:not([href*="leilukin.com"]) { padding-right: calc(var(-
 * + .content-accordion { margin-top: var(--sz-paragraph-margin); }
 .content-accordion { padding: 0.5em 0; }
 .content-accordion__summary { font-weight: 700; }
-.content-accordion__content { padding: 0.5em 1em; }
+.content-accordion__content,
 .content-accordion__content p + p { margin-top: 1em; }
+
+.content-accordion__content {
+    --bdr-accordion: 0.15em solid var(--clr-title-border);
+    padding: 1em 0;
+    border-top: var(--bdr-accordion);
+    border-bottom: var(--bdr-accordion);
+}
 
 /* Content warning accordion */
 * + .contnet-warning { margin-top: var(--sz-paragraph-margin); }
