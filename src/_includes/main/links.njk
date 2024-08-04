@@ -33,9 +33,9 @@ isContentDivided: true
         {{ group.templateContent | safe }}
 
     {% if group.data.updated %}
-        <p style="margin-top: 3em;">(This {{ group.data.title }} list was last updated on {{ group.data.updated | formatDate }})</p>
+        <p class="update-info">(This {{ group.data.title }} list was last updated on {{ group.data.updated | formatDate }})</p>
     {% endif %}
-        <a href="#linktabs" class="tab__btn" style="margin-top: 2em;">Back to tabs</a>
+        <a href="#linktabs" class="tab__btn tab__back">Back to tabs</a>
     </section>
 {%- endfor %}
 </article>
