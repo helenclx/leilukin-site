@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19
-updated: 2024-08-03
+updated: 2024-08-04
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 ---
@@ -34,6 +34,7 @@ Here, I am compiling a list of resources related to Palestine. This list is not 
 * [Gaza Funds](https://gazafunds.com)
 * [Operation Olive Branch](https://docs.google.com/spreadsheets/d/1vtMLLOzuc6GpkFySyVtKQOY2j-Vvg0UsChMCFst_WLA/htmlview)
 * [Strawberry Seed Collective](https://linktr.ee/strawberryseedcollective)
+* [Project Watermelon](https://linktr.ee/projectwatermelon)
 * [Vetted Gaza Evacuation Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0)
 * [Helping the People of Gaza - Mutual Aid Fund](https://www.gofundme.com/f/helping-the-people-of-gaza-mutual-aid-fund)
 * [Care for Gaza](https://x.com/careforgaza)
@@ -53,7 +54,7 @@ Here, I am compiling a list of resources related to Palestine. This list is not 
 
 ## Spotlight Crowdfunding Campaigns
 
-There have been Palestinians who reached out to me on Tumblr to ask for help with sharing their fundraising campaigns, so I am using my platform to share these campaigns. These campaigns have been verified by other Palestinians on Tumblr, so I encourage you to help to donate and share.
+There have been Palestinians who reached out to me on Tumblr to ask for help with sharing their fundraising campaigns, so I am using my platform to share these campaigns. These campaigns have been verified by other Palestinians and trusted sources (including ones who are on Tumblr), so I encourage you to help to donate and share.
 
 * [Help...Save a Pregnant Mother's Life and Support Her Family](https://www.gofundme.com/f/ne9gzx-help-them-to-survive) (verified by [nabulsi](https://www.tumblr.com/nabulsi/751944563232587777) and [90-ghost](https://www.tumblr.com/90-ghost/752304563682476032))
 * [Help Sahar and Her Family to Evacuate Gaza](https://www.gofundme.com/f/help-sahar-and-her-family-to-evacuate-gaza) (verified by [el-shab-hussein](https://www.tumblr.com/el-shab-hussein/749777880017502208/another-fundraiser-i-trust))
