@@ -182,11 +182,11 @@ p + .adoptables { margin-top: 1em; }
 }
 
 .tab__btn:hover { background-color: #d5c2d6; }
-
 .tab__btn:focus {
     outline: 0.2em solid var(--clr-title-border);
     outline-offset: 0.15em;
 }
+.tab__back { margin-top: 3em; }
 
 /* Web ring */
 .webring {
