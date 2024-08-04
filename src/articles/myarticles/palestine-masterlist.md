@@ -35,7 +35,7 @@ Here, I am compiling a list of resources related to Palestine. This list is not 
 * [Operation Olive Branch](https://docs.google.com/spreadsheets/d/1vtMLLOzuc6GpkFySyVtKQOY2j-Vvg0UsChMCFst_WLA/htmlview)
 * [Strawberry Seed Collective](https://linktr.ee/strawberryseedcollective)
 * [Project Watermelon](https://linktr.ee/projectwatermelon)
-* [Vetted Gaza Evacuation Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0)
+* [Vetted Gaza Evacuation Fundraiser List by el-shab-hussein and nabulsi from Tumblr](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0)
 * [Helping the People of Gaza - Mutual Aid Fund](https://www.gofundme.com/f/helping-the-people-of-gaza-mutual-aid-fund)
 * [Care for Gaza](https://x.com/careforgaza)
 * [Direct Aid for Gaza](https://x.com/GazaDirectAid)
