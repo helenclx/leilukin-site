@@ -46,6 +46,7 @@ I had played {% cite "A Summer’s End" %} with the Passion Patch enabled and un
 The sex scenes between Sam and Michelle added by the Passion Patch are easily the best sapphic sex scenes I have ever seen in any game. Furthermore, Oracle and Bone had written a blog post about their thought process behind the [sexual content in {% cite "A Summer’s End" %}](https://www.asummersend.com/blog/sexual-content). Therefore, I want to dedicate this section to screenshots of these scenes.
 
 {% contentWarning "Adult Content" %}
+<!-- NOTE: Due to these images being NSFW, these image files are not stored in this repository locally, and instead are uploaded manually to the host -->
 ![Sam kisses Michelle's cleavage and strokes Michelle's thigh](/host/images/asummersend/HK1986-2021-02-06-16-15-22-789.avif){loading="lazy"}
 ![Sam licks Michelle's bare stomach](/host/images/asummersend/HK1986-2021-02-06-16-15-32-530.avif){loading="lazy"}
 ![Michelle, with her shirt opened and bra exposed, pulls Sam's hand towards her lower body](/host/images/asummersend/HK1986-2021-02-06-16-16-42-897.avif){loading="lazy"}
