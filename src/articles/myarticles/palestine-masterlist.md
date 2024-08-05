@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19
-updated: 2024-08-04
+updated: 2024-08-05
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 ---
@@ -89,3 +89,8 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Save Dr. Farhat's family from genocide in Gaza](https://www.gofundme.com/f/saving-dr-farhats-family-towards-hope) (#248 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A252))
 * [Assist in evacuating my family from the war in Gaza.](https://www.gofundme.com/f/Help-Mohammed-alhabil-Family) (#166 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A170))
 * [Emergency: Help Evacuate My Family From GAZA WAR](https://www.gofundme.com/f/help-save-the-lives-of-my-family-in-gaza) (#26 in [Operation Olive Branch spreadsheet's masterlist tab](https://docs.google.com/spreadsheets/d/1vtMLLOzuc6GpkFySyVtKQOY2j-Vvg0UsChMCFst_WLA/edit?gid=1061843896#gid=1061843896&fvid=647479800); also listed in [Project Watermelon Donation Links spreadsheet's Donate to Families in Gaza tab](https://docs.google.com/spreadsheets/d/16XhzsCbsRV-cMAzRA8gTNxaYt_FAbf6nq3ZNGP4Q9U8/edit?gid=1452518893#gid=1452518893), under the family name Haya Nahed Alshawish)
+* [Urgent Help Needed to Evacuate My Family from Gaza](https://www.gofundme.com/f/e6vc7g-urgent-help-needed-to-evacuate-my-family-from-gaza) (shared by [90-ghost](https://www.tumblr.com/90-ghost/756556255005491200))
+* [Help Nour and his family escape from the war in Gaza](https://www.gofundme.com/f/donate-to-help-nour-and-his-family-escape-the-war-in-gaza) (verified by [roadimusprime](https://www.tumblr.com/roadimusprime/757885015014227968/and-at-the-time-that-i-am-writing-this-our) who helped setting up this fundraiser)
+* [Help Musab and his family,my pets survive this war in Gaza.](https://www.gofundme.com/f/help-musab-and-his-family-survive-this-war-in-gaza-they-nee) (Musab's story was shared by [90-ghost](https://www.tumblr.com/90-ghost/755436620006686720), but this [new fundraiser needed to be created for Musab due to a scam](https://www.tumblr.com/musababed/757808283298004993))
+* [Hope and Safety for Amal and Her Children in Gaza](https://www.gofundme.com/f/hope-and-safety-for-amal-and-her-children-in-gaza) (shared by [90-ghost](https://www.tumblr.com/90-ghost/755297146774978560))
+* [Please Save What's Left of My Family](https://www.gofundme.com/f/donate-to-restore-the-lives-of-the-balousha-family) (verified by [90-ghost](https://www.tumblr.com/90-ghost/757288369570152448/legit-fundraiser))
