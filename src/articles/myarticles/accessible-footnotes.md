@@ -234,3 +234,5 @@ As for citing sources, the simplest way would be naming and linking to the sourc
 ## Wrapping Up
 
 Creating and maintaining footnotes on web pages is tricky, so I hope my article about accessible footnotes is helpful if you want to create them.
+
+I am still not completely certain if my method is the best, although I tried to the best of my abilities, so I am interested in hearing feedback for my way of implementing accessible footnotes.
