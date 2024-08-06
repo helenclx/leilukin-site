@@ -103,20 +103,20 @@
 
 a.link-btn[href^="http"]:not([href*="leilukin.com"]) { padding-right: calc(var(--btn-right-padding) + var(--sz-external-link)); }
 
-/* Content Accordion */
-* + .content-accordion { margin-top: var(--sz-paragraph-margin); }
-.content-accordion__summary { font-weight: 700; }
-.content-accordion__content,
-.content-accordion__content p + p { margin-top: 1em; }
+/* Content Disclosure */
+* + .content-disclosure { margin-top: var(--sz-paragraph-margin); }
+.content-disclosure__summary { font-weight: 700; }
+.content-disclosure__content,
+.content-disclosure__content p + p { margin-top: 1em; }
 
-.content-accordion__content {
-    --bdr-accordion: 0.15em solid var(--clr-title-border);
+.content-disclosure__content {
+    --bdr-disclosure: 0.15em solid var(--clr-title-border);
     padding: 1em 0;
-    border-top: var(--bdr-accordion);
-    border-bottom: var(--bdr-accordion);
+    border-top: var(--bdr-disclosure);
+    border-bottom: var(--bdr-disclosure);
 }
 
-/* Content warning accordion */
+/* Content warning disclosure */
 * + .contnet-warning { margin-top: var(--sz-paragraph-margin); }
 
 .contnet-warning {

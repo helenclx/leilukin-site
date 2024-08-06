@@ -4,7 +4,7 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2024-08-05T15:11:38Z</updated>
+    <updated>2024-08-06T03:49:02Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
@@ -293,9 +293,9 @@
             <updated>2024-06-24T00:00:00Z</updated>
             <id>https://leilukin.com/blog/posts/2024-06-24-cassette-beasts-fanlisting-approved/</id>
             <content type="html">&lt;p&gt;On 22 June 2024, I submitted an &lt;a href=&quot;https://thefanlistings.org/start/apply.php&quot;&gt;application form&lt;/a&gt; to &lt;a href=&quot;https://thefanlistings.org/&quot;&gt;The Fanlistings Network&lt;/a&gt;, also known as TFL.org, to build and run a &lt;cite&gt;Cassette Beasts&lt;/cite&gt; fanlisting, and now TFL.org has approved my application! &lt;cite&gt;Cassette Beasts&lt;/cite&gt; is now on TFL.org&#39;s approved list under the Games category and the &lt;a href=&quot;https://www.thefanlistings.org/browse.php?show=games&amp;amp;start=8&quot;&gt;Computer, Console, &amp;amp; Video Games subcategory&lt;/a&gt; (&lt;a href=&quot;https://web.archive.org/web/20240624045621/https%3A%2F%2Fwww.thefanlistings.org%2Fbrowse.php%3Fshow%3Dgames%26start%3D8&quot;&gt;view the web archive version&lt;/a&gt;).&lt;/p&gt;
-&lt;details class=&quot;content-accordion&quot;&gt;
-            &lt;summary class=&quot;content-accordion__summary&quot;&gt;What is a fanlisting?&lt;/summary&gt;
-            &lt;div class=&quot;content-accordion__content&quot;&gt;&lt;p&gt;For those who do not know what a fanlisting is, TFL.org has defined fanslitings as below:&lt;/p&gt;
+&lt;details class=&quot;content-disclosure&quot;&gt;
+            &lt;summary class=&quot;content-disclosure__summary&quot;&gt;What is a fanlisting?&lt;/summary&gt;
+            &lt;div class=&quot;content-disclosure__content&quot;&gt;&lt;p&gt;For those who do not know what a fanlisting is, TFL.org has defined fanslitings as below:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A fanlisting is simply an online listing of fans of a subject, such as a TV show, actor, or musician, that is created by an individual and open for fans from around the world to join. There are no costs, and the only requirements to join a fanlisting are your name and country. Fanlistings do not have to be large sites (although some are) - they are just a place where you can have your name listed along with other fans of the same subject. TheFanlistings.org is the original (but not only) web directory for fanlistings, dedicated to uniting fans across the globe.&lt;/p&gt;
 &lt;/blockquote&gt;
