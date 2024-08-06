@@ -225,8 +225,9 @@ I have been using the disclosure element for additional comments or information 
 
 {% disclosure "More ways to use `<details>` and `<summary>` elements" %}
 `<details>` and `<summary>` have become among my favourite HTML elements due to how useful they are. In addition to extra comments and info, Leilukin's Hub has also used the elements for the following purposes:
+- Table of contents, like the one this very article has
 - Hiding spoilers, like in my {% cite "Cassette Beasts" %} shrine article, ["How Cassette Beasts is Much More than a Pokémon Clone"](/shrines/cassettebeasts/articles/cassette-beasts-more-than-a-pokemon-clone/)
-- Content warnings, like in my [{% cite "A Summer’s End — Hong Kong 1986" %} shrine's gallery page](/shrines/asummersend/gallery/), with its styling being inspired by another Kitty Giraudel's blog post, ["A content warning component"](https://kittygiraudel.com/2022/09/04/a-content-warning-component/).
+- Content warnings, like in my [{% cite "A Summer’s End — Hong Kong 1986" %} shrine's gallery page](/shrines/asummersend/gallery/), with its styling being inspired by another Kitty Giraudel's blog post, ["A content warning component"](https://kittygiraudel.com/2022/09/04/a-content-warning-component/)
 {% enddisclosure %}
 
 As for citing sources, the simplest way would be naming and linking to the source in the main text of your page, though it does mean you may end up repeating the title of the source if you want to attribute to it more than once on your page. This was once the approach of my shrine pages, though I found the pages looked rather cluttered, so I eventually chose to use markdown-it-footnote alongside Eleventy.
