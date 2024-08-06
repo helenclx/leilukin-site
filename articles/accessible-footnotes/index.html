@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="top">
+    <head>
+        
+    
+        <meta property="og:title" content="How I (Tried to) Implement Accessible Footnotes | Articles">
+    
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Leilukin">
+<meta name="description" content="How I implement accessible footnotes, at least to the best of my ability. Written for 32-Bit Cafe's Community Code Jam #5.">
+<meta name="generator" content="Eleventy v3.0.0">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://leilukin.com/articles/accessible-footnotes/">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:locale" content="en_MY">
+<meta property="og:description" content="How I implement accessible footnotes, at least to the best of my ability. Written for 32-Bit Cafe's Community Code Jam #5.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://leilukin.com/articles/accessible-footnotes/">
+<meta name="twitter:description" content="How I implement accessible footnotes, at least to the best of my ability. Written for 32-Bit Cafe's Community Code Jam #5.">
+<link rel="canonical" href="https://leilukin.com/articles/accessible-footnotes/">
+
+
+        
+        <link rel="preload" href="/assets/fonts/lexend/lexend-v19-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/lexend/lexend-v19-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+    @font-face {
+        font-display: swap;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 400;
+        src: url('/assets/fonts/lexend/lexend-v19-latin-regular.woff2') format('woff2');
+    }
+    @font-face {
+        font-display: swap;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 600;
+        src: url('/assets/fonts/lexend/lexend-v19-latin-600.woff2') format('woff2');
+    }
+    @font-face {
+        font-display: swap;
+        font-family: 'Lexend';
+        font-style: normal;
+        font-weight: 700;
+        src: url('/assets/fonts/lexend/lexend-v19-latin-700.woff2') format('woff2');
+    }
+</style>
+        <link rel="stylesheet" href="/assets/fonts/intel-one-mono/intel-one-mono.css">
+
+        
+        <link rel="stylesheet" href="/assets/css/global.css"><link rel="stylesheet" href="/assets/css/general.css"><link rel="stylesheet" href="/assets/css/content.css"><link rel="stylesheet" href="/assets/css/plugins.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/a11y-syntax-highlighting-dark.css"><link rel="stylesheet" href="/assets/css/pridesymbols.css"><link rel="stylesheet" href="/assets/css/utility.css">
+    
+        <style>.toc__wrapper {
+        max-height: 89vh;
+        overflow-x: auto;
+        background-color: var(--clr-content-bg);
+        padding: 1rem 1.3rem;
+    }
+
+    .toc__heading {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: var(--clr-sub-heading);
+    }
+
+    .toc ol,
+    .toc ol ol {
+        display: grid;
+        gap: 0.3em;
+    }
+
+    .toc ol {
+        border-top: 0.1em solid var(--clr-title-border);
+        padding-left: 1.3em;
+        padding-top: 1em;
+    }
+
+    .toc ol ol {
+        border-top: none;
+        list-style-type: disc;
+        padding-left: 1em;
+        padding-top: 0.3em;
+    }
+
+    .toc ol a {
+        font-size: 1.1rem;
+        padding-left: 0.3em;
+    }
+
+    .toc ol ol a {
+        padding: 0;
+        font-size: 1rem;
+    }
+.content__nav {
+        padding: 1.2em clamp(1em, 5%, 1.5em);
+        background-color: var(--clr-content-bg);
+    }
+
+    .content__nav--title {
+        font-size: 1.7rem;
+    }
+.breadcrumbs {
+        list-style-type: "";
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .breadcrumbs li::after {
+        content: '➔';
+        padding-left: 0.3em;
+    }
+
+    .blog__post--pagination {
+        padding-top: 1em;
+        margin-top: 2.5em;
+        border-top: 0.1em solid var(--clr-title-border);
+    }
+
+    .blog__post--nextprev {
+        list-style-type: "";
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 0.7em;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 'prev next';
+    }
+
+    .blog__post--prev { grid-area: prev; }
+    .blog__post--next { grid-area: next; }
+.hero img { filter: 
+drop-shadow(0.1rem 0.1rem 0.2rem black)
+drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
+; }
+.hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background-color: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0.7em;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: contain;
+        overflow: hidden;
+        max-height: 16rem;
+    }
+.navbar {
+        background: var(--clr-navbar-bg);
+        width: 100%;
+        z-index: 998;
+        position: sticky;
+        top: 0;
+        padding: 0.6em;
+    }
+
+    .navbar__menu {
+        list-style-type: "";
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .navbar__menu a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .navbar__menu a:hover { color: var(--clr-link-hover); }
+    .navbar__menu a:focus { outline-offset: 0.2em; }
+
+    .navbar__links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 0.5em;
+    }
+
+    .navbar__toggle {
+        background-color: inherit;
+        color: var(--clr-navbar-link);
+        border: none;
+        padding: 0;
+        font-size: 1.25rem;
+        font-weight: 700;
+        display: none;
+        align-items: center;
+        gap: 0.3em;
+    }
+
+    .navbar__toggle svg { fill: currentColor; }
+
+    .navbar__toggle:focus,
+    .navbar__menu a:focus { outline-offset: 0.1em; }
+    .navbar__toggle:focus,
+    .navbar__menu a:focus { outline: 0.15em solid var(--clr-navbar-link); }
+
+    .navbar__popover {
+        background-color: var(--clr-navbar-bg);
+        border: 0.15em solid var(--clr-navbar-link);
+        padding: 1.5em;
+        max-width: 85%;
+    }
+
+    .navbar__popover::backdrop {
+        background-color: black;
+        opacity: 0.5;
+    }
+
+    @supports selector([popover]) {
+        .navbar__toggle { display: flex; }
+        .navbar__links { display: none; }
+    }
+
+    /* Tablet screen size */
+    @media only screen and (min-width: 43.75rem) {
+        .navbar { padding: 1em 0.6em; }
+        .navbar__toggle, .navbar__popover { display: none; }
+        .navbar__links { display: flex; }
+    }
+.top-btn,
+    .top-btn:hover {
+        color: var(--clr-top-btn-txt);
+        text-decoration: none;
+    }
+
+    .top-btn {
+        position: fixed;
+        bottom: 0.5rem;
+        right: 0.5rem;
+        z-index: 999;
+
+        background-color: var(--clr-top-btn-bg);
+        display: flex;
+        align-items: center;
+        border-radius: 50em;
+        padding: 0.3em 0.5em;
+        gap: 0.2em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn-bg);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn__arrow {
+        display: inline-block;
+        width: 1em;
+        aspect-ratio: 1 / 1;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+    }
+:root { --footer-gap: 0.5em; }
+
+    .footer {
+        margin-top: auto;
+        width: 100%;
+        background: var(--clr-main-footer-bg);
+        padding: 1.5rem 1rem clamp(1.5rem, calc(100% - 1.5rem), 3.5rem);
+        text-align: center;
+        display: grid;
+        gap: var(--footer-gap);
+    }
+
+    .footer__links,
+    .footer__shrines {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: var(--footer-gap);
+    }
+
+    .footer__links { justify-self: center; }
+    .footer__shrines { align-self: center; }</style>
+
+        
+        <link rel="icon" sizes="32x32" href="/assets/favicon/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon/leilukin-bee-favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+        
+        <link rel="me" href="mailto:contact@leilukin.com">
+        <link rel="me" href="https://dragonscave.space/@Leilukin">
+        <link rel="me" href="https://twitter.com/Leilukin">
+        <link rel="me" href="https://github.com/Leilukin">
+        <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+
+        
+        <link rel="webmention" href="https://webmention.io/leilukin.com/webmention">
+
+        
+        <script src="/assets/js/MnPoD-suxd.js" defer></script>
+    
+        <script src="/assets/js/details-utils.js" defer></script>
+    
+
+        <title>
+            How I (Tried to) Implement Accessible Footnotes | Articles | Leilukin's Hub
+        </title>
+    </head>
+    <body>
+        <div class="skip-btn"><a href="#content">Skip to content</a></div>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <img fetchpriority="high" src="/assets/leilukin/Leilukins-Hub-website-banner.avif" alt="Banner of Leilukin's Hub" width="900" height="300">
+
+    </div>
+</header>
+        
+
+<nav class="navbar" aria-labelledby="top-level-nav-title">
+    <h2 class="visually-hidden" id="top-level-nav-title">Top Level</h2>
+    <ul class="navbar__menu navbar__links">
+    
+    
+        <li>
+            <a  href="/">Home</a>
+        </li>
+        <li>
+            <a  href="/about/">About</a>
+        </li>
+        <li>
+            <a  href="/now/">Now</a>
+        </li>
+        <li>
+            <a  href="/blog/">Blog</a>
+        </li>
+        <li>
+            <a  href="/articles/">Articles</a>
+        </li>
+        <li>
+            <a  href="/projects/">Projects</a>
+        </li>
+        <li>
+            <a  href="/shrines/">Shrines</a>
+        </li>
+        <li>
+            <a  href="/adoptables/">Adoptables</a>
+        </li>
+        <li>
+            <a  href="/links/">Links</a>
+        </li>
+        <li>
+            <a  href="/guestbook/">Guestbook</a>
+        </li>
+</ul>
+    <button class="navbar__toggle" popovertarget="nav-menu" aria-label="Toggle navigation menu">
+        <svg aria-hidden="true" focusable="false" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+        Navigation
+    </button>
+</nav>
+<div popover id="nav-menu" class="navbar__popover">
+    <ul class="navbar__menu">
+    
+    
+        <li>
+            <a  href="/">Home</a>
+        </li>
+        <li>
+            <a  href="/about/">About</a>
+        </li>
+        <li>
+            <a  href="/now/">Now</a>
+        </li>
+        <li>
+            <a  href="/blog/">Blog</a>
+        </li>
+        <li>
+            <a  href="/articles/">Articles</a>
+        </li>
+        <li>
+            <a  href="/projects/">Projects</a>
+        </li>
+        <li>
+            <a  href="/shrines/">Shrines</a>
+        </li>
+        <li>
+            <a  href="/adoptables/">Adoptables</a>
+        </li>
+        <li>
+            <a  href="/links/">Links</a>
+        </li>
+        <li>
+            <a  href="/guestbook/">Guestbook</a>
+        </li>
+</ul>
+</div>
+        <main id="content">
+            <header class="main__header">
+    
+        <nav aria-labelledby="breadcrumbs-title">
+            <h2 class="visually-hidden" id="breadcrumbs-title">Breadcrumbs</h2>
+            <ol class="breadcrumbs">
+                
+                <li>
+                    <a href="/articles/">Articles</a>
+                </li>
+            </ol>
+        </nav>
+    
+
+    <h1>How I (Tried to) Implement Accessible Footnotes</h1>
+
+    
+        <div class="article__info">
+            <p>Posted on 6 August 2024 by Leilukin
+            
+            
+                <p>Categories:
+                    
+                        <a href="/categories/32-bit-cafe">32-bit cafe</a>, 
+                    
+                        <a href="/categories/accessibility">accessibility</a>, 
+                    
+                        <a href="/categories/html">html</a>, 
+                    
+                        <a href="/categories/css">css</a>, 
+                    
+                        <a href="/categories/eleventy">eleventy</a>, 
+                    
+                        <a href="/categories/markdown-it">markdown-it</a>
+                    
+                </p>
+            
+            <p>🍿🍿🍿  15 min. read</p>
+        </div>
+    
+</header>
+
+<content-wrapper>
+    
+        <aside class="left-sidebar" aria-label="Left sidebar">
+    <details-utils force-open="(min-width: 60rem)" force-restore>
+        <details class="toc__wrapper sidebar--sticky">
+            <summary class="toc__heading" id="toc-heading">
+                Table of Contents
+            </summary>
+            <nav class="toc" aria-labelledby="toc-heading"><ol><li><a href="#about-footnotes">About Footnotes</a></li>
+<li><a href="#attempted-to-use-css-counters">Attempted to Use CSS Counters</a></li>
+<li><a href="#starting-with-markdown-it-footnote-plugins-default-footnote-markup">Starting with markdown-it-footnote Plugin's Default Footnote Markup</a></li>
+<li><a href="#make-markdown-it-footnotes-markup-more-accessible">Make markdown-it-footnote's Markup More Accessible</a><ol><li><a href="#clarify-footnote-reference-labels">Clarify Footnote Reference Labels</a></li>
+<li><a href="#add-aria-label-to-footnote-back-links">Add ARIA Label to Footnote Back Links</a></li>
+<li><a href="#add-heading-to-footnote-section">Add Heading to Footnote Section</a></li></ol></li>
+<li><a href="#final-html-markup-for-accessible-footnotes">Final HTML Markup for Accessible Footnotes</a></li>
+<li><a href="#configure-markdown-it-footnote-in-eleventys-configuration-file">Configure markdown-it-footnote in Eleventy's Configuration File</a></li>
+<li><a href="#bonus-alternatives-to-footnotes">Bonus: Alternatives to Footnotes</a></li>
+<li><a href="#wrapping-up">Wrapping Up</a></li></ol></nav>
+        </details>
+    </details-utils>
+</aside>
+
+    
+
+    
+
+    <article class="content">
+        <p><a href="https://32bit.cafe/">32-Bit Cafe</a> is holding its fifth community code jam, titled <a href="https://32bit.cafe/~xandra/events/codejam5/">&quot;Back to School&quot;</a>, from 4 to 17 August 2024. I have been looking forward to participating in 32-Bit Cafe's community code jam for the first time, so I am excited. This motivates me to finally write a how-to article I have been meaning to do for a while: how to implement accessible footnotes on Leilukin's Hub, or at least, I tried to do so to the best of my abilities.</p>
+<p>On <a href="https://discourse.32bit.cafe/">32-Bit Cafe's Discourse forum</a>, I made a <a href="https://discourse.32bit.cafe/t/handling-citations-and-or-footnotes/1061/2?u=leilukin">post on 28 June 2024</a> in response to <a href="https://solaria.neocities.org/">solaria</a>'s thread <a href="https://discourse.32bit.cafe/t/handling-citations-and-or-footnotes/1061">&quot;Handling Citations and/or Footnotes&quot;</a> to share my methods of adding footnotes on my website. Now, I am writing an extended version of that post of mine in the form of this article, so I could share what I learned about web page footnotes on my website as well.</p>
+<p>(Note: This article assumes a foundational familiarity with HTML and CSS)</p>
+<div class="heading-wrapper h2">
+<h2 id="about-footnotes">About Footnotes</h2>
+<a class="heading-anchor" href="#about-footnotes" aria-labelledby="about-footnotes"><span hidden>#</span></a></div>
+<p>Plagiarism.org <a href="https://www.plagiarism.org/article/what-are-footnotes">defines footnotes</a> as notes placed at the bottom of a page, and what footnotes do is to cite references or comment on a designated part of the text above it.</p>
+<p>My use case of footnotes is citing sources of information, particularly citing the same source multiple times on the same page when information from the same source is spread across my page. As of this writing, my website pages that use footnotes include the <a href="https://leilukin.com/shrines/asummersend/trivia/">trivia page of my <cite>A Summer’s End — Hong Kong 1986</cite> shrine 1</a> and the <a href="https://leilukin.com/shrines/cassettebeasts/facts/">facts page of my <cite>Cassette Beasts</cite> shrine</a>. You are free to look at the HTML and CSS for reference, including when you are reading this article as I am explaining how I implement the footnotes.</p>
+<p>Footnotes are used both on print and on the web. However, maintaining footnotes on the web can be tedious, especially if you want to update a web page to add or remove them, since you will need to change the number references of existing footnotes.</p>
+<div class="heading-wrapper h2">
+<h2 id="attempted-to-use-css-counters">Attempted to Use CSS Counters</h2>
+<a class="heading-anchor" href="#attempted-to-use-css-counters" aria-labelledby="attempted-to-use-css-counters"><span hidden>#</span></a></div>
+<p>When I was searching for how to implement accessible footnotes, I discovered <a href="https://kittygiraudel.com/">Kitty Giraudel</a>'s article, <a href="https://www.sitepoint.com/accessible-footnotes-css/">&quot;Accessible Footnotes with CSS&quot;</a> which teaches the method of using the combination of HTML <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-describedby"><code>aria-describedby</code></a> attribute and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_counter_styles/Using_CSS_counters">CSS counters</a> to add numbered references, to reduce the hassle of manually re-numbering all existing footnotes in case you want to update or reorder the references.</p>
+<p>Her article also teaches adding a highlight background colour when heading to a footnote from a reference, as well as providing back links to head back to a reference from a footnote, by using the combination of the backlink Unicode icon (↩) and the HTML <code>aria-label</code> attribute with a value of “Back to content”. The uses of ARIA labels make footnotes more screen reader-friendly.</p>
+<p>Furthermore, Kitty created the <a href="https://github.com/KittyGiraudel/eleventy-plugin-footnotes">eleventy-plugin-footnotes plugin</a>tor the static site generator <a href="https://www.11ty.dev/">Eleventy</a>, and wrote a blog post about it, <a href="https://kittygiraudel.com/2020/12/02/footnotes-in-11ty/">&quot;Footnotes in 11ty&quot;</a>. Since I already had begun to <a href="/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy">use Eleventy to build my website</a>, I tried Kitty's plugin.</p>
+<p>Unfortunately, a known limitation of using CSS counter method to generate footnotes is <a href="https://github.com/KittyGiraudel/eleventy-plugin-footnotes/issues/83">not being able to reference the same footnote multiple times</a>. As I want to be able to reference the same footnote more than once when I am citing sources on my shrine pages, I had to give up the plugin and look for an alternative.</p>
+<div class="heading-wrapper h2">
+<h2 id="starting-with-markdown-it-footnote-plugins-default-footnote-markup">Starting with markdown-it-footnote Plugin's Default Footnote Markup</h2>
+<a class="heading-anchor" href="#starting-with-markdown-it-footnote-plugins-default-footnote-markup" aria-labelledby="starting-with-markdown-it-footnote-plugins-default-footnote-markup"><span hidden>#</span></a></div>
+<p>Kitty Giraudel's blog post about creating footnotes in Eleventy mentioned <a href="https://github.com/markdown-it/markdown-it-footnote">markdown-it-footnote</a>, the footnotes plugin for <a href="https://github.com/markdown-it/markdown-it">markdown-it</a> Markdown parser, which is integrated in Eleventy by default to convert Markdown to HTML. Kitty commented on the accessibility shortcomings of markdown-it-footnote in the blog post:</p>
+<blockquote>
+<p>[...]it’s not super accessible (let alone by default), even considering all the customisation options. That’s because the footnote references end up being numbers (e.g. [1]) which are meaningless when listed or tabbed through because devoid of their surrounding context.</p>
+</blockquote>
+<p>That said, since the plugin is customisable, I still wanted to give it a shot to see if I could make configurations to improve its accessibility, so I installed markdown-it-footnote and looked into the plugin's default HTML markup output.</p>
+<p>Here is a sample of what the HTML markup output of markdown-it-footnote looks like:</p>
+<pre class="language-html" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>This is a paragraph with the first footnote reference. <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>sup</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-ref<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#fn1<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fnref1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>[1]<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>sup</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Here is the second paragraph with the second footnote reference. <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>sup</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-ref<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#fn2<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fnref2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>[2]<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>sup</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>This the third paragraph, but with a foootnote reference that points to the first footnote. <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>sup</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-ref<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#fn1<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fnref1:1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>[1:1]<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>sup</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hr</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnotes-sep<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>section</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnotes<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ol</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnotes-list<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fn1<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-item<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>First footnote <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#fnref1<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-backref<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>↩︎<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#fnref1:1<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-backref<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>↩︎<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fn2<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-item<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Second footnote <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#fnref2<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-backref<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>↩︎<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ol</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>section</span><span class="token punctuation">></span></span></code></pre>
+<p>This is what this HTML markup will look like on a live web page:</p>
+<p><img src="/assets/images/articles/accessible-footnotes/footnote-sample.avif" alt="Web page footnotes sample screenshot"></p>
+<p>What this HTML markup does:</p>
+<ul>
+<li>Adding a footnote reference as a superscript by using the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup"><code>&lt;sup&gt;</code></a> tag with numbers as the content.</li>
+<li>Using a <code>&lt;hr&gt;</code> horizontal line element to separate the main body of the page and the footnote section;</li>
+<li>Using the <code>&lt;ol&gt;</code> tag to render the footnotes as a numbered list;</li>
+<li>Each footnote list item has an <code>id</code> attribute</li>
+<li>If a footnote is referenced more than once, the additional footnote references are labelled with colons.</li>
+</ul>
+<p>(Note: the class names were added by markdown-it-footnote, but if you do not use it, you can rename the class name to whatever you want, and even if you use markdown-it-footnote, you can still change the class names if you want to go deep into it)</p>
+<p>Next step is trying to improve this HTML markup by making it accessible.</p>
+<div class="heading-wrapper h2">
+<h2 id="make-markdown-it-footnotes-markup-more-accessible">Make markdown-it-footnote's Markup More Accessible</h2>
+<a class="heading-anchor" href="#make-markdown-it-footnotes-markup-more-accessible" aria-labelledby="make-markdown-it-footnotes-markup-more-accessible"><span hidden>#</span></a></div>
+<div class="heading-wrapper h3">
+<h3 id="clarify-footnote-reference-labels">Clarify Footnote Reference Labels</h3>
+<a class="heading-anchor" href="#clarify-footnote-reference-labels" aria-labelledby="clarify-footnote-reference-labels"><span hidden>#</span></a></div>
+<p>As pointed out by Kitty Giraudel, labelling the footnote reference as mere numbers like [1] is an accessibility shortcoming, because these reference links become meaningless when being focused on by tabbing through the links, as these reference links would be devoid of context.</p>
+<p>What I did to tackle this was changing the reference labels by adding a word &quot;Footnote&quot; to clarify that these links are for footnotes. For example, [1] becomes [Footnote #1], so when screen readers focus on a footnote reference link, it will be read out as &quot;Footnote number one link&quot;.</p>
+<pre class="language-html" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>sup</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-ref<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#fn1<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fnref1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>[1]<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>sup</span><span class="token punctuation">></span></span></code></pre>
+<p>Optionally, if you want your footnote labels to still display only numbers on screen, you can use a CSS class to <a href="https://www.a11yproject.com/posts/how-to-hide-content/">visually hide</a> the extra characters in the footnote label. This <code>.visually-hidden</code> utility class is a useful tool in your arsenal for accessible web design, as it is often used to hide a content that you do not mean to show on screen, but you still want it to be read by assistive technology.</p>
+<pre class="language-css" tabindex="0"><code class="language-css"><span class="token selector">.visually-hidden</span> <span class="token punctuation">{</span>
+    <span class="token property">clip</span><span class="token punctuation">:</span> <span class="token function">rect</span><span class="token punctuation">(</span>0 0 0 0<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token property">clip-path</span><span class="token punctuation">:</span> <span class="token function">inset</span><span class="token punctuation">(</span>50%<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 1px<span class="token punctuation">;</span>
+    <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+    <span class="token property">white-space</span><span class="token punctuation">:</span> nowrap<span class="token punctuation">;</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 1px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+<p>To make my footnote reference labels display only a number on screen, I use a <code>span</code> tag with <code>visually-hidden</code> as the value of the <code>class</code> attribute to wrap around &quot;Footnote #&quot;, so on screen, [Footnote #1] is changed to [1].</p>
+<pre class="language-html" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>sup</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-ref<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#fn1<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fnref1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+		[<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Footnote #<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>1]
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>sup</span><span class="token punctuation">></span></span></code></pre>
+<div class="heading-wrapper h3">
+<h3 id="add-aria-label-to-footnote-back-links">Add ARIA Label to Footnote Back Links</h3>
+<a class="heading-anchor" href="#add-aria-label-to-footnote-back-links" aria-labelledby="add-aria-label-to-footnote-back-links"><span hidden>#</span></a></div>
+<p>Next step is adding an ARIA label to the footnote backlinks, by adding an <code>aria-label</code> attribute with &quot;Back to reference #[Insert reference number]&quot; as its value. For example:</p>
+<pre class="language-html" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Back to reference #1<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#fnref1<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-backref<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>↩︎<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span></code></pre>
+<p>When a footnote back link is focused on via tabbing, screen readers will read it out as &quot;Back to reference number one link&quot;.</p>
+<div class="heading-wrapper h3">
+<h3 id="add-heading-to-footnote-section">Add Heading to Footnote Section</h3>
+<a class="heading-anchor" href="#add-heading-to-footnote-section" aria-labelledby="add-heading-to-footnote-section"><span hidden>#</span></a></div>
+<p>To make it clear that the section is for footnotes, I add a HTML heading before the list of footnotes, such as:</p>
+<pre class="language-html" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">></span></span>Footnotes<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span></code></pre>
+<div class="heading-wrapper h2">
+<h2 id="final-html-markup-for-accessible-footnotes">Final HTML Markup for Accessible Footnotes</h2>
+<a class="heading-anchor" href="#final-html-markup-for-accessible-footnotes" aria-labelledby="final-html-markup-for-accessible-footnotes"><span hidden>#</span></a></div>
+<p>Here is my final HTML markup sample to create accessible footnotes:</p>
+<pre class="language-html" tabindex="0"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>This is a paragraph with the first footnote reference. <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>sup</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-ref<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#fn1<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fnref1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>[<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Footnote #<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>1]<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>sup</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>Here is the second paragraph with the second footnote reference. <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>sup</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-ref<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#fn2<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fnref2<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>[<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Footnote #<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>2]<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>sup</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>This the third paragraph, but with a foootnote reference that points to the first footnote. <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>sup</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-ref<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#fn1<span class="token punctuation">"</span></span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fnref1:1<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>[<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Footnote #<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span>1:1]<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>sup</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hr</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnotes-sep<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>section</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnotes<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">></span></span>Footnotes<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ol</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnotes-list<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fn1<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-item<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+	        First footnote
+	        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Back to reference #1<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#fnref1<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-backref<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>↩︎<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
+	        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Back to reference #1:1<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#fnref1:1<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-backref<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>↩︎<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
+	    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fn2<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-item<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+	        Second footnote
+	        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Back to reference #2<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#fnref2<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>footnote-backref<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>↩︎<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
+	    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ol</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>section</span><span class="token punctuation">></span></span></code></pre>
+<p>As for the CSS, in addition to using the <code>.visually-hidden</code> utility class, I refer to Kitty Giraudel's  <a href="https://www.sitepoint.com/accessible-footnotes-css/">&quot;Accessible Footnotes with CSS&quot;</a> article to style the highlight background color when heading to a footnote from a reference.</p>
+<div class="heading-wrapper h2">
+<h2 id="configure-markdown-it-footnote-in-eleventys-configuration-file">Configure markdown-it-footnote in Eleventy's Configuration File</h2>
+<a class="heading-anchor" href="#configure-markdown-it-footnote-in-eleventys-configuration-file" aria-labelledby="configure-markdown-it-footnote-in-eleventys-configuration-file"><span hidden>#</span></a></div>
+<p>(If you do not use Eleventy, you may skip this section)</p>
+<p>My final step was to configure the markdown-it-footnote plugin, by editing Eleventy's configuration file (I named mine <code>eleventy.config.js</code>), so the plugin would render my accessible footnote HTML markup.</p>
+<pre class="language-js" tabindex="0"><code class="language-js"><span class="token comment">// markdown-it plugins</span>
+<span class="token keyword">const</span> markdownIt <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"markdown-it"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> markdownItFootnote <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">"markdown-it-footnote"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">let</span> markdownLibrary<span class="token punctuation">;</span>
+
+module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">eleventyConfig</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token comment">/* Markdown Overrides */</span>
+    markdownLibrary <span class="token operator">=</span> <span class="token function">markdownIt</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        <span class="token literal-property property">html</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>markdownItFootnote<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">// Configure markdown-it-footnote</span>
+    markdownLibrary<span class="token punctuation">.</span>renderer<span class="token punctuation">.</span>rules<span class="token punctuation">.</span><span class="token function-variable function">footnote_block_open</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">(</span>
+        <span class="token string">'&lt;hr class="footnotes-sep">\n'</span> <span class="token operator">+</span>
+        <span class="token string">'&lt;section class="footnotes">\n'</span> <span class="token operator">+</span>
+        <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">&lt;h2>Footnotes&lt;/h2>\n</span><span class="token template-punctuation string">`</span></span>
+    <span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    markdownLibrary<span class="token punctuation">.</span>renderer<span class="token punctuation">.</span>rules<span class="token punctuation">.</span><span class="token function-variable function">footnote_anchor</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">tokens<span class="token punctuation">,</span> idx<span class="token punctuation">,</span> options<span class="token punctuation">,</span> env<span class="token punctuation">,</span> slf</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+        <span class="token keyword">let</span> id <span class="token operator">=</span> slf<span class="token punctuation">.</span>rules<span class="token punctuation">.</span><span class="token function">footnote_anchor_name</span><span class="token punctuation">(</span>tokens<span class="token punctuation">,</span> idx<span class="token punctuation">,</span> options<span class="token punctuation">,</span> env<span class="token punctuation">,</span> slf<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token keyword">if</span> <span class="token punctuation">(</span>tokens<span class="token punctuation">[</span>idx<span class="token punctuation">]</span><span class="token punctuation">.</span>meta<span class="token punctuation">.</span>subId <span class="token operator">></span> <span class="token number">0</span><span class="token punctuation">)</span> id <span class="token operator">+=</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">:</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>tokens<span class="token punctuation">[</span>idx<span class="token punctuation">]</span><span class="token punctuation">.</span>meta<span class="token punctuation">.</span>subId<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+
+        <span class="token comment">/* ↩ with escape code to prevent display as Apple Emoji on iOS */</span>
+        <span class="token keyword">return</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string"> &lt;a aria-label="Back to reference #</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>id<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">" href="#fnref</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>id<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">" class="footnote-backref">\u21a9\uFE0E&lt;/a></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">const</span> renderRules <span class="token operator">=</span> <span class="token punctuation">{</span>
+        <span class="token literal-property property">footnote_caption</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'['</span><span class="token punctuation">,</span> <span class="token string">'[&lt;span class="visually-hidden">Footnote #&lt;/span>'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">;</span>
+    Object<span class="token punctuation">.</span><span class="token function">keys</span><span class="token punctuation">(</span>renderRules<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token parameter">rule</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+        <span class="token keyword">let</span> defaultRender <span class="token operator">=</span> markdownLibrary<span class="token punctuation">.</span>renderer<span class="token punctuation">.</span>rules<span class="token punctuation">[</span>rule<span class="token punctuation">]</span><span class="token punctuation">;</span>
+        markdownLibrary<span class="token punctuation">.</span>renderer<span class="token punctuation">.</span>rules<span class="token punctuation">[</span>rule<span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter">tokens<span class="token punctuation">,</span> idx<span class="token punctuation">,</span> options<span class="token punctuation">,</span> env<span class="token punctuation">,</span> self</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+            <span class="token keyword">return</span> <span class="token function">defaultRender</span><span class="token punctuation">(</span>tokens<span class="token punctuation">,</span> idx<span class="token punctuation">,</span> options<span class="token punctuation">,</span> env<span class="token punctuation">,</span> self<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token operator">...</span>renderRules<span class="token punctuation">[</span>rule<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+    <span class="token comment">/* This is the part that tells 11ty to swap to our custom config */</span>
+    eleventyConfig<span class="token punctuation">.</span><span class="token function">setLibrary</span><span class="token punctuation">(</span><span class="token string">"md"</span><span class="token punctuation">,</span> markdownLibrary<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+<p>If you are a fellow Eleventy user, feel free to borrow my markdown-it-footnote configurations in your own. Make sure you install markdown-it-footnote first by keying in the installation command in the terminal:</p>
+<pre class="language-powershell" tabindex="0"><code class="language-powershell">npm install markdown-it-footnote <span class="token operator">--</span>save</code></pre>
+<div class="heading-wrapper h2">
+<h2 id="bonus-alternatives-to-footnotes">Bonus: Alternatives to Footnotes</h2>
+<a class="heading-anchor" href="#bonus-alternatives-to-footnotes" aria-labelledby="bonus-alternatives-to-footnotes"><span hidden>#</span></a></div>
+<p>As you likely have realised, footnotes are really tricky to implement on web pages, so you may be wondering: is there any alternative to footnotes?</p>
+<p>For extra comments and tangents, by favourite approach is using HTML's details disclosure element with the <code>&lt;details&gt;</code> tag, with a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary"><code>&lt;summary&gt;</code></a> element and a sibling element wrapping the content displayed when the disclosure is expanded.</p>
+<p>I have been using the disclosure element for additional comments or information on this website, like in my blog post, <a href="/blog/posts/2024-06-24-cassette-beasts-fanlisting-approved/">&quot;My Cassette Beasts Fanlisting Application has been Approved&quot;</a>. As for the styling, initially I indented the content inside the disclosure to differentiate the disclosure content from the rest of the content of the page, but recently I switched to adding top and bottom borders after being inspired by <a href="https://starbreaker.org/">Starbreaker</a>'s website, who also has a post about footnotes, <a href="https://starbreaker.org/blog/tech/footnotes-no-fun-to-create-either/index.html">&quot;Footnotes: No Fun to Create, Either&quot;</a>.</p>
+<details class="content-disclosure">
+            <summary class="content-disclosure__summary">More ways to use <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code> elements</summary>
+            <div class="content-disclosure__content"><p><code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code> have become among my favourite HTML elements due to how useful they are. In addition to extra comments and info, Leilukin's Hub has also used the elements for the following purposes:</p>
+<ul>
+<li>Hiding spoilers, like in my <cite>Cassette Beasts</cite> shrine article, <a href="/shrines/cassettebeasts/articles/cassette-beasts-more-than-a-pokemon-clone/">&quot;How Cassette Beasts is Much More than a Pokémon Clone&quot;</a></li>
+<li>Content warnings, like in my <a href="/shrines/asummersend/gallery/"><cite>A Summer’s End — Hong Kong 1986</cite> shrine's gallery page</a>, with its styling being inspired by another Kitty Giraudel's blog post, <a href="https://kittygiraudel.com/2022/09/04/a-content-warning-component/">&quot;A content warning component&quot;</a>.</li>
+</ul>
+</div>
+        </details>
+<p>As for citing sources, the simplest way would be naming and linking to the source in the main text of your page, though it does mean you may end up repeating the title of the source if you want to attribute to it more than once on your page. This was once the approach of my shrine pages, though I found the pages looked rather cluttered, so I eventually chose to use markdown-it-footnote alongside Eleventy.</p>
+<div class="heading-wrapper h2">
+<h2 id="wrapping-up">Wrapping Up</h2>
+<a class="heading-anchor" href="#wrapping-up" aria-labelledby="wrapping-up"><span hidden>#</span></a></div>
+<p>Creating and maintaining footnotes on web pages is tricky, so I hope my article about accessible footnotes is helpful if you want to create them.</p>
+
+
+    
+    </article>
+
+    
+        <aside class="right-sidebar" aria-label="Right sidebar">
+    <nav class="content__nav sidebar--sticky" aria-labelledby="my-contents-title">
+        <h2 class="content__nav--title" id="my-contents-title">My Contents</h2>
+        <ul class="content__nav--links">
+            
+                <li><a href="/archive/">Content Archive</a></li>
+            
+                <li><a href="/categories/">Content Categories</a></li>
+            
+            <li><a href="/articles/">Articles</a></li>
+            
+                <li><a href="/blog/posts/">Blog Archive</a></li>
+            
+                <li><a href="/blog/">Blog Home</a></li>
+            
+        </ul>
+    </nav>
+</aside>
+    
+
+    
+</content-wrapper>
+        </main>
+        <footer class="footer">
+    <p>Made with ♥ by Leilukin since 11 September 2022</p>
+
+    
+    <ul class="inline-nav footer__links">
+        <li><a href="/feed.xml">RSS</a></li>
+        <li><a
+            
+            href="/sitemap/
+        ">Site Map</a></li>
+        <li><a
+            
+            href="/changelogs/"
+        >Changelogs</a></li><li><a
+                
+                href="/accessibility/"
+            >Accessibility</a></li><li><a
+                
+                href="/colophon/"
+            >Colophon</a></li></ul>
+<ul class="inline-nav footer__links">
+        <li><a href="mailto:contact@leilukin.com">Contact me by email</a></li>
+        <li><a href="https://ko-fi.com/leilukin">Support me on Ko-Fi</a></li>
+    </ul><div class="h-card hidden">
+    <span class="p-name p-nickname">Leilukin</span>
+    <a href="/" class="u-url">Home page</a>
+    <img src="https://i.postimg.cc/RZJgS6tY/leilukin-bee.avif" alt="Leilukin" class="u-photo" loading="lazy">
+    <span class="p-country-name">Malaysia</span>
+    <span class="p-note">They/she. A proudly queer and autistic <span class="p-gender-identity">non-binary</span> lesbian from Malaysia.</span>
+</div><a href="#top" class="top-btn">
+    <svg class="top-btn__arrow" focusable="false" aria-hidden="true" viewBox="0 0 26 28">
+        <path d="M25.172 15.172c0 0.531-0.219 1.031-0.578 1.406l-1.172 1.172c-0.375 0.375-0.891 0.594-1.422 0.594s-1.047-0.219-1.406-0.594l-4.594-4.578v11c0 1.125-0.938 1.828-2 1.828h-2c-1.062 0-2-0.703-2-1.828v-11l-4.594 4.578c-0.359 0.375-0.875 0.594-1.406 0.594s-1.047-0.219-1.406-0.594l-1.172-1.172c-0.375-0.375-0.594-0.875-0.594-1.406s0.219-1.047 0.594-1.422l10.172-10.172c0.359-0.375 0.875-0.578 1.406-0.578s1.047 0.203 1.422 0.578l10.172 10.172c0.359 0.375 0.578 0.891 0.578 1.422z"></path>
+    </svg>
+    Back to Top
+</a>
+</footer>
+        
+    </body>
+</html>
