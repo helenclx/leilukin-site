@@ -56,6 +56,10 @@ Here is a sample of what the HTML markup output of markdown-it-footnote looks li
 </section>
 ```
 
+This is what this HTML markup will look like on a live web page:
+
+![Web page footnotes sample screenshot](/assets/images/articles/accessible-footnotes/footnote-sample.avif)
+
 What this HTML markup does:
 - Adding a footnote reference as a superscript by using the [`<sup>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup) tag with numbers as the content.
 - Using a `<hr>` horizontal line element to separate the main body of the page and the footnote section;
