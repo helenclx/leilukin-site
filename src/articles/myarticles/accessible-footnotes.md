@@ -151,7 +151,7 @@ Here is my final HTML markup sample to create accessible footnotes:
 
 As for the CSS, in addition to using the `.visually-hidden` utility class, I refer to Kitty Giraudel's  ["Accessible Footnotes with CSS"](https://www.sitepoint.com/accessible-footnotes-css/) article to style the highlight background color when heading to a footnote from a reference.
 
-## Configure My Markup in Eleventy's Configurations
+## Configure markdown-it-footnote in Eleventy's Configuration File
 
 (If you do not use Eleventy, you may skip this section)
 
@@ -200,14 +200,13 @@ module.exports = function (eleventyConfig) {
 }
 ```
 
-
 If you are a fellow Eleventy user, feel free to borrow my markdown-it-footnote configurations in your own. Make sure you install markdown-it-footnote first by keying in the installation command in the terminal:
 
 ```powershell
 npm install markdown-it-footnote --save
 ```
 
-## Bonus: Alternative to Footnotes
+## Bonus: Alternatives to Footnotes
 
 As you likely have realised, footnotes are really tricky to implement on web pages, so you may be wondering: is there any alternative to footnotes?
 
