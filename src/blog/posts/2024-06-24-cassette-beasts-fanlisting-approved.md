@@ -7,10 +7,10 @@ categories: ["cassette beasts", "site updates"]
 
 On 22 June 2024, I submitted an [application form](https://thefanlistings.org/start/apply.php) to [The Fanlistings Network](https://thefanlistings.org/), also known as TFL.org, to build and run a {% cite "Cassette Beasts" %} fanlisting, and now TFL.org has approved my application! {% cite "Cassette Beasts" %} is now on TFL.org's approved list under the Games category and the [Computer, Console, & Video Games subcategory](https://www.thefanlistings.org/browse.php?show=games&start=8) ([view the web archive version](https://web.archive.org/web/20240624045621/https%3A%2F%2Fwww.thefanlistings.org%2Fbrowse.php%3Fshow%3Dgames%26start%3D8)).
 
-{% accordion "What is a fanlisting?" %}
+{% disclosure "What is a fanlisting?" %}
 For those who do not know what a fanlisting is, TFL.org has defined fanslitings as below:
 > A fanlisting is simply an online listing of fans of a subject, such as a TV show, actor, or musician, that is created by an individual and open for fans from around the world to join. There are no costs, and the only requirements to join a fanlisting are your name and country. Fanlistings do not have to be large sites (although some are) - they are just a place where you can have your name listed along with other fans of the same subject. TheFanlistings.org is the original (but not only) web directory for fanlistings, dedicated to uniting fans across the globe.
-{% endaccordion %}
+{% enddisclosure %}
 
 This is a major moment for me as both a webmaster and a  {% cite "Cassette Beasts" %} fan. As a webmaster, I have been applying and joining fanlistings since I built my own website, as I have always found fanlistings a neat idea to gather and discover other people who share your interests across the world, as listing your country is a requirement when you apply to join a fanlisting. Recently, I have been considering building and running a fanlisting myself, with {% cite "Cassette Beasts" %} being my first choice since there is no fanlisting for {% cite "Cassette Beasts" %} yet. I began to dabble in PHP, so I can use a script like [BellaBuffs](https://www.jemjabella.co.uk/scripts/bellabuffs/) to build a fanlisting. With my application approved by The Fanlistings Network, the {% cite "Cassette Beasts" %}  fanlisting will be the first fanlisting I build and run.
 
