@@ -4,7 +4,7 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2024-08-06T13:21:01Z</updated>
+    <updated>2024-08-06T14:20:12Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
@@ -200,8 +200,9 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
             &lt;summary class=&quot;content-disclosure__summary&quot;&gt;More ways to use &lt;code&gt;&amp;lt;details&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;summary&amp;gt;&lt;/code&gt; elements&lt;/summary&gt;
             &lt;div class=&quot;content-disclosure__content&quot;&gt;&lt;p&gt;&lt;code&gt;&amp;lt;details&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;summary&amp;gt;&lt;/code&gt; have become among my favourite HTML elements due to how useful they are. In addition to extra comments and info, Leilukin&#39;s Hub has also used the elements for the following purposes:&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;Table of contents, like the one this very article has&lt;/li&gt;
 &lt;li&gt;Hiding spoilers, like in my &lt;cite&gt;Cassette Beasts&lt;/cite&gt; shrine article, &lt;a href=&quot;https://leilukin.com/shrines/cassettebeasts/articles/cassette-beasts-more-than-a-pokemon-clone/&quot;&gt;&amp;quot;How Cassette Beasts is Much More than a Pokémon Clone&amp;quot;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Content warnings, like in my &lt;a href=&quot;https://leilukin.com/shrines/asummersend/gallery/&quot;&gt;&lt;cite&gt;A Summer’s End — Hong Kong 1986&lt;/cite&gt; shrine&#39;s gallery page&lt;/a&gt;, with its styling being inspired by another Kitty Giraudel&#39;s blog post, &lt;a href=&quot;https://kittygiraudel.com/2022/09/04/a-content-warning-component/&quot;&gt;&amp;quot;A content warning component&amp;quot;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Content warnings, like in my &lt;a href=&quot;https://leilukin.com/shrines/asummersend/gallery/&quot;&gt;&lt;cite&gt;A Summer’s End — Hong Kong 1986&lt;/cite&gt; shrine&#39;s gallery page&lt;/a&gt;, with its styling being inspired by another Kitty Giraudel&#39;s blog post, &lt;a href=&quot;https://kittygiraudel.com/2022/09/04/a-content-warning-component/&quot;&gt;&amp;quot;A content warning component&amp;quot;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
         &lt;/details&gt;
