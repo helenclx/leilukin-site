@@ -9,7 +9,7 @@ updated: 2024-08-06
 * [Creating Your Own Website](https://32bit.cafe/cyowebsite/) by 32-Bit Cafe
 * [Interacting with Other Websites](https://32bit.cafe/interactingontheweb/) by 32-Bit Cafe
 * [My Neocities workflow: using Eleventy and the CLI to speed up development](https://whiona.weblog.lol/2023/10/my-neocities-workflow:-using-eleventy-and-the-cli-to-speed-up-development) by Whiona — A tutorial for using the static site generator Eleventy, written for Neocities users
-* [Learn Eleventy](https://learn-eleventy.pages.dev/) by uncenter
+* [Learn Eleventy](https://learn-eleventy.pages.dev/) by uncenter — A course for learning to use the static site generator Eleventy
 
 ### Webmastery Guides
 
