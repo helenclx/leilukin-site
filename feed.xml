@@ -4,7 +4,7 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2024-08-06T12:44:13Z</updated>
+    <updated>2024-08-06T13:21:01Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
@@ -17,7 +17,7 @@
             <updated>2024-08-06T00:00:00Z</updated>
             <id>https://leilukin.com/</id>
             <content type="html">&lt;ul&gt;
-&lt;li&gt;New article: &lt;a href=&quot;https://leilukin.com/articles/accessible-footnotes&quot;&gt;How I (Tried to) Implement Accessible Footnotes&lt;/a&gt;, which is also my entry for &lt;a href=&quot;https://32bit.cafe/&quot;&gt;32-Bit Cafe&lt;/a&gt;&#39;s &lt;a href=&quot;https://32bit.cafe/~xandra/events/codejam5/&quot;&gt;Community Code Jam #5: Back to School&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;New article: &lt;a href=&quot;https://leilukin.com/articles/accessible-footnotes&quot;&gt;&amp;quot;How I (Tried to) Implement Accessible Footnotes&amp;quot;&lt;/a&gt;, which is also my entry for &lt;a href=&quot;https://32bit.cafe/&quot;&gt;32-Bit Cafe&lt;/a&gt;&#39;s &lt;a href=&quot;https://32bit.cafe/~xandra/events/codejam5/&quot;&gt;Community Code Jam #5: Back to School&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
         </entry>
