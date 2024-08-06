@@ -6,6 +6,11 @@ categories: ["32-bit cafe", "accessibility", "html", "css", "eleventy", "markdow
 toc: true
 ---
 
+[![32-Bit Cafe "Back to School" Code Jam button](/assets/images/articles/accessible-footnotes/32bitcafe-backtoschool.png)](https://32bit.cafe/~xandra/events/codejam5/){.inline-img}
+{.center-text}
+
+(32-Bit Cafe "Back to School" button made by [Loren](https://ribo.zone/)){.center-text}
+
 [32-Bit Cafe](https://32bit.cafe/) is holding its fifth community code jam, titled ["Back to School"](https://32bit.cafe/~xandra/events/codejam5/), from 4 to 17 August 2024. I have been looking forward to participating in 32-Bit Cafe's community code jam for the first time, so I am excited. This motivates me to finally write a how-to article I have been meaning to do for a while: how to implement accessible footnotes on Leilukin's Hub, or at least, I tried to do so to the best of my abilities.
 
 On [32-Bit Cafe's Discourse forum](https://discourse.32bit.cafe/), I made a [post on 28 June 2024](https://discourse.32bit.cafe/t/handling-citations-and-or-footnotes/1061/2?u=leilukin) in response to [solaria](https://solaria.neocities.org/)'s thread ["Handling Citations and/or Footnotes"](https://discourse.32bit.cafe/t/handling-citations-and-or-footnotes/1061) to share my methods of adding footnotes on my website. Now, I am writing an extended version of that post of mine in the form of this article, so I could share what I learned about web page footnotes on my website as well.
