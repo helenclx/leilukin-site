@@ -32,17 +32,17 @@ export default function(eleventyConfig) {
         </figure>`;
     });
 
-    // Content accordion
-    eleventyConfig.addPairedShortcode('accordion', (content, summary) => {
+    // Content disclosure
+    eleventyConfig.addPairedShortcode('disclosure', (content, summary) => {
         const summaryMarkup = markdownLibrary.renderInline(summary);
         const contentMarkup = markdownLibrary.render(content);
-        return `<details class="content-accordion">
-            <summary class="content-accordion__summary">${summaryMarkup}</summary>
-            <div class="content-accordion__content">${contentMarkup}</div>
+        return `<details class="content-disclosure">
+            <summary class="content-disclosure__summary">${summaryMarkup}</summary>
+            <div class="content-disclosure__content">${contentMarkup}</div>
         </details>`;
     });
 
-    // Paired shorcode: Content warning accordion
+    // Paired shorcode: Content warning disclosure
     eleventyConfig.addPairedShortcode('contentWarning', (content, warning) => {
         const warningMarkup = markdownLibrary.renderInline(warning);
         const contentMarkup = markdownLibrary.render(content);
