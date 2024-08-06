@@ -10,7 +10,6 @@ body {
 
 main {
     width: 100%;
-    display: grid;
     font-size: var(--fs-main);
 }
 
