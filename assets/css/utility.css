@@ -4,11 +4,6 @@
 .inline-img { display: inline-block; }
 .update-info { margin-top: 3em; }
 
-.center-el {
-    display: grid;
-    place-content: center;
-}
-
 .indent-text {
     padding: 1em 0 1em 2em;
     display: grid;
