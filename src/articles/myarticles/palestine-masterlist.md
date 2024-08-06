@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19
-updated: 2024-08-05
+updated: 2024-08-06
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 ---
@@ -101,3 +101,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Save Mohamed and his elderly parents from genocide](https://www.gofundme.com/f/save-mohamed-and-his-elderly-parents-from-genocide?attribution_id=sl:7b8ea3b1-7192-4e6d-ac64-285c74c9c372)(verified by [90-ghost](https://www.tumblr.com/90-ghost/755378263140024320/legit-fundraiser))
 * [Support Gaza Family's Journey to Recovery](https://www.gofundme.com/f/fzgga8-support-gaza-familys-journey-to-recovery) (shared by [90-ghost](https://www.tumblr.com/90-ghost/757170837598126080))
 * [Help us build new hope for me and my family](https://www.gofundme.com/f/help-us-build-new-hope-for-me-and-my-family)(shared by [90-ghost](https://www.tumblr.com/90-ghost/754544734691786752) and [northgazaupdates](https://www.tumblr.com/northgazaupdates/754969078935044096))
+* [Helping the Helles family achieve a better future](https://www.gofundme.com/f/helping-the-helles-family-achieve-a-better-future)(verified by [90-ghost](https://www.tumblr.com/90-ghost/757170722766454784/legit-fundraiser))
