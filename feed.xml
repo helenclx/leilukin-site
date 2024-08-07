@@ -4,7 +4,7 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2024-08-06T16:52:20Z</updated>
+    <updated>2024-08-07T07:01:50Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
@@ -253,7 +253,7 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
 &lt;div class=&quot;heading-wrapper h3&quot;&gt;
 &lt;h3 id=&quot;owning-both-static-and-dynamic-sites&quot;&gt;Owning Both Static and Dynamic Sites&lt;/h3&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-07-27-hostinger-migration-leilukins-hub/#owning-both-static-and-dynamic-sites&quot; aria-labelledby=&quot;owning-both-static-and-dynamic-sites&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;The first major reason is that &lt;code&gt;leilukin.com&lt;/code&gt; has evolved into more than a static site; since I have also begun to dip my toe into PHP to build dynamic sites, including a tumbleblog, fanlistings and a fanlisting.&lt;/p&gt;
+&lt;p&gt;The first major reason is that leilukin.com has evolved into more than a static site; since I have also begun to dip my toe into PHP to build dynamic sites, including a tumbleblog, fanlistings and a fanlisting.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.netlify.com/&quot;&gt;Netlify&lt;/a&gt;, which previously hosted the main site of Leilukin&#39;s Hub, does not support PHP hosting, so I hosted my tumbleblog and fanlisting collective on &lt;a href=&quot;https://www.infinityfree.com/&quot;&gt;InfinityFree&lt;/a&gt;, one of the very few platforms to provide PHP and MySQL website hosting for free. InfinityFree has been a decent platform for PHP and MySQL beginners to experiment with the languages, however as you might have expected, its free hosting plan comes with limitations.&lt;/p&gt;
 &lt;div class=&quot;heading-wrapper h3&quot;&gt;
 &lt;h3 id=&quot;limitations-of-infinityfrees-free-hosting&quot;&gt;Limitations of InfinityFree&#39;s Free Hosting&lt;/h3&gt;
@@ -263,7 +263,7 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
 &lt;div class=&quot;heading-wrapper h3&quot;&gt;
 &lt;h3 id=&quot;invested-in-webmastery-enough-to-spend-money&quot;&gt;Invested in Webmastery Enough to Spend Money&lt;/h3&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-07-27-hostinger-migration-leilukins-hub/#invested-in-webmastery-enough-to-spend-money&quot; aria-labelledby=&quot;invested-in-webmastery-enough-to-spend-money&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;Lastly, I am invested in building my own websites enough to spend money on them, as already evident in my purchase and registration of a custom domain name &lt;code&gt;leilukin.com&lt;/code&gt; for this website.&lt;/p&gt;
+&lt;p&gt;Lastly, I am invested in building my own websites enough to spend money on them, as already evident in my purchase and registration of a custom domain name leilukin.com for this website.&lt;/p&gt;
 &lt;p&gt;That said, I do need to consider carefully about how much money I am going to spend on my hobbies, which factors in why I eventually chose Hostinger to host my websites.&lt;/p&gt;
 &lt;div class=&quot;heading-wrapper h2&quot;&gt;
 &lt;h2 id=&quot;why-hostinger&quot;&gt;Why Hostinger&lt;/h2&gt;
@@ -297,7 +297,7 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
 &lt;div class=&quot;heading-wrapper h2&quot;&gt;
 &lt;h2 id=&quot;domain-names-remaining-at-porkbun&quot;&gt;Domain Names Remaining at Porkbun&lt;/h2&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-07-27-hostinger-migration-leilukins-hub/#domain-names-remaining-at-porkbun&quot; aria-labelledby=&quot;domain-names-remaining-at-porkbun&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;While Hostinger provides domain registration and transfer service, I chose to have the &lt;code&gt;leilukin.com&lt;/code&gt; domain name stay with &lt;a href=&quot;https://porkbun.com/&quot;&gt;Porkbun&lt;/a&gt;, because I already spent money on the domain name, so Hostinger&#39;s hosting plan providing domain name registration for free for the first year does not benefit me.&lt;/p&gt;
+&lt;p&gt;While Hostinger provides domain registration and transfer service, I chose to have the leilukin.com domain name stay with &lt;a href=&quot;https://porkbun.com/&quot;&gt;Porkbun&lt;/a&gt;, because I already spent money on the domain name, so Hostinger&#39;s hosting plan providing domain name registration for free for the first year does not benefit me.&lt;/p&gt;
 &lt;p&gt;In addition, Porkbun&#39;s renewal rate for domain names is cheaper than Hostinger. For example, Porkbun renews the &lt;code&gt;.com&lt;/code&gt; domain extension at 10.37 USD per year, while Hostinger renews at 15.99 USD per year. Even the Malaysian Ringgit pricing of Hostinger&#39;s domain renewal rate for &lt;code&gt;.com&lt;/code&gt;, 55.99 MYR per year, is still more expansive than Porkbun&#39;s approximately 48.3 MYR per year rate.&lt;/p&gt;
 &lt;div class=&quot;heading-wrapper h2&quot;&gt;
 &lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping Up&lt;/h2&gt;
