@@ -7,7 +7,7 @@ categories: ["site updates"]
 toc: true
 ---
 
-Major news: Leilukin's Hub has a custom domain name: `leilukin.com`! In addition, Leilukin's Hub is now  hosted on Netlify, with the `leilukin.com` domain name pointing to the Netlify host.
+Major news: Leilukin's Hub has a custom domain name: leilukin.com! In addition, Leilukin's Hub is now  hosted on Netlify, with the leilukin.com domain name pointing to the Netlify host.
 
 ## Moving Beyond Neocities
 
@@ -31,9 +31,9 @@ The process of deploying Leilukin's Hub from its GitHub repository went smoothly
 
 ## Custom Domain for Leilukin's Hub
 
-After comparing various domain name registrars, I chose to buy my domain name from Porkbun for its competitive price for domain names. The `leilukin.com` domain name was not taken, so I seized the opportunity to place an order for it, and later succeeded in purchasing and registering it as my own.
+After comparing various domain name registrars, I chose to buy my domain name from Porkbun for its competitive price for domain names. The leilukin.com domain name was not taken, so I seized the opportunity to place an order for it, and later succeeded in purchasing and registering it as my own.
 
-Upon owning `leilukin.com`, I followed Netlify's instructions to set up DNS records to point `leilukin.com` to my website on Netlify. I lacked experience in such things, so it took a bit longer for me to set it up properly, but I eventually did it. Visiting `leilukin.com` will lead you to Leilukin's Hub on Netlify.
+Upon owning leilukin.com, I followed Netlify's instructions to set up DNS records to point leilukin.com to my website on Netlify. I lacked experience in such things, so it took a bit longer for me to set it up properly, but I eventually did it. Visiting leilukin.com will lead you to Leilukin's Hub on Netlify.
 
 Since Porkbun provides an email forwarding feature for its domain names for free, I also decided to make use of it and set up a new email address with the `leilkin.com` domain name, `contact@leilukin.com`, and forward emails sent to this address to my Outlook mailbox. This means now you can email me at contact@leilukin.com.
 
@@ -45,7 +45,7 @@ I want a way to redirect my Neocities site address instead of placing a web page
 
 After researching ways to redirect web pages, I used JavaScript, specifically the [`location.replace()` method](https://www.w3schools.com/jsref/met_loc_replace.asp), for two reasons: it removes `leilukin.neocities.org` from page history, and using JavaScript allows me to write custom code to ensure only the domain gets changed, while the rest of the URL's path remains intact. For example, if you visit `leilukin.neocities.org/blog`, you will get redirected to `leilukin.com/blog`.
 
-With the redirect function set up, `leilukin.com` was officially ready!
+With the redirect function set up, leilukin.com was officially ready!
 
 ## What Happens Now with My Neocities Account
 
@@ -57,4 +57,4 @@ I am still using my Neocities account and logging in almost daily. A couple of f
 
 (**Update, 4 June 2024:** Originally, even when Leilukin's Hub began to switch host to Netlify, I still deployed Leilukin's Hub to Neocities by using the [deploy-to-neocities GitHub action](https://github.com/bcomnes/deploy-to-neocities), in order to notify my Neocities followers of updates to Leilukin's Hub, but I have changed my mind and decided to stop pushing Leilukin's Hub's updates to Neocities, so I can focus on my website's hosting on Netlify)
 
-Welcome to `leilukin.com`! 🥳 Not going to lie, I am excited that this major news for my website is officially announced just a day before Pride Month starts! 🏳️‍🌈
+Welcome to leilukin.com! 🥳 Not going to lie, I am excited that this major news for my website is officially announced just a day before Pride Month starts! 🏳️‍🌈

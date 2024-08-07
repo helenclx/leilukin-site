@@ -14,7 +14,7 @@ Before talking about why I chose Hostinger as my new website host, I want to tal
 
 ### Owning Both Static and Dynamic Sites
 
-The first major reason is that `leilukin.com` has evolved into more than a static site; since I have also begun to dip my toe into PHP to build dynamic sites, including a tumbleblog, fanlistings and a fanlisting.
+The first major reason is that leilukin.com has evolved into more than a static site; since I have also begun to dip my toe into PHP to build dynamic sites, including a tumbleblog, fanlistings and a fanlisting.
 
 [Netlify](https://www.netlify.com/), which previously hosted the main site of Leilukin's Hub, does not support PHP hosting, so I hosted my tumbleblog and fanlisting collective on [InfinityFree](https://www.infinityfree.com/), one of the very few platforms to provide PHP and MySQL website hosting for free. InfinityFree has been a decent platform for PHP and MySQL beginners to experiment with the languages, however as you might have expected, its free hosting plan comes with limitations.
 
@@ -26,7 +26,7 @@ In my case, tht thing that frustrated me the most about InfinityFree's security 
 
 ### Invested in Webmastery Enough to Spend Money
 
-Lastly, I am invested in building my own websites enough to spend money on them, as already evident in my purchase and registration of a custom domain name `leilukin.com` for this website.
+Lastly, I am invested in building my own websites enough to spend money on them, as already evident in my purchase and registration of a custom domain name leilukin.com for this website.
 
 That said, I do need to consider carefully about how much money I am going to spend on my hobbies, which factors in why I eventually chose Hostinger to host my websites.
 
@@ -64,7 +64,7 @@ Last but not least, another motivator for me to purchase a premium website hosti
 
 ## Domain Names Remaining at Porkbun
 
-While Hostinger provides domain registration and transfer service, I chose to have the `leilukin.com` domain name stay with [Porkbun](https://porkbun.com/), because I already spent money on the domain name, so Hostinger's hosting plan providing domain name registration for free for the first year does not benefit me.
+While Hostinger provides domain registration and transfer service, I chose to have the leilukin.com domain name stay with [Porkbun](https://porkbun.com/), because I already spent money on the domain name, so Hostinger's hosting plan providing domain name registration for free for the first year does not benefit me.
 
 In addition, Porkbun's renewal rate for domain names is cheaper than Hostinger. For example, Porkbun renews the `.com` domain extension at 10.37 USD per year, while Hostinger renews at 15.99 USD per year. Even the Malaysian Ringgit pricing of Hostinger's domain renewal rate for `.com`, 55.99 MYR per year, is still more expansive than Porkbun's approximately 48.3 MYR per year rate.
 
