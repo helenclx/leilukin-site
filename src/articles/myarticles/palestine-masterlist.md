@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19
-updated: 2024-08-06
+updated: 2024-08-07
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 ---
@@ -99,9 +99,9 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Help Musab and his family,my pets survive this war in Gaza.](https://www.gofundme.com/f/help-musab-and-his-family-survive-this-war-in-gaza-they-nee) (Musab's story was shared by [90-ghost](https://www.tumblr.com/90-ghost/755436620006686720), but this new fundraiser [needed to be created for Musab due to a scam](https://www.tumblr.com/musababed/757808283298004993))
 * [Hope and Safety for Amal and Her Children in Gaza](https://www.gofundme.com/f/hope-and-safety-for-amal-and-her-children-in-gaza) (shared by [90-ghost](https://www.tumblr.com/90-ghost/755297146774978560))
 * [Please Save What's Left of My Family](https://www.gofundme.com/f/donate-to-restore-the-lives-of-the-balousha-family) (verified by [90-ghost](https://www.tumblr.com/90-ghost/757288369570152448/legit-fundraiser))
-* [Save Mohamed and his elderly parents from genocide](https://www.gofundme.com/f/save-mohamed-and-his-elderly-parents-from-genocide?attribution_id=sl:7b8ea3b1-7192-4e6d-ac64-285c74c9c372)(verified by [90-ghost](https://www.tumblr.com/90-ghost/755378263140024320/legit-fundraiser))
+* [Save Mohamed and his elderly parents from genocide](https://www.gofundme.com/f/save-mohamed-and-his-elderly-parents-from-genocide?attribution_id=sl:7b8ea3b1-7192-4e6d-ac64-285c74c9c372) (verified by [90-ghost](https://www.tumblr.com/90-ghost/755378263140024320/legit-fundraiser))
 * [Support Gaza Family's Journey to Recovery](https://www.gofundme.com/f/fzgga8-support-gaza-familys-journey-to-recovery) (shared by [90-ghost](https://www.tumblr.com/90-ghost/757170837598126080))
-* [Help us build new hope for me and my family](https://www.gofundme.com/f/help-us-build-new-hope-for-me-and-my-family)(shared by [90-ghost](https://www.tumblr.com/90-ghost/754544734691786752) and [northgazaupdates](https://www.tumblr.com/northgazaupdates/754969078935044096))
-* [Helping the Helles family achieve a better future](https://www.gofundme.com/f/helping-the-helles-family-achieve-a-better-future)(verified by [90-ghost](https://www.tumblr.com/90-ghost/757170722766454784/legit-fundraiser))
+* [Help us build new hope for me and my family](https://www.gofundme.com/f/help-us-build-new-hope-for-me-and-my-family) (shared by [90-ghost](https://www.tumblr.com/90-ghost/754544734691786752) and [northgazaupdates](https://www.tumblr.com/northgazaupdates/754969078935044096))
+* [Helping the Helles family achieve a better future](https://www.gofundme.com/f/helping-the-helles-family-achieve-a-better-future) (verified by [90-ghost](https://www.tumblr.com/90-ghost/757170722766454784/legit-fundraiser))
 * [Help save my family to survive the genocide in Gaza](https://www.gofundme.com/f/Stand-With-AlBalawi-Family) (verified by [90-ghost](https://www.tumblr.com/90-ghost/754486025365209088/legit-fundraiser))
 * [Helping my family rebuild our home](https://www.gofundme.com/f/dr66mz-helping-my-family-rebuild-our-home) (#198 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A202))
