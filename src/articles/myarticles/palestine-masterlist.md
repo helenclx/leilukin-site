@@ -31,6 +31,7 @@ Here, I am compiling a list of resources related to Palestine. This list is not 
 * [Daily click to help Palestine on arab.org](https://arab.org/click-to-help/palestine/)
 * [Palestine Children's Relief Fund](https://www.pcrf.net/)
 * [eSims for Gaza](https://gazaesims.com/)
+* [Crips for eSims for Gaza](https://chuffed.org/project/crips-for-esims-for-gaza)
 * [Gaza Funds](https://gazafunds.com)
 * [Operation Olive Branch](https://docs.google.com/spreadsheets/d/1vtMLLOzuc6GpkFySyVtKQOY2j-Vvg0UsChMCFst_WLA/htmlview)
 * [Operation Poppy Flower](https://www.operationpoppyflower.com/)
