@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19
-updated: 2024-08-08
+updated: 2024-08-10
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 ---
@@ -108,3 +108,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Helping my family rebuild our home](https://www.gofundme.com/f/dr66mz-helping-my-family-rebuild-our-home) (#198 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A202))
 * [Help Mohamed's children escape from the Gaza war to Safety](https://www.gofundme.com/f/please-help-this-family-get-out-of-the-gaza-war) (shared by [90-ghost](https://www.tumblr.com/90-ghost/755749578786127872))
 * [Death chases my family in Gaza; help me save them](https://www.gofundme.com/f/death-chases-my-family-in-gaza-help-me-save-them) (#151 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A155))
+* [Help My Family Evacuate to Safety](https://www.gofundme.com/f/gtuw5-help-my-family-evacuate-to-safety) (vwrified by [ana-bananya](https://www.tumblr.com/ana-bananya/758288014582726656/sameer-is-a-friend-of-mohiy-gaza-mohiy-shared))
