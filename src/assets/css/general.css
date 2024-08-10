@@ -119,3 +119,4 @@ dl {
 
 dt { font-weight: 700; }
 dd {grid-column-start: 2; }
+video { width: 100%; }
