@@ -18,7 +18,16 @@ Specifically, the clip from Somerton's video at the timestamp from 12:09 to 12:1
 
 Here is a back-to-back comparison between the clips from my original footage and Somerton's video respectively, proving the clip from Somerton's video was originally from my footage:
 
-https://www.youtube.com/watch?v=hYyq_hzIIKI
+<!-- https://www.youtube.com/watch?v=hYyq_hzIIKI -->
+<video controls width="250">
+    <source src="/host/videos/My-Footage-vs-James-Somertons-Video.webm" type="video/webm">
+    <source src="/host/videos/My-Footage-vs-James-Somertons-Video.mp4" type="video/mp4">
+    Download the
+    <a href="/host/videos/My-Footage-vs-James-Somertons-Video.webm">WEBM</a>
+    or
+    <a href="/host/videos/My-Footage-vs-James-Somertons-Video.mp4">MP4</a>
+    video.
+</video>
 
 I immediately recognised my clip through the appearance of the female player character and her outfit, which was from the [Segan Wyndh Jedi Armor mod](https://deadlystream.com/files/file/90-segan-wyndh-jedi-armor/). Furthermore, there are not many videos about Juhani's romance out there, so the player character's appearance, which can vary depending on how the player customises their character in the character creator or with mods, in Somerton's video only stood out to me even more. My footage of Juhani's love confession was part of my [Juhani romance and conversation video series](https://www.youtube.com/playlist?list=PL5z8DZr8LSLHZkdhBxGadvvaHlolKa-Vd), to compliment my [Juhani romance guide](/shrines/starwarskotor/guides/kotor-juhani-romance-guide/), which I am still proud to say is *the* most comprehensive guide about Juhani's romance on the internet.
 
