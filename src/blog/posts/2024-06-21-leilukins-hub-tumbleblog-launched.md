@@ -1,7 +1,7 @@
 ---
 articleTitle: Leilukin's Hub Tumbleblog Launched
 desc: Leilukin's Hub now has a tumbleblog built with Chyrp Lite and hosted on InfinityFree.
-date: 2024-06-21
+date: 2024-06-21T01:53:00+0800
 categories: ["site updates"]
 ---
 

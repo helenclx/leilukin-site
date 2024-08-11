@@ -1,7 +1,7 @@
 ---
 articleTitle: My Cassette Beasts Fanlisting Application has been Approved
 desc: The Fanlistings Network has approved my application to run and build a Cassette Beasts fanlisting.
-date: 2024-06-24
+date: 2024-06-24T13:23:00+0800
 categories: ["cassette beasts", "site updates"]
 ---
 

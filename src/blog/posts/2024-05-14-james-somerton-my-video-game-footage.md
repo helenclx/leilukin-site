@@ -1,7 +1,7 @@
 ---
 articleTitle: James Somerton Used My Video Game Footage Without Credit or Permission
 desc: "James Somerton used one of my Star Wars: Knights of the Old Republic footage in one of his videos without credit or permission."
-date: 2024-05-14
+date: 2024-05-14T11:02:00+0800
 updated: 2024-05-17
 categories: ["youtube"]
 ---

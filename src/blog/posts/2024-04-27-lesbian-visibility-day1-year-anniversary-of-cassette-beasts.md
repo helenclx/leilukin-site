@@ -1,7 +1,7 @@
 ---
 articleTitle: Happy Lesbian Visibility Day and 1-Year Anniversary of Cassette Beasts
 desc: Celebrating both Lesbian Visibility Day and the 1st year anniversary of Cassette Beasts' release on 26 April 2024.
-date: 2024-04-27
+date: 2024-04-27T14:06:00+0800
 categories: ["lesbian", "cassette beasts"]
 ---
 
