@@ -1,7 +1,7 @@
 ---
 articleTitle: Anti-Harry Potter and Anti-J. K. Rowling Masterlist
 date: 2023-03-19
-updated: 2024-06-19
+updated: 2024-06-19T00:06:00+0800
 desc: My masterlist of criticisms of the Harry Potter series and J. K. Rowling.
 categories: ["harry potter", "jk rowling"]
 toc: true
