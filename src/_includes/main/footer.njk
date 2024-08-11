@@ -5,7 +5,7 @@
 
     {% set currentUrl %}{{ page.url }}{% endset %}
     <ul class="inline-nav footer__links">
-        <li><a href="/feed.xml">RSS</a></li>
+        <li><a href="{{ sitemeta.feedPath }}">RSS</a></li>
         <li><a
             {% if currentUrl === "/sitemap/" %}aria-current="page"{% endif %}
             href="/sitemap/
