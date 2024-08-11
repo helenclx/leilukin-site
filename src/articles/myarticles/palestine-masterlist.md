@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-08-11T21:32:00+0800
+updated: 2024-08-12T01:27:00+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 ---
@@ -71,7 +71,7 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Urgent ! Save kids life .](https://www.gofundme.com/f/help-alaa-family-to-survive-the-war-in-gaza) (shared by [90-ghost](https://www.tumblr.com/90-ghost/751443466082484224))
 * [Trapped Family in Gaza Appeals for Help to Survive](https://www.gofundme.com/f/wyuehr-trapped-family-in-gaza-appeals-for-help-to-survive) (#174 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A178); also shared by [fairuzfan](https://www.tumblr.com/fairuzfan/752928036559749120) and [90-ghost](https://www.tumblr.com/90-ghost/752026987709825024))
 * [Help Ahmed family to travel to a save place](https://www.gofundme.com/f/help-ahmed-family-to-travel) (veridied by [nabulsi](https://www.tumblr.com/nabulsi/752576616277868544/hello-how-are-you-my-name-is-ahmed-im-from))
-* [Help my family escape Gaza](https://www.gofundme.com/f/byt93-help-my-family-escape-gaza) (verified by [nabulsi](https://www.tumblr.com/nabulsi/754296720770383872/donate-to-help-my-family-escape-gaza-organized-by))
+* [Help my family escape Gaza](https://www.gofundme.com/f/byt93-help-my-family-escape-gaza) (#231 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A235))
 * [Hope for Gaza: Support Ashraf's Family Rebuild Their Lives](https://www.gofundme.com/f/hope-for-gaza-support-ashrafs-family-rebuild-their-lives) (verified by [90-ghost](https://www.tumblr.com/90-ghost/754535164856664064/legit-fundraiser))
 * [Help Zaen and Yehya to get out of Gaza](https://www.gofundme.com/f/help-sara-and-her-family-to-evacuate-gaza) (shared by [90-ghost](https://www.tumblr.com/90-ghost/754093176508268544))
 * [A Father's Plea: Help Save My Family](https://www.gofundme.com/f/btuqqt-save-my-familys-life) (verified by [el-shab-hussein](https://www.tumblr.com/el-shab-hussein/754087744556449792/vetted-family-fundraiser-masterpost-3))
