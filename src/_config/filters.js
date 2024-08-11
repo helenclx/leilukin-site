@@ -1,3 +1,5 @@
+import { DateTime } from "luxon";
+
 export default function(eleventyConfig) {
     // Filter contents by category
     eleventyConfig.addFilter("filterByCategory", function(contents, cat) {
@@ -10,14 +12,8 @@ export default function(eleventyConfig) {
     });
 
     // Format dates
-    const dateOptions = {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-    };
-    const dateTimeLocale = new Intl.DateTimeFormat("en-GB", dateOptions);
-    eleventyConfig.addFilter("formatDate", function(date) {
-        return dateTimeLocale.format(date);
+    eleventyConfig.addFilter("formatDate", (dateObj) => {
+        return DateTime.fromJSDate(dateObj).toFormat("d LLLL yyyy");
     });
 
     // Limit number of items displayed
