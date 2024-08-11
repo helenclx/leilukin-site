@@ -1,7 +1,7 @@
 ---
 articleTitle: Cassette Beasts Fanlisting and My Fanlisting Collective Launched
 desc: Announcing the launch of my fanlisting collective, Cassette Beasts fanlisting and the release of my BellaBuffs fork.
-date: 2024-07-02
+date: 2024-07-02T00:37:00+0800
 categories: ["cassette beasts", "site updates", "code projects"]
 ---
 
