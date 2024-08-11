@@ -12,8 +12,12 @@ export default function(eleventyConfig) {
     });
 
     // Format dates
-    eleventyConfig.addFilter("formatDate", (dateObj) => {
-        return DateTime.fromJSDate(dateObj).toFormat("d LLLL yyyy");
+    eleventyConfig.addFilter("formatDate", (date) => {
+        const dateFormat = "d LLLL yyyy";
+        if (typeof date === "object") {
+            return DateTime.fromJSDate(date).toFormat(dateFormat);
+        }
+        return DateTime.fromISO(date, { setZone: true }).toFormat(dateFormat);
     });
 
     // Limit number of items displayed
