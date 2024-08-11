@@ -9,6 +9,9 @@
         <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ sitemeta.siteName }}{% endif %}">
         {% include "global/metagen.njk" %}
 
+        {# Feeds #}
+        {% include "global/feeds.njk" %}
+
         {# Style #}
         {% include "global/fontdefault.njk" %}
         <link rel="stylesheet" href="{{'/assets/css/misc.css' | url | safe}}">
