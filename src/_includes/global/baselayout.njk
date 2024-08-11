@@ -7,6 +7,9 @@
     {% endblock %}
         {% include "global/metagen.njk" %}
 
+        {# Feeds #}
+        {% include "global/feeds.njk" %}
+
         {# Fonts #}
         {% include "global/fontdefault.njk" %}
         <link rel="stylesheet" href="{{'/assets/fonts/intel-one-mono/intel-one-mono.css' | url | safe}}">
