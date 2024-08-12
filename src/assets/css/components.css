@@ -145,7 +145,6 @@ a.link-btn[href^="http"]:not([href*="leilukin.com"]) { padding-right: calc(var(-
     display: flex;
     flex-wrap: wrap;
     gap: 0.5em;
-    align-items: center;
     list-style-type: "";
     padding: 0;
     margin: 0;
@@ -159,9 +158,9 @@ a.link-btn[href^="http"]:not([href*="leilukin.com"]) { padding-right: calc(var(-
     }
 }
 
-/* Adoptables wrapper */
 .adoptables { align-items: flex-end; }
 p + .adoptables { margin-top: 1em; }
+.web-badges { justify-content: center; }
 
 /* Tabs */
 .tabwrap section { display: none; }
