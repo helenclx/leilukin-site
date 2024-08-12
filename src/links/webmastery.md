@@ -1,7 +1,7 @@
 ---
 title: Webmastery
 date: 2024-07-01
-updated: 2024-08-06
+updated: 2024-08-12T18:29:00+0800
 ---
 
 ### Webmastery Tutorials
@@ -23,6 +23,7 @@ updated: 2024-08-06
 * [5 ways to make your neocities site more accessible](https://sleepydev.neocities.org/posts/5%20Ways%20to%20make%20your%20Neocities%20site%20more%20accessible) by Sleepy dev
 * [Three Common Accessibility Problems and How to Fix Them](https://solaria.neocities.org/beginnersaccessibility) by Solaria
 * [What I've Learned About Web Accessibility as a Dyslexic, Sighted, Mouse User](https://solaria.neocities.org/accessibility) by Solaria
+* [Screen reader testing: how to test your website's accessibility](https://www.siteimprove.com/glossary/screen-reader-testing/) by Siteimprove
 
 ### Webmastery Resources
 
