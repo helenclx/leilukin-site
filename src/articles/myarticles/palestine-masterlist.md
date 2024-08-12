@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-08-12T01:27:00+0800
+updated: 2024-08-12T11:49:00+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 ---
@@ -55,6 +55,7 @@ Here, I am compiling a list of resources related to Palestine. This list is not 
 ## Boycotts
 
 * [BDS Movement](https://bdsmovement.net/)
+* [No Tech For Apartheid](https://www.notechforapartheid.com/)
 * Attention to website owners: [Boycott Wix](https://boycottwix.org/) — The BDS movement has [listed Wix as an organic boycott target](https://bdsmovement.net/Act-Now-Against-These-Companies-Profiting-From-Genocide), meaning the BDS movement did not initiate this grassroots boycott campaign, but supports it due to the boycotted brand's complicity in Israel's genocide and apartheid against Palestinians.
 
 ## Spotlight Crowdfunding Campaigns
