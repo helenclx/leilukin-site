@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-08-12T15:44:00+0800
+updated: 2024-08-13T00:19:00+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 ---
@@ -113,3 +113,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Help My Family Evacuate to Safety](https://www.gofundme.com/f/gtuw5-help-my-family-evacuate-to-safety) (vwrified by [ana-bananya](https://www.tumblr.com/ana-bananya/758288014582726656/sameer-is-a-friend-of-mohiy-gaza-mohiy-shared))
 * [Help Youssef Provide Medicine and Shelter](https://www.gofundme.com/f/help-youssef-provide-medicine-and-shelter) (#255 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A259); row 132 in [Bees and Watermelons](https://linktr.ee/beesandwatermelons)' [priority campaigns spreadsheet](https://docs.google.com/spreadsheets/d/1J-1KNHXmvY098fuCDWiOIm1fcphAgkXA8nnWqOSXouw/edit?gid=283092143#gid=283092143&range=B132))
 * [Save Malak's Dreams and Family from Gaza](https://www.gofundme.com/f/save-malaks-dreams-and-family-from-gaza) (verified by [90-ghost](https://www.tumblr.com/90-ghost/756023439469477889/legit-fundraiser))
+* [Help Alaa family from this hard war](https://www.gofundme.com/f/sp46z-help-my-family-to-travel-to-a-safe-place) (#99 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?pli=1&gid=0#gid=0&range=A103))
