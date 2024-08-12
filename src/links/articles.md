@@ -1,7 +1,7 @@
 ---
 title: Articles
 date: 2024-07-03
-updated: 2024-07-23
+updated: 2024-08-12T12:13:00+0800
 ---
 
 ### LGBTQ+
@@ -11,6 +11,9 @@ updated: 2024-07-23
 ### Race
 * [“BIPOC”, the Shared Oppression Myth, and the Black Natives It Erases](https://medium.com/@kihnindewa/bipoc-the-shared-oppression-myth-and-the-black-natives-it-erases-dd0cdcd93230) by Kihnindewa
  ([archive.today link](https://archive.is/20230625143617/https://medium.com/@kihnindewa/bipoc-the-shared-oppression-myth-and-the-black-natives-it-erases-dd0cdcd93230))
+
+### Mental Health
+* [There Is No Moral Imperative to Be Miserable](https://mentalhellth.xyz/p/there-is-no-moral-imperative-to-be) by James Greig
 
 ### Media Criticism
 * [On Letting People Enjoy Things](https://medium.com/@EstherRosenfield/let-people-enjoy-things-12021d00285a) by Esther Rosenfield
