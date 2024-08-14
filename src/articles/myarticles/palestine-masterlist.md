@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-08-14T23:22:54+0800
+updated: 2024-08-14T23:29:04+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 ---
@@ -116,3 +116,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Help Alaa family from this hard war](https://www.gofundme.com/f/sp46z-help-my-family-to-travel-to-a-safe-place) (#99 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?pli=1&gid=0#gid=0&range=A103))
 * [Help Ahmed Jehad and his newborn survive!](https://www.gofundme.com/f/ahmed-jehad-and-his-newborn-need-to-survive) (Row 171 in [Bees and Watermelons](https://linktr.ee/beesandwatermelons)' [priority campaigns spreadsheet](https://docs.google.com/spreadsheets/d/1J-1KNHXmvY098fuCDWiOIm1fcphAgkXA8nnWqOSXouw/edit?gid=283092143#gid=283092143&range=B171))
 * [Help Evacuate My Family from Gaza to Safety](https://www.gofundme.com/f/reconstruction-of-a-destroyed-house) (#125 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A129))
+* [Help my family survive and start a new life](https://www.gofundme.com/f/help-baby-omar-and-his-family-survive) (shared by [90-ghost](https://www.tumblr.com/90-ghost/758166499964878848))
