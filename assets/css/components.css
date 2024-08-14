@@ -149,7 +149,7 @@ a.link-btn[href^="http"]:not([href*="leilukin.com"]) { padding-right: calc(var(-
     padding: 0;
     margin: 0;
     overflow-x: clip;
-    overflow-clip-margin: 0.25em;
+    overflow-clip-margin: 0.5em;
 }
 @media only screen and (min-width: 60rem) {
     .web-graphics {
