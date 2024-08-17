@@ -42,6 +42,8 @@ If you play KotOR 2 on Steam, **make sure there are no leftover Steam Workshop f
 
 Try to right-click your {% cite "KotOR 2" %} folder or subfolders, go to Properties and uncheck the "Read-only", then try to install my mod again to see if it works.
 
+## When installing your KotOR 2 mod, I got errors saying "Modules\[_].mod" did not exist, even though I had installed the installer (.exe) version of The Sith Lords Restored Content Mod.
+
 First, go to the folder where your {% cite "KotOR 2" %} game is installed, and go to the Modules folder, then **check if the .mod files mentioned in the error messages are in your Modules folder**.
 
 For example, for Handmaiden and Female Exile – Disciple and Male Exile Romance mod, you need to check if these .mod files are in your Modules folder:
