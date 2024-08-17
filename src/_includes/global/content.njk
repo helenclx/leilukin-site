@@ -17,6 +17,7 @@
 
     {% if isArticle %}
         <div class="article__info">
+            <p class="article__info--desc">{{ desc }}</p>
             <p>Posted on {{ date | formatDate }} by {{ sitemeta.siteAuthor.name }}
             {% if updated %}
                 • Last updated on {{ updated | formatDate }}</p>
@@ -101,6 +102,8 @@
         content: '➔';
         padding-left: 0.3em;
     }
+
+    .article__info--desc { margin-bottom: 1em; }
 
     .blog__post--pagination {
         padding-top: 1em;
