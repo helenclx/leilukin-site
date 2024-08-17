@@ -8,7 +8,7 @@ categories: ["star wars kotor 2"]
 
 (Note: This article was originally published on Tumblr)
 
-In Star Wars: Knights of the Old Republic II: The Sith Lords, from the first conversation you could have with Brianna, also known as The Last Handmaiden, in the secret Jedi academy on Telos, to the moment where you train Brianna to become a Jedi Guardian if she joins your party, the game has consistently shown that Brianna's family plays a major part of her story and character arc due to her identity as an illegitimate child of the Echani general Yusanis and Jedi Knight Arren Kae. I have always enjoyed Brianna's arc, so even when I am playing a female Jedi Exile, I always use mods that allow Brianna to join a female Exile's party.
+In {% cite "Star Wars: Knights of the Old Republic II: The Sith Lords" %}, from the first conversation you could have with Brianna, also known as The Last Handmaiden, in the secret Jedi academy on Telos, to the moment where you train Brianna to become a Jedi Guardian if she joins your party, the game has consistently shown that Brianna's family plays a major part of her story and character arc due to her identity as an illegitimate child of the Echani general Yusanis and Jedi Knight Arren Kae. I have always enjoyed Brianna's arc, so even when I am playing a female Jedi Exile, I always use mods that allow Brianna to join a female Exile's party.
 
 As I have thought more about Brianna's family drama, one day I have come to realise that there is a mystery about Brianna's family that I find it unfortunate that we know next to nothing about: the mother of Brianna's sisters.
 
