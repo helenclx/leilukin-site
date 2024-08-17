@@ -51,7 +51,7 @@ With the redirect function set up, leilukin.com was officially ready!
 
 What happens now with my Neocities account and the Neocities version of Leilukin's Hub?
 
-**`leilukin.neocities.org`, the Neocities version of Leilukin's Hub will no longer be updated**. Visiting `leilukin.neocities.org` will redirect you to `leiulkin.com`, my new domain on Netlify. That said, I still post about updates to Leilukin's Hub on my Neocities profile.
+**leilukin.neocities.org, the Neocities version of Leilukin's Hub will no longer be updated**. Visiting leilukin.neocities.org will redirect you to leiulkin.com, my new domain on Netlify. That said, I still post about updates to Leilukin's Hub on my Neocities profile.
 
 I am still using my Neocities account and logging in almost daily. A couple of fellow webmasters and I have been following each other on Neocities, so I am not abandoning my Neocities account any time soon, and Neocities users are still welcome to follow me and post messages on [my Neocities profile page](https://neocities.org/site/leilukin).
 
