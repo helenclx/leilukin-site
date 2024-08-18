@@ -4,12 +4,70 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2024-08-18T01:40:57Z</updated>
+    <updated>2024-08-18T12:41:48Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
         <email>contact@leilukin.com</email>
     </author>
+        
+        <entry>
+            <title>Changelog: 18 August 2024</title>
+            <link href="https://leilukin.com/"/>
+            <updated>2024-08-18T12:33:42Z</updated>
+            <id>https://leilukin.com/</id>
+            <content type="html">&lt;ul&gt;
+&lt;li&gt;New blog post about me officially becoming a professional web developer, &lt;a href=&quot;https://leilukin.com/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer&quot;&gt;&amp;quot;From Hobbyist to Professional Web Developer&amp;quot;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>From Hobbyist to Professional Web Developer | Blog</title>
+            <link href="https://leilukin.com/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer/"/>
+            <updated>2024-08-18T12:28:21Z</updated>
+            <id>https://leilukin.com/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer/</id>
+            <content type="html">&lt;p&gt;I am pleased to announce that I am officially a professional web developer now — starting from 16 August 2024, I am working for a local traditional Chinese medicine (TCM) healthcare company, with my job involving web development, UX design and graphic design. I owe much to this very website for inspiring me to pursue web development as a profession.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;my-web-design-origin-story&quot;&gt;My Web Design Origin Story&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer/#my-web-design-origin-story&quot; aria-labelledby=&quot;my-web-design-origin-story&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;My interest in web design and development go back as far as my teenage years in the 2000s. I had a GeoCities account, but by the time I started to participate on the web when I was around 14, blogs were on the rise, so blogging was my first foray into creating on the internet, so I did not experience creating and coding a personal website like other GeoCities users did. That said, I got my start on HTML and CSS through blogging, by editing the codes of widgets and blog themes, while being inspired by many other blogs.&lt;/p&gt;
+&lt;p&gt;In particular, there was a Taiwanese blogger who was a professional graphic designer with a gorgeous header made with Flash, who ended up being an inspiration for me to aspire to become a graphic designer when I grew up. I did study graphic design, earn a diploma and began working as a graphic designer. However, years in the field, I got burned out; there were multiple factors contributing to my burnout from the graphic design field, but the short version is that the reality of graphic design work, at least in my experience, did not turn out as great as what my younger self had expected and hoped for.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;rekindled-interest-in-web-design&quot;&gt;Rekindled Interest in Web Design&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer/#rekindled-interest-in-web-design&quot; aria-labelledby=&quot;rekindled-interest-in-web-design&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;In 2022, my interest in web design was rekindled when I discovered Neocities through Tumblr, and the resurgence of creating personal websites, so decided to build and code my own website to gather various stuff I have created and curated across various online spaces. For this, I re-learned HTML and CSS, and began to truly experience the joy of carving one&#39;s own space on the web, and the more I worked on my website, the more I learned about not only web design, but also web development, by dabbling in JavaScript, which became the first programming language I actually learned.&lt;/p&gt;
+&lt;details class=&quot;content-disclosure&quot;&gt;
+            &lt;summary class=&quot;content-disclosure__summary&quot;&gt;Side Note: First programming language I used&lt;/summary&gt;
+            &lt;div class=&quot;content-disclosure__content&quot;&gt;&lt;p&gt;Technically, the first programming language I had ever used is NWScript, a scripting language based on the C programming language and used for the video games &lt;cite&gt;Neverwinter Nights&lt;/cite&gt; and &lt;cite&gt;Star Wars: Knights of the Old Republic&lt;/cite&gt; series, since I got into modding, including creating mods for the &lt;cite&gt;Knights of the Old Republic&lt;/cite&gt; games before building my website, but I did not actually learn or understand programming concepts (such as variables, data types, etc.) until I started to learn JavaScript, so I do not count NWScript as my first programming language.&lt;/p&gt;
+&lt;/div&gt;
+        &lt;/details&gt;
+&lt;p&gt;Furthermore, despite being burned out from graphic design as a profession, my graphic design background does come in handy in building Leilukin&#39;s Hub, by designing and creating graphics for my website, including header image, site button, favicon, etc., as well as applying my design knowledge and skill to design my own website, from colour schemes to layout.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;web-development-more-than-a-hobby&quot;&gt;Web Development: More than a Hobby&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer/#web-development-more-than-a-hobby&quot; aria-labelledby=&quot;web-development-more-than-a-hobby&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Over time, my interest in web development evolved enough to take online coding courses, starting with &lt;a href=&quot;https://www.freecodecamp.org/&quot;&gt;freeCodeCamp&lt;/a&gt;, then &lt;a href=&quot;https://scrimba.com/&quot;&gt;Scrimba&lt;/a&gt; shortly after. Taking these courses made me realise that these languages have evolved a lot since more than a decade ago. I applied the HTML, CSS and JavaScript skills and knowledge I learned from these courses to make improvements to my website.&lt;/p&gt;
+&lt;p&gt;Meanwhile, learning that there were people who became developers without a computer science degree inspired me to consider switching my career path to web development. In other words, web design and development have become more than a hobby to me. I did not expect it to be easy, so I did put as much as I could in learning and practising web development. That said, Leilukin&#39;s Hub remains a hobby project, and it serves as a good platform for me to practice and experiment my front end web development.&lt;/p&gt;
+&lt;p&gt;After teaching myself to code for almost two years, and received multiple code and tech-related certifications, I updated my résumé with information about my interest in switching career from graphic design to web development, and hope for transferring my creativity and design expertise into building the web. I started to try hunting for front end web developer jobs, but my attempts to apply for the job for many companies did not succeed, then I received a surprised belated birthday present in the form of a job interview invitation.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;new-job-interview-a-surprise-belated-birthday-present&quot;&gt;New Job Interview: A Surprise Belated Birthday Present&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer/#new-job-interview-a-surprise-belated-birthday-present&quot; aria-labelledby=&quot;new-job-interview-a-surprise-belated-birthday-present&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;On 29 July 2024, a day after my birthday, I received an invitation by the managing director of a local traditional Chinese medicine company to attend an interview with him. The company was looking for someone with web development expertise to work on and improve their website, which is built with WordPress, and the managing director discovered my résumé on a Malaysian job hunting website I had registered an account on.&lt;/p&gt;
+&lt;p&gt;During my interview, I explained to the managing director that I have been looking to switch career from graphic design to web development. Turned out, the company was also interested in hiring a web developer with design expertise to improve the front end of their website, so my 8 years worth of graphic design experience was a bonus. A week after the interview, the managing director sent me a job offer, and I accepted and got hired, with my responsibilities include web development, UX design and graphic design.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;wordpress-developer-by-day-eleventy-developer-by-night&quot;&gt;WordPress Developer by Day, Eleventy Developer by Night&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer/#wordpress-developer-by-day-eleventy-developer-by-night&quot; aria-labelledby=&quot;wordpress-developer-by-day-eleventy-developer-by-night&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Starting my professional web development journey with WordPress is going to be a new experience for me. I had brief experience with working on WordPress websites as a website administrator in one of my previous jobs, but never as a developer. Furthermore, prior to receiving this job offer, I never studied WordPress development, nor built my own website with WordPress.&lt;/p&gt;
+&lt;p&gt;That said, I hope to apply the programming knowledge and skills I learned from the coding courses I had taken to adapt to learning WordPress development. My confidence in my ability to learn new tech skills was bolstered by the time I created a &lt;a href=&quot;https://leilukin.com/projects/code/bellabuffs-phpmailer/&quot;&gt;fork for the fanlisting script BellaBuffs with SMTP support&lt;/a&gt; despite my inexperience with PHP. I am looking forward to learning more about PHP with my new job as well.&lt;/p&gt;
+&lt;p&gt;Although now I work on WordPress in my day job, my personal website will continue to be built with Eleventy. One of the reasons I wanted to pursue web development as a profession is the freedom to learn and use different tools outside day job while continuing to grow as a developer.&lt;/p&gt;
+&lt;p&gt;None of the coding courses I took taught about Eleventy or any static site generator, but &lt;a href=&quot;https://leilukin.com/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/&quot;&gt;rebuilding Leilukin&#39;s Hub with Eleventy in April 2024&lt;/a&gt; allowed me to learn more about web development, not to mention I do have a lot of fun with using Eleventy. Therefore, I am content to be a WordPress developer by day, Eleventy developer by night.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping Up&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer/#wrapping-up&quot; aria-labelledby=&quot;wrapping-up&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Looking back, even I am amazed by the fact that building this very website kickstarted my path to become a professional web developer, especially since I did not come from a tech educational or industrial background, but I am glad that it happened.&lt;/p&gt;
+&lt;p&gt;I am happy to be able to switch my career path to web development despite not having a computer science degree, and that my prior working experience as a graphic designer helped with getting this new opportunity.&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Changelog: 11 August 2024</title>
@@ -503,38 +561,6 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
             <id>https://leilukin.com/</id>
             <content type="html">&lt;ul&gt;
 &lt;li&gt;New blog post: &lt;a href=&quot;https://leilukin.com/blog/posts/2024-06-24-cassette-beasts-fanlisting-approved&quot;&gt;My Cassette Beasts Fanlisting Application has been Approved&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        </entry>
-        
-        <entry>
-            <title>My Cassette Beasts Fanlisting Application has been Approved | Blog</title>
-            <link href="https://leilukin.com/blog/posts/2024-06-24-cassette-beasts-fanlisting-approved/"/>
-            <updated>2024-06-24T05:23:00Z</updated>
-            <id>https://leilukin.com/blog/posts/2024-06-24-cassette-beasts-fanlisting-approved/</id>
-            <content type="html">&lt;p&gt;On 22 June 2024, I submitted an &lt;a href=&quot;https://thefanlistings.org/start/apply.php&quot;&gt;application form&lt;/a&gt; to &lt;a href=&quot;https://thefanlistings.org/&quot;&gt;The Fanlistings Network&lt;/a&gt;, also known as TFL.org, to build and run a &lt;cite&gt;Cassette Beasts&lt;/cite&gt; fanlisting, and now TFL.org has approved my application! &lt;cite&gt;Cassette Beasts&lt;/cite&gt; is now on TFL.org&#39;s approved list under the Games category and the &lt;a href=&quot;https://www.thefanlistings.org/browse.php?show=games&amp;amp;start=8&quot;&gt;Computer, Console, &amp;amp; Video Games subcategory&lt;/a&gt; (&lt;a href=&quot;https://web.archive.org/web/20240624045621/https%3A%2F%2Fwww.thefanlistings.org%2Fbrowse.php%3Fshow%3Dgames%26start%3D8&quot;&gt;view the web archive version&lt;/a&gt;).&lt;/p&gt;
-&lt;details class=&quot;content-disclosure&quot;&gt;
-            &lt;summary class=&quot;content-disclosure__summary&quot;&gt;What is a fanlisting?&lt;/summary&gt;
-            &lt;div class=&quot;content-disclosure__content&quot;&gt;&lt;p&gt;For those who do not know what a fanlisting is, TFL.org has defined fanslitings as below:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;A fanlisting is simply an online listing of fans of a subject, such as a TV show, actor, or musician, that is created by an individual and open for fans from around the world to join. There are no costs, and the only requirements to join a fanlisting are your name and country. Fanlistings do not have to be large sites (although some are) - they are just a place where you can have your name listed along with other fans of the same subject. TheFanlistings.org is the original (but not only) web directory for fanlistings, dedicated to uniting fans across the globe.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/div&gt;
-        &lt;/details&gt;
-&lt;p&gt;This is a major moment for me as both a webmaster and a  &lt;cite&gt;Cassette Beasts&lt;/cite&gt; fan. As a webmaster, I have been applying and joining fanlistings since I built my own website, as I have always found fanlistings a neat idea to gather and discover other people who share your interests across the world, as listing your country is a requirement when you apply to join a fanlisting. Recently, I have been considering building and running a fanlisting myself, with &lt;cite&gt;Cassette Beasts&lt;/cite&gt; being my first choice since there is no fanlisting for &lt;cite&gt;Cassette Beasts&lt;/cite&gt; yet. I began to dabble in PHP, so I can use a script like &lt;a href=&quot;https://www.jemjabella.co.uk/scripts/bellabuffs/&quot;&gt;BellaBuffs&lt;/a&gt; to build a fanlisting. With my application approved by The Fanlistings Network, the &lt;cite&gt;Cassette Beasts&lt;/cite&gt;  fanlisting will be the first fanlisting I build and run.&lt;/p&gt;
-&lt;p&gt;&lt;cite&gt;Cassette Beasts&lt;/cite&gt;  has become my favourite video game ever since I started playing it in July 2023, to the extent that not only I have a &lt;a href=&quot;https://leilukin.com/shrines/cassettebeasts&quot;&gt;&lt;cite&gt;Cassette Beasts&lt;/cite&gt; shrine&lt;/a&gt; on my website, I had already begun to consider creating the shrine even before beating the main campaign. I have also been tirelessly recommending the game throughout various online spaces. Therefore, I am honoured to be given this opportunity to build and run a fanlisting for &lt;cite&gt;Cassette Beasts&lt;/cite&gt; that is approved by The Fanlistings Network, to add to my ongoing effort to boost the game&#39;s visibility.&lt;/p&gt;
-&lt;p&gt;The &lt;cite&gt;Cassette Beasts&lt;/cite&gt; fanlisting is not ready yet at this moment, especially since I was not certain if The Fanlistings Network would approve my application, but now with their approval, I am going to work on building the &lt;cite&gt;Cassette Beasts&lt;/cite&gt; fanlisting. TFL.org has a &lt;a href=&quot;https://thefanlistings.org/start/rules.php&quot;&gt;rule&lt;/a&gt; that fanlisting owners need to complete their fanlisting within four weeks, so stay tuned for upcoming updates for my &lt;cite&gt;Cassette Beasts&lt;/cite&gt; fanlisting!&lt;/p&gt;
-&lt;p&gt;Now that I will be running my own fanlisting, I will be also creating a fanlisting collective to gather all fanlistings I own, join and have applied to in one place. Since &lt;a href=&quot;https://www.netlify.com/&quot;&gt;Netlify&lt;/a&gt;, which currently hosts the main site of Leilukin&#39;s Hub, does not support PHP, I will be hosting my fanlisting collective, including my &lt;cite&gt;Cassette Beasts&lt;/cite&gt; fanlisting, on &lt;a href=&quot;https://www.infinityfree.com/&quot;&gt;InfinityFree&lt;/a&gt;.&lt;/p&gt;
-</content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 23 June 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-06-23T15:36:00Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;Add &lt;a href=&quot;https://leilukin.com/adoptables&quot;&gt;Adoptables page&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
         </entry>
