@@ -12,7 +12,7 @@ eleventyNavigation:
 
 {{ sitemeta.siteName }} is a literal queer-coded website (as in, this website is coded by a queer person) that serves as a personal hub for my interests and self-expression, as well as my own corner on the internet outside social media platforms.
 
-On this site, you can find various stuff I have created or curated.
+On this site, you can find various stuff I have created or curated. Furthermore, as I am working as a professional web developer, this website serves as a hobby project for me to practice and experiment web development.
 
 This website is mostly safe for work, but since I am an adult, I made my website with an adult audience in mind. I add content warnings for not safe for work and adult content.
 
@@ -46,7 +46,7 @@ More information about this site can be found on the following pages:
 }
 {% endcss %}
 
-You can call me {{ sitemeta.siteAuthor.name }}. I am a Malaysian Chinese, queer, non-binary lesbian born in the early 90s. My pronouns are they/them and she/her in English, [他]{lang="zh"} and [她]{lang="zh"} in Chinese.
+You can call me {{ sitemeta.siteAuthor.name }}. I am a Malaysian Chinese, queer, non-binary lesbian born in the early 90s. My pronouns are they/them and she/her in English, [他]{lang="zh"} and [她]{lang="zh"} in Chinese. I am a professional web deevloper with 8 years of experience in the graphic design field.
 
 I speak Mandarin, English, Cantonese and Malay, though I am most fluent in Mandarin and English.
 
