@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2024-08-06
+updated: 2024-08-18T20:32:56+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -12,6 +12,12 @@ eleventyComputed:
 This is my [/now page](https://nownownow.com/about). You can find more pages like this at [nownownow.com](https://nownownow.com/).
 
 You can also check out my [status.cafe profile](https://status.cafe/users/leilukin) for my latest short status updates.
+
+## Officially Becomes a Professional Web Developer
+
+Starting from 16 August 2024, I am officially a professional web developer now! I owe much to this very website for inspiring me to pursue web development as a profession.
+
+You can read more about my journey from a hobbyist to professional web developer in my blog post, ["From Hobbyist to Professional Web Developer"](/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer).
 
 ## Migrating Leilukin's Hub and Its Subsites to Hostinger
 
