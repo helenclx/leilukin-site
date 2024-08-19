@@ -35,7 +35,7 @@ More information about this site can be found on the following pages:
 ## The Webmaster
 
 {% imgFigure "/assets/leilukin/leilukin-bee.avif", "Leilukin bee avatar", "avatar" %}
-[Image description: Digital illustration of a bee wearing red glasses with oval-shaped body and wings on a light green background. Leilukin's signature is at the bottom right of the bee. Description ends]
+[Image description: Digital illustration of a bee wearing red glasses with an oval-shaped body and wings on a light green background. Leilukin's signature is at the bottom right of the bee. Description ends]
 {% endimgFigure %}
 
 {%- css %}
