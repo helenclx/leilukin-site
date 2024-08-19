@@ -11,6 +11,8 @@ Header set Cache-Control "max-age=31536000, public"
 Header set Cache-Control "no-cache, public"
 </FilesMatch>
 
+RewriteEngine on
+
 # Block bad bots
 RewriteCond %{HTTP_USER_AGENT} (Amazonbot) [NC,OR]
 RewriteCond %{HTTP_USER_AGENT} (Applebot) [NC,OR]
