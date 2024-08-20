@@ -14,6 +14,7 @@ Information about how this website is built.
 * Templating languages: Nunjucks and Markdown
 * Code written with Visual Studio Code
 * JavaScript runtime: [Bun](https://bun.sh)
+* Tested with Mozilla Firefox and Lynx
 * Source code available on [GitHub](https://github.com/helenclx/leilukin-site) and its [Gitea mirror](https://git.32bit.cafe/Leilukin/leilukin-site)
 
 ## Host and Domain
