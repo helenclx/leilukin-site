@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-08-19T00:37:06+0800
+updated: 2024-08-21T00:23:03+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 ---
@@ -122,3 +122,5 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Support Aseeel Fight for Life and Family in Gaza](https://www.gofundme.com/f/support-aseels-fight-for-life-and-family-in-gaza) (verified by [90-ghost](https://www.tumblr.com/90-ghost/757064652185337856/legit))
 * [Support & Help My Family From Gaza Strip](https://www.gofundme.com/f/help-the-family-of-misk-sohaib-get-out-to-safety) (shared by [90-ghost](https://www.tumblr.com/90-ghost/757065363567640576))
 * [Help Oday And Family Evacuate Gaza , Rebuild Lives](https://www.gofundme.com/f/help-oday-and-family-evacuate-gaza-rebuild-lives) (#261 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A265))
+* [Help heba and his family to survive their life](https://www.gofundme.com/f/help-heba-and-his-family-to-survive-their-life) (shared by [90-ghost](https://www.tumblr.com/90-ghost/757185259555127296))
+* [Defend my brother's family from genocide in gaza](https://www.gofundme.com/f/help-poor-injyred-in-gaza) (shared by [90-ghost](https://www.tumblr.com/90-ghost/758172410029719552))
