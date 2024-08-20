@@ -14,5 +14,7 @@ Header set Cache-Control "no-cache, public"
 RewriteEngine on
 
 # Block bad bots
-RewriteCond %{HTTP_USER_AGENT} {{ robots.htaccess }} [NC]
+{% for bot in robots.htaccess -%}
+RewriteCond %{HTTP_USER_AGENT} ({{ bot }}) [NC{% if not loop.last %},OR{% endif %}]
+{% endfor -%}
 RewriteRule .* https://nocommercialuse.org/ [L]
