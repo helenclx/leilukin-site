@@ -35,4 +35,4 @@ User-agent: omgili
 User-agent: omgilibot
 Disallow: /
 
-Sitemap: https://leilukin.com/sitemap/
+Sitemap: https://leilukin.com/sitemap.xml
