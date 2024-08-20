@@ -1,3 +1,5 @@
+Sitemap: https://leilukin.com/sitemap/
+
 User-agent: *
 Disallow: /
 
@@ -35,5 +37,3 @@ User-agent: img2dataset
 User-agent: omgili
 User-agent: omgilibot
 Disallow: /
-
-Sitemap: https://leilukin.com/sitemap/
