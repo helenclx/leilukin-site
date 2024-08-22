@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-08-22T22:23:36+0800
+updated: 2024-08-22T22:44:35+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 ---
@@ -26,6 +26,10 @@ Here, I am compiling a list of resources related to Palestine. This list is not 
 
 * [What is the Ethical Way to Climb Out of Hell?](https://medium.com/@thegriefwitch/what-is-the-ethical-way-to-climb-out-of-hell-8ed51bdc327b) by The Grief Witch (17 October 2023)
 * [What Does It Mean to Be Palestinian Now?](https://www.thenation.com/article/world/what-does-it-mean-to-be-palestinian-now/) by The Nation (25 January 2024)
+
+## Petitions
+
+* [An Open Letter from Palestinian Christians to Western Church Leaders and Theologians](https://www.change.org/p/an-open-letter-from-palestinian-christians-to-western-church-leaders-and-theologians)
 
 ## Donations and Charities
 
