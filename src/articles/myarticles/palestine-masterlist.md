@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-08-22T22:11:10+0800
+updated: 2024-08-22T22:23:36+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 ---
@@ -126,3 +126,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Defend my brother's family from genocide in gaza](https://www.gofundme.com/f/help-poor-injyred-in-gaza) (shared by [90-ghost](https://www.tumblr.com/90-ghost/758172410029719552))
 * [Support Asil Fight for Life and Family in Gaza](https://www.gofundme.com/f/support-aseels-fight-for-life-and-family-in-gaza) (verified by [90-ghost](https://www.tumblr.com/90-ghost/757743956823048192/dont-forget-to-help-asel))
 * [Support Family escape from rafah to save place](https://www.gofundme.com/f/help-ayahs-family-escape-gaza-crisis) (verified by association; this fundraiser was [shared by their friend Mohi, another Palestininan](https://www.tumblr.com/ana-bananya/758258451537395712/this-campaign-belongs-to-a-friend-of-mohiy-gaza) with a [fundraiser](https://gofund.me/f2cd8560) that was shared by [90-ghost](https://www.tumblr.com/90-ghost/757063664601858048))
+* [Helping my family to evacuate from Gaza](https://www.gofundme.com/f/kr85g-safe-my-family) ([verified by association](https://www.tumblr.com/dlxxv-vetted-donations/759148525328220160/this-campaign-is-vetted-by-association-through); this fundraiser belongs to the sister-in-law of Eslam, another Palestinian whose fundraiser has been listed at row 175 in [Bees and Watermelons](https://linktr.ee/beesandwatermelons)' [priority campaigns spreadsheet](https://docs.google.com/spreadsheets/d/1J-1KNHXmvY098fuCDWiOIm1fcphAgkXA8nnWqOSXouw/edit?gid=283092143#gid=283092143&range=D175))
