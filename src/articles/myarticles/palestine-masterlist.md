@@ -4,6 +4,7 @@ date: 2024-06-19T22:19:00+0800
 updated: 2024-08-23T23:28:38+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
+toc: true
 ---
 
 ![Stand with Palestine](/assets/buttons/misc/standwithpalestine.png)
