@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-08-24T20:05:29+0800
+updated: 2024-08-24T20:14:27+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 toc: true
@@ -90,7 +90,8 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Support Safaa's Quest To Get Her Family To Safety](https://www.gofundme.com/f/support-safaas-quest-to-get-her-family-to-safety) (shared by [90-ghost](https://www.tumblr.com/90-ghost/756556669674274816))
 * [Help Doaa Rebuild Her Sewing Business](https://www.gofundme.com/f/help-doaa-rebuild-her-sewing-business) (shared by [90-ghost](https://www.tumblr.com/90-ghost/756556522290626560))
 * [Help the Munna Tashmali Family Rebuild Their Home and Future](https://www.gofundme.com/f/help-the-munna-tashmali-family-rebuild-their-home-and-future) (verified by [nabulsi](https://www.tumblr.com/nabulsi/754393532315353089/donate-to-help-the-munna-tashmali-family-rebuild))
-* [Help Gaza Family Evacuate to Safety](https://www.gofundme.com/f/helping-gaza-family-to-get-out) (verified by [90-ghost](https://www.tumblr.com/90-ghost/756899215473606656))
+* [Help Gaza Family Evacuate to Safety](https://www.gofundme.com/f/helping-gaza-family-to-get-out) (shared by [90-ghost](https://www.tumblr.com/90-ghost/756899215473606656))
+    * [Help me save my children from death in the Gaza war](https://www.gofundme.com/f/help-me-save-my-children-from-death-in-the-gaza-war) ([verified by association](https://www.tumblr.com/ana-bananya/759290042834386944/dina-is-mahmoud-1995s-sister-confirmed-here); this fundraising campaign belongs to the sister of Mahmoud Alkhaldi, whose campaign is linked just above)
 * [Help us for the sake of God](https://www.gofundme.com/f/help-us-for-the-sake-of-god) (verified by [90-ghost](https://www.tumblr.com/90-ghost/755446251161632768/faites-un-don-%C3%A0-help-us-for-the-sake-of-god))
 * [we need help](https://www.gofundme.com/f/bfth82-we-need-help) (shared by [90-ghost](https://www.tumblr.com/90-ghost/756901702912868352))
 * [Help little children of Gaza stay safe and alive!](https://www.gofundme.com/f/help-our-families-evacuate-gaza-before-too-late) (verified by [nabulsi](https://www.tumblr.com/nabulsi/751214090403430400/donate-to-help-little-children-stay-safe-and))
