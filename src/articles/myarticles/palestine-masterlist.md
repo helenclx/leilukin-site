@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-08-24T09:11:21+0800
+updated: 2024-08-24T20:05:29+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 toc: true
@@ -136,3 +136,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Bara El Shaer Family Survival Fund](https://www.gofundme.com/f/el-shaer-family-survival-fund) (Baraa has an [Instagram account](https://www.instagram.com/bara_belal038/) that has been used for years, and this fundraiser has also been shared by another Instagram user, [river2cgza](https://www.instagram.com/river2cgza/), along with other verified fundraisers)
 * [Help Safaa secure her children‘s lives after war](https://www.gofundme.com/f/help-safaa-secure-her-familys-life-after-war) (#135 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A139))
 * [Desperate plea: Help my family evacuate Gaza war!](https://www.gofundme.com/f/karamsaid) (#109 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A113))
+* [Help us build new hope for me and my family](https://www.gofundme.com/f/a6mv2z-help-us-build-new-hope-for-me-and-my-family) ([verified by association](https://www.tumblr.com/a-shade-of-blue/759269512056029184/donate-to-help-us-build-new-hope-for-me-and-my); Hassan is a nephew of Mohammed Alhabeel, whose fundraiser is lited as #166 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A170). Note that this is not the same fundraiser as the above that shared the same title)
