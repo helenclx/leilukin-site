@@ -2,7 +2,7 @@
 articleTitle: How Cassette Beasts is Much More than a Pokémon Clone
 date: 2023-08-26
 updated: 2023-10-22
-desc: Despite some fundamental similarities, calling Cassette Beasts as just a Pokémon clone is doing the former a massive disserverce, and here are the many reasons why.
+desc: Despite some superficial similarities, calling Cassette Beasts as just a Pokémon clone is doing the former a massive disserverce, and here are the many reasons why.
 tags: cassette beasts articles
 categories: ["cassette beasts"]
 toc: true
@@ -20,7 +20,7 @@ Furthermore, there are things in {% cite "Cassette Beasts" %} that you would not
 
 By the time {% cite "Cassette Beasts" %} was released on 26 April 2023, the main video game series of {% cite "Pokémon" %} had reached its ninth generation with the release of {% cite "Scarlet" %} and {% cite "Violet" %}. {% cite "Pokémon" %} had existed for 27 years since the release of {% cite "Red" %} and {% cite "Green" %} versions in Japan in February 1996.
 
-However, despite remaining one of the best-selling video game series in the world, {% cite "Pokémon" %} has got the reputation of repeating the same formula in their games over and over. {% cite "Cassette Beasts" %}, on the other hand, executes some features and mechanics that exist in the {% cite "Pokémon" %} game series with their own unique spin on them. Therefore, even the similarities between {% cite "Cassette Beasts" %} and {% cite "Pokémon" %} are not as straightforward as you may think
+However, despite remaining one of the best-selling video game series in the world, {% cite "Pokémon" %} has got the reputation of repeating the same formula in their games over and over. {% cite "Cassette Beasts" %}, on the other hand, executes some features and mechanics that exist in the {% cite "Pokémon" %} game series with their own unique spin on them. Therefore, even the similarities between {% cite "Cassette Beasts" %} and {% cite "Pokémon" %} are not as straightforward as you may think.
 
 ### Monster Capture Mechanic
 
