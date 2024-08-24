@@ -22,7 +22,7 @@ The first major reason is that leilukin.com has evolved into more than a static 
 
 InfinityFree places [their own security measures](https://forum.infinityfree.com/docs?topic=49356) on websites on their free hosting plan to ensure [only regular browsers can access these websites](https://forum.infinityfree.com/docs?topic=49353). While it is understandable to apply these security measures on free websites to prevent abuse, it can be a dealbreaker depending on your needs.
 
-In my case, tht thing that frustrated me the most about InfinityFree's security system on their free websites is the fact that my tumbleblog was unable to provide RSS feed in usual way. [Chyrp Lite](https://chyrplite.net/), which powers my tumbleblog, includes the feature of providing blog RSS feeds, but InfinityFree's security system blocks feed readers from reading feeds from websites on their free hosting, so I had to use Feedburner to proxy my tumbleblog's feeds to get around it.
+In my case, the thing that frustrated me the most about InfinityFree's security system on their free websites is the fact that my tumbleblog was unable to provide RSS feed in usual way. [Chyrp Lite](https://chyrplite.net/), which powers my tumbleblog, includes the feature of providing blog RSS feeds, but InfinityFree's security system blocks feed readers from reading feeds from websites on their free hosting, so I had to use Feedburner to proxy my tumbleblog's feeds to get around it.
 
 ### Invested in Webmastery Enough to Spend Money
 
