@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-08-24T20:52:46+0800
+updated: 2024-08-24T21:02:06+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 toc: true
@@ -138,4 +138,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Help Safaa secure her children‘s lives after war](https://www.gofundme.com/f/help-safaa-secure-her-familys-life-after-war) (#135 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A139))
 * [Desperate plea: Help my family evacuate Gaza war!](https://www.gofundme.com/f/karamsaid) (#109 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A113))
 * [Help us build new hope for me and my family](https://www.gofundme.com/f/a6mv2z-help-us-build-new-hope-for-me-and-my-family) ([verified by association](https://www.tumblr.com/a-shade-of-blue/759269512056029184/donate-to-help-us-build-new-hope-for-me-and-my); Hassan is a nephew of Mohammed Alhabeel, whose fundraiser is lited as #166 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A170). Note that this is not the same fundraiser as the above that shared the same title)
-* [Help Dr. Shahad and Farah complete their education](https://www.gofundme.com/f/help-dr-shahad-and-farah) (shared by [90-ghost](https://www.tumblr.com/90-ghost/756898822254395392))
+* [Help Dr. Shahad and Farah complete their education](https://www.gofundme.com/f/help-dr-shahad-and-farah) (shared by [90-ghost](https://www.tumblr.com/90-ghost/756898822254395392) and vetted by association; Farah is [Nesma's sister](https://www.tumblr.com/nesmamomen/755734008155996160/only-5-seconds-of-your-time), and Nesma's fundraiser has been vetted by [el-shab-hussein](https://www.tumblr.com/el-shab-hussein/749848198102827008/hello-good-sir-ive-been-supporting-a-family-but) and shared by [nabulsi](https://www.tumblr.com/nabulsi/752822250810605568))
