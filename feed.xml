@@ -4,7 +4,7 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2024-08-24T14:29:12Z</updated>
+    <updated>2024-08-24T22:40:00Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
@@ -319,7 +319,7 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
 &lt;h3 id=&quot;limitations-of-infinityfrees-free-hosting&quot;&gt;Limitations of InfinityFree&#39;s Free Hosting&lt;/h3&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-07-27-hostinger-migration-leilukins-hub/#limitations-of-infinityfrees-free-hosting&quot; aria-labelledby=&quot;limitations-of-infinityfrees-free-hosting&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;InfinityFree places &lt;a href=&quot;https://forum.infinityfree.com/docs?topic=49356&quot;&gt;their own security measures&lt;/a&gt; on websites on their free hosting plan to ensure &lt;a href=&quot;https://forum.infinityfree.com/docs?topic=49353&quot;&gt;only regular browsers can access these websites&lt;/a&gt;. While it is understandable to apply these security measures on free websites to prevent abuse, it can be a dealbreaker depending on your needs.&lt;/p&gt;
-&lt;p&gt;In my case, tht thing that frustrated me the most about InfinityFree&#39;s security system on their free websites is the fact that my tumbleblog was unable to provide RSS feed in usual way. &lt;a href=&quot;https://chyrplite.net/&quot;&gt;Chyrp Lite&lt;/a&gt;, which powers my tumbleblog, includes the feature of providing blog RSS feeds, but InfinityFree&#39;s security system blocks feed readers from reading feeds from websites on their free hosting, so I had to use Feedburner to proxy my tumbleblog&#39;s feeds to get around it.&lt;/p&gt;
+&lt;p&gt;In my case, the thing that frustrated me the most about InfinityFree&#39;s security system on their free websites is the fact that my tumbleblog was unable to provide RSS feed in a usual way. &lt;a href=&quot;https://chyrplite.net/&quot;&gt;Chyrp Lite&lt;/a&gt;, which powers my tumbleblog, includes the feature of providing blog RSS feeds, but InfinityFree&#39;s security system blocks feed readers from reading feeds from websites on their free hosting, so I had to use Feedburner to proxy my tumbleblog&#39;s feeds to get around it.&lt;/p&gt;
 &lt;div class=&quot;heading-wrapper h3&quot;&gt;
 &lt;h3 id=&quot;invested-in-webmastery-enough-to-spend-money&quot;&gt;Invested in Webmastery Enough to Spend Money&lt;/h3&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-07-27-hostinger-migration-leilukins-hub/#invested-in-webmastery-enough-to-spend-money&quot; aria-labelledby=&quot;invested-in-webmastery-enough-to-spend-money&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
