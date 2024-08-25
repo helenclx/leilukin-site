@@ -28,7 +28,7 @@ If your issue is not addressed on my mod's page, ask for support or report issue
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor/videogamemods/1501"
+            url: "https://www.nexusmods.com/kotor/mods/1501"
         }
     ]
 }) }}
@@ -44,7 +44,7 @@ If your issue is not addressed on my mod's page, ask for support or report issue
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor/videogamemods/1493"
+            url: "https://www.nexusmods.com/kotor/mods/1493"
         }
     ]
 }) }}
@@ -60,7 +60,7 @@ If your issue is not addressed on my mod's page, ask for support or report issue
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor/videogamemods/1519"
+            url: "https://www.nexusmods.com/kotor/mods/1519"
         }
     ]
 }) }}
@@ -76,7 +76,7 @@ If your issue is not addressed on my mod's page, ask for support or report issue
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor/videogamemods/1543"
+            url: "https://www.nexusmods.com/kotor/mods/1543"
         }
     ]
 }) }}
@@ -92,7 +92,7 @@ If your issue is not addressed on my mod's page, ask for support or report issue
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor/videogamemods/1221"
+            url: "https://www.nexusmods.com/kotor/mods/1221"
         }
     ]
 }) }}
@@ -108,7 +108,7 @@ If your issue is not addressed on my mod's page, ask for support or report issue
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor/videogamemods/1491"
+            url: "https://www.nexusmods.com/kotor/mods/1491"
         }
     ]
 }) }}
@@ -124,7 +124,7 @@ If your issue is not addressed on my mod's page, ask for support or report issue
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor/videogamemods/1143"
+            url: "https://www.nexusmods.com/kotor/mods/1143"
         }
     ]
 }) }}
@@ -142,7 +142,7 @@ If your issue is not addressed on my mod's page, ask for support or report issue
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor/videogamemods/1530"
+            url: "https://www.nexusmods.com/kotor/mods/1530"
         }
     ]
 }) }}
@@ -158,7 +158,7 @@ If your issue is not addressed on my mod's page, ask for support or report issue
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor/videogamemods/1504"
+            url: "https://www.nexusmods.com/kotor/mods/1504"
         }
     ]
 }) }}
@@ -174,7 +174,7 @@ If your issue is not addressed on my mod's page, ask for support or report issue
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor/videogamemods/1494"
+            url: "https://www.nexusmods.com/kotor/mods/1494"
         }
     ]
 }) }}
@@ -190,7 +190,7 @@ If your issue is not addressed on my mod's page, ask for support or report issue
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor/videogamemods/1155"
+            url: "https://www.nexusmods.com/kotor/mods/1155"
         }
     ]
 }) }}
@@ -206,7 +206,7 @@ If your issue is not addressed on my mod's page, ask for support or report issue
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor/videogamemods/1495"
+            url: "https://www.nexusmods.com/kotor/mods/1495"
         }
     ]
 }) }}
@@ -222,7 +222,7 @@ If your issue is not addressed on my mod's page, ask for support or report issue
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor/videogamemods/1502"
+            url: "https://www.nexusmods.com/kotor/mods/1502"
         }
     ]
 }) }}
@@ -238,7 +238,7 @@ If your issue is not addressed on my mod's page, ask for support or report issue
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor/videogamemods/1523"
+            url: "https://www.nexusmods.com/kotor/mods/1523"
         }
     ]
 }) }}
@@ -256,7 +256,7 @@ If your issue is not addressed on my mod's page, ask for support or report issue
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor/videogamemods/1508"
+            url: "https://www.nexusmods.com/kotor/mods/1508"
         }
     ]
 }) }}
@@ -274,7 +274,7 @@ If your issue is not addressed on my mod's page, ask for support or report issue
         },
         {
             site: "Nexus Mods",
-            url: "https://www.nexusmods.com/kotor/videogamemods/1226"
+            url: "https://www.nexusmods.com/kotor/mods/1226"
         }
     ]
 }) }}
