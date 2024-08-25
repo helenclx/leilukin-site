@@ -1,7 +1,7 @@
 ---
 articleTitle: "Frequently Asked Questions (FAQ) for My Star Wars: KotOR Same-Gender Romance Mods"
 date: 2021-09-25
-updated: 2024-07-20
+updated: 2024-08-25T09:30:55+0800
 desc: "Frequently asked questions for my same-gender romance mods for Star Wars: Knights of the Old Republic series."
 tags: kotor both articles
 categories: ["star wars kotor", "star wars kotor 2", "video game mods"]
@@ -105,11 +105,21 @@ No, I will not make a no-TSLRCM version of my mods that require TSLRCM to functi
 
 If you are having issues with using TSLRCM, I suggest you report the bugs you encountered and ask for help for solving your issues on the [TSLRCM forum on Deadly Stream](https://deadlystream.com/forum/4-tslrcm/).
 
-### How to install your mods on the Xbox/Android/iOS/Nintendo Switch/any other non-PC version of {% cite "KotOR" %} or {% cite "KotOR 2" %}?
+### How to install your mods on macOS or Linux?
 
-Sorry, **I cannot help directly with modding the KotOR games on any console or mobile devices, because I only own the PC version of the {% cite "KotOR" %} games**. I make no promises that I will port my KotOR mods for those platforms specifically either.
+Unfortunately, I cannot directly help with modding the {% cite "KotOR" %} games on macOS or Linux, because I have only played the games on Windows. However, the {% cite "KotOR" %} games can be modded on macOS or Linux.
 
-Some of my mods require TSLPatcher to install to make the mod work properly, especially if you also want to use other mods in addition to my mods and for {% cite "KotOR 2" %}, The Sith Lords Restored Content Mod. Simply copying and pasting files from my mod to your game's directory does NOT guarantee my mod will work as intended, and you may encounter bugs that could possibly game-breaking.
+For macOS, you may refer to [KOTOR Community Portal's guide for modding KotOR on macOS](https://kotor.neocities.org/modding/mod_builds/macos).
+
+For Linux, KOTOR Community Portal's modding guide [recommends](https://kotor.neocities.org/modding/mod_builds/k2/full#Linux_Players) installing mods on a case-insensitive file system, with VFAT recommended as an option by other users. Otherwise, you will need to rename a huge number of files. Additionally, the [FAQ page of KOTOR Community Portal's modding guide](https://kotor.neocities.org/modding/mod_builds/faq) notes that:
+
+> The Linux version on Steam (possibly also on GoG; this is unconfirmed) has two override folders, one in the main game directory and one in a "steamassets" folder. For the installation to function properly, all override files need to be placed into the override folder in this steamassets folder, and all executable installers need to be pointed to the steamassets folder as if it were the base installation directory.
+
+### How to install your mods on a console (Xbox/Nintendo Switch) or mobile (Android/iOS) version of {% cite "KotOR" %} or {% cite "KotOR 2" %}?
+
+Sorry, **I cannot directly help with modding the {% cite "KotOR" %} games on any console or mobile devices, because I only own the PC version of the {% cite "KotOR" %} games**. I make no promises that I will port my KotOR mods for those platforms specifically either.
+
+Some of my mods require installers, namely TSLPatcher or HoloPatcher, to make the mods work properly, especially if you want to use other mods in addition to my mods and for {% cite "KotOR 2" %}, The Sith Lords Restored Content Mod. Simply copying and pasting files from my mod to your game's directory does NOT guarantee my mod will work as intended, and you may encounter bugs that could possibly game-breaking.
 
 For Android and iOS users, I suggest referring to the [KotOR Community Portal's modding guide](https://kotor.neocities.org/modding/), specifically their general instructions in their mobile mod builds. See [this page for {% cite "KotOR 1" %}](https://kotor.neocities.org/modding/mod_builds/k1/full_mobile#General_Instructions) and [this page for {% cite "KotOR 2" %}](https://kotor.neocities.org/modding/mod_builds/k2/full_mobile#General_Instructions).
 
@@ -164,9 +174,9 @@ If Handmaiden does not join your female Exile's party when you are using my Hand
 
 ### Can you make your mod so you always recruit Handmaiden or Disciple only regardless of the Exile's gender?
 
-No, and I see no point in making such mod when DarthTyren's PartySwap mod already exists to allow you to recruit both Handmaiden and Disciple in a single playthrough regardless of the Exile's gender. Additionally, my mod's primary goal is enabling same-gender romfnce options, so neither male Exile/Handmaiden nor female Exile/Disciple romance is a priority of my mod.
+No, and I see no point in making such mod when DarthTyren's [PartySwap](https://deadlystream.com/files/file/544-partyswap/) mod already exists to allow you to recruit both Handmaiden and Disciple in a single playthrough regardless of the Exile's gender. Additionally, my mod's primary goal is enabling same-gender romance options, so neither male Exile/Handmaiden nor female Exile/Disciple romance is a priority of my mod.
 
-Therefore, if you want Handmaiden or Disciple in your party regardless of your Exile's gender, my recommendation is to install PartySwap. If you also want same-gender romance with Handmaiden or Disciple, install the PartySwap compatible installation option of my mod after PartySwap. Even if you prefer Handmaiden to Disciple, or vice versa, I will still recommend you to use PartySwap instead so you can get the most out of the party members in a single playthrough.
+Therefore, if you want Handmaiden or Disciple in your party regardless of your Exile's gender, my recommendation is to use PartySwap. If you also want same-gender romance with Handmaiden or Disciple, install the PartySwap compatible installation option of my mod after PartySwap. Even if you prefer Handmaiden to Disciple, or vice versa, I will still recommend you to use PartySwap instead so you can get the most out of the party members in a single playthrough.
 
 ### I cannot spar with the Handmaiden when she joins my party!
 
