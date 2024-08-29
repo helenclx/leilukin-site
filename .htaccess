@@ -10,6 +10,8 @@ Header set Cache-Control "no-cache, public"
 RewriteEngine on
 
 # Block bad bots
+RewriteCond %{HTTP_USER_AGENT} (AI2Bot) [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} (Ai2Bot-Dolma) [NC,OR]
 RewriteCond %{HTTP_USER_AGENT} (Amazonbot) [NC,OR]
 RewriteCond %{HTTP_USER_AGENT} (Applebot-Extended) [NC,OR]
 RewriteCond %{HTTP_USER_AGENT} (Bytespider) [NC,OR]
