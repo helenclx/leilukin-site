@@ -1,7 +1,7 @@
 ---
 title: Webmastery
 date: 2024-07-01
-updated: 2024-08-12T18:29:00+0800
+updated: 2024-08-29T11:21:10+0800
 ---
 
 ### Webmastery Tutorials
@@ -35,6 +35,7 @@ updated: 2024-08-12T18:29:00+0800
 ### Eleventy
 Resources for learning to use the static site generator [Eleventy](https://www.11ty.dev/), which is also used for building {{ sitemeta.siteName }}.
 
+* [The 11ty Bundle](https://11tybundle.dev/) — Collection of Eleventy resources
 * [My Neocities workflow: using Eleventy and the CLI to speed up development](https://whiona.weblog.lol/2023/10/my-neocities-workflow:-using-eleventy-and-the-cli-to-speed-up-development) by Whiona — Written for Neocities users
 * [Getting set up in Eleventy](https://cloudcannon.com/tutorials/eleventy-beginner-tutorial/) by Mike Neumegen
 * [Learn Eleventy](https://learn-eleventy.pages.dev/) by uncenter
