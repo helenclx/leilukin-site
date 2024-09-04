@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-09-05T00:26:01+0800
+updated: 2024-09-05T00:44:25+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 toc: true
@@ -146,3 +146,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
     * [Helping my family to evacuate from Gaza](https://www.gofundme.com/f/kr85g-safe-my-family) ([verified by association](https://www.tumblr.com/dlxxv-vetted-donations/759148525328220160/this-campaign-is-vetted-by-association-through); this fundraiser belongs to the sister-in-law of Eslam, another Palestinian whose fundraiser is linked just above)
 * [Help Abood From the War](https://www.gofundme.com/f/help-abboud-from-the-war) ([verified by association](https://www.tumblr.com/dlxxv-vetted-donations/758342969132728320); this fundraiser belongs to the brother of Mohi, whose [fundraiser](https://www.gofundme.com/f/support-mohis-fight-for-survival-in-gaza) was shared by [90-ghost](https://www.tumblr.com/90-ghost/757063664601858048))
 * [Save My Family from the War Nightmare in Gaza](https://www.gofundme.com/f/abgwv-help-us) (shared by [northgazaupdates](https://www.tumblr.com/northgazaupdates/756089494338420736))
+* [Help Salem Family From Gaza](https://www.gofundme.com/f/help-salem-family-from-gaza) (verified by [90-ghost](https://www.tumblr.com/90-ghost/757065439413174272/legit))
