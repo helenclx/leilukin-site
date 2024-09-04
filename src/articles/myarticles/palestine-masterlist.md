@@ -148,3 +148,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Save My Family from the War Nightmare in Gaza](https://www.gofundme.com/f/abgwv-help-us) (shared by [northgazaupdates](https://www.tumblr.com/northgazaupdates/756089494338420736))
 * [Help Salem Family From Gaza](https://www.gofundme.com/f/help-salem-family-from-gaza) (verified by [90-ghost](https://www.tumblr.com/90-ghost/757065439413174272/legit))
 * [Please save me, my family and my future from the brutal war](https://www.gofundme.com/f/help-me-to-complete-my-education-in-gaza) (verified by [90-ghost](https://www.tumblr.com/90-ghost/755122761409642496/legit-fundraiser))
+* [Help Nour and his family escape from the war in Gaza](https://www.gofundme.com/f/donate-to-help-nour-and-his-family-escape-the-war-in-gaza) (shared by [90-ghost](https://www.tumblr.com/90-ghost/760377411969875968))
