@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-08-25T22:38:10+0800
+updated: 2024-09-05T00:14:33+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 toc: true
@@ -141,3 +141,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Help Dr. Shahad and Farah complete their education](https://www.gofundme.com/f/help-dr-shahad-and-farah) (shared by [90-ghost](https://www.tumblr.com/90-ghost/756898822254395392) and vetted by association; Farah is [Nesma's sister](https://www.tumblr.com/nesmamomen/755734008155996160/only-5-seconds-of-your-time), and Nesma's fundraiser has been vetted by [el-shab-hussein](https://www.tumblr.com/el-shab-hussein/749848198102827008/hello-good-sir-ive-been-supporting-a-family-but) and shared by [nabulsi](https://www.tumblr.com/nabulsi/752822250810605568))
 * [Amira's Story: Between Hope and Resilience - A Call for Soli](https://www.gofundme.com/f/amiras-story-between-hope-and-resilience-a-call-for-soli) (verified by [nabulsi](https://www.tumblr.com/nabulsi/752577548412731392/donate-to-amiras-story-between-hope-and))
 * [Help Save Ahmed Family From Gaza](https://www.gofundme.com/f/help-save-ahmed-family-from-gaza) ([verified by association](https://www.tumblr.com/a-shade-of-blue/759268417249361920); Ahmed is the brother of Mohammed Alhabeel, whose fundraiser is lited as #166 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A170).)
+* [From Rubble to Success: Helping Osama Rebuild His Dream](https://www.gofundme.com/f/Helping-Osama-Rebuild-His-Dream) (shared by [90-ghost](https://www.tumblr.com/90-ghost/760346545235329024))
