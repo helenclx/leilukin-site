@@ -14,13 +14,13 @@ eleventyNavigation:
         <li class="blog__postlist--item">
             <h2 class="blog__postlist--title">
                 <a href="{{ post.url }}">
-                    {% if post.data.title %}{{ post.data.articleTitle }}
-                    {% else %}
-                        <code>{{ post.url }}</code>
-                    {% endif %}
+            {% if post.data.title %}{{ post.data.articleTitle }}
+            {% else %}
+                <code>{{ post.url }}</code>
+            {% endif %}
                 </a>
             </h2>
-            <p>{{ post.date | formatDate }}</p>
+            <time datetime="{{ post.date }}">{{ post.date | formatDate }}</time>
         </li>
     {% endfor %}
 </ul>

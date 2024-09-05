@@ -7,7 +7,7 @@ eleventyComputed:
     desc: What {{ sitemeta.siteAuthor.name }} is doing now.
 ---
 
-*This page was last updated on {{ updated | formatDate }}.*
+*This page was last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time>.*
 
 This is my [/now page](https://nownownow.com/about). You can find more pages like this at [nownownow.com](https://nownownow.com/).
 
