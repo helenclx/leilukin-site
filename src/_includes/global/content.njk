@@ -18,9 +18,12 @@
     {% if isArticle %}
         <div class="article__info">
             <p class="article__info--desc">{{ desc }}</p>
-            <p>{{ content | wordcount | thousands }} words. Posted on {{ date | formatDate }} by {{ sitemeta.siteAuthor.name }}</p>
+            <p>
+                {{ content | wordcount | thousands }} words.
+                Posted on <time datetime="{{ date }}">{{ date | formatDate }}</time> by {{ sitemeta.siteAuthor.name }}
+            </p>
         {% if updated %}
-            <p>Last updated on {{ updated | formatDate }}</p>
+            <p>Last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time></p>
         {% endif %}
         {% if categories %}
             <p>Categories:

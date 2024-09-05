@@ -23,7 +23,7 @@ eleventyNavigation:
 {%- endmacro -%}
 
 <section class="content__section">
-    <p>(This page was last updated on {{ updated | formatDate }})</p>
+    <p>(This page was last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time>)</p>
 </section>
 
 {% include "main/virtualpets.njk" %}
