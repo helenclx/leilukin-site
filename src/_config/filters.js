@@ -24,4 +24,9 @@ export default function(eleventyConfig) {
     eleventyConfig.addFilter("itemLimit", function(array, itemLimit) {
         return array.slice(0, itemLimit);
     });
+
+    // Thousands separator
+    eleventyConfig.addFilter("thousands", function(num) {
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    });
 }
