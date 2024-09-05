@@ -4,12 +4,23 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2024-09-05T01:35:38Z</updated>
+    <updated>2024-09-05T16:14:03Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
         <email>contact@leilukin.com</email>
     </author>
+        
+        <entry>
+            <title>Changelog: 6 September 2024</title>
+            <link href="https://leilukin.com/"/>
+            <updated>2024-09-05T16:11:29Z</updated>
+            <id>https://leilukin.com/</id>
+            <content type="html">&lt;ul&gt;
+&lt;li&gt;Replace the estimated reading time of articles and blog posts with word count, by using the &lt;a href=&quot;https://www.npmjs.com/package/eleventy-plugin-wordcount-extended&quot;&gt;eleventy-plugin-wordcount-extended&lt;/a&gt; plugin.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Changelog: 18 August 2024</title>
@@ -550,17 +561,6 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
             <id>https://leilukin.com/</id>
             <content type="html">&lt;ul&gt;
 &lt;li&gt;Added my other websites to my &lt;a href=&quot;https://leilukin.com/projects&quot;&gt;Projects page&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 24 June 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-06-24T05:52:00Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;New blog post: &lt;a href=&quot;https://leilukin.com/blog/posts/2024-06-24-cassette-beasts-fanlisting-approved&quot;&gt;My Cassette Beasts Fanlisting Application has been Approved&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
         </entry>
