@@ -18,18 +18,17 @@
     {% if isArticle %}
         <div class="article__info">
             <p class="article__info--desc">{{ desc }}</p>
-            <p>Posted on {{ date | formatDate }} by {{ sitemeta.siteAuthor.name }}
-            {% if updated %}
-                • Last updated on {{ updated | formatDate }}</p>
-            {% endif %}
-            {% if categories %}
-                <p>Categories:
-                    {% for cat in categories %}
-                        <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
-                    {% endfor %}
-                </p>
-            {% endif %}
-            <p>{{ content | emojiReadTime }}</p>
+            <p>{{ content | wordcount }} words. Posted on {{ date | formatDate }} by {{ sitemeta.siteAuthor.name }}</p>
+        {% if updated %}
+            <p>Last updated on {{ updated | formatDate }}</p>
+        {% endif %}
+        {% if categories %}
+            <p>Categories:
+                {% for cat in categories %}
+                    <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
+                {% endfor %}
+            </p>
+        {% endif %}
         </div>
     {% else %}
         {% if desc %}

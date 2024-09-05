@@ -4,7 +4,7 @@ import pluginEleventyNavigation from "@11ty/eleventy-navigation";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginEmbedEverything from "eleventy-plugin-embed-everything";
 import pluginMetagen from "eleventy-plugin-metagen";
-import pluginEmojiReadTime from "@11tyrocks/eleventy-plugin-emoji-readtime";
+import pluginWordcount from "eleventy-plugin-wordcount-extended";
 import pluginTOC from "@uncenter/eleventy-plugin-toc";
 
 // Custom Configurations
@@ -21,7 +21,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addPlugin(pluginSyntaxHighlight, { preAttributes: { tabindex: 0 } });
     eleventyConfig.addPlugin(pluginEmbedEverything, { add: ['soundcloud'] });
     eleventyConfig.addPlugin(pluginMetagen);
-    eleventyConfig.addPlugin(pluginEmojiReadTime);
+    eleventyConfig.addPlugin(pluginWordcount);
     eleventyConfig.addPlugin(pluginTOC, {
         tags: ['h2', 'h3', 'h4', 'h5', 'h6'],
         wrapper: function (toc) {
