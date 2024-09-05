@@ -18,7 +18,7 @@
     {% if isArticle %}
         <div class="article__info">
             <p class="article__info--desc">{{ desc }}</p>
-            <p>{{ content | wordcount }} words. Posted on {{ date | formatDate }} by {{ sitemeta.siteAuthor.name }}</p>
+            <p>{{ content | wordcount | thousands }} words. Posted on {{ date | formatDate }} by {{ sitemeta.siteAuthor.name }}</p>
         {% if updated %}
             <p>Last updated on {{ updated | formatDate }}</p>
         {% endif %}
