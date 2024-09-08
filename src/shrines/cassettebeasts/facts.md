@@ -88,6 +88,9 @@ Late 2019
 26 June 2024
 : Version update 1.6.2 [live on all platforms](https://store.steampowered.com/news/app/1321440/view/4182236270516996189).
 
+2 September 2024
+: Version update 1.7 [announced](https://www.youtube.com/watch?v=Bjca8IIu0YQ&t=4097s) in Monster Taming Direct 2024.
+
 ## Accolades
 
 {% cite "Cassette Beasts" %} was [nominated for The British Game](https://twitter.com/ByttenStudio/status/1765742782700782040) at the 20th British Academy (BAFTA) Games Awards.
