@@ -16,7 +16,7 @@ eleventyComputed:
         <name>{{ sitemeta.siteAuthor.name }}</name>
         <email>{{ sitemeta.siteAuthor.email }}</email>
     </author>
-    {%- for item in collections["feed items"] | reverse | itemLimit(20) %}
+    {%- for item in collections["feed items"] | reverse | itemLimit(15) %}
         {% set absolutePostUrl %}{{ item.url | url | absoluteUrl(sitemeta.siteUrl) }}{% endset %}
         <entry>
             <title>{{ item.data.title }}</title>
