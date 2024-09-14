@@ -5,7 +5,6 @@ pageTitle: A Summer’s End — Hong Kong 1986 Playlists
 desc: List of A Summer’s End — Hong Kong 1986 playlists.
 tags: a summers end shrine page
 toc: true
-templateEngineOverride: njk, md
 eleventyNavigation:
     key: Playlists
     parent: A Summer’s End Shrine

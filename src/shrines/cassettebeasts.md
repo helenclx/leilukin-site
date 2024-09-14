@@ -4,7 +4,6 @@ tags: ["shrine home", "contents"]
 categories: ["shrines", "cassette beasts"]
 title: Cassette Beasts Shrine
 date: 2023-08-03
-templateEngineOverride: njk, md
 isContentDivided: true
 toc: true
 eleventyNavigation:
