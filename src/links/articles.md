@@ -21,6 +21,7 @@ updated: 2024-08-12T12:13:00+0800
 
 ### Web
 * [Nostalgia is Bullshit](https://wings.nu/nostalgia/) by Rin
+* [Cohost So White: A Comprehensive Record of the Matter of Race on Cohost.org](https://alyaza.neocities.org/essays/Cohost/cohostsowhite) by Alyaza Birze
 
 ### Uncategorised
 * [Laziness Does Not Exist](https://medium.com/7fe325749a24/laziness-does-not-exist-3af27e312d01) by Devon Price
