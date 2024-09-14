@@ -4,7 +4,7 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2024-09-14T13:38:41Z</updated>
+    <updated>2024-09-14T14:30:49Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
@@ -461,107 +461,6 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
             <id>https://leilukin.com/</id>
             <content type="html">&lt;ul&gt;
 &lt;li&gt;Implement accessible tooltips that meet Web Content Accessibility Guidelines (WCAG) 2.2 success criterion for &lt;a href=&quot;https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html&quot;&gt;1.4.13: Content on Hover or Focus (Level AA)&lt;/a&gt;, by utilising &lt;a href=&quot;https://github.com/scottaohara/a11y_tooltips&quot;&gt;Scott O&#39;Hara&#39;s ARIA Tooltips&lt;/a&gt; script. (Thank you &lt;a href=&quot;https://www.groundedwren.com/&quot;&gt;Vera&lt;/a&gt; for your feedback on my previous implementation of the tooltips)&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 3 July 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-07-03T00:50:00Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;Add &lt;a href=&quot;https://leilukin.com/links/#articles&quot;&gt;Articles&lt;/a&gt; and &lt;a href=&quot;https://leilukin.com/links/#resources&quot;&gt;Resources&lt;/a&gt; tabs to the &lt;a href=&quot;https://leilukin.com/links&quot;&gt;links page&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Show visible stylised tooltips for some website buttons on mouse hover or keyboard focus (thanks to &lt;a href=&quot;https://solaria.neocities.org/accessibility&quot;&gt;Solaria&#39;s web accessibility guide&lt;/a&gt; for the inspiration).&lt;/li&gt;
-&lt;li&gt;Add a list of webrings my website is part of to the home page.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 2 July 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-07-02T14:00:00Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;The main site header now would display a Disability Pride Month blurb and the disability pride flag during July&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://fan.leilukin.com/&quot;&gt;My fanlisting collective&lt;/a&gt; and &lt;a href=&quot;https://fan.leilukin.com/cassettebeasts&quot;&gt;&lt;cite&gt;Cassette Beasts&lt;/cite&gt; fanlisting&lt;/a&gt; launched!&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://leilukin.com/projects&quot;&gt;Projects page&lt;/a&gt;:
-&lt;ul&gt;
-&lt;li&gt;Reorganised pages for my video game mods into their own directory&lt;/li&gt;
-&lt;li&gt;Add code projects, started with &lt;a href=&quot;https://leilukin.com/projects/code/bellabuffs-phpmailer&quot;&gt;BellaBuffs with PHPMailer Integration&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;New blog post: &lt;a href=&quot;https://leilukin.com/blog/posts/2024-07-02-fanlisting-collective-launch&quot;&gt;Cassette Beasts Fanlisting and My Fanlisting Collective Launched&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://leilukin.com/links&quot;&gt;Links page&lt;/a&gt;:
-&lt;ul&gt;
-&lt;li&gt;Add tabs to sort my link collection by category (thanks to &lt;a href=&quot;https://kalechips.net/projects/snippets/tabs&quot;&gt;Kalechips&#39; JavaScript-free tabs code scnippet&lt;/a&gt; for the inspiration)&lt;/li&gt;
-&lt;li&gt;Add &lt;a href=&quot;https://leilukin.com/links/#webmastery&quot;&gt;webmastery resources&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        </entry>
-        
-        <entry>
-            <title>Cassette Beasts Fanlisting and My Fanlisting Collective Launched | Blog</title>
-            <link href="https://leilukin.com/blog/posts/2024-07-02-fanlisting-collective-launch/"/>
-            <updated>2024-07-01T16:37:00Z</updated>
-            <id>https://leilukin.com/blog/posts/2024-07-02-fanlisting-collective-launch/</id>
-            <content type="html">&lt;p&gt;I am incredibly excited to announce the official launch of &lt;a href=&quot;https://fan.leilukin.com/cassettebeasts&quot;&gt;Land of Confusion&lt;/a&gt;, &lt;a href=&quot;https://thefanlistings.org/&quot;&gt;The Fanlistings Network&lt;/a&gt;-approved fanlisting for &lt;cite&gt;Cassette Beasts&lt;/cite&gt;, and &lt;a href=&quot;https://fan.leilukin.com/&quot;&gt;Beehive&lt;/a&gt;, my fanlisting collective! 🥳&lt;/p&gt;
-&lt;p&gt;If you are a fan of &lt;cite&gt;Cassette Beasts&lt;/cite&gt;, feel free to join my fanlisting! If you like fanlistings as well, feel free to check out my fanlisting collective!&lt;/p&gt;
-&lt;p&gt;In addition, in light of the launch of my first fanlisting, I am also releasing &lt;a href=&quot;https://leilukin.com/projects/code/bellabuffs-phpmailer&quot;&gt;my fork of BellaBuffs&lt;/a&gt;, the fanlisting script written in PHP, with integration of &lt;a href=&quot;https://github.com/PHPMailer/PHPMailer&quot;&gt;PHPMailer&lt;/a&gt;, the email sending library!&lt;/p&gt;
-&lt;p&gt;My fanlisting collective and &lt;cite&gt;Cassette Beasts&lt;/cite&gt; fanlisting are hosted on &lt;a href=&quot;https://www.infinityfree.com/&quot;&gt;InfinityFree&lt;/a&gt;, since &lt;a href=&quot;https://www.netlify.com/&quot;&gt;Netlify&lt;/a&gt;, which currently hosts the main site of Leilukin&#39;s Hub, does not support PHP.&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;a-milestone&quot;&gt;A Milestone&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-07-02-fanlisting-collective-launch/#a-milestone&quot; aria-labelledby=&quot;a-milestone&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;In &lt;a href=&quot;https://leilukin.com/blog/posts/2024-06-24-cassette-beasts-fanlisting-approved&quot;&gt;my previous post&lt;/a&gt;, I announced that The Fanlistings Network (also known as TFL.org) had approved my application for building and running a fanlisting for &lt;cite&gt;Cassette Beasts&lt;/cite&gt;.&lt;/p&gt;
-&lt;p&gt;After completing the &lt;cite&gt;Cassette Beasts&lt;/cite&gt; fanlisting on 30 June 2024, I submitted a &lt;a href=&quot;https://thefanlistings.org/finished.php&quot;&gt;finished form&lt;/a&gt; to TFL.org to let them know that I have finished my fanlisting. The Fanlistings Network responded by emailing me and informing me thatthey have added the URL of my &lt;cite&gt;Cassette Beasts&lt;/cite&gt; fanlisting to the list of approved fanlistings under the Games category and the &lt;a href=&quot;https://www.thefanlistings.org/browse.php?show=games&amp;amp;start=8&quot;&gt;Computer, Console, &amp;amp; Video Games subcategory&lt;/a&gt; (&lt;a href=&quot;https://web.archive.org/web/20240702062715/https://www.thefanlistings.org/browse.php?show=games&amp;amp;start=8&quot;&gt;view the web archive version&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;The launch of my  &lt;cite&gt;Cassette Beasts&lt;/cite&gt;  fanlisting is a major moment for me as both a webmaster and a &lt;cite&gt;Cassette Beasts&lt;/cite&gt; fan, as I am enthusiastic about the fact that the very first fanlisting I create would be for my absolute favourite video game.&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;first-foray-in-php&quot;&gt;First Foray in PHP&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-07-02-fanlisting-collective-launch/#first-foray-in-php&quot; aria-labelledby=&quot;first-foray-in-php&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;My &lt;cite&gt;Cassette Beasts&lt;/cite&gt; fanlisting is powered by &lt;a href=&quot;https://www.jemjabella.co.uk/scripts/bellabuffs/&quot;&gt;BellaBuffs&lt;/a&gt;. I was new to PHP when I started considering building fanlistings myself, as my main site Leilukin&#39;s Hub is a static site, so building the &lt;cite&gt;Cassette Beasts&lt;/cite&gt; fanlisting was my first foray in learning to code in PHP.&lt;/p&gt;
-&lt;p&gt;Before starting to actually work on building the &lt;cite&gt;Cassette Beasts&lt;/cite&gt; fanlisting, I tried out &lt;a href=&quot;https://scripts.indisguise.org/enthusiast/&quot;&gt;Enthusiast&lt;/a&gt;, the other commonly used fanlisting script also written in PHP. I tried &lt;a href=&quot;https://github.com/DudeThatsErin/enth&quot;&gt;Erin&#39;s fork of Enthusiast&lt;/a&gt; specifically, since InfinityFree uses version 8.2 of PHP Enthusiast also has extra features that BellaBuffs does not have, including allowing fanlisting members to set passwords and even managing the entire fanlisting collective.&lt;/p&gt;
-&lt;p&gt;Unfortunately, I encountered a critical issue with Enthusiast when I tried it: whenever I added a fanlisting to my joined fanlisting list in the admin panel, the home page of the fanlisting collective would go completely blank. I do not know the cause of the issue, and I was not familiar enough with PHP to be confident in attempting to investigate the entire fanlisting collective code just to find the culprit, especially when it uses MySQL database to store data, adding another complexity in troubleshooting it.&lt;/p&gt;
-&lt;p&gt;Therefore, I later tried BellaBuffs, and chose BellaBuffs as the script to power my fanlistings, then code my own fanlisting collective myself.&lt;/p&gt;
-&lt;p&gt;There were a few setbacks I encountered when I was building the &lt;a href=&quot;https://fan.leilukin.com/cassettebeasts&quot;&gt;&lt;cite&gt;Cassette Beasts&lt;/cite&gt; fanlisting&lt;/a&gt; with BellaBuffs and hosting the fanlisting on InfinityFree — I learned that InfinityFree&#39;s free hosting plan &lt;a href=&quot;https://forum.infinityfree.com/t/sending-email-from-your-website-php-mail/49242&quot;&gt;does not support PHP &lt;code&gt;mail()&lt;/code&gt; function&lt;/a&gt;, which is used by BellaBuffs.&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;integrating-phpmailer-into-bellabuffs&quot;&gt;Integrating PHPMailer into BellaBuffs&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-07-02-fanlisting-collective-launch/#integrating-phpmailer-into-bellabuffs&quot; aria-labelledby=&quot;integrating-phpmailer-into-bellabuffs&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;BellaBuffs includes the optional features to email new members after submitting the join form, email the fanlisting admin when a new member joins or email new members when their applications were approved. The original BellaBuffs script achieved this by using PHP&#39;s built-in &lt;code&gt;mail()&lt;/code&gt; feature, which unfortunately the free hosting of InfinityFree does not support, so I had to figure out an alternative way for my fanlisting on InfinityFree to send emails.&lt;/p&gt;
-&lt;p&gt;Thankfully, InfinityFree suggested using PHPMailer, and even providing a &lt;a href=&quot;https://github.com/InfinityFreeHosting/contactform&quot;&gt;contact form powered by PHPMailer&lt;/a&gt; as a sample. As a result, I spent time in trying to incorporate PHPMailer into BellaBuffs based on the InfinityFree&#39;s PHPMailer contact form code, and voilà, I did it!&lt;/p&gt;
-&lt;p&gt;I am glad that despite my inexperience in PHP, I was able to apply the programming knowledge I learned from building my main site and taking online coding courses to build my fanlisting.&lt;/p&gt;
-&lt;p&gt;After successfully setting up the &lt;cite&gt;Cassette Beasts&lt;/cite&gt; fanlisting, I decided to fork BellaBuffs and release my version of the fanlisting script with PHPMailer integration, in case there are others who want to use BellaBuffs to build fanlistings, but cannot or do not want to use the PHP &lt;code&gt;mail()&lt;/code&gt; function.&lt;/p&gt;
-&lt;p&gt;You can download my BellaBuffs fork and learn about how to use it from &lt;a href=&quot;https://github.com/helenclx/BellaBuffs-PHPMailer&quot;&gt;its GitHub repository&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;building-beehive&quot;&gt;Building Beehive&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-07-02-fanlisting-collective-launch/#building-beehive&quot; aria-labelledby=&quot;building-beehive&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;To give myself more practice in PHP as I built my first fanlisting, I decided to code my fanlisting collective in PHP as well.&lt;/p&gt;
-&lt;p&gt;I decided to name my fanlisting collective Beehive, since I have been using my drawing of a bee with a pair of glasses as my main avatar on the Internet, I figured it would be a good idea to name a subsite of mine something related to bees.&lt;/p&gt;
-&lt;p&gt;Furthermore, Beehive is a fitting name for a fanlisting collective, as beehives house honey bees, while this website houses all the fanlistings I created, maintain, joined and have applied to join.&lt;/p&gt;
-&lt;p&gt;Welcome to Beehive! 🐝&lt;/p&gt;
-</content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 27 June 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-06-27T05:09:00Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;Added a &lt;a href=&quot;https://leilukin.com/articles/palestine-masterlist/#spotlight-crowdfunding-campaigns&quot;&gt;Spotlight Crowdfunding Campaigns&lt;/a&gt; section to my &lt;a href=&quot;https://leilukin.com/articles/palestine-masterlist&quot;&gt;Palestine masterlist&lt;/a&gt; to highlight fundraising campaigns that I have been asked to help and share by Palestinians on Tumblr, and that have been vetted by other Palestinians on Tumblr.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 26 June 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-06-26T10:39:00Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;Added my other websites to my &lt;a href=&quot;https://leilukin.com/projects&quot;&gt;Projects page&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
         </entry>
