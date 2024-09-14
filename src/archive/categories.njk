@@ -1,19 +1,17 @@
 ---
-pagination:
-    data: collections.categories
-    size: 1
-    alias: category
-permalink: /categories/{{ category | slugify }}/
-eleventyExcludeFromCollections: true
+title: Content Categories
 eleventyComputed:
-    title: 'Content Category: "{{ category | safe }}"'
-    desc: All contents under the "{{ category | safe }}" category on {{ sitemeta.siteName | safe }}.
+    desc: All content categories on {{ sitemeta.siteName | safe }}.
+eleventyNavigation:
+    order: 10
 ---
 
-{% set contentCount = collections.contents | filterByCategory(category) | length %}
-<h2>{{ contentCount }} Contents Filed Under "{{ category }}"</h2>
+<ul>
+    {% for category in collections.categories %}
+        {% set categoryUrl %}/categories/{{ category | slugify }}/{% endset %}
+        {% set categoryPostCount = collections.contents | filterByCategory(category) | length %}
+        <li><a href="{{ categoryUrl }}">{{ category }}</a> ({{ categoryPostCount }})</li>
+    {% endfor %}
+</ul>
 
-{% set contentList = collections.contents | filterByCategory(category) | reverse %}
-{% include "main/archive.njk" %}
-
-<p>See <a href="/categories/">all content categories</a>.</p>
+<p>See all contents on this website in the <a href="/archive/">archive</a>.</p>
