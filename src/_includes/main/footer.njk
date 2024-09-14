@@ -10,16 +10,18 @@
             {% if currentUrl === "/sitemap/" %}aria-current="page"{% endif %}
             href="/sitemap/
         ">Site Map</a></li>
+    {%- for link in collections["footer links"] -%}
         <li><a
-            {% if currentUrl === "/changelogs/" %}aria-current="page"{% endif %}
-            href="/changelogs/"
-        >Changelogs</a></li>
-        {%- for statement in collections.statements -%}
-            <li><a
-                {% if entry.url == page.url %}aria-current="page"{% endif %}
-                href="{{ statement.url }}"
-            >{{ statement.data.title }}</a></li>
-        {%- endfor -%}
+            {% if link.url == page.url %}aria-current="page"{% endif %}
+            href="{{ link.url }}"
+        >{{ link.data.title }}</a></li>
+    {%- endfor -%}
+    {%- for statement in collections.statements -%}
+        <li><a
+            {% if statement.url == page.url %}aria-current="page"{% endif %}
+            href="{{ statement.url }}"
+        >{{ statement.data.title }}</a></li>
+    {%- endfor -%}
     </ul>
 {% endblock %}
 
