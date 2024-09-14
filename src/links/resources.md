@@ -1,6 +1,7 @@
 ---
 title: Resources
 date: 2024-08-02
+updated: 2024-09-14T12:34:36+0800
 ---
 
 ### Archives
@@ -11,6 +12,9 @@ date: 2024-08-02
 ### Bypass Paywalls
 * [Paywall Reader](https://paywallreader.com/)
 * [Bypass Paywall Clean](https://github.com/bpc-clone/bpc_updates) browser extension
+
+### Download Tools
+* [cobalt](https://cobalt.tools/) — Download videos and audio from various platforms
 
 ### Gaming
 * [3DS Hacks Guide](https://3ds.hacks.guide/)
