@@ -41,6 +41,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addBundle("js", { toFileDirectory: "assets/js" });
 
     return {
+        markdownTemplateEngine: "njk",
         dir: {
             input: "src"
         }

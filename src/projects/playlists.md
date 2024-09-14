@@ -2,7 +2,6 @@
 title: My Music Playlists
 desc: Music playlists that I have created.
 toc: true
-templateEngineOverride: njk, md
 eleventyNavigation:
     order: 3
 ---
