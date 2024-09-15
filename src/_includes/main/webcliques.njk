@@ -1,10 +1,12 @@
+{%- css %}.color-bg { padding: 0.125em 0.3em; }{% endcss %}
+
 {%- macro webCliqueImg(file, width, height, alt="") -%}
     <img src="/assets/cliques/{{ file }}" alt="{{ alt }}" class="inline-img" width="{{ width }}" height="{{ height }}" loading="lazy">
 {%- endmacro -%}
 
 <ul>
     <li><a href="http://aromatic.wings.nu/">aromatic</a> // lavender</li>
-    <li><a href="http://cliqued.wings.nu/">rainbow</a> &#x1F308; black and purple</li>
+    <li><a href="http://cliqued.wings.nu/">rainbow</a> &#x1F308; <span class="color-bg" style="background-color: black; color: white;">black</span> and <span class="color-bg" style="background-color: purple; color: white;">purple</span></li>
     <li>My favourite food is: <a href="https://frankie.fanacular.net/food">Mushrooms</a></li>
     <li>My favourite hot bevarage is <a href="https://cliques.moudoku.com/hot">Coffee</a></li>
     <li>
