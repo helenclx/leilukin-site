@@ -11,3 +11,15 @@ export const siteLanguage = "en";
 export const siteDescription = siteAuthor.name + "'s personal website.";
 export const feedPath = "/feed.xml";
 export const feedUrl = siteUrl + feedPath;
+export const subsites = [
+	{
+		siteName: "Tumbleblog",
+		subDomain: `tumbleblog.${siteDomain}`,
+		siteUrl() { return "https://" + this.subDomain; }
+	},
+	{
+		siteName: `Beehive - ${siteAuthor.name}'s Fanlisitng Collective`,
+		subDomain: `fan.${siteDomain}`,
+		siteUrl() { return "https://" + this.subDomain; }
+	},
+];
