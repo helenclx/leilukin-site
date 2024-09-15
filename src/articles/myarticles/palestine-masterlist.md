@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-09-15T11:15:50+0800
+updated: 2024-09-15T11:24:12+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 toc: true
@@ -103,6 +103,7 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Help Shahd in Gaza!](https://www.gofundme.com/f/help-shahd-in-gaza) (#224 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A228))
 * [Save Dr. Farhat's family from genocide in Gaza](https://www.gofundme.com/f/saving-dr-farhats-family-towards-hope) (#248 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A252))
 * [Assist in evacuating my family from the war in Gaza.](https://www.gofundme.com/f/Help-Mohammed-alhabil-Family) (#166 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A170))
+    * [Family relief and survival from massacres](https://www.gofundme.com/f/family-relief-and-survival-from-massacres) ([verified by association](https://www.tumblr.com/a-shade-of-blue/761542408474345472); this fundraiser belongs to the niece of Muhammad Al-Habil, whose fundraiser is linked just above)
 * [Emergency: Help Evacuate My Family From GAZA WAR](https://www.gofundme.com/f/help-save-the-lives-of-my-family-in-gaza) (#26 in [Operation Olive Branch spreadsheet's masterlist tab](https://docs.google.com/spreadsheets/d/1vtMLLOzuc6GpkFySyVtKQOY2j-Vvg0UsChMCFst_WLA/edit?gid=1061843896#gid=1061843896&fvid=647479800); also listed in [Project Watermelon Donation Links spreadsheet's Donate to Families in Gaza tab](https://docs.google.com/spreadsheets/d/16XhzsCbsRV-cMAzRA8gTNxaYt_FAbf6nq3ZNGP4Q9U8/edit?gid=1452518893#gid=1452518893), under the family name Haya Nahed Alshawish)
 * [Urgent Help Needed to Evacuate My Family from Gaza](https://www.gofundme.com/f/e6vc7g-urgent-help-needed-to-evacuate-my-family-from-gaza) (shared by [90-ghost](https://www.tumblr.com/90-ghost/756556255005491200))
 * [Help Nour and his family escape from the war in Gaza](https://www.gofundme.com/f/donate-to-help-nour-and-his-family-escape-the-war-in-gaza) (verified by [roadimusprime](https://www.tumblr.com/roadimusprime/757885015014227968/and-at-the-time-that-i-am-writing-this-our) who helped setting up this fundraiser)
@@ -151,4 +152,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Help Nour and his family escape from the war in Gaza](https://www.gofundme.com/f/donate-to-help-nour-and-his-family-escape-the-war-in-gaza) (shared by [90-ghost](https://www.tumblr.com/90-ghost/760377411969875968))
 * [Help Muhammad and his family live a better life](https://www.gofundme.com/f/znu6m-help-muhammad-and-his-family-live-a-better-life) (verified by [90-ghost](https://www.tumblr.com/90-ghost/760285761067253760/legit-fundraiser))
 * [Donate to Ahmed's Journey to Safety and Education](https://www.gofundme.com/f/donate-to-ahmeds-journey-to-safety-and-education) (shared by [90-ghost](https://www.tumblr.com/90-ghost/758711734896918528))
-* [Support Amal's Family in War-Torn Gaza Escape to Egypt](https://www.gofundme.com/f/support-amals-family-in-wartorn-gaza-escape-to-egypt) ([vetted by association](https://www.tumblr.com/acepumpkinpatrick/761630225423646720); this fundraiser belongs to the brother of [Asmaa](https://www.tumblr.com/asmaamajed2/761630455342776320), whose [fundraiser](https://www.gofundme.com/f/8wewmz-help-asmaa-to-continue-school-outside-of-gaza) has been shared by [90-ghost](https://www.tumblr.com/90-ghost/758170896860151808))
+* [Support Amal's Family in War-Torn Gaza Escape to Egypt](https://www.gofundme.com/f/support-amals-family-in-wartorn-gaza-escape-to-egypt) ([verified by association](https://www.tumblr.com/acepumpkinpatrick/761630225423646720); this fundraiser belongs to the brother of [Asmaa](https://www.tumblr.com/asmaamajed2/761630455342776320), whose [fundraiser](https://www.gofundme.com/f/8wewmz-help-asmaa-to-continue-school-outside-of-gaza) has been shared by [90-ghost](https://www.tumblr.com/90-ghost/758170896860151808))
