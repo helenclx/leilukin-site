@@ -16,9 +16,11 @@
 }
 
 .inline-icon {
+    display: inline-block;
     vertical-align: -10%;
     height: 1em;
     fill: currentColor;
+    padding-inline-end: .25em;
 }
 
 .inline-list {
