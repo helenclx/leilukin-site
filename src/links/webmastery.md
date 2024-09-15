@@ -1,13 +1,14 @@
 ---
 title: Webmastery
 date: 2024-07-01
-updated: 2024-09-11T00:23:17+0800
+updated: 2024-09-15T09:44:42+0800
 ---
 
 ### Webmastery Tutorials
 
 * [Creating Your Own Website](https://32bit.cafe/cyowebsite/) by 32-Bit Cafe
 * [Interacting with Other Websites](https://32bit.cafe/interactingontheweb/) by 32-Bit Cafe
+* [How to build your own RSS Feed](https://caffeineandlasers.neocities.org/blogs/rss) by Cameron Jones
 
 ### Webmastery Guides
 
