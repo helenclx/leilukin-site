@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-09-15T11:24:12+0800
+updated: 2024-09-15T11:38:24+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 toc: true
@@ -153,3 +153,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Help Muhammad and his family live a better life](https://www.gofundme.com/f/znu6m-help-muhammad-and-his-family-live-a-better-life) (verified by [90-ghost](https://www.tumblr.com/90-ghost/760285761067253760/legit-fundraiser))
 * [Donate to Ahmed's Journey to Safety and Education](https://www.gofundme.com/f/donate-to-ahmeds-journey-to-safety-and-education) (shared by [90-ghost](https://www.tumblr.com/90-ghost/758711734896918528))
 * [Support Amal's Family in War-Torn Gaza Escape to Egypt](https://www.gofundme.com/f/support-amals-family-in-wartorn-gaza-escape-to-egypt) ([verified by association](https://www.tumblr.com/acepumpkinpatrick/761630225423646720); this fundraiser belongs to the brother of [Asmaa](https://www.tumblr.com/asmaamajed2/761630455342776320), whose [fundraiser](https://www.gofundme.com/f/8wewmz-help-asmaa-to-continue-school-outside-of-gaza) has been shared by [90-ghost](https://www.tumblr.com/90-ghost/758170896860151808))
+* [Help Us Escape the Ravages of War: Emergency Evacuation Fund](https://www.gofundme.com/f/help-us-escape-the-ravages-of-war-emergency-evacuation-fund) (#212 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A216))
