@@ -12,12 +12,12 @@
 
         {# Fonts #}
         {% include "global/fontdefault.njk" %}
-        <link rel="stylesheet" href="{{'/assets/fonts/intel-one-mono/intel-one-mono.css' | url | safe}}">
+        <link rel="stylesheet" href="/assets/fonts/intel-one-mono/intel-one-mono.css">
 
         {# CSS #}
         {% include "global/css-bundle.njk" %}
     {% if hasTooltips %}
-        <link rel="stylesheet" href="{{'/assets/css/tooltips.css' | url | safe}}">
+        <link rel="stylesheet" href="/assets/css/tooltips.css">
     {% endif %}
         <style>{% getBundle "css" %}</style>
 
@@ -49,7 +49,7 @@
         </main>
         {% block footer %}{% include "global/footer.njk" %}{% endblock %}
         {% if hasTooltips %}
-            <script src="{{'/assets/js/tooltips.js' | url | safe}}"></script>
+            <script src="/assets/js/tooltips.js"></script>
             <script>
                 var selector = '[data-tooltip]';
                 var els = document.querySelectorAll(selector);
