@@ -3,6 +3,7 @@ title: Adoptables
 desc: A collection of stuff I have adopted from other websites.
 isContentDivided: true
 hasTooltips: true
+toc: true
 updated: 2024-09-17T13:53:33+0800
 eleventyNavigation:
     order: 8
@@ -29,7 +30,7 @@ eleventyNavigation:
 {% include "main/virtualpets.njk" %}
 
 <section class="content__section">
-    <h2>Personal Website Adoptables</h2>
+    {% headingAnchor 2 %}Personal Website Adoptables{% endheadingAnchor %}
     <p>These are adopted from other personal websites.</p>
 
     <ul class="web-graphics adoptables">
@@ -45,27 +46,27 @@ eleventyNavigation:
 </section>
 
 <section class="content__section">
-    <h2>Pixel Cliques</h2>
+    {% headingAnchor 2 %}Pixel Cliques{% endheadingAnchor %}
 
-    <h3>The Apple</h3>
+    {% headingAnchor 3 %}The Apple{% endheadingAnchor %}
     <a href="https://pixelrevival.xyz/apple/"><img src="/assets/adoptables/pixelcliques/theapple.gif" alt="The Apple pixel clique" loading="lazy"></a>
 
-    <h3>Made by a Girl</h3>
+    {% headingAnchor 3 %}Made by a Girl{% endheadingAnchor %}
     <a href="https://lovesick.cafe/grrrl"><img src="/assets/adoptables/pixelcliques/madebyagirl.png" alt="Made by a Girl pixel clique" loading="lazy"></a>
 </section>
 
 <section class="content__section">
-    <h2>Kitty Friends Pixel Club</h2>
+    {% headingAnchor 2 %}Kitty Friends Pixel Club{% endheadingAnchor %}
     <p>An old pixel club about cats, revived by <a href="https://divergentrays.com/kitty">Divergent Rays</a>.</p>
 
-    <h3>My Kitty Friends</h3>
+    {% headingAnchor 3 %}My Kitty Friends{% endheadingAnchor %}
     <ul class="web-graphics adoptables">
         {{ myPixelArt("kittyfriends/leilukin-blackkitty.png", "Leilukin's black kitty friend") }}
         {{ myPixelArt("kittyfriends/leilukin-purplekitty.png", "Leilukin's purple kitty friend") }}
     </ul>
     <p>Created on 21 July 2024. If you want to adopt any of my kitty friends, please link back to my website and do not hotlink the images.</p>
 
-    <h3>Adopted Kitty Friends</h3>
+    {% headingAnchor 3 %}Adopted Kitty Friends{% endheadingAnchor %}
     <ul class="web-graphics adoptables">
         {{ adoptable("https://artwork.neocities.org/cliques", "kittyfriends/artwork-bat.gif", "artwork's bat kitty") }}
         {{ adoptable("https://artwork.neocities.org/cliques", "kittyfriends/artwork-pumpkin.gif", "artwork's pumpkin kitty") }}
@@ -81,27 +82,27 @@ eleventyNavigation:
 </section>
 
 <section class="content__section">
-    <h2>Pantson Color Club</h2>
+    {% headingAnchor 2 %}Pantson Color Club{% endheadingAnchor %}
     <p>A pixel club created by <a href="https://pantson.xandra.cc/">Alexandra</a>.</p>
     <div class="web-graphics adoptables"><img src="/assets/adoptables/pantson/00-join.gif" alt="Join the Pantson Color Club!"></div>
 
-    <h3>My Colour Cards</h3>
+    {% headingAnchor 3 %}My Colour Cards{% endheadingAnchor %}
     <ul class="web-graphics adoptables"></ul>
         {{ myPixelArt("pantson/leilukin-grape-juice.png", "Leilukin's GRAPE JUICE, colour no. 19-3220 TPX") }}
     </ul>
     <p>Created on 17 September 2024. If you want to collect any of my colour cards, please link back to my website and do not hotlink the images.</p>
 
-    <h3>My Colour Card Collection</h3>
+    {% headingAnchor 3 %}Collected Colour Cards{% endheadingAnchor %}
     <ul class="web-graphics adoptables">
         {{ adoptable("https://velvet-boutique.neocities.org/", "pantson/velvet-cherry-red.png", "Velvet's CHERRY RED, colour no. 3571 C") }}
     </ul>
 </section>
 
 <section class="content__section">
-    <h2>Salad Magazine</h2>
+    {% headingAnchor 2 %}Salad Magazine{% endheadingAnchor %}
     <p><a href="https://zine.kalechips.net/index">Salad Magazine</a> is a web-based zine for creative works run by <a href="https://kalechips.net/">Kalechips</a>.</p>
 
-    <h3>Ink Snail and Sparkle Snail</h3>
+    {% headingAnchor 3 %}Ink Snail and Sparkle Snail{% endheadingAnchor %}
     <div class="web-graphics adoptables">
         <img src="/assets/adoptables/salad-magazine/semper-inksnail-black.png" alt="Black ink snail pixel art by Semper" loading="lazy">
         <img src="/assets/adoptables/salad-magazine/semper-inksnail-sparkle.png" alt="Sparkle snail pixel art by Semper" loading="lazy">
@@ -110,7 +111,7 @@ eleventyNavigation:
 </section>
 
 <section class="content__section">
-    <h2>32-Bit Cafe Code Jam: Destination Vacation</h2>
+    {% headingAnchor 2 %}32-Bit Cafe Code Jam: Destination Vacation{% endheadingAnchor %}
     <p>Stuff I collected from <a href="https://tilde.32bit.cafe/~ribose/events/destination/map.html">32-Bit Cafe's Community Code Jam #4: Destination Vacation</a> in June 2024, including a passport with stamps from the code jam entries, and extra goodies from some of the participants.</p>
     <ul class="web-graphics adoptables">
         <li>
