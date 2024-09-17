@@ -4,12 +4,23 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2024-09-17T05:58:26Z</updated>
+    <updated>2024-09-17T06:03:57Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
         <email>contact@leilukin.com</email>
     </author>
+        
+        <entry>
+            <title>Changelog: 17 September 2024</title>
+            <link href="https://leilukin.com/false"/>
+            <updated>2024-09-17T05:58:34Z</updated>
+            <id>https://leilukin.com/false</id>
+            <content type="html">&lt;ul&gt;
+&lt;li&gt;Add &lt;a href=&quot;https://leilukin.com/adoptables/#Pantson-Color-Club&quot;&gt;Pantson Color Club section&lt;/a&gt; to my &lt;a href=&quot;https://leilukin.com/adoptables&quot;&gt;adoptables page&lt;/a&gt;, including my own colour card for the pixel club.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Changelog: 6 September 2024</title>
@@ -450,17 +461,6 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
 &lt;li&gt;Add an inline SVG icon to external links&lt;/li&gt;
 &lt;li&gt;Use inline SVG for Font Awesome icons to remove the need of hosting Font Awesome assets&lt;/li&gt;
 &lt;li&gt;Add dark mode support for &lt;a href=&quot;https://leilukin.com/shrines/cassettebeasts&quot;&gt;&lt;cite&gt;Cassette Beasts&lt;/cite&gt; shrine&lt;/a&gt; based on user preference in system setting&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 6 July 2024</title>
-            <link href="https://leilukin.com/false"/>
-            <updated>2024-07-06T10:45:00Z</updated>
-            <id>https://leilukin.com/false</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;Implement accessible tooltips that meet Web Content Accessibility Guidelines (WCAG) 2.2 success criterion for &lt;a href=&quot;https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html&quot;&gt;1.4.13: Content on Hover or Focus (Level AA)&lt;/a&gt;, by utilising &lt;a href=&quot;https://github.com/scottaohara/a11y_tooltips&quot;&gt;Scott O&#39;Hara&#39;s ARIA Tooltips&lt;/a&gt; script. (Thank you &lt;a href=&quot;https://www.groundedwren.com/&quot;&gt;Vera&lt;/a&gt; for your feedback on my previous implementation of the tooltips)&lt;/li&gt;
 &lt;/ul&gt;
 </content>
         </entry>
