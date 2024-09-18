@@ -9,6 +9,14 @@ eleventyNavigation:
     order: 8
 ---
 
+{%- macro virtualPet(url, img, alt, tooltip=alt) -%}
+    <li data-tooltip>
+        <a href="{{ url }}" data-tooltip-trigger title="{{ tooltip }}">
+            <img src="{{ img }}" alt="{{ alt }}" loading="lazy">
+        </a>
+    </li>
+{%- endmacro -%}
+
 {%- macro myPixelArt(file, alt, tooltip=alt) -%}
     <li data-tooltip>
         <img src="/assets/adoptables/{{ file }}" alt="{{ alt }}" data-tooltip-trigger title="{{ tooltip }}" loading="lazy" tabindex="0">
@@ -27,7 +35,15 @@ eleventyNavigation:
     <p>(This page was last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time>)</p>
 </section>
 
-{% include "main/virtualpets.njk" %}
+<section class="content__section">
+    {% headingAnchor 2 %}Virtual Pets{% endheadingAnchor %}
+    <p>Feel free to check out my virtual pets and feed them!</p>
+    <ul class="web-graphics adoptables">
+        {{ virtualPet("https://tamanotchi.world/13150c", "https://tamanotchi.world/i2/13150", "Pix, my tamaNOTchi") }}
+        {{ virtualPet("https://tamanotchi.world/14391c", "https://tamanotchi.world/i2/14391", "Neko, my tamaNOTchi") }}
+        {{ virtualPet("https://wobble.town/visit/2042", "https://wobble.town/visit/2042/wobble.gif", "Shelly, my Wobble") }}
+    </ul>
+</section>
 
 <section class="content__section">
     {% headingAnchor 2 %}Personal Website Adoptables{% endheadingAnchor %}
