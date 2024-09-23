@@ -1,7 +1,7 @@
 ---
 title: Webmastery
 date: 2024-07-01
-updated: 2024-09-15T09:44:42+0800
+updated: 2024-09-23T17:51:06+0800
 ---
 
 ### Webmastery Tutorials
@@ -15,6 +15,18 @@ updated: 2024-09-15T09:44:42+0800
 * [Reducing HTML Redundancy](https://owlsroost.xyz/articles/2023-12-23-reducing-html-redundancy.html) by Owl
 * [How to Make Your Site Mobile-Friendly](https://owlsroost.xyz/articles/2024-06-24-how-to-make-your-site-mobile-friendly.html) by Owl
 
+### Webmastery Resources
+
+* [Resources List for the Personal Web](https://discourse.32bit.cafe/t/resources-list-for-the-personal-web/49) by 32-Bit Cafe — I have also contributed to this list
+* [Can I use...](https://caniuse.com/) — Check browser compatibility for web features
+* [SVGOMG](https://jakearchibald.github.io/svgomg/) — SVG optimiser
+* [URL-encoder for SVG](https://yoksel.github.io/url-encoder/)
+
+### Ideas for Your Website
+
+* [Ideas for Your Personal Website](https://32bit.cafe/websiteideas/) by 2-Bit Cafe
+* [Slash Pages](https://slashpages.net/)
+
 ### Web Accessibility
 
 * [The Access Manifesto](https://joeclark.org/book/sashay/serialization/AccessManifesto.html) by Joe Clark — Worth noting that this was originally written in 2002
@@ -25,13 +37,6 @@ updated: 2024-09-15T09:44:42+0800
 * [Three Common Accessibility Problems and How to Fix Them](https://solaria.neocities.org/beginnersaccessibility) by Solaria
 * [What I've Learned About Web Accessibility as a Dyslexic, Sighted, Mouse User](https://solaria.neocities.org/accessibility) by Solaria
 * [Screen reader testing: how to test your website's accessibility](https://www.siteimprove.com/glossary/screen-reader-testing/) by Siteimprove
-
-### Webmastery Resources
-
-* [Resources List for the Personal Web](https://discourse.32bit.cafe/t/resources-list-for-the-personal-web/49) by 32-Bit Cafe — I have also contributed to this list
-* [Can I use...](https://caniuse.com/) — Check browser compatibility for web features
-* [SVGOMG](https://jakearchibald.github.io/svgomg/) — SVG optimiser
-* [URL-encoder for SVG](https://yoksel.github.io/url-encoder/)
 
 ### Eleventy
 Resources for learning to use the static site generator [Eleventy](https://www.11ty.dev/), which is also used for building {{ sitemeta.siteName }}.
