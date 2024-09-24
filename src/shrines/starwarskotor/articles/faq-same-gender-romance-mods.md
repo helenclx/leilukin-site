@@ -70,7 +70,7 @@ Here are the default installation locations of {% cite "KotOR 2" %} depending on
 * Retail CD (64-bit Windows): `C:\Program Files (x86)\LucasArts\SWKotOR2\`
 * Steam (32-bit Windows): `C:\GOG Games\Star Wars - KotOR2`
 
-If you do not know if you have Windows 64-bit or 32-bit, [refer this article to find out](https://www.lifewire.com/am-i-running-a-32-bit-or-64-bit-version-of-windows-2624475).
+If you do not know if you have Windows 64-bit or 32-bit, refer this article, ["How to Tell if You Have Windows 64-Bit or 32-Bit"](https://www.lifewire.com/am-i-running-a-32-bit-or-64-bit-version-of-windows-2624475), to find out.
 
 ### Will you upload your mods to Steam Workshop?
 
