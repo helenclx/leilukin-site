@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-09-29T23:52:51+0800
+updated: 2024-09-29T23:56:43+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 toc: true
@@ -158,3 +158,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Help Nevin alserr family escape the war](https://www.gofundme.com/f/support-niveen-familys-journey-to-safety) (#314 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A318))
 * [Help Displaced Family in Gaza](https://www.gofundme.com/f/gga9a-help-displaced-families-in-gaza) (shared by [Salaah Bilaal](https://www.tumblr.com/bilal-salah0/759280967486767104/please-share-the-post), whose fundraiser is #132 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A136))
 * [Your help is the only hope to save Abdallah & his family from genocide](https://gogetfunding.com/your-help-is-the-only-hope-to-save-abdallah-his-family-from-genocide/) (#315 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A319))
+* [Rising from the Ashes: Ghada’s Journey of Hope and Resilien](https://www.gofundme.com/f/rising-from-the-ashes-ghadas-journey-of-hope-and-resilien) (#6 in [GazaVetters](https://www.tumblr.com/gazavetters)' [spreadsheet](https://docs.google.com/spreadsheets/d/1YGgkXoyam7tnbXb-vqWsHFs3Puyf_xYeXY2dPrZQY1M/edit?gid=0#gid=0&range=A11))
