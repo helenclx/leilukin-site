@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-09-29T23:46:05+0800
+updated: 2024-09-29T23:52:51+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 toc: true
@@ -46,6 +46,7 @@ Here, I am compiling a list of resources related to Palestine. This list is not 
 * [Project Watermelon](https://linktr.ee/projectwatermelon)
 * [Bees And Watermelons](https://linktr.ee/beesandwatermelons)
 * [el-shab-hussein and nabulsi's Vetted Gaza Evacuation Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0)
+* [GazaVetters](https://www.tumblr.com/gazavetters) ([Gaza Vetters spreadsheet](https://docs.google.com/spreadsheets/d/1YGgkXoyam7tnbXb-vqWsHFs3Puyf_xYeXY2dPrZQY1M/edit?gid=0#gid=0))
 * [Ottawa4Palestine](https://linktr.ee/ottawa4palestine)'s [Gaza Evacuation Relief Fund](https://docs.google.com/spreadsheets/d/1FC1fK-3r-w3wPi2AdYho5_0j148QC6wkFIMdJA5kX4c/edit?gid=0#gid=0)
 * [GoFund(water)Me(lons)](https://docs.google.com/spreadsheets/d/1o_kH9RnGmKOXmEcMUBTWcMhgdTKIequ__xiPym7RGtE/edit?gid=0#gid=0)
 * [Helping the People of Gaza - Mutual Aid Fund](https://www.gofundme.com/f/helping-the-people-of-gaza-mutual-aid-fund)
