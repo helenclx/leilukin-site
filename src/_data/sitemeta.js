@@ -6,8 +6,8 @@ export const siteAuthor = {
 	email: "contact@leilukin.com",
 	url: siteUrl + "/about"
 };
-export const siteLocale = "en_MY";
 export const siteLanguage = "en";
+export const siteLocale = "en_MY";
 export const siteDescription = siteAuthor.name + "'s personal website.";
 export const feedPath = "/feed.xml";
 export const feedUrl = siteUrl + feedPath;
