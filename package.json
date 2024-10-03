@@ -1,5 +1,11 @@
 {
   "name": "leilukin-site",
+  "description": "Leilukin's personal and hobby website.",
+  "author": "Leilukin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helenclx/leilukin-site.git"
+  },
   "scripts": {
     "start": "bunx @11ty/eleventy --serve --quiet",
     "build": "bunx @11ty/eleventy"
