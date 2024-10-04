@@ -3,6 +3,8 @@
 eleventyExcludeFromCollections: true
 eleventyComputed:
     permalink: "{{ sitemeta.feedPath }}"
+    feedMeta:
+        baseUrl: "{{ sitemeta.siteUrl }}/"
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -11,18 +13,18 @@ eleventyComputed:
     <link href="{{ sitemeta.feedUrl }}" rel="self"/>
     <link href="{{ sitemeta.siteUrl }}"/>
     <updated>{{ collections.feedItems | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
-    <id>{{ sitemeta.siteUrl }}/</id>
+    <id>{{ feedMeta.baseUrl }}</id>
     <author>
         <name>{{ sitemeta.siteAuthor.name }}</name>
         <email>{{ sitemeta.siteAuthor.email }}</email>
     </author>
     {%- for item in collections["feed items"] | reverse | itemLimit(15) %}
-        {% set absolutePostUrl %}{{ item.url | absoluteUrl(sitemeta.siteUrl) }}{% endset %}
+        {% set absolutePostUrl %}{{ item.url | absoluteUrl(feedMeta.baseUrl) }}{% endset %}
         <entry>
             <title>{{ item.data.title | safe }}</title>
-            <link href="{{ absolutePostUrl }}"/>
+            <link href="{{ feedMeta.baseUrl if absolutePostUrl.includes("false") else absolutePostUrl }}"/>
             <updated>{{ item.date | dateToRfc3339 }}</updated>
-            <id>{{ absolutePostUrl }}</id>
+            <id>{{ feedMeta.baseUrl if absolutePostUrl.includes("false") else absolutePostUrl }}</id>
             <content type="html">{{ item.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
         </entry>
     {%- endfor %}
