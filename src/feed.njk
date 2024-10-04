@@ -19,7 +19,7 @@ eleventyComputed:
     {%- for item in collections["feed items"] | reverse | itemLimit(15) %}
         {% set absolutePostUrl %}{{ item.url | absoluteUrl(sitemeta.siteUrl) }}{% endset %}
         <entry>
-            <title>{{ item.data.title }}</title>
+            <title>{{ item.data.title | safe }}</title>
             <link href="{{ absolutePostUrl }}"/>
             <updated>{{ item.date | dateToRfc3339 }}</updated>
             <id>{{ absolutePostUrl }}</id>
