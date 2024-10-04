@@ -4,7 +4,7 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2024-10-04T13:00:20Z</updated>
+    <updated>2024-10-04T13:09:26Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
@@ -13,9 +13,9 @@
         
         <entry>
             <title>Changelog: 17 September 2024</title>
-            <link href="https://leilukin.com/false"/>
+            <link href="https://leilukin.com/"/>
             <updated>2024-09-17T05:58:34Z</updated>
-            <id>https://leilukin.com/false</id>
+            <id>https://leilukin.com/</id>
             <content type="html">&lt;ul&gt;
 &lt;li&gt;Add &lt;a href=&quot;https://leilukin.com/adoptables/#Pantson-Color-Club&quot;&gt;Pantson Color Club section&lt;/a&gt; to my &lt;a href=&quot;https://leilukin.com/adoptables&quot;&gt;adoptables page&lt;/a&gt;, including my own colour card for the pixel club.&lt;/li&gt;
 &lt;/ul&gt;
@@ -24,9 +24,9 @@
         
         <entry>
             <title>Changelog: 6 September 2024</title>
-            <link href="https://leilukin.com/false"/>
+            <link href="https://leilukin.com/"/>
             <updated>2024-09-06T15:16:00Z</updated>
-            <id>https://leilukin.com/false</id>
+            <id>https://leilukin.com/</id>
             <content type="html">&lt;ul&gt;
 &lt;li&gt;Replace the estimated reading time of articles and blog posts with word count, by using the &lt;a href=&quot;https://www.npmjs.com/package/eleventy-plugin-wordcount-extended&quot;&gt;eleventy-plugin-wordcount-extended&lt;/a&gt; plugin.&lt;/li&gt;
 &lt;li&gt;Create 200×40 pixel size version of Leilukin&#39;s Hub site button.&lt;/li&gt;
@@ -36,9 +36,9 @@
         
         <entry>
             <title>Changelog: 18 August 2024</title>
-            <link href="https://leilukin.com/false"/>
+            <link href="https://leilukin.com/"/>
             <updated>2024-08-18T12:33:42Z</updated>
-            <id>https://leilukin.com/false</id>
+            <id>https://leilukin.com/</id>
             <content type="html">&lt;ul&gt;
 &lt;li&gt;New blog post about me officially becoming a professional web developer, &lt;a href=&quot;https://leilukin.com/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer&quot;&gt;&amp;quot;From Hobbyist to Professional Web Developer&amp;quot;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -94,9 +94,9 @@
         
         <entry>
             <title>Changelog: 11 August 2024</title>
-            <link href="https://leilukin.com/false"/>
+            <link href="https://leilukin.com/"/>
             <updated>2024-08-11T14:46:00Z</updated>
-            <id>https://leilukin.com/false</id>
+            <id>https://leilukin.com/</id>
             <content type="html">&lt;ul&gt;
 &lt;li&gt;Improve the site&#39;s &lt;a href=&quot;https://leilukin.com/feed.xml&quot;&gt;RSS feed&lt;/a&gt;:
 &lt;ul&gt;
@@ -110,9 +110,9 @@
         
         <entry>
             <title>Changelog: 6 August 2024</title>
-            <link href="https://leilukin.com/false"/>
+            <link href="https://leilukin.com/"/>
             <updated>2024-08-06T13:20:00Z</updated>
-            <id>https://leilukin.com/false</id>
+            <id>https://leilukin.com/</id>
             <content type="html">&lt;ul&gt;
 &lt;li&gt;New article: &lt;a href=&quot;https://leilukin.com/articles/accessible-footnotes&quot;&gt;&amp;quot;How I (Tried to) Implement Accessible Footnotes&amp;quot;&lt;/a&gt;, which is also my entry for &lt;a href=&quot;https://32bit.cafe/&quot;&gt;32-Bit Cafe&lt;/a&gt;&#39;s &lt;a href=&quot;https://32bit.cafe/~xandra/events/codejam5/&quot;&gt;Community Code Jam #5: Back to School&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -314,9 +314,9 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
         
         <entry>
             <title>Changelog: 2 August 2024</title>
-            <link href="https://leilukin.com/false"/>
+            <link href="https://leilukin.com/"/>
             <updated>2024-08-02T07:42:00Z</updated>
-            <id>https://leilukin.com/false</id>
+            <id>https://leilukin.com/</id>
             <content type="html">&lt;ul&gt;
 &lt;li&gt;Added my first publicly released code snippet on this website: &lt;a href=&quot;https://leilukin.com/projects/snippets/disability-pride-flag-background&quot;&gt;Responsive Disability Pride Flag CSS Background&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -392,9 +392,9 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
         
         <entry>
             <title>Changelog: 27 July 2024</title>
-            <link href="https://leilukin.com/false"/>
+            <link href="https://leilukin.com/"/>
             <updated>2024-07-26T16:32:00Z</updated>
-            <id>https://leilukin.com/false</id>
+            <id>https://leilukin.com/</id>
             <content type="html">&lt;ul&gt;
 &lt;li&gt;Leilukin&#39;s Hub and all its subsites have been migrated to &lt;a href=&quot;https://www.hostinger.my/&quot;&gt;Hostinger&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;New blog post: &lt;a href=&quot;https://leilukin.com/blog/posts/2024-07-27-hostinger-migration-leilukins-hub&quot;&gt;Leilukin&#39;s Hub Has Migrated to Hostinger&lt;/a&gt;&lt;/li&gt;
@@ -406,9 +406,9 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
         
         <entry>
             <title>Changelog: 22 July 2024</title>
-            <link href="https://leilukin.com/false"/>
+            <link href="https://leilukin.com/"/>
             <updated>2024-07-22T01:35:00Z</updated>
-            <id>https://leilukin.com/false</id>
+            <id>https://leilukin.com/</id>
             <content type="html">&lt;ul&gt;
 &lt;li&gt;Add a &lt;a href=&quot;https://zine.kalechips.net/index&quot;&gt;Salad Magazine&lt;/a&gt; section to my &lt;a href=&quot;https://leilukin.com/adoptables&quot;&gt;Adoptables pages&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -417,9 +417,9 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
         
         <entry>
             <title>Changelog: 21 July 2024</title>
-            <link href="https://leilukin.com/false"/>
+            <link href="https://leilukin.com/"/>
             <updated>2024-07-21T11:24:00Z</updated>
-            <id>https://leilukin.com/false</id>
+            <id>https://leilukin.com/</id>
             <content type="html">&lt;ul&gt;
 &lt;li&gt;Add a section for the &lt;a href=&quot;https://divergentrays.com/kitty&quot;&gt;Kitty Friends Pixel Club&lt;/a&gt; to my &lt;a href=&quot;https://leilukin.com/adoptables&quot;&gt;Adoptables page&lt;/a&gt;, including my kitty friends!&lt;/li&gt;
 &lt;/ul&gt;
@@ -428,9 +428,9 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
         
         <entry>
             <title>Changelog: 20 July 2024</title>
-            <link href="https://leilukin.com/false"/>
+            <link href="https://leilukin.com/"/>
             <updated>2024-07-20T06:35:00Z</updated>
-            <id>https://leilukin.com/false</id>
+            <id>https://leilukin.com/</id>
             <content type="html">&lt;ul&gt;
 &lt;li&gt;Remake the mobile version of navigation menu by using the HTML &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/popover&quot;&gt;&lt;code&gt;popover&lt;/code&gt;&lt;/a&gt; attirbutes, allowing the navigation menu to be dismissed without JavaScript&lt;/li&gt;
 &lt;/ul&gt;
@@ -439,9 +439,9 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
         
         <entry>
             <title>Changelog: 18 July 2024</title>
-            <link href="https://leilukin.com/false"/>
+            <link href="https://leilukin.com/"/>
             <updated>2024-07-18T04:55:00Z</updated>
-            <id>https://leilukin.com/false</id>
+            <id>https://leilukin.com/</id>
             <content type="html">&lt;ul&gt;
 &lt;li&gt;Add list of web cliques I joined to the home page&lt;/li&gt;
 &lt;li&gt;Add pixel cliques I joined to the &lt;a href=&quot;https://leilukin.com/adoptables&quot;&gt;Adoptables page&lt;/a&gt;&lt;/li&gt;
@@ -454,9 +454,9 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
         
         <entry>
             <title>Changelog: 13 July 2024</title>
-            <link href="https://leilukin.com/false"/>
+            <link href="https://leilukin.com/"/>
             <updated>2024-07-13T12:47:00Z</updated>
-            <id>https://leilukin.com/false</id>
+            <id>https://leilukin.com/</id>
             <content type="html">&lt;ul&gt;
 &lt;li&gt;Add an inline SVG icon to external links&lt;/li&gt;
 &lt;li&gt;Use inline SVG for Font Awesome icons to remove the need of hosting Font Awesome assets&lt;/li&gt;
