@@ -2,9 +2,9 @@
 <html lang="{{ sitemeta.siteLanguage }}" dir="ltr" id="top">
     <head>
         {# Meta data #}
-    {% block metaTitle %}
+        {% block metaTitle %}
         <meta property="og:title" content="{{ title if title else sitemeta.siteName | safe }}">
-    {% endblock %}
+        {% endblock %}
         {% include "global/metagen.njk" %}
 
         {# Feeds #}
@@ -17,9 +17,9 @@
 
         {# CSS #}
         {% include "global/css-bundle.njk" %}
-    {% if hasTooltips %}
+        {% if hasTooltips %}
         <link rel="stylesheet" href="/assets/css/tooltips.css">
-    {% endif %}
+        {% endif %}
         <style>{% getBundle "css" %}</style>
 
         {# Favicon #}
@@ -33,9 +33,9 @@
 
         {# JavaScript #}
         <script src="{% getBundleFileUrl 'js' %}" defer></script>
-    {% if toc %}
+        {% if toc %}
         <script src="{{'/assets/js/details-utils.js'}}" defer></script>
-    {% endif %}
+        {% endif %}
 
         <title>
             {% block pageTitle %}{{ title + " | " if title }}{{ sitemeta.siteName | safe }}{% endblock %}
@@ -50,15 +50,15 @@
         </main>
         {% block footer %}{% include "global/footer.njk" %}{% endblock %}
         {% if hasTooltips %}
-            <script src="/assets/js/tooltips.js"></script>
-            <script>
-                var selector = '[data-tooltip]';
-                var els = document.querySelectorAll(selector);
+        <script src="/assets/js/tooltips.js"></script>
+        <script>
+            var selector = '[data-tooltip]';
+            var els = document.querySelectorAll(selector);
 
-                for ( var i = 0; i < els.length; i++ ) {
-                    var dm = new ARIAtip( els[i] );
-                }
-            </script>
+            for ( var i = 0; i < els.length; i++ ) {
+                var dm = new ARIAtip( els[i] );
+            }
+        </script>
         {% endif %}
     </body>
 </html>
