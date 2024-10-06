@@ -34,8 +34,8 @@
 
     --clr-mod-entry-bg: #241445;
 
-    --ff-default: 'Lexend';
-    --ff-monospace: 'Inter One Mono';
+    --ff-default: 'Lexend', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    --ff-monospace: 'Intel One Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 
     --fs-main: 1.2rem;
     --fs-h1: clamp(2rem, 1rem + 5vw, 3rem);
