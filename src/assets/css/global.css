@@ -37,11 +37,11 @@
     --ff-default: 'Lexend', Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
     --ff-monospace: 'Intel One Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 
-    --fs-main: clamp(1.125rem, 1.0565rem + 0.3096vi, 1.2rem);
-    --fs-h1: clamp(2rem, 1rem + 5vi, 3rem);
-    --fs-h2: clamp(1.55rem, 1rem + 3vi, 2.15rem);
-    --fs-h3: clamp(1.55rem, 1rem + 3vi, 1.8rem);
-    --fs-h4: clamp(1.4rem, 1rem + 3vi, 1.6rem);
+    --fs-main: clamp(1.125rem, 1.104rem + 0.107vw, 1.2rem);
+    --fs-h1: clamp(2rem, 1.8rem + 1vw, 2.7rem);
+    --fs-h2: clamp(1.7rem, 1.557rem + 0.714vw, 2.2rem);
+    --fs-h3: clamp(1.5rem, 1.414rem + 0.429vw, 1.8rem);
+    --fs-h4: clamp(1.4rem, 1.343rem + 0.286vw, 1.6rem);
 
     --sz-paragraph-margin: 1.15em;
     --sz-main-padding: clamp(1rem, 5%, 4rem);
