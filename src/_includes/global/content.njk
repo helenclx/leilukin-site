@@ -1,48 +1,48 @@
 <header class="main__header">
     {% if isArticle or hasBreadcrumbs %}
-        <nav aria-labelledby="breadcrumbs-title">
-            <h2 class="visually-hidden" id="breadcrumbs-title">Breadcrumbs</h2>
-            <ol class="breadcrumbs">
-                {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key or articleTitle or pageTitle or title) %}
-                {%- for entry in breadcrumbNavPages %}
-                <li>
-                    <a href="{{ entry.url }}">{{ entry.title }}</a>
-                </li>
-                {%- endfor %}
-            </ol>
-        </nav>
+    <nav aria-labelledby="breadcrumbs-title">
+        <h2 class="visually-hidden" id="breadcrumbs-title">Breadcrumbs</h2>
+        <ol class="breadcrumbs">
+            {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key or articleTitle or pageTitle or title) %}
+            {%- for entry in breadcrumbNavPages %}
+            <li>
+                <a href="{{ entry.url }}">{{ entry.title }}</a>
+            </li>
+            {%- endfor %}
+        </ol>
+    </nav>
     {% endif %}
 
     <h1>{{ articleTitle or pageTitle or title }}</h1>
 
     {% if isArticle %}
-        <div class="article__info">
-            <p class="article__info--desc">{{ desc }}</p>
-            <p>
-                {{ content | wordcount | thousands }} words.
-                Posted on <time datetime="{{ date }}">{{ date | formatDate }}</time> by {{ sitemeta.siteAuthor.name }}
-            </p>
+    <div class="article__info">
+        <p class="article__info--desc">{{ desc }}</p>
+        <p>
+            {{ content | wordcount | thousands }} words.
+            Posted on <time datetime="{{ date }}">{{ date | formatDate }}</time> by {{ sitemeta.siteAuthor.name }}
+        </p>
         {% if updated %}
-            <p>Last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time></p>
+        <p>Last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time></p>
         {% endif %}
         {% if categories %}
-            <p>Categories:
-                {% for cat in categories %}
-                    <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
-                {% endfor %}
-            </p>
+        <p>Categories:
+            {% for cat in categories %}
+            <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+        </p>
         {% endif %}
-        </div>
+    </div>
     {% else %}
         {% if desc %}
-            <p>{{ desc }}</p>
+        <p>{{ desc }}</p>
         {% endif %}
     {% endif %}
 </header>
 
 <content-wrapper>
     {% if toc %}
-        {% include "global/toc.njk" %}
+    {% include "global/toc.njk" %}
     {% endif %}
 
     {% set contentEl = "article" if isArticle or articleElement else "div" %}
@@ -51,29 +51,29 @@
         {{ content | safe }}
 
     {% if tags and tags.includes("posts") %}
-        <nav class="blog__post--pagination" aria-labelledby="nextprev-title">
-            <h2 class="visually-hidden" id="nextprev-title">Next and Previous Blog Posts</h2>
-            {%- if collections.posts %}
-                {%- set previousPost = collections.posts | getPreviousCollectionItem %}
-                {%- set nextPost = collections.posts | getNextCollectionItem %}
-                {%- if nextPost or previousPost %}
-                    <ul class="blog__post--nextprev">
-                    {%- if previousPost %}
-                        <li class="blog__post--prev">
-                            <p>Previous Post:</p>
-                            <a href="{{ previousPost.url }}">{{ previousPost.data.articleTitle }}</a>
-                        </li>
-                    {% endif %}
-                    {%- if nextPost %}
-                        <li class="blog__post--next">
-                            <p>Next Post:</p>
-                            <a href="{{ nextPost.url }}">{{ nextPost.data.articleTitle }}</a>
-                        </li>
-                    {% endif %}
-                    </ul>
-                {%- endif %}
-            {%- endif %}
-        </nav>
+    <nav class="blog__post--pagination" aria-labelledby="nextprev-title">
+    {%- if collections.posts %}
+        <h2 class="visually-hidden" id="nextprev-title">Next and Previous Blog Posts</h2>
+        {%- set previousPost = collections.posts | getPreviousCollectionItem %}
+        {%- set nextPost = collections.posts | getNextCollectionItem %}
+        {%- if nextPost or previousPost %}
+        <ul class="blog__post--nextprev">
+            {%- if previousPost %}
+            <li class="blog__post--prev">
+                <p>Previous Post:</p>
+                <a href="{{ previousPost.url }}">{{ previousPost.data.articleTitle }}</a>
+            </li>
+            {% endif %}
+            {%- if nextPost %}
+            <li class="blog__post--next">
+                <p>Next Post:</p>
+                <a href="{{ nextPost.url }}">{{ nextPost.data.articleTitle }}</a>
+            </li>
+            {% endif %}
+        </ul>
+        {%- endif %}
+    {%- endif %}
+    </nav>
     {% endif %}
     </{{contentEl}}>
 
@@ -83,7 +83,7 @@
         or page.url === "/articles/"
         or tags and tags.includes("blog pages")
     %}
-        {% include "main/content-nav.njk" %}
+    {% include "main/content-nav.njk" %}
     {% endif %}
 
     {% block shrineInfo %}{% endblock %}
