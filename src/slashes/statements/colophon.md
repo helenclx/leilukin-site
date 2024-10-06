@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-10-02T19:48:30+0800
+updated: 2024-10-06T18:31:36+0800
 toc: true
 eleventyNavigation:
     order: 14
@@ -10,7 +10,7 @@ eleventyNavigation:
 Information about how this website is built.
 
 ## Technology
-* Built with the static site generator [Eleventy](https://www.11ty.dev/)
+* Built with the static site generator [Eleventy](https://www.11ty.dev/) v{{ eleventy.version }}
 * JavaScript runtime: [Bun](https://bun.sh)
 * Templating languages: Nunjucks and Markdown
 * Code written with Visual Studio Code
