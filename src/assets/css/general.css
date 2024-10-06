@@ -3,7 +3,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-family: var(--ff-default), Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+    font-family: var(--ff-default);
     color: var(--clr-body-txt);
     background-color: var(--clr-body-bg);
 }
@@ -92,7 +92,7 @@ figcaption {
 }
 
 code {
-    font-family: var(--ff-monospace), ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+    font-family: var(--ff-monospace);
     word-break: break-word;
 }
 
