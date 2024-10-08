@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{ sitemeta.siteLanguage }}" dir="ltr" id="top">
     <head>
-        {# Meta data #}
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        {# Open Graph Meta #}
         {% block metaTitle %}
         <meta property="og:title" content="{{ title if title else sitemeta.siteName | safe }}">
         {% endblock %}
-        {% include "global/metagen.njk" %}
+        {% include "global/meta.njk" %}
 
         {# Feeds #}
         {% include "global/feeds.njk" %}

@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-10-06T18:31:36+0800
+updated: 2024-10-09T02:31:37+0800
 toc: true
 eleventyNavigation:
     order: 14
@@ -31,7 +31,6 @@ Previously, this website was hosted on [Neocities](https://neocities.org/) until
 * [@zachleat/details-utils](https://www.npmjs.com/package/@zachleat/details-utils)
 
 ### Eleventy Community Plugins
-* [eleventy-plugin-metagen](https://www.npmjs.com/package/eleventy-plugin-metagen)
 * [eleventy-plugin-wordcount-extended](https://www.npmjs.com/package/eleventy-plugin-wordcount-extended)
 * [eleventy-plugin-embed-everything](https://www.npmjs.com/package/eleventy-plugin-embed-everything)
 * [@uncenter/eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc)
