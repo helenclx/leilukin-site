@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-10-11T16:10:30+0800
+updated: 2024-10-11T16:19:55+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 toc: true
@@ -161,3 +161,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Rising from the Ashes: Ghada’s Journey of Hope and Resilien](https://www.gofundme.com/f/rising-from-the-ashes-ghadas-journey-of-hope-and-resilien) (#6 in [GazaVetters](https://www.tumblr.com/gazavetters)' [spreadsheet](https://docs.google.com/spreadsheets/d/1YGgkXoyam7tnbXb-vqWsHFs3Puyf_xYeXY2dPrZQY1M/edit?gid=0#gid=0&range=A11))
 * [Urgent,Help us Recover our Home, Education,Work and FAMILY](https://www.gofundme.com/f/urgent-help-us-recover-our-home-education-and-work) (shared by [gaza-evacuation-funds](https://www.tumblr.com/gaza-evacuation-funds/762875245776502784/donate-to-urgenthelp-us-recover-our-home))
 * [Ahmed's Autism Journey: a Path of Hope and Healing](https://www.paypal.com/donate?campaign_id=EJ892Z3JYTPYS) ([vetted by association](https://www.tumblr.com/a-shade-of-blue/762812657802838016/vetted-by-association-as-you-can-see-above-this); this campaign was [promoted by Nesma Ahmed](https://www.tumblr.com/nesmamomen/762057439135842304), whose [fundraiser](https://www.gofundme.com/f/help-nesmas-and-her-family-evacuate) had been vetted by [el-shab-hussein](https://www.tumblr.com/el-shab-hussein/749848198102827008/hello-good-sir-ive-been-supporting-a-family-but))
+* [Help my family survive and start a new life](https://www.gofundme.com/f/urgent-help-needed-a-journey-from-gaza-to-safety) (#75 in [GazaVetters](https://www.tumblr.com/gazavetters)' [spreadsheet](https://docs.google.com/spreadsheets/d/1YGgkXoyam7tnbXb-vqWsHFs3Puyf_xYeXY2dPrZQY1M/edit?gid=0#gid=0&range=A80). Note that this is not the same fundraiser as the above that shared the same title)
