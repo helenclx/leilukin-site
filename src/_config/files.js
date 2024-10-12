@@ -4,6 +4,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addWatchTarget("./src/assets/");
     eleventyConfig.addWatchTarget("./src/_bundle/");
     eleventyConfig.addPassthroughCopy({
+        "./src/assets/favicon/favicon.ico": "/favicon.ico",
         "node_modules/@zachleat/details-utils/details-utils.js": "assets/js/details-utils.js",
     });
 }
