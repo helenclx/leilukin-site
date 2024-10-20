@@ -24,10 +24,10 @@ content-wrapper,
 }
 
 .content > * + .h2,
-.content__section > * + .h2 { margin-top: 2em; }
+.content__section > * + .h2 { margin-block-start: 2em; }
 
 .content > * + :not([class]),
-.content__section > * + :not([class]) { margin-top: var(--sz-paragraph-margin); }
+.content__section > * + :not([class]) { margin-block-start: var(--sz-paragraph-margin); }
 
 .content ul:not([class]), .content ol:not([class]) {
     display: grid;
@@ -35,7 +35,7 @@ content-wrapper,
 }
 
 .content ul ul, .content ol ol,
-.content ul ol, .content ol ul { margin-top: var(--sz-content-list-gap); }
+.content ul ol, .content ol ul { margin-block-start: var(--sz-content-list-gap); }
 
 .sidebar--sticky {
     position: sticky;
