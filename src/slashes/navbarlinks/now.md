@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2024-08-18T20:32:56+0800
+updated: 2024-10-21T21:48:57+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -13,17 +13,18 @@ This is my [/now page](https://nownownow.com/about). You can find more pages lik
 
 You can also check out my [status.cafe profile](https://status.cafe/users/leilukin) for my latest short status updates.
 
+## Currently Playing
+
+* {% cite "Neko Atsume" %}
+* {% cite "Neko Atsume 2" %}
+
 ## Officially Becomes a Professional Web Developer
 
 Starting from 16 August 2024, I am officially a professional web developer now! I owe much to this very website for inspiring me to pursue web development as a profession.
 
 You can read more about my journey from a hobbyist to professional web developer in my blog post, ["From Hobbyist to Professional Web Developer"](/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer).
 
-## Migrating Leilukin's Hub and Its Subsites to Hostinger
-
-Starting with 25 July 2024, Leilukin's Hub and all its subsites, including its [tumbleblog](https://tumbleblog.leilukin.com/) and [fanlisting collective](https://fan.leilukin.com/), have been migrated to [Hostinger](https://www.hostinger.my/).
-
-You can read my blog post, ["Leilukin's Hub Has Migrated to Hostinger"](/blog/posts/2024-07-27-hostinger-migration-leilukins-hub), to learn more.
+Therefore, my new job has been a major focus of mine currently, so I could hopefully pass my probation period.
 
 ## Participating in Personal Web Spaces
 
