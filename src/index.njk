@@ -65,22 +65,22 @@ eleventyComputed:
 <section class="content__section">
     <h2>Always Proud</h2>
     <div class="flag-progress-intersex-lesbian" role="img" aria-label="Custom pride flag which combines the lesbian pride flag and the progress pride flag triangle" style="height: 20rem; margin-bottom: 1em;"></div>
-    {%- macro prideButton(file, alt, tooltip=alt, width=88, height=31) -%}
+    {%- macro prideButton(file, alt, width=88, height=31) -%}
         <li data-tooltip>
-            <img src="/assets/buttons/pride/{{ file }}.png" alt="{{ alt }}" data-tooltip-trigger title="{{ tooltip }}" width="{{ width }}" height="{{ height }}" loading="lazy" tabindex="0">
+            <img src="/assets/buttons/pride/{{ file }}.png" alt="{{ alt }}" data-tooltip-trigger title="{{ alt }}" width="{{ width }}" height="{{ height }}" loading="lazy" tabindex="0">
         </li>
     {%- endmacro -%}
     <ul class="web-graphics">
-        {{ prideButton("progress", "2018 Progress Flag", "2018 Progress Flag by Daniel Quasar (2018)") }}
-        {{ prideButton("9_stripe", "9 stripe rainbow flag", "Nine-Stripe Rainbow Flag by Gilbert Baker (2017)") }}
-        {{ prideButton("lesbian", "Lesbian pride flag", "I am a lesbian") }}
-        {{ prideButton("nonbinary", "Non-binary pride flag", "I am non-binary") }}
-        {{ prideButton("demigirl", "Demigirl pride flag", "I am a demiwoman") }}
-        {{ prideButton("agender", "Agender pride flag", "I am agender") }}
-        {{ prideButton("bigender", "Bigender pride flag", "I am bigender") }}
-        {{ prideButton("greyromantic", "Greyromantic pride flag", "I am greyromantic") }}
-        {{ prideButton("greysexual", "Greysexual pride flag", "I am greysexual") }}
-        {{ prideButton("disability", "Disability pride flag", "Visually Safe Disability Pride Flag
+        {{ prideButton("progress", "Progress Flag by Daniel Quasar (2018)") }}
+        {{ prideButton("9_stripe", "Nine-Stripe Rainbow Flag by Gilbert Baker (2017)") }}
+        {{ prideButton("lesbian", "Lesbian pride flag") }}
+        {{ prideButton("nonbinary", "Non-binary pride flag") }}
+        {{ prideButton("demigirl", "Demigirl pride flag") }}
+        {{ prideButton("agender", "Agender pride flag") }}
+        {{ prideButton("bigender", "Bigender pride flag") }}
+        {{ prideButton("greyromantic", "Greyromantic pride flag") }}
+        {{ prideButton("greysexual", "Greysexual pride flag") }}
+        {{ prideButton("disability", "Visually Safe Disability Pride Flag
 by Ann Magill (2021)") }}
     </ul>
     <p>Credit to <a href="https://rainy.gay/pride/pridebuttons">Dime</a> for these pride buttons!</p>
