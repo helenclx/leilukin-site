@@ -54,7 +54,7 @@ I am also autistic, so I use this website as a platform to catalogue my interest
 
 Leilukin is not my real name, but it is an internet pseudonym that I have used since I was a teenager, so the name has become my online identity, and I prefer to go by Leilukin in informal online spaces.
 
-You can contact me via email: {{ sitemeta.siteAuthor.email }}. Using [plain text email](https://useplaintext.email/) is encouraged.
+You can contact me via email: {{ sitemeta.siteAuthor.emailEncoded | safe }}. Using [plain text email](https://useplaintext.email/) is encouraged.
 
 [Check out my Now page](/now) to learn what I am doing right now.
 

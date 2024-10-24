@@ -10,7 +10,7 @@ eleventyNavigation:
 
 **Please make sure you have read and followed my instructions before asking for help or reporting any issue with my mods!**
 
-If your issue is not addressed on my mod's page, ask for support or report issues with my mods on the mod's page on Deadly Stream, Nexus Mods or [send me an email]({{sitemeta.siteAuthor.email}}).
+If your issue is not addressed on my mod's page, ask for support or report issues with my mods on the mod's page on Deadly Stream, Nexus Mods or [send me an email]({{ sitemeta.siteAuthor.emailEncoded | safe }}).
 
 {% from "global/macros.njk" import modEntry %}
 
