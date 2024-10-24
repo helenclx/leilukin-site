@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-10-24T09:21:55+0800
+updated: 2024-10-24T09:34:30+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 toc: true
@@ -167,3 +167,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Help Anas & Ahmed rebuild their future in Gaza](https://www.gofundme.com/f/Help-Anas-and-Ahmed-in-Gaza) (verified by [90-ghost](https://www.tumblr.com/90-ghost/762445389624492032/legit) and listed as #83 in [GazaVetters](https://www.tumblr.com/gazavetters)' [spreadsheet](https://docs.google.com/spreadsheets/d/1YGgkXoyam7tnbXb-vqWsHFs3Puyf_xYeXY2dPrZQY1M/edit?gid=0#gid=0&range=A88))
 * [Help Mahmoud's Family Overcome War Tragedy](https://www.gofundme.com/f/help-mahmouds-family-overcome-war-tragedy) (verified by [90-ghost](https://www.tumblr.com/90-ghost/755121680324657152/legit-fundraiser))
 * [Help me get food water and medicine for my little kids !!](https://www.gofundme.com/f/r8kj4-help-me-get-food-water-and-medicine-for-my-little-kids) ([verified by Salaah Bilaal](https://www.tumblr.com/mohammedayyads-blog/760010459463254016/donate-to-help-me-get-food-water-and-medicine-for))
+* [Emergency Appeal: Help Save My Children's](https://www.gofundme.com/f/emergency-appeal-help-save-my-childrens) (#187 in [GazaVetters](https://www.tumblr.com/gazavetters)' [spreadsheet](https://docs.google.com/spreadsheets/d/1YGgkXoyam7tnbXb-vqWsHFs3Puyf_xYeXY2dPrZQY1M/edit?gid=0#gid=0&range=A192))
