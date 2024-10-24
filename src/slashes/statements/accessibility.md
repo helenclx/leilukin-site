@@ -39,4 +39,4 @@ In addition, I test the accessibility of my website manually by navigating with 
 
 ## Feedback
 
-Feedback from disabled and neurodivergent people are welcome. You can [contact me via email](mailto:{{sitemeta.siteAuthor.email}}) for feedbacks and suggestions for improving the accessibility of this site.
+Feedback from disabled and neurodivergent people are welcome. You can [contact me via email](mailto:{{ sitemeta.siteAuthor.emailEncoded | safe }}) for feedbacks and suggestions for improving the accessibility of this site.

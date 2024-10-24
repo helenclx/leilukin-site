@@ -19,7 +19,7 @@ eleventyComputed:
 
     <p>You can browse all my contents published on this site through the <a href="/archive">Archive</a> page, or the <a href="/categories">Content Categories</a> page. You can use the <a href="/sitemap">site map</a> to navigate this website.</p>
 
-    <p>Feel free to drop a message and say hi on <a href="/guestbook">my guestbook</a>! You can also contact me by <a href="mailto:{{sitemeta.siteAuthor.email}}">sending me an email</a>. Using <a href="https://useplaintext.email/">plain text email</a> is encouraged.</p>
+    <p>Feel free to drop a message and say hi on <a href="/guestbook">my guestbook</a>! You can also contact me by <a href="mailto:{{ sitemeta.siteAuthor.emailEncoded | safe }}">sending me an email</a>. Using <a href="https://useplaintext.email/">plain text email</a> is encouraged.</p>
 
     <p>Read the <a href="/about">About</a> page to learn more about this site and its webmaster.</p>
 

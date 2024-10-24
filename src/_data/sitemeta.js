@@ -4,6 +4,7 @@ export const siteUrl = "https://" + siteDomain || "http://localhost:8080";
 export const siteAuthor = {
 	name: "Leilukin",
 	email: "contact@leilukin.com",
+	emailEncoded: "&#x63;&#x6F;&#x6E;&#x74;&#x61;&#x63;&#x74;&#x40;&#x6C;&#x65;&#x69;&#x6C;&#x75;&#x6B;&#x69;&#x6E;&#x2E;&#x63;&#x6F;&#x6D;",
 	url: siteUrl + "/about"
 };
 export const siteLanguage = "en";
