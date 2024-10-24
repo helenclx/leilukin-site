@@ -1277,11 +1277,6 @@ const hero = document.querySelector(".hero");
                 blurb: `Today is the start of <a href="https://www.grlgbtqhealthcareconsortium.org/significantdates/genderfluid-visibility-week">Genderfluid Visibility Week</a>`,
                 class: "flag-genderfluid",
             };
-        else if (month === 10 && day === 24)
-            return {
-                blurb: `Today is the start of <a href="https://www.grlgbtqhealthcareconsortium.org/significantdates/ace-week">Ace Week</a>`,
-                class: "flag-ace",
-            };
         else if (month === 10 && day === 26)
             return {
                 blurb: `Today is <a href="https://interactadvocates.org/intersex-awareness-day">Intersex Awareness Day</a>`,
