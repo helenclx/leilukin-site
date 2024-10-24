@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-10-16T12:17:50+0800
+updated: 2024-10-24T09:07:21+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 toc: true
@@ -145,7 +145,8 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [From Rubble to Success: Helping Osama Rebuild His Dream](https://www.gofundme.com/f/Helping-Osama-Rebuild-His-Dream) (shared by [90-ghost](https://www.tumblr.com/90-ghost/760346545235329024))
 * [Please help my family in Gaza](https://www.gofundme.com/f/q37qd5-please-help-my-family-in-gaza) (shared by [90-ghost](https://www.tumblr.com/90-ghost/760328893428367360))
 * [Help Eslam Save Her Family](https://www.gofundme.com/f/help-eslam-save-her-family) (row 175 in [Bees and Watermelons](https://linktr.ee/beesandwatermelons)' [priority campaigns spreadsheet](https://docs.google.com/spreadsheets/d/1J-1KNHXmvY098fuCDWiOIm1fcphAgkXA8nnWqOSXouw/edit?gid=283092143#gid=283092143&range=D175))
-    * [Helping my family to evacuate from Gaza](https://www.gofundme.com/f/kr85g-safe-my-family) ([verified by association](https://www.tumblr.com/dlxxv-vetted-donations/759148525328220160/this-campaign-is-vetted-by-association-through); this fundraiser belongs to the sister-in-law of Eslam, another Palestinian whose fundraiser is linked just above)
+    * [Helping my family to evacuate from Gaza](https://www.gofundme.com/f/kr85g-safe-my-family) (verified by [gaza-evacuation-funds](https://www.tumblr.com/gaza-evacuation-funds/760224788809695232/todays-vetted-fundraisers); also [verified by association](https://www.tumblr.com/dlxxv-vetted-donations/759148525328220160/this-campaign-is-vetted-by-association-through); Ayaa Mahmoud, the person this fundraiser belongs to, is the sister-in-law of Eslam, another Palestinian whose fundraiser is linked just above)
+    * [Helping Lama & Mohammed to evacuate from Gaza](https://www.gofundme.com/f/helping-lama-mohammed-to-evacuate-from-gaza) ([verified by association](https://www.tumblr.com/dlxxv-vetted-donations/759976289261305856/lama-is-indeed-vetted-by-association-through); Lama's husband is an acquaintance of Ayaa Mahmoud, whose fundraiser is linked just above)
 * [Help Abood From the War](https://www.gofundme.com/f/help-abboud-from-the-war) ([verified by association](https://www.tumblr.com/dlxxv-vetted-donations/758342969132728320); this fundraiser belongs to the brother of Mohi, whose [fundraiser](https://www.gofundme.com/f/support-mohis-fight-for-survival-in-gaza) was shared by [90-ghost](https://www.tumblr.com/90-ghost/757063664601858048))
 * [Save My Family from the War Nightmare in Gaza](https://www.gofundme.com/f/abgwv-help-us) (shared by [northgazaupdates](https://www.tumblr.com/northgazaupdates/756089494338420736))
 * [Help Salem Family From Gaza](https://www.gofundme.com/f/help-salem-family-from-gaza) (verified by [90-ghost](https://www.tumblr.com/90-ghost/757065439413174272/legit))
