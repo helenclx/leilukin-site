@@ -1,56 +1,36 @@
-:root {
-    --clr-body-bg: #e4e3e3;
-    --clr-body-txt: #141414;
-    --clr-content-bg: #ffffff;
+html { color-scheme: light dark; }
 
-    --clr-top-btn-bg: #552190;
+:root {
+    --clr-body-bg: light-dark(#e4e3e3, #141414);
+    --clr-body-txt: light-dark(#141414, #fff);
+    --clr-content-bg: light-dark(#ffffff, #242424);
+
+    --clr-top-btn-bg: light-dark(#552190, #552190);
     --clr-top-btn-txt: #ffffff;
 
-    --clr-main-heading: #171717;
-    --clr-sub-heading: #111111;
-    --clr-title-border: #7629db;
-    --clr-bold-txt: #da4500;
-    --clr-link: #7629db;
-    --clr-link-hover: #270e48;
-    --clr-quote-bg: #f3f2f2;
-    --clr-quote-border: #414141;
-    --clr-cw-hover: rgb(250, 229, 229);
+    --clr-main-heading: light-dark(#171717, #daaced);
+    --clr-sub-heading: light-dark(#111111, #fff);
+    --clr-title-border: light-dark(#7629db, #9964de);
+    --clr-bold-txt: light-dark(#da4500, #ff9869);
+    --clr-link: light-dark(#7629db, #ce97ff);
+    --clr-link-hover: light-dark(#270e48, #b366f7);
+    --clr-quote-bg: light-dark(#f3f2f2, #141414);
+    --clr-quote-border: light-dark(#414141, #f3f2f2);
+    --clr-cw-hover: #fae5e5;
 
     --clr-code-bg: #f3f2f2;
     --clr-code-border: #414141;
-    --clr-dates: rgb(58, 150, 255);
+    --clr-dates: #3a96ff;
 
     --clr-link-btn-bg: #873eb5;
     --clr-link-btn-txt: white;
     --clr-link-btn-hover: #241445;
 
     --clr-hero-bg: #7944B6;
-    --clr-navbar-bg: #9b59b6;
+    --clr-navbar-bg: light-dark(#9b59b6, #3a0873);
     --clr-navbar-link: white;
 
-    --clr-main-footer-bg: #9b59b6;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --clr-body-bg: #141414;
-        --clr-body-txt: #fff;
-        --clr-content-bg: #242424;
-
-        --clr-top-btn-bg: #552190;
-
-        --clr-main-heading: #daaced;
-        --clr-sub-heading: #fff;
-        --clr-title-border: #9964de;
-        --clr-bold-txt: #ff9869;
-        --clr-link: #ce97ff;
-        --clr-link-hover: #b366f7;
-        --clr-quote-bg: #141414;
-        --clr-quote-border: #f3f2f2;
-
-        --clr-navbar-bg: #3a0873;
-        --clr-main-footer-bg: #3a0873;
-    }
+    --clr-main-footer-bg: light-dark(#9b59b6, #3a0873);
 }
 
 .hero__top-bar,
