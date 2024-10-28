@@ -7,7 +7,7 @@ categories: ["blogging", "social media"]
 
 [Jim Mitchell](https://jimmitchell.org/) wrote a blog post, ["Social Media Hasn't Killed the Personal Blog Just Yet"](https://jimmitchell.org/2024/09/21/social-media-hasnt.html), discussing the decline of personal blogs after social media took off, and the question of if social media killed personal blogs, and if personal blogging can make a comeback. This post caught me by surprise when I discovered it, because recently I have been reflecting on my blogging history, and how social media changed that, with my thoughts ended up being incredibly similar to Jim's.
 
-Blogs have always had a special place in my heart and my history with the web, because blogging was my first foray into creating things on the web way back in the 2000s as a teenager. Teenage me was deeply fascinated by the concept of writing a personal journal on the web, and being able to connect with other people on the internet through reading and commenting on each other's online journal. I have loved writing and like to express myself through writing since I was a child, so blogging seemed to be a great way to do so.
+Blogs have always had a special place in my heart and my history with the web, because blogging was my first foray into creating things and sharing things about myself on the web way back in the 2000s as a teenager. Teenage me was deeply fascinated by the concept of writing a personal journal on the web, and being able to connect with other people on the internet through reading and commenting on each other's online journal. I have loved writing and like to express myself through writing since I was a child, so blogging seemed to be a great way to do so.
 
 Then social media began to take off. Jim Mitchell wrote:
 
