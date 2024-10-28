@@ -73,7 +73,7 @@ a[href^="http"]:not([href*="leilukin.com"]):not(:has(img, svg, picture))::after,
 blockquote > * + :not([class]),
 * + blockquote,
 * + .c-blockquote,
-.c-blockquote__attribution { margin-top: var(--sz-paragraph-margin); }
+.c-blockquote__attribution { margin-block-start: var(--sz-paragraph-margin); }
 
 button:hover { cursor: pointer; }
 details:focus { outline-offset: 0.2em; }
