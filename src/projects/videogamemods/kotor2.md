@@ -125,7 +125,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
 {{ modEntry({
     title: "PartySwap",
     bannerFile: "kotor2mods/PartySwap.avif",
-    desc: "Allows you to recruit both Handmaiden and Disciple in the same playthrough regardless of the player character's gender. Mod originally created by DarthTyren. I have [taken over the management and development of this mod](/shrines/starwarskotor/articles/partyswap-management-takeover) since July 2023 due to DarthTyren's departure from the KotOR modding scene.",
+    desc: "Allows you to recruit both Handmaiden and Disciple in the same playthrough regardless of the player character's gender. Mod originally created by DarthTyren. I have <a href='/shrines/starwarskotor/articles/partyswap-management-takeover'>taken over the management and development of this mod</a> since July 2023 due to DarthTyren's departure from the KotOR modding scene.",
     downloads: [
         {
             site: "Deadly Stream",
@@ -185,7 +185,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
 {{ modEntry({
     title: "Love Between Brianna and the Exile - The Sith Lords Restored Content Mod Version",
     bannerFile: "kotor2mods/Love-Between-Brianna-and-the-Exile-TSLRCM.avif",
-    desc: "Updated version of DarthShgaad's [Love Between Brianna and the Exile](https://www.gamefront.com/games/knights-of-the-old-republic-ii/file/love-between-brianna-and-the-exile) mod, made to be more compatible with The Sith Lords Restored Content Mod (TSLRCM).",
+    desc: "Updated version of DarthShgaad's <a href='https://www.gamefront.com/games/knights-of-the-old-republic-ii/file/love-between-brianna-and-the-exile'>Love Between Brianna and the Exile</a> mod, made to be more compatible with The Sith Lords Restored Content Mod (TSLRCM).",
     downloads: [
         {
             site: "Dropbox",
@@ -333,7 +333,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
 {{ modEntry({
     title: "PartySwap and Extended Enclave Compatibility Patch",
     bannerFile: "kotor2mods/PartySwap-ExtEnclave-Comp-Patch.avif",
-    desc: "A standalone patch to make DarthTyren's [PartySwap](https://deadlystream.com/files/file/544-partyswap/) mod compatible with danil-ch and Darth Hayze's [Extended Enclave](https://deadlystream.com/files/file/428-extended-enclave-tslrcm-add-on/) mod.",
+    desc: "A standalone patch to make DarthTyren's <a href='https://deadlystream.com/files/file/544-partyswap/'>PartySwap</a> mod compatible with danil-ch and Darth Hayze's <a href='https://deadlystream.com/files/file/428-extended-enclave-tslrcm-add-on/'>Extended Enclave</a> mod.",
     downloads: [
         {
             site: "Deadly Stream",
@@ -345,7 +345,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
 {{ modEntry({
     title: "Remote Tells Influence Patch for The Sith Lords Restored Content Mod",
     bannerFile: "kotor2mods/Remote-Tells-Influence-Patch.avif",
-    desc: "A patch to make tk102's [Remote Tells Influence](https://www.gamefront.com/games/knights-of-the-old-republic-ii/file/remote-tells-influence) mod more compatible with The Sith Lords Restored Content Mod (TSLRCM).",
+    desc: "A patch to make tk102's <a href='https://www.gamefront.com/games/knights-of-the-old-republic-ii/file/remote-tells-influence'>Remote Tells Influence</a> mod more compatible with The Sith Lords Restored Content Mod (TSLRCM).",
     downloads: [
         {
             site: "Dropbox",
