@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2024-10-21T21:48:57+0800
+updated: 2024-10-28T18:09:20+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -15,6 +15,7 @@ You can also check out my [status.cafe profile](https://status.cafe/users/leiluk
 
 ## Currently Playing
 
+* {% cite "Slay the Princess" %}
 * {% cite "Neko Atsume" %}
 * {% cite "Neko Atsume 2" %}
 
