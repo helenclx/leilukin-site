@@ -4,12 +4,44 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2024-10-26T00:37:45Z</updated>
+    <updated>2024-10-28T09:18:59Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
         <email>contact@leilukin.com</email>
     </author>
+        
+        <entry>
+            <title>Changelog: 28 October 2024</title>
+            <link href="https://leilukin.com/"/>
+            <updated>2024-10-28T09:17:22Z</updated>
+            <id>https://leilukin.com/</id>
+            <content type="html">&lt;ul&gt;
+&lt;li&gt;New blog post: &lt;a href=&quot;https://leilukin.com/blog/posts/2024-10-28-re-social-media-personal-blog&quot;&gt;&amp;quot;Re: Social Media Hasn&#39;t Killed the Personal Blog Just Yet&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Re: Social Media Hasn&#39;t Killed the Personal Blog Just Yet | Blog</title>
+            <link href="https://leilukin.com/blog/posts/2024-10-28-re-social-media-personal-blog/"/>
+            <updated>2024-10-28T09:16:14Z</updated>
+            <id>https://leilukin.com/blog/posts/2024-10-28-re-social-media-personal-blog/</id>
+            <content type="html">&lt;p&gt;&lt;a href=&quot;https://jimmitchell.org/&quot;&gt;Jim Mitchell&lt;/a&gt; wrote a blog post, &lt;a href=&quot;https://jimmitchell.org/2024/09/21/social-media-hasnt.html&quot;&gt;&amp;quot;Social Media Hasn&#39;t Killed the Personal Blog Just Yet&amp;quot;&lt;/a&gt;, discussing the decline of personal blogs after social media took off, and the question of if social media killed personal blogs, and if personal blogging can make a comeback. This post caught me by surprise when I discovered it, because recently I have been reflecting on my blogging history, and how social media changed that, with my thoughts ended up being incredibly similar to Jim&#39;s.&lt;/p&gt;
+&lt;p&gt;Blogs have always had a special place in my heart and my history with the web, because blogging was my first foray into creating things on the web way back in the 2000s as a teenager. Teenage me was deeply fascinated by the concept of writing a personal journal on the web, and being able to connect with other people on the internet through reading and commenting on each other&#39;s online journal. I have loved writing and like to express myself through writing since I was a child, so blogging seemed to be a great way to do so.&lt;/p&gt;
+&lt;p&gt;Then social media began to take off. Jim Mitchell wrote:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Personal blogs didn’t just disappear in one big poof. It was more like a slow fade. As Facebook, Instagram, and Twitter took off, people – me included – found it easier to share bite-sized pieces of life. Why write a long, reflective post to publish on your personal site when you could sum it up in a quick status update that some “friend” you don’t really even know could give you a mindless like?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I can attest to that, because I was there when bloggers began to use social media, and how social media platforms gradually replaced their personal blogs as means share their thoughts and life updates. I was introduced to Facebook in the late 2000s by other Malaysian Chinese bloggers. As more of us bloggers use Facebook, updates of our personal blogs have gradually decreased.&lt;/p&gt;
+&lt;p&gt;Jim Mitchell&#39;s post talked about the shift to niche or professional blogging, which is a phenomenon I have noticed as well. I do not think blogs ever died, and in fact, even before discovering the personal web and coding my own website from scratch for the first time in 2022, I still found niche blogs to follow and subscribed to their RSS feeds, but social media and search engine optimisation (SEO) have made personal blogs obscure and more difficult to find than niche and professional blogs.&lt;/p&gt;
+&lt;p&gt;That said, exploring the web outside social media and seeing the resurgence of personal websites and blogs on platforms like &lt;a href=&quot;https://neocities.org/&quot;&gt;Neocities&lt;/a&gt; and &lt;a href=&quot;https://bearblog.dev/&quot;&gt;Bear Blog&lt;/a&gt;, gave me hope. I am happy to see people on the personal web are bringing back personal blogs too, which motivated me to include a blog to my website.&lt;/p&gt;
+&lt;p&gt;As Jim Mitchell concluded in his post:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Is social media the death of the personal blog? Not quite. It may have nearly killed it, yes. But for those of us willing to carve out our own space in the digital landscape, personal blogs still have a heartbeat. It just takes more effort to keep it alive.&lt;/p&gt;
+&lt;/blockquote&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Changelog: 17 September 2024</title>
@@ -433,34 +465,6 @@ module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cla
             <id>https://leilukin.com/</id>
             <content type="html">&lt;ul&gt;
 &lt;li&gt;Remake the mobile version of navigation menu by using the HTML &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/popover&quot;&gt;&lt;code&gt;popover&lt;/code&gt;&lt;/a&gt; attirbutes, allowing the navigation menu to be dismissed without JavaScript&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 18 July 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-07-18T04:55:00Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;Add list of web cliques I joined to the home page&lt;/li&gt;
-&lt;li&gt;Add pixel cliques I joined to the &lt;a href=&quot;https://leilukin.com/adoptables&quot;&gt;Adoptables page&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Add a &lt;a href=&quot;https://leilukin.com/links/#joined&quot;&gt;Joined&lt;/a&gt; tab to the &lt;a href=&quot;https://leilukin.com/links&quot;&gt;Links page&lt;/a&gt; to list the web cliques and widgets of web rings I joined, as well as linking to my fanlisting collective.&lt;/li&gt;
-&lt;li&gt;Upgrade Eleventy to version 3.0&lt;/li&gt;
-&lt;li&gt;Bundle page-specific CSS and JavaScript in the &lt;code&gt;&amp;lt;head&amp;gt;&lt;/code&gt; element with Eleventy 3.0&#39;s &lt;a href=&quot;https://github.com/11ty/eleventy-plugin-bundle&quot;&gt;built-in bundle plugin&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 13 July 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-07-13T12:47:00Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;Add an inline SVG icon to external links&lt;/li&gt;
-&lt;li&gt;Use inline SVG for Font Awesome icons to remove the need of hosting Font Awesome assets&lt;/li&gt;
-&lt;li&gt;Add dark mode support for &lt;a href=&quot;https://leilukin.com/shrines/cassettebeasts&quot;&gt;&lt;cite&gt;Cassette Beasts&lt;/cite&gt; shrine&lt;/a&gt; based on user preference in system setting&lt;/li&gt;
 &lt;/ul&gt;
 </content>
         </entry>
