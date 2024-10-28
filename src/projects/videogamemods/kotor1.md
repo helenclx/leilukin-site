@@ -35,7 +35,7 @@ If your issue is not addressed on my mod's page, ask for support or report issue
 {{ modEntry({
     title: "Carth Onasi and Male PC Romance",
     bannerFile: "kotor1mods/Carth-Onasi-and-Male-PC-Romance.avif",
-    desc: "Makes Carth Onasi's romance subplot available for male player characters. [Read the FAQ article](/shrines/starwarskotor/articles/faq-same-gender-romance-mods) before asking questions about my same-gender romance mods for the KotOR series!",
+    desc: "Makes Carth Onasi's romance subplot available for male player characters. <a href='/shrines/starwarskotor/articles/faq-same-gender-romance-mods'>Read the FAQ article</a> before asking questions about my same-gender romance mods for the KotOR series!",
     downloads: [
         {
             site: "Deadly Stream",
