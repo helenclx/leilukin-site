@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2024-10-28T18:09:20+0800
+updated: 2024-10-30T21:53:33+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -17,7 +17,7 @@ You can also check out my [status.cafe profile](https://status.cafe/users/leiluk
 
 * {% cite "Slay the Princess" %}
 * {% cite "Neko Atsume" %}
-* {% cite "Neko Atsume 2" %}
+* {% cite "Pokémon Trading Card Game Pocket" %}
 
 ## Officially Becomes a Professional Web Developer
 
