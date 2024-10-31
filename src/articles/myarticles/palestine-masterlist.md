@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-10-24T09:34:30+0800
+updated: 2024-10-31T16:58:32+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 toc: true
@@ -168,3 +168,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Help Mahmoud's Family Overcome War Tragedy](https://www.gofundme.com/f/help-mahmouds-family-overcome-war-tragedy) (verified by [90-ghost](https://www.tumblr.com/90-ghost/755121680324657152/legit-fundraiser))
 * [Help me get food water and medicine for my little kids !!](https://www.gofundme.com/f/r8kj4-help-me-get-food-water-and-medicine-for-my-little-kids) ([verified by Salaah Bilaal](https://www.tumblr.com/mohammedayyads-blog/760010459463254016/donate-to-help-me-get-food-water-and-medicine-for))
 * [Emergency Appeal: Help Save My Children's](https://www.gofundme.com/f/emergency-appeal-help-save-my-childrens) (#187 in [GazaVetters](https://www.tumblr.com/gazavetters)' [spreadsheet](https://docs.google.com/spreadsheets/d/1YGgkXoyam7tnbXb-vqWsHFs3Puyf_xYeXY2dPrZQY1M/edit?gid=0#gid=0&range=A192))
+* [Help me get my family out of Gaza. Their lives have become v](https://www.gofundme.com/f/help-me-get-my-family-out-of-gaza-their-lives-have-become-v) (#192 in [GazaVetters](https://www.tumblr.com/gazavetters)' [spreadsheet](https://docs.google.com/spreadsheets/d/1YGgkXoyam7tnbXb-vqWsHFs3Puyf_xYeXY2dPrZQY1M/edit?gid=0#gid=0&range=A197))
