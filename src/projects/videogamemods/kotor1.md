@@ -213,7 +213,7 @@ If your issue is not addressed on my mod's page, ask for support or report issue
 {{ modEntry({
     title: "KotOR 1 No Gendered Dialogue from Male NPCs",
     bannerFile: "kotor1mods/K1-No-Gendered-Dialogue-Male-NPCs.avif",
-    desc: "MOD_DESC",
+    desc: "Removes male NPC dialogues that involve them flirting with female player characters or remarking on the female PC's gender or appearance.",
     downloads: [
         {
             site: "Deadly Stream",
