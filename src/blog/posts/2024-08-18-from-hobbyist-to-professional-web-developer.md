@@ -16,11 +16,7 @@ In particular, there was a Taiwanese blogger who was a professional designer who
 
 ## Rekindled Interest in Web Design
 
-Fast forward to 2022, my interest in web design was rekindled when I discovered Neocities through Tumblr and the resurgence of creating personal websites, so I decided to build and code my own website to gather various stuff I have created and curated across various online spaces. For this, I re-learned HTML and CSS, and began to truly experience the joy of carving one's own space on the web, and the more I worked on my website, the more I learned about not only web design, but also web development, by dabbling in JavaScript, which became the first programming language I actually learned.
-
-{% disclosure "Side Note: First programming language I used" %}
-Technically, the first programming language I had ever used is NWScript, a scripting language based on the C programming language and used for the video games {% cite "Neverwinter Nights" %} and {% cite "Star Wars: Knights of the Old Republic" %} series, since I got into modding, including creating mods for the {% cite "Knights of the Old Republic" %} games before building my website, but I did not actually learn or understand programming concepts (such as variables, data types, etc.) until I started to learn JavaScript, so I do not count NWScript as my first programming language.
-{% enddisclosure %}
+Fast forward to 2022, my interest in web design was rekindled when I discovered Neocities through Tumblr and the resurgence of creating personal websites, so I decided to build and code my own website to gather various stuff I have created and curated across various online spaces. For this, I re-learned HTML and CSS, and began to truly experience the joy of carving one's own space on the web, and the more I worked on my website, the more I learned about not only web design, but also web development, by dabbling in JavaScript.
 
 Furthermore, despite being burned out from graphic design as a profession, my graphic design background does come in handy in building Leilukin's Hub, by designing and creating graphics for my website, including header image, site button, favicon, etc., as well as applying my design knowledge and skill to design my own website, from colour schemes to layout.
 
