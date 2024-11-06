@@ -91,6 +91,9 @@ Late 2019
 2 September 2024
 : Version update 1.7 [announced](https://www.youtube.com/watch?v=Bjca8IIu0YQ&t=4097s) in Monster Taming Direct 2024.
 
+6 November 2024
+: Version 1.7 "Gauntlet Update" and "Fashion Pack" cosmetic DLC [announced](https://store.steampowered.com/news/app/1321440/view/4553794655131533509) to be released on 20 November 2024, with a [trailer](https://www.youtube.com/watch?v=Vpi3nfVnMVo).
+
 ## Accolades
 
 {% cite "Cassette Beasts" %} was [nominated for The British Game](https://twitter.com/ByttenStudio/status/1765742782700782040) at the 20th British Academy (BAFTA) Games Awards.
