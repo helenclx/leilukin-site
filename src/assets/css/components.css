@@ -160,8 +160,10 @@ a.link-btn[href^="http"]:not([href*="leilukin.com"]) { padding-right: calc(var(-
 
 .adoptables { align-items: flex-end; }
 p + .adoptables { margin-top: 1em; }
+
 .web-badges {
     justify-content: center;
+    align-items: center;
     margin-bottom: 0.5em;
 }
 
