@@ -39,6 +39,9 @@
         {% if toc %}
         <script src="{{'/assets/js/details-utils.js'}}" defer></script>
         {% endif %}
+        {% if hasTooltips %}
+        <script src="/assets/js/tooltips.js" defer></script>
+        {% endif %}
 
         <title>
             {% block pageTitle %}{{ title + " | " if title }}{{ sitemeta.siteName | safe }}{% endblock %}
@@ -52,16 +55,5 @@
             {{ content | safe }}
         </main>
         {% block footer %}{% include "global/footer.njk" %}{% endblock %}
-        {% if hasTooltips %}
-        <script src="/assets/js/tooltips.js"></script>
-        <script>
-            var selector = '[data-tooltip]';
-            var els = document.querySelectorAll(selector);
-
-            for ( var i = 0; i < els.length; i++ ) {
-                var dm = new ARIAtip( els[i] );
-            }
-        </script>
-        {% endif %}
     </body>
 </html>
