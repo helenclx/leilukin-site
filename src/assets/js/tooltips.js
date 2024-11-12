@@ -301,3 +301,10 @@ var util = {
 
     w.ARIAtip = ARIAtip;
 })( window, document );
+
+var selector = '[data-tooltip]';
+var els = document.querySelectorAll(selector);
+
+for ( var i = 0; i < els.length; i++ ) {
+    var dm = new ARIAtip( els[i] );
+}
