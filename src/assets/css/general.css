@@ -5,7 +5,7 @@ body {
     flex-direction: column;
     font-family: var(--ff-default);
     color: var(--clr-body-txt);
-    background-color: var(--clr-body-bg);
+    background: var(--clr-body-bg);
 }
 
 main {
