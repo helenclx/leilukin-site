@@ -5,11 +5,12 @@ categories: ["shrines", "pokemon", "pokemon oras"]
 title: Pokémon Omega Ruby and Alpha Sapphire Shrine
 date: 2024-11-15T19:46:38+0800
 isContentDivided: true
+eleventyExcludeFromCollections: true
 toc: true
-# eleventyNavigation:
-#     key: ORAS Shrine
-#     title: Pokémon Omega Ruby and Alpha Sapphire Shrine
-#     parent: Shrines
+eleventyNavigation:
+    key: ORAS Shrine
+    title: Pokémon Omega Ruby and Alpha Sapphire Shrine
+    parent: Shrines
 eleventyComputed:
     desc: "{{ sitemeta.siteAuthor.name }}'s shrine for Pokémon Omega Ruby and Alpha Sapphire."
 ---
