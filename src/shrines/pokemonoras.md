@@ -8,6 +8,7 @@ isContentDivided: true
 toc: true
 eleventyNavigation:
     key: ORAS Shrine
+    title: Pokémon Omega Ruby and Alpha Sapphire Shrine
     parent: Shrines
 eleventyComputed:
     desc: "{{ sitemeta.siteAuthor.name }}'s shrine for Pokémon Omega Ruby and Alpha Sapphire."
