@@ -2,7 +2,6 @@
 layout: starwarskotor/content
 tags: ["shrine home", "contents"]
 categories: ["shrines", "star wars kotor", "star wars kotor 2"]
-title: "Star Wars: Knights of the Old Republic Shrine"
 date: 2023-02-17
 isContentDivided: true
 toc: true

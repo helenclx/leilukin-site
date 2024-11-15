@@ -2,7 +2,6 @@
 layout: cassettebeasts/content
 tags: ["shrine home", "contents"]
 categories: ["shrines", "cassette beasts"]
-title: Cassette Beasts Shrine
 date: 2023-08-03
 isContentDivided: true
 toc: true
