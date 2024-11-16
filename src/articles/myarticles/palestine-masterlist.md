@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-11-10T10:42:49+0800
+updated: 2024-11-16T10:01:06+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 toc: true
@@ -39,6 +39,7 @@ Here, I am compiling a list of resources related to Palestine. This list is not 
 * [Palestine Children's Relief Fund](https://www.pcrf.net/)
 * [eSims for Gaza](https://gazaesims.com/)
 * [Crips for eSims for Gaza](https://chuffed.org/project/crips-for-esims-for-gaza)
+* [Gaza Soup Kitchen](https://gazasoupkitchen.org/)
 * [Gaza Funds](https://gazafunds.com)
 * [Operation Olive Branch](https://docs.google.com/spreadsheets/d/1vtMLLOzuc6GpkFySyVtKQOY2j-Vvg0UsChMCFst_WLA/htmlview)
 * [Operation Poppy Flower](https://www.operationpoppyflower.com/)
