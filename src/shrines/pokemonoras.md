@@ -50,7 +50,7 @@ However, in the early 2010s, my video game interest started to shift focus to Bi
 
 ![Official artwork of Primal Groudon and Primal Kyogre]({{ imageAssetBaseUrl }}Primal_Groudon_and_Primal_Kyogre_artwork.avif)
 
-I had learned that {% cite "Pokémon Ruby" %} and {% cite "Sapphire" %} would be getting remakes in 2014. Even though I did not consider Generation 3 my favourite Pokémon generation, I was happy that they were getting remakes, because I remember that the Hoenn region and the games based on the region were not very popular among {% cite "Pokémon" %} fans when they were first released. Fortunately, as Hoenn fans grew up, they were more vocal about their appreciation for and defence of the games.
+In 2014, I had learned that {% cite "Pokémon Ruby" %} and {% cite "Sapphire" %} would be getting remakes would be released in that year. Even though I did not consider Generation 3 my favourite Pokémon generation, I was happy that they were getting remakes, because I remember that the Hoenn region and the games based on the region were not very popular among {% cite "Pokémon" %} fans when they were first released. Fortunately, as Hoenn fans grew up, they were more vocal about their appreciation for and defence of the games.
 
 However, by the time Generation 6 of {% cite "Pokémon" %} began in 2013 with {% cite "Pokémon X" %} and {% cite "Y" %}, my main interest had changed to BioWare games and {% cite "Ace Attorney" %}, so I ended up not playing both {% cite "X" %} and {% cite "Y" %} as well as {% cite "Omega Ruby" %} and {% cite "Alpha Sapphire" %} when they were released, despite owning a Nintendo 3DS.
 
