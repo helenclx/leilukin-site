@@ -42,7 +42,7 @@ I decided to give Generation 3 another chance, many years after my initial disap
 
 My rekindled interest in Pokémon remained throughout the rest of Generation 4 and then Generation 5. When I played Generation 3 and 4 for the first time to catch up, it was known that {% cite "Pokémon HeartGold" %} and {% cite "SoulSilver" %}, remakes of the {% cite "Pokémon Gold" %} and {% cite "Silver" %}, would be released soon. I was already looking forward to {% cite "HeartGold" %} and {% cite "SoulSilver" %} because Generation 2 was my favourite, and when I played {% cite "HeartGold" %} for the first time, it instantly became my favourite Pokémon game. Later I followed the release of Generation 5 games, and played {% cite "Pokémon Black" %} and its sequel {% cite "Pokémon Black 2" %} and enjoyed them as well.
 
-However, in the early 2010s, my video game interest started to shift focus to BioWare games and the {% cite "Ace Attorney" %} series. As a result, my interest in {% cite "Pokémon" %} became dormant again, until I played {% cite "Pokémon Omega Ruby" %} and {% cite "Alpha Sapphire" %} for the first time in 2021.
+However, in the early 2010s, my video game interest started to shift focus to BioWare games and the {% cite "Ace Attorney" %} series. As a result, my interest in {% cite "Pokémon" %} became dormant again until 2021.
 {% endcontainer %}
 
 {% container "article", "content__section" %}
