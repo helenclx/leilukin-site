@@ -1,7 +1,7 @@
 ---
 title: Articles
 date: 2024-07-03
-updated: 2024-09-14T11:41:22+0800
+updated: 2024-11-17T10:28:18+0800
 ---
 
 ### LGBTQ+
@@ -20,6 +20,7 @@ updated: 2024-09-14T11:41:22+0800
 * [In Defence of Critique: Let People Enjoy Not Enjoying Things](https://www.evilfemale.blog/p/in-defence-of-critique-let-people) by charlie squire
 
 ### Web
+* [The one app to read them all already exists, and it’s called RSS](https://journal.jatan.space/why-use-rss/) by Jatan Mehta
 * [Nostalgia is Bullshit](https://wings.nu/nostalgia/) by Rin
 * [Cohost So White: A Comprehensive Record of the Matter of Race on Cohost.org](https://alyaza.neocities.org/essays/Cohost/cohostsowhite) by Alyaza Birze
 
