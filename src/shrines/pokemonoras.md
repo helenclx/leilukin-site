@@ -2,7 +2,7 @@
 layout: pokemonoras/content
 tags: ["shrine home", "contents"]
 categories: ["shrines", "pokemon", "pokemon oras"]
-date: 2024-11-15T19:46:38+0800
+date: 2024-11-17T17:00:18+0800
 isContentDivided: true
 eleventyExcludeFromCollections: true
 toc: true
@@ -30,9 +30,9 @@ Announced worldwide on the official Pokémon websites on 7 May 2014, {% cite "Om
 
 ![Official Pokémon Omega Ruby and Alpha Sapphire artwork of the Hoenn region]({{ imageAssetBaseUrl }}Hoenn_ORAS.avif)
 
-I was introduced to {% cite "Pokémon" %} in the late 1990s through its very first game, {% cite "Pokémon Red" %}. Like many other children my age, I quickly became a Pokémon fan. Later I also played {% cite "Pokémon Gold" %} and {% cite "Pokémon Crystal" %}, which are part of the second generation of Pokémon core series games, with {% cite "Crystal" %} being my absolute favourite Pokémon game as a child.
+I was introduced to {% cite "Pokémon" %} in the late 1990s through its very first game, {% cite "Pokémon Red" %}. Like many other children my age, I quickly became a Pokémon fan. Later I also played {% cite "Pokémon Gold" %} and {% cite "Pokémon Crystal" %}, the second generation of Pokémon core series games, with {% cite "Crystal" %} being my absolute favourite Pokémon game as a child.
 
-However, in the early 2000s, the Pokémon mania died down. {% cite "Pokémon" %} released its third generation of games starting with {% cite "Ruby" %} and {% cite "Sapphire" %}. However, when I tried out {% cite "Ruby" %}, I was disappointed to learn that I could not revisit any of the past regions, which was a major part of why I adored Generation 2.
+However, in the early 2000s, the Pokémon mania died down. {% cite "Pokémon" %} released its third generation of games starting with {% cite "Ruby" %} and {% cite "Sapphire" %}. However, when I tried out {% cite "Ruby" %}, I was disappointed to learn that only a few of the previous generation of Poké were available in the game, and I could not revisit any of the past regions, which was a major part of why I adored Generation 2.
 
 Meanwhile, {% cite "Digimon" %} replacing {% cite "Pokémon" %} as the Mon franchise cool kids liked and talked about in my primary school — I still vividly remember a classmate dismissively telling me that Pokémon was out of fashion. As a result, the combination of my lack of interest in Generation 3 of Pokémon and my changed interest to {% cite "Digimon" %}, I moved on from {% cite "Pokémon" %} for the rest of my primary school years. As a result, I did not play any of the third generation of Pokémon games when they were released.
 
