@@ -2,7 +2,7 @@
 layout: pokemonoras/content
 tags: ["shrine home", "contents"]
 categories: ["shrines", "pokemon", "pokemon oras"]
-date: 2024-11-17T17:00:18+0800
+date: 2024-11-17T18:07:09+0800
 isContentDivided: true
 eleventyExcludeFromCollections: true
 toc: true
@@ -60,7 +60,7 @@ To my surprise, this time after catching up with the {% cite "Pokémon" %} main 
 {% endcontainer %}
 
 {% container "article", "content__section" %}
-## Why {% cite "Pokémon Omega Ruby" %} and {% cite "Alpha Sapphire" %} are My Favourite Pokémon Games
+## Why {% cite "Omega Ruby" %} and {% cite "Alpha Sapphire" %} are My Favourite Pokémon Games
 
 You may be wondering why {% cite "Pokémon Omega Ruby" %} and {% cite "Alpha Sapphire" %} are my favourite Pokémon games, since they are not a common answer to the question "What is your favourite Pokémon game?" Even as far as Pokémon game remakes go, you may be more likely to hear Pokémon fans consider {% cite "HeartGold" %} and {% cite "SoulSilver" %} as their favourite, if not even their favourite Pokémon games ever. Admittedly, before finally playing {% cite "Alpha Sapphire" %}, that used to be the case for me too.
 
