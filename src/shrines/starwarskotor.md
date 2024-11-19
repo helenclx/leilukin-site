@@ -1,5 +1,6 @@
 ---
 layout: starwarskotor/content
+pageTitle: "Star Wars: Knights of the Old Republic Shrine"
 tags: ["shrine home", "contents"]
 categories: ["shrines", "star wars kotor", "star wars kotor 2"]
 date: 2023-02-17
