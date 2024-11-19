@@ -1,5 +1,6 @@
 ---
 layout: cassettebeasts/content
+pageTitle: Cassette Beasts Shrine
 tags: ["shrine home", "contents"]
 categories: ["shrines", "cassette beasts"]
 date: 2023-08-03

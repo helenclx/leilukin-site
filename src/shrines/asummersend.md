@@ -1,5 +1,6 @@
 ---
 layout: asummersend/content
+pageTitle: A Summer’s End — Hong Kong 1986 Shrine
 tags: ["shrine home", "contents"]
 categories: ["shrines", "a summer's end"]
 date: 2023-02-16
