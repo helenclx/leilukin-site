@@ -65,6 +65,30 @@ Moreover, I ended up unlocking all 123 achievements on Steam on 13 March 2024. V
 {% endcontainer %}
 
 {% container "article", "content__section" %}
+## {% cite "Cassette Beasts" %} — My Ultimate Comfort Media
+
+![Official screenshot of Harbourtown in Cassette Beasts]({{ imageAssetBaseUrl }}cassettebeasts-website_screenshot_02-1.avif)
+
+{% cite "Cassette Beasts" %} is my number one comfort media and favourite video game, because it reaffirms my taste in video games by combining just about everything I like to see in a video game:
+
+- Companion characters with their own story arcs whom you can team up with in battle and build platonic or romantic relationships with
+- A roster of creatures with interesting designs
+- Racially diverse cast of human characters that include visibly Black and brown characters
+- Unambiguously canon LGBTQ+ characters
+- Character creator with they/them pronouns options
+- Turn-based battles with interesting mechanics
+- A huge world to explore
+- Eldritch horrors beyond comprehension with intriguing lore
+- Story with an optimistic message about humanity
+- Leftist messages, including anti-capitalism and anti-imperialism
+- Excellent soundtrack
+- And more!
+
+{% cite "Cassette Beasts" %} has the distinct honour of being one of my favourite entertainment media because not only I like it and find it entertaining, but also I genuinely consider it a well-made masterpiece. The more I played and explored {% cite "Cassette Beasts" %}, the more amazed I was for how much thought was clearly put into making the game, which only got reinforced after reading trivia about the game [on its official wiki](https://wiki.cassettebeasts.com/wiki/Main_Page).
+
+{% endcontainer %}
+
+{% container "article", "content__section" %}
 ## My Contributions to the {% cite "Cassette Beasts" %} Community
 
 ![Pre-release artwork of Kayleigh, Meredith and Eugene from Cassette Beasts]({{ imageAssetBaseUrl }}cassettebeasts-website_screenshot_07.avif)
