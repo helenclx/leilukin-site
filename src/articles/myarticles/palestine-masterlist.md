@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-11-20T09:51:33+0800
+updated: 2024-11-20T09:57:04+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 toc: true
@@ -173,3 +173,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Support Khawla's Family in Gaza Crisis](https://www.gofundme.com/f/support-khawlas-family-in-gaza-crisis) ([verified by association](https://www.tumblr.com/ana-bananya/761532739985047552/donate-to-support-khawlas-family-in-gaza-crisis); this fundraiser belongs to the sister of Mohi, whose [fundraiser](https://www.gofundme.com/f/support-mohis-fight-for-survival-in-gaza) was shared by [90-ghost](https://www.tumblr.com/90-ghost/757063664601858048))
 * [Help Ahlam Rebuild Her Life and Dreams](https://www.gofundme.com/f/help-ahlam-rebuild-her-life-and-dreams) (#73 in [GazaVetters](https://www.tumblr.com/gazavetters)' [spreadsheet](https://docs.google.com/spreadsheets/d/1YGgkXoyam7tnbXb-vqWsHFs3Puyf_xYeXY2dPrZQY1M/edit?gid=0#gid=0&range=A78))
 * [Help Zaen and Yehya to get out of Gaza](https://www.gofundme.com/f/help-zaen-and-yehya-to-get-out-of-gaza) (#127 in [GazaVetters](https://www.tumblr.com/gazavetters)' [spreadsheet](https://docs.google.com/spreadsheets/d/1YGgkXoyam7tnbXb-vqWsHFs3Puyf_xYeXY2dPrZQY1M/edit?gid=0#gid=0&range=A132))
+* [Help this family to get out of Gaza](https://www.gofundme.com/f/help-this-family-to-get-out-of-gaza) (#111 in [GazaVetters](https://www.tumblr.com/gazavetters)' [spreadsheet](https://docs.google.com/spreadsheets/d/1YGgkXoyam7tnbXb-vqWsHFs3Puyf_xYeXY2dPrZQY1M/edit?gid=0#gid=0&range=A116))
