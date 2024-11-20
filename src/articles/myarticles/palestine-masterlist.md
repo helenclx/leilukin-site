@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-11-16T10:01:06+0800
+updated: 2024-11-20T09:51:33+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 toc: true
@@ -83,7 +83,6 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Help Ahmed family to travel to a save place](https://www.gofundme.com/f/help-ahmed-family-to-travel) (veridied by [nabulsi](https://www.tumblr.com/nabulsi/752576616277868544/hello-how-are-you-my-name-is-ahmed-im-from))
 * [Help my family escape Gaza](https://www.gofundme.com/f/byt93-help-my-family-escape-gaza) (#231 in [el-shab-hussein and nabulsi’s Vetted Gaza Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0&range=A235))
 * [Hope for Gaza: Support Ashraf's Family Rebuild Their Lives](https://www.gofundme.com/f/hope-for-gaza-support-ashrafs-family-rebuild-their-lives) (verified by [90-ghost](https://www.tumblr.com/90-ghost/754535164856664064/legit-fundraiser))
-* [Help Zaen and Yehya to get out of Gaza](https://www.gofundme.com/f/help-sara-and-her-family-to-evacuate-gaza) (shared by [90-ghost](https://www.tumblr.com/90-ghost/754093176508268544))
 * [A Father's Plea: Help Save My Family](https://www.gofundme.com/f/btuqqt-save-my-familys-life) (verified by [el-shab-hussein](https://www.tumblr.com/el-shab-hussein/754087744556449792/vetted-family-fundraiser-masterpost-3))
 * [Help Moamen Majed rebuild his life after the war](https://www.gofundme.com/f/help-moamen-majed-rebuild-his-life-after-the-war) (verified by [90-ghost](https://www.tumblr.com/90-ghost/755355718664830976/moamenmajed-gaza-are-they-a-vetted-fundraiser))
 * [Save Gaza: A Brighter Future for Aya and Her Family](https://www.gofundme.com/f/save-gaza-a-brighter-future-for-aya-and-her-family) (shared by [90-ghost](https://www.tumblr.com/90-ghost/754992024939347968))
@@ -173,3 +172,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Save the family of Salman Hellis from the Gaza Strip](https://www.gofundme.com/f/save-the-family-of-salman-hellis-from-the-gaza-strip) (verified by [90-ghost](https://www.tumblr.com/90-ghost/761647879548993536))
 * [Support Khawla's Family in Gaza Crisis](https://www.gofundme.com/f/support-khawlas-family-in-gaza-crisis) ([verified by association](https://www.tumblr.com/ana-bananya/761532739985047552/donate-to-support-khawlas-family-in-gaza-crisis); this fundraiser belongs to the sister of Mohi, whose [fundraiser](https://www.gofundme.com/f/support-mohis-fight-for-survival-in-gaza) was shared by [90-ghost](https://www.tumblr.com/90-ghost/757063664601858048))
 * [Help Ahlam Rebuild Her Life and Dreams](https://www.gofundme.com/f/help-ahlam-rebuild-her-life-and-dreams) (#73 in [GazaVetters](https://www.tumblr.com/gazavetters)' [spreadsheet](https://docs.google.com/spreadsheets/d/1YGgkXoyam7tnbXb-vqWsHFs3Puyf_xYeXY2dPrZQY1M/edit?gid=0#gid=0&range=A78))
+* [Help Zaen and Yehya to get out of Gaza](https://www.gofundme.com/f/help-zaen-and-yehya-to-get-out-of-gaza) (#127 in [GazaVetters](https://www.tumblr.com/gazavetters)' [spreadsheet](https://docs.google.com/spreadsheets/d/1YGgkXoyam7tnbXb-vqWsHFs3Puyf_xYeXY2dPrZQY1M/edit?gid=0#gid=0&range=A132))
