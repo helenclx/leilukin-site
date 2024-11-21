@@ -23,6 +23,7 @@ You can find facts and trivia about the game from:
     * [Reddit AMA on r/JRPG](https://www.reddit.com/r/JRPG/comments/12kobbo/were_bytten_studio_the_developers_of_cassette/) on 13 April 2023
     * [Reddit AMA on r/NintendoSwitch](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/) on 1 July 2023
     * [Reddit AMA on r/JRPG](https://www.reddit.com/r/JRPG/comments/1bniroh/we_are_bytten_studio_developers_of_the/) on 25 March 2024
+    * [Reddit AMA on r/cassettebeasts](https://www.reddit.com/r/cassettebeasts/comments/1gvucl7/we_are_bytten_studio_the_developers_of_cassette/) on 20 November 2024
 
 [Here is a list of interviews](https://wiki.cassettebeasts.com/wiki/List_of_Interviews) that staff who worked on Cassette Beasts participated in and discussed {% cite "Cassette Beasts" %}.
 
