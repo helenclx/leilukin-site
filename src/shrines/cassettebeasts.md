@@ -84,6 +84,8 @@ Moreover, I ended up unlocking all 123 achievements on Steam on 13 March 2024. V
 - Excellent soundtrack
 - And more!
 
+I enjoy every moment of {% cite "Cassette Beasts" %}, a sentiment I can genuinely apply to only a very few games.
+
 {% cite "Cassette Beasts" %} has the distinct honour of being one of my favourite entertainment media because not only I like it and find it entertaining, but also I genuinely consider it a well-made masterpiece. The more I played and explored {% cite "Cassette Beasts" %}, the more amazed I was for how much thought was clearly put into making the game, which only got reinforced after reading trivia about the game [on its official wiki](https://wiki.cassettebeasts.com/wiki/Main_Page).
 
 {% endcontainer %}
