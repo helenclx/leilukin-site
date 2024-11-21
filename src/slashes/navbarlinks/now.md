@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2024-10-30T21:53:33+0800
+updated: 2024-11-21T10:57:20+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -13,13 +13,7 @@ This is my [/now page](https://nownownow.com/about). You can find more pages lik
 
 You can also check out my [status.cafe profile](https://status.cafe/users/leilukin) for my latest short status updates.
 
-## Currently Playing
-
-* {% cite "Slay the Princess" %}
-* {% cite "Neko Atsume" %}
-* {% cite "Pokémon Trading Card Game Pocket" %}
-
-## Officially Becomes a Professional Web Developer
+## Officially Became a Professional Web Developer
 
 Starting from 16 August 2024, I am officially a professional web developer now! I owe much to this very website for inspiring me to pursue web development as a profession.
 
