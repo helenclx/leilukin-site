@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-11-25T10:54:22+0800
+updated: 2024-11-27T00:24:38+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 toc: true
@@ -175,3 +175,4 @@ There are Palestinians who have reached out to me on Tumblr to ask for help with
 * [Help Zaen and Yehya to get out of Gaza](https://www.gofundme.com/f/help-zaen-and-yehya-to-get-out-of-gaza) (#127 in [GazaVetters](https://www.tumblr.com/gazavetters)' [spreadsheet](https://docs.google.com/spreadsheets/d/1YGgkXoyam7tnbXb-vqWsHFs3Puyf_xYeXY2dPrZQY1M/edit?gid=0#gid=0&range=A132))
 * [Help this family to get out of Gaza](https://www.gofundme.com/f/help-this-family-to-get-out-of-gaza) (#111 in [GazaVetters](https://www.tumblr.com/gazavetters)' [spreadsheet](https://docs.google.com/spreadsheets/d/1YGgkXoyam7tnbXb-vqWsHFs3Puyf_xYeXY2dPrZQY1M/edit?gid=0#gid=0&range=A116))
 * [Help me to evacuate from this crazy war in Gaza](https://www.gofundme.com/f/m6hdrt-support-ahmad-to-complete-his-education) (#119 in [GazaVetters](https://www.tumblr.com/gazavetters)' [spreadsheet](https://docs.google.com/spreadsheets/d/1YGgkXoyam7tnbXb-vqWsHFs3Puyf_xYeXY2dPrZQY1M/edit?gid=0#gid=0&range=A124))
+* [Help Ahmed Continue His Education and Support His Family](https://www.gofundme.com/f/help-ahmed-continue-his-education-and-support-his-family) (#303 in [GazaVetters](https://www.tumblr.com/gazavetters)' [spreadsheet](https://docs.google.com/spreadsheets/d/1YGgkXoyam7tnbXb-vqWsHFs3Puyf_xYeXY2dPrZQY1M/edit?gid=0#gid=0&range=A308))
