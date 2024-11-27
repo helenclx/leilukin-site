@@ -1,7 +1,7 @@
 ---
 title: Accessibility
 keyword: accessibility statement
-updated: 2024-08-01
+updated: 2024-11-27T14:39:00+0800
 eleventyNavigation:
     order: 13
 ---
@@ -33,7 +33,6 @@ I use the following tools to test my site for accessibility:
 * [Alex Clapperton's Colour Contrast Checker](https://colourcontrast.cc/)
 * [NVDA](https://www.nvaccess.org/about-nvda/) screen reader for Windows
 * TalkBack screen reader for Android
-* VoiceOver screen reader for iOS
 
 In addition, I test the accessibility of my website manually by navigating with keyboard alone.
 
