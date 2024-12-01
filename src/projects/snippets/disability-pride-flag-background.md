@@ -7,7 +7,7 @@ eleventyNavigation:
 
 There have been CSS code snippets of LGBTQ+ pride flag backgrounds out there, but I could not find one for the [Disability Pride Flag](https://www.womansday.com/life/a43964487/disability-pride-flag/), which was created by [Ann Magill](https://capri0mni.dreamwidth.org/837596.html) and released in 2021.
 
-Therefore, at the start of [Disability Pride Month](https://www.weareincludability.co.uk/resources/what-is-disability-pride-month) in July 2024, I decided to code a Disability Pride Flag background in CSS, and now I am releasing my code snippet for public use.
+Therefore, at the start of [Disability Pride Month](https://en.wikipedia.org/wiki/Disability_Pride_Month) in July 2024, I decided to code a Disability Pride Flag background in CSS, and now I am releasing my code snippet for public use.
 
 My Disability Pride Flag CSS background is done with a combination of CSS background properties and inline SVG URL, and designed to be responsive, so it can adapt to different screen sizes and devices.
 
