@@ -1245,7 +1245,7 @@ const hero = document.querySelector(".hero");
             };
         else if (month === 7)
             return{
-                blurb: `Happy <a href="https://www.them.us/story/what-is-disability-pride-month-ableism-disability-allyship">Disability Pride Month</a>!`,
+                blurb: `Happy <a href="https://diversity.ldeo.columbia.edu/heritage-months/disability-pride">Disability Pride Month</a>!`,
                 class: "flag-disability"
             }
         else if (month === 8 && day === 25)
