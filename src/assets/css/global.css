@@ -48,6 +48,8 @@
     --sz-navbar-ht: 4rem;
     --sz-external-link: 1.25em;
     --sz-content-list-gap: 0.7em;
+
+    --ht-sticky-sidebar: 89vh;
 }
 
 /* ------------------- */
