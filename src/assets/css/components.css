@@ -184,6 +184,7 @@ p + .adoptables { margin-top: 1em; }
 .tab__btn {
     display: inline-block;
     color: var(--clr-code-bg);
+    font-weight: 700;
     background-color: var(--clr-title-border);
     text-decoration: none;
     padding: 0.4em 0.8em;
