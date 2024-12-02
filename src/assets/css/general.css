@@ -35,11 +35,7 @@ strong { color: var(--clr-bold-txt); }
 
 :focus { outline: 0.15em solid currentColor; }
 
-a {
-    font-weight: 700;
-    color: var(--clr-link);
-}
-
+a { color: var(--clr-link); }
 a:hover { color: var(--clr-link-hover); }
 a:not([class]):focus { outline: 0.15rem solid var(--clr-link); }
 a:hover img, a:focus img { outline: 0.2em solid currentColor; }
