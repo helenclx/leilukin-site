@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2024-11-21T10:57:20+0800
+updated: 2024-12-02T12:41:51+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -12,6 +12,12 @@ eleventyComputed:
 This is my [/now page](https://nownownow.com/about). You can find more pages like this at [nownownow.com](https://nownownow.com/).
 
 You can also check out my [status.cafe profile](https://status.cafe/users/leilukin) for my latest short status updates.
+
+## Video Games I am Playing
+
+* {% cite "Cassette Beasts" %}
+* {% cite "Neko Atsume" %}
+* {% cite "Pokémon Trading Card Game Pocket" %}
 
 ## Officially Became a Professional Web Developer
 
