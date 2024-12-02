@@ -48,7 +48,48 @@
         
         <link rel="stylesheet" href="/assets/css/global.css"><link rel="stylesheet" href="/assets/css/general.css"><link rel="stylesheet" href="/assets/css/content.css"><link rel="stylesheet" href="/assets/css/plugins.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/a11y-syntax-highlighting-dark.css"><link rel="stylesheet" href="/assets/css/pridesymbols.css"><link rel="stylesheet" href="/assets/css/utility.css">
         
-        <style>.content__nav {
+        <style>.toc__wrapper {
+        max-height: 89vh;
+        overflow-x: auto;
+        background-color: var(--clr-content-bg);
+        padding: 1rem 1.3rem;
+    }
+
+    .toc__heading {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: var(--clr-sub-heading);
+    }
+
+    .toc ol,
+    .toc ol ol {
+        display: grid;
+        gap: 0.3em;
+    }
+
+    .toc ol {
+        border-top: 0.1em solid var(--clr-title-border);
+        padding-left: 1.3em;
+        padding-top: 1em;
+    }
+
+    .toc ol ol {
+        border-top: none;
+        list-style-type: disc;
+        padding-left: 1em;
+        padding-top: 0.3em;
+    }
+
+    .toc ol a {
+        font-size: 1.1rem;
+        padding-left: 0.3em;
+    }
+
+    .toc ol ol a {
+        padding: 0;
+        font-size: 1rem;
+    }
+.content__nav {
         padding: 1.2em clamp(1em, 5%, 1.5em);
         background-color: var(--clr-content-bg);
     }
@@ -269,6 +310,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
         
         <script src="/assets/js/D968lGk6J8.js" defer=""></script>
         
+        <script src="/assets/js/details-utils.js" defer=""></script>
+        
         
 
         <title>
@@ -407,6 +450,20 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
 </header>
 
 <content-wrapper>
+    
+    <aside class="left-sidebar" aria-label="Left sidebar">
+    <details-utils force-open="(min-width: 60rem)" force-restore="">
+        <details class="toc__wrapper sidebar--sticky">
+            <summary class="toc__heading" id="toc-heading">
+                Table of Contents
+            </summary>
+            <nav class="toc" aria-labelledby="toc-heading"><ol><li><a href="#impact-of-a-kind-and-generous-stranger">Impact of a Kind and Generous Stranger</a></li>
+<li><a href="#strangers-impact-on-my-career-choices">Strangers' Impact on My Career Choices</a></li>
+<li><a href="#what-impact-i-hope-to-make">What Impact I Hope to Make</a></li></ol></nav>
+        </details>
+    </details-utils>
+</aside>
+
     
 
     
