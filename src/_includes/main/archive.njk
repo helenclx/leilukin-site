@@ -3,7 +3,8 @@
         <li>
             <p class="item-list__title">
                 <a href="{{ content.url }}">
-                    {% if content.data.title %}{{ content.data.title | safe }}
+                    {% if content.data.pageTitle %}{{ content.data.pageTitle | safe }}
+                    {% elif content.data.title %}{{ content.data.title | safe }}
                     {% else %}
                         <code>{{ content.url }}</code>
                     {% endif %}
