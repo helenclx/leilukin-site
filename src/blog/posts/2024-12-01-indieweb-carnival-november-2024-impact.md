@@ -3,6 +3,7 @@ articleTitle: "IndieWeb Carnival November 2024: Impact"
 desc: My participation in IndieWeb Carnival November 2024, by reflecting on our capabilities of making an impact on other people and the world.
 date: 2024-12-01T13:01:27+0800
 categories: ["indieweb", "life", "personal web"]
+toc: true
 ---
 
 Alexandra, also known as [Xandra](https://xandra.cc/), is hosting the [IndieWeb Carnival](https://indieweb.org/IndieWeb_Carnival) for November 2024, with the topic being ["Impact"](https://library.xandra.cc/indieweb-carnival/). It is a great topic for self-reflection, and Xandra has provided prompts as jumping points for us to share our thoughts and experiences related to the topic. I have some of my own to share as well.
