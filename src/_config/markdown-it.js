@@ -80,11 +80,18 @@ export default function(eleventyConfig) {
         if (tokens[idx].meta.subId > 0) id += `:${tokens[idx].meta.subId}`;
 
         /* ↩ with escape code to prevent display as Apple Emoji on iOS */
-        return ` <a aria-label="Back to reference #${id}" href="#fnref${id}" class="footnote-backref">\u21a9\uFE0E</a>`;
+        return `
+            <p class="footnote-item__back">
+                <a href="#fnref${id}" class="footnote-backref">
+                    <span aria-hidden="true">\u21a9\uFE0E</span>
+                    Back to reference ${id}
+                </a>
+            </p>
+        `;
     };
 
     const renderRules = {
-        footnote_caption: ['[', '[<span class="visually-hidden">Footnote #</span>'],
+        footnote_caption: ['[', '[Note '],
         footnote_block_close: ['section', 'footer'],
     };
     Object.keys(renderRules).map(rule => {
