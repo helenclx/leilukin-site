@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2024-12-02T12:41:51+0800
+updated: 2024-12-03T19:04:57+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -18,14 +18,6 @@ You can also check out my [status.cafe profile](https://status.cafe/users/leiluk
 * {% cite "Cassette Beasts" %}
 * {% cite "Neko Atsume" %}
 * {% cite "Pokémon Trading Card Game Pocket" %}
-
-## Officially Became a Professional Web Developer
-
-Starting from 16 August 2024, I am officially a professional web developer now! I owe much to this very website for inspiring me to pursue web development as a profession.
-
-You can read more about my journey from a hobbyist to professional web developer in my blog post, ["From Hobbyist to Professional Web Developer"](/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer).
-
-Therefore, my new job has been a major focus of mine currently, so I could hopefully pass my probation period.
 
 ## Participating in Personal Web Spaces
 
