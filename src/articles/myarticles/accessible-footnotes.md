@@ -1,6 +1,7 @@
 ---
 articleTitle: How I (Tried to) Implement Accessible Footnotes
 date: 2024-08-06T00:04:00+0800
+updated: 2024-12-03T23:51:27+0800
 desc: "How I implement accessible footnotes, at least to the best of my ability. Written for 32-Bit Cafe's Community Code Jam #5."
 categories: ["32-bit cafe", "accessibility", "html", "css", "eleventy", "markdown-it"]
 toc: true
@@ -21,7 +22,7 @@ On [32-Bit Cafe's Discourse forum](https://discourse.32bit.cafe/), I made a [pos
 
 Plagiarism.org [defines footnotes](https://www.plagiarism.org/article/what-are-footnotes) as notes placed at the bottom of a page, and what footnotes do is to cite references or comment on a designated part of the text above it.
 
-My use case of footnotes is citing sources of information, particularly citing the same source multiple times on the same page when information from the same source is spread across my page. As of this writing, my website pages that use footnotes include the [trivia page of my {% cite "A Summer’s End — Hong Kong 1986" %} shrine 1](https://leilukin.com/shrines/asummersend/trivia/) and the [facts page of my {% cite "Cassette Beasts" %} shrine](https://leilukin.com/shrines/cassettebeasts/facts/). You are free to look at the HTML and CSS for reference, including when you are reading this article as I am explaining how I implement the footnotes.
+My use case of footnotes is citing sources of information, particularly citing the same source multiple times on the same page when information from the same source is spread across my page. As of this writing, my website pages that use footnotes include the [trivia page of my {% cite "A Summer’s End — Hong Kong 1986" %} shrine 1](/shrines/asummersend/trivia/) and the [facts page of my {% cite "Cassette Beasts" %} shrine](/shrines/cassettebeasts/facts/). You are free to look at the HTML and CSS for reference.
 
 Footnotes are used both on print and on the web. However, maintaining footnotes on the web can be tedious, especially if you want to update a web page to add or remove them, since you will need to change the number references of existing footnotes.
 
@@ -237,3 +238,97 @@ As for citing sources, the simplest way would be naming and linking to the sourc
 Creating and maintaining footnotes on web pages is tricky, so I hope my article about accessible footnotes is helpful if you want to create them.
 
 I am still not completely certain if my method is the best, although I tried to the best of my abilities, so I am interested in hearing feedback for my way of implementing accessible footnotes.
+
+## Update 3 December 2024: Enlarge Link Target Area
+
+On 3 December 2024, [~hedy](https://home.hedy.dev/) emailed me talking about this article, offering additional tips for improving footnotes. She also recommended me to check out [Seirdy](https://seirdy.one/)'s blog as a reference for formatting footnotes.
+
+I found ~hedy's suggestions good, so I made further improvements to my footnotes, by enlarging the target area of links. To achieve this, I changed the reference labels and footnote backlinks by using visible longer link text instead of ARIA labels.
+
+Specifically, for reference labels, I now use "[Note 1]" instead of just a number like "[1]", while for footnote backlinks, I use "↩︎ Back to reference 1" instead of just a ↩︎ symbol.
+
+In addition, I wrap each footnote backlink in a paragraph element (`<p>`), to place each backlink per line to improve footnotes' readability.
+
+Larger link target area is even better because mobile device users would find it easier to tap on the reference links and the footnote backlinks, and sighted visitors on desktop are also benefited because they can see the purpose of these links on plain slight.
+
+### Updated HTML Markup
+
+Here is an example of how the final HTML markup would look like with larger link target area:
+
+```html
+<p>This is a paragraph with the first footnote reference. <sup class="footnote-ref"><a href="#fn1" id="fnref1">[Note 1]</a></sup></p>
+
+<p>Here is the second paragraph with the second footnote reference. <sup class="footnote-ref"><a href="#fn2" id="fnref2">[Note 2]</a></sup></p>
+
+<p>This the third paragraph, but with a foootnote reference that points to the first footnote. <sup class="footnote-ref"><a href="#fn1" id="fnref1:1">[Note 1:1]</a></sup></p>
+
+<hr class="footnotes-sep">
+<section class="footnotes">
+	<h2>Footnotes</h2>
+    <ol class="footnotes-list">
+        <li id="fn1" class="footnote-item">
+	        First footnote
+	        <p><a href="#fnref1" class="footnote-backref">↩︎ Back to reference 1</a></p>
+	        <p><a href="#fnref1:1" class="footnote-backref">↩︎ Back to reference 1:1</a></p>
+	    </li>
+        <li id="fn2" class="footnote-item">
+	        Second footnote
+	        <p><a href="#fnref2" class="footnote-backref">↩︎ Back to reference 2</a></p>
+	    </li>
+    </ol>
+</section>
+```
+
+### Updated markdown-it-footnotes Configuration
+
+Here is the code of the configuration for the markdown-it-footnotes plugin:
+
+```js
+// markdown-it plugins
+const markdownIt = require("markdown-it");
+const markdownItFootnote = require("markdown-it-footnote");
+let markdownLibrary;
+
+module.exports = function (eleventyConfig) {
+    /* Markdown Overrides */
+    markdownLibrary = markdownIt({
+        html: true,
+    }).use(markdownItFootnote);
+
+    // Configure markdown-it-footnote
+    markdownLibrary.renderer.rules.footnote_block_open = () => (
+        '<hr class="footnotes-sep">\n' +
+        '<section class="footnotes">\n' +
+        `<h2>Footnotes</h2>\n`
+    );
+
+    markdownLibrary.renderer.rules.footnote_anchor = (tokens, idx, options, env, slf) => {
+        let id = slf.rules.footnote_anchor_name(tokens, idx, options, env, slf);
+
+        if (tokens[idx].meta.subId > 0) id += `:${tokens[idx].meta.subId}`;
+
+        /* ↩ with escape code to prevent display as Apple Emoji on iOS */
+        return `
+            <p class="footnote-item__back">
+                <a href="#fnref${id}" class="footnote-backref">
+                    <span aria-hidden="true">\u21a9\uFE0E</span>
+                    Back to reference ${id}
+                </a>
+            </p>
+        `;
+    };
+
+    const renderRules = {
+        footnote_caption: ['[', '[Note '],
+    };
+    Object.keys(renderRules).map(rule => {
+        let defaultRender = markdownLibrary.renderer.rules[rule];
+        markdownLibrary.renderer.rules[rule] = (tokens, idx, options, env, self) => {
+            return defaultRender(tokens, idx, options, env, self).replace(...renderRules[rule]);
+        }
+    });
+
+    /* This is the part that tells 11ty to swap to our custom config */
+    eleventyConfig.setLibrary("md", markdownLibrary);
+}
+```
