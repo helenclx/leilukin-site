@@ -11,7 +11,9 @@ Articles I have written.
 <ul>
 {%- for article in collections["my articles"] -%}
     <li>
-        <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
+        <p class="item-list__title">
+            <a href="{{ article.url }}">{{ article.data.articleTitle }}</a>
+        </p>
         <time datetime="{{ article.date }}">{{ article.date | formatDate }}</time>
     </li>
 {%- endfor -%}
@@ -26,8 +28,10 @@ Articles featuring other people's interview with me.
 <ul>
 {%- for article in collections["featured articles"] -%}
     <li>
-        <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
-        <p>{{ article.date | formatDate }}</p>
+        <p class="item-list__title">
+            <a href="{{ article.url }}">{{ article.data.articleTitle }}</a>
+        </p>
+        <time datetime="{{ article.date }}">{{ article.date | formatDate }}</time>
     </li>
 {%- endfor -%}
 </ul>
