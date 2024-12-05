@@ -1,7 +1,7 @@
 ---
 articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
-updated: 2024-11-27T00:24:38+0800
+updated: 2024-12-05T10:39:05+0800
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 toc: true
@@ -46,6 +46,7 @@ Here, I am compiling a list of resources related to Palestine. This list is not 
 * [Strawberry Seed Collective](https://linktr.ee/strawberryseedcollective)
 * [Project Watermelon](https://linktr.ee/projectwatermelon)
 * [Bees And Watermelons](https://linktr.ee/beesandwatermelons)
+* [The ButterflyEffect Project](https://docs.google.com/spreadsheets/u/0/d/e/2PACX-1vTKQYInYewFiGUX4afdHK-rANJDT4dgOC4IV6elKYNvYI2HvOTf_6IsTqt5m2KXcr_pGxcqR8AvsAJi/pubhtml)
 * [el-shab-hussein and nabulsi's Vetted Gaza Evacuation Fundraiser List](https://docs.google.com/spreadsheets/d/1yYkNp5U3ANwILl2MknJi9G7ArY4uVTEEQ1CVfzR8Ioo/edit?gid=0#gid=0)
 * [GazaVetters](https://www.tumblr.com/gazavetters) ([Gaza Vetters spreadsheet](https://docs.google.com/spreadsheets/d/1YGgkXoyam7tnbXb-vqWsHFs3Puyf_xYeXY2dPrZQY1M/edit?gid=0#gid=0))
 * [Ottawa4Palestine](https://linktr.ee/ottawa4palestine)'s [Gaza Evacuation Relief Fund](https://docs.google.com/spreadsheets/d/1FC1fK-3r-w3wPi2AdYho5_0j148QC6wkFIMdJA5kX4c/edit?gid=0#gid=0)
