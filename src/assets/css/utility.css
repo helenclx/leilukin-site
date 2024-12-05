@@ -29,6 +29,20 @@ a > .inline-icon { padding-inline-end: .25em; }
     gap: 0.7em 1.5em;
 }
 
+.item-list {
+    display: grid;
+    gap: 1em;
+    padding-left: 1em;
+}
+
+.item-list__title {
+    font-size: var(--fs-h4);
+    line-height: 1.3;
+    margin-bottom: 0.2em;
+}
+
+.item-list__indent { margin: 0.3em 0 0 1.25em; }
+
 .hidden { display: none; }
 
 .visually-hidden {
