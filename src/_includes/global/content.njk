@@ -17,7 +17,6 @@
 
     {% if isArticle %}
     <div class="article__info">
-        <p class="article__info--desc">{{ desc }}</p>
         <p>
             {{ content | wordcount | thousands }} words.
             Posted on <time datetime="{{ date }}">{{ date | formatDate }}</time> by {{ sitemeta.siteAuthor.name }}
@@ -104,8 +103,6 @@
         content: '➔';
         padding-left: 0.3em;
     }
-
-    .article__info--desc { margin-bottom: 1em; }
 
     .blog__post--pagination {
         padding-top: 1em;
