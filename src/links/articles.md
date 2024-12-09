@@ -1,7 +1,7 @@
 ---
 title: Articles
 date: 2024-07-03
-updated: 2024-11-17T10:28:18+0800
+updated: 2024-12-09T12:32:07+0800
 ---
 
 ### LGBTQ+
@@ -28,3 +28,4 @@ updated: 2024-11-17T10:28:18+0800
 * [Laziness Does Not Exist](https://medium.com/7fe325749a24/laziness-does-not-exist-3af27e312d01) by Devon Price
 * [you’ve been traumatized into hating reading (and it makes you easier to oppress).](https://ismatu.substack.com/p/youve-been-traumatized-into-hating) by Ismatu Gwendolyn
 * [The man who tricked Nazi Germany: lessons from the past on how to beat disinformation](https://www.theguardian.com/books/2024/mar/02/the-man-who-tricked-nazi-germany-lessons-from-the-past-on-how-to-beat-disinformation) by Peter Pomerantsev
+* [How To Recognize A Moral Abuser](https://www.springhole.net/other/how-to-recognize-a-moral-abuser.htm) by springhole.net
