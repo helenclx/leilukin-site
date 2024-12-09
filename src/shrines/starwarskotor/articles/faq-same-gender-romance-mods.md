@@ -1,12 +1,11 @@
 ---
 articleTitle: "Frequently Asked Questions (FAQ) for My Star Wars: KotOR Same-Gender Romance Mods"
 date: 2021-09-25
-updated: 2024-08-25T09:30:55+0800
+updated: 2024-12-09T13:55:22+0800
 desc: "Frequently asked questions for my same-gender romance mods for Star Wars: Knights of the Old Republic series."
 tags: kotor both articles
 categories: ["star wars kotor", "star wars kotor 2", "video game mods"]
 toc: true
-templateEngineOverride: njk,md
 ---
 
 *(Note: This FAQ article was originally published on Nexus Mods. I decided to host this article on my own website instead for better management and formatting)*
@@ -15,10 +14,10 @@ This article compiles the frequently asked questions I have received for my same
 
 PLEASE READ THIS ARTICLE BEFORE ASKING QUESTIONS ABOUT MY ROMANCE MODS!{.center-text style="font-size: 1.8rem; font-weight: 700; margin-top: 1em;"}
 
-My same-gender romance mods for KotOR 1 include:
+My same-gender romance mods for {% cite "KotOR 1" %} include:
 * [Carth Onasi and Male PC Romance](/projects/videogamemods/kotor1/#carth-onasi-and-male-pc-romance)
 
-My same-gender romance mods for KotOR 2 include:
+My same-gender romance mods for {% cite "KotOR 2" %} include:
 * [Alternate Revan Romances REDUX](/projects/videogamemods/kotor2/#visas-marr-and-female-exile-romance)
 * [Atton Rand and Male Exile Romance](/projects/videogamemods/kotor2/#atton-rand-and-male-exile-romance)
 * [Dahnis Flirt Option for Female PC](/projects/videogamemods/kotor2/#dahnis-flirt-option-for-female-pc)
@@ -26,7 +25,7 @@ My same-gender romance mods for KotOR 2 include:
 * [Handmaiden and Female Exile – Disciple and Male Exile Romance](/projects/videogamemods/kotor2/#handmaiden-and-female-exile-disciple-and-male-exile-romance)
 * [Visas Marr and Female Exile Romance](/projects/videogamemods/kotor2/#visas-marr-and-female-exile-romance)
 
-I have also compiled a [list of all the same-gender romance mods](/shrines/starwarskotor/resources/kotor-same-gender-romance-mods) various modders had created throughout the history of KotOR modding.
+I have also compiled a [list of all the same-gender romance mods](/shrines/starwarskotor/resources/kotor-same-gender-romance-mods) various modders had created throughout the history of {% cite "KotOR" %} modding.
 
 ## Technical Questions
 
@@ -36,13 +35,13 @@ Please make sure you have downloaded and installed the latest version of my mods
 
 When you are asking for technical support, please provide details for the issues you encountered: when and how did your problem start happening and what mods you have installed. Simply saying "mod doesn't work" DOES NOT help the mod author to figure out the cause of your issue. When I ask you for more details, please answer my questions honestly, so I can identify how to solve your problems. Telling me ALL the mods you use will help me greatly in figuring out if your issue was caused by mod conflict or not.
 
-If you play KotOR 2 on Steam, **make sure there are no leftover Steam Workshop folders in your Steam directory**, because Steam Workshop mods will likely conflict with my mods, and even unsubscribing Steam Workshop mods does not always remove all Workshop mod files completely. To check for any leftover Steam Workshop files, go to the Steam Workshop folder in your Steam directory (`/\Steam\SteamApps\Workshop\`), and delete all the sub-folders in the Steam Workshop folder if they are present.
+If you play {% cite "KotOR 2" %} on Steam, **make sure there are no leftover Steam Workshop folders in your Steam directory**, because Steam Workshop mods will likely conflict with my mods, and even unsubscribing Steam Workshop mods does not always remove all Workshop mod files completely. To check for any leftover Steam Workshop files, go to the Steam Workshop folder in your Steam directory (`/\Steam\SteamApps\Workshop\`), and delete all the sub-folders in the Steam Workshop folder if they are present.
 
 ### When I installed your mod, I got the error message: <i>"[ERROR] Unhandled exception: Access violation at address [a bunch of numbers]. Write of address [a bunch of numbers] (0)"</i>.
 
 Try to right-click your {% cite "KotOR 2" %} folder or subfolders, go to Properties and uncheck the "Read-only", then try to install my mod again to see if it works.
 
-### When installing your KotOR 2 mod, I got errors saying "Modules\[_].mod" did not exist, even though I had installed the installer (.exe) version of The Sith Lords Restored Content Mod.
+### When installing your {% cite "KotOR 2" %} mod, I got errors saying "Modules\[_].mod" did not exist, even though I had installed the installer (.exe) version of The Sith Lords Restored Content Mod.
 
 First, go to the folder where your {% cite "KotOR 2" %} game is installed, and go to the Modules folder, then **check if the .mod files mentioned in the error messages are in your Modules folder**.
 
@@ -61,7 +60,7 @@ For example, for Handmaiden and Female Exile – Disciple and Male Exile Romance
 * 909MAL.mod
 * 950COR.mod
 
-If you cannot find those .mod files in your Modules folder, your issue might be caused by your computer registering two different installation locations for {% cite "KotOR 2" %}. I suggest you check out [this guide on how to make sure your computer recognize the version of {% cite "KotOR 2" %} game where you want to install KotOR 2 mods on](https://steamcommunity.com/sharedfiles/filedetails/?id=779622644). While the guide focuses on Steam version of {% cite "KotOR 2" %}, you could edit the registry to make your computer properly recognise the installation location of your {% cite "KotOR 2" %} game.
+If you cannot find those .mod files in your Modules folder, your issue might be caused by your computer registering two different installation locations for {% cite "KotOR 2" %}. I suggest you check out [this guide on how to make sure your computer recognize the version of {% cite "KotOR 2" %} game where you want to install {% cite "KotOR 2" %} mods on](https://steamcommunity.com/sharedfiles/filedetails/?id=779622644). While the guide focuses on Steam version of {% cite "KotOR 2" %}, you could edit the registry to make your computer properly recognise the installation location of your {% cite "KotOR 2" %} game.
 
 Here are the default installation locations of {% cite "KotOR 2" %} depending on the game version:
 * Steam (32-bit Windows): `C:\Program Files\Steam\steamapps\common\Knights of the Old Republic II`
@@ -83,7 +82,7 @@ See my answer to the previous question. I am not responsible for any bugs caused
 
 ### Does this mod work with [insert a different mod here]?
 
-Please read the “Mod Compatibility” section of my mod description and Read Me files before asking. If there is a mod you want to use that was not mentioned in my mod description and Read Me files, you can still ask me. Just make sure you tell me the actual name of the mod and ideally, provide a link to the mod you want to ask about, so I can check the mod out myself to confirm if it is compatible with my mod. Do not expect me to know the existence of every single KotOR mod out there.
+Please read the “Mod Compatibility” section of my mod description and Read Me files before asking. If there is a mod you want to use that was not mentioned in my mod description and Read Me files, you can still ask me. Just make sure you tell me the actual name of the mod and ideally, provide a link to the mod you want to ask about, so I can check the mod out myself to confirm if it is compatible with my mod. Do not expect me to know the existence of every single {% cite "KotOR" %} mod out there.
 
 ### Are your romance mods compatible with [KotOR Community Portal's mod builds](https://kotor.neocities.org/modding/)?
 Yes, all my {% cite "KotOR" %} mods, not just my same-gender romance mods, are compatible with KotOR Community Portal's mod builds.
@@ -96,12 +95,14 @@ That said, some of my mods require you to install at a very specific point of th
 
 ### Can I use your mods with non-English localizations of the {% cite "KotOR" %} games and The Sith Lords Restored Content Mod (TSLRCM)?
 
-No. I play and mod the {% cite "KotOR" %} game in English exclusively. Some of my mods in particular will cause your game to crash if you are playing a non-English localization of the {% cite "KotOR" %} games and TSLRCM, because those mods add custom dialogues that do not exist in the vanilla game in order to prevent characters from referring to the player character as the wrong gender. The only solution to crashes caused by you playing on a non-English localization is to play the {% cite "KotOR" %} games and TSLRCM in English.
+No. I play and mod the {% cite "KotOR" %} game in English exclusively. Some of my mods in particular will cause your game to crash if you are playing a non-English localization of the {% cite "KotOR" %} games and TSLRCM, because those mods add custom dialogues that do not exist in the vanilla game in order to prevent characters from referring to the player character as the wrong gender.
 
-If you are interested in making a non-English translation or localization of my mods yourself, you may contact me to ask for my permission to do so. However, since I am not familiar with any of the non-English languages officially supported by the {% cite "KotOR" %} games, I am unable to provide support for any issues players may have with using your non-English translation or localization of my mod.
+The only solution to crashes caused by you playing on a non-English localization is to play the {% cite "KotOR" %} games and TSLRCM in English. Unless someone is willing to volunteer to translate or localize my mods, do not expect non-English version of my mods will happen.
+
+If you are interested in making a non-English translation or localization of my mods yourself, you may contact me to ask for my permission to do so. However, since I am not familiar with any of the non-English languages officially supported by the {% cite "KotOR" %} games, I am unable to provide support for any issues players may have with using your non-English translation or localization of my mod. Therefore, you are on your own when it comes to providing support the non-English localizations.
 
 ### For your {% cite "KotOR 2" %} mods that require The Sith Lords Restored Content Mod (TSLRCM) to work, will you make an alternate version that does not require TSLRCM?
-No, I will not make a no-TSLRCM version of my mods that require TSLRCM to function. TSLRCM is widely agreed by players, including KotOR modders, to be an essential mod for the best experience with {% cite "KotOR 2" %}. Making a non-TSLRCM version of content mod like this would require me to spend extra time to replay {% cite "KotOR 2" %} without TSLRCM, and therefore subjecting myself to a lesser experience with the game, which I consider a massive waste of my time. In general, if you see any {% cite "KotOR 2" %} mod that requires TSLRCM to work (not just my mods), do not expect to see a non-TSLRCM version.
+No, I will not make a no-TSLRCM version of my mods that require TSLRCM to function. TSLRCM is widely agreed by players, including {% cite "KotOR" %} modders, to be an essential mod for the best experience with {% cite "KotOR 2" %}. Making a non-TSLRCM version of content mod like this would require me to spend extra time to replay {% cite "KotOR 2" %} without TSLRCM, and therefore subjecting myself to a lesser experience with the game, which I consider a massive waste of my time. In general, if you see any {% cite "KotOR 2" %} mod that requires TSLRCM to work (not just my mods), do not expect to see a non-TSLRCM version.
 
 If you are having issues with using TSLRCM, I suggest you report the bugs you encountered and ask for help for solving your issues on the [TSLRCM forum on Deadly Stream](https://deadlystream.com/forum/4-tslrcm/).
 
@@ -109,7 +110,7 @@ If you are having issues with using TSLRCM, I suggest you report the bugs you en
 
 Unfortunately, I cannot directly help with modding the {% cite "KotOR" %} games on macOS or Linux, because I have only played the games on Windows. However, the {% cite "KotOR" %} games can be modded on macOS or Linux.
 
-For macOS, you may refer to [KOTOR Community Portal's guide for modding KotOR on macOS](https://kotor.neocities.org/modding/mod_builds/macos).
+For macOS, you may refer to [KOTOR Community Portal's guide for modding {% cite "KotOR" %} on macOS](https://kotor.neocities.org/modding/mod_builds/macos).
 
 For Linux, KOTOR Community Portal's modding guide [recommends](https://kotor.neocities.org/modding/mod_builds/k2/full#Linux_Players) installing mods on a case-insensitive file system, with VFAT recommended as an option by other users. Otherwise, you will need to rename a huge number of files. Additionally, the [FAQ page of KOTOR Community Portal's modding guide](https://kotor.neocities.org/modding/mod_builds/faq) notes that:
 
@@ -117,13 +118,13 @@ For Linux, KOTOR Community Portal's modding guide [recommends](https://kotor.neo
 
 ### How to install your mods on a console (Xbox/Nintendo Switch) or mobile (Android/iOS) version of {% cite "KotOR" %} or {% cite "KotOR 2" %}?
 
-Sorry, **I cannot directly help with modding the {% cite "KotOR" %} games on any console or mobile devices, because I only own the PC version of the {% cite "KotOR" %} games**. I make no promises that I will port my KotOR mods for those platforms specifically either.
+Sorry, **I cannot directly help with modding the {% cite "KotOR" %} games on any console or mobile devices, because I only own the PC version of the {% cite "KotOR" %} games**. I make no promises that I will port my {% cite "KotOR" %} mods for those platforms specifically either.
 
 Some of my mods require installers, namely TSLPatcher or HoloPatcher, to make the mods work properly, especially if you want to use other mods in addition to my mods and for {% cite "KotOR 2" %}, The Sith Lords Restored Content Mod. Simply copying and pasting files from my mod to your game's directory does NOT guarantee my mod will work as intended, and you may encounter bugs that could possibly game-breaking.
 
 For Android and iOS users, I suggest referring to the [KotOR Community Portal's modding guide](https://kotor.neocities.org/modding/), specifically their general instructions in their mobile mod builds. See [this page for {% cite "KotOR 1" %}](https://kotor.neocities.org/modding/mod_builds/k1/full_mobile#General_Instructions) and [this page for {% cite "KotOR 2" %}](https://kotor.neocities.org/modding/mod_builds/k2/full_mobile#General_Instructions).
 
-For Nintendo Switch users, in order to mod the KotOR game on Switch, first you need to hack your Switch or install a modchip in your Switch, then use the [KotOR Switch Modding Framework](https://deadlystream.com/files/file/2102-kotor-switch-modding-framework/) and [KotOR II Switch Modding Framework](https://deadlystream.com/files/file/2106-kotor-ii-switch-modding-framework/) to install mods. According to JacqylFrost, the creator of these frameworks, both TSLRCM and my Handmaiden same-geneder romance mod work with the KotOR 2 version of the framework. I suggest you ask JacqylFrost directly if you need help with modding the KotOR games on Switch.
+For Nintendo Switch users, in order to mod the {% cite "KotOR" %} game on Switch, first you need to hack your Switch or install a modchip in your Switch, then use the [KotOR Switch Modding Framework](https://deadlystream.com/files/file/2102-kotor-switch-modding-framework/) and [KotOR II Switch Modding Framework](https://deadlystream.com/files/file/2106-kotor-ii-switch-modding-framework/) to install mods. According to JacqylFrost, the creator of these frameworks, both TSLRCM and my Handmaiden same-geneder romance mod work with the {% cite "KotOR 2" %} version of the framework. I suggest you ask JacqylFrost directly if you need help with modding the {% cite "KotOR" %} games on Switch.
 
 For Steam Deck users, you may refer to JacqylFrost's [Steam Deck modding guide](https://www.reddit.com/r/kotor/comments/10horqp/steam_deck_modding_including_modbuild/) on the KotOR subreddit.
 
