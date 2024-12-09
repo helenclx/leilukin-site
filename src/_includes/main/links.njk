@@ -25,16 +25,21 @@ isContentDivided: true
 </section>
 
 <article class="tabwrap">
-{% for group in linkGroups %}
+    {% for group in linkGroups %}
     <section id="{{ group.data.title | slugify }}" class="content__section">
-    {% headingAnchor 2 %}
-        {{ group.data.title }}
-    {% endheadingAnchor %}
+        {% headingAnchor 2 %}{{ group.data.title }}{% endheadingAnchor %}
+
+        {% if group.data.toc %}
+        <h3>Table of Contents</h3>
+        {{ group.templateContent | toc | safe }}
+        {% endif %}
+
         {{ group.templateContent | safe }}
 
-    {% if group.data.updated %}
+        {% if group.data.updated %}
         <p class="update-info">(This {{ group.data.title }} list was last updated on <time datetime="{{ group.data.updated }}">{{ group.data.updated | formatDate }}</time>)</p>
-    {% endif %}
+        {% endif %}
+
         <a href="#linktabs" class="tab__btn tab__back">Back to tabs</a>
     </section>
 {%- endfor %}
