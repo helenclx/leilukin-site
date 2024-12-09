@@ -195,6 +195,11 @@ p + .adoptables { margin-top: 1em; }
     outline: 0.2em solid var(--clr-title-border);
     outline-offset: 0.15em;
 }
+
+.tabwrap__toc {
+    background-color: var(--clr-quote-bg);
+    padding: 1em 1em 0.5em;
+}
 .tab__back { margin-top: 3em; }
 
 /* Web ring */

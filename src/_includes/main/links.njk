@@ -30,8 +30,10 @@ isContentDivided: true
         {% headingAnchor 2 %}{{ group.data.title }}{% endheadingAnchor %}
 
         {% if group.data.toc %}
-        <h3>Table of Contents</h3>
-        {{ group.templateContent | toc | safe }}
+        <div class="tabwrap__toc">
+            <h3>Table of Contents</h3>
+            {{ group.templateContent | toc | safe }}
+        </div>
         {% endif %}
 
         {{ group.templateContent | safe }}
