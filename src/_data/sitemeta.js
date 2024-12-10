@@ -5,7 +5,7 @@ export const siteAuthor = {
 	name: "Leilukin",
 	email: "contact@leilukin.com",
 	emailEncoded: '<span class="email-encoded">contact@leilukin<b>.example</b>.com</span>',
-	emailDecoyUrl: "/emailme",
+	emailDecoyUrl: "emailme/",
 	url: siteUrl + "/about"
 };
 export const siteLanguage = "en";
