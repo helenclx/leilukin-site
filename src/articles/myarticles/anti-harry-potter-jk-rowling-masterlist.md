@@ -1,7 +1,7 @@
 ---
 articleTitle: Anti-Harry Potter and Anti-J. K. Rowling Masterlist
 date: 2023-03-19
-updated: 2024-06-19T00:06:00+0800
+updated: 2024-12-10T15:37:05+0800
 desc: My masterlist of criticisms of the Harry Potter series and J. K. Rowling.
 categories: ["harry potter", "jk rowling"]
 toc: true
@@ -34,8 +34,9 @@ Therefore, I am compiling this masterlist by curating various materials that are
 
 * [Harry Potter is GARBAGE, and Here's Why](https://www.youtube.com/watch?v=wPwWb9z3XSY) by satenmadpun (25 August 2020)
 * [We need to talk about Dudley Dursley- Harry Potter and Fatphobia](https://www.youtube.com/watch?v=4AziZgoi3q0) by Ok2BeFat (30 May 2021)
-* [Harry Potter](https://www.youtube.com/watch?v=-1iaJWSwUZs) by Shaun (4 March 2023)
+* [Harry Potter](https://www.youtube.com/watch?v=-1iaJWSwUZs) by Shaun (4 March 2022)
 * [JK Rowling's New Friends](https://www.youtube.com/watch?v=Ou_xvXJJk7k) by Shaun (14 October 2022)
+* [Is Harry Potter Bad?](https://www.youtube.com/watch?v=U3dE0sYZqvI) by hoots (30 December 2022)
 * [The Consumerist Dystopia of Harry Potter](https://www.youtube.com/watch?v=UBftW7FzOVI) by verilybitchie (21 January 2023)
 * [Explaining JK Rowling’s Transphobia](https://www.youtube.com/watch?v=_GBUArD51KY) by Jessie Gender (27 January 2023)
 * [Hogwarts Legacy and the Politics of Potter](https://www.youtube.com/watch?v=K1mHwn6eUUk) by Wisecrack (11 February 2023)
