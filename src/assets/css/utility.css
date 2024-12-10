@@ -42,6 +42,7 @@ a > .inline-icon { padding-inline-end: .25em; }
 }
 
 .item-list__indent { margin: 0.3em 0 0 1.25em; }
+.email-encoded b { display: none; }
 
 .hidden { display: none; }
 
