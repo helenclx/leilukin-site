@@ -11,9 +11,9 @@ toc: true
 This site is Harry Potter free. Lookin [<i>sic</i>] for it? Leave.
 {% endimgFigure %}
 
-(Credit to Tumblr user [comradesaucegay](https://comradesaucegay.tumblr.com/post/621403039459426304) ([Archived](https://web.archive.org/web/20241122135107/https://comradesaucegay.tumblr.com/post/621403039459426304/grumpsaesthetics-you-know-those-old-hentai-free)) for this Harry Potter-free website banner){.center-text}
+(Credit to Tumblr user [comradesaucegay](https://comradesaucegay.tumblr.com/post/621403039459426304) ([archived](https://web.archive.org/web/20241122135107/https://comradesaucegay.tumblr.com/post/621403039459426304/grumpsaesthetics-you-know-those-old-hentai-free)) for this Harry Potter-free website banner){.center-text}
 
-Like many millennials, I grew up with the {% cite "Harry Potter" %} series and was a major fan of the series. I had read the original 7 books and watched their film adaptations. The series was a passion of mine during my early- to mid-teen years. While the {% cite "Harry Potter" %} novels were far from the first books I read, they were the first fantasy novels I read, and the series’ concept of a magical world set in a contemporary setting fascinated teenage me.
+Like many Millennials, I grew up with the {% cite "Harry Potter" %} series and was a major fan of the series. I had read the original 7 books and watched their film adaptations. The series was a passion of mine during my early- to mid-teen years. While the {% cite "Harry Potter" %} novels were far from the first books I read, they were the first fantasy novels I read, and the series’ concept of a magical world set in a contemporary setting fascinated teenage me.
 
 However, even during my {% cite "Harry Potter" %} fixation years, there were things from the series that bothered me, from the idea of house elves being a slave race that naturally love being slaves, to Snape’s unconvincing “redemption” arc. As I got older and became more aware of social issues, I started to notice more problems with the series. In addition, reading more books has also made me realise that even on a technical writing level, the {% cite "Harry Potter" %} series was mediocre at best. As a result, I had stopped becoming a {% cite "Harry Potter" %} fan even before J. K. Rowling’s transphobia got mainstream attention.
 
