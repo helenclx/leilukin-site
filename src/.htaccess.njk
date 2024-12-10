@@ -15,7 +15,7 @@ Header set Cache-Control "no-cache, public"
 RewriteEngine on
 
 # Redirect obfuscated email links to mailto link
-RewriteRule ^email/$ "mailto:{{ sitemeta.siteAuthor.email }}" [R=301,L]
+RewriteRule ^/email/$ mailto:{{ sitemeta.siteAuthor.email }} [R=301,L]
 
 # Block bad bots
 RewriteCond %{HTTP_USER_AGENT} ({{ robots.htaccess }}) [NC]
