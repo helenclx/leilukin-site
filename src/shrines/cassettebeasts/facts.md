@@ -98,6 +98,9 @@ Late 2019
 20 November 2024
 : Version 1.7 "Gauntlet Update" [live](https://store.steampowered.com/news/app/1321440/view/4487367832217059531). "Fashion Pack" cosmetic premium DLC released. Steam Workshop support added.
 
+11 December 2024
+: [Hotfix 1.7.7](https://store.steampowered.com/news/app/1321440/view/517447931886829747) live.
+
 ## Accolades
 
 {% cite "Cassette Beasts" %} was [nominated for The British Game](https://twitter.com/ByttenStudio/status/1765742782700782040) at the 20th British Academy (BAFTA) Games Awards.
