@@ -1,7 +1,7 @@
 ---
 title: Articles
 date: 2024-07-03
-updated: 2024-12-13T13:49:10+0800
+updated: 2024-12-13T22:10:06+0800
 toc: true
 ---
 
@@ -49,7 +49,7 @@ toc: true
 
 * [Nostalgia is Bullshit](https://wings.nu/nostalgia/) by Rin
 
-    I do not like community and movements that are based on nostalgia, and Web 1.0 design nostalgia is no exception.{.item-list__indent}
+    I do not align with communities and movements that revolve around nostalgia, because I do not believe the past is inherently better, and Web 1.0 design nostalgia is no exception.{.item-list__indent}
 
 * [Cohost So White: A Comprehensive Record of the Matter of Race on Cohost.org](https://alyaza.neocities.org/essays/Cohost/cohostsowhite) by Alyaza Birze
 
