@@ -1,7 +1,7 @@
 ---
 title: Articles
 date: 2024-07-03
-updated: 2024-12-13T10:41:12+0800
+updated: 2024-12-13T13:49:10+0800
 toc: true
 ---
 
@@ -39,6 +39,18 @@ toc: true
 
     Out of all the web manifestos I have read on the indie web, this might be the one that resonates with me the most.{.item-list__indent}
 
+* [You should have a website](https://nora.zone/manifesto.html) by Nora Reed
+
+    Nora Reed's website manifesto has been my go-to recommendated reading for why you should make your own website rather than relying on social media for your web presence.{.item-list__indent}
+
 * [The one app to read them all already exists, and it’s called RSS](https://journal.jatan.space/why-use-rss/) by Jatan Mehta
+
+    I have been subscribing to RSS feeds since the 2000s to follow website and blog updates, and I encourage more internet users to do the same.
+
 * [Nostalgia is Bullshit](https://wings.nu/nostalgia/) by Rin
+
+    I do not like community and movements that are based on nostalgia, and Web 1.0 design nostalgia is no exception.{.item-list__indent}
+
 * [Cohost So White: A Comprehensive Record of the Matter of Race on Cohost.org](https://alyaza.neocities.org/essays/Cohost/cohostsowhite) by Alyaza Birze
+
+    I have never had a Cohost account, but as an internet user who have witnessed and experienced racism, including microaggressions, on various online spaces. Alyaza's article is a good breakdown and study on how online platforms run by white people, even progressive ones, can still fail to address racial issues on their platform.{.item-list__indent}
