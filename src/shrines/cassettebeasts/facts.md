@@ -53,20 +53,23 @@ Late 2019
 25 May 2023
 : Cassette Beasts released on Xbox Series X|S, Xbox One, Gamepass and Nintendo Switch, with a [console release trailer](https://www.youtube.com/watch?v=YDSiPEtAW-0).
 
+22 June 2023
+: 1.2 Update [announced](https://x.com/ByttenStudio/status/1671901115187707905).
+
 28 June 2023
-: [Update 1.2 “Catacombs”](https://store.steampowered.com/news/app/1321440/view/3660912271237996230) live. Online multiplayer mode and "Pier of the Unknown" DLC expansion [announced](https://www.cassettebeasts.com/2023/06/28/update-1-2-the-cassette-beasts-showcase/).
+: [1.2 “Catacombs” Update](https://store.steampowered.com/news/app/1321440/view/3660912271237996230) live. Online multiplayer mode and "Pier of the Unknown" DLC expansion [announced](https://www.cassettebeasts.com/2023/06/28/update-1-2-the-cassette-beasts-showcase/).
 
 12 September 2023
 : "Pier of of the Unknown" DLC [confirmed](https://store.steampowered.com/news/app/1321440/view/3694695704131814032) to be released on 4 October 2023 with a [new trailer](https://www.youtube.com/watch?v=gq7NeWB1Vzc).
 
 3 October 2023
-: [Update 1.5](https://store.steampowered.com/news/app/1321440/view/3754370207781487387) live.
+: [1.5 Update](https://store.steampowered.com/news/app/1321440/view/3754370207781487387) live.
 
 4 October 2023
 : "Pier of of the Unknown" DLC [released](https://www.cassettebeasts.com/2023/10/06/pier-of-the-unknown-dlc-out-now/), with a [new trailer](https://www.youtube.com/watch?v=eJUgQ36sqLI).
 
 11 December 2023
-: [Multiplayer future showcase](https://www.youtube.com/watch?v=5Fw7ElAoyhM) released, with announcement of its planned release in Q1 2024 and [updates](https://store.steampowered.com/news/app/1321440/view/3906373040050998621) about its features.
+: [Multiplayer feature showcase](https://www.youtube.com/watch?v=5Fw7ElAoyhM) released, with announcement of its planned release in Q1 2024 and [updates](https://store.steampowered.com/news/app/1321440/view/3906373040050998621) about its features.
 
 25 March 2024
 : Multiplayer beta [available on Steam](https://store.steampowered.com/news/app/1321440/view/4140569729629599030). Multiplayer update confirmed to be released on 20 May 2024 with an [announcement trailer](https://www.youtube.com/watch?v=q7ZYhxdwMt8). Android and iOS versions [announced](https://www.youtube.com/watch?v=jN_IYdwoL_A&t=135s) to be released in 2024.
