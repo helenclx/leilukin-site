@@ -201,10 +201,17 @@
     background-size: 100% 100%;
 }
 
+/* Coded by myself */
 .flag-disability {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xml:space='preserve' width='651.83' height='300' viewBox='-90.33 0 651.83 300'%3E%3Cpath fill='%233BB07D' stroke='%233BB07D' stroke-miterlimit='10' stroke-width='.351' d='M561.5 300 162.902.664h-50.634L510.867 300z'/%3E%3Cpath fill='%237BC2E0' stroke='%237BC2E0' stroke-miterlimit='10' stroke-width='.351' d='M510.711 300 112.113.664H61.478L460.078 300z'/%3E%3Cpath fill='%23E8E8E8' stroke='%23E8E8E8' stroke-miterlimit='10' stroke-width='.351' d='M460.077 300 61.478.664H8.094L406.693 300z'/%3E%3Cpath fill='%23EEDE77' stroke='%23EEDE77' stroke-miterlimit='10' stroke-width='.351' d='M406.692 300 8.095.664h-49.111L357.584 300z'/%3E%3Cpath fill='%23CF7280' stroke='%23CF7280' stroke-miterlimit='10' stroke-width='.351' d='M357.378 300-41.22.664h-49.11L308.27 300z'/%3E%3C/svg%3E");
-    background-color: #595959;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    background-position: center;
+    background:
+        linear-gradient(
+            37deg,
+            #595959 0 35%,
+            #CF7280 30% 41%,
+            #EEDE77 30% 47%,
+            #E8E8E8 30% 53%,
+            #7bc2e0 30% 59%,
+            #3BB07D 30% 65%,
+            #595959 0
+        );
 }
