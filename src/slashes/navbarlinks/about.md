@@ -55,7 +55,7 @@ You can call me {{ sitemeta.siteAuthor.name }}. I am a Malaysian Chinese, queer,
 
 I speak Mandarin, English, Cantonese and Malay, though I am most fluent in Mandarin and English.
 
-I am also autistic, so I use this website to catalogue my interests.
+I am also disabled — I am neurodivergent, specifically autistic (so making this website has been a great way to catalogue my interests), and visually impaired, specifically I have [retinitis pigmentosa (RP)](/articles/living-with-retinitis-pigmentosa).
 
 Leilukin is not my real name, but it is an internet pseudonym that I have used since I was a teenager, so the name has become my online identity, and I tend to go by Leilukin in informal and hobbyist online spaces.
 
