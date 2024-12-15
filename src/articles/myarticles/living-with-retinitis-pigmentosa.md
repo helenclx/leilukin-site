@@ -31,4 +31,4 @@ I coded a [responsive Disability Pride flag in CSS](/projects/snippets/disabilit
 }
 {% endcss %}
 
-<div class="flag-disability flag-disability-article" role="img" aria-label="Demo of the Disability Pride flag coded in CSS"></div>
+<div class="flag-disability flag-disability-article" role="img" aria-label="Disability Pride flag coded in CSS"></div>
