@@ -4,12 +4,40 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2024-12-14T12:43:45Z</updated>
+    <updated>2024-12-15T05:15:01Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
         <email>contact@leilukin.com</email>
     </author>
+        
+        <entry>
+            <title>Changelog: 15 December 2024</title>
+            <link href="https://leilukin.com/"/>
+            <updated>2024-12-15T05:14:12Z</updated>
+            <id>https://leilukin.com/</id>
+            <content type="html">&lt;ul&gt;
+&lt;li&gt;Add new article: &lt;a href=&quot;https://leilukin.com/articles/living-with-retinitis-pigmentosa&quot;&gt;&amp;quot;Living with Retinitis Pigmentosa&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Living with Retinitis Pigmentosa | Articles</title>
+            <link href="https://leilukin.com/articles/living-with-retinitis-pigmentosa/"/>
+            <updated>2024-12-15T05:14:07Z</updated>
+            <id>https://leilukin.com/articles/living-with-retinitis-pigmentosa/</id>
+            <content type="html">&lt;p&gt;On 30 November 2024, I was diagnosed with retinitis pigmentosa (RP) after seeing an eye doctor.&lt;/p&gt;
+&lt;p&gt;My feelings after learning that I have this genetic eye disease that causes gradual vision loss and currently has no cure was more relieved than upset, because I was relieved that to have finally understood the reason behind a lot of the difficulties in my daily life as I grew older, in addition to my autism.&lt;/p&gt;
+&lt;p&gt;Furthermore, my parents and I already suspected that I have inherited an eye condition that causes visual impairment after learning that some of my relatives on my father&#39;s side are starting to have eyesight problems. Therefore, I have accepted the possibility that I might have some incurable eye condition even before my official RP diagnosis. I had relied on glasses throughout most of my life due to having myopia and astigmatism, so I was already not new to vision conditions.&lt;/p&gt;
+&lt;p&gt;In retrospect, my RP symptoms started to manifest to the point of impacting my daily life in my early 20s. I started to bump into things more often when I walk. My eyes got more sensitive to bright light, including sunlight, to the extent that I found it difficult to see things under sunlight and thus needing sunglasses. My subconscious began to get afraid of falling, causing me to get much more cautious when I walk, especially when walking on steps and crossing over drains, especially in places I was not familiar with. I also had a hard time seeing things not directly in front of me without turning my head.&lt;/p&gt;
+&lt;p&gt;For a while, my parents and I thought this was because of my autism, as it makes me find it difficult to multitask, including paying attention to all my surroundings at once outside, and me spending too much time sitting in front of a computer, especially since my jobs have all involved a large amount of computer usage, and thus getting less physical exercise. However, now that I was diagnosed with RP, things finally clicked into place: turns out, my peripheral vision had started to get weaker, and my eyes became more sensitive to bright light, including sunlight. In addition, my eye doctor discovered that I am having a mild cataract as a complication of RP.&lt;/p&gt;
+&lt;p&gt;Since there is currently no cure for RP, the best I can do is to take care of my remaining vision as much as I can, mainly by continuing to wear sunglasses every time I go out in daytime to protect my eyes from sunlight. I am also adjusting my habits of using digital devices, by making the font sizes of my devices larger to make things more comfortable for me to read and trying to take regular breaks from digital screens.&lt;/p&gt;
+&lt;p&gt;Being diagnosed with a genetic eye disease that can cause vision loss also made me glad that I have started to learn to use screen readers. Even before my diagnosis, I have been using screen readers such as NVDA on Windows and TalkBack on Android to test website accessibility, including my own websites. It is a good idea to prepare myself for the possibility of losing enough vision to the degree of needing low vision aid and assistive technologies. In fact, since I was diagnosed with RP through a dilated eye exam, I was unable to see things clearly for about 12 hours after receiving the eye drop that dilated my eyes, so for the immediate couple of hours after seeing my eye doctor, I needed to activate TalkBack to be able to read things on my Android phone. Furthermore, I am also planning on learning braille.&lt;/p&gt;
+&lt;p&gt;I do not write this article to ask for pity. I have accepted that I am visually impaired and autistic, and my disabilities are a huge part of who I am, as much as being a non-binary lesbian on the asexual and aromantic spectrum. Instead, I am sharing my story to let other people who have similar conditions that they are not alone, and we are worthy.&lt;/p&gt;
+&lt;p&gt;I coded a &lt;a href=&quot;https://leilukin.com/projects/snippets/disability-pride-flag-background&quot;&gt;responsive Disability Pride flag in CSS&lt;/a&gt; during the Disability Pride Month in July (which is also my birth month) 2024, so it would be fitting to conclude this article with this Pride flag I coded.&lt;/p&gt;
+&lt;div class=&quot;flag-disability flag-disability-article&quot; role=&quot;img&quot; aria-label=&quot;Demo of the Disability Pride flag coded in CSS&quot;&gt;&lt;/div&gt;</content>
+        </entry>
         
         <entry>
             <title>Changelog: 10 December 2024</title>
@@ -217,33 +245,6 @@
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer/#wrapping-up&quot; aria-labelledby=&quot;wrapping-up&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Looking back, even I am amazed by the fact that building this very website kickstarted my path to become a professional web developer, especially since I did not come from a tech educational or industrial background, but I am glad that it happened.&lt;/p&gt;
 &lt;p&gt;I am happy to be able to switch my career path to web development despite not having a computer science degree, and that my prior working experience as a graphic designer helped with getting this new opportunity.&lt;/p&gt;
-</content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 11 August 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-08-11T14:46:00Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;Improve the site&#39;s &lt;a href=&quot;https://leilukin.com/feed.xml&quot;&gt;RSS feed&lt;/a&gt;:
-&lt;ul&gt;
-&lt;li&gt;Make RSS feeds &lt;a href=&quot;https://blog.jim-nielsen.com/2021/automatically-discoverable-rss-feeds/&quot;&gt;automatically discoverable&lt;/a&gt; by feed readers&lt;/li&gt;
-&lt;li&gt;Use time and time zone to make feed items&#39; timestamps accurate&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 6 August 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-08-06T13:20:00Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;New article: &lt;a href=&quot;https://leilukin.com/articles/accessible-footnotes&quot;&gt;&amp;quot;How I (Tried to) Implement Accessible Footnotes&amp;quot;&lt;/a&gt;, which is also my entry for &lt;a href=&quot;https://32bit.cafe/&quot;&gt;32-Bit Cafe&lt;/a&gt;&#39;s &lt;a href=&quot;https://32bit.cafe/~xandra/events/codejam5/&quot;&gt;Community Code Jam #5: Back to School&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
 </content>
         </entry>
 </feed>
