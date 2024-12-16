@@ -1,6 +1,6 @@
 ---
 articleTitle: Leaving My First Developer Job
-desc: HUnfortunately, mismatched expectations made me choose to leave my first job as a web developer, effective in January 2025.
+desc: Unfortunately, mismatched expectations made me choose to leave my first job as a web developer, effective in January 2025.
 date: 2024-12-16T18:21:48+0800
 categories: ["life updates", "web development"]
 ---
