@@ -2,6 +2,7 @@
 articleTitle: From Hobbyist to Professional Web Developer
 desc: How building my personal website led to me getting a web developer job.
 date: 2024-08-18T20:28:21+0800
+updated: 2024-12-16T18:35:00+0800
 categories: ["life updates", "web development"]
 toc: true
 ---
@@ -49,3 +50,9 @@ None of the coding courses I took taught about Eleventy or any static site gener
 Looking back, even I am amazed by the fact that building this very website kickstarted my path to become a professional web developer, especially since I did not come from a tech educational or industrial background, but I am glad that it happened.
 
 I am happy to be able to switch my career path to web development despite not having a computer science degree, and that my prior working experience as a graphic designer helped with getting this new opportunity.
+
+---
+
+## Major Update, 16 December 2024
+
+Bad news: My first web development ended up lasting only four months, as I was unable to pass my probation period. See my blog post ["Leaving My First Web Developer Job"](2024-12-16-leaving-my-first-developer-job.md) for more details.
