@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2024-12-15T13:14:18+0800
+updated: 2024-12-16T18:21:58+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -18,6 +18,12 @@ You can also check out my [status.cafe profile](https://status.cafe/users/leiluk
 * {% cite "Cassette Beasts" %}
 * {% cite "Neko Atsume" %}
 * {% cite "Pokémon Trading Card Game Pocket" %}
+
+## Working My Last Month in My First Web Developer Job
+
+Unfortunately, my first web developer job that started in August 2024 ended up only lasting for four months. I did not pass my probation and I am in the last month of my current employment until 3 January 2025.
+
+For more details, see my blog post: ["Leaving My First Developer Job"](/blog/posts/2024-12-16-leaving-my-first-developer-job)
 
 ## Diagnosed with Retinitis Pigmentosa
 
