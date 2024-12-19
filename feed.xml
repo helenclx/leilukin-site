@@ -4,7 +4,7 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2024-12-19T13:13:30Z</updated>
+    <updated>2024-12-19T15:27:52Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
@@ -67,7 +67,7 @@
 &lt;p&gt;Being diagnosed with a genetic eye disease that can cause vision loss also made me glad that I have started to learn to use screen readers. Even before my diagnosis, I have been using screen readers such as NVDA on Windows and TalkBack on Android to test website accessibility, including my own websites. It is a good idea to prepare myself for the possibility of losing enough vision to the degree of needing low vision aid and assistive technologies. In fact, since I was diagnosed with RP through a dilated eye exam, I was unable to see things clearly for about 12 hours after receiving the eye drop that dilated my eyes, so for the immediate couple of hours after seeing my eye doctor, I needed to activate TalkBack to be able to read things on my Android phone. Furthermore, I am also planning on learning braille.&lt;/p&gt;
 &lt;p&gt;I do not write this article to ask for pity. I have accepted that I am visually impaired and autistic, and my disabilities are a huge part of who I am, as much as being a non-binary lesbian on the asexual and aromantic spectrum. Instead, I am sharing my story to let other people who have similar conditions that they are not alone, and we are worthy.&lt;/p&gt;
 &lt;p&gt;I coded a &lt;a href=&quot;https://leilukin.com/projects/snippets/disability-pride-flag-background&quot;&gt;responsive Disability Pride flag in CSS&lt;/a&gt; during the Disability Pride Month in July (which is also my birth month) 2024, so it would be fitting to conclude this article with this Pride flag I coded.&lt;/p&gt;
-&lt;div class=&quot;flag-disability flag-disability-article&quot; role=&quot;img&quot; aria-label=&quot;Disability Pride flag coded in CSS&quot;&gt;&lt;/div&gt;</content>
+&lt;div class=&quot;flag-el flag-disability&quot; role=&quot;img&quot; aria-label=&quot;Disability Pride flag coded in CSS&quot; style=&quot;margin-top: 1.7em;&quot;&gt;&lt;/div&gt;</content>
         </entry>
         
         <entry>
