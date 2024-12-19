@@ -1,7 +1,7 @@
 ---
 title: Accessibility
 keyword: accessibility statement
-updated: 2024-11-27T14:39:00+0800
+updated: 2024-12-19T14:13:05+0800
 eleventyNavigation:
     order: 13
 ---
@@ -13,15 +13,16 @@ Therefore, I strive to design my website to be accessible, including to fellow d
 ## Accessibility Features
 
 High-level overview of the accessibility features of this site:
-* Responsive design and mobile-friendly layout
-* Semantic HTML, enhanced by Web Accessibility Initiative – Accessible Rich Internet Applications (WAI-ARIA)
-* Sufficient colour contrast between text and background colours
-* Alt text for all non-decorative images, occasionally accompanied with longer image descriptions
-* Keyboard navigation-friendly: Every interactive element can be focused and interacted with keyboard buttons, with visible outline when focused
-* Logical content and heading flow
-* Links to skip to the main content or the top of the page
+
+* Responsive design and mobile-friendly layout.
+* Semantic HTML, enhanced by Web Accessibility Initiative – Accessible Rich Internet Applications (WAI-ARIA).
+* Sufficient colour contrast between text and background colours.
+* Alt text for all non-decorative images, occasionally accompanied with longer image descriptions.
+* Keyboard navigation-friendly: Every interactive element can be focused and interacted with keyboard buttons, with visible outline when focused.
+* Logical content and heading flow.
+* Links to skip to the main content or the top of the page.
 * Sufficient font size that can be enlarged without breaking the site layout
-* No autoplaying audio or video
+* No autoplaying audio or video.
 
 This site uses the [Lexend](https://www.lexend.com/) font family as the default font and [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) as the monospaced font to improve text readability.
 
