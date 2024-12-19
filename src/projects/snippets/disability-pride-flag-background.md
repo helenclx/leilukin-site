@@ -16,11 +16,9 @@ I have used JavaScript to set up the header of the main part of this website, so
 Since Ann Magill released the Disability Pride flag to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/), I am doing the same to my responsive Disability Pride flag CSS background. Therefore, you are free to use my code and do what you want with it without asking for permission or crediting me.
 
 ## Demo
+{% set demoHeight = "23rem" %}
 {%- css %}
-.flag-disability.demo {
-    width: 100%;
-    height: 20rem;
-}
+.flag-disability.demo { height: {{ demoHeight }}; }
 {% endcss %}
 
 <div class="flag-disability demo" role="img" aria-label="Demo of the Disability Pride flag coded in CSS"></div>
@@ -46,3 +44,5 @@ CSS:
 ```
 
 After copying the above snippet in a CSS stylesheet or the HTML `<style>` tags, to apply the background to an HTML element, simply add the CSS class name `disability-pride-flag` (you can rename the class name if you want) to the HTML element's `class` attribute.
+
+Note that you want to apply the Pride flag to an empty element, you also need to set the element's [`height`](https://developer.mozilla.org/en-US/docs/Web/CSS/height) or [`aspect-ratio`](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) property to make the Pride flag background visible. For example, the demo above sets the `height` property to {{ demoHeight }}.
