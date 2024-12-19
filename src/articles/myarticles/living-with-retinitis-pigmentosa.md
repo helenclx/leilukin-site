@@ -23,12 +23,4 @@ I do not write this article to ask for pity. I have accepted that I am visually 
 
 I coded a [responsive Disability Pride flag in CSS](/projects/snippets/disability-pride-flag-background) during the Disability Pride Month in July (which is also my birth month) 2024, so it would be fitting to conclude this article with this Pride flag I coded.
 
-{%- css %}
-.flag-disability-article {
-    margin-top: 1.7em;
-    width: 100%;
-    height: 20rem;
-}
-{% endcss %}
-
-<div class="flag-disability flag-disability-article" role="img" aria-label="Disability Pride flag coded in CSS"></div>
+<div class="flag-el flag-disability" role="img" aria-label="Disability Pride flag coded in CSS" style="margin-top: 1.7em;"></div>

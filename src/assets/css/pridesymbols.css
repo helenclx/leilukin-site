@@ -2,6 +2,7 @@
     Pride flag CSS backgrounds
     Credit: KOTOR Community Portal: https://kotor.neocities.org/
  */
+
 .flag-rainbow {
 	background: linear-gradient(
 		#e40303 0 16.67%,
@@ -215,3 +216,10 @@
             #595959 0
         );
 }
+
+.flag-el {
+    display: inline-block;
+    width: 100%;
+    aspect-ratio: 14 / 9;
+}
+.flag-el.flag-disability { aspect-ratio: 4 / 3; }
