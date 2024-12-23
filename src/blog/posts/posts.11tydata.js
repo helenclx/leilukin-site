@@ -3,7 +3,7 @@ export default {
     tags: ["posts", "contents", "feed items"],
     isArticle: true,
     eleventyComputed: {
-        title: "{{ articleTitle }} | Blog",
+        title: "{{ articleTitle | safe }} | Blog",
         eleventyNavigation: {
             key: "{{ articleTitle }}",
             parent: "Blog Archive"
