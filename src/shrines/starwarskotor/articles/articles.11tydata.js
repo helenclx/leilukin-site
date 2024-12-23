@@ -3,7 +3,7 @@ export default {
     layout: "starwarskotor/content",
     isArticle: true,
     eleventyComputed: {
-        title: "{{ articleTitle }} | Articles",
+        title: "{{ articleTitle | safe }} | Articles",
         eleventyNavigation: {
             key: "{{ articleTitle }}",
             parent: "KotOR Articles"

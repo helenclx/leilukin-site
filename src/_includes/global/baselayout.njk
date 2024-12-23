@@ -43,7 +43,7 @@
         {% endif %}
 
         <title>
-            {% block pageTitle %}{{ title + " | " if title }}{{ sitemeta.siteName | safe }}{% endblock %}
+            {% block pageTitle %}{{ title + " | " if title | safe }}{{ sitemeta.siteName | safe }}{% endblock %}
         </title>
     </head>
     <body>
