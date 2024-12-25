@@ -4,12 +4,69 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2024-12-23T13:58:47Z</updated>
+    <updated>2024-12-25T06:26:43Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
         <email>contact@leilukin.com</email>
     </author>
+        
+        <entry>
+            <title>Changelog: 25 December 2024</title>
+            <link href="https://leilukin.com/"/>
+            <updated>2024-12-25T06:26:04Z</updated>
+            <id>https://leilukin.com/</id>
+            <content type="html">&lt;ul&gt;
+&lt;li&gt;New blog post: &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review&quot;&gt;&amp;quot;Leilukin&#39;s 2024: A Year In Review&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        </entry>
+        
+        <entry>
+            <title>Leilukin's 2024: A Year In Review | Blog</title>
+            <link href="https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/"/>
+            <updated>2024-12-25T06:25:57Z</updated>
+            <id>https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/</id>
+            <content type="html">&lt;p&gt;&lt;a href=&quot;https://32bit.cafe/&quot;&gt;32-Bit Cafe&lt;/a&gt; is hosting a &lt;a href=&quot;https://32bit.cafe/newyear25/&quot;&gt;New Years &#39;25 event&lt;/a&gt;, so this is a good opportunity for me to write a year-in-review post to reflect on my 2024, which has been an eventful year for both Leilukin&#39;s Hub and my personal life, although I already intended to do so even without 32-Bit Cafe&#39;s event. 🙂&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;rebuilt-leilukins-hub-with-eleventy&quot;&gt;Rebuilt Leilukin&#39;s Hub with Eleventy&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/#rebuilt-leilukins-hub-with-eleventy&quot; aria-labelledby=&quot;rebuilt-leilukins-hub-with-eleventy&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;The first major event was my discovery of the static site generator &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt; in April 2024.  I was looking for a way to manage and continue to build my website better by eliminating the process of duplicating some HTML parts over and over across multiple pages. Then I discovered Eleventy through Neocities, as some websites hosted on Neocities were built with it.&lt;/p&gt;
+&lt;p&gt;After digging into and trying out Eleventy, I quickly realised that it was the solution I had been looking for, so I &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy.md&quot;&gt;spent a whole week rebuilding Leilukin&#39;s Hub&lt;/a&gt;, and I could not be happier with how my website and my new development workflow turned out.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;custom-domain-name-and-new-host-for-leilukins-hub&quot;&gt;Custom Domain Name and New Host for Leilukin&#39;s Hub&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/#custom-domain-name-and-new-host-for-leilukins-hub&quot; aria-labelledby=&quot;custom-domain-name-and-new-host-for-leilukins-hub&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Rebuilding my entire website with a static site generator was only the first step of taking my site to the next level. As both Leilukin&#39;s Hub and my web development skills grew, I began to consider alternative hosting services to Neocities, which was where Leilukin&#39;s Hub was initially hosted on, and renting a custom domain name for my website.&lt;/p&gt;
+&lt;p&gt;Near the end of May, I rented leilukin.com from Porkbun, &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/2024-05-31-domain-name-hosting-change-leilukins-hub.md&quot;&gt;set leilukin.com as the domain name of Leilukin&#39;s Hub, and migrated Leilukin&#39;s Hub to Netlify&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Meanwhile, I dabbled in PHP to build a &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/2024-06-21-leilukins-hub-tumbleblog-launched.md&quot;&gt;tumbleblog&lt;/a&gt; and &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/2024-07-02-fanlisting-collective-launch.md&quot;&gt;fanlisting collective&lt;/a&gt; for Leilukin&#39;s Hub. At first, those subsites were hosted on InfinityFree, but after using nearly two months, I started to feel frustrated by the limitations of InfinityFree.&lt;/p&gt;
+&lt;p&gt;Therefore, I finally &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/2024-07-27-hostinger-migration-leilukins-hub.md&quot;&gt;migrated Leilukin&#39;s Hub and all its subsites to Hostinger&lt;/a&gt; in July. I have used Hostinger since then, and I am satisfied with Hostinger.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;started-participating-in-the-personal-web&quot;&gt;Started Participating in the Personal Web&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/#started-participating-in-the-personal-web&quot; aria-labelledby=&quot;started-participating-in-the-personal-web&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;2004 was also the year when I made the conscious decision to be more active in participating in the personal web and connecting with other personal website owners. I explored other personal websites more through links, left messages on other people&#39;s guestbooks, sent more emails to personal website owners, and joined more webrings, pixel clubs, web cliques and fanlistings.&lt;/p&gt;
+&lt;p&gt;Browsing other people&#39;s personal websites also provided a lot of inspiration for my own website, and socialising with other people in personal web spaces made me learn that if we want to have a community, we need to put effort in making connections with and reaching out to other people, instead of relying on a particular platform, online or offline.&lt;/p&gt;
+&lt;p&gt;Furthermore, I joined the 32-Bit Cafe community in June, and became active in both its Discord server and Discourse forums, which &lt;a href=&quot;https://tumbleblog.leilukin.com/2024/07/02/earned-32-bit-cafe-new-member-of-the-month-award-for-june-2024/&quot;&gt;awarded me &amp;quot;New Member of the Month&amp;quot; for June 2024&lt;/a&gt;. I also participated in a 32-Bit Cafe event for the first time in August, specifically the &lt;a href=&quot;https://leilukin.com/articles/accessible-footnotes/&quot;&gt;&amp;quot;Back to School&amp;quot; community code jam&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This 2024 year in review post is my second time participating in 32-Bit Cafe&#39;s events.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;my-first-web-developer-job&quot;&gt;My First Web Developer Job&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/#my-first-web-developer-job&quot; aria-labelledby=&quot;my-first-web-developer-job&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;My interest in web design and development went as far back as my teenage blogging years in the 2000s, when I learned basic HTML and CSS through editing blog themes and widgets, but I did not know how to pursue web development as a profession at the time.&lt;/p&gt;
+&lt;p&gt;Fast-forward to 2022, when my interest in HTML and CSS was rekindled by coding my own website from scratch for the first time after discovering Neocities. This time, my interest in web development grew enough for me to take online courses, starting with freeCodeCamp, and decided to switch my career path from graphic design to web development after being inspired by the stories of other people, including career switchers, becoming a professional developer without a computer science degree.&lt;/p&gt;
+&lt;p&gt;After teaching myself web development for almost two years, my dream of &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/2024-08-18-from-hobbyist-to-professional-web-developer.md&quot;&gt;getting my first developer job came true in August&lt;/a&gt;. In my first web development job, I succeed in developing a custom WordPress plugin, something I never did before this job.&lt;/p&gt;
+&lt;p&gt;Unfortunately, my first web development ended up lasting only four months, because it turned out my employer only considered his company website as merely one part of the company&#39;s marketing, and what he really wants is a digital marketer who can wear as many hats as the company wants. I refuse to waste my time and life in a field I am less interested in and less equipped for just to keep one job, while sacrificing my time in continuing to learn web development, so I &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/2024-12-16-leaving-my-first-developer-job.md&quot;&gt;decided to leave the company&lt;/a&gt;, thus 3 January 2025 will be the final day of my employment in the company.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;diagnosed-with-retinitis-pigmentosa&quot;&gt;Diagnosed with Retinitis Pigmentosa&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/#diagnosed-with-retinitis-pigmentosa&quot; aria-labelledby=&quot;diagnosed-with-retinitis-pigmentosa&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;While I have astigmatism and myopia for most of my life, recently, my parents and I suspected that I had other genetic eye conditions as my relatives were beginning to experience issues with their eyesight.&lt;/p&gt;
+&lt;p&gt;Therefore, on 30 November 2024, I went to see an eye doctor. Turned out, I do have a genetic eye condition, specifically &lt;a href=&quot;https://leilukin.com/articles/living-with-retinitis-pigmentosa&quot;&gt;retinitis pigmentosa (RP)&lt;/a&gt;. My reaction to my RP diagnosis was more relieved than upset, because there was finally an explanation for many of the difficulties I have been experiencing in my daily life as I grew older, aside from autism. I have accepted that I am visually impaired, and my visual disability may not be cured in my lifetime, in ways that are similar to my acceptance of my autism.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;wrapping-up&quot;&gt;Wrapping Up&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/#wrapping-up&quot; aria-labelledby=&quot;wrapping-up&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;2024 has been a huge year for Leilukin&#39;s Hub, my relationship with web and my personal life.&lt;/p&gt;
+&lt;p&gt;Leilukin&#39;s Hub has grown significantly since 2022, while connecting with other personal website owners and participating in personal web spaces inspired the many improvements I had made to my website, and helped me cultivate a healthier relationship with the web, by learning to make connections and be social with other people on the web. For my personal life, being diagnosed with a genetic eye disease that causes gradual vision loss and currently has no cure made me understand my conditions and limits better, so I can know how to live my life better.&lt;/p&gt;
+&lt;p&gt;I am not really a person to make specific goals for a new year, because I am old enough to realise that unexpected circumstances can change our goals and plans. However, for 2025, I intend to continue to work on my websites, participate in and advocate for making your own websites, and keep learning web development.&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Changelog: 16 December 2024</title>
@@ -200,29 +257,6 @@
 &lt;blockquote&gt;
 &lt;p&gt;Is social media the death of the personal blog? Not quite. It may have nearly killed it, yes. But for those of us willing to carve out our own space in the digital landscape, personal blogs still have a heartbeat. It just takes more effort to keep it alive.&lt;/p&gt;
 &lt;/blockquote&gt;
-</content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 17 September 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-09-17T05:58:34Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;Add &lt;a href=&quot;https://leilukin.com/adoptables/#Pantson-Color-Club&quot;&gt;Pantson Color Club section&lt;/a&gt; to my &lt;a href=&quot;https://leilukin.com/adoptables&quot;&gt;adoptables page&lt;/a&gt;, including my own colour card for the pixel club.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 6 September 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-09-06T15:16:00Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;Replace the estimated reading time of articles and blog posts with word count, by using the &lt;a href=&quot;https://www.npmjs.com/package/eleventy-plugin-wordcount-extended&quot;&gt;eleventy-plugin-wordcount-extended&lt;/a&gt; plugin.&lt;/li&gt;
-&lt;li&gt;Create 200×40 pixel size version of Leilukin&#39;s Hub site button.&lt;/li&gt;
-&lt;/ul&gt;
 </content>
         </entry>
 </feed>
