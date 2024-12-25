@@ -1,6 +1,6 @@
 ---
 articleTitle: "Leilukin's 2024: A Year In Review"
-desc: Looking back at my 2024. My submission for 32-Bit Cafe's New Years '25 event.
+desc: Looking back at my 2024. My submission to 32-Bit Cafe's New Years '25 event.
 date: 2024-12-25T14:25:57+0800
 categories: ["year in review", "32-bit cafe"]
 toc: true
