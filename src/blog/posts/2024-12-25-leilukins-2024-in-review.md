@@ -22,7 +22,7 @@ Near the end of May, I rented leilukin.com from Porkbun, [set leilukin.com as th
 
 Meanwhile, I dabbled in PHP to build a [tumbleblog](2024-06-21-leilukins-hub-tumbleblog-launched.md) and [fanlisting collective](2024-07-02-fanlisting-collective-launch.md) for Leilukin's Hub. At first, those subsites were hosted on InfinityFree, but after using nearly two months, I started to feel frustrated by the limitations of InfinityFree.
 
-Therefore, I finally [migrated Leilukin's Hub and all its subsites to Hostinger](2024-07-27-hostinger-migration-leilukins-hub.md) in July. I have used Hostinger since then, and I am satisfied with Hostinger.
+Therefore, I finally [migrated Leilukin's Hub and all its subsites to Hostinger](2024-07-27-hostinger-migration-leilukins-hub.md) in July. I have used Hostinger since then, and I am satisfied with it.
 
 ## Started Participating in the Personal Web
 
