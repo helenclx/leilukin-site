@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>Leilukin&#39;s Hub</title>
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2024-12-26T13:26:11Z</updated>
+    <updated>2024-12-26T11:12:29Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
         <email>contact@leilukin.com</email>
     </author>
-        
-        <entry>
-            <title>Changelog: 26 December 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-12-26T11:12:29Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;New blog post: &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-26-indian-ocean-tsunami-20-years&quot;&gt;&amp;quot;Remembering the 2004 Indian Ocean Tsunami&amp;quot;&lt;/a&gt;&lt;/li&gt;
+    
+    <entry>
+        <title>Changelog: 26 December 2024</title>
+        <link href="https://leilukin.com/"/>
+        <updated>2024-12-26T11:12:29Z</updated>
+        <id>https://leilukin.com/</id>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2024-12-26-indian-ocean-tsunami-20-years&quot;&gt;&amp;quot;Remembering the 2004 Indian Ocean Tsunami&amp;quot;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Remembering the 2004 Indian Ocean Tsunami | Blog</title>
-            <link href="https://leilukin.com/blog/posts/2024-12-26-indian-ocean-tsunami-20-years/"/>
-            <updated>2024-12-26T11:11:55Z</updated>
-            <id>https://leilukin.com/blog/posts/2024-12-26-indian-ocean-tsunami-20-years/</id>
-            <content type="html">&lt;p&gt;Twenty years ago today, the 2004 Indian Ocean earthquake and tsunami happened.&lt;/p&gt;
+    </entry>
+    
+    <entry>
+        <title>Remembering the 2004 Indian Ocean Tsunami | Blog</title>
+        <link href="https://leilukin.com/blog/posts/2024-12-26-indian-ocean-tsunami-20-years/"/>
+        <updated>2024-12-26T11:11:55Z</updated>
+        <id>https://leilukin.com/blog/posts/2024-12-26-indian-ocean-tsunami-20-years/</id>
+        <content type="html">&lt;p&gt;Twenty years ago today, the 2004 Indian Ocean earthquake and tsunami happened.&lt;/p&gt;
 &lt;p&gt;When I realised a while ago that the year 2024 would also mark the 20th anniversary of the earthquake and tsunami, I felt that time filed, because I still remembered the shock I felt in my young mind when I read the news reports about that natural disaster.&lt;/p&gt;
 &lt;p&gt;When the Indian Ocean tsunami struck in 2004, I had just graduated from primary school and was staying at home, and 26 December was also the birthday of my favourite cousin. Later, when I learnt of the massive earthquake in the Indian Ocean caused a massive tsunami that affected many countries, including my own country, Malaysia (especially the northern Malaysia), I was deeply shocked by how deadly and destructive the tsunami was, with the sheer amount of lives lost and the destruction of areas caused by that natural disaster, even though the part of Malaysia I lived (and still live) in was not affected.&lt;/p&gt;
 &lt;p&gt;May the dead rest in peace. My condolences to those who lost their loved ones on that day.&lt;/p&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 25 December 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-12-25T06:26:04Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;New blog post: &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review&quot;&gt;&amp;quot;Leilukin&#39;s 2024: A Year In Review&amp;quot;&lt;/a&gt;&lt;/li&gt;
+    </entry>
+    
+    <entry>
+        <title>Changelog: 25 December 2024</title>
+        <link href="https://leilukin.com/"/>
+        <updated>2024-12-25T06:26:04Z</updated>
+        <id>https://leilukin.com/</id>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2024-12-25-leilukins-2024-in-review&quot;&gt;&amp;quot;Leilukin&#39;s 2024: A Year In Review&amp;quot;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Leilukin's 2024: A Year In Review | Blog</title>
-            <link href="https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/"/>
-            <updated>2024-12-25T06:25:57Z</updated>
-            <id>https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/</id>
-            <content type="html">&lt;p&gt;&lt;a href=&quot;https://32bit.cafe/&quot;&gt;32-Bit Cafe&lt;/a&gt; is hosting a &lt;a href=&quot;https://32bit.cafe/newyear25/&quot;&gt;New Years &#39;25 event&lt;/a&gt;, so this is a good opportunity for me to write a year-in-review post to reflect on my 2024, which has been an eventful year for both Leilukin&#39;s Hub and my personal life, although I already intended to do so even without 32-Bit Cafe&#39;s event. 🙂&lt;/p&gt;
+    </entry>
+    
+    <entry>
+        <title>Leilukin's 2024: A Year In Review | Blog</title>
+        <link href="https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/"/>
+        <updated>2024-12-25T06:25:57Z</updated>
+        <id>https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/</id>
+        <content type="html">&lt;p&gt;&lt;a href=&quot;https://32bit.cafe/&quot;&gt;32-Bit Cafe&lt;/a&gt; is hosting a &lt;a href=&quot;https://32bit.cafe/newyear25/&quot;&gt;New Years &#39;25 event&lt;/a&gt;, so this is a good opportunity for me to write a year-in-review post to reflect on my 2024, which has been an eventful year for both Leilukin&#39;s Hub and my personal life, although I already intended to do so even without 32-Bit Cafe&#39;s event. 🙂&lt;/p&gt;
 &lt;div class=&quot;heading-wrapper h2&quot;&gt;
 &lt;h2 id=&quot;rebuilt-leilukins-hub-with-eleventy&quot;&gt;Rebuilt Leilukin&#39;s Hub with Eleventy&lt;/h2&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/#rebuilt-leilukins-hub-with-eleventy&quot; aria-labelledby=&quot;rebuilt-leilukins-hub-with-eleventy&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;The first major event was my discovery of the static site generator &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt; in April 2024.  I was looking for a way to manage and continue to build my website better by eliminating the process of duplicating some HTML parts over and over across multiple pages. Then I discovered Eleventy through Neocities, as some websites hosted on Neocities were built with it.&lt;/p&gt;
-&lt;p&gt;After digging into and trying out Eleventy, I quickly realised that it was the solution I had been looking for, so I &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy.md&quot;&gt;spent a whole week rebuilding Leilukin&#39;s Hub&lt;/a&gt;, and I could not be happier with how my website and my new development workflow turned out.&lt;/p&gt;
+&lt;p&gt;After digging into and trying out Eleventy, I quickly realised that it was the solution I had been looking for, so I &lt;a href=&quot;https://leilukin.com/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/&quot;&gt;spent a whole week rebuilding Leilukin&#39;s Hub&lt;/a&gt;, and I could not be happier with how my website and my new development workflow turned out.&lt;/p&gt;
 &lt;div class=&quot;heading-wrapper h2&quot;&gt;
 &lt;h2 id=&quot;custom-domain-name-and-new-host-for-leilukins-hub&quot;&gt;Custom Domain Name and New Host for Leilukin&#39;s Hub&lt;/h2&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/#custom-domain-name-and-new-host-for-leilukins-hub&quot; aria-labelledby=&quot;custom-domain-name-and-new-host-for-leilukins-hub&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Rebuilding my entire website with a static site generator was only the first step of taking my site to the next level. As both Leilukin&#39;s Hub and my web development skills grew, I began to consider alternative hosting services to Neocities, which was where Leilukin&#39;s Hub was initially hosted on, and renting a custom domain name for my website.&lt;/p&gt;
-&lt;p&gt;Near the end of May, I rented leilukin.com from Porkbun, &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/2024-05-31-domain-name-hosting-change-leilukins-hub.md&quot;&gt;set leilukin.com as the domain name of Leilukin&#39;s Hub, and migrated Leilukin&#39;s Hub to Netlify&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Meanwhile, I dabbled in PHP to build a &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/2024-06-21-leilukins-hub-tumbleblog-launched.md&quot;&gt;tumbleblog&lt;/a&gt; and &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/2024-07-02-fanlisting-collective-launch.md&quot;&gt;fanlisting collective&lt;/a&gt; for Leilukin&#39;s Hub. At first, those subsites were hosted on InfinityFree, but after using nearly two months, I started to feel frustrated by the limitations of InfinityFree.&lt;/p&gt;
-&lt;p&gt;Therefore, I finally &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/2024-07-27-hostinger-migration-leilukins-hub.md&quot;&gt;migrated Leilukin&#39;s Hub and all its subsites to Hostinger&lt;/a&gt; in July. I have used Hostinger since then, and I am satisfied with it.&lt;/p&gt;
+&lt;p&gt;Near the end of May, I rented leilukin.com from Porkbun, &lt;a href=&quot;https://leilukin.com/blog/posts/2024-05-31-domain-name-hosting-change-leilukins-hub/&quot;&gt;set leilukin.com as the domain name of Leilukin&#39;s Hub, and migrated Leilukin&#39;s Hub to Netlify&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Meanwhile, I dabbled in PHP to build a &lt;a href=&quot;https://leilukin.com/blog/posts/2024-06-21-leilukins-hub-tumbleblog-launched/&quot;&gt;tumbleblog&lt;/a&gt; and &lt;a href=&quot;https://leilukin.com/blog/posts/2024-07-02-fanlisting-collective-launch/&quot;&gt;fanlisting collective&lt;/a&gt; for Leilukin&#39;s Hub. At first, those subsites were hosted on InfinityFree, but after using nearly two months, I started to feel frustrated by the limitations of InfinityFree.&lt;/p&gt;
+&lt;p&gt;Therefore, I finally &lt;a href=&quot;https://leilukin.com/blog/posts/2024-07-27-hostinger-migration-leilukins-hub/&quot;&gt;migrated Leilukin&#39;s Hub and all its subsites to Hostinger&lt;/a&gt; in July. I have used Hostinger since then, and I am satisfied with it.&lt;/p&gt;
 &lt;div class=&quot;heading-wrapper h2&quot;&gt;
 &lt;h2 id=&quot;started-participating-in-the-personal-web&quot;&gt;Started Participating in the Personal Web&lt;/h2&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/#started-participating-in-the-personal-web&quot; aria-labelledby=&quot;started-participating-in-the-personal-web&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
@@ -75,8 +75,8 @@
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/#my-first-web-developer-job&quot; aria-labelledby=&quot;my-first-web-developer-job&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;My interest in web design and development went as far back as my teenage blogging years in the 2000s, when I learned basic HTML and CSS through editing blog themes and widgets, but I did not know how to pursue web development as a profession at the time.&lt;/p&gt;
 &lt;p&gt;Fast-forward to 2022, when my interest in HTML and CSS was rekindled by coding my own website from scratch for the first time after discovering Neocities. This time, my interest in web development grew enough for me to take online courses, starting with freeCodeCamp, and decided to switch my career path from graphic design to web development after being inspired by the stories of other people, including career switchers, becoming a professional developer without a computer science degree.&lt;/p&gt;
-&lt;p&gt;After teaching myself web development for almost two years, my dream of &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/2024-08-18-from-hobbyist-to-professional-web-developer.md&quot;&gt;getting my first developer job came true in August&lt;/a&gt;. In my first web development job, I succeed in developing a custom WordPress plugin, something I never did before this job.&lt;/p&gt;
-&lt;p&gt;Unfortunately, my first web development ended up lasting only four months, because it turned out my employer only considered his company website as merely one part of the company&#39;s marketing, and what he really wants is a digital marketer who can wear as many hats as the company wants. I refuse to waste my time and life in a field I am less interested in and less equipped for just to keep one job, while sacrificing my time in continuing to learn web development, so I &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/2024-12-16-leaving-my-first-developer-job.md&quot;&gt;decided to leave the company&lt;/a&gt;, thus 3 January 2025 will be the final day of my employment in the company.&lt;/p&gt;
+&lt;p&gt;After teaching myself web development for almost two years, my dream of &lt;a href=&quot;https://leilukin.com/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer/&quot;&gt;getting my first developer job came true in August&lt;/a&gt;. In my first web development job, I succeed in developing a custom WordPress plugin, something I never did before this job.&lt;/p&gt;
+&lt;p&gt;Unfortunately, my first web development ended up lasting only four months, because it turned out my employer only considered his company website as merely one part of the company&#39;s marketing, and what he really wants is a digital marketer who can wear as many hats as the company wants. I refuse to waste my time and life in a field I am less interested in and less equipped for just to keep one job, while sacrificing my time in continuing to learn web development, so I &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-16-leaving-my-first-developer-job/&quot;&gt;decided to leave the company&lt;/a&gt;, thus 3 January 2025 will be the final day of my employment in the company.&lt;/p&gt;
 &lt;div class=&quot;heading-wrapper h2&quot;&gt;
 &lt;h2 id=&quot;diagnosed-with-retinitis-pigmentosa&quot;&gt;Diagnosed with Retinitis Pigmentosa&lt;/h2&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2024-12-25-leilukins-2024-in-review/#diagnosed-with-retinitis-pigmentosa&quot; aria-labelledby=&quot;diagnosed-with-retinitis-pigmentosa&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
@@ -89,25 +89,25 @@
 &lt;p&gt;Leilukin&#39;s Hub has grown significantly since 2022, while connecting with other personal website owners and participating in personal web spaces inspired the many improvements I had made to my website, and helped me cultivate a healthier relationship with the web, by learning to make connections and be social with other people on the web. For my personal life, being diagnosed with a genetic eye disease that causes gradual vision loss and currently has no cure made me understand my conditions and limits better, so I can know how to live my life better.&lt;/p&gt;
 &lt;p&gt;I am not really a person to make specific goals for a new year, because I am old enough to realise that unexpected circumstances can change our goals and plans. However, for 2025, I intend to continue to work on my websites, participate in the personal web and advocate for making your own websites, and keep learning web development.&lt;/p&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 16 December 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-12-16T10:21:53Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;New blog post: &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-16-leaving-my-first-developer-job&quot;&gt;&amp;quot;Leaving My First Developer Job&amp;quot;&lt;/a&gt;&lt;/li&gt;
+    </entry>
+    
+    <entry>
+        <title>Changelog: 16 December 2024</title>
+        <link href="https://leilukin.com/"/>
+        <updated>2024-12-16T10:21:53Z</updated>
+        <id>https://leilukin.com/</id>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2024-12-16-leaving-my-first-developer-job&quot;&gt;&amp;quot;Leaving My First Developer Job&amp;quot;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Leaving My First Developer Job | Blog</title>
-            <link href="https://leilukin.com/blog/posts/2024-12-16-leaving-my-first-developer-job/"/>
-            <updated>2024-12-16T10:21:48Z</updated>
-            <id>https://leilukin.com/blog/posts/2024-12-16-leaving-my-first-developer-job/</id>
-            <content type="html">&lt;p&gt;Back in August, I shared about &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-16-leaving-my-first-developer-job/2024-08-18-from-hobbyist-to-professional-web-developer.md&quot;&gt;my transition from hobbyist to professional web developer&lt;/a&gt;, after spending almost two years in teaching myself web development to switch my career path from graphic design. I received a lot of positive reception to my story about my career change, with some even telling me they found my story inspiring.&lt;/p&gt;
+    </entry>
+    
+    <entry>
+        <title>Leaving My First Developer Job | Blog</title>
+        <link href="https://leilukin.com/blog/posts/2024-12-16-leaving-my-first-developer-job/"/>
+        <updated>2024-12-16T10:21:48Z</updated>
+        <id>https://leilukin.com/blog/posts/2024-12-16-leaving-my-first-developer-job/</id>
+        <content type="html">&lt;p&gt;Back in August, I shared about &lt;a href=&quot;https://leilukin.com/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer/&quot;&gt;my transition from hobbyist to professional web developer&lt;/a&gt;, after spending almost two years in teaching myself web development to switch my career path from graphic design. I received a lot of positive reception to my story about my career change, with some even telling me they found my story inspiring.&lt;/p&gt;
 &lt;p&gt;Unfortunately, now I have to break the bad news: I am leaving my first web developer job, and 3 January 2025 will be my last day of my current employment.&lt;/p&gt;
 &lt;p&gt;After working in my current job for 3 months, I was looking forward to an official confirmation from my company if I pass my probation period. I had high hopes for my chance of passing my probation, because I completed all my assigned tasks before deadlines, and my most notable achievement was developing a custom WordPress plugin for my company&#39;s WordPress and WooCommerce website, despite never having made a WordPress plugin before. I still remember my boss‘ “wow” exclamation when I showed him my plugin. I was hoping this could prove my willingness to learn new web development skills, especially since my boss invited me for an interview because he was looking for someone with web development skills. Previously, all the web development jobs were handled by an outsourced web developer, so I guess I was hired because my company was looking for an in-house web developer, so my creation of a custom plugin should be able to prove my web development skills.&lt;/p&gt;
 &lt;p&gt;I was so, so wrong.&lt;/p&gt;
@@ -119,26 +119,26 @@
 &lt;p&gt;Occasionally, I was assigned to do graphic design work. I did not mind it despite having burned out from graphic design as a profession, because most graphic design works for my company were still handled by outsourced graphic designers, and I could still help with tasks working on my company&#39;s WordPress website.&lt;/p&gt;
 &lt;p&gt;I have been trying to look at the positive that at least I actually got some professional web development experience, even if it lasted only a few months, but it still hurts to realise that web development, the field I am currently focusing on and the skill I was supposedly hired for, did not get valued by my current employer as I thought. I learned the hard way that sometimes, an employee&#39;s goal and what the employee can offer to the company do not match what the employer actually wants.&lt;/p&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 15 December 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-12-15T10:28:09Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;Add new article: &lt;a href=&quot;https://leilukin.com/articles/living-with-retinitis-pigmentosa&quot;&gt;&amp;quot;Living with Retinitis Pigmentosa&amp;quot;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Update my code snippet for &lt;a href=&quot;https://leilukin.com/projects/snippets/disability-pride-flag-background&quot;&gt;responsive Disability Pride flag CSS background&lt;/a&gt; by using the CSS &lt;code&gt;linear-gradient()&lt;/code&gt; function instead of an inline SVG&lt;/li&gt;
+    </entry>
+    
+    <entry>
+        <title>Changelog: 15 December 2024</title>
+        <link href="https://leilukin.com/"/>
+        <updated>2024-12-15T10:28:09Z</updated>
+        <id>https://leilukin.com/</id>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;Add new article: &lt;a href=&quot;/articles/living-with-retinitis-pigmentosa&quot;&gt;&amp;quot;Living with Retinitis Pigmentosa&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Update my code snippet for &lt;a href=&quot;/projects/snippets/disability-pride-flag-background&quot;&gt;responsive Disability Pride flag CSS background&lt;/a&gt; by using the CSS &lt;code&gt;linear-gradient()&lt;/code&gt; function instead of an inline SVG&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Living with Retinitis Pigmentosa | Articles</title>
-            <link href="https://leilukin.com/articles/living-with-retinitis-pigmentosa/"/>
-            <updated>2024-12-15T05:14:07Z</updated>
-            <id>https://leilukin.com/articles/living-with-retinitis-pigmentosa/</id>
-            <content type="html">&lt;p&gt;On 30 November 2024, I was diagnosed with retinitis pigmentosa (RP) after seeing an eye doctor.&lt;/p&gt;
+    </entry>
+    
+    <entry>
+        <title>Living with Retinitis Pigmentosa | Articles</title>
+        <link href="https://leilukin.com/articles/living-with-retinitis-pigmentosa/"/>
+        <updated>2024-12-15T05:14:07Z</updated>
+        <id>https://leilukin.com/articles/living-with-retinitis-pigmentosa/</id>
+        <content type="html">&lt;p&gt;On 30 November 2024, I was diagnosed with retinitis pigmentosa (RP) after seeing an eye doctor.&lt;/p&gt;
 &lt;p&gt;My feelings after learning that I have this genetic eye disease that causes gradual vision loss and currently has no cure was more relieved than upset, because I was relieved that to have finally understood the reason behind a lot of the difficulties in my daily life as I grew older, in addition to my autism.&lt;/p&gt;
 &lt;p&gt;Furthermore, my parents and I already suspected that I have inherited an eye condition that causes visual impairment after learning that some of my relatives on my father&#39;s side are starting to have eyesight problems. Therefore, I have accepted the possibility that I might have some incurable eye condition even before my official RP diagnosis. I had relied on glasses throughout most of my life due to having myopia and astigmatism, so I was already not new to vision conditions.&lt;/p&gt;
 &lt;p&gt;In retrospect, my RP symptoms started to manifest to the point of impacting my daily life in my early 20s. I started to bump into things more often when I walk. My eyes got more sensitive to bright light, including sunlight, to the extent that I found it difficult to see things under sunlight and thus needing sunglasses. My subconscious began to get afraid of falling, causing me to get much more cautious when I walk, especially when walking on steps and crossing over drains, especially in places I was not familiar with. I also had a hard time seeing things not directly in front of me without turning my head.&lt;/p&gt;
@@ -148,60 +148,60 @@
 &lt;p&gt;I do not write this article to ask for pity. I have accepted that I am visually impaired and autistic, and my disabilities are a huge part of who I am, as much as being a non-binary lesbian on the asexual and aromantic spectrum. Instead, I am sharing my story to let other people who have similar conditions that they are not alone, and we are worthy.&lt;/p&gt;
 &lt;p&gt;I coded a &lt;a href=&quot;https://leilukin.com/projects/snippets/disability-pride-flag-background&quot;&gt;responsive Disability Pride flag in CSS&lt;/a&gt; during the Disability Pride Month in July (which is also my birth month) 2024, so it would be fitting to conclude this article with this Pride flag I coded.&lt;/p&gt;
 &lt;div class=&quot;flag-el flag-disability&quot; role=&quot;img&quot; aria-label=&quot;Disability Pride flag coded in CSS&quot; style=&quot;margin-top: 1.7em;&quot;&gt;&lt;/div&gt;</content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 10 December 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-12-10T10:25:01Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
+    </entry>
+    
+    <entry>
+        <title>Changelog: 10 December 2024</title>
+        <link href="https://leilukin.com/"/>
+        <updated>2024-12-10T10:25:01Z</updated>
+        <id>https://leilukin.com/</id>
+        <content type="html">&lt;ul&gt;
 &lt;li&gt;Obfuscate my email address with CSS and HTTP redirects. (Credit to Spencer Mortensen&#39;s article, &lt;a href=&quot;https://spencermortensen.com/articles/email-obfuscation/&quot;&gt;&amp;quot;Email obfuscation: What works in 2024?&amp;quot;&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 9 December 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-12-09T05:07:05Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;Add table of contents to each tab section of the &lt;a href=&quot;https://leilukin.com/links&quot;&gt;Links&lt;/a&gt; page.&lt;/li&gt;
-&lt;li&gt;Add link to my &lt;a href=&quot;https://www.pixelcatsend.com/profile&amp;amp;id=24121&quot;&gt;Pixel Cat&#39;s End profile&lt;/a&gt; to my &lt;a href=&quot;https://leilukin.com/adoptables&quot;&gt;Adoptables&lt;/a&gt; page. Free free to check out my not-cats!&lt;/li&gt;
+    </entry>
+    
+    <entry>
+        <title>Changelog: 9 December 2024</title>
+        <link href="https://leilukin.com/"/>
+        <updated>2024-12-09T05:07:05Z</updated>
+        <id>https://leilukin.com/</id>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;Add table of contents to each tab section of the &lt;a href=&quot;/links&quot;&gt;Links&lt;/a&gt; page.&lt;/li&gt;
+&lt;li&gt;Add link to my &lt;a href=&quot;https://www.pixelcatsend.com/profile&amp;amp;id=24121&quot;&gt;Pixel Cat&#39;s End profile&lt;/a&gt; to my &lt;a href=&quot;/adoptables&quot;&gt;Adoptables&lt;/a&gt; page. Free free to check out my not-cats!&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 3 December 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-12-03T15:53:36Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
+    </entry>
+    
+    <entry>
+        <title>Changelog: 3 December 2024</title>
+        <link href="https://leilukin.com/"/>
+        <updated>2024-12-03T15:53:36Z</updated>
+        <id>https://leilukin.com/</id>
+        <content type="html">&lt;ul&gt;
 &lt;li&gt;Improve footnotes by enlarging the target area of reference links and footntoe backlinks.&lt;/li&gt;
-&lt;li&gt;Update article &lt;a href=&quot;https://leilukin.com/articles/accessible-footnotes/#update-3-december-2024-enlarge-link-target-area&quot;&gt;&amp;quot;How I (Tried to) Implement Accessible Footnotes&amp;quot;&lt;/a&gt; with information about improving footnote links&#39; target area.&lt;/li&gt;
+&lt;li&gt;Update article &lt;a href=&quot;/articles/accessible-footnotes/#update-3-december-2024-enlarge-link-target-area&quot;&gt;&amp;quot;How I (Tried to) Implement Accessible Footnotes&amp;quot;&lt;/a&gt; with information about improving footnote links&#39; target area.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 1 December 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-12-01T05:01:33Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;New blog post: &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-01-indieweb-carnival-november-2024-impact&quot;&gt;IndieWeb Carnival November 2024: Impact&lt;/a&gt;&lt;/li&gt;
+    </entry>
+    
+    <entry>
+        <title>Changelog: 1 December 2024</title>
+        <link href="https://leilukin.com/"/>
+        <updated>2024-12-01T05:01:33Z</updated>
+        <id>https://leilukin.com/</id>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2024-12-01-indieweb-carnival-november-2024-impact&quot;&gt;IndieWeb Carnival November 2024: Impact&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>IndieWeb Carnival November 2024: Impact | Blog</title>
-            <link href="https://leilukin.com/blog/posts/2024-12-01-indieweb-carnival-november-2024-impact/"/>
-            <updated>2024-12-01T05:01:27Z</updated>
-            <id>https://leilukin.com/blog/posts/2024-12-01-indieweb-carnival-november-2024-impact/</id>
-            <content type="html">&lt;p&gt;Alexandra, also known as &lt;a href=&quot;https://xandra.cc/&quot;&gt;Xandra&lt;/a&gt;, is hosting the &lt;a href=&quot;https://indieweb.org/IndieWeb_Carnival&quot;&gt;IndieWeb Carnival&lt;/a&gt; for November 2024, with the topic being &lt;a href=&quot;https://library.xandra.cc/indieweb-carnival/&quot;&gt;&amp;quot;Impact&amp;quot;&lt;/a&gt;. It is a great topic for self-reflection, and Xandra has provided prompts as jumping points for us to share our thoughts and experiences related to the topic. I have some of my own to share as well.&lt;/p&gt;
+    </entry>
+    
+    <entry>
+        <title>IndieWeb Carnival November 2024: Impact | Blog</title>
+        <link href="https://leilukin.com/blog/posts/2024-12-01-indieweb-carnival-november-2024-impact/"/>
+        <updated>2024-12-01T05:01:27Z</updated>
+        <id>https://leilukin.com/blog/posts/2024-12-01-indieweb-carnival-november-2024-impact/</id>
+        <content type="html">&lt;p&gt;Alexandra, also known as &lt;a href=&quot;https://xandra.cc/&quot;&gt;Xandra&lt;/a&gt;, is hosting the &lt;a href=&quot;https://indieweb.org/IndieWeb_Carnival&quot;&gt;IndieWeb Carnival&lt;/a&gt; for November 2024, with the topic being &lt;a href=&quot;https://library.xandra.cc/indieweb-carnival/&quot;&gt;&amp;quot;Impact&amp;quot;&lt;/a&gt;. It is a great topic for self-reflection, and Xandra has provided prompts as jumping points for us to share our thoughts and experiences related to the topic. I have some of my own to share as well.&lt;/p&gt;
 &lt;p&gt;I believe everyone is capable of making an impact on someone else&#39;s life, no matter how small, and even if in an indirect manner, because our actions and choices have consequences.&lt;/p&gt;
 &lt;div class=&quot;heading-wrapper h2&quot;&gt;
 &lt;h2 id=&quot;impact-of-a-kind-and-generous-stranger&quot;&gt;Impact of a Kind and Generous Stranger&lt;/h2&gt;
@@ -218,7 +218,7 @@
 &lt;p&gt;Fast-forward to 2022, I discovered &lt;a href=&quot;https://neocities.org/&quot;&gt;Neocities&lt;/a&gt; through Tumblr, and thus discovered the resurgence of personal websites. My interest in HTML and CSS was fully rekindled after learning to code my personal website from scratch for the first time on Neocities. Eventually, my interest grew large enough to take online courses to teach myself web development, starting with &lt;a href=&quot;https://www.freecodecamp.org/&quot;&gt;freeCodeCamp&lt;/a&gt;. I decided that I wanted to become a web developer after hearing other web and software developers&#39; stories about getting developer jobs without a computer science degree, including stories of those who previously worked on a different occupation.&lt;/p&gt;
 &lt;p&gt;In mid-2024, I decided to get more involved in the personal web by joining its communities. In June 2024, I joined a personal web community for hobbyist web developers named &lt;a href=&quot;https://32bit.cafe/&quot;&gt;32-Bit Cafe&lt;/a&gt;, which was &lt;a href=&quot;https://32bit.cafe/about/&quot;&gt;started by Xandra herself&lt;/a&gt;, on both its Discourse forum and its Discord server. In &lt;a href=&quot;https://discourse.32bit.cafe/t/hello-its-me-leilukin/1029&quot;&gt;my introduction thread&lt;/a&gt; on 32-Bit Cafe&#39;s Discourse forum, I introduced myself as an aspiring web developer, because I was already in the process of working towards my goal of switching my career path from graphic design to web development.&lt;/p&gt;
 &lt;p&gt;I was drawn to 32-Bit Cafe because it appears to share my values, after reading its &lt;a href=&quot;https://32bit.cafe/about/codeofconduct.php&quot;&gt;code of conduct&lt;/a&gt; and &lt;a href=&quot;https://discourse.32bit.cafe/guidelines&quot;&gt;community guidelines&lt;/a&gt;, and I was proven right. I have been enjoying my time in the 32-Bit Cafe community and have always felt welcomed there. Interacting with other webweavers has provided me a lot of inspirations for my own website as well.&lt;/p&gt;
-&lt;p&gt;Finally, after spending almost 2 years to teach myself web development, I reached my goal of becoming a professional web development in August 2024. I shared the news of my official career transition from graphic design to web development on &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-01-indieweb-carnival-november-2024-impact/2024-08-18-from-hobbyist-to-professional-web-developer.md&quot;&gt;this blog&lt;/a&gt; and &lt;a href=&quot;https://discourse.32bit.cafe/t/tell-us-some-good-news/1091/16?u=leilukin&quot;&gt;32-Bit Cafe&#39;s Discourse forum&lt;/a&gt;, and received a great deal of support and positive responses. I even received messages from other people in the personal space, including members of 32-Bit Cafe, that my story of transitioning from hobbyist to professional web developer has inspired them to learn web development more.&lt;/p&gt;
+&lt;p&gt;Finally, after spending almost 2 years to teach myself web development, I reached my goal of becoming a professional web development in August 2024. I shared the news of my official career transition from graphic design to web development on &lt;a href=&quot;https://leilukin.com/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer/&quot;&gt;this blog&lt;/a&gt; and &lt;a href=&quot;https://discourse.32bit.cafe/t/tell-us-some-good-news/1091/16?u=leilukin&quot;&gt;32-Bit Cafe&#39;s Discourse forum&lt;/a&gt;, and received a great deal of support and positive responses. I even received messages from other people in the personal space, including members of 32-Bit Cafe, that my story of transitioning from hobbyist to professional web developer has inspired them to learn web development more.&lt;/p&gt;
 &lt;p&gt;I made the decision to pursue web development as a profession after being inspired by other people&#39;s stories, so I was pleased to hear that my own story has inspired others in turn too. This shows the impact we can have on others by sharing our stories.&lt;/p&gt;
 &lt;div class=&quot;heading-wrapper h2&quot;&gt;
 &lt;h2 id=&quot;what-impact-i-hope-to-make&quot;&gt;What Impact I Hope to Make&lt;/h2&gt;
@@ -227,27 +227,27 @@
 &lt;p&gt;I have used the internet for most of my life, with blogging being my first foray into creating things on the web, and thus planting the seed of my love for the web. Participating in the independent web as an adult has given me hope that a better web is possible. Now that I am a professional web developer, I aim to make use of my knowledges, skills and abilities to make the web better.&lt;/p&gt;
 &lt;p&gt;I cannot predict how long I will live, but I hope to do what I can to make a positive impact on the world by channelling my desire to want to make the world a better place into my actions and creations.&lt;/p&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 21 November 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-11-20T16:55:40Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;Officially launch my &lt;a href=&quot;https://leilukin.com/shrines/pokemonoras&quot;&gt;&lt;cite&gt;Pokémon Omega Ruby&lt;/cite&gt; and &lt;cite&gt;Alpha Sapphire&lt;/cite&gt; shrine&lt;/a&gt; to celebrate the 10th anniversary of the games&#39; release.&lt;/li&gt;
+    </entry>
+    
+    <entry>
+        <title>Changelog: 21 November 2024</title>
+        <link href="https://leilukin.com/"/>
+        <updated>2024-11-20T16:55:40Z</updated>
+        <id>https://leilukin.com/</id>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;Officially launch my &lt;a href=&quot;/shrines/pokemonoras&quot;&gt;&lt;cite&gt;Pokémon Omega Ruby&lt;/cite&gt; and &lt;cite&gt;Alpha Sapphire&lt;/cite&gt; shrine&lt;/a&gt; to celebrate the 10th anniversary of the games&#39; release.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        </entry>
-        
-        <entry>
-            <title>Changelog: 19 November 2024</title>
-            <link href="https://leilukin.com/"/>
-            <updated>2024-11-19T14:19:00Z</updated>
-            <id>https://leilukin.com/</id>
-            <content type="html">&lt;ul&gt;
-&lt;li&gt;Expand the home page of my &lt;a href=&quot;https://leilukin.com/shrines/cassettebeasts&quot;&gt;&lt;cite&gt;Cassette Beasts&lt;/cite&gt; shrine&lt;/a&gt; by adding a &lt;a href=&quot;https://leilukin.com/shrines/cassettebeasts/#cassette-beasts-my-ultimate-comfort-media&quot;&gt;&amp;quot;&lt;cite&gt;Cassette Beasts&lt;/cite&gt; — My Ultimate Comfort Media&amp;quot;&lt;/a&gt; section.&lt;/li&gt;
+    </entry>
+    
+    <entry>
+        <title>Changelog: 19 November 2024</title>
+        <link href="https://leilukin.com/"/>
+        <updated>2024-11-19T14:19:00Z</updated>
+        <id>https://leilukin.com/</id>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;Expand the home page of my &lt;a href=&quot;/shrines/cassettebeasts&quot;&gt;&lt;cite&gt;Cassette Beasts&lt;/cite&gt; shrine&lt;/a&gt; by adding a &lt;a href=&quot;/shrines/cassettebeasts/#cassette-beasts-my-ultimate-comfort-media&quot;&gt;&amp;quot;&lt;cite&gt;Cassette Beasts&lt;/cite&gt; — My Ultimate Comfort Media&amp;quot;&lt;/a&gt; section.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        </entry>
+    </entry>
 </feed>
