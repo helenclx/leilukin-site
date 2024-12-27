@@ -12,20 +12,20 @@ eleventyComputed:
     <subtitle>{{ sitemeta.siteDescription }}</subtitle>
     <link href="{{ sitemeta.feedUrl }}" rel="self"/>
     <link href="{{ sitemeta.siteUrl }}"/>
-    <updated>{{ collections.feedItems | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+    <updated>{{ collections["feed items"] | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
     <id>{{ feedMeta.baseUrl }}</id>
     <author>
         <name>{{ sitemeta.siteAuthor.name }}</name>
         <email>{{ sitemeta.siteAuthor.email }}</email>
     </author>
     {%- for item in collections["feed items"] | reverse | itemLimit(15) %}
-        {% set absolutePostUrl %}{{ item.url | absoluteUrl(feedMeta.baseUrl) }}{% endset %}
-        <entry>
-            <title>{{ item.data.title | safe }}</title>
-            <link href="{{ feedMeta.baseUrl if absolutePostUrl.includes("false") else absolutePostUrl }}"/>
-            <updated>{{ item.date | dateToRfc3339 }}</updated>
-            <id>{{ feedMeta.baseUrl if absolutePostUrl.includes("false") else absolutePostUrl }}</id>
-            <content type="html">{{ item.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
-        </entry>
+    {% set absolutePostUrl %}{{ item.url | absoluteUrl(feedMeta.baseUrl) }}{% endset %}
+    <entry>
+        <title>{{ item.data.title | safe }}</title>
+        <link href="{{ feedMeta.baseUrl if absolutePostUrl.includes("false") else absolutePostUrl }}"/>
+        <updated>{{ item.date | dateToRfc3339 }}</updated>
+        <id>{{ feedMeta.baseUrl if absolutePostUrl.includes("false") else absolutePostUrl }}</id>
+        <content type="html">{{ item.content | renderTransforms(item.data.page, feedMeta.baseUrl) }}</content>
+    </entry>
     {%- endfor %}
 </feed>
