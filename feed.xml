@@ -4,12 +4,39 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2024-12-26T11:12:29Z</updated>
+    <updated>2024-12-27T04:09:47Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
         <email>contact@leilukin.com</email>
     </author>
+    
+    <entry>
+        <title>Changelog: 27 December 2024</title>
+        <link href="https://leilukin.com/"/>
+        <updated>2024-12-27T04:09:47Z</updated>
+        <id>https://leilukin.com/</id>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2024-12-27-my-2024-christmas-season&quot;&gt;&amp;quot;My Christmas Season in 2024&amp;quot;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Fixed broken links in my blog posts to my other blog posts in the website&#39;s RSS feed.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <title>My Christmas Season in 2024 | Blog</title>
+        <link href="https://leilukin.com/blog/posts/2024-12-27-my-2024-christmas-season/"/>
+        <updated>2024-12-27T04:09:39Z</updated>
+        <id>https://leilukin.com/blog/posts/2024-12-27-my-2024-christmas-season/</id>
+        <content type="html">&lt;p&gt;Happy Holidays!&lt;/p&gt;
+&lt;p&gt;Christmas celebration is not a tradition in my family because my parents are not religious, but we always look forward to Christmas season, because Christmas Eve also happens to be my younger brother&#39;s birthday. Yes, that means my brother is a Christmas Eve baby, haha. 😄&lt;/p&gt;
+&lt;p&gt;Even after my brother moved out of our hometown to work and live in Singapore, he still makes plans for returning to Malaysia and visit us during Christmas season every year, to celebrate his birthday with us, and this year is no exception. 2024 is also the year my brother turns 30, and thus officially joins me in the 30s club.&lt;/p&gt;
+&lt;p&gt;On my brother&#39;s birthday, we had our lunch in a restaurant together, and visited a bakery store to buy a birthday cake for my brother, who chose a fruit cake. We had a birthday celebration at home for my brother with the fruit cake later in the evening after our dinner at home.&lt;/p&gt;
+&lt;p&gt;My brother returned to Singapore after spending five days and four nights in our hometown during this Christmas season.&lt;/p&gt;
+&lt;p&gt;I am grateful of the moments of my immediately family gathering and talking together, especially when my brother takes a break and returns from Singapore to visit us.&lt;/p&gt;
+&lt;p&gt;Hope you have a pleasant holiday season!&lt;/p&gt;
+</content>
+    </entry>
     
     <entry>
         <title>Changelog: 26 December 2024</title>
@@ -226,28 +253,6 @@
 &lt;p&gt;My life and experience have taught me that everyone is capable of making an impact on other people and the world, and making connections to people from all walks of life on the web only cemented such belief.&lt;/p&gt;
 &lt;p&gt;I have used the internet for most of my life, with blogging being my first foray into creating things on the web, and thus planting the seed of my love for the web. Participating in the independent web as an adult has given me hope that a better web is possible. Now that I am a professional web developer, I aim to make use of my knowledges, skills and abilities to make the web better.&lt;/p&gt;
 &lt;p&gt;I cannot predict how long I will live, but I hope to do what I can to make a positive impact on the world by channelling my desire to want to make the world a better place into my actions and creations.&lt;/p&gt;
-</content>
-    </entry>
-    
-    <entry>
-        <title>Changelog: 21 November 2024</title>
-        <link href="https://leilukin.com/"/>
-        <updated>2024-11-20T16:55:40Z</updated>
-        <id>https://leilukin.com/</id>
-        <content type="html">&lt;ul&gt;
-&lt;li&gt;Officially launch my &lt;a href=&quot;/shrines/pokemonoras&quot;&gt;&lt;cite&gt;Pokémon Omega Ruby&lt;/cite&gt; and &lt;cite&gt;Alpha Sapphire&lt;/cite&gt; shrine&lt;/a&gt; to celebrate the 10th anniversary of the games&#39; release.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </entry>
-    
-    <entry>
-        <title>Changelog: 19 November 2024</title>
-        <link href="https://leilukin.com/"/>
-        <updated>2024-11-19T14:19:00Z</updated>
-        <id>https://leilukin.com/</id>
-        <content type="html">&lt;ul&gt;
-&lt;li&gt;Expand the home page of my &lt;a href=&quot;/shrines/cassettebeasts&quot;&gt;&lt;cite&gt;Cassette Beasts&lt;/cite&gt; shrine&lt;/a&gt; by adding a &lt;a href=&quot;/shrines/cassettebeasts/#cassette-beasts-my-ultimate-comfort-media&quot;&gt;&amp;quot;&lt;cite&gt;Cassette Beasts&lt;/cite&gt; — My Ultimate Comfort Media&amp;quot;&lt;/a&gt; section.&lt;/li&gt;
-&lt;/ul&gt;
 </content>
     </entry>
 </feed>
