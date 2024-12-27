@@ -7,7 +7,7 @@ eleventyComputed:
         baseUrl: "{{ sitemeta.siteUrl }}/"
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ sitemeta.siteLanguage or page.lang }}">
     <title>{{ sitemeta.siteName }}</title>
     <subtitle>{{ sitemeta.siteDescription }}</subtitle>
     <link href="{{ sitemeta.feedUrl }}" rel="self"/>
