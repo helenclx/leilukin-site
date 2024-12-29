@@ -4,7 +4,7 @@ export const siteUrl = "https://" + siteDomain || "http://localhost:8080";
 export const siteAuthor = {
 	name: "Leilukin",
 	email: "contact@leilukin.com",
-	emailEncoded: '<span class="email-encoded">contact@leilukin<b>.example</b>.com</span>',
+	emailEncoded: '<span class="email-encoded">contact@leilukin<b>.mail</b>.com</span>',
 	emailDecoyUrl: "emailme/",
 	url: siteUrl + "/about"
 };
