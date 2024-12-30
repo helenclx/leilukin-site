@@ -73,6 +73,7 @@ blockquote > * + :not([class]),
 
 button:hover { cursor: pointer; }
 details:focus { outline-offset: 0.2em; }
+video { width: 100%; }
 
 figure {
     margin-bottom: var(--sz-paragraph-margin);
@@ -109,12 +110,19 @@ pre > code { white-space: pre; }
 summary { cursor: pointer; }
 
 dl {
+    container-type: inline-size;
     display: grid;
-    gap: 1em;
-    grid-template-columns: auto auto;
+    gap: var(--sz-content-list-gap);
 }
 
 dt { font-weight: 700; }
-dd {grid-column-start: 2; }
+dd { margin-left: var(--sz-def-indent); }
+dd ul { padding-left: 1em; }
 
-video { width: 100%; }
+@container (min-width: 20rem) {
+    dl { grid-template-columns: 1fr 2fr; }
+    dd {
+        grid-column-start: 2;
+        margin-left: 0;
+    }
+}
