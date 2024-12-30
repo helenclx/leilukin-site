@@ -5,8 +5,8 @@ export default {
     eleventyComputed: {
         title: "{{ title }}",
         eleventyNavigation: {
-            key: "{{ title }}",
-            parent: "Links"
+            key: false,
+            parent: false
         }
     }
 }
