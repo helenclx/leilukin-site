@@ -12,6 +12,8 @@ Welcome to Leilukin’s {% cite "Stardew Valley" %} Mod Build!
 
 Here I’m compiling a list of all the modifications, or mods in short, that I use for {% cite "Stardew Valley" %}, the independent farming simulator video game developed by ConcernedApe, for the best experience with the game. This document is made for my reference and to share with others.
 
+The format of this mod list is inspired by [KOTOR Community Portal's mod lists](https://kotor.neocities.org/modding/).
+
 (This mod list was last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time>)
 {% endcontainer  %}
 
