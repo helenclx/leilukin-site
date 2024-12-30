@@ -45,10 +45,10 @@ a > .inline-icon { padding-inline-end: .25em; }
 .email-encoded b { display: none; }
 
 .deflist-1col { grid-template-columns: unset; }
-* + .deflist-1col { margin-block-start: 1.5em; }
+* + .deflist-1col { margin-block-start: var(--sz-def-indent); }
 .deflist-1col dd {
     grid-column-start: unset;
-    margin-left: 1.5em;
+    margin-block-start: var(--sz-def-indent);
 }
 
 .hidden { display: none; }
