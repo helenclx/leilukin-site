@@ -2,7 +2,8 @@
 articleTitle: Leilukin's Stardew Valley Mod Build
 desc: A list of Stardew Valley mods I use.
 tags: ["mod lists"]
-updated: 2024-12-30T20:23:30+0800
+categories: ["stardew valley", "mod lists"]
+updated: 2024-12-30T22:51:43+0800
 isContentDivided: true
 toc: true
 ---
@@ -41,13 +42,13 @@ Immersion
 {% container "article", "content__section" %}
 ## Mod Tiers
 
-The tiers for each mod included in my mod build are not necessary a judgement on the quality of the mods themselves. In my mod builds, mod tiers are ranked on a scale of 1-4, based on how important the individual mods are for my experience with Stardew Valley.
+The tiers for each mod included in my mod build are not necessary a judgement on the quality of the mods themselves. In my mod builds, mod tiers are ranked on a scale of 1-4, based on how important the individual mods are for my experience with {% cite "Stardew Valley" %}.
 
 Tier 1 - Essential
-: This tier indicates mods that I cannot play Stardew Valley without. Usually this is because I find those mods make very crucial changes to the game, typically by fixing things that bother me the most in the vanilla game. Similarly, mods of the Patch category that belong to this tier make critical changes to other mods. I consider excluding Tier 1 mods will negatively affect my experience with Stardew Valley.
+: This tier indicates mods that I cannot play {% cite "Stardew Valley" %} without. Usually this is because I find those mods make very crucial changes to the game, typically by fixing things that bother me the most in the vanilla game. Similarly, mods of the Patch category that belong to this tier make critical changes to other mods. I consider excluding Tier 1 mods will negatively affect my experience with {% cite "Stardew Valley" %}.
 
 Tier 2 - Very Important
-: This tier indicates mods that vastly improve my experience with the game. Mods belong to this tier are the bread and butter of my mod build. That said, unlike Tier 1 mods, excluding Tier 2 mods from my playthrough does not actively make my Stardew Valley experience worse either.
+: This tier indicates mods that vastly improve my experience with the game. Mods belong to this tier are the bread and butter of my mod build. That said, unlike Tier 1 mods, excluding Tier 2 mods from my playthrough does not actively make my {% cite "Stardew Valley" %} experience worse either.
 
 Tier 3 - Somewhat Important
 : This tier indicates mods that make changes that are in smaller scope or more subjective compared to Tier 1 and Tier 2 mods. Usually this is because the changes made by Tier 3 mods are less noticeable or more of a matter of personal taste.
@@ -246,7 +247,7 @@ Content Patcher Required
 : No
 
 Leilukin’s Comment
-: What bothers me about the hay in Stardew Valley is that if your silos are full, you cannot collect hay at all, not even as extra items in your inventory. This mod fixes that.
+: What bothers me about the hay in {% cite "Stardew Valley" %} is that if your silos are full, you cannot collect hay at all, not even as extra items in your inventory. This mod fixes that.
 
 ---
 
@@ -909,7 +910,7 @@ Other Required Files
 : * [Sprites in Detail](https://www.nexusmods.com/stardewvalley/mods/14487) by BleakCodex for the Marigold / Linus Modded config option
 
 Leilukin’s Comment
-: As much as I like Stardew Valley, I cannot help but notice that the characters are overwhelmingly white. Therefore, the existence of the Diverse Stardew Valley mod is a gift and I consider this mod essential for my game.
+: As much as I like {% cite "Stardew Valley" %}, I cannot help but notice that the characters are overwhelmingly white. Therefore, the existence of the Diverse Stardew Valley mod is a gift and I consider this mod essential for my game.
 
 ---
 
