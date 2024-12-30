@@ -82,8 +82,11 @@ Mod Name
 Mod Author
 : spacechase0
 
-Category & Tier
-: Interface Change / Tier 1 - Essential
+Category
+: Interface Change
+
+Tier
+: Tier 1 - Essential
 
 SMAPI Required
 : Yes
@@ -101,8 +104,11 @@ Mod Name
 Mod Author
 : Pathoschild
 
-Category & Tier
-: Interface Change / Tier 1 - Essential
+Category
+: Interface Change
+
+Tier
+: Tier 1 - Essential
 
 SMAPI Required
 : Yes
@@ -123,8 +129,11 @@ Mod Name
 Mod Author
 : Bouhm and Pathoschild
 
-Category & Tier
-: Interface Change / Tier 1 - Essential
+Category
+: Interface Change
+
+Tier
+: Tier 1 - Essential
 
 SMAPI Required
 : Yes
@@ -142,8 +151,11 @@ Mod Name
 Mod Author
 : Richard2091
 
-Category & Tier
-: Interface Change / Tier 2 - Very Important
+Category
+: Interface Change
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -161,8 +173,11 @@ Mod Name
 Mod Author
 : monopandora, maintained by Sakorona
 
-Category & Tier
-: Interface Change / Tier 2 - Very Important
+Category
+: Interface Change
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -180,8 +195,11 @@ Mod Name
 Mod Author
 : seeinggreen
 
-Category & Tier
-: Interface Change / Tier 3 - Somewhat Important
+Category
+: Interface Change
+
+Tier
+: Tier 3 - Somewhat Important
 
 SMAPI Required
 : Yes
@@ -199,8 +217,11 @@ Mod Name
 Mod Author
 : cantorsdust and Pathoschild
 
-Category & Tier
-: Mechanics Change / Tier 2 - Very Important
+Category
+: Mechanics Change
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -218,8 +239,11 @@ Mod Name
 Mod Author
 : Pathoschild
 
-Category & Tier
-: Interface Change / Tier 1 - Essential
+Category
+: Interface Change
+
+Tier
+: Tier 1 - Essential
 
 SMAPI Required
 : Yes
@@ -237,8 +261,11 @@ Mod Name
 Mod Author
 : Omek97
 
-Category & Tier
-: Mechanics Change / Tier 1 - Essential
+Category
+: Mechanics Change
+
+Tier
+: Tier 1 - Essential
 
 SMAPI Required
 : Yes
@@ -259,8 +286,11 @@ Mod Name
 Mod Author
 : EnderTedi
 
-Category & Tier
-: Mechanics Change / Tier 2 - Very Important
+Category
+: Mechanics Change
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -278,8 +308,11 @@ Mod Name
 Mod Author
 : Rakiin aka ScheKaa
 
-Category & Tier
-: Mechanics Change / Tier 3 - Somewhat Important
+Category
+: Mechanics Change
+
+Tier
+: Tier 3 - Somewhat Important
 
 SMAPI Required
 : Yes
@@ -297,8 +330,11 @@ Mod Name
 Mod Author
 : hawkfalcon
 
-Category & Tier
-: Mechanics Change / Tier 2 - Very Important
+Category
+: Mechanics Change
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -316,8 +352,11 @@ Mod Name
 Mod Author
 : BitwiseJon
 
-Category & Tier
-:  Mechanics Change / Tier 2 - Very Important
+Category
+:  Mechanics Change
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -335,8 +374,11 @@ Mod Name
 Mod Author
 : Pathoschild
 
-Category & Tier
-: Mechanics Change / Tier 2 - Very Important
+Category
+: Mechanics Change
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -354,8 +396,11 @@ Mod Name
 Mod Author
 : Pathoschild
 
-Category & Tier
-: Mechanics Change / Tier 3 - Somewhat Important
+Category
+: Mechanics Change
+
+Tier
+: Tier 3 - Somewhat Important
 
 SMAPI Required
 : Yes
@@ -373,8 +418,11 @@ Mod Name
 Mod Author
 : IsaacSDev
 
-Category & Tier
-: Mechanics Change / Tier 1 - Essential
+Category
+: Mechanics Change
+
+Tier
+: Tier 1 - Essential
 
 SMAPI Required
 : Yes
@@ -392,8 +440,11 @@ Mod Name
 Mod Author
 : Hana
 
-Category & Tier
-: Immersion / Tier 1 - Essential
+Category
+: Immersion
+
+Tier
+: Tier 1 - Essential
 
 SMAPI Required
 : Yes
@@ -414,8 +465,11 @@ Mod Name
 Mod Author
 : Amaranthacyan
 
-Category & Tier
-: Modified Content / Tier 1 - Essential
+Category
+: Modified Content
+
+Tier
+: Tier 1 - Essential
 
 SMAPI Required
 : Yes
@@ -436,8 +490,11 @@ Mod Name
 Mod Author
 : CherryChain
 
-Category & Tier
-: Modified Content / Tier 1 - Essential
+Category
+: Modified Content
+
+Tier
+: Tier 1 - Essential
 
 SMAPI Required
 : Yes
@@ -455,8 +512,11 @@ Mod Name
 Mod Author
 : ShotFromGuns
 
-Category & Tier
-: Modified Content / Tier 2 - Very Important
+Category
+: Modified Content
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -474,8 +534,11 @@ Mod Name
 Mod Author
 : EnderTedi
 
-Category & Tier
-: Modified Content / Tier 2 - Very Important
+Category
+: Modified Content
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -493,8 +556,11 @@ Mod Name
 Mod Author
 : Datamancer
 
-Category & Tier
-: Modified Content / Tier 3 - Somewhat Important
+Category
+: Modified Content
+
+Tier
+: Tier 3 - Somewhat Important
 
 SMAPI Required
 : Yes
@@ -512,8 +578,11 @@ Mod Name
 Mod Author
 : aedenthorn; unofficial update by FlyingTNT
 
-Category & Tier
-: Modified Content / Tier 3 - Somewhat Important
+Category
+: Modified Content
+
+Tier
+: Tier 3 - Somewhat Important
 
 SMAPI Required
 : Yes
@@ -531,8 +600,11 @@ Mod Name
 Mod Author
 : aedenthorn; unofficial update by FlyingTNT
 
-Category & Tier
-: Appearance Change / Tier 3 - Somewhat Important
+Category
+: Appearance Change
+
+Tier
+: Tier 3 - Somewhat Important
 
 SMAPI Required
 : Yes
@@ -550,8 +622,11 @@ Mod Name
 Mod Author
 : JoXW
 
-Category & Tier
-: Modified Content / Tier 3 - Somewhat Important
+Category
+: Modified Content
+
+Tier
+: Tier 3 - Somewhat Important
 
 SMAPI Required
 : Yes
@@ -569,8 +644,11 @@ Mod Name
 Mod Author
 : Space Baby
 
-Category & Tier
-: Mechanics Change / Tier 2 - Very Important
+Category
+: Mechanics Change
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -588,8 +666,11 @@ Mod Name
 Mod Author
 : mistyspring
 
-Category & Tier
-: Modified Content / Tier 3 - Somewhat Important
+Category
+: Modified Content
+
+Tier
+: Tier 3 - Somewhat Important
 
 SMAPI Required
 : Yes
@@ -607,8 +688,11 @@ Mod Name
 Mod Author
 : Ran
 
-Category & Tier
-: Modified Content / Tier 2 - Very Important
+Category
+: Modified Content
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -626,8 +710,11 @@ Mod Name
 Mod Author
 : ShotFromGuns
 
-Category & Tier
-: Modified Content / Tier 2 - Very Important
+Category
+: Modified Content
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -645,8 +732,11 @@ Mod Name
 Mod Author
 : Airyn
 
-Category & Tier
-: Modified Content / Tier 2 - Very Important
+Category
+: Modified Content
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -664,8 +754,11 @@ Mod Name
 Mod Author
 : LavenderLight
 
-Category & Tier
-: Modified Content / Tier 2 - Very Important
+Category
+: Modified Content
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -683,8 +776,11 @@ Mod Name
 Mod Author
 : IllogicalMoodSwing
 
-Category & Tier
-: Modified Content / Tier 2 - Very Important
+Category
+: Modified Content
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -702,8 +798,11 @@ Mod Name
 Mod Author
 : Airyn
 
-Category & Tier
-: Modified Content / Tier 2 - Very Important
+Category
+: Modified Content
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -721,8 +820,11 @@ Mod Name
 Mod Author
 : sqbr
 
-Category & Tier
-: Modified Content / Tier 1 - Essential
+Category
+: Modified Content
+
+Tier
+: Tier 1 - Essential
 
 SMAPI Required
 : Yes
@@ -740,8 +842,11 @@ Mod Name
 Mod Author
 : Isi
 
-Category & Tier
-: Modified Content / Tier 1 - Essential
+Category
+: Modified Content
+
+Tier
+: Tier 1 - Essential
 
 SMAPI Required
 : Yes
@@ -759,8 +864,11 @@ Mod Name
 Mod Author
 : Fuzzlepuzzle
 
-Category & Tier
-: Modified Content / Tier 2 - Very Important
+Category
+: Modified Content
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -778,8 +886,11 @@ Mod Name
 Mod Author
 : Airyn
 
-Category & Tier
-: Modified Content / Tier 3 - Somewhat Important
+Category
+: Modified Content
+
+Tier
+: Tier 3 - Somewhat Important
 
 SMAPI Required
 : Yes
@@ -797,8 +908,11 @@ Mod Name
 Mod Author
 : Isi
 
-Category & Tier
-: Modified Content / Tier 3 - Somewhat Important
+Category
+: Modified Content
+
+Tier
+: Tier 3 - Somewhat Important
 
 SMAPI Required
 : Yes
@@ -816,8 +930,11 @@ Mod Name
 Mod Author
 : Yoshimax and Pathoschild
 
-Category & Tier
-: Modified Content / Tier 3 - Somewhat Important
+Category
+: Modified Content
+
+Tier
+: Tier 3 - Somewhat Important
 
 SMAPI Required
 : Yes
@@ -835,8 +952,11 @@ Mod Name
 Mod Author
 : LenneDalben
 
-Category & Tier
-: Modified Content / Tier 2 - Very Important
+Category
+: Modified Content
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -854,8 +974,11 @@ Mod Name
 Mod Author
 : Airyn
 
-Category & Tier
-: Immersion / Tier 1 - Essential
+Category
+: Immersion
+
+Tier
+: Tier 1 - Essential
 
 SMAPI Required
 : Yes
@@ -873,8 +996,11 @@ Mod Name
 Mod Author
 : Elaho
 
-Category & Tier
-: Appearance Change & Immersion / Tier 1 - Essential
+Category
+: Appearance Change & Immersion
+
+Tier
+: Tier 1 - Essential
 
 SMAPI Required
 : Yes
@@ -895,8 +1021,11 @@ Mod Name
 Mod Author
 : DSV Project Team. Original version of the mod made by notsnufffie.
 
-Category & Tier
-: Appearance Change & Modified Content / Tier 1 - Essential
+Category
+: Appearance Change & Modified Content
+
+Tier
+: Tier 1 - Essential
 
 SMAPI Required
 : Yes
@@ -907,7 +1036,9 @@ Content Patcher Required
 Other Required Files
 : * [Generic Mod Config Menu](https://www.nexusmods.com/stardewvalley/mods/5098) by spacechase0
 : * [Cross-Mod Compatibility Tokens (CMCT)](https://www.nexusmods.com/stardewvalley/mods/28284) by Spiderbuttons
-: * [Sprites in Detail](https://www.nexusmods.com/stardewvalley/mods/14487) by BleakCodex for the Marigold / Linus Modded config option
+: * [Sprites in Detail](https://www.nexusmods.com/stardewvalley/mods/14487) by BleakCodex for the Marigold
+
+: Linus Modded config option
 
 Leilukin’s Comment
 : As much as I like {% cite "Stardew Valley" %}, I cannot help but notice that the characters are overwhelmingly white. Therefore, the existence of the Diverse Stardew Valley mod is a gift and I consider this mod essential for my game.
@@ -922,8 +1053,11 @@ Mod Name
 Mod Author
 : DSV Project Team
 
-Category & Tier
-: Appearance Change / Tier 2 - Very Important
+Category
+: Appearance Change
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -950,8 +1084,11 @@ Mod Name
 Mod Author
 : Zoedoll Lemurkat and AirynS
 
-Category & Tier
-: Appearance Change / Tier 1 - Essential
+Category
+: Appearance Change
+
+Tier
+: Tier 1 - Essential
 
 SMAPI Required
 : Yes
@@ -976,8 +1113,11 @@ Mod Name
 Mod Author
 : junimods
 
-Category & Tier
-: Appearance Change / Tier 3 - Somewhat Important
+Category
+: Appearance Change
+
+Tier
+: Tier 3 - Somewhat Important
 
 SMAPI Required
 : Yes
@@ -995,8 +1135,11 @@ Mod Name
 Mod Author
 : junimods
 
-Category & Tier
-: Appearance Change / Tier 3 - Somewhat Important
+Category
+: Appearance Change
+
+Tier
+: Tier 3 - Somewhat Important
 
 SMAPI Required
 : Yes
@@ -1014,8 +1157,11 @@ Mod Name
 Mod Author
 : junimods
 
-Category & Tier
-: Appearance Change / Tier 3 - Somewhat Important
+Category
+: Appearance Change
+
+Tier
+: Tier 3 - Somewhat Important
 
 SMAPI Required
 : Yes
@@ -1033,8 +1179,11 @@ Mod Name
 Mod Author
 : Mopquill
 
-Category & Tier
-: Appearance Change / Tier 2 - Very Important
+Category
+: Appearance Change
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -1058,8 +1207,11 @@ Mod Name
 Mod Author
 : Kwillow
 
-Category & Tier
-: Appearance Change / Tier 2 - Very Important
+Category
+: Appearance Change
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -1080,8 +1232,11 @@ Mod Name
 Mod Author
 : Kwillow
 
-Category & Tier
-: Appearance Change / Tier 2 - Very Important
+Category
+: Appearance Change
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -1102,8 +1257,11 @@ Mod Name
 Mod Author
 : junimods
 
-Category & Tier
-: Appearance Change / Tier 3 - Somewhat Important
+Category
+: Appearance Change
+
+Tier
+: Tier 3 - Somewhat Important
 
 SMAPI Required
 : Yes
@@ -1121,8 +1279,11 @@ Mod Name
 Mod Author
 : junimods
 
-Category & Tier
-: Appearance Change / Tier 3 - Somewhat Important
+Category
+: Appearance Change
+
+Tier
+: Tier 3 - Somewhat Important
 
 SMAPI Required
 : Yes
@@ -1140,8 +1301,11 @@ Mod Name
 Mod Author
 : N3rdGirl
 
-Category & Tier
-: Appearance Change / Tier 2 - Very Important
+Category
+: Appearance Change
+
+Tier
+: Tier 2 - Very Important
 
 SMAPI Required
 : Yes
@@ -1159,8 +1323,11 @@ Mod Name
 Mod Author
 : MouseyPounds
 
-Category & Tier
-:  Appearance Change / Tier 3 - Somewhat Important
+Category
+:  Appearance Change
+
+Tier
+: Tier 3 - Somewhat Important
 
 SMAPI Required
 : Yes
@@ -1178,8 +1345,11 @@ Mod Name
 Mod Author
 : birdblinder
 
-Category & Tier
-: Appearance Change / Tier 4 - Optional
+Category
+: Appearance Change
+
+Tier
+: Tier 4 - Optional
 
 SMAPI Required
 : Yes
