@@ -48,7 +48,7 @@ a > .inline-icon { padding-inline-end: .25em; }
 * + .deflist-1col { margin-block-start: var(--sz-def-indent); }
 .deflist-1col dd {
     grid-column-start: unset;
-    margin-block-start: var(--sz-def-indent);
+    margin-left: var(--sz-def-indent);
 }
 
 .hidden { display: none; }
