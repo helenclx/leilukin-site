@@ -44,6 +44,13 @@ a > .inline-icon { padding-inline-end: .25em; }
 .item-list__indent { margin: 0.3em 0 0 1.25em; }
 .email-encoded b { display: none; }
 
+.deflist-1col { grid-template-columns: unset; }
+* + .deflist-1col { margin-block-start: 1.5em; }
+.deflist-1col dd {
+    grid-column-start: unset;
+    margin-left: 1.5em;
+}
+
 .hidden { display: none; }
 
 .visually-hidden {
