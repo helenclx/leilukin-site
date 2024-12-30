@@ -2,6 +2,7 @@
 articleTitle: Leilukin's Stardew Valley Mod Build
 desc: A list of Stardew Valley mods I use.
 tags: ["mod lists"]
+updated: 2024-12-30T20:23:30+0800
 isContentDivided: true
 toc: true
 ---
@@ -10,6 +11,8 @@ toc: true
 Welcome to Leilukin’s {% cite "Stardew Valley" %} Mod Build!
 
 Here I’m compiling a list of all the modifications, or mods in short, that I use for {% cite "Stardew Valley" %}, the independent farming simulator video game developed by ConcernedApe, for the best experience with the game. This document is made for my reference and to share with others.
+
+(This mod list was last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time>)
 {% endcontainer  %}
 
 {% container "article", "content__section" %}
