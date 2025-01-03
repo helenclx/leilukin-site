@@ -2,6 +2,7 @@
 articleTitle: Leaving My First Developer Job
 desc: Unfortunately, mismatched expectations made me choose to leave my first job as a web developer, effective in January 2025.
 date: 2024-12-16T18:21:48+0800
+updated: 2025-01-03T21:52:57+0800
 categories: ["life updates", "web development"]
 ---
 
@@ -13,7 +14,7 @@ After working in my current job for 3 months, I was looking forward to an offici
 
 I was so, so wrong.
 
-On 3 December 2024, I went to my company's headquarters to meet my manager and boss, after being summoned by my boss on the previous day to discuss my probation. Then, when my boss passed the job performance evaluation form and I read it, I started to have a bad feeling when I realised I was only given an average score in my job performance. Soon, my boss confirmed my suspicion that I did not pass my probation, and said the company did did not consider my performance satisfactory.
+On 3 December 2024, I went to my company's headquarters to meet my manager and boss, after being summoned by my boss on the previous day to discuss my probation. Then, when my boss passed the job performance evaluation form and I read it, I started to have a bad feeling when I realised I was only given an average score in my job performance. Soon, my boss confirmed my suspicion that I did not pass my probation, and said the company did not consider my performance satisfactory.
 
 Then, my manager and boss gave me an offer: if I were to keep my job and continue my extended probation, I will need to change my job scope and responsibilities to focus more on digital marketing, especially social media copywriting since they lack the manpower for it. They further revealed that the company's website was only one part of their marketing efforts. Therefore, I was given a choice of accepting their offer in job scope changes or not, and given time to consider my choice.
 
@@ -26,3 +27,11 @@ In hindsight, I should have seen it coming that my employer do not intend web de
 Occasionally, I was assigned to do graphic design work. I did not mind it despite having burned out from graphic design as a profession, because most graphic design works for my company were still handled by outsourced graphic designers, and I could still help with tasks working on my company's WordPress website.
 
 I have been trying to look at the positive that at least I actually got some professional web development experience, even if it lasted only a few months, but it still hurts to realise that web development, the field I am currently focusing on and the skill I was supposedly hired for, did not get valued by my current employer as I thought. I learned the hard way that sometimes, an employee's goal and what the employee can offer to the company do not match what the employer actually wants.
+
+## Update, 3 January 2025
+
+At last, my first web developer job has ended. I feel free.
+
+I am grateful of the support I have received from various people online and offline when I shared about my employment situation in my now former company, and my decision to leave the company to continue to pursue web development.
+
+Now, no longer burdened by any obligations to a company that failed to fully recognise the web development work I had done for them, I am free to choose the next step of my life. I will keep learning web development and improve myself, and not let my previous company's official evaluation undermine the worth of my web development capabilities.
