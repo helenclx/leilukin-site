@@ -110,10 +110,8 @@ a.link-btn[href^="http"]:not([href*="leilukin.com"]) { padding-right: calc(var(-
 .content-disclosure__content p + p { margin-top: 1em; }
 
 .content-disclosure__content {
-    --bdr-disclosure: 0.15em solid var(--clr-title-border);
-    padding: 1em 0;
-    border-top: var(--bdr-disclosure);
-    border-bottom: var(--bdr-disclosure);
+    padding: 1em;
+    border: 0.15em solid var(--clr-title-border);
 }
 
 /* Content warning disclosure */
