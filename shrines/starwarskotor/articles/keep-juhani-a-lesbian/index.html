@@ -72,18 +72,11 @@
 
     .shrine__info ul { margin-top: 0.5em; }
 .breadcrumbs {
-        list-style-type: "";
-        padding: 0;
-        margin: 0 0 0.7em 0;
+        margin-bottom: 0.7em;
         display: flex;
         gap: 0.5em;
         flex-wrap: wrap;
         justify-content: center;
-    }
-
-    .breadcrumbs li::after {
-        content: '➔';
-        padding-left: 0.3em;
     }
 
     .blog__post--pagination {
@@ -388,20 +381,15 @@
         <main id="content">
             <header class="main__header">
     
-    <nav aria-labelledby="breadcrumbs-title">
+    <nav class="breadcrumbs" aria-labelledby="breadcrumbs-title">
         <h2 class="visually-hidden" id="breadcrumbs-title">Breadcrumbs</h2>
-        <ol class="breadcrumbs">
-            
-            <li>
-                <a href="/shrines/">Shrines</a>
-            </li>
-            <li>
-                <a href="/shrines/starwarskotor/">Star Wars: Knights of the Old Republic Shrine</a>
-            </li>
-            <li>
-                <a href="/shrines/starwarskotor/articles/">Articles</a>
-            </li>
-        </ol>
+        
+        <a href="/shrines/">Shrines</a>
+        <span aria-hidden="true">➔</span>
+        <a href="/shrines/starwarskotor/">Star Wars: Knights of the Old Republic Shrine</a>
+        <span aria-hidden="true">➔</span>
+        <a href="/shrines/starwarskotor/articles/">Articles</a>
+        <span aria-hidden="true">➔</span>
     </nav>
     
 
