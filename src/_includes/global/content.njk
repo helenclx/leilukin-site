@@ -1,15 +1,12 @@
 <header class="main__header">
     {% if isArticle or hasBreadcrumbs %}
-    <nav aria-labelledby="breadcrumbs-title">
+    <nav class="breadcrumbs" aria-labelledby="breadcrumbs-title">
         <h2 class="visually-hidden" id="breadcrumbs-title">Breadcrumbs</h2>
-        <ol class="breadcrumbs">
-            {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key or articleTitle or pageTitle or title) %}
-            {%- for entry in breadcrumbNavPages %}
-            <li>
-                <a href="{{ entry.url }}">{{ entry.title }}</a>
-            </li>
-            {%- endfor %}
-        </ol>
+        {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key or articleTitle or pageTitle or title) %}
+        {%- for entry in breadcrumbNavPages %}
+        <a href="{{ entry.url }}">{{ entry.title }}</a>
+        <span aria-hidden="true">➔</span>
+        {%- endfor %}
     </nav>
     {% endif %}
 
@@ -90,18 +87,11 @@
 
 {%- css %}
     .breadcrumbs {
-        list-style-type: "";
-        padding: 0;
-        margin: 0 0 0.7em 0;
+        margin-bottom: 0.7em;
         display: flex;
         gap: 0.5em;
         flex-wrap: wrap;
         justify-content: center;
-    }
-
-    .breadcrumbs li::after {
-        content: '➔';
-        padding-left: 0.3em;
     }
 
     .blog__post--pagination {
