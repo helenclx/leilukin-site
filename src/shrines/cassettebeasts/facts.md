@@ -104,6 +104,9 @@ Late 2019
 11 December 2024
 : [Hotfix 1.7.7](https://store.steampowered.com/news/app/1321440/view/517447931886829747) live.
 
+13 January 2025
+: Android and iOS version confirmed to be released on January 15, with an [announcement trailer](https://www.youtube.com/watch?v=cq2Y3JukO1I).
+
 ## Accolades
 
 {% cite "Cassette Beasts" %} was [nominated for The British Game](https://twitter.com/ByttenStudio/status/1765742782700782040) at the 20th British Academy (BAFTA) Games Awards.
