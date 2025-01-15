@@ -42,7 +42,7 @@ Late 2019
 : Main voice cast [announced](https://twitter.com/ByttenStudio/status/1641106350376665091).
 
 26 April 2023
-: Cassette Beasts released on PC and Xbox PC Game Pass with a [PC release trailer](https://www.youtube.com/watch?v=_OLST_Fw5Ms), which also confirmed the release date of Xbox Series X/S, Xbox One, and Nintendo Switch versions to be 25 May 2023.
+: {% cite "Cassette Beasts" %} released on PC and Xbox PC Game Pass with a [PC release trailer](https://www.youtube.com/watch?v=_OLST_Fw5Ms), which also confirmed the release date of Xbox Series X/S, Xbox One, and Nintendo Switch versions to be 25 May 2023.
 
 27 April 2023
 : [Hotfix 1.1.2](https://store.steampowered.com/news/app/1321440/view/3727334659005649764) live.
@@ -51,7 +51,7 @@ Late 2019
 : [Hotfix 1.1.3](https://store.steampowered.com/news/app/1321440/view/3727335925783976124) live.
 
 25 May 2023
-: Cassette Beasts released on Xbox Series X|S, Xbox One, Gamepass and Nintendo Switch, with a [console release trailer](https://www.youtube.com/watch?v=YDSiPEtAW-0).
+: {% cite "Cassette Beasts" %} released on Xbox Series X|S, Xbox One, Gamepass and Nintendo Switch, with a [console release trailer](https://www.youtube.com/watch?v=YDSiPEtAW-0).
 
 22 June 2023
 : 1.2 Update [announced](https://x.com/ByttenStudio/status/1671901115187707905).
@@ -106,6 +106,9 @@ Late 2019
 
 13 January 2025
 : Android and iOS version confirmed to be released on January 15, with an [announcement trailer](https://www.youtube.com/watch?v=cq2Y3JukO1I).
+
+15 January 2025
+: {% cite "Cassette Beasts" %} released on [Android](https://play.google.com/store/apps/details?id=com.RawFury.CassetteBeasts&pli=1) and [iOS](https://apps.apple.com/sg/app/cassette-beasts/id6736517805).
 
 ## Accolades
 
