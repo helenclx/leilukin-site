@@ -21,15 +21,17 @@ eleventyComputed:
 
 {% cite "Cassette Beasts" %} is a 2D/3D hybrid monster collecting open-world role-playing video game developed by Bytten Studio, an indie team based in Brighton, United Kingdom, co-founded by Jay Baylis and Tom Coxon, and published by Raw Fury.
 
-First released on Steam and Windows on 26 April 2023, later on console on 25 May 2023, {% cite "Cassette Beasts" %} is available on Windows, Linux, Steam, Xbox Series X|S, Xbox One, Gamepass and Nintendo Switch.
+First released on Steam and Windows on 26 April 2023, later on console on 25 May 2023 and on mobile on 15 January 2025, {% cite "Cassette Beasts" %} is available on Windows, Linux, Steam, Xbox Series X|S, Xbox One, Gamepass, Nintendo Switch, Android and iOS.
 
 {% cite "Cassette Beasts" %} also has an [official website](https://www.cassettebeasts.com/) and [official wiki](https://wiki.cassettebeasts.com/wiki/Main_Page).
 
-You can buy {% cite "Cassette Beasts" %} from below links:
+You can purchase or download {% cite "Cassette Beasts" %} from the below links:
 
-*   [Steam](https://store.steampowered.com/app/1321440/Cassette_Beasts/)
-*   [Xbox](https://www.xbox.com/en-us/games/store/cassette-beasts/9n82snqtzvmq)
-*   [Nintendo Switch](https://www.nintendo.com/store/products/cassette-beasts-switch/)
+* [Steam](https://store.steampowered.com/app/1321440/Cassette_Beasts/)
+* [Xbox](https://www.xbox.com/en-us/games/store/cassette-beasts/9n82snqtzvmq)
+* [Nintendo Switch](https://www.nintendo.com/store/products/cassette-beasts-switch/)
+* [Google Play Store](https://play.google.com/store/apps/details?id=com.RawFury.CassetteBeasts&pli=1)
+* [Apple App Store](https://apps.apple.com/sg/app/cassette-beasts/id6736517805)
 {% endcontainer %}
 
 {% container "article", "content__section" %}
