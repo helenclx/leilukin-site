@@ -108,7 +108,7 @@ Late 2019
 : Android and iOS version confirmed to be released on January 15, with an [announcement trailer](https://www.youtube.com/watch?v=cq2Y3JukO1I).
 
 15 January 2025
-: {% cite "Cassette Beasts" %} released on [Android](https://play.google.com/store/apps/details?id=com.RawFury.CassetteBeasts&pli=1) and [iOS](https://apps.apple.com/sg/app/cassette-beasts/id6736517805).
+: {% cite "Cassette Beasts" %} released on [Android](https://play.google.com/store/apps/details?id=com.RawFury.CassetteBeasts) and [iOS](https://apps.apple.com/sg/app/cassette-beasts/id6736517805).
 
 ## Accolades
 

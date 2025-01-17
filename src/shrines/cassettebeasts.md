@@ -30,7 +30,7 @@ You can purchase or download {% cite "Cassette Beasts" %} from the below links:
 * [Steam](https://store.steampowered.com/app/1321440/Cassette_Beasts/)
 * [Xbox](https://www.xbox.com/en-us/games/store/cassette-beasts/9n82snqtzvmq)
 * [Nintendo Switch](https://www.nintendo.com/store/products/cassette-beasts-switch/)
-* [Google Play Store](https://play.google.com/store/apps/details?id=com.RawFury.CassetteBeasts&pli=1)
+* [Google Play Store](https://play.google.com/store/apps/details?id=com.RawFury.CassetteBeasts)
 * [Apple App Store](https://apps.apple.com/sg/app/cassette-beasts/id6736517805)
 {% endcontainer %}
 
