@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2025-01-03T18:21:16+0800
+updated: 2025-01-19T23:14:50+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -19,12 +19,8 @@ You can also check out my [status.cafe profile](https://status.cafe/users/leiluk
 * {% cite "Neko Atsume" %}
 * {% cite "Pokémon Trading Card Game Pocket" %}
 
-## Working My Last Month in My First Web Developer Job
-
-Unfortunately, my first web developer job that started in August 2024 ended up only lasting for four months. I did not pass my probation, so 3 January 2025 was the finaly day of my first web developer job.
-
-For more details, see my blog post: ["Leaving My First Developer Job"](/blog/posts/2024-12-16-leaving-my-first-developer-job)
-
 ## Planning on Attending the 42 Computer Science School
 
-Since it was confirmed that I will no longer continue my first web developer job for long, I have been planning on attending a Malaysian campus of the [42 computer science school](https://www.42network.org/). I have registered, passed their online game test and will join their trial bootcamp known as the Piscine in March.
+I have been planning on attending a Malaysian campus of the [42 computer science school](https://www.42network.org/). I have registered, passed their online game test and will join their trial bootcamp known as the Piscine in March.
+
+You can read more about it on the blog post ["Attending 42 the Computer Science School"](/blog/posts/2025-01-19-attending-42-school).
