@@ -4,12 +4,43 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2025-01-07T08:24:32Z</updated>
+    <updated>2025-01-19T15:14:44Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
         <email>contact@leilukin.com</email>
     </author>
+    
+    <entry>
+        <title>Changelog: 19 January 2025</title>
+        <link href="https://leilukin.com/"/>
+        <updated>2025-01-19T15:14:44Z</updated>
+        <id>https://leilukin.com/</id>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2025-01-19-attending-42-school&quot;&gt;&amp;quot;Attending 42 the Computer Science School&amp;quot;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <title>Attending 42 the Computer Science School | Blog</title>
+        <link href="https://leilukin.com/blog/posts/2025-01-19-attending-42-school/"/>
+        <updated>2025-01-19T15:14:39Z</updated>
+        <id>https://leilukin.com/blog/posts/2025-01-19-attending-42-school/</id>
+        <content type="html">&lt;p&gt;After failing to pass my probation in my first web developer job and thus having to &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-16-leaving-my-first-developer-job/&quot;&gt;leave the job&lt;/a&gt;, I had been considering how to proceed to the next phase of my web development journey. After all, I chose to leave my previous company &lt;em&gt;because&lt;/em&gt; I intend to keep being a web developer, instead of sacrificing my time in continuing to learn web development to switch my job focus on digital marketing, a field I am less interested in and equipped for, just to keep my previous job that I would likely end up even more miserable in the long run if I chose to stay.&lt;/p&gt;
+&lt;p&gt;One day in December 2024, I suddenly remembered that my mother told me once that there was now a coding school somewhere relatively near to our house. We even talked about how my younger self would have appreciated the existence of such a school so I could become a developer much earlier. Out of curiosity, I searched the web to look for the school in question.&lt;/p&gt;
+&lt;p&gt;Turned out, the school is named &lt;a href=&quot;https://www.42network.org/&quot;&gt;42&lt;/a&gt;, and is an international school network that provides free computer science education, with many campuses around the world, including Malaysia. The main thing that differentiates 42 from traditional universities is its peer-to-peer and project-based learning models that do not involve any teachers.&lt;/p&gt;
+&lt;p&gt;According to the &lt;a href=&quot;https://42.fr/en/what-is-42/42-program-explained/&quot;&gt;official website of 42&#39;s Paris campus&lt;/a&gt; — where 42 originated — the name is a reference to Douglas Adams’ book &lt;cite&gt;The Hitchhiker’s Guide to the Galaxy&lt;/cite&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In Douglas Adams’ book The Hitchhiker’s Guide to the Galaxy – H2G2 for short – an advanced alien species builds a super computer. It has only one job: to find the answer to the Ultimate Question of Life, the Universe and Everything. After 7 million years of calculation, the computer finds the answer: 42. In geek culture, 42 often represents the answer to a seemingly insuperable problem. This is why 42 is called 42. This is our answer to what IT education should be today and in the future.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As a web developer without a computer science degree, a physical school that offers computer science education for free is certainly an attractive notion. Furthermore, as a developer who learned to code through online courses and learning resources, I have got used to learning new things without a teacher holding my hand. My years of working experience had also taught me to not expecting anyone to hold your hand if you want to upskill yourself. I have also found myself to prefer to learn to code by building projects.&lt;/p&gt;
+&lt;p&gt;Therefore, in late December 2024, I applied for the Malaysian campus of 42 near me, spent two hours in their application test consisted of a memory game and a logic game. On the next day, I was informed that I passed my application test, so I chose to enrol in their trial bootcamp, referred to as the Piscine, that will take place in late February. Participants need to pass the 4-week trial bootcamp before being able to take 42&#39;s core curriculum.&lt;/p&gt;
+&lt;p&gt;Meanwhile, through their official website, I learned that the campus would host an open day on 18 January 2025, so I decided to take the opportunity to visit the campus for myself to see what I can expect from the environment when I started my study there. When I attended the open day on January 18, I learned that the computers in their workstations use Linux, specifically the Ubuntu distribution with Gnome as its desktop environment.&lt;/p&gt;
+&lt;p&gt;However, to my surprise, the computers did not have any setting to adjust screen brightness, which was not a good thing for me due to my &lt;a href=&quot;https://leilukin.com/articles/living-with-retinitis-pigmentosa/&quot;&gt;retinitis pigmentosa&lt;/a&gt; making my eyes sensitive to bright light, including artificial lights. I would prefer not to rely on my clip-on sunglasses just to see the computer screen, since the surroundings including the keyboard would appear too dark for me. Therefore, I approached one of the staff members to request methods of dimming the computer screen when I attend my class there. The staff member suggested that they should be able to arrange that to accommodate my needs.&lt;/p&gt;
+&lt;p&gt;After visiting the campus on its open day, I have been looking forward to attending the school more. Wish me luck in passing my Piscine so I can become an official student of 42!&lt;/p&gt;
+</content>
+    </entry>
     
     <entry>
         <title>Changelog: 7 January 2025</title>
@@ -262,28 +293,5 @@
 &lt;p&gt;I do not write this article to ask for pity. I have accepted that I am visually impaired and autistic, and my disabilities are a huge part of who I am, as much as being a non-binary lesbian on the asexual and aromantic spectrum. Instead, I am sharing my story to let other people who have similar conditions that they are not alone, and we are worthy.&lt;/p&gt;
 &lt;p&gt;I coded a &lt;a href=&quot;https://leilukin.com/projects/snippets/disability-pride-flag-background&quot;&gt;responsive Disability Pride flag in CSS&lt;/a&gt; during the Disability Pride Month in July (which is also my birth month) 2024, so it would be fitting to conclude this article with this Pride flag I coded.&lt;/p&gt;
 &lt;div class=&quot;flag-el flag-disability&quot; role=&quot;img&quot; aria-label=&quot;Disability Pride flag coded in CSS&quot; style=&quot;margin-top: 1.7em;&quot;&gt;&lt;/div&gt;</content>
-    </entry>
-    
-    <entry>
-        <title>Changelog: 10 December 2024</title>
-        <link href="https://leilukin.com/"/>
-        <updated>2024-12-10T10:25:01Z</updated>
-        <id>https://leilukin.com/</id>
-        <content type="html">&lt;ul&gt;
-&lt;li&gt;Obfuscate my email address with CSS and HTTP redirects. (Credit to Spencer Mortensen&#39;s article, &lt;a href=&quot;https://spencermortensen.com/articles/email-obfuscation/&quot;&gt;&amp;quot;Email obfuscation: What works in 2024?&amp;quot;&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </entry>
-    
-    <entry>
-        <title>Changelog: 9 December 2024</title>
-        <link href="https://leilukin.com/"/>
-        <updated>2024-12-09T05:07:05Z</updated>
-        <id>https://leilukin.com/</id>
-        <content type="html">&lt;ul&gt;
-&lt;li&gt;Add table of contents to each tab section of the &lt;a href=&quot;/links&quot;&gt;Links&lt;/a&gt; page.&lt;/li&gt;
-&lt;li&gt;Add link to my &lt;a href=&quot;https://www.pixelcatsend.com/profile&amp;amp;id=24121&quot;&gt;Pixel Cat&#39;s End profile&lt;/a&gt; to my &lt;a href=&quot;/adoptables&quot;&gt;Adoptables&lt;/a&gt; page. Free free to check out my not-cats!&lt;/li&gt;
-&lt;/ul&gt;
-</content>
     </entry>
 </feed>
