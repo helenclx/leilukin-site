@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2025-01-19T23:14:50+0800
+updated: 2025-01-27T20:58:50+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -18,6 +18,10 @@ You can also check out my [status.cafe profile](https://status.cafe/users/leiluk
 * {% cite "Cassette Beasts" %}
 * {% cite "Neko Atsume" %}
 * {% cite "Pokémon Trading Card Game Pocket" %}
+
+## Celebrating Lunar New Year
+
+2025's Lunar New Year takes place in late January, so as a Chinese person, I am currently celebrating it. Happy Year of the Snake!
 
 ## Planning on Attending the 42 Computer Science School
 
