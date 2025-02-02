@@ -1,7 +1,7 @@
 ---
 title: Resources
 date: 2024-08-02
-updated: 2024-09-14T12:34:36+0800
+updated: 2025-02-02T19:30:47+0800
 toc: true
 ---
 
@@ -43,3 +43,7 @@ These are lists of video game mods I use for my own playthroughs.
 ### Software and Website Alternatives
 * [AlternativeTo](https://alternativeto.net/) — Crowdsourced software recommendations
 * [Indie Wiki Buddy](https://getindie.wiki/) — Browser extension to discover indie wiki alternatives to Fandom.com wikis, and redirect Fandom.com wikis to a Breezewiki front end
+
+### Web
+
+* [Unplatform](https://unplatform.fromthesuperhighway.com/) by ajazz — Interactive guidebook, online library, and recommendations database for escaping social media and joining the indie web
