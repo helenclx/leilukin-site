@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2025-01-27T20:58:50+0800
+updated: 2025-02-06T00:25:27+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -21,7 +21,9 @@ You can also check out my [status.cafe profile](https://status.cafe/users/leiluk
 
 ## Celebrating Lunar New Year
 
-2025's Lunar New Year takes place in late January, so as a Chinese person, I am currently celebrating it. Happy Year of the Snake!
+2025's Lunar New Year takes place in late January, so as a Chinese person, I am currently celebrating it. You can read my blog post ["My 2025 Lunar New Year"](/blog/posts/2025-02-06-my-2025-lunar-new-year) to learn how I celebrate Lunar New Year this year.
+
+Happy Year of the Snake!
 
 ## Planning on Attending the 42 Computer Science School
 
