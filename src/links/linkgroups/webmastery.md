@@ -1,7 +1,7 @@
 ---
 title: Webmastery
 date: 2024-07-01
-updated: 2024-11-28T00:01:25+0800
+updated: 2025-02-05T09:49:26+0800
 toc: true
 ---
 
@@ -44,6 +44,7 @@ Resources for learning to use the static site generator [Eleventy](https://www.1
 
 * [The 11ty Bundle](https://11tybundle.dev/) — Collection of Eleventy resources
 * [My Neocities workflow: using Eleventy and the CLI to speed up development](https://whiona.weblog.lol/2023/10/my-neocities-workflow:-using-eleventy-and-the-cli-to-speed-up-development) by Whiona — Written for Neocities users
+* [Strawberry Starter](https://strawberrystarter.neocities.org/) by Kate Bagenzo — An Eleventy blog template aimed at website beginners that can be uploaded automatically to Neocities
 * [Migrating to Eleventy](https://renkotsuban.com/posts/2023-11-15-Migrating-to-Eleventy.html) by Renkon — A beginner-friendly guide to get started with Eleventy
 * [How I teach Eleventy from scratch](https://hamatti.org/posts/how-i-teach-eleventy-from-scratch/) by Juha-Matti Santala
 * [Getting set up in Eleventy](https://cloudcannon.com/tutorials/eleventy-beginner-tutorial/) by Mike Neumegen
