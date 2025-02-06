@@ -7,7 +7,7 @@ categories: ["life updates"]
 
 Happy Lunar New Year and Year of the Snake to fellow Asians who celebrate! 🧧🐍
 
-As a Chinese person, Lunar New Year is a major holiday, especially given the fact that here in Malaysia, Lunar New Year is the only traditional Chinese holiday that is also an official holiday in a national scale, which means Lunar New Year is a holiday for non-Chinese people in Malaysia as well.
+As a Chinese person, Lunar New Year is a major holiday, especially given the fact that here in Malaysia, Lunar New Year is the only traditional Chinese holiday that is also an official holiday in a national scale, which means the first two days of Lunar New Year are a holiday for non-Chinese people in Malaysia as well.
 
 ## Preparation
 
