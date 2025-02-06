@@ -11,13 +11,13 @@ As a Chinese person, Lunar New Year is a major holiday, especially given the fac
 
 ## Preparation
 
-As for my family specifically, our tradition for celebrating Lunar New Year is family gatherings in my parents' hometown. In addition, as Lunar New Year takes place in January or February, we start preparing to celebrate it since early January, soon after a new year in Gregorian calendar begins. Our Lunar New Year celebration in 2025, the Year of the Snake, is no exception.
+As for my family specifically, our tradition for celebrating Lunar New Year is family gatherings with our relatives in my parents' hometown. In addition, as Lunar New Year takes place in January or February, we start preparing to celebrate it since early January, soon after a new year in Gregorian calendar begins. Our Lunar New Year celebration in 2025, the Year of the Snake, is no exception.
 
 This year, my younger brother, who has been living in Singapore since attending a university there and then working in Singapore since, returned to Malaysia from Singapore, which is not something we take for granted since he had skipped returning to Malaysia during Lunar New Year in the past, including the previous year.
 
 ## Lunar New Year Eve
 
-Once we returned to my parents' hometown, we gathered with our extended family on my father's side for a reunion lunch (yes, lunch, not dinner since we had our reunion meal in the afternoon) on Lunar New Year Eve.
+Once we returned to my parents' hometown, we gathered with our extended family on my father's side for a reunion lunch (yes, lunch, not dinner since we had our reunion meal in the afternoon) on Lunar New Year Eve on January 28.
 
 After our lunch, my immediate family and I joined one of my paternal uncles, who owns the house we were staying in after the passing of my paternal grandmother, and his girlfriend in visiting our family's durian plantation. The highlight of the durian plantation visit is meeting my uncle's female dog Baak Baan for the first time.
 
