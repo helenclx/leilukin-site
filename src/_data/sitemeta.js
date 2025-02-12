@@ -11,6 +11,7 @@ export const siteAuthor = {
 export const siteLanguage = "en";
 export const siteLocale = "en_MY";
 export const siteDescription = siteAuthor.name + "'s personal website.";
+export const fediverseHandle = "@Leilukin@dragonscave.space";
 export const feedPath = "/feed.xml";
 export const feedUrl = siteUrl + feedPath;
 export const subsites = [
