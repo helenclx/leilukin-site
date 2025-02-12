@@ -4,12 +4,23 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2025-02-10T12:31:30Z</updated>
+    <updated>2025-02-12T01:41:35Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
         <email>contact@leilukin.com</email>
     </author>
+    
+    <entry>
+        <title>Changelog: 12 February 2025</title>
+        <link href="https://leilukin.com/"/>
+        <updated>2025-02-12T01:41:35Z</updated>
+        <id>https://leilukin.com/</id>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;Launched my new &lt;a href=&quot;https://fan.leilukin.com/programming/&quot;&gt;fanlisting for computer programming&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </entry>
     
     <entry>
         <title>Changelog: 10 February 2025</title>
@@ -270,18 +281,6 @@ Me&lt;/p&gt;
         <content type="html">&lt;ul&gt;
 &lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2024-12-26-indian-ocean-tsunami-20-years&quot;&gt;&amp;quot;Remembering the 2004 Indian Ocean Tsunami&amp;quot;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-    </entry>
-    
-    <entry>
-        <title>Remembering the 2004 Indian Ocean Tsunami | Blog</title>
-        <link href="https://leilukin.com/blog/posts/2024-12-26-indian-ocean-tsunami-20-years/"/>
-        <updated>2024-12-26T11:11:55Z</updated>
-        <id>https://leilukin.com/blog/posts/2024-12-26-indian-ocean-tsunami-20-years/</id>
-        <content type="html">&lt;p&gt;Twenty years ago today, the 2004 Indian Ocean earthquake and tsunami happened.&lt;/p&gt;
-&lt;p&gt;When I realised a while ago that the year 2024 would also mark the 20th anniversary of the earthquake and tsunami, I felt that time filed, because I still remembered the shock I felt in my young mind when I read the news reports about that natural disaster.&lt;/p&gt;
-&lt;p&gt;When the Indian Ocean tsunami struck in 2004, I had just graduated from primary school and was staying at home, and 26 December was also the birthday of my favourite cousin. Later, when I learnt of the massive earthquake in the Indian Ocean caused a massive tsunami that affected many countries, including my own country, Malaysia (especially the northern Malaysia), I was deeply shocked by how deadly and destructive the tsunami was, with the sheer amount of lives lost and the destruction of areas caused by that natural disaster, even though the part of Malaysia I lived (and still live) in was not affected.&lt;/p&gt;
-&lt;p&gt;May the dead rest in peace. My condolences to those who lost their loved ones on that day.&lt;/p&gt;
 </content>
     </entry>
 </feed>
