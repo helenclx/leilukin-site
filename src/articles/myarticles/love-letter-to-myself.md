@@ -5,6 +5,9 @@ desc: I decided to take the opportunity of 32-Bit Cafe's 2025 Valentine's Day co
 categories: ["personal life"]
 ---
 
+[![I am my own Valentine! - 32-Bit Cafe "Party for One" Code Jam button](/assets/images/articles/love-letter-to-myself/32bitcafe-partyforone.png)](https://32bit.cafe/vday25/){.inline-img}
+{.center-text}
+
 [32-Bit Cafe](https://32bit.cafe/) is hosting a code jam for Valentine's Day 2025, titled ["Party for One"](https://32bit.cafe/vday25/), as the theme is making a digital Valentine's Day gift dedicated to yourself. After much consideration, I decided to take this opportunity to write a love letter to myself, as a Valentine's Day gift to myself and a reminder of my self-worth.
 
 ---
