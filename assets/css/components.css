@@ -196,7 +196,7 @@ p + .adoptables { margin-top: 1em; }
 
 .tabwrap__toc {
     background-color: var(--clr-quote-bg);
-    padding: 1em 1em 0.5em;
+    padding: 0.85em 1em 1.35em;
 }
 .tab__back { margin-top: 3em; }
 
