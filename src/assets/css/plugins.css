@@ -30,12 +30,8 @@
 /* FOOTNOTES */
 .footnote-ref { margin-left: 0.2em; }
 .footnote-ref a:target { scroll-margin-block: calc(var(--sz-navbar-ht) + 5ex); }
-
-.footnotes {
-    margin-top: 3em;
-    border-top: 0.15em solid var(--clr-title-border);
-    padding-top: 1em;
-}
+.footnotes { padding-top: 2em; }
+.footnotes-sep { margin-top: 2.5em; }
 
 .footnotes-list {
     display: grid;

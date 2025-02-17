@@ -66,7 +66,8 @@ export default function(eleventyConfig) {
 
     // Configure markdown-it-footnote
     markdownLibrary.renderer.rules.footnote_block_open = () => (
-        '<footer class="footnotes">\n' +
+        '<hr class="footnotes-sep">\n' +
+        '<section class="footnotes" aria-labelledby="footnotes">\n' +
         `<div class="heading-wrapper h2">
             <h2 id="footnotes" class="footnotes__title">Footnotes</h2>
             <a class="heading-anchor" href="#footnotes" aria-labelledby="footnotes"><span hidden="">#</span></a>
@@ -91,8 +92,7 @@ export default function(eleventyConfig) {
     };
 
     const renderRules = {
-        footnote_caption: ['[', '[Note '],
-        footnote_block_close: ['section', 'footer'],
+        footnote_caption: ['[', '[Note ']
     };
     Object.keys(renderRules).map(rule => {
         let defaultRender = markdownLibrary.renderer.rules[rule];
