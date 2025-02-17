@@ -26,8 +26,10 @@ content-wrapper,
 .content > * + .h2,
 .content__section > * + .h2 { margin-block-start: 2em; }
 
-.content > * + :not([class]),
-.content__section > * + :not([class]) { margin-block-start: var(--sz-paragraph-margin); }
+.content > * + :not([class]:not([class*="language-"])),
+.content__section > * + :not([class]:not([class*="language-"])) {
+    margin-block-start: var(--sz-paragraph-margin);
+}
 
 .content ul:not([class]), .content ol:not([class]) {
     display: grid;
