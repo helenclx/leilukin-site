@@ -17,7 +17,7 @@
         <updated>2025-02-17T10:10:52Z</updated>
         <id>https://leilukin.com/</id>
         <content type="html">&lt;ul&gt;
-&lt;li&gt;Add buttons to copy code snippets to pages with code blocks.&lt;/li&gt;
+&lt;li&gt;Add buttons to copy code snippets to pages with code blocks. Credit to ttntm&#39;s article &lt;a href=&quot;https://ttntm.me/blog/adding-a-copy-button-to-code-blocks/&quot;&gt;&amp;quot;Adding a Copy Button to Code Blocks&amp;quot;&lt;/a&gt; for the JavaScript code to implement the buttons.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </entry>
