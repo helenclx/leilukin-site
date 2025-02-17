@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-12-29T17:52:49+0800
+updated: 2025-02-17T18:18:21+0800
 toc: true
 eleventyNavigation:
     order: 14
@@ -75,6 +75,7 @@ Due to this website being a static site, JavaScript is used to create dynamic an
         * [{% cite "Cassette Beasts" %}](/shrines/cassettebeasts)
         * [{% cite "Pokémon Omega Ruby" %} and {% cite "Alpha Sapphire" %}](/shrines/pokemonoras)
     * Birthdays of characters from {% cite "A Summer’s End — Hong Kong 1986" %} on its shrine.
+* Add buttons to copy code snippets to pages with code blocks.
 * Scott O'Hara's [ARIA Tooltips](https://github.com/scottaohara/a11y_tooltips) script is used to implement accessible tooltips that meet Web Content Accessibility Guidelines (WCAG) 2.2 success criterion for [1.4.13: Content on Hover or Focus (Level AA)](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), by allowing visitors to see tooltips on keyboard focus and dismiss tooltips by pressing the Escape key.
 * Zach Leatherman's [details-utils](https://www.npmjs.com/package/@zachleat/details-utils) JavaScript package is used to automatically expand sidebar table of contents on wide screens.
 * [status.cafe](https://status.cafe/) widget, which is placed on the home page, uses JavaScript to fetch data of my latest status update.
