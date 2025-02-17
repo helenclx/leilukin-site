@@ -1,20 +1,24 @@
 ---
 title: Webmastery
 date: 2024-07-01
-updated: 2025-02-05T09:49:26+0800
+updated: 2025-02-17T22:40:06+0800
 toc: true
 ---
 
 ### Webmastery Tutorials
 
+* [HTML for People](https://htmlforpeople.com/) by Blake Watson
+* [Make Your Own Website](https://web.pixelshannon.com/make/) by Shannon Kay
 * [Creating Your Own Website](https://32bit.cafe/cyowebsite/) by 32-Bit Cafe
 * [Interacting with Other Websites](https://32bit.cafe/interactingontheweb/) by 32-Bit Cafe
 * [How to build your own RSS Feed](https://caffeineandlasers.neocities.org/blogs/rss) by Cameron Jones
+* [Roll your own RSS feed](https://thedabbler.patatas.ca/pages/roll_your_own_rss.html) by patatas
 
 ### Webmastery Guides
 
 * [Reducing HTML Redundancy](https://owlsroost.xyz/articles/2023-12-23-reducing-html-redundancy.html) by Owl
 * [How to Make Your Site Mobile-Friendly](https://owlsroost.xyz/articles/2024-06-24-how-to-make-your-site-mobile-friendly.html) by Owl
+* [How to Favicon: Three files that fit most needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs) by Irina Nazarova
 
 ### Webmastery Resources
 
@@ -25,7 +29,7 @@ toc: true
 
 ### Ideas for Your Website
 
-* [Ideas for Your Personal Website](https://32bit.cafe/websiteideas/) by 2-Bit Cafe
+* [Ideas for Your Personal Website](https://32bit.cafe/websiteideas/) by 32-Bit Cafe
 * [Slash Pages](https://slashpages.net/)
 
 ### Web Accessibility
