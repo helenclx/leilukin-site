@@ -37,6 +37,9 @@
         {% if toc %}
         <script src="{{'/assets/js/details-utils.js'}}" defer></script>
         {% endif %}
+        {% if hasCodeBlock %}
+        <script src="/assets/js/copycode.js" defer></script>
+        {% endif %}
         {% if hasTooltips %}
         <script src="/assets/js/tooltips.js" defer></script>
         {% endif %}
