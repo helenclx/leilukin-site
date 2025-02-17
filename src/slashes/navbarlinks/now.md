@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2025-02-06T00:25:27+0800
+updated: 2025-02-17T18:10:40+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -27,6 +27,6 @@ Happy Year of the Snake!
 
 ## Planning on Attending the 42 Computer Science School
 
-I have been planning on attending a Malaysian campus of the [42 computer science school](https://www.42network.org/). I have registered, passed their online game test and will join their trial bootcamp known as the Piscine in March.
+I have been planning on attending a Malaysian campus of the [42 computer science school](https://www.42network.org/). I have registered, passed their online game test and will join their trial bootcamp known as the Piscine beginning on 7 April 2025.
 
 You can read more about it on the blog post ["Attending 42 the Computer Science School"](/blog/posts/2025-01-19-attending-42-school).
