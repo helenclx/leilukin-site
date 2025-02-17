@@ -5,6 +5,7 @@ updated: 2024-12-03T23:51:27+0800
 desc: "How I implement accessible footnotes, at least to the best of my ability. Written for 32-Bit Cafe's Community Code Jam #5."
 categories: ["32-bit cafe", "accessibility", "html", "css", "eleventy", "markdown-it"]
 toc: true
+hasCodeBlock: true
 ---
 
 [![32-Bit Cafe "Back to School" Code Jam button](/assets/images/articles/accessible-footnotes/32bitcafe-backtoschool.png)](https://32bit.cafe/~xandra/events/codejam5/){.inline-img}
