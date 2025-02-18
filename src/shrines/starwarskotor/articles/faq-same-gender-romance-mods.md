@@ -1,7 +1,7 @@
 ---
 articleTitle: "Frequently Asked Questions (FAQ) for My Star Wars: KotOR Same-Gender Romance Mods"
 date: 2021-09-25
-updated: 2024-12-09T13:55:22+0800
+updated: 2025-02-18T09:11:25+0800
 desc: "Frequently asked questions for my same-gender romance mods for Star Wars: Knights of the Old Republic series."
 tags: kotor both articles
 categories: ["star wars kotor", "star wars kotor 2", "video game mods"]
@@ -78,6 +78,7 @@ If you do not know if you have Windows 64-bit or 32-bit, refer this article, ["H
 **STOP ASKING FOR ANY OF MY MODS TO BE ADDED THE STEAM WORKHOP. MY ASNWER WILL ALWAYS BE A FIRM _NO_, FULL STOP. NO EXCEPTIONS.**
 
 ### I am having problems a {% cite "KotOR 2" %} mod of yours, and I am using the Steam Workshop. Can you help me?
+
 See my answer to the previous question. I am not responsible for any bugs caused by you using any mods from the Steam Workshop. The only suggestion I will give you for compatibility issues between my mods and the Steam Workshop is to get rid of all your Steam Workshop mods entirely, and make sure there are no leftover Steam Workshop folders in your Steam directory. In order to do this, go to the Steam Workshop folder in your Steam directory (/\Steam\SteamApps\Workshop\), and delete all the sub-folders in the Steam Workshop folder.
 
 ### Does this mod work with [insert a different mod here]?
@@ -85,13 +86,14 @@ See my answer to the previous question. I am not responsible for any bugs caused
 Please read the “Mod Compatibility” section of my mod description and Read Me files before asking. If there is a mod you want to use that was not mentioned in my mod description and Read Me files, you can still ask me. Just make sure you tell me the actual name of the mod and ideally, provide a link to the mod you want to ask about, so I can check the mod out myself to confirm if it is compatible with my mod. Do not expect me to know the existence of every single {% cite "KotOR" %} mod out there.
 
 ### Are your romance mods compatible with [KotOR Community Portal's mod builds](https://kotor.neocities.org/modding/)?
+
 Yes, all my {% cite "KotOR" %} mods, not just my same-gender romance mods, are compatible with KotOR Community Portal's mod builds.
 
 That said, some of my mods require you to install at a very specific point of the mod builds:
 
-* **Handmaiden and Female Exile - Disciple and Male Exile Romance** should be installed immediately after PartySwap and before Extended Enclave. If you also want to install Extended Enclave, you should use the compatibility patch included in my Handmaiden/Disciple romance mod, instead of the [standalone patch](https://deadlystream.com/files/file/1304-partyswap-and-extended-enclave-compatibility-patch/) I made for the mod build. If you plan on using Kreia's Fall In-Game Cutscene, you need to install the compatibility patch included in my mod.
-* **Atton Rand and Male Exile Romance** needs to be installed after PartySwap. If you also use Kreia's Fall In-Game Cutscene, you need to install the compatibility patch provided by Atton Rand and Male Exile Romance.
-* **Visas Marr and Female Exile Romance** needs to be installed after PartySwap.
+* **Handmaiden and Female Exile - Disciple and Male Exile Romance** should be installed *immediately* after PartySwap and before Extended Enclave. If you want to use PartySwap, make sure you choose the "PartySwap Compatible Installation" option when you install my Handmaiden/Disciple romance mod. If you also want to install Extended Enclave, you should use the compatibility patch included in my Handmaiden/Disciple romance mod, instead of the [standalone patch](https://deadlystream.com/files/file/1304-partyswap-and-extended-enclave-compatibility-patch/) I made for the mod build. If you plan on using Kreia's Fall In-Game Cutscene, you need to install the compatibility patch included in my Handmaiden/Disciple romance mod.
+* **Atton Rand and Male Exile Romance** needs to be installed after PartySwap and Kreia's Fall In-Game Cutscene. If you also use Kreia's Fall In-Game Cutscene, you need to install the compatibility patch provided by Atton Rand and Male Exile Romance.
+* **Visas Marr and Female Exile Romance** needs to be installed at any point after PartySwap.
 
 ### Can I use your mods with non-English localizations of the {% cite "KotOR" %} games and The Sith Lords Restored Content Mod (TSLRCM)?
 
@@ -160,6 +162,7 @@ That is just your opinion, and an opinion I will never agree with. Like it or no
 It is my firm belief that Juhani should remain a lesbian and her romance should remain exclusive to female characters because she is an officially confirmed lesbian character. [Read this article about my stance on protecting Juhani's status as a lesbian, and why](../keep-juhani-a-lesbian).
 
 ### The AI-generated voice for Juhani in the Juhani cameo add-on is robotic.
+
 I know an AI cannot beat a human voice actor when it comes to delivering emotions, but getting a voice actor doing a Juhani impression instead of an AI for those new lines is much easier said than done. I do not have the money to hire voice actors, and whether I can find a voice actor who is able to do a Juhani impression is another big question, especially given how unique Juhani's voice is. An AI voice synthiser is genuinely the best option for me with the very limited resources I have as one person and fan of the game who makes mods for free. Unless someone is willing to volunteer to voice Juhani for a mod, likely for free, I can never make any promise that there will be an actual voice actor for Juhani's dialogue in this mod.
 
 ## Handmaiden and Female Exile - Disciple and Male Exile Romances Questions
