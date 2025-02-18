@@ -1,7 +1,7 @@
 ---
 articleTitle: "Frequently Asked Questions (FAQ) for My Star Wars: KotOR Same-Gender Romance Mods"
 date: 2021-09-25
-updated: 2025-02-18T09:11:25+0800
+updated: 2025-02-18T09:46:31+0800
 desc: "Frequently asked questions for my same-gender romance mods for Star Wars: Knights of the Old Republic series."
 tags: kotor both articles
 categories: ["star wars kotor", "star wars kotor 2", "video game mods"]
@@ -79,7 +79,7 @@ If you do not know if you have Windows 64-bit or 32-bit, refer this article, ["H
 
 ### I am having problems a {% cite "KotOR 2" %} mod of yours, and I am using the Steam Workshop. Can you help me?
 
-See my answer to the previous question. I am not responsible for any bugs caused by you using any mods from the Steam Workshop. The only suggestion I will give you for compatibility issues between my mods and the Steam Workshop is to get rid of all your Steam Workshop mods entirely, and make sure there are no leftover Steam Workshop folders in your Steam directory. In order to do this, go to the Steam Workshop folder in your Steam directory (/\Steam\SteamApps\Workshop\), and delete all the sub-folders in the Steam Workshop folder.
+See my answer to the previous question. I am not responsible for any bugs caused by you using any mods from the Steam Workshop. The only suggestion I will give you for compatibility issues between my mods and the Steam Workshop is to get rid of all your Steam Workshop mods entirely, and make sure there are no leftover Steam Workshop folders in your Steam directory. In order to do this, go to the Steam Workshop folder in your Steam directory (`/\Steam\SteamApps\Workshop\`), and delete all the sub-folders in the Steam Workshop folder.
 
 ### Does this mod work with [insert a different mod here]?
 
