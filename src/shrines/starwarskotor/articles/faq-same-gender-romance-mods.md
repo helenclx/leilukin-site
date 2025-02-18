@@ -1,7 +1,7 @@
 ---
 articleTitle: "Frequently Asked Questions (FAQ) for My Star Wars: KotOR Same-Gender Romance Mods"
 date: 2021-09-25
-updated: 2025-02-18T09:46:31+0800
+updated: 2025-02-18T17:38:32+0800
 desc: "Frequently asked questions for my same-gender romance mods for Star Wars: Knights of the Old Republic series."
 tags: kotor both articles
 categories: ["star wars kotor", "star wars kotor 2", "video game mods"]
@@ -92,7 +92,7 @@ Yes, all my {% cite "KotOR" %} mods, not just my same-gender romance mods, are c
 That said, some of my mods require you to install at a very specific point of the mod builds:
 
 * **Handmaiden and Female Exile - Disciple and Male Exile Romance** should be installed *immediately* after PartySwap and before Extended Enclave. If you want to use PartySwap, make sure you choose the "PartySwap Compatible Installation" option when you install my Handmaiden/Disciple romance mod. If you also want to install Extended Enclave, you should use the compatibility patch included in my Handmaiden/Disciple romance mod, instead of the [standalone patch](https://deadlystream.com/files/file/1304-partyswap-and-extended-enclave-compatibility-patch/) I made for the mod build. If you plan on using Kreia's Fall In-Game Cutscene, you need to install the compatibility patch included in my Handmaiden/Disciple romance mod.
-* **Atton Rand and Male Exile Romance** needs to be installed after PartySwap and Kreia's Fall In-Game Cutscene. If you also use Kreia's Fall In-Game Cutscene, you need to install the compatibility patch provided by Atton Rand and Male Exile Romance.
+* **Atton Rand and Male Exile Romance** needs to be installed after PartySwap. If you also use Kreia's Fall In-Game Cutscene, you need to install the compatibility patch provided by Atton Rand and Male Exile Romance.
 * **Visas Marr and Female Exile Romance** needs to be installed at any point after PartySwap.
 
 ### Can I use your mods with non-English localizations of the {% cite "KotOR" %} games and The Sith Lords Restored Content Mod (TSLRCM)?
