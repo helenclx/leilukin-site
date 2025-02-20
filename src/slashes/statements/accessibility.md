@@ -1,12 +1,12 @@
 ---
 title: Accessibility
 keyword: accessibility statement
-updated: 2024-12-19T14:13:05+0800
+updated: 2025-02-20T20:42:07+0800
 eleventyNavigation:
     order: 13
 ---
 
-Even though this website is primarily meant to be my own space of self-expression, I also want every visitor to my website to have the best possible experience of browsing my website. Accessibility is also relevant to me as a disabled and neurodivergent person.
+Accessibility is highly relevant to me as a disabled and neurodivergent person. Therefore, even though this website is primarily meant to be my own space of self-expression, I also want visitors to my website to have the best possible experience of browsing my website.
 
 Therefore, I strive to design my website to be accessible, including to fellow disabled and neurodivergent people, by aiming to meet [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/WAI/standards-guidelines/wcag/) Level AA standards.
 
@@ -23,6 +23,7 @@ High-level overview of the accessibility features of this site:
 * Links to skip to the main content or the top of the page.
 * Sufficient font size that can be enlarged without breaking the site layout
 * No autoplaying audio or video.
+* A button below code blocks to copy code snippets (requires JavaScript enabled in the browser).
 
 This site uses the [Lexend](https://www.lexend.com/) font family as the default font and [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) as the monospaced font to improve text readability.
 
