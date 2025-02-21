@@ -4,12 +4,28 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2025-02-17T10:10:52Z</updated>
+    <updated>2025-02-21T12:54:36Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
         <email>contact@leilukin.com</email>
     </author>
+    
+    <entry>
+        <title>Changelog: 21 February 2025</title>
+        <link href="https://leilukin.com/"/>
+        <updated>2025-02-21T12:54:36Z</updated>
+        <id>https://leilukin.com/</id>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;Create pages for my mod lists for the &lt;cite&gt;Star Wars: Knights of the Old Republic&lt;/cite&gt; series for my &lt;cite&gt;Star Wars: KotOR&lt;/cite&gt; shrine:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/shrines/starwarskotor/resources/kotor1-mod-list&quot;&gt;Leilukin&#39;s Star Wars: Knights of the Old Republic Mod Build&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/shrines/starwarskotor/resources/kotor2-mod-list&quot;&gt;Leilukin&#39;s Star Wars: Knights of the Old Republic II: The Sith Lords Mod Build&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </entry>
     
     <entry>
         <title>Changelog: 17 February 2025</title>
@@ -268,21 +284,6 @@ Me&lt;/p&gt;
 &lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2024-12-27-my-2024-christmas-season&quot;&gt;&amp;quot;My Christmas Season in 2024&amp;quot;&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Fixed broken links in my blog posts to my other blog posts in the website&#39;s RSS feed.&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-    </entry>
-    
-    <entry>
-        <title>My Christmas Season in 2024 | Blog</title>
-        <link href="https://leilukin.com/blog/posts/2024-12-27-my-2024-christmas-season/"/>
-        <updated>2024-12-27T04:09:39Z</updated>
-        <id>https://leilukin.com/blog/posts/2024-12-27-my-2024-christmas-season/</id>
-        <content type="html">&lt;p&gt;Happy Holidays!&lt;/p&gt;
-&lt;p&gt;Christmas celebration is not a tradition in my family because my parents are not religious, but we always look forward to Christmas season, because Christmas Eve also happens to be my younger brother&#39;s birthday. Yes, that means my brother is a Christmas Eve baby, haha. 😄&lt;/p&gt;
-&lt;p&gt;Even after my brother moved out of our hometown to work and live in Singapore, he still makes plans for returning to Malaysia and visit us during Christmas season every year, to celebrate his birthday with us, and this year is no exception. 2024 is also the year my brother turns 30, and thus officially joins me in the 30s club.&lt;/p&gt;
-&lt;p&gt;On my brother&#39;s birthday, we had our lunch in a restaurant together, and visited a bakery store to buy a birthday cake for my brother, who chose a fruit cake. We had a birthday celebration at home for my brother with the fruit cake later in the evening after our dinner at home.&lt;/p&gt;
-&lt;p&gt;My brother returned to Singapore after spending five days and four nights in our hometown during this Christmas season.&lt;/p&gt;
-&lt;p&gt;I am grateful of the moments of my immediately family gathering and talking together, especially when my brother takes a break and returns from Singapore to visit us.&lt;/p&gt;
-&lt;p&gt;Hope you have a pleasant holiday season!&lt;/p&gt;
 </content>
     </entry>
 </feed>
