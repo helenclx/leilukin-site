@@ -34,4 +34,4 @@ Here are the modifications for the KotOR series I have created.
 ## My Mod Builds
 Lists of modifications for the KotOR games I use for my own playthroughs.
 * [Star Wars: Knights of the Old Republic](./kotor1-mod-list)
-* [Star Wars: Knights of the Old Republic II: The Sith Lords](https://docs.google.com/document/d/15HbD-k-D8WHrp10IjIryAguhq7k2W94pkuGys7Z7xNM/edit)
+* [Star Wars: Knights of the Old Republic II: The Sith Lords](./kotor2-mod-list)
