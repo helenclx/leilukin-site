@@ -46,7 +46,7 @@ My mod build is not designed for new {% cite "KotOR" %} players, so I will not c
 If you are going to play {% cite "KotOR" %} for the first time, and you do not mind using mods, I would suggest checking out the Spoiler-Free version of [KotOR Community Portal’s KotOR mod builds](https://kotor.neocities.org/modding/) instead.
 {% endcontainer  %}
 
-{% include "starwarskotor/moslist-info.md" %}
+{% include "starwarskotor/modlist-info.md" %}
 
 {% container "article", "content__section" %}
 ## {% cite "Star Wars: Knights of the Old Republic" %} Mod Build - Full List

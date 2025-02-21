@@ -10,7 +10,7 @@ toc: true
 
 {% container "article", "content__section" %}
 Welcome to Leilukin’s {% cite "Star Wars: Knights of the Old Republic II: The Sith Lords" %} Mod Build!
-
+mos
 Here I am compiling a list of all the modifications, or mods in short, that I use for {% cite "Star Wars: Knights of the Old Republic II: The Sith Lords" %} ({% cite "KotOR 2" %}), the single-player role-playing video game set in the {% cite "Star Wars" %} universe video game developed by BioWare, for the best experience with the game. This document is made for my reference and to share with others.
 
 In order to prevent mod conflicts as much as possible, installation order matters a lot if you are using many mods for the {% cite "KotOR" %} games. Therefore, the full list of my mod build below has been arranged in the proper installation order to make these mods compatible. If you are interested in following my mod build, you should install the mods in the order you are presented with them. Also, when you install the mods according to my build, overwrite any files when prompted.
@@ -44,7 +44,7 @@ My mod build is not designed for new {% cite "KotOR 2" %} players, so I will not
 If you are going to play {% cite "KotOR 2" %} for the first time, and you do not mind using mods, I would suggest checking out the Spoiler-Free version of [KotOR Community Portal’s KotOR mod builds](https://kotor.neocities.org/modding/) instead.
 {% endcontainer  %}
 
-{% include "starwarskotor/moslist-info.md" %}
+{% include "starwarskotor/modlist-info.md" %}
 
 {% container "article", "content__section" %}
 ## {% cite "Star Wars: Knights of the Old Republic II: The Sith Lords" %} Mod Build - Full List
