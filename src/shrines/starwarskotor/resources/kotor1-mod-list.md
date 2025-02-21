@@ -53,9 +53,9 @@ If you are going to play {% cite "KotOR" %} for the first time, and you do not m
 
 ### Mod Tools
 
-* [UniWS](http://www.wsgf.org/article/star-wars-knights-old-republic) — The widescreen patch for KotOR. [Here is a YouTube video tutorial](https://www.youtube.com/watch?v=9SKMzwKE34E) on how to use it.
+* [UniWS](http://www.wsgf.org/article/star-wars-knights-old-republic) — The widescreen patch for {% cite "KotOR" %}. [Here is a YouTube video tutorial](https://www.youtube.com/watch?v=9SKMzwKE34E) on how to use it.
 * [Quicker TSLPatching](https://www.nexusmods.com/kotor/mods/1214) by xypherh — Makes it easier to install mods that use the TSLPatcher.
-* [KOTORModSync](https://deadlystream.com/files/file/2317-kotormodsync/) by th3w1zard1 — A multi-mod installer for the KotOR games.
+* [KOTORModSync](https://deadlystream.com/files/file/2317-kotormodsync/) by th3w1zard1 — A multi-mod installer for the {% cite "KotOR" %} games.
 
 ---
 
