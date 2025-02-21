@@ -15,7 +15,7 @@ Here I’m compiling a list of all the modifications, or mods in short, that I u
 
 In order to prevent mod conflicts as much as possible, installation order matters a lot if you are using many mods for the {% cite "KotOR" %} games. Therefore, the full list of my mod build below has been arranged in the proper installation order to make these mods compatible. If you are interested in following my mod build, you should install the mods in the order you are presented with them. Also, when you install the mods according to my build, overwrite any files when prompted.
 
-I usually play KotOR 1 on GOG, though I also own the Steam version of KotOR 1.
+I usually play {% cite "KotOR 1" %} on GOG, though I also own the Steam version of {% cite "KotOR 1" %}.
 
 The format of this mod list is inspired by [KOTOR Community Portal's mod lists](https://kotor.neocities.org/modding/).
 
@@ -25,7 +25,7 @@ The format of this mod list is inspired by [KOTOR Community Portal's mod lists](
 {% container "article", "content__section" %}
 ## KotOR 1 Restoration Compatibility
 
-IMPORTANT NOTE: My KotOR 1 mod build is not compatible with the KotOR 1 Restoration (K1R) mod.
+IMPORTANT NOTE: My {% cite "KotOR 1" %} mod build is not compatible with the KotOR 1 Restoration (K1R) mod.
 
 I have no plans on including K1R in my mod build because:
 
@@ -4307,7 +4307,6 @@ Description
 {% endcontainer %}
 
 {% container "article", "content__section" %}
-
 ## Final Note
 
 In addition to the mods above, I also use some face and Jedi robe reskins of my player character that were for personal use only.
