@@ -4,7 +4,7 @@ export default {
     hasBreadcrumbs: true,
     articleElement: true,
     eleventyComputed: {
-        title: "{{ pageTitle }} | Resources",
+        title: "{{ pageTitle | safe }} | Resources",
         eleventyNavigation: {
             key: "{{ pageTitle }}",
             parent: "KotOR Resources"
