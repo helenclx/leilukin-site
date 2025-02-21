@@ -34,16 +34,6 @@ Important things to keep in mind about my {% cite "KotOR 2" %} mod build:
 3. My {% cite "KotOR 2" %} mod build is NOT compatible with the Steam Workshop. Frankly, the Steam Workshop is terrible for modding the {% cite "KotOR" %} games and a mod compatibility nightmare for the {% cite "KotOR" %} games. I strongly recommend reading Snigaroo's post on Deadly Stream on [why Steam Workshop is NOT recommended for modding {% cite "KotOR" %}](https://deadlystream.com/topic/7321-why-not-to-use-the-steam-workshop/). Therefore, I do not use nor support the Steam Workshop, and I do not wish any of my mods to be uploaded to the Steam Workshop.  If you are interested in following my KotOR 2 mod build, DO NOT use the Steam Workshop version of the mods listed below.
 {% endcontainer  %}
 
-{% container "article", "content__section" %}
-## {% cite "KotOR 2" %} Spoilers Warning
-
-WARNING: The full list of my mod build contains spoilers for {% cite "Star Wars: Knights of the Old Republic II: The Sith Lords" %}!
-
-My mod build is not designed for new {% cite "KotOR 2" %} players, so I will not censor any information that contains spoilers for the game. In general, I do not recommend using mods in your very first playthrough of any video game, so you can judge and choose which mods you want to use after finishing the game for the first time. The only exceptions are the [KotOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/) for {% cite "KotOR 1" %} and [The Sith Lords Restored Content Mod](https://deadlystream.com/files/file/578-tsl-restored-content-mod/) for {% cite "KotOR 2" %}, which are absolutely essential mods that even if you want to use them in your first playthrough, you definitely have my support.
-
-If you are going to play {% cite "KotOR 2" %} for the first time, and you do not mind using mods, I would suggest checking out the Spoiler-Free version of [KotOR Community Portal’s KotOR mod builds](https://kotor.neocities.org/modding/) instead.
-{% endcontainer  %}
-
 {% include "starwarskotor/modlist-info.md" %}
 
 {% container "article", "content__section" %}
