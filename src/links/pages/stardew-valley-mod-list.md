@@ -34,9 +34,6 @@ Interface Change
 
 Mechanics Change
 : This type of mod makes changes to the game’s system which directly impacts the way you play the game, varying from changing the camera angle of a location to altering the core stats of a class.
-
-Immersion
-: These mods are not inherently bugfixes, but changes done to improve the internal consistency of the game’s content.
 {% endcontainer %}
 
 {% container "article", "content__section" %}
