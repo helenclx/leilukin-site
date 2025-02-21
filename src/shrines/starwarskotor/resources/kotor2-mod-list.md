@@ -52,7 +52,7 @@ If you are going to play {% cite "KotOR 2" %} for the first time, and you do not
 ### Mod Tools
 
 * [Quicker TSLPatching](https://www.nexusmods.com/kotor/mods/1214) by xypherh — Makes it easier to install mods that use the TSLPatcher.
-* [KOTORModSync](https://deadlystream.com/files/file/2317-kotormodsync/) by th3w1zard1 — A multi-mod installer for the KotOR games.
+* [KOTORModSync](https://deadlystream.com/files/file/2317-kotormodsync/) by th3w1zard1 — A multi-mod installer for the {% cite "KotOR" %} games.
 
 ---
 
