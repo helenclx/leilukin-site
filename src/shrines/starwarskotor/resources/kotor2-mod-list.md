@@ -68,7 +68,7 @@ Installation Note
 ### The Sith Lords Restored Content Mod
 
 Mod Name
-: [The Sith Lords Restored Content Mod](https://www.moddb.com/mods/the-sith-lords-restored-content-mod-tslrcm) (TSLRCM)
+: [The Sith Lords Restored Content Mod](https://deadlystream.com/files/file/578-tsl-restored-content-mod/) (TSLRCM)
 
 Mod Author
 : zbyl2, DarthStoney, Hassat Hunter & VarsityPuppet
