@@ -36,16 +36,6 @@ I have no plans on including K1R in my mod build because:
 * Some of the mods that I consider essential to my KotOR 1 playthrough are not compatible with K1R.
 {% endcontainer  %}
 
-{% container "article", "content__section" %}
-## {% cite "KotOR" %} Spoilers Warning
-
-WARNING: The full list of my mod build contains spoilers for {% cite "Star Wars: Knights of the Old Republic" %}!
-
-My mod build is not designed for new {% cite "KotOR" %} players, so I will not censor any information that contains spoilers for the game. In general, I do not recommend using mods in your very first playthrough of any video game, so you can judge and choose which mods you want to use after finishing the game for the first time. The only exceptions are the [KotOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/) for {% cite "KotOR 1" %} and [The Sith Lords Restored Content Mod](https://deadlystream.com/files/file/578-tsl-restored-content-mod/) for {% cite "KotOR 2" %}, which are absolutely essential mods that even if you want to use them in your first playthrough, you definitely have my support.
-
-If you are going to play {% cite "KotOR" %} for the first time, and you do not mind using mods, I would suggest checking out the Spoiler-Free version of [KotOR Community Portal’s KotOR mod builds](https://kotor.neocities.org/modding/) instead.
-{% endcontainer  %}
-
 {% include "starwarskotor/modlist-info.md" %}
 
 {% container "article", "content__section" %}
