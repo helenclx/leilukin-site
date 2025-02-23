@@ -1838,7 +1838,7 @@ Category
 : Restored Content & Modified Content
 
 Installation Note
-: I also install the NPC Flirts Regardless of Gender component, but I do so only for the Gianna Parasini flirt. I remove BioD\_OmgHub\_500DenVIP\_LOC\_INT.pcc and BioD\_OmgHub\_221GarrusAcq\_LOC\_INT.pcc from the mod folder after installing so the Blue Sun Merc and Meln will not sexually harass my FemShep, something I installed the No Sexual Harassment mod to avoid.
+: I also install the NPC Flirts Regardless of Gender component, but I do so only for the Gianna Parasini flirt. I remove `BioD_OmgHub_500DenVIP_LOC_INT.pcc` and `BioD_OmgHub_221GarrusAcq_LOC_INT.pcc` from the mod folder after installing so the Blue Sun Merc and Meln will not sexually harass my FemShep, something I installed the No Sexual Harassment mod to avoid.
 
 ---
 
