@@ -944,8 +944,6 @@ Installation Note
 
 ### Installed with Mass Effect Modder (MEM)
 
----
-
 #### Wraith Eyes (LE1)
 
 Mod Name
