@@ -24,7 +24,6 @@ toc: true
 #### Video Game Mods
 These are lists of video game mods I use for my own playthroughs.
 <ul>
-    <li><a href="https://docs.google.com/document/d/1Hhh_31ZlplT06UaVVwf1so7PnIBRCbT60tCBNn7zHiQ/edit">Leilukin's Mass Effect Legendary Edition Mod Build</a></li>
     {%- for list in collections["mod lists"] -%}
     <li>
         <a href="{{ list.url }}">{{ list.data.pageTitle or list.data.articleTitle }}</a>
