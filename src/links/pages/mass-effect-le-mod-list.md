@@ -1605,7 +1605,7 @@ Mod Name
 : [Kelly Chambers and Dr. Kenson Remastered Original Hair](https://www.nexusmods.com/masseffectlegendaryedition/mods/1644)
 
 Mod Author
-: _MaZ_TeR_
+: \_MaZ_TeR\_
 
 Category
 : Appearance Change
