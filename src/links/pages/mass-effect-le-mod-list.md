@@ -237,6 +237,8 @@ Category
 
 ---
 
+#### LE1 Definitive Audio Overhaul
+
 Mod Name
 : [LE1 Definitive Audio Overhaul](https://www.nexusmods.com/masseffectlegendaryedition/mods/1560)
 
@@ -375,6 +377,8 @@ Category
 : Mechanics Change
 
 ---
+
+#### Normandy Rapid Transit (LE1)
 
 Mod Name
 : [Normandy Rapid Transit (LE1)](https://www.nexusmods.com/masseffectlegendaryedition/mods/755)
@@ -545,6 +549,8 @@ Category
 : Mechanics Change
 
 ---
+
+#### Eclectic Emails (LE1)
 
 Mod Name
 : [Eclectic Emails (LE1)](https://www.nexusmods.com/masseffectlegendaryedition/mods/1563)
@@ -745,6 +751,8 @@ Category
 : Appearance Change & Restored Content
 
 ---
+
+#### Easier Feros Persuasion Check
 
 Mod Name
 : [Easier Feros Persuasion Check (LE1)](https://www.nexusmods.com/masseffectlegendaryedition/mods/1261)
@@ -1036,6 +1044,8 @@ Category
 : Graphics Improvement
 
 ---
+
+#### Myriad Pro Begone (LE2)
 
 Mod Name
 : [Myriad Pro Begone](https://www.nexusmods.com/masseffectlegendaryedition/mods/1070)
@@ -1708,6 +1718,8 @@ Category
 
 ---
 
+#### Virmire Savior Mod (LE2)
+
 Mod Name
 : [Virmire Savior Mod (LE2)](https://www.nexusmods.com/masseffectlegendaryedition/mods/1587)
 
@@ -2205,6 +2217,8 @@ Category
 
 ---
 
+#### Liara's Proper Doctorate
+
 Mod Name
 : [Liara's Proper Doctorate](https://www.nexusmods.com/masseffectlegendaryedition/mods/1557)
 
@@ -2299,6 +2313,8 @@ Category
 
 ---
 
+#### Vignette Remover (LE3)
+
 Mod Name
 : [Vignette Remover](https://www.nexusmods.com/masseffectlegendaryedition/mods/428)
 
@@ -2336,6 +2352,8 @@ Category
 
 ---
 
+#### Shorter Hairstyles for Femshep II (LE3)
+
 Mod Name
 : [Shorter Hairstyles for Femshep II (MELE3)](https://www.nexusmods.com/masseffectlegendaryedition/mods/1540)
 
@@ -2359,6 +2377,8 @@ Category
 : Interface Change & Player Customization
 
 ---
+
+#### No Shared Power Cooldowns (LE3)
 
 Mod Name
 : [No Shared Power Cooldowns](https://www.nexusmods.com/masseffectlegendaryedition/mods/1699)
@@ -2452,6 +2472,8 @@ Category
 : Mechanics Change
 
 ---
+
+#### Metallic Armor Tints (LE3)
 
 Mod Name
 : [Metallic Armor Tints](https://www.nexusmods.com/masseffectlegendaryedition/mods/482)
@@ -3122,6 +3144,8 @@ Category
 
 ---
 
+#### Liara Mourns the Dead
+
 Mod Name
 : [Liara Mourns the Dead](https://www.nexusmods.com/masseffectlegendaryedition/mods/1713)
 
@@ -3289,6 +3313,8 @@ Category
 : Graphics Improvement
 
 ---
+
+#### Ashley LE1 Complexion for LE3
 
 Mod Name
 : [Ashley LE1 Complexion for LE3](https://www.nexusmods.com/masseffectlegendaryedition/mods/1191)
