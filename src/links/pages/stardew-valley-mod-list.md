@@ -56,7 +56,7 @@ Tier 4 - Optional
 {% endcontainer %}
 
 {% container "article", "content__section" %}
-## Stardew Valley Mod Build - Full List
+## {% cite "Stardew Valley" %} Mod Build - Full List
 
 ### Mod Tools
 
