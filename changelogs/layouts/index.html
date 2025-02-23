@@ -94,8 +94,11 @@
         color: var(--clr-sub-heading);
     }
 
-    .toc ol,
-    .toc ol ol {
+    .toc__wrapper[open] > .toc__heading {
+        margin-bottom: 0.5em;
+    }
+
+    .toc ol, .toc ol ol {
         display: grid;
         gap: 0.3em;
     }

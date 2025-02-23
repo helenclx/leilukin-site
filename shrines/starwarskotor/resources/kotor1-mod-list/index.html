@@ -62,8 +62,11 @@
         color: var(--clr-sub-heading);
     }
 
-    .toc ol,
-    .toc ol ol {
+    .toc__wrapper[open] > .toc__heading {
+        margin-bottom: 0.5em;
+    }
+
+    .toc ol, .toc ol ol {
         display: grid;
         gap: 0.3em;
     }
@@ -563,6 +566,7 @@
 <li><a href="#ebon-hawk-revival-reskin-project">Ebon Hawk Revival Reskin Project</a></li>
 <li><a href="#quanons-ebon-hawk-interior-upscaled-textures">Quanons Ebon Hawk Interior Upscaled Textures</a></li>
 <li><a href="#ultimate-ebon-hawk-repairs">Ultimate Ebon Hawk Repairs</a></li>
+<li><a href="#animated-ebon-hawk-monitors">Animated Ebon Hawk Monitors</a></li>
 <li><a href="#high-quality-cockpit-skyboxes">High Quality Cockpit Skyboxes</a></li>
 <li><a href="#high-quality-starfields-and-nebulas">High Quality Starfields and Nebulas</a></li>
 <li><a href="#ebon-hawk-cockpit-upgrade-part-1">Ebon Hawk Cockpit Upgrade Part 1</a></li>
@@ -571,6 +575,7 @@
 <li><a href="#very-nice-load-screens">Very Nice Load Screens</a></li>
 <li><a href="#hd-scout-uniform">HD Scout Uniform</a></li>
 <li><a href="#hd-soldier-player-characters">HD Soldier Player Characters</a></li>
+<li><a href="#hd-scoundrel-uniform">HD Scoundrel Uniform</a></li>
 <li><a href="#specialized-combat-suits">Specialized Combat Suits</a></li>
 <li><a href="#hd-combat-suits">HD Combat Suits</a></li>
 <li><a href="#hd-armor-5">HD Armor 5</a></li>
@@ -579,6 +584,7 @@
 <li><a href="#jcs-republic-soldier-fix">JC's Republic Soldier Fix</a></li>
 <li><a href="#hd-republican-soldier-woman">HD Republican Soldier Woman</a></li>
 <li><a href="#republican-soldier">Republican Soldier</a></li>
+<li><a href="#jcs-supermodel-fix">JC's Supermodel Fix</a></li>
 <li><a href="#sith-soldier-texture-restoration">Sith Soldier Texture Restoration</a></li>
 <li><a href="#jcs-cloaked-jedi-robes">JC's Cloaked Jedi Robes</a></li>
 <li><a href="#robes-with-shadows">Robes With Shadows</a></li>
@@ -604,6 +610,7 @@
 <li><a href="#kill-the-czerka-guard-captain-on-kashyyyk">Kill the Czerka Guard Captain on Kashyyyk</a></li>
 <li><a href="#leviathan-differentiated-dialogue">Leviathan Differentiated Dialogue</a></li>
 <li><a href="#spare-mission-and-zaalbar">Spare Mission and Zaalbar</a></li>
+<li><a href="#repeating-blaster-attacks-restoration">Repeating Blaster Attacks Restoration</a></li>
 <li><a href="#weapon-model-overhaul">Weapon Model Overhaul</a></li>
 <li><a href="#weapon-model-overhaul-texture-rework">Weapon Model Overhaul Texture Rework</a></li>
 <li><a href="#hd-stun-batons">HD Stun Batons</a></li>
@@ -680,6 +687,7 @@
 <li><a href="#gaffi-stick-improvement">Gaffi Stick Improvement</a></li>
 <li><a href="#sunry-murder-recording-enhancement">Sunry Murder Recording Enhancement</a></li>
 <li><a href="#elder-droids-unique-vo">Elder Droid's Unique VO</a></li>
+<li><a href="#temple-main-floor-missing-lamps-fix">Temple Main Floor - Missing Lamps Fix</a></li>
 <li><a href="#placeables-specularity-tweaks">Placeables Specularity Tweaks</a></li>
 <li><a href="#sensible-star-forge-respawning">Sensible Star Forge Respawning</a></li>
 <li><a href="#npc-alignment-fix">NPC Alignment Fix</a></li>
@@ -707,7 +715,7 @@
 <p>In order to prevent mod conflicts as much as possible, installation order matters a lot if you are using many mods for the <cite>KotOR</cite> games. Therefore, the full list of my mod build below has been arranged in the proper installation order to make these mods compatible. If you are interested in following my mod build, you should install the mods in the order you are presented with them. Also, when you install the mods according to my build, overwrite any files when prompted.</p>
 <p>I usually play <cite>KotOR 1</cite> on GOG, though I also own the Steam version of <cite>KotOR 1</cite>.</p>
 <p>The format of this mod list is inspired by <a href="https://kotor.neocities.org/modding/">KOTOR Community Portal's mod lists</a>.</p>
-<p>(This mod list was last updated on <time datetime="2025-02-21T20:50:46+0800">21 February 2025</time>)</p>
+<p>(This mod list was last updated on <time datetime="2025-02-23T17:12:49+0800">23 February 2025</time>)</p>
 </article>
 <article class="content__section"><div class="heading-wrapper h2">
 <h2 id="kotor-1-restoration-compatibility">KotOR 1 Restoration Compatibility</h2>
@@ -2353,6 +2361,9 @@
 <dd>I download the Animated Fix version.</dd>
 </dl>
 <hr>
+<div class="heading-wrapper h3">
+<h3 id="animated-ebon-hawk-monitors">Animated Ebon Hawk Monitors</h3>
+<a class="heading-anchor" href="#animated-ebon-hawk-monitors" aria-labelledby="animated-ebon-hawk-monitors"><span hidden="">#</span></a></div>
 <dl>
 <dt>Mod Name</dt>
 <dd><a href="http://deadlystream.com/files/file/848-kotor2-animated-ebon-hawk-monitors-not-including-galaxy-map/">Animated Ebon Hawk Monitors</a></dd>
@@ -2488,6 +2499,9 @@
 <dd>Tier 2 - Very Important</dd>
 </dl>
 <hr>
+<div class="heading-wrapper h3">
+<h3 id="hd-scoundrel-uniform">HD Scoundrel Uniform</h3>
+<a class="heading-anchor" href="#hd-scoundrel-uniform" aria-labelledby="hd-scoundrel-uniform"><span hidden="">#</span></a></div>
 <dl>
 <dt>Mod Name</dt>
 <dd><a href="https://deadlystream.com/files/file/1479-k1-scoundrel-uniform-hd-international-global-mod/">[K1] Scoundrel Uniform HD</a></dd>
@@ -2620,6 +2634,9 @@ Appearance Change</dd>
 <dd>I download RepSold HD.rar.</dd>
 </dl>
 <hr>
+<div class="heading-wrapper h3">
+<h3 id="jcs-supermodel-fix">JC's Supermodel Fix</h3>
+<a class="heading-anchor" href="#jcs-supermodel-fix" aria-labelledby="jcs-supermodel-fix"><span hidden="">#</span></a></div>
 <dl>
 <dt>Mod Name</dt>
 <dd><a href="https://deadlystream.com/files/file/1363-jcs-supermodel-fix-for-k1/">JC's Supermodel Fix for K1</a></dd>
@@ -3010,6 +3027,9 @@ Graphics Improvement</dd>
 <dd>The fact that you’re forced to kill Mission in the Dark Side ending has always been my least favourite thing about the Dark Side ending in KotOR 1, so I consider this mod essential, even though I still prefer playing Light Side in both KotOR games.</dd>
 </dl>
 <hr>
+<div class="heading-wrapper h3">
+<h3 id="repeating-blaster-attacks-restoration">Repeating Blaster Attacks Restoration</h3>
+<a class="heading-anchor" href="#repeating-blaster-attacks-restoration" aria-labelledby="repeating-blaster-attacks-restoration"><span hidden="">#</span></a></div>
 <dl>
 <dt>Mod Name</dt>
 <dd><a href="https://deadlystream.com/files/file/1405-repeating-blaster-attacks-restoration/">Repeating blaster attacks restoration</a></dd>
@@ -3110,28 +3130,6 @@ Bugfix</dd>
 <dd>1 - Essential</dd>
 <dt>Installation Note</dt>
 <dd>I install the Modify Standard Lightsaber version only.</dd>
-</dl>
-<hr>
-<dl>
-<dt>Mod Name</dt>
-<dd><a href="https://deadlystream.com/files/file/2050-bastilas-lightsaber/">Bastila’s Lightsaber</a></dd>
-<dt>Mod Author</dt>
-<dd>Marius Fett</dd>
-<dt>Category</dt>
-<dd>Appearance Change</dd>
-<dt>Tier</dt>
-<dd>Tier 3 - Somewhat Important</dd>
-</dl>
-<hr>
-<dl>
-<dt>Mod Name</dt>
-<dd><a href="https://deadlystream.com/files/file/2050-bastilas-lightsaber/">Jolee’s Lightsaber</a></dd>
-<dt>Mod Author</dt>
-<dd>Marius Fett</dd>
-<dt>Category</dt>
-<dd>Appearance Change</dd>
-<dt>Tier</dt>
-<dd>Tier 3 - Somewhat Important</dd>
 </dl>
 <hr>
 <div class="heading-wrapper h3">
@@ -4181,6 +4179,9 @@ Rece's” version.</dd>
 <dd>Tier 3 - Somewhat Important</dd>
 </dl>
 <hr>
+<div class="heading-wrapper h3">
+<h3 id="temple-main-floor-missing-lamps-fix">Temple Main Floor - Missing Lamps Fix</h3>
+<a class="heading-anchor" href="#temple-main-floor-missing-lamps-fix" aria-labelledby="temple-main-floor-missing-lamps-fix"><span hidden="">#</span></a></div>
 <dl>
 <dt>Mod Name</dt>
 <dd><a href="https://deadlystream.com/files/file/1545-k1-temple-main-floor-missing-lamps-fix/">Temple Main Floor - Missing Lamps Fix</a></dd>
