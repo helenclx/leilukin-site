@@ -3,7 +3,7 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic Mod Build"
 desc: "A list of Star Wars: Knights of the Old Republic mods I use."
 tags: ["contents", "mod lists"]
 categories: ["star wars kotor", "video game mods"]
-updated: 2025-02-21T20:50:46+0800
+updated: 2025-02-23T17:12:49+0800
 isContentDivided: true
 toc: true
 ---
@@ -1845,6 +1845,8 @@ Download Note
 
 ---
 
+### Animated Ebon Hawk Monitors
+
 Mod Name
 : [Animated Ebon Hawk Monitors](http://deadlystream.com/files/file/848-kotor2-animated-ebon-hawk-monitors-not-including-galaxy-map/)
 
@@ -2005,8 +2007,10 @@ Tier
 
 ---
 
+### HD Scoundrel Uniform
+
 Mod Name
-: [\[K1\] Scoundrel Uniform HD](https://deadlystream.com/files/file/1479-k1-scoundrel-uniform-hd-international-global-mod/)
+: [[K1] Scoundrel Uniform HD](https://deadlystream.com/files/file/1479-k1-scoundrel-uniform-hd-international-global-mod/)
 
 Mod Author
 : Dark Hope
@@ -2159,6 +2163,8 @@ Download Note
 : I download RepSold HD.rar.
 
 ---
+
+### JC's Supermodel Fix
 
 Mod Name
 : [JC's Supermodel Fix for K1](https://deadlystream.com/files/file/1363-jcs-supermodel-fix-for-k1/)
@@ -2617,6 +2623,8 @@ Leilukin’s Comment
 
 ---
 
+### Repeating Blaster Attacks Restoration
+
 Mod Name
 : [Repeating blaster attacks restoration](https://deadlystream.com/files/file/1405-repeating-blaster-attacks-restoration/)
 
@@ -2734,34 +2742,6 @@ Tier
 
 Installation Note
 : I install the Modify Standard Lightsaber version only.
-
----
-
-Mod Name
-: [Bastila’s Lightsaber](https://deadlystream.com/files/file/2050-bastilas-lightsaber/)
-
-Mod Author
-: Marius Fett
-
-Category
-: Appearance Change
-
-Tier
-: Tier 3 - Somewhat Important
-
----
-
-Mod Name
-: [Jolee’s Lightsaber](https://deadlystream.com/files/file/2050-bastilas-lightsaber/)
-
-Mod Author
-: Marius Fett
-
-Category
-: Appearance Change
-
-Tier
-: Tier 3 - Somewhat Important
 
 ---
 
@@ -3984,6 +3964,8 @@ Tier
 : Tier 3 - Somewhat Important
 
 ---
+
+### Temple Main Floor - Missing Lamps Fix
 
 Mod Name
 : [Temple Main Floor - Missing Lamps Fix](https://deadlystream.com/files/file/1545-k1-temple-main-floor-missing-lamps-fix/)

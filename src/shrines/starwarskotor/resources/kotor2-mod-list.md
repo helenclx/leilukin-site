@@ -1232,6 +1232,8 @@ Tier
 
 ---
 
+### Ultimate High Resolution Texture Pack
+
 Mod Name
 : [Ultimate High Resolution Texture Pack](https://www.nexusmods.com/kotor2/mods/1100)
 
