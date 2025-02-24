@@ -70,7 +70,6 @@
 .form-footer input,
 .comment-footer button,
 .show-comment {
-    cursor: pointer;
     border: none;
     background: var(--clr-link-btn-bg);
     color: var(--clr-link-btn-txt);

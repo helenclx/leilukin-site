@@ -71,7 +71,6 @@ blockquote > * + :not([class]),
 * + .c-blockquote,
 .c-blockquote__attribution { margin-block-start: var(--sz-paragraph-margin); }
 
-button:hover { cursor: pointer; }
 details:focus { outline-offset: 0.2em; }
 video { width: 100%; }
 
@@ -106,8 +105,6 @@ pre {
 }
 
 pre > code { white-space: pre; }
-
-summary { cursor: pointer; }
 
 dl {
     container-type: inline-size;
