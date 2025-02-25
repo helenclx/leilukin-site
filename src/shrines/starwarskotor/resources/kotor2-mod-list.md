@@ -3057,7 +3057,7 @@ Required Mod
 
 ---
 
-### ocket Launcher Sounds
+### Rocket Launcher Sounds
 
 Mod Name
 : [Rocket Launcher Sounds](http://deadlystream.com/files/file/995-rocket-launcher-sounds/)
@@ -3574,6 +3574,25 @@ Download Note
 :   * Worn-Out Mando Armor
 : * Player and Party Underwear
 : * The Sith Lords Restored Content Mod
+
+---
+
+### Thematic Obscured Mausoleum Burial
+
+Mod Name
+: [Thematic Obscured Mausoleum Burial](https://github.com/JCarter426/KOTOR2-TOMB)
+
+Mod Author
+: Snigaroo & JCarter426
+
+Category
+: Immersion
+
+Tier
+: Tier 3 - Somewhat Important
+
+Required Mod
+: TSLRCM
 
 ---
 
