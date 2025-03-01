@@ -112,9 +112,11 @@ Late 2019
 
 ## Accolades
 
-{% cite "Cassette Beasts" %} was [nominated for The British Game](https://twitter.com/ByttenStudio/status/1765742782700782040) at the 20th British Academy (BAFTA) Games Awards.
+{% cite "Cassette Beasts" %} was [nominated for The British Game](https://twitter.com/ByttenStudio/status/1765742782700782040) ([archived](https://web.archive.org/web/20240307212519/https://twitter.com/ByttenStudio/status/1765742782700782040)) at the 20th British Academy (BAFTA) Games Awards.
 
-Bytten Studio was [nominated for "Best Small Studio"](https://x.com/ByttenStudio/status/1791085233216823769) at the Develop:Star Awards 2024.
+Bytten Studio was [nominated for "Best Small Studio"](https://x.com/ByttenStudio/status/1791085233216823769) ([archived](https://archive.is/n3TcT)) at the Develop:Star Awards 2024.
+
+{% cite "Cassette Beasts: Deluxe Edition" %} [won Debug Indie Game Award for "Best Physical Release"](https://bsky.app/profile/byttenstudio.bsky.social/post/3ljazkisrvk2w) ([archived](https://archive.is/RFQVc)).
 
 ## Design Philosophy
 
