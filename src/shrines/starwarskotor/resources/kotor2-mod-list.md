@@ -3577,10 +3577,10 @@ Download Note
 
 ---
 
-### Thematic Obscured Mausoleum Burial
+{# ### Thematic Obscured Mausoleum Burial
 
 Mod Name
-: [Thematic Obscured Mausoleum Burial](https://github.com/JCarter426/KOTOR2-TOMB)
+: [Thematic Obscured Mausoleum Burial](https://deadlystream.com/files/file/2663-thematic-obscured-mausoleum-burial/)
 
 Mod Author
 : Snigaroo & JCarter426
@@ -3594,7 +3594,7 @@ Tier
 Required Mod
 : TSLRCM
 
----
+--- #}
 
 ### Party & Player Underwear & UCO Patch
 
