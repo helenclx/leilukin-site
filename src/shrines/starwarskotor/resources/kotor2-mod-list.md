@@ -3396,7 +3396,7 @@ Installation Note
 
 ---
 
-### v
+### Extended Enclave
 
 Mod Name
 : [Extended Enclave](http://deadlystream.com/files/file/428-extended-enclave-tslrcm-add-on/)
@@ -3618,7 +3618,7 @@ Installation Note
 
 ---
 
-### ore Covered Dancer Outfit
+### More Covered Dancer Outfit
 
 Mod Name
 : [More Covered Dancer Outfit](http://www.nexusmods.com/kotor2/mods/42/?)
