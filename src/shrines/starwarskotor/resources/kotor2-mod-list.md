@@ -3,7 +3,7 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic II: The Sith Lords
 desc: "A list of Star Wars: Knights of the Old Republic II: The Sith Lords mods I use."
 tags: ["contents", "mod lists"]
 categories: ["star wars kotor 2", "video game mods"]
-updated: 2025-02-25T09:40:44+0800
+updated: 2025-03-03T18:20:25+0800
 isContentDivided: true
 toc: true
 ---
@@ -3286,28 +3286,6 @@ Tier
 
 ---
 
-### Lonna Vash Mod
-
-Mod Name
-: [Lonna Vash Mod for TSLRCM](/projects/videogamemods/kotor2/#Lonna-Vash-Mod-for-TSLRCM)
-
-Mod Author
-: Leilukin (me)
-
-Category
-: Restored Content
-
-Tier
-: Tier 2 - Very Important
-
-Required Mod
-: TSLRCM
-
-Installation Note
-: I also install the “Kaah’s M4-78EP Head and Voice” component and the compatibility patch for TSL Better Male Twi’lek Heads.
-
----
-
 ### Dahnis Flirt Option for Female PC
 
 Mod Name
@@ -3421,28 +3399,6 @@ Compatibility Note
 
 ---
 
-### Alternate Revan Romances
-
-Mod Name
-: [Alternate Revan Romances REDUX](/projects/videogamemods/kotor2/#Alternate-Revan-Romances-REDUX)
-
-Mod Author
-: Leilukin (me), original mod by felixfelicitas
-
-Category
-: Modified Content
-
-Tier
-: Tier 1 - Essential
-
-Required Mod
-: TSLRCM
-
-Installation Note
-: I also install the Juhani Cameo add-on.
-
----
-
 ### Atton Rand and Male Exile Romance
 
 Mod Name
@@ -3461,7 +3417,7 @@ Required Mod
 : TSLRCM
 
 Installation Note
-: I choose “Version A \+ Alternate Revan Romances REDUX Compatible” when installing this mod.
+: I choose “Version A” when installing this mod.
 
 ---
 
@@ -3595,6 +3551,50 @@ Required Mod
 : TSLRCM
 
 --- #}
+
+### Lonna Vash Mod
+
+Mod Name
+: [Lonna Vash Mod for TSLRCM](/projects/videogamemods/kotor2/#Lonna-Vash-Mod-for-TSLRCM)
+
+Mod Author
+: Leilukin (me)
+
+Category
+: Restored Content
+
+Tier
+: Tier 2 - Very Important
+
+Required Mod
+: TSLRCM
+
+Installation Note
+: I also install the “Kaah’s M4-78EP Head and Voice” component and the compatibility patch for TSL Better Male Twi’lek Heads.
+
+---
+
+### Alternate Revan Romances
+
+Mod Name
+: [Alternate Revan Romances REDUX](/projects/videogamemods/kotor2/#Alternate-Revan-Romances-REDUX)
+
+Mod Author
+: Leilukin (me), original mod by felixfelicitas
+
+Category
+: Modified Content
+
+Tier
+: Tier 1 - Essential
+
+Required Mod
+: TSLRCM
+
+Installation Note
+: I also install the Juhani Cameo add-on.
+
+---
 
 ### Party & Player Underwear & UCO Patch
 
