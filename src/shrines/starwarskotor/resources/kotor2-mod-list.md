@@ -3,7 +3,7 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic II: The Sith Lords
 desc: "A list of Star Wars: Knights of the Old Republic II: The Sith Lords mods I use."
 tags: ["contents", "mod lists"]
 categories: ["star wars kotor 2", "video game mods"]
-updated: 2025-03-03T18:20:25+0800
+updated: 2025-03-05T13:18:49+0800
 isContentDivided: true
 toc: true
 ---
@@ -3348,7 +3348,7 @@ Installation Note
 : I choose the “Default” option when installing this mod.
 
 Leilukin’s Comment
-: Although this was not the first mod that allows female Exiles to recruit Handmaiden and male Exiles to recruit Disciple, this is the first mod that allows you to recruit *both* Handmaiden *and* Disciple in the same playthrough regardless of the Exile’s gender. Given the fact that official sources of Star Wars Legends after the release of {% cite "KotOR 2" %} established that the Exile is female and light side, and she travels with both Handmaiden and Disciple, PartySwap is one of the best things that ever happened to {% cite "KotOR 2" %}.
+: Although this was not the first [mod that allows female Exiles to recruit Handmaiden and male Exiles to recruit Disciple](/shrines/starwarskotor/resources/kotor2-female-exile-recruit-handmaiden-mods/), this was the first mod that allows you to recruit *both* Handmaiden *and* Disciple in the same playthrough regardless of the Exile’s gender. Given the fact that official materials of {% cite "Star Wars Legends" %} after the release of {% cite "KotOR 2" %} established that the Exile is female and light side, and she travels with both Handmaiden and Disciple, PartySwap is one of the best things that ever happened to {% cite "KotOR 2" %}.
 
 ---
 
@@ -3421,28 +3421,6 @@ Installation Note
 
 ---
 
-### Leilukin's Juhani's Outfit Reskin Pack
-
-Mod Name
-: [Leilukin's Juhani's Outfit Reskin Pack](/projects/videogamemods/kotor1/#Leilukinand39s-Juhaniand39s-Outfit-Reskin-Pack)
-
-Mod Author
-: Leilukin (me)
-
-Category
-: Appearance Change
-
-Tier
-: Tier 3 - Somewhat Important
-
-Installation Note
-: I install the “Orange and Black” version.
-
-Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
-
----
-
 ### Visas Marr and Female Exile Romance
 
 Mod Name
@@ -3465,7 +3443,7 @@ Installation Note
 
 ---
 
-### mproved AI
+### Improved AI
 
 Mod Name
 : [Improved AI](http://deadlystream.com/files/file/833-improved-ai/)
@@ -3533,7 +3511,26 @@ Download Note
 
 ---
 
-{# ### Thematic Obscured Mausoleum Burial
+### More Covered Dancer Outfit
+
+Mod Name
+: [More Covered Dancer Outfit](http://www.nexusmods.com/kotor2/mods/42/?)
+
+Mod Author
+: felixfelicitas
+
+Category
+: Appearance Change
+
+Tier
+: Tier 1 - Essential
+
+Leilukin’s Comment
+: I’ve always hated how skimpy the vanilla dancer outfit is, like how much I hate the vanilla dancer model. With this mod and the dancer model fix from Player & Party Underwear make the “dancing for Vogga” sequence more bearable.
+
+---
+
+### Thematic Obscured Mausoleum Burial
 
 Mod Name
 : [Thematic Obscured Mausoleum Burial](https://deadlystream.com/files/file/2663-thematic-obscured-mausoleum-burial/)
@@ -3550,7 +3547,7 @@ Tier
 Required Mod
 : TSLRCM
 
---- #}
+---
 
 ### Lonna Vash Mod
 
@@ -3571,28 +3568,6 @@ Required Mod
 
 Installation Note
 : I also install the “Kaah’s M4-78EP Head and Voice” component and the compatibility patch for TSL Better Male Twi’lek Heads.
-
----
-
-### Alternate Revan Romances
-
-Mod Name
-: [Alternate Revan Romances REDUX](/projects/videogamemods/kotor2/#Alternate-Revan-Romances-REDUX)
-
-Mod Author
-: Leilukin (me), original mod by felixfelicitas
-
-Category
-: Modified Content
-
-Tier
-: Tier 1 - Essential
-
-Required Mod
-: TSLRCM
-
-Installation Note
-: I also install the Juhani Cameo add-on.
 
 ---
 
@@ -3618,22 +3593,47 @@ Installation Note
 
 ---
 
-### More Covered Dancer Outfit
+### Alternate Revan Romances REDUX
 
 Mod Name
-: [More Covered Dancer Outfit](http://www.nexusmods.com/kotor2/mods/42/?)
+: [Alternate Revan Romances REDUX](/projects/videogamemods/kotor2/#Alternate-Revan-Romances-REDUX)
 
 Mod Author
-: felixfelicitas
+: Leilukin (me), original mod by felixfelicitas
+
+Category
+: Modified Content
+
+Tier
+: Tier 1 - Essential
+
+Required Mod
+: TSLRCM
+
+Installation Note
+: I install the "Main Installation + TOMB Compatible" option and the Juhani Cameo add-on.
+
+---
+
+### Leilukin's Juhani's Outfit Reskin Pack
+
+Mod Name
+: [Leilukin's Juhani's Outfit Reskin Pack](/projects/videogamemods/kotor1/#Leilukinand39s-Juhaniand39s-Outfit-Reskin-Pack)
+
+Mod Author
+: Leilukin (me)
 
 Category
 : Appearance Change
 
 Tier
-: Tier 1 - Essential
+: Tier 3 - Somewhat Important
 
-Leilukin’s Comment
-: I’ve always hated how skimpy the vanilla dancer outfit is, like how much I hate the vanilla dancer model. With this mod and the dancer model fix from Player & Party Underwear make the “dancing for Vogga” sequence more bearable.
+Installation Note
+: I install the “Orange and Black” version.
+
+Note
+: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
 
 ---
 {% endcontainer %}
