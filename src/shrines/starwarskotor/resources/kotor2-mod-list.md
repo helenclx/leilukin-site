@@ -3421,7 +3421,7 @@ Installation Note
 
 ---
 
-### TSL Expanded Ending
+{# ### TSL Expanded Ending
 
 Mod Name
 : [TSL Expanded Ending](https://deadlystream.com/files/file/2672-tsl-expanded-ending/)
@@ -3441,7 +3441,7 @@ Required Mod
 Installation Note
 : I install the “MAIN INSTALL - 16:9 Display” and "OPTION: Transparent Cockpit Windows - Reskin-Friendly" options.
 
----
+--- #}
 
 ### Visas Marr and Female Exile Romance
 
