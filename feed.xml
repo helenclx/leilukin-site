@@ -4,12 +4,43 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2025-02-23T09:14:37Z</updated>
+    <updated>2025-03-06T14:36:09Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
         <email>contact@leilukin.com</email>
     </author>
+    
+    <entry>
+        <title>Changelog: 6 March 2025</title>
+        <link href="https://leilukin.com/"/>
+        <updated>2025-03-06T14:36:09Z</updated>
+        <id>https://leilukin.com/</id>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2025-03-06-attended-42-discovery-piscine&quot;&gt;&amp;quot;Attended 42 the School&#39;s 5-Day Coding Bootcamp&amp;quot;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <title>Attended 42 the School's 5-Day Coding Bootcamp | Blog</title>
+        <link href="https://leilukin.com/blog/posts/2025-03-06-attended-42-discovery-piscine/"/>
+        <updated>2025-03-06T14:34:13Z</updated>
+        <id>https://leilukin.com/blog/posts/2025-03-06-attended-42-discovery-piscine/</id>
+        <content type="html">&lt;p&gt;From 24 to 28 February 2025, I attended &lt;a href=&quot;https://leilukin.com/blog/posts/2025-01-19-attending-42-school/&quot;&gt;42 the computer science school&lt;/a&gt;&#39;s bite-sized coding bootcamp that lasted for 5 days, called the Discovery Piscine.&lt;/p&gt;
+&lt;p&gt;Originally, when I applied for 42 and passed their online assessment in December 2024, I registered to join their trial bootcamp, named Piscine, on 24 February 2025. However, on 17 February 2025, a week before my Piscine was supposed to start, I received an email from 42 that received an email from the school announcing that due to unforeseen circumstances, the Piscine scheduled late February 2025 will no longer take place as planned. Therefore, I registered for the Piscine beginning on 7 April 2025.&lt;/p&gt;
+&lt;p&gt;On the next day, I received another email from 42 that instead of a full Piscine, a five-day bite-sized coding bootcamp named Discovery Piscine would take place from February 24 to 28 instead. I decided to register to join Discovery Piscine, so I could have a taste of what the Piscine is like, and allowing myself to be better prepared for the full Piscine in April.&lt;/p&gt;
+&lt;p&gt;Discovery Piscine cadets, or Discovery Pisciners, will learn Python and shell, since the computers in their workstations use Linux, specifically the Ubuntu distribution with GNOME as its desktop environment.&lt;/p&gt;
+&lt;p&gt;I had experience with Linux desktop environments before 42 founded its first Malaysian campus, as I used to dual boot Windows and Linux in my computer, but that happened years ago. Currently, my main method of using Linux is through Windows Subsystem for Linux (WSL) without setting up any desktop environment. Therefore, Discovery Piscine provided a great opportunity to practice using Linux and shell commands.&lt;/p&gt;
+&lt;p&gt;I had learned Python before during my journey of teaching myself to code, and I even &lt;a href=&quot;https://github.com/ExcaliburZero/cbpickaxe/pull/3&quot;&gt;contributed&lt;/a&gt; to &lt;a href=&quot;https://github.com/ExcaliburZero/cbpickaxe&quot;&gt;cbpickaxe&lt;/a&gt;, a Python library for datamining my favourite video game &lt;cite&gt;Cassette Beasts&lt;/cite&gt;. However, Discovery Piscine allowed me to refresh my Python knowledge and practice writing Python scripts, while also learning Python&#39;s built-in functions that I was unfamiliar with. There was an exercise where I was stuck in for a longer time than expect, but then I solved the exercise after discovering the Python function I needed by searching the web with the right keyword.&lt;/p&gt;
+&lt;p&gt;Speaking of the computers in 42&#39;s workstations, during my last visit to my local campus of 42 on their open day in January, I requested a way to change the computer screen brightness to the campus staff, because my eyes are sensitive to bright light due to me having &lt;a href=&quot;https://leilukin.com/articles/living-with-retinitis-pigmentosa&quot;&gt;retinitis pigmentosa&lt;/a&gt;, and to my surprise the computers lacked the option to adjust screen brightness. The school staff promised to accommodate my request. On my first day attending the Discovery Piscine, I reminded the staff of my request, and a staff member soon installed a screen brightness setting in all the workstation computers, so I could adjust the computer screen brightness to the level I felt comfortable with.&lt;/p&gt;
+&lt;p&gt;Seeing the school staff fulfilling their promise to meet my request that accommodated my visual impairment has certainly raised my opinion on the school even higher.&lt;/p&gt;
+&lt;p&gt;42&#39;s education model is peer-to-peer learning without teachers or lectures, so cadets obtain curriculum materials through 42&#39;s intranet. After we completed a curriculum module, we still book someone else&#39;s time slot to let another cadet evaluate our work. Even if we failed a module, we could retry the module immediately. Cadets also need to set available time slots, so others can book our time slots for evaluation. When I evaluated other Discovery Pisciners&#39; work, I often provided tips for improving code and alternate ways to solve the exercises.&lt;/p&gt;
+&lt;p&gt;The fact that 42&#39;s curriculum has no teacher encouraged us to learn through searching the web, and it certainly helped that there have been a lot of resources, including free ones, to learn to code. 42&#39;s curriculum reminded me of how I started to teach myself to code for this reason, with the added bonus of learning in a physical coding school and meeting other people who were also interested in learning to code.&lt;/p&gt;
+&lt;p&gt;There were 10 modules of Python exercises in Discovery Piscine&#39;s curriculum, and I managed to do all the exercises, though not all of them got evaluated because of time constraints, and 42 only considers you having completed a module after you pass peer evaluations, so I ended up completing 5 out of 10 modules. However, this also earned me a certificate of completion after I graduated from the Discovery Piscine.&lt;/p&gt;
+&lt;p&gt;Despite already having programming experience — including &lt;a href=&quot;https://leilukin.com/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer/&quot;&gt;professional experience&lt;/a&gt; albeit &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-16-leaving-my-first-developer-job/&quot;&gt;a short one&lt;/a&gt; — I find 42 a good school for me. I am looking forward to the full Piscine in April.&lt;/p&gt;
+</content>
+    </entry>
     
     <entry>
         <title>Changelog: 23 February 2025</title>
@@ -198,7 +229,7 @@ Me&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;As a web developer without a computer science degree, a physical school that offers computer science education for free is certainly an attractive notion. Furthermore, as a developer who learned to code through online courses and learning resources, I have got used to learning new things without a teacher holding my hand. My years of working experience had also taught me to not expecting anyone to hold your hand if you want to upskill yourself. I have also found myself to prefer to learn to code by building projects.&lt;/p&gt;
 &lt;p&gt;Therefore, in late December 2024, I applied for the Malaysian campus of 42 near me, spent two hours in their application test consisted of a memory game and a logic game. On the next day, I was informed that I passed my application test, so I chose to enrol in their trial bootcamp, referred to as the Piscine, that will begin on April 2025. Participants need to pass the 4-week trial bootcamp before being able to take 42&#39;s core curriculum.&lt;/p&gt;
-&lt;p&gt;Meanwhile, through their official website, I learned that the campus would host an open day on 18 January 2025, so I decided to take the opportunity to visit the campus for myself to see what I can expect from the environment when I started my study there. When I attended the open day on January 18, I learned that the computers in their workstations use Linux, specifically the Ubuntu distribution with Gnome as its desktop environment.&lt;/p&gt;
+&lt;p&gt;Meanwhile, through their official website, I learned that the campus would host an open day on 18 January 2025, so I decided to take the opportunity to visit the campus for myself to see what I can expect from the environment when I started my study there. When I attended the open day on January 18, I learned that the computers in their workstations use Linux, specifically the Ubuntu distribution with GNOME as its desktop environment.&lt;/p&gt;
 &lt;p&gt;However, to my surprise, the computers did not have any setting to adjust screen brightness, which was not a good thing for me due to my &lt;a href=&quot;https://leilukin.com/articles/living-with-retinitis-pigmentosa/&quot;&gt;retinitis pigmentosa&lt;/a&gt; making my eyes sensitive to bright light, including artificial lights. I would prefer not to rely on my clip-on sunglasses just to see a computer screen, since the surroundings including the keyboard would appear too dark for me. Therefore, I approached one of the staff members to request methods of dimming the computer screen when I attend my class there. The staff member suggested that they should be able to arrange that to accommodate my needs.&lt;/p&gt;
 &lt;p&gt;After visiting the campus on its open day, I have been looking forward to attending the school more. Wish me luck in passing my Piscine so I can become an official student of 42!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update, 17 February 2025:&lt;/strong&gt; Originally, I registered to join the Piscine scheduled for 24 February 2025, but I received an email from the school announcing that due to unforeseen circumstances, the Piscine scheduled late February 2025 will no longer take place as planned. Therefore, I registered for the Piscine beginning on 7 April 2025.&lt;/p&gt;
@@ -212,76 +243,6 @@ Me&lt;/p&gt;
         <id>https://leilukin.com/</id>
         <content type="html">&lt;ul&gt;
 &lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2025-01-07-blog-questions-challenge&quot;&gt;&amp;quot;Blog Questions Challenge&amp;quot;&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </entry>
-    
-    <entry>
-        <title>Blog Questions Challenge | Blog</title>
-        <link href="https://leilukin.com/blog/posts/2025-01-07-blog-questions-challenge/"/>
-        <updated>2025-01-07T08:24:26Z</updated>
-        <id>https://leilukin.com/blog/posts/2025-01-07-blog-questions-challenge/</id>
-        <content type="html">&lt;p&gt;I was tagged by &lt;a href=&quot;https://home.hedy.dev/&quot;&gt;~hedy&lt;/a&gt; for a &lt;a href=&quot;https://home.hedy.dev/posts/blog-questions-challenge/&quot;&gt;blog questions challenge&lt;/a&gt;. I put a lot of thoughts into how I build and set up my website, so I am happy to have been invited to talk about the meta aspects of my website, including my blog. Thank you, ~hedy!&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;why-did-you-start-blogging-in-the-first-place&quot;&gt;Why did you start blogging in the first place?&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-01-07-blog-questions-challenge/#why-did-you-start-blogging-in-the-first-place&quot; aria-labelledby=&quot;why-did-you-start-blogging-in-the-first-place&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;I learned about the concept of blogs for the first time when I was a secondary school student in the later half of the 2000s. I was introduced to blogs by a Malaysian Chinese secondary school magazine named &lt;cite&gt;Xuehai Weekly&lt;/cite&gt; (&lt;span lang=&quot;zh&quot;&gt;《学海周刊》&lt;/span&gt;).&lt;/p&gt;
-&lt;p&gt;As an undiagnosed autistic kid who was more comfortable communicating and expressing themself through writing, and had been keeping a journal, I was fascinated by the concept of a personal journal on the internet. Therefore, after trying it out, blogging immediately became one of my main hobbies, and I enjoyed browsing and reading other people&#39;s blogs as well. I loved blogs for allowing ordinary people to write and publish their writing to express themselves outside traditional publishing channels.&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;what-platform-are-you-using-to-manage-your-blog-and-why-did-you-choose-it&quot;&gt;What platform are you using to manage your blog and why did you choose it?&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-01-07-blog-questions-challenge/#what-platform-are-you-using-to-manage-your-blog-and-why-did-you-choose-it&quot; aria-labelledby=&quot;what-platform-are-you-using-to-manage-your-blog-and-why-did-you-choose-it&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;This blog and my website where this blog is part of, Leilukin&#39;s Hub, is built with the static site generator &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;After coding Leilukin&#39;s Hub from scratch for the first time in 2022, and working on the website for a while, I started to get frustrated with having to duplicate the HTML of my layout by hand over and over across all my HTML files to maintain a consistent layout, especially when you wanted to change parts of your layout. Therefore, I began to search for solutions, and discovered static site generators (SSGs).&lt;/p&gt;
-&lt;p&gt;I chose Eleventy over other SSGs, mainly because of its flexibility, including by allowing users to customise their file directory structure and supporting multiple templating languages. The fact that Eleventy is written in JavaScript means it has the advantage of being built in a familiar language for someone who was already learning front-end web development like me.&lt;/p&gt;
-&lt;p&gt;Using an SSG like Eleventy to build my blog means once I set up my website layout and page directory structure, when I draft and write a blog post, I can focus on my words by writing on a Markdown file, and let the SSG handle the HTML output.&lt;/p&gt;
-&lt;p&gt;Leilukin&#39;s Hub also has a [tumbleblog](&lt;a href=&quot;https://tumbleblog.leilukin.com/&quot;&gt;Leilukin&#39;s Hub Tumbleblog&lt;/a&gt;) hosted on a subdomain and powered by a blogging engine written in PHP named &lt;a href=&quot;https://chyrplite.net/&quot;&gt;Chyrp Lite&lt;/a&gt;. I use Chyrp Lite like a self-hosted alternative to a Tumblr blog, in that Chyrp Lite also allows you to create different type of posts such as text, photo, video, link, quote, etc. The fact that Chyrp Lite is written in PHP also makes it a good lightweight alternative to WordPress.&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;have-you-blogged-on-other-platforms-before&quot;&gt;Have you blogged on other platforms before?&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-01-07-blog-questions-challenge/#have-you-blogged-on-other-platforms-before&quot; aria-labelledby=&quot;have-you-blogged-on-other-platforms-before&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;During my teenage blogging years in the 2000s, I tried out many different blogging platforms, including primarily English ones such as Blogger and WordPress.com, as well as Taiwanese ones such as Wretch (&lt;span lang=&quot;zh&quot;&gt;無名小站&lt;/span&gt;), Roodo (&lt;span lang=&quot;zh&quot;&gt;樂多日誌&lt;/span&gt;) and Yam Blog (&lt;span lang=&quot;zh&quot;&gt;天空部落&lt;/span&gt;), which were all eventually shut down. Later, I settled for a now-defunct Malaysian Chinese blogging community that powers members&#39; blogs with a Korean blogging engine named Tattertools.&lt;/p&gt;
-&lt;p&gt;Since 2011 to late 2024, I continued blogging by doing it on Tumblr, before deciding to retire from Tumblr to put more focus on my own websites, including Leilukin&#39;s Hub.&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;how-do-you-write-your-posts&quot;&gt;How do you write your posts?&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-01-07-blog-questions-challenge/#how-do-you-write-your-posts&quot; aria-labelledby=&quot;how-do-you-write-your-posts&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;I use &lt;a href=&quot;https://obsidian.md/&quot;&gt;Obsidian&lt;/a&gt; to draft and write my posts. Obsidian had become my main note-taking app since I started using it myself, so it is a natural choice to plan and do my writings on Obsidian. It helps that Obsidian note files are in Markdown format, and Eleventy supports generating HTML with Markdown files. Writing my posts in Obsidian also allows me to focus on my words, and letting the &lt;a href=&quot;https://github.com/Clemens-E/obsidian-languagetool-plugin&quot;&gt;LanguageTool Integration&lt;/a&gt; community plugin spellcheck my writing, without worrying about the technical aspects of publishing my post to the web first.&lt;/p&gt;
-&lt;p&gt;After I finish writing a post in Obsidian, I copy the Markdown file content, paste into a new Markdown file in my blog post folder in Visual Studio Code, my main code editor. Then, I add frontmatter to the blog post&#39;s Markdown file to configure data of the post such as title, description and categories, use Visual Studio Code&#39;s built-in terminal to enter Eleventy commands to generate the new post, then use Git and GitHub Actions to publish the new post to my website.&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;when-do-you-feel-most-inspired-to-write&quot;&gt;When do you feel most inspired to write?&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-01-07-blog-questions-challenge/#when-do-you-feel-most-inspired-to-write&quot; aria-labelledby=&quot;when-do-you-feel-most-inspired-to-write&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;I can get inspired to write by just about anything: books, articles, essays and blog posts I read, interesting things I discovered when browsing the web, video games I play, conversations with other people, etc.&lt;/p&gt;
-&lt;p&gt;When inspiration strikes, I jot down my ideas in Obsidian, so when I have time, I can go through my Obsidian notes and plan how to write a post about those ideas, beginning by outlining what I want to include in my posts.&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;do-you-publish-immediately-after-writing-or-do-you-let-it-simmer-a-bit-as-a-draft&quot;&gt;Do you publish immediately after writing, or do you let it simmer a bit as a draft?&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-01-07-blog-questions-challenge/#do-you-publish-immediately-after-writing-or-do-you-let-it-simmer-a-bit-as-a-draft&quot; aria-labelledby=&quot;do-you-publish-immediately-after-writing-or-do-you-let-it-simmer-a-bit-as-a-draft&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;I publish my posts immediately after completing a draft, so the question is how long does it take for me to complete a draft. I plan ahead before drafting my posts because I want to be considerate for how I express my thoughts, so I only complete and publish my draft after such considerations, which often takes time.&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;whats-your-favourite-post-on-your-blog&quot;&gt;What&#39;s your favourite post on your blog?&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-01-07-blog-questions-challenge/#whats-your-favourite-post-on-your-blog&quot; aria-labelledby=&quot;whats-your-favourite-post-on-your-blog&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;My favourite post on this particular blog would be &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-01-indieweb-carnival-november-2024-impact/&quot;&gt;my submission to the November 2024 IndieWeb Carnival&lt;/a&gt;, where I talked about impact by reflecting on other people&#39;s impact on me and my life, and my beliefs about everyone being capable of making an impact on others.&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;any-future-plans-for-your-blog&quot;&gt;Any future plans for your blog?&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-01-07-blog-questions-challenge/#any-future-plans-for-your-blog&quot; aria-labelledby=&quot;any-future-plans-for-your-blog&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;I do not have any concrete future plans for this blog specifically, but I do have more ideas for what to do to other parts of Leilukin&#39;s Hub, including writing more articles and creating more &lt;a href=&quot;https://leilukin.com/shrines&quot;&gt;shrines&lt;/a&gt; and &lt;a href=&quot;https://fan.leilukin.com/&quot;&gt;fanlistings&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;why-do-you-write-other-than-your-blog-do-you-write-long-form-content-elsewhere&quot;&gt;Why do you write? Other than your blog, do you write long-form content elsewhere?&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-01-07-blog-questions-challenge/#why-do-you-write-other-than-your-blog-do-you-write-long-form-content-elsewhere&quot; aria-labelledby=&quot;why-do-you-write-other-than-your-blog-do-you-write-long-form-content-elsewhere&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;As an autistic person, verbal communication is not my strongest skill, so I prefer to communicate my ideas and express myself through writing. I have found writing a great way to relax and organise my thoughts. Furthermore, I write because I like to read, and reading other people&#39;s writings have inspired my own writing.&lt;/p&gt;
-&lt;p&gt;Aside from blog, I have also written and published articles about various topics on my website. These articles are distinct from blog posts in that while my blog posts are usually written about events or subjects that happened recently, my articles are meant to be more static pages containing useful information or my thoughts on certain topics, not just what is happening right now.&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;your-turn&quot;&gt;Your Turn&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-01-07-blog-questions-challenge/#your-turn&quot; aria-labelledby=&quot;your-turn&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;I cannot decide who else to tag for this blog questions challenge, because not all my acquaintances in the personal web are bloggers and some bloggers are not huge fans of meta type posts.&lt;/p&gt;
-&lt;p&gt;Therefore, consider this an open invitation: If you find this post and are interested in answering these questions yourself, feel free to write your own post!&lt;/p&gt;
-</content>
-    </entry>
-    
-    <entry>
-        <title>Changelog: 30 December 2024</title>
-        <link href="https://leilukin.com/"/>
-        <updated>2024-12-30T12:29:48Z</updated>
-        <id>https://leilukin.com/</id>
-        <content type="html">&lt;ul&gt;
-&lt;li&gt;Create page for my &lt;a href=&quot;/links/stardew-valley-mod-list/&quot;&gt;&lt;cite&gt;Stardew Valley&lt;/cite&gt; mod list&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </entry>
