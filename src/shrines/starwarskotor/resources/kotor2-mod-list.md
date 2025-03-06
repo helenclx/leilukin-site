@@ -3,7 +3,7 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic II: The Sith Lords
 desc: "A list of Star Wars: Knights of the Old Republic II: The Sith Lords mods I use."
 tags: ["contents", "mod lists"]
 categories: ["star wars kotor 2", "video game mods"]
-updated: 2025-03-05T13:18:49+0800
+updated: 2025-03-06T18:26:47+0800
 isContentDivided: true
 toc: true
 ---
@@ -3402,7 +3402,7 @@ Compatibility Note
 ### Atton Rand and Male Exile Romance
 
 Mod Name
-: [Atton Rand and Male Exile Romance](h/projects/videogamemods/kotor2/#Atton-Rand-and-Male-Exile-Romance)
+: [Atton Rand and Male Exile Romance](/projects/videogamemods/kotor2/#Atton-Rand-and-Male-Exile-Romance)
 
 Mod Author
 : Leilukin (me)
@@ -3418,6 +3418,28 @@ Required Mod
 
 Installation Note
 : I choose “Version A” when installing this mod.
+
+---
+
+### TSL Expanded Ending
+
+Mod Name
+: [TSL Expanded Ending](https://deadlystream.com/files/file/2672-tsl-expanded-ending/)
+
+Mod Author
+: WildKarrde
+
+Category
+: Restored Content
+
+Tier
+: Tier 2 - Very Important
+
+Required Mod
+: TSLRCM
+
+Installation Note
+: I install the “MAIN INSTALL - 16:9 Display” and "OPTION: Transparent Cockpit Windows - Reskin-Friendly" options.
 
 ---
 
@@ -3511,25 +3533,6 @@ Download Note
 
 ---
 
-### More Covered Dancer Outfit
-
-Mod Name
-: [More Covered Dancer Outfit](http://www.nexusmods.com/kotor2/mods/42/?)
-
-Mod Author
-: felixfelicitas
-
-Category
-: Appearance Change
-
-Tier
-: Tier 1 - Essential
-
-Leilukin’s Comment
-: I’ve always hated how skimpy the vanilla dancer outfit is, like how much I hate the vanilla dancer model. With this mod and the dancer model fix from Player & Party Underwear make the “dancing for Vogga” sequence more bearable.
-
----
-
 ### Thematic Obscured Mausoleum Burial
 
 Mod Name
@@ -3568,28 +3571,6 @@ Required Mod
 
 Installation Note
 : I also install the “Kaah’s M4-78EP Head and Voice” component and the compatibility patch for TSL Better Male Twi’lek Heads.
-
----
-
-### Party & Player Underwear & UCO Patch
-
-Mod Name
-: [Unofficial Party & Player Underwear+UCO Patch](https://deadlystream.com/files/file/2131-unofficial-party-player-underwearuco-patch-and-red-shoe-restoration/)
-
-Mod Author
-: Ol' Cappy
-
-Category
-: Patch
-
-Tier
-: Tier 1 - Essential
-
-Required Mod
-: Ultimate Character Overhaul, Party & Player Underwear
-
-Installation Note
-: I download and install the TPC version. I install the files from the “Party & Player Underwear + UCO” folder.
 
 ---
 
@@ -3634,6 +3615,47 @@ Installation Note
 
 Note
 : This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+
+---
+
+### Party & Player Underwear & UCO Patch
+
+Mod Name
+: [Unofficial Party & Player Underwear+UCO Patch](https://deadlystream.com/files/file/2131-unofficial-party-player-underwearuco-patch-and-red-shoe-restoration/)
+
+Mod Author
+: Ol' Cappy
+
+Category
+: Patch
+
+Tier
+: Tier 1 - Essential
+
+Required Mod
+: Ultimate Character Overhaul, Party & Player Underwear
+
+Installation Note
+: I download and install the TPC version. I install the files from the “Party & Player Underwear + UCO” folder.
+
+---
+
+### More Covered Dancer Outfit
+
+Mod Name
+: [More Covered Dancer Outfit](http://www.nexusmods.com/kotor2/mods/42/?)
+
+Mod Author
+: felixfelicitas
+
+Category
+: Appearance Change
+
+Tier
+: Tier 1 - Essential
+
+Leilukin’s Comment
+: I’ve always hated how skimpy the vanilla dancer outfit is, like how much I hate the vanilla dancer model. With this mod and the dancer model fix from Player & Party Underwear make the “dancing for Vogga” sequence more bearable.
 
 ---
 {% endcontainer %}
