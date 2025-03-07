@@ -3,7 +3,7 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic II: The Sith Lords
 desc: "A list of Star Wars: Knights of the Old Republic II: The Sith Lords mods I use."
 tags: ["contents", "mod lists"]
 categories: ["star wars kotor 2", "video game mods"]
-updated: 2025-03-06T18:26:47+0800
+updated: 2025-03-07T18:05:51+0800
 isContentDivided: true
 toc: true
 ---
@@ -3421,7 +3421,7 @@ Installation Note
 
 ---
 
-{# ### TSL Expanded Ending
+### TSL Expanded Ending
 
 Mod Name
 : [TSL Expanded Ending](https://deadlystream.com/files/file/2672-tsl-expanded-ending/)
@@ -3441,7 +3441,7 @@ Required Mod
 Installation Note
 : I install the “MAIN INSTALL - 16:9 Display” and "OPTION: Transparent Cockpit Windows - Reskin-Friendly" options.
 
---- #}
+---
 
 ### Visas Marr and Female Exile Romance
 
@@ -3592,7 +3592,7 @@ Required Mod
 : TSLRCM
 
 Installation Note
-: I install the "Main Installation + TOMB Compatible" option and the Juhani Cameo add-on.
+: I install the "Main + TOMB + Expanded Ending Compatible" and "ADD-ON: Juhani Cameo + Expanded Ending Compatible" options.
 
 ---
 
