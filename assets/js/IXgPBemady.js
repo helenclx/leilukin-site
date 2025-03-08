@@ -1,26 +1,3 @@
-const statusCafeContent = document.getElementById("statuscafe-content");
-    statusCafeContent.innerHTML = `
-        <p>Fetching data from status.cafe...</p>
-    `;
-
-    const fetchStatusCafe = async () => {
-        try {
-            const res = await fetch('https://status.cafe/users/leilukin/status.json');
-            const data = await res.json();
-
-            if (!data.content.length) {
-                document.getElementById("statuscafe-content").innerHTML = "No status yet."
-                return;
-            }
-
-            document.getElementById("statuscafe-userinfo").innerHTML = data.face + ' ' + data.timeAgo;
-            statusCafeContent.innerHTML = data.content;
-        } catch (error) {
-            console.error(error);
-            document.getElementById("statuscafe-content").textContent = `[ERROR] ${error}`;
-        }
-    };
-    fetchStatusCafe();
 const hero = document.querySelector(".hero");
     const heroTopBarEl = document.querySelector(".hero__top-bar");
     const headerImgEl = document.querySelector(".hero__img");
@@ -54,7 +31,7 @@ const hero = document.querySelector(".hero");
             };
         else if (month === 3 && day === 8)
             return {
-                blurb: `Today is <a href="https://www.internationalwomensday.com/">International Women's Day}</a>`,
+                blurb: `Today is <a href="https://www.internationalwomensday.com/">International Women's Day</a>`,
                 class: "symbol-venus",
             };
         else if (month === 3 && day === 31)

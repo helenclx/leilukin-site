@@ -1191,7 +1191,7 @@ const hero = document.querySelector(".hero");
             };
         else if (month === 3 && day === 8)
             return {
-                blurb: `Today is <a href="https://www.internationalwomensday.com/">International Women's Day}</a>`,
+                blurb: `Today is <a href="https://www.internationalwomensday.com/">International Women's Day</a>`,
                 class: "symbol-venus",
             };
         else if (month === 3 && day === 31)
