@@ -3,7 +3,7 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic II: The Sith Lords
 desc: "A list of Star Wars: Knights of the Old Republic II: The Sith Lords mods I use."
 tags: ["contents", "mod lists"]
 categories: ["star wars kotor 2", "video game mods"]
-updated: 2025-03-07T18:05:51+0800
+updated: 2025-03-08T20:06:26+0800
 isContentDivided: true
 toc: true
 ---
@@ -229,7 +229,6 @@ Installation Note
 : I use the Individual component installer. The components I install are:
 : * 1 - Kaevee Removal
 : * 2 - Saedhe's Head
-: * 4 - Atton at the End
 : * 5 - Atris Dialog Tweaks
 : * 6 - Trayus Mandalore Conversation
 : * Extras 2 - Gand Warrior's Awareness Check
