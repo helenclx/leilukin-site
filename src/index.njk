@@ -53,7 +53,7 @@ eleventyComputed:
     <div class="text-box">
         {% for log in collections["changelogs"] | reverse | itemLimit(1) %}
             <h3>{{ log.data.title }}</h3>
-            {{ log.templateContent | safe }}
+            {{ log.content | safe }}
         {%- endfor %}
         <p><a href="/changelogs">View all site changelogs</a></p>
     </div>
