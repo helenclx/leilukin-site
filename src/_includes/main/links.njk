@@ -32,11 +32,11 @@ isContentDivided: true
         {% if group.data.toc %}
         <div class="tabwrap__toc">
             <h3>Table of Contents</h3>
-            {{ group.templateContent | toc | safe }}
+            {{ group.content | toc | safe }}
         </div>
         {% endif %}
 
-        {{ group.templateContent | safe }}
+        {{ group.content | safe }}
 
         {% if group.data.updated %}
         <p class="update-info">(This {{ group.data.title }} list was last updated on <time datetime="{{ group.data.updated }}">{{ group.data.updated | formatDate }}</time>)</p>
