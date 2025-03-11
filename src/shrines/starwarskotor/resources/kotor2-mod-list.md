@@ -3,7 +3,7 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic II: The Sith Lords
 desc: "A list of Star Wars: Knights of the Old Republic II: The Sith Lords mods I use."
 tags: ["contents", "mod lists"]
 categories: ["star wars kotor 2", "video game mods"]
-updated: 2025-03-08T20:06:26+0800
+updated: 2025-03-11T10:17:22+0800
 isContentDivided: true
 toc: true
 ---
@@ -87,7 +87,7 @@ Leilukin’s Comment
 ### Main Menu Model Fix for Widescreen
 
 Mod Name
-: [TSL Main Menu Model Fix for Widescreen](http://deadlystream.com/files/file/1138-tsl-main-menu-model-fix-for-widescreen/)
+: [TSL Main Menu Model Fix for Widescreen](https://deadlystream.com/files/file/1138-tsl-main-menu-model-fix-for-widescreen/)
 
 Mod Author
 : DarthParametric
@@ -103,7 +103,24 @@ Installation Note
 
 ---
 
-### Remastered Cutscenes
+### Rescaled and Remastered Cutscenes
+
+Mod Name
+: [K2 Cutscenes Rescaled](https://deadlystream.com/files/file/2503-k2-cutscenes-rescaled/)
+
+Mod Author
+: Pops Maellard
+
+Category
+: Graphics Improvement
+
+Tier
+: Tier 1 - Essential
+
+Download Note
+: I download `k2rs_30fps_1920x1080.7z` and `k2rs_30fps_mods_1920x1080.7z`. Note that while this is the best {% cite "KotOR" %} movie cutscene mod for to date, this mod has a *huge* file size (at least 21 GB), so if you have poor Internet connection or limited drive space, it would be a better idea to use Naelavok's version of remastered cutscenes below instead.
+
+---
 
 Mod Name
 : [KotOR 2 Remastered (AI Upscaled) Cutscenes](https://www.nexusmods.com/kotor2/mods/1066)
@@ -125,7 +142,7 @@ Download Note
 ### TOR Style Loading Screens
 
 Mod Name
-: [TOR Style Loading Screens](http://deadlystream.com/files/file/990-tor-style-loading-screens/)
+: [TOR Style Loading Screens](https://deadlystream.com/files/file/990-tor-style-loading-screens/)
 
 Mod Author
 : VarsityPuppet
@@ -157,7 +174,7 @@ Tier
 ### Easy Swoop Racing
 
 Mod Name
-: [Easy Swoop Racing for TSL](http://www.geocities.ws/d333mods/minig.html)
+: [Easy Swoop Racing for TSL](https://www.geocities.ws/d333mods/minig.html)
 
 Mod Author
 : Darth333
@@ -211,7 +228,7 @@ Tier
 ### Unofficial TSLRCM Tweak Pack
 
 Mod Name
-: [Unofficial TSLRCM Tweak Pack](http://deadlystream.com/files/file/296-unofficial-tslrcm-tweak-pack/)
+: [Unofficial TSLRCM Tweak Pack](https://deadlystream.com/files/file/296-unofficial-tslrcm-tweak-pack/)
 
 Mod Author
 : Pavijan
@@ -305,7 +322,7 @@ Leilukin’s Comment
 ### Realistic Improved Effect Retexture
 
 Mod Name
-: [My Realistic Improved Effect Retexture Mod](http://deadlystream.com/files/file/513-my-realistic-improved-effect-retexture-mod/)
+: [My Realistic Improved Effect Retexture Mod](https://deadlystream.com/files/file/513-my-realistic-improved-effect-retexture-mod/)
 
 Mod Author
 : Malkior
@@ -375,7 +392,7 @@ Installation Note
 ### Head Model Fixes
 
 Mod Name
-: [TSL Head Model Fixes](http://deadlystream.com/files/file/489-tsl-head-model-fixes/)
+: [TSL Head Model Fixes](https://deadlystream.com/files/file/489-tsl-head-model-fixes/)
 
 Mod Author
 : redrob41
@@ -423,7 +440,7 @@ Tier
 ### 4k Atton
 
 Mod Name
-: [4k Atton](http://deadlystream.com/files/file/441-4k-atton/)
+: [4k Atton](https://deadlystream.com/files/file/441-4k-atton/)
 
 Mod Author
 : Constar
@@ -445,26 +462,10 @@ Leilukin’s Comment
 ### Atton Rand With Scruff
 
 Mod Name
-: [Atton Rand with scruff](http://deadlystream.com/files/file/528-atton-rand-with-scruff/)
+: [Atton Rand with scruff](https://deadlystream.com/files/file/528-atton-rand-with-scruff/)
 
 Mod Author
 : felixfelicitas
-
-Category
-: Appearance Change
-
-Tier
-: Tier 3 - Somewhat Important
-
----
-
-### Darth BaoMaul
-
-Mod Name
-: [Darth BaoMaul](https://www.gamefront.com/games/knights-of-the-old-republic-ii/file/darth-baomaul)
-
-Mod Author
-: Nimduril
 
 Category
 : Appearance Change
@@ -496,7 +497,7 @@ Installation Note
 ### HD Visas Marr
 
 Mod Name
-: [Darth Sapiens Presents HD 2K Visas Marr](http://deadlystream.com/files/file/519-darth-sapiens-presents-hd-2k-visas-marr/)
+: [Darth Sapiens Presents HD 2K Visas Marr](https://deadlystream.com/files/file/519-darth-sapiens-presents-hd-2k-visas-marr/)
 
 Mod Author
 : Darth Sapiens
@@ -508,7 +509,7 @@ Tier
 : Tier 2 - Very Important
 
 Installation Note
-: Since I also use Ultimate Character Overhaul, I delete `P_VisasBB.tpc`, `P_VisasH01.tpc/.tga`, `P_VisasHD01.tpc/.tga`, and `P_VisasHD02.tpc/.tga` from the override so this mod's .dds-based files will load.
+: Since I also use Ultimate Character Overhaul, I delete `P_VisasBB.tpc`, `P_VisasH01.tpc/.tga`, `P_VisasHD01.tpc/.tga`, and `P_VisasHD02.tpc/.tga` from the override, so this mod's .dds-based files will load.
 
 ---
 
@@ -582,7 +583,7 @@ Tier
 ### HD T3-M4
 
 Mod Name
-: [Darth Sapien's Presents T3M4 HD 2k](http://deadlystream.com/files/file/514-darth-sapiens-presents-t3m4-hd-2k/)
+: [Darth Sapien's Presents T3M4 HD 2k](https://deadlystream.com/files/file/514-darth-sapiens-presents-t3m4-hd-2k/)
 
 Mod Author
 : Darth Sapiens
@@ -593,12 +594,15 @@ Category
 Tier
 : Tier 2 - Very Important
 
+Installation Note
+: If present in your override folder, `P_t3m4_01.tpc/.tga` must be deleted, so this mod's .dds texture files will load.
+
 ---
 
 ### Refurbished Astromech Droids
 
 Mod Name
-: [Refurbished Astromech Droids](http://deadlystream.com/files/file/971-refurbished-astromech-droids/)
+: [Refurbished Astromech Droids](https://deadlystream.com/files/file/971-refurbished-astromech-droids/)
 
 Mod Author
 : Sith Holocron
@@ -652,7 +656,7 @@ Installation Note
 ### Player & Party Underwear
 
 Mod Name
-: [Player & Party Underwear](http://deadlystream.com/files/file/344-player-party-underwear/)
+: [Player & Party Underwear](https://deadlystream.com/files/file/344-player-party-underwear/)
 
 Mod Author
 : redrob41
@@ -787,7 +791,7 @@ Note
 ### HD Darth Nihilus
 
 Mod Name
-: [Darth Sapiens Presents: HD Darth Nihilus](http://deadlystream.com/files/file/367-darth-sapiens-presents-hd-darth-nihilus/)
+: [Darth Sapiens Presents: HD Darth Nihilus](https://deadlystream.com/files/file/367-darth-sapiens-presents-hd-darth-nihilus/)
 
 Mod Author
 : Darth Sapiens
@@ -841,7 +845,7 @@ Tier
 ### HD Hutts
 
 Mod Name
-: [Emperor Turnip's HD Hutts](http://deadlystream.com/files/file/1188-emperor-turnips-hd-hutts/)
+: [Emperor Turnip's HD Hutts](https://deadlystream.com/files/file/1188-emperor-turnips-hd-hutts/)
 
 Mod Author
 : Emperor Turnip
@@ -853,7 +857,7 @@ Tier
 : Tier 3 - Somewhat Important
 
 Installation Note
-: After putting the files to my Override folder, I use Photoshop to delete the alpha channel of C\_Hutt03.tga, or Vogga the Hutt would appear semi-transparent.
+: After putting the files to my Override folder, I use an image editing software to delete the alpha channel of `C_Hutt03.tga`, or Vogga the Hutt would appear semi-transparent.
 
 Note
 : This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
@@ -863,7 +867,7 @@ Note
 ### HD Bastila Shan
 
 Mod Name
-: [Bastila Shan HD by Quanon and Dark Hopa](http://deadlystream.com/files/file/978-bastila-shan-hd-by-quanon-and-dark-hopa/)
+: [Bastila Shan HD by Quanon and Dark Hopa](https://deadlystream.com/files/file/978-bastila-shan-hd-by-quanon-and-dark-hopa/)
 
 Mod Author
 : Dark Hope
@@ -882,7 +886,7 @@ Note
 ### HD Carth Onasi
 
 Mod Name
-: [HD Carth Onasi](http://deadlystream.com/files/file/1133-hd-carth-onasi/)
+: [HD Carth Onasi](https://deadlystream.com/files/file/1133-hd-carth-onasi/)
 
 Mod Author
 : Dark Hope
@@ -926,10 +930,10 @@ Mod Author
 : Elayerfawkes45
 
 Category
+: Appearance Change
 
 Tier
-: Appearance Change
-: Tier 3 - Somewhat  Important
+: Tier 3 - Somewhat Important
 
 ---
 
@@ -1028,7 +1032,7 @@ Installation Note
 ### HD Female Twi'leks
 
 Mod Name
-: [HD Twilek female](http://deadlystream.com/files/file/982-hd-twilek-female/)
+: [HD Twilek female](https://deadlystream.com/files/file/982-hd-twilek-female/)
 
 Mod Author
 : Dark Hope
@@ -1085,7 +1089,7 @@ Installation Note
 ### HD Duros
 
 Mod Name
-: [Duros HD](https://deadlystream.com/files/file/2252-duros-hd/)
+: [Duros HD](https://deadlystream.com/files/file/2252-duros-hd/) and [Patch](https://mega.nz/file/RBBUTKoB#FTWDzUf8SwWBoaGgtAGXfUHjOP_BZxfFPKASf8hlC1M)
 
 Mod Author
 : Dark Hope
@@ -1100,7 +1104,7 @@ Note
 : This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
 
 Installation Note
-: Before moving the files to override, make a copy of `N_Duros02.tga` and paste it into the same location you extracted the mod to. On a Windows OS, this should create a file called `N_Duros.tga-COPY`. Rename this file to `N_Duros04.tga`. Repeat this process with the file `N_Duros03`, creating two copies and naming them `N_Duros05.tga `and `N_Duros06.tga`. When you move all the files to the override, you should be moving eight total.
+: Before moving the files to override, make a copy of `N_Duros02.tga` and paste it into the same location you extracted the mod to. On a Windows OS, this should create a file called `N_Duros.tga-COPY`. Rename this file to `N_Duros04.tga`. Repeat this process with the file `N_Duros03`, creating two copies and naming them `N_Duros05.tga `and `N_Duros06.tga`. When you move all the files to the override, you should be moving eight total. Following this, download and install the patch.
 
 ---
 
@@ -1126,7 +1130,7 @@ Note
 ### Quanons Gammorean Reskin Pack
 
 Mod Name
-: [Quanons Gammorean Reskin Pack](http://deadlystream.com/files/file/1023-quanons-gammorean-reskin-pack/)
+: [Quanons Gammorean Reskin Pack](https://deadlystream.com/files/file/1023-quanons-gammorean-reskin-pack/)
 
 Mod Author
 : Quanon
@@ -1427,16 +1431,19 @@ Note
 ### HD Kiosk
 
 Mod Name
-: [Kiosk HD](https://deadlystream.com/files/file/2277-kiosk-hd/)
+: [Kiosk HD](https://deadlystream.com/files/file/2277-kiosk-hd/) and [Patch](https://deadlystream.com/topic/9694-request-kiosk1-model-tweak/?tab=comments#comment-87106)
 
 Mod Author
-: Dark Hope
+: Dark Hope; patch by Marius Fett
 
 Category
 : Graphics Improvement
 
 Tier
 : Tier 3 - Somewhat Important
+
+Download Notes
+: I download and install the "Kiosk HD 15.03.2024.rar" version.
 
 Note
 : This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
@@ -1481,6 +1488,25 @@ Note
 
 ---
 
+### Animated Energy Shields
+
+Mod Name
+: [Animated Energy Shields](https://deadlystream.com/files/file/2193-animated-energy-shields/)
+
+Mod Author
+: Dark Hope
+
+Category
+: Graphics Improvement
+
+Tier
+: Tier 2 - Very Important
+
+Note
+: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+
+---
+
 ### High Quality Skyboxes II
 
 Mod Name
@@ -1503,7 +1529,7 @@ Download Note
 ### Hi Resolution Skin for Ebon Hawk
 
 Mod Name
-: [Hi Resolution Skin for Ebon Hawk (TSL)](http://deadlystream.com/files/file/202-hi-resolution-skin-for-ebon-hawk-tsl/)
+: [Hi Resolution Skin for Ebon Hawk (TSL)](https://deadlystream.com/files/file/202-hi-resolution-skin-for-ebon-hawk-tsl/)
 
 Mod Author
 : Vurt
@@ -1519,7 +1545,7 @@ Tier
 ### HD Ebon Hawk Interior
 
 Mod Name
-: [The EbonHawk-HDTP](http://deadlystream.com/files/file/442-the-ebonhawk-hdtp/)
+: [The EbonHawk-HDTP](https://deadlystream.com/files/file/442-the-ebonhawk-hdtp/)
 
 Mod Author
 : desmasic
@@ -1535,10 +1561,42 @@ Installation Note
 
 ---
 
+### Ebon Hawk Cockpit Upgrade Part 1
+
+Mod Name
+: [Ebon Hawk Cockpit Upgrade (LEH_Scre01) [More Subtle Version]](https://deadlystream.com/files/file/2258-ebon-hawk-cockpit-upgrade-leh_scre01-more-subtle-version/)
+
+Mod Author
+: Sith Holocron
+
+Category
+: Graphics Improvement
+
+Tier
+: Tier 2 - Very Important
+
+---
+
+### Ebon Hawk Cockpit Upgrade Part 2
+
+Mod Name
+: [Ebon Hawk Cockpit Upgrade [LEH_Scre02]](https://deadlystream.com/files/file/2247-ebon-hawk-cockpit-upgrade-leh_scre02/)
+
+Mod Author
+: Sith Holocron
+
+Category
+: Graphics Improvement
+
+Tier
+: Tier 2 - Very Important
+
+---
+
 ### Animated Ebon Hawk Monitors
 
 Mod Name
-: [Animated Ebon Hawk Monitors](http://deadlystream.com/files/file/848-kotor2-animated-ebon-hawk-monitors-not-including-galaxy-map/)
+: [Animated Ebon Hawk Monitors](https://deadlystream.com/files/file/848-kotor2-animated-ebon-hawk-monitors-not-including-galaxy-map/)
 
 Mod Author
 : Sith Holocron
@@ -1557,7 +1615,7 @@ Installation Note
 ### HD Cockpit Skyboxes
 
 Mod Name
-: [HD Cockpit Skyboxes](http://deadlystream.com/files/file/931-hd-cockpit-skyboxes/)
+: [HD Cockpit Skyboxes](https://deadlystream.com/files/file/931-hd-cockpit-skyboxes/)
 
 Mod Author
 : tjsase
@@ -1576,10 +1634,45 @@ Installation Note
 
 ---
 
+### Random Panels
+
+Mod Name
+: [KotOR2 Random Panels](https://deadlystream.com/files/file/2588-kotor2-random-panels/)
+
+Mod Author
+: Sith Holocron
+
+Category
+: Graphics Improvement
+
+Tier
+: Tier 3 - Somewhat Important
+
+---
+
+### Neglected Computer Panel
+
+Mod Name
+: [Neglected Computer Panel](https://deadlystream.com/files/file/2063-neglected-computer-panel/)
+
+Mod Author
+: ScrierOne
+
+Category
+: Graphics Improvement
+
+Tier
+: Tier 3 - Somewhat Important
+
+Installation Note
+: I download and install the Damaged version
+
+---
+
 ### Peragus Large Monitor Adjustment
 
 Mod Name
-: [Peragus Large Monitor Adjustment](http://deadlystream.com/files/file/317-peragus-large-monitor-adjustment/)
+: [Peragus Large Monitor Adjustment](https://deadlystream.com/files/file/317-peragus-large-monitor-adjustment/)
 
 Mod Author
 : Sith Holocron
@@ -1614,7 +1707,7 @@ Tier
 ### Replacement Peragus II Artwork
 
 Mod Name
-: [Replacement Peragus II Artwork by Trench](http://deadlystream.com/files/file/361-replacement-peragus-ii-artwork-by-trench/)
+: [Replacement Peragus II Artwork by Trench](https://deadlystream.com/files/file/361-replacement-peragus-ii-artwork-by-trench/)
 
 Mod Author
 : Sith Holocron
@@ -1633,7 +1726,7 @@ Installation Note
 ### Improved Peragus Asteroid Fields
 
 Mod Name
-: [Improved Peragus Asteroid Fields](http://deadlystream.com/files/file/321-improved-peragus-asteroid-fields/)
+: [Improved Peragus Asteroid Fields](https://deadlystream.com/files/file/321-improved-peragus-asteroid-fields/)
 
 Mod Author
 : Vasilii Zaytsev
@@ -1661,30 +1754,11 @@ Tier
 : Tier 3 - Somewhat Important
 
 Installation Note
-: I install the “Solid\_Monitor” version.
+: I install the “Solid_Monitor” version.
 
 ---
 
-### Neglected Computer Panel
-
-Mod Name
-: [Neglected Computer Panel](https://deadlystream.com/files/file/2063-neglected-computer-panel/)
-
-Mod Author
-: ScrierOne
-
-Category
-: Graphics Improvement
-
-Tier
-: Tier 3 - Somewhat Important
-
-Installation Note
-: I download and install the Damaged version
-
----
-
-### Terminal texture
+### HD Terminal Texture
 
 Mod Name
 : [Terminal texture](https://deadlystream.com/files/file/1925-terminal-texture/)
@@ -1697,6 +1771,9 @@ Category
 
 Tier
 : Tier 3 - Somewhat Important
+
+Installation Note
+: After extracting the archive file, copy the two files within and paste them into the same folder. This should create duplicates of the original files with a slightly different filename (such as `PLC_CompPnl-COPY`). Take the two copied files and rename them to `PLC_CompPnl_b`. Make sure you have one .tga filetype and one .txi filetype. When the files are moved to the override, you should be moving four files: `PLC_CompPnl.tga`, `PLC_CompPnl.txi`, `PLC_CompPnl_b.tga`, and `PLC_CompPnl_b.txi`.
 
 Note
 : This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
@@ -1786,7 +1863,7 @@ Tier
 ### New Texture of Holocrons in the Telos Secret Academy
 
 Mod Name
-: [New Texture of Holocrons in the Telos Secret Academy](http://deadlystream.com/files/file/283-new-texture-of-holocrons-in-the-telos-secret-academy/)
+: [New Texture of Holocrons in the Telos Secret Academy](https://deadlystream.com/files/file/283-new-texture-of-holocrons-in-the-telos-secret-academy/)
 
 Mod Author
 : Sith Holocron
@@ -1821,7 +1898,7 @@ Tier
 ### Backdrop Improvements
 
 Mod Name
-: [TSL Backdrop Improvements](http://deadlystream.com/files/file/949-tsl-backdrop-improvements/)
+: [TSL Backdrop Improvements](https://deadlystream.com/files/file/949-tsl-backdrop-improvements/)
 
 Mod Author
 : Kexikus
@@ -1872,7 +1949,7 @@ Tier
 ### Replacement Loading Screens
 
 Mod Name
-: Replacement Loading Screens for KotOR2: Original Pack - [Part 1](http://deadlystream.com/files/file/1255-replacement-loading-screens-for-kotor2-original-pack-with-or-without-tslrcm-part-1/), [Part 2](http://deadlystream.com/files/file/1256-replacement-loading-screens-for-kotor2-original-pack-with-or-without-tslrcm-part-2/), [Part 3](http://deadlystream.com/files/file/1257-replacement-loading-screens-for-kotor2-original-pack-with-or-without-tslrcm-part-3/)
+: Replacement Loading Screens for KotOR2: Original Pack - [Part 1](https://deadlystream.com/files/file/1255-replacement-loading-screens-for-kotor2-original-pack-with-or-without-tslrcm-part-1/), [Part 2](https://deadlystream.com/files/file/1256-replacement-loading-screens-for-kotor2-original-pack-with-or-without-tslrcm-part-2/), [Part 3](https://deadlystream.com/files/file/1257-replacement-loading-screens-for-kotor2-original-pack-with-or-without-tslrcm-part-3/)
 
 Mod Author
 : Sith Holocron
@@ -1888,7 +1965,7 @@ Tier
 ### Maintenance Officer Realistic Reskin
 
 Mod Name
-: [Maintenance Officer Realistic Reskin](http://deadlystream.com/files/file/165-maintenance-officer-realistic-reskin/)
+: [Maintenance Officer Realistic Reskin](https://deadlystream.com/files/file/165-maintenance-officer-realistic-reskin/)
 
 Mod Author
 : Malkior
@@ -2064,7 +2141,7 @@ Tier
 ### Darth Malak’s Armor
 
 Mod Name
-: [Darth Malak’s Armour](http://www.nexusmods.com/kotor2/mods/9/?)
+: [Darth Malak’s Armour](https://www.nexusmods.com/kotor2/mods/9/?)
 
 Mod Author
 : DarthParametric
@@ -2099,7 +2176,7 @@ Installation Note
 ### JC's Supermodel Fix
 
 Mod Name
-: [JC's Supermodel Fix for K2](http://deadlystream.com/files/file/1141-jcs-supermodel-fix-for-k2/)
+: [JC's Supermodel Fix for K2](https://deadlystream.com/files/file/1141-jcs-supermodel-fix-for-k2/)
 
 Mod Author
 : JCarter426
@@ -2134,7 +2211,7 @@ Tier
 ### Aleema Keto's Robe Description Correction
 
 Mod Name
-: [Aleema Keto's Robe Description Correction](http://deadlystream.com/files/file/842-aleema-ketos-robe-description-correction/)
+: [Aleema Keto's Robe Description Correction](https://deadlystream.com/files/file/842-aleema-ketos-robe-description-correction/)
 
 Mod Author
 : milestails
@@ -2166,7 +2243,7 @@ Tier
 ### Kill The Ithorian
 
 Mod Name
-: [Kill The Ithorian](http://deadlystream.com/files/file/10-kill-the-ithorian/)
+: [Kill The Ithorian](https://deadlystream.com/files/file/10-kill-the-ithorian/)
 
 Mod Author
 : Markus Ramikin
@@ -2201,7 +2278,7 @@ Installation Note
 ### Nihilus/Visas Scene VO Tweak
 
 Mod Name
-: [Nihilus/Visas scene VO tweak](http://deadlystream.com/files/file/431-nihilusvisas-scene-vo-tweak/)
+: [Nihilus/Visas scene VO tweak](https://deadlystream.com/files/file/431-nihilusvisas-scene-vo-tweak/)
 
 Mod Author
 : danil-ch
@@ -2220,7 +2297,7 @@ Required Mod
 ### Kinrath Egg Bash Crystal Drop
 
 Mod Name
-: [Kinrath Egg Bash Crystal Drop](http://deadlystream.com/files/file/167-kinrath-egg-bash-crystal-drop/)
+: [Kinrath Egg Bash Crystal Drop](https://deadlystream.com/files/file/167-kinrath-egg-bash-crystal-drop/)
 
 Mod Author
 : Hassat Hunter
@@ -2236,7 +2313,7 @@ Tier
 ### Thorium Charge Mod
 
 Mod Name
-: [Thorium charge mod](http://deadlystream.com/files/file/147-thorium-charge-mod/)
+: [Thorium charge mod](https://deadlystream.com/files/file/147-thorium-charge-mod/)
 
 Mod Author
 : darth_gil
@@ -2252,7 +2329,7 @@ Tier
 ### Prestige Class Saving Throw Dixes
 
 Mod Name
-: [TSL Prestige Class Saving Throw fixes](http://deadlystream.com/files/file/828-tsl-prestige-class-saving-throw-fixes/)
+: [TSL Prestige Class Saving Throw fixes](https://deadlystream.com/files/file/828-tsl-prestige-class-saving-throw-fixes/)
 
 Mod Author
 : Rovan
@@ -2287,7 +2364,7 @@ Tier
 ### Less Nauseating Fury Effect
 
 Mod Name
-: [Less Nauseating Fury Effect](http://deadlystream.com/files/file/883-less-nauseating-fury-effect/)
+: [Less Nauseating Fury Effect](https://deadlystream.com/files/file/883-less-nauseating-fury-effect/)
 
 Mod Author
 : Kexikus
@@ -2329,7 +2406,7 @@ Leilukin’s Comment
 ### Movie Style Jedi Master Robes
 
 Mod Name
-: [Movie Style Jedi Master Robes](http://deadlystream.com/files/file/64-movie-style-jedi-master-robes/)
+: [Movie Style Jedi Master Robes](https://deadlystream.com/files/file/64-movie-style-jedi-master-robes/)
 
 Mod Author
 : DeadMan
@@ -2370,7 +2447,7 @@ Installation Note
 ### Companions’ Robes
 
 Mod Name
-: [Companions’ Robes](http://deadlystream.com/files/file/668-companions-robes/)
+: [Companions’ Robes](https://deadlystream.com/files/file/668-companions-robes/)
 
 Mod Author
 : Kainzorus Prime
@@ -2389,7 +2466,7 @@ Required Mod
 ### Exile's Jedi Robe
 
 Mod Name
-: [Exile's Jedi Robe](http://deadlystream.com/files/file/714-exiles-jedi-robe/)
+: [Exile's Jedi Robe](https://deadlystream.com/files/file/714-exiles-jedi-robe/)
 
 Mod Author
 : Squall Lionhart
@@ -2449,7 +2526,7 @@ Leilukin’s Comment
 ### Luxa Hair Fix
 
 Mod Name
-: [Luxa Hair Fix](http://deadlystream.com/files/file/452-luxa-hair-fix/)
+: [Luxa Hair Fix](https://deadlystream.com/files/file/452-luxa-hair-fix/)
 
 Mod Author
 : redrob41
@@ -2522,7 +2599,7 @@ Tier
 ### Re-scaled Trandoshans
 
 Mod Name
-: [Re-scaled Trandoshans](http://deadlystream.com/files/file/946-re-scaled-trandoshans/)
+: [Re-scaled Trandoshans](https://deadlystream.com/files/file/946-re-scaled-trandoshans/)
 
 Mod Author
 : Schizo
@@ -2538,7 +2615,7 @@ Tier
 ### Fixed Hologram Models and Admiralty Redux
 
 Mod Name
-: [Fixed Hologram Models and Admiralty Redux for TSLRCM](http://deadlystream.com/files/file/1201-fixed-hologram-models-and-admiralty-redux-for-tslrcm/)
+: [Fixed Hologram Models and Admiralty Redux for TSLRCM](https://deadlystream.com/files/file/1201-fixed-hologram-models-and-admiralty-redux-for-tslrcm/)
 
 Mod Author
 : DarthParametric
@@ -2605,6 +2682,22 @@ Category
 
 Tier
 : Tier 3 - Somewhat Important
+
+---
+
+### Repair Affects Stun Droid
+
+Mod Name
+: [Repair Affects Stun Droid [TSL]](https://deadlystream.com/files/file/2436-repair-affects-stun-droid-tsl/)
+
+Mod Author
+: offthegridmorty
+
+Category
+: Mechanics Change
+
+Tier
+: Tier 2 - Very Important
 
 ---
 
@@ -2681,7 +2774,7 @@ Installation Note
 ### Galaxy Map Fix Pack
 
 Mod Name
-: [TSL Galaxy Map Fix Pack](http://deadlystream.com/files/file/1057-tsl-galaxy-map-fix-pack/)
+: [TSL Galaxy Map Fix Pack](https://deadlystream.com/files/file/1057-tsl-galaxy-map-fix-pack/)
 
 Mod Author
 : bead-v, Sith Holocron & Kexikus
@@ -2700,10 +2793,10 @@ Installation Note
 ### Peragus Tweak
 
 Mod Name
-: [Peragus Tweak](http://deadlystream.com/files/file/8-peragus-tweak/)
+: [Peragus Tweak](https://deadlystream.com/files/file/8-peragus-tweak/)
 
 Mod Author
-: VarsityPuppet
+: WildKarrde
 
 Category
 : Immersion
@@ -2728,7 +2821,26 @@ Tier
 : Tier 3 - Somewhat Important
 
 Installation Note
-: I install Option 2.
+: I install "OPTION 2: Some Beta Miners".
+
+---
+
+### Peragus Medical Bay Enhancement
+
+Mod Name
+: [Peragus Medical Bay Enhancement](https://deadlystream.com/files/file/2513-peragus-medical-bay-enhancement/)
+
+Mod Author
+: VarsityPuppet
+
+Category
+: Immersion
+
+Tier
+: Tier 2 - Very Important
+
+Installation Note
+; I install "Main Install - Miners in Player-Style Uniforms", for visual consistency with my choice of installing Beta Peragus Miner Pack to only certain miner officers to wear the beta uniform. I also install the upscaled version of the "OPTION - Burned Skin Textures" component.
 
 ---
 
@@ -2805,7 +2917,7 @@ Tier
 ### Peragus Sith Troops To Sith Assassins
 
 Mod Name
-: [Peragus Sith Troops To Sith Assassins](http://deadlystream.com/files/file/195-peragus-sith-troops-to-sith-assassins/)
+: [Peragus Sith Troops To Sith Assassins](https://deadlystream.com/files/file/195-peragus-sith-troops-to-sith-assassins/)
 
 Mod Author
 : Hassat Hunter
@@ -2875,7 +2987,7 @@ Tier
 ### ull Jedi Council
 
 Mod Name
-: [Full Jedi Council](http://deadlystream.com/files/file/1071-full-jedi-council/)
+: [Full Jedi Council](https://deadlystream.com/files/file/1071-full-jedi-council/)
 
 Mod Author
 : Kexikus
@@ -2894,7 +3006,7 @@ Installation Note
 ### Kreia's Fall cutscene In-Game Cutscene
 
 Mod Name
-: [Kreia's Fall cutscene (in-game)](http://deadlystream.com/files/file/1228-kreias-fall-cutscene-in-game/)
+: [Kreia's Fall cutscene (in-game)](https://deadlystream.com/files/file/1228-kreias-fall-cutscene-in-game/)
 
 Mod Author
 : danil-ch
@@ -2910,7 +3022,7 @@ Tier
 ### Extended Korriban Arrival
 
 Mod Name
-: [Extended Korriban Arrival](http://deadlystream.com/files/file/250-extended-korriban-arrival/)
+: [Extended Korriban Arrival](https://deadlystream.com/files/file/250-extended-korriban-arrival/)
 
 Mod Author
 : danil-ch
@@ -2983,7 +3095,7 @@ Tier
 ### Trayus Rank Reform
 
 Mod Name
-: [Trayus Rank Reform](http://deadlystream.com/files/file/11-trayus-rank-reform/)
+: [Trayus Rank Reform](https://deadlystream.com/files/file/11-trayus-rank-reform/)
 
 Mod Author
 : VarsityPuppet
@@ -3059,7 +3171,7 @@ Required Mod
 ### Rocket Launcher Sounds
 
 Mod Name
-: [Rocket Launcher Sounds](http://deadlystream.com/files/file/995-rocket-launcher-sounds/)
+: [Rocket Launcher Sounds](https://deadlystream.com/files/file/995-rocket-launcher-sounds/)
 
 Mod Author
 : bead-v
@@ -3091,7 +3203,7 @@ Tier
 ### Weapon Model Overhaul
 
 Mod Name
-: [KoTOR Weapon Model Overhaul](http://www.nexusmods.com/kotor/mods/1096/?)
+: [KoTOR Weapon Model Overhaul](https://www.nexusmods.com/kotor/mods/1096/?)
 
 Mod Author
 : Toasty Fresh
@@ -3107,7 +3219,7 @@ Tier
 ### Weapon Model Overhaul Texture Rework
 
 Mod Name
-: [Weapon Model Overhaul Texture Rework](http://deadlystream.com/files/file/369-weapon-model-overhaul-texture-rework/)
+: [Weapon Model Overhaul Texture Rework](https://deadlystream.com/files/file/369-weapon-model-overhaul-texture-rework/)
 
 Mod Author
 : Fallen Guardian
@@ -3145,7 +3257,7 @@ Required Mod
 ### High Quality Blasters
 
 Mod Name
-: [TSL High Quality Blasters](http://deadlystream.com/files/file/915-high-quality-blasters/)
+: [TSL High Quality Blasters](https://deadlystream.com/files/file/915-high-quality-blasters/)
 
 Mod Author
 : Sithspecter
@@ -3161,7 +3273,7 @@ Tier
 ### Quarterstaff Replacement Pack
 
 Mod Name
-: [Quarterstaff Replacement Pack](http://deadlystream.com/files/file/218-quarterstaff-replacement-pack/)
+: [Quarterstaff Replacement Pack](https://deadlystream.com/files/file/218-quarterstaff-replacement-pack/)
 
 Mod Author
 : DeadMan
@@ -3231,7 +3343,7 @@ Tier
 ### Vao Armband Drop
 
 Mod Name
-: [Vao Armband Drop](http://deadlystream.com/files/file/192-vao-armband-drop/)
+: [Vao Armband Drop](https://deadlystream.com/files/file/192-vao-armband-drop/)
 
 Mod Author
 : Hassat Hunter
@@ -3329,7 +3441,7 @@ Installation Note
 ### PartySwap
 
 Mod Name
-: [PartySwap](http://deadlystream.com/files/file/544-partyswap/)
+: [PartySwap](https://deadlystream.com/files/file/544-partyswap/)
 
 Mod Author
 : DarthTyren, maintained by Leilukin (me)
@@ -3376,7 +3488,7 @@ Installation Note
 ### Extended Enclave
 
 Mod Name
-: [Extended Enclave](http://deadlystream.com/files/file/428-extended-enclave-tslrcm-add-on/)
+: [Extended Enclave](https://deadlystream.com/files/file/428-extended-enclave-tslrcm-add-on/)
 
 Mod Author
 : danil-ch & Darth Hayze
@@ -3467,7 +3579,7 @@ Installation Note
 ### Improved AI
 
 Mod Name
-: [Improved AI](http://deadlystream.com/files/file/833-improved-ai/)
+: [Improved AI](https://deadlystream.com/files/file/833-improved-ai/)
 
 Mod Author
 : Stoffe
@@ -3480,25 +3592,6 @@ Tier
 
 Installation Note
 : I choose the “Install Modified AI without High Level Force Power support” option when installing this mod.
-
----
-
-### Remove Duplicate TGA/TPC
-
-Mod Name
-: [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384)
-
-Mod Author
-: Flachzangen
-
-Category
-: Patch
-
-Tier
-: Tier 1 - Essential
-
-Installation Note
-: Place DelDuplicateTGA-TPC in the main game folder (NOT override), run it, say that TPC should be deleted and do not manually confirm.
 
 ---
 
@@ -3529,6 +3622,41 @@ Download Note
 :   * Worn-Out Mando Armor
 : * Player and Party Underwear
 : * The Sith Lords Restored Content Mod
+
+---
+
+### Darth BaoMaul
+
+Mod Name
+: [Darth BaoMaul](https://www.gamefront.com/games/knights-of-the-old-republic-ii/file/darth-baomaul)
+
+Mod Author
+: Nimduril
+
+Category
+: Appearance Change
+
+Tier
+: Tier 3 - Somewhat Important
+
+---
+
+### Remove Duplicate TGA/TPC
+
+Mod Name
+: [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384)
+
+Mod Author
+: Flachzangen
+
+Category
+: Patch
+
+Tier
+: Tier 1 - Essential
+
+Installation Note
+: Place DelDuplicateTGA-TPC in the main game folder (NOT override), run it, say that TPC should be deleted and do not manually confirm.
 
 ---
 
@@ -3642,7 +3770,7 @@ Installation Note
 ### More Covered Dancer Outfit
 
 Mod Name
-: [More Covered Dancer Outfit](http://www.nexusmods.com/kotor2/mods/42/?)
+: [More Covered Dancer Outfit](https://www.nexusmods.com/kotor2/mods/42/?)
 
 Mod Author
 : felixfelicitas
@@ -3671,7 +3799,7 @@ Since I play {% cite "KotOR 2" %} with the Aspyr patch, so the game can run smoo
 3. You should now have two folders called `shaders_original` and `shadow_override` in your KOTOR folder.
 4. Go into the `shaders_original` folder and open the first file with a program like Notepad++.
 5. Locate the line that says "MOV result.color, r0" (second to last line usually).
-6. Right above that line paste the content of the [quote under "Fog Issue" that starts with PARAM p =...](https://github.com/HappyFunTimes01/ShaderOverride/blob/master/README.md). [Your file should look like this screenshot](http://i.imgur.com/QeAODN4.png).
+6. Right above that line paste the content of the [quote under "Fog Issue" that starts with PARAM p =...](https://github.com/HappyFunTimes01/ShaderOverride/blob/master/README.md). [Your file should look like this screenshot](https://i.imgur.com/QeAODN4.png).
 7. Repeat this step for every text file in the folder that has the MOV result.color, r0 line. That can take some time and there might be ways to automate the process but explaining it might take so long that you're probably just better off doing the whole thing manually.
 8. After you pasted this into every file that has the MOV result.color, r0 line near the end, copy all text files into the shader\_override folder.
 9. Launch the game, the fog should now be fixed.
