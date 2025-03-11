@@ -3,14 +3,14 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic II: The Sith Lords
 desc: "A list of Star Wars: Knights of the Old Republic II: The Sith Lords mods I use."
 tags: ["contents", "mod lists"]
 categories: ["star wars kotor 2", "video game mods"]
-updated: 2025-03-11T10:17:22+0800
+updated: 2025-03-11T11:19:47+0800
 isContentDivided: true
 toc: true
 ---
 
 {% container "article", "content__section" %}
 Welcome to Leilukin’s {% cite "Star Wars: Knights of the Old Republic II: The Sith Lords" %} Mod Build!
-mos
+
 Here I am compiling a list of all the modifications, or mods in short, that I use for {% cite "Star Wars: Knights of the Old Republic II: The Sith Lords" %} ({% cite "KotOR 2" %}), the single-player role-playing video game set in the {% cite "Star Wars" %} universe video game developed by Obsidian Entertainment and sequel to {% cite "Star Wars: Knights of the Old Republic" %}, for the best experience with the game. This document is made for my reference and to share with others.
 
 In order to prevent mod conflicts as much as possible, installation order matters a lot if you are using many mods for the {% cite "KotOR" %} games. Therefore, the full list of my mod build below has been arranged in the proper installation order to make these mods compatible. If you are interested in following my mod build, you should install the mods in the order you are presented with them. Also, when you install the mods according to my build, overwrite any files when prompted.
@@ -100,6 +100,22 @@ Tier
 
 Installation Note
 : I install the files from both the “FOR OVERRIDE FOLDER” and “TSLRCM EXTRA” folders
+
+---
+
+### Workbench Upgrade Screen Camera Tweak
+
+Mod Name
+: [Workbench Upgrade Screen Camera Tweak for TSL](https://deadlystream.com/files/file/1743-workbench-upgrade-screen-camera-tweak-for-tsl/)
+
+Mod Author
+: DarthParametric
+
+Category
+: Mechanics Change
+
+Tier
+: Tier 4 - Optional
 
 ---
 
