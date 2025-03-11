@@ -1,7 +1,7 @@
 ---
 articleTitle: "Frequently Asked Questions (FAQ) for My Star Wars: KotOR Same-Gender Romance Mods"
 date: 2021-09-25
-updated: 2025-03-05T12:56:07+0800
+updated: 2025-03-11T10:17:30+0800
 desc: "Frequently asked questions for my same-gender romance mods for Star Wars: Knights of the Old Republic series."
 tags: kotor both articles
 categories: ["star wars kotor", "star wars kotor 2", "video game mods"]
@@ -87,14 +87,16 @@ Please read the “Mod Compatibility” section of my mod description and Read M
 
 ### Are your romance mods compatible with [KotOR Community Portal's mod builds](https://kotor.neocities.org/modding/)?
 
-Yes, all my {% cite "KotOR" %} mods, not just my same-gender romance mods, are compatible with KotOR Community Portal's mod builds.
+Yes, all my {% cite "KotOR" %} mods, not just my same-gender romance mods, are compatible with KotOR Community Portal's mod builds. I endorse the mod builds and recommend them to anyone interested in modding the {% cite "KotOR" %} games, so I am making sure my mods are compatible with the mod builds.
 
-That said, some of my mods require you to install at a very specific point of the mod builds:
+That said, some of my same-gender romance mods require you to install at very specific points of the mod builds:
 
 * **Handmaiden and Female Exile - Disciple and Male Exile Romance** should be installed *immediately* after PartySwap and before Extended Enclave. If you want to use PartySwap, make sure you choose the "PartySwap Compatible Installation" option when you install my Handmaiden/Disciple romance mod. If you also want to install Extended Enclave, you should use the compatibility patch included in my Handmaiden/Disciple romance mod, instead of the [standalone patch](https://deadlystream.com/files/file/1304-partyswap-and-extended-enclave-compatibility-patch/) I made for the mod build. If you plan on using Kreia's Fall In-Game Cutscene, you need to install the compatibility patch included in my Handmaiden/Disciple romance mod.
-* **Atton Rand and Male Exile Romance** needs to be installed after PartySwap. If you also use Kreia's Fall In-Game Cutscene, you need to install the compatibility patch provided by Atton Rand and Male Exile Romance.
+* **Atton Rand and Male Exile Romance** should be installed after PartySwap. If you also use Kreia's Fall In-Game Cutscene, you need to install the compatibility patch provided by Atton Rand and Male Exile Romance.
 * **Visas Marr and Female Exile Romance** needs to be installed at any point after PartySwap.
-<!-- * **Alternate Revan Romances REDUX** must be installed after Thematic Obscured Mausoleum Burial, by selecting the "Main Installation + TOMB Compatible" option. -->
+* **Alternate Revan Romances REDUX** must be installed after Thematic Obscured Mausoleum Burial (TOMB), by selecting one of the TOMB Compatible installation options.
+
+Otherwise, you may install my same-gender romance mods at any point after KOTOR 1 Community Patch (for {% cite "KotOR 1" %} mods) or The Sith Lords Restored Content Mod (for {% cite "KotOR 2" %} mods).
 
 ### Can I use your mods with non-English localizations of the {% cite "KotOR" %} games and The Sith Lords Restored Content Mod (TSLRCM)?
 

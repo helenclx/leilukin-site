@@ -3,7 +3,7 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic Mod Build"
 desc: "A list of Star Wars: Knights of the Old Republic mods I use."
 tags: ["contents", "mod lists"]
 categories: ["star wars kotor", "video game mods"]
-updated: 2025-02-23T17:12:49+0800
+updated: 2025-03-11T10:17:16+0800
 isContentDivided: true
 toc: true
 ---
@@ -43,13 +43,30 @@ I have no plans on including K1R in my mod build because:
 
 ### Mod Tools
 
-* [UniWS](http://www.wsgf.org/article/star-wars-knights-old-republic) — The widescreen patch for {% cite "KotOR" %}. [Here is a YouTube video tutorial](https://www.youtube.com/watch?v=9SKMzwKE34E) on how to use it.
+* [UniWS](https://www.wsgf.org/article/star-wars-knights-old-republic) — The widescreen patch for {% cite "KotOR" %}. [Here is a YouTube video tutorial](https://www.youtube.com/watch?v=9SKMzwKE34E) on how to use it.
 * [Quicker TSLPatching](https://www.nexusmods.com/kotor/mods/1214) by xypherh — Makes it easier to install mods that use the TSLPatcher.
 * [KOTORModSync](https://deadlystream.com/files/file/2317-kotormodsync/) by th3w1zard1 — A multi-mod installer for the {% cite "KotOR" %} games.
 
 ---
 
-### Remastered Cutscenes
+### Rescaled and Remastered Cutscenes
+
+Mod Name
+: [K1 Cutscenes Rescaled](https://www.nexusmods.com/kotor/mods/1306)
+
+Mod Author
+: Pops Maellard
+
+Category
+: Graphics Improvement
+
+Tier
+: Tier 1 - Essential
+
+Download Note
+: I choose the 60 FPS 1920x1080 version. Note that while this is the best {% cite "KotOR" %} movie cutscene mod for to date, this mod has a *huge* file size (at least 15 GB), so if you have poor Internet connection or limited drive space, it would be a better idea to use Naelavok's version of remastered cutscenes below instead.
+
+---
 
 Mod Name
 : [KotOR 1 Remastered (AI Upscaled) Cutscenes](https://www.nexusmods.com/kotor/mods/1306)
@@ -64,7 +81,7 @@ Tier
 : Tier 1 - Essential
 
 Download Note
-: I download the Resolution 1920x1080 version.
+: I choose the Resolution 1920x1080 version.
 
 ---
 
@@ -214,7 +231,7 @@ Tier
 ### Restored BIK movies
 
 Mod Name
-: [Restored K1 BIK movies](http://deadlystream.com/files/file/36-restored-k1-bik-movies/)
+: [Restored K1 BIK movies](https://deadlystream.com/files/file/36-restored-k1-bik-movies/)
 
 Mod Author
 : zbyl2
@@ -392,7 +409,7 @@ Tier
 ### bon Hawk Camera Replacement
 
 Mod Name
-: [Ebon Hawk Camera Replacement](http://deadlystream.com/files/file/827-ebon-hawk-camera-replacement/)
+: [Ebon Hawk Camera Replacement](https://deadlystream.com/files/file/827-ebon-hawk-camera-replacement/)
 
 Mod Author
 : LDR
@@ -404,7 +421,7 @@ Tier
 : Tier 1 - Essential
 
 Leilukin’s Comment
-: I have always preferred the Ebon Hawk camera angle in {% cite "KotOR 2" %}, and disliked the vanilla KotOR 1 version, so I consider this mod essential.
+: I have always preferred the Ebon Hawk camera angle in {% cite "KotOR 2" %}, and disliked the vanilla {% cite "KotOR 1" %} version as the camera is too close to the player character, making it rather difficult to see the surroundings of the Ebon Hawk because of how much the player character takes up the screen, so I consider this mod essential.
 
 ---
 
@@ -443,7 +460,7 @@ Tier
 ### Easy Swoop Racing
 
 Mod Name
-: [Easy Swoop Racing](http://www.geocities.ws/d333mods/minig.html)
+: [Easy Swoop Racing](https://www.geocities.ws/d333mods/minig.html)
 
 Mod Author
 : Darth333
@@ -462,7 +479,7 @@ Leilukin’s Comment
 ### Realistic Improved Effect Retexture Mod
 
 Mod Name
-: [My Realistic Improved Effect Retexture Mod](http://deadlystream.com/files/file/513-my-realistic-improved-effect-retexture-mod/)
+: [My Realistic Improved Effect Retexture Mod](https://deadlystream.com/files/file/513-my-realistic-improved-effect-retexture-mod/)
 
 Mod Author
 : Malkior
@@ -538,7 +555,7 @@ Category
 : Graphics Improvement
 
 Tier
-: Tier 3 - Somewhat Important
+: Tier 2 - Very Important
 
 ---
 
@@ -668,9 +685,9 @@ Installation Note
 : The components I install are:
 : * Bastila uvw fix: Bastila Clothes (BB) - option1 basic uvw fix
 : * Canderous uvw fix
-: * Carth uvw fix (except for P\_CarthBB02.tga and P\_CarthBB03.tga)
+: * Carth uvw fix (except for `P_CarthBB02.tga` and `P_CarthBB03.tga`)
 : * HK47 uvw fix
-: * Jolee uvw fix (except for P\_joleeh01.tga)
+: * Jolee uvw fix (except for `P_joleeh01.tga`)
 : * Mission uvw fix
 
 ---
@@ -694,7 +711,7 @@ Tier
 ### HD Bastila Shan
 
 Mod Name
-: [Bastila Shan HD](http://deadlystream.com/files/file/978-bastila-shan-hd-by-quanon-and-dark-hopa/)
+: [Bastila Shan HD](https://deadlystream.com/files/file/978-bastila-shan-hd-by-quanon-and-dark-hopa/)
 
 Mod Author
 : Dark Hope
@@ -710,7 +727,7 @@ Tier
 ### HD Canderous Ordo
 
 Mod Name
-: [HD Canderous Ordo](http://deadlystream.com/files/file/1123-hd-canderous-ordo/)
+: [HD Canderous Ordo](https://deadlystream.com/files/file/1123-hd-canderous-ordo/)
 
 Mod Author
 : Dark Hope
@@ -726,7 +743,7 @@ Tier
 ### HD Carth Onasi
 
 Mod Name
-: [HD Carth Onasi](http://deadlystream.com/files/file/1133-hd-carth-onasi/)
+: [HD Carth Onasi](https://deadlystream.com/files/file/1133-hd-carth-onasi/)
 
 Mod Author
 : Dark Hope
@@ -742,7 +759,7 @@ Tier
 ### Quanons HK-47 Reskin
 
 Mod Name
-: [Quanons HK-47 Reskin](http://deadlystream.com/files/file/1001-quanons-hk-47-reskin/)
+: [Quanons HK-47 Reskin](https://deadlystream.com/files/file/1001-quanons-hk-47-reskin/)
 
 Mod Author
 : Quanon
@@ -828,7 +845,7 @@ Installation Note
 ### HD Mission Vao
 
 Mod Name
-: [Mission Vao HD](http://deadlystream.com/files/file/956-mission-vao-hd-by-quanon/)
+: [Mission Vao HD](https://deadlystream.com/files/file/956-mission-vao-hd-by-quanon/)
 
 Mod Author
 : Dark Hope
@@ -1045,7 +1062,7 @@ Tier
 ### HD Yuthura Ban
 
 Mod Name
-: [HD Yuthura Ban](http://deadlystream.com/files/file/1054-hd-yuthura-ban/)
+: [HD Yuthura Ban](https://deadlystream.com/files/file/1054-hd-yuthura-ban/)
 
 Mod Author
 : Dark Hope
@@ -1150,7 +1167,7 @@ Installation Note
 ### HD Female Twileks
 
 Mod Name
-: [HD Twilek female](http://deadlystream.com/files/file/982-hd-twilek-female/)
+: [HD Twilek female](https://deadlystream.com/files/file/982-hd-twilek-female/)
 
 Mod Author
 : Dark Hope
@@ -1303,7 +1320,7 @@ Tier
 ### Quanons Gammorean Reskin Pack
 
 Mod Name
-: [Quanons Gammorean Reskin Pack](http://deadlystream.com/files/file/1023-quanons-gammorean-reskin-pack/)
+: [Quanons Gammorean Reskin Pack](https://deadlystream.com/files/file/1023-quanons-gammorean-reskin-pack/)
 
 Mod Author
 : Quanon
@@ -1319,7 +1336,7 @@ Tier
 ### HD Hutts
 
 Mod Name
-: [Emperor Turnip's HD Hutts](http://deadlystream.com/files/file/1188-emperor-turnips-hd-hutts/)
+: [Emperor Turnip's HD Hutts](https://deadlystream.com/files/file/1188-emperor-turnips-hd-hutts/)
 
 Mod Author
 : Emperor Turnip
@@ -1335,7 +1352,7 @@ Tier
 ### HD Rakghouls
 
 Mod Name
-: [Emperor Turnip's HD Rakghouls](http://deadlystream.com/files/file/1187-emperor-turnips-hd-rakghouls/)
+: [Emperor Turnip's HD Rakghouls](https://deadlystream.com/files/file/1187-emperor-turnips-hd-rakghouls/)
 
 Mod Author
 : Emperor Turnip
@@ -1351,7 +1368,7 @@ Tier
 ### HD Gizka
 
 Mod Name
-: [Emperor Turnip's HD Gizka](http://deadlystream.com/files/file/1190-emperor-turnips-hd-gizka/)
+: [Emperor Turnip's HD Gizka](https://deadlystream.com/files/file/1190-emperor-turnips-hd-gizka/)
 
 Mod Author
 : Emperor Turnip
@@ -1367,7 +1384,7 @@ Tier
 ### HD Dewback
 
 Mod Name
-: [Emperor Turnip's HD Dewback](http://deadlystream.com/files/file/1189-emperor-turnips-hd-dewback/)
+: [Emperor Turnip's HD Dewback](https://deadlystream.com/files/file/1189-emperor-turnips-hd-dewback/)
 
 Mod Author
 : Emperor Turnip
@@ -1589,7 +1606,7 @@ Installation Note
 ### Animated Cantina Sign
 
 Mod Name
-: [Animated Cantina Sign for KotOR 1](http://deadlystream.com/files/file/1129-animated-cantina-sign-for-kotor-1/)
+: [Animated Cantina Sign for KotOR 1](https://deadlystream.com/files/file/1129-animated-cantina-sign-for-kotor-1/)
 
 Mod Author
 : Sith Holocron
@@ -1666,7 +1683,7 @@ Tier
 
 ---
 
-### HD KT-400 military droid carrier and Lethisk-class armed freighter
+### HD Background Ships
 
 Mod Name
 : [HD KT-400 military droid carrier and Lethisk-class armed freighter](https://deadlystream.com/files/file/1125-hd-kt-400-military-droid-carrier-and-lethisk-class-armed-freighter/)
@@ -1685,7 +1702,7 @@ Tier
 ### Star Map Revamp
 
 Mod Name
-: [Star Map Revamp](http://deadlystream.com/files/file/1262-star-map-revamp/)
+: [Star Map Revamp](https://deadlystream.com/files/file/1262-star-map-revamp/)
 
 Mod Author
 : CarthOnasty
@@ -1730,19 +1747,22 @@ Tier
 
 ---
 
-### Kiosk HD
+### HD Kiosk
 
 Mod Name
-: [Kiosk HD](https://deadlystream.com/files/file/2277-kiosk-hd/)
+: [Kiosk HD](https://deadlystream.com/files/file/2277-kiosk-hd/) and [Patch](https://deadlystream.com/topic/9694-request-kiosk1-model-tweak/?tab=comments#comment-87106)
 
 Mod Author
-: Dark Hope
+: Dark Hope; patch by Marius Fett
 
 Category
 : Graphics Improvement
 
 Tier
 : Tier 3 - Somewhat Important
+
+Download Notes
+: I download and install the "Kiosk HD 15.03.2024.rar" version.
 
 ---
 
@@ -1791,6 +1811,22 @@ Category
 
 Tier
 : Tier 2 - Very Important
+
+---
+
+### HD Workbench
+
+Mod Name
+: [RepTab HD](https://deadlystream.com/files/file/2222-reptab-hd/)
+
+Mod Author
+: Dark Hope
+
+Category
+: Graphics Improvement
+
+Tier
+: Tier 3 - Somewhat Important
 
 ---
 
@@ -1848,7 +1884,7 @@ Download Note
 ### Animated Ebon Hawk Monitors
 
 Mod Name
-: [Animated Ebon Hawk Monitors](http://deadlystream.com/files/file/848-kotor2-animated-ebon-hawk-monitors-not-including-galaxy-map/)
+: [Animated Ebon Hawk Monitors](https://deadlystream.com/files/file/848-kotor2-animated-ebon-hawk-monitors-not-including-galaxy-map/)
 
 Mod Author
 : Sith Holocron
@@ -1870,7 +1906,7 @@ Leilukin’s Comment
 ### High Quality Cockpit Skyboxes
 
 Mod Name
-: [High Quality Cockpit Skyboxes](http://deadlystream.com/files/file/938-high-quality-cockpit-skyboxes/)
+: [High Quality Cockpit Skyboxes](https://deadlystream.com/files/file/938-high-quality-cockpit-skyboxes/)
 
 Mod Author
 : Sithspecter
@@ -1949,7 +1985,7 @@ Tier
 : Tier 2 - Very Important
 
 Download Note
-: I download and install HQSkyboxesII\_K1.7z only.
+: I download and install HQSkyboxesII_K1.7z only.
 
 ---
 
@@ -2109,7 +2145,7 @@ Tier
 ### JC's Republic Soldier Fix
 
 Mod Name
-: [JC's Republic Soldier Fix for K1](http://deadlystream.com/files/file/1180-jcs-republic-soldier-fix-for-k1/)
+: [JC's Republic Soldier Fix for K1](https://deadlystream.com/files/file/1180-jcs-republic-soldier-fix-for-k1/)
 
 Mod Author
 : JCarter426
@@ -2218,6 +2254,25 @@ Installation Note
 
 ---
 
+### HD Robe Icons for JC's Cloaked Jedis
+
+Mod Name
+: [HD Robe Icons for JC's Cloaked Jedis and Effix's Extra Robes](https://deadlystream.com/files/file/2303-hd-robe-icons-for-jcs-cloaked-jedis-and-effixs-extra-robes/)
+
+Mod Author
+: Nehua
+
+Category
+: Appearance Change & Graphics Improvement
+
+Tier
+: Tier 3 - Somewhat Important
+
+Installation Note
+: I install the files in the “JC's Cloaked Jedis” folder and then the "Brown-Red-Blue Alternative" subfolder only.
+
+---
+
 ### Robes With Shadows
 
 Mod Name
@@ -2278,7 +2333,7 @@ Installation Note
 
 ---
 
-### Effixian's Qel-Droma Robes Reskin
+### Qel-Droma Robes Reskin
 
 Mod Name
 : [Effixian's Qel-Droma Robes Reskin for JC's Cloaked Jedi Robes](https://deadlystream.com/files/file/2019-effixians-qel-droma-robes-reskin-for-jcs-cloaked-jedi-robes/)
@@ -2588,7 +2643,7 @@ Tier
 ### Leviathan Differentiated Dialogue
 
 Mod Name
-: [Leviathan Differentiated Dialogue](http://deadlystream.com/files/file/895-leviathan-differentiated-dialogue/)
+: [Leviathan Differentiated Dialogue](https://deadlystream.com/files/file/895-leviathan-differentiated-dialogue/)
 
 Mod Author
 : Revanator
@@ -2646,7 +2701,7 @@ Installation Note
 ### Weapon Model Overhaul
 
 Mod Name
-: [KoTOR Weapon Model Overhaul](http://www.nexusmods.com/kotor/mods/1096/?)
+: [KoTOR Weapon Model Overhaul](https://www.nexusmods.com/kotor/mods/1096/?)
 
 Mod Author
 : Toasty Fresh
@@ -2662,7 +2717,7 @@ Tier
 ### Weapon Model Overhaul Texture Rework
 
 Mod Name
-: [Weapon Model Overhaul Texture Rework](http://deadlystream.com/files/file/369-weapon-model-overhaul-texture-rework/)
+: [Weapon Model Overhaul Texture Rework](https://deadlystream.com/files/file/369-weapon-model-overhaul-texture-rework/)
 
 Mod Author
 : Fallen Guardian
@@ -2700,7 +2755,7 @@ Mod Name
 : [Quarterstaff Replacement Pack for K1](https://deadlystream.com/files/file/2231-quarterstaff-replacement-pack-for-k1/)
 
 Mod Author
-: N-DReW25
+: DeadMan, ported by N-DReW25
 
 Category
 : Graphics Improvement
@@ -2713,7 +2768,7 @@ Tier
 ### High Quality Blasters
 
 Mod Name
-: [High Quality Blasters](http://deadlystream.com/files/file/861-high-quality-blasters/)
+: [High Quality Blasters](https://deadlystream.com/files/file/861-high-quality-blasters/)
 
 Mod Author
 : Sithspecter
@@ -2783,7 +2838,7 @@ Tier
 ### Custom Class Items
 
 Mod Name
-: [Custom Class Items](http://deadlystream.com/files/file/943-custom-class-items/)
+: [Custom Class Items](https://deadlystream.com/files/file/943-custom-class-items/)
 
 Mod Author
 : Revanator
@@ -2834,7 +2889,7 @@ Tier
 ### Bastila's Dark Bodysuit
 
 Mod Name
-: [Bastila's Dark Bodysuit](http://deadlystream.com/files/file/1006-bastilas-dark-bodysuit-by-quanon-revanator/)
+: [Bastila's Dark Bodysuit](https://deadlystream.com/files/file/1006-bastilas-dark-bodysuit-by-quanon-revanator/)
 
 Mod Author
 : Revanator, Quanon & A Future Pilot
@@ -2853,7 +2908,7 @@ Installation Note
 ### Revan's Hoodless/Maskless Flowing Robes
 
 Mod Name
-: [Revan's Hoodless/Maskless Flowing Robes For K1](http://deadlystream.com/files/file/1099-revans-hoodlessmaskless-flowing-robes-for-k1/)
+: [Revan's Hoodless/Maskless Flowing Robes For K1](https://deadlystream.com/files/file/1099-revans-hoodlessmaskless-flowing-robes-for-k1/)
 
 Mod Author
 : DarthParametric
@@ -2872,7 +2927,7 @@ Installation Note
 ### Revan's Flowing Cape and Belt Fix
 
 Mod Name
-: [Revan's Flowing Cape and Belt Fix](http://deadlystream.com/files/file/709-revans-flowing-cape-and-belt-fix/)
+: [Revan's Flowing Cape and Belt Fix](https://deadlystream.com/files/file/709-revans-flowing-cape-and-belt-fix/)
 
 Mod Author
 : Sithspecter
@@ -2884,14 +2939,14 @@ Tier
 : Tier 3 - Somewhat Important
 
 Installation Note
-: I install the N\_DarthRevan.mdl and N\_DarthRevan.mdx files only.
+: I install the `N_DarthRevan.mdl` and `N_DarthRevan.mdx` files only.
 
 ---
 
 ### Health Regeneration
 
 Mod Name
-: [Health Regeneration](http://deadlystream.com/files/file/458-health-regeneration/)
+: [Health Regeneration](https://deadlystream.com/files/file/458-health-regeneration/)
 
 Mod Author
 : MVacc224
@@ -2926,7 +2981,7 @@ Leilukin’s Comment
 ### Sneak Attack 10 Restoration
 
 Mod Name
-: [Sneak Attack 10 Restoration](http://deadlystream.com/files/file/1124-sneak-attack-10-restoration/)
+: [Sneak Attack 10 Restoration](https://deadlystream.com/files/file/1124-sneak-attack-10-restoration/)
 
 Mod Author
 : N-DReW25
@@ -3047,7 +3102,7 @@ Installation Note
 ### Trandoshans Rescaled
 
 Mod Name
-: [Trandoshans Rescaled for K1](http://deadlystream.com/files/file/947-trandoshans-rescaled-for-k1/)
+: [Trandoshans Rescaled for K1](https://deadlystream.com/files/file/947-trandoshans-rescaled-for-k1/)
 
 Mod Author
 : DarthParametric
@@ -3079,7 +3134,7 @@ Tier
 ### Diversified Wounded Republic Soldiers on Taris
 
 Mod Name
-: [Diversified Wounded Republic Soldiers on Taris](http://deadlystream.com/files/file/1179-diversified-wounded-republic-soldiers-on-taris/)
+: [Diversified Wounded Republic Soldiers on Taris](https://deadlystream.com/files/file/1179-diversified-wounded-republic-soldiers-on-taris/)
 
 Mod Author
 : DarthParametric
@@ -3114,7 +3169,7 @@ Required Mod
 ### Diversified Jedi Captives on the Star Forge
 
 Mod Name
-: [Diversified Jedi Captives on the Star Forge](http://deadlystream.com/files/file/1199-diversified-jedi-captives-on-the-star-forge/)
+: [Diversified Jedi Captives on the Star Forge](https://deadlystream.com/files/file/1199-diversified-jedi-captives-on-the-star-forge/)
 
 Mod Author
 : DarthParametric
@@ -3184,16 +3239,19 @@ Tier
 ### JC's Czerka Business Attire
 
 Mod Name
-: [JC's Czerka: Business Attire for K1](https://deadlystream.com/files/file/2309-jcs-czerka-business-attire-for-k1/)
+: [JC's Czerka: Business Attire for K1](https://deadlystream.com/files/file/2309-jcs-czerka-business-attire-for-k1/) and [HD Ithorian patch](https://www.dropbox.com/scl/fi/93q7y6xaolnvmjde6lal6/JC_IthorianCz01.tga?rlkey=3mpv3t4v7rtn5i1r2gve0lg7a&e=1&st=q1qvob6i&dl=0)
 
 Mod Author
-: JCarter426
+: JCarter426; HD Ithorian patch by Sith Holocron
 
 Category
 : Immersion
 
 Tier
 : Tier 3 - Somewhat Important
+
+Download Note
+: Since I also use Dark Hope's HD Ithorian, I also download and install Sith holocron's patch (`JC_IthorianCz01.tga`) in addition to JCarter426's mod.
 
 ---
 
@@ -3416,7 +3474,7 @@ Required Mod
 ### Helena Shan Improvement
 
 Mod Name
-: [Helena Shan Improvement](http://deadlystream.com/files/file/1218-helena-shan-improvement/)
+: [Helena Shan Improvement](https://deadlystream.com/files/file/1218-helena-shan-improvement/)
 
 Mod Author
 : VarsityPuppet
@@ -3483,7 +3541,7 @@ Tier
 ### Ajunta Pall's Swords Revamped
 
 Mod Name
-: [Ajunta Pall's Swords Revamped](http://deadlystream.com/files/file/541-ajunta-palls-swords-revamped/)
+: [Ajunta Pall's Swords Revamped](https://deadlystream.com/files/file/541-ajunta-palls-swords-revamped/)
 
 Mod Author
 : Rece
@@ -3722,7 +3780,7 @@ Mod Author
 : DarthParametric
 
 Category
-: Immersion
+: Bugfix & Immersion
 
 Tier
 : Tier 2 - Very Important
@@ -3815,7 +3873,7 @@ Tier
 ### Dodonna’s Transmission
 
 Mod Name
-: [Dodonna’s Transmission](http://deadlystream.com/files/file/1101-dodonna’s-transmission/)
+: [Dodonna’s Transmission](https://deadlystream.com/files/file/1101-dodonna’s-transmission/)
 
 Mod Author
 : danil-ch
@@ -3866,7 +3924,7 @@ Tier
 ### No Random Fighter Battles
 
 Mod Name
-: [No Random Fighter Battles](http://deadlystream.com/files/file/807-no-random-fighter-battles/)
+: [No Random Fighter Battles](https://deadlystream.com/files/file/807-no-random-fighter-battles/)
 
 Mod Author
 : Antonia
@@ -3885,7 +3943,7 @@ Leilukin’s Comment
 ### Dantooine Training Lightsabers
 
 Mod Name
-: [Dantooine Training Lightsabers](http://deadlystream.com/files/file/704-dantooine-training-lightsabers/)
+: [Dantooine Training Lightsabers](https://deadlystream.com/files/file/704-dantooine-training-lightsabers/)
 
 Mod Author
 : Kexikus
@@ -3901,7 +3959,7 @@ Tier
 ### alaxy Map Fix Pack
 
 Mod Name
-: [K1 Galaxy Map Fix Pack](http://deadlystream.com/files/file/1068-k1-galaxy-map-fix-pack/)
+: [K1 Galaxy Map Fix Pack](https://deadlystream.com/files/file/1068-k1-galaxy-map-fix-pack/)
 
 Mod Author
 : Kexikus & Sith Holocron
@@ -3920,7 +3978,7 @@ Installation Note
 ### Gaffi Stick Improvement
 
 Mod Name
-: [Gaffi Stick Improvement](http://deadlystream.com/files/file/312-gaffi-stick-improvement/)
+: [Gaffi Stick Improvement](https://deadlystream.com/files/file/312-gaffi-stick-improvement/)
 
 Mod Author
 : Fallen Guardian
@@ -3936,7 +3994,7 @@ Tier
 ### Sunry Murder Recording Enhancement
 
 Mod Name
-: [Sunry Murder Recording Enhancement](http://deadlystream.com/files/file/324-sunry-murder-recording-ehancement/)
+: [Sunry Murder Recording Enhancement](https://deadlystream.com/files/file/324-sunry-murder-recording-ehancement/)
 
 Mod Author
 : Fallen Guardian
@@ -4133,7 +4191,7 @@ Installation Note
 : I install the following components:
 : * Bastila Romance Removal
 : * Carth Romance Removal
-: * Leviathan Change: No lev40\_saul403.dlg in Override
+: * Leviathan Change: No `lev40_saul403.dlg` in Override
 
 Leilukin’s Comment
 : To be honest, I am not a huge fan of both Bastila and Carth’s romances in-game. For Bastila’s romance, it’s because I do not like how pushy the player character’s romance dialogue is towards Bastila. As for Carth’s romance, as a lesbian I do not like how the game pushes Carth the “main” romance option for female PCs while a lesbian option in Juhani exists at the same time.
@@ -4143,7 +4201,7 @@ Leilukin’s Comment
 ### Juhani Romance Enhancement
 
 Mod Name
-: [Juhani Romance Enhancement](http://deadlystream.com/files/file/772-juhani-romance-enhancement/)
+: [Juhani Romance Enhancement](https://deadlystream.com/files/file/772-juhani-romance-enhancement/)
 
 Mod Author
 : Kexikus
