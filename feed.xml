@@ -4,7 +4,7 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2025-03-19T03:28:25Z</updated>
+    <updated>2025-03-19T11:10:52Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
@@ -12,11 +12,26 @@
     </author><entry>
         <title>Changelog: 19 March 2025</title>
         <link href="https://leilukin.com/changelogs/2025/#2025-03-19"/>
-        <updated>2025-03-19T03:28:25Z</updated>
+        <updated>2025-03-19T11:10:52Z</updated>
         <id>https://leilukin.com/changelogs/2025/#2025-03-19</id>
         <content type="html">&lt;ul&gt;
 &lt;li&gt;In the website&#39;s RSS feed, changelog items are now linked to their anchor links on the changelog pages, instead of the website&#39;s home page.&lt;/li&gt;
+&lt;li&gt;New blog post, &lt;a href=&quot;/blog/posts/2025-03-19-ne-zha-2-impressions&quot;&gt;&amp;quot;Ne Zha 2&amp;quot; Impressions&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
+</content>
+    </entry><entry>
+        <title>"Ne Zha 2" Impressions | Blog</title>
+        <link href="https://leilukin.com/blog/posts/2025-03-19-ne-zha-2-impressions/"/>
+        <updated>2025-03-19T11:10:47Z</updated>
+        <id>https://leilukin.com/blog/posts/2025-03-19-ne-zha-2-impressions/</id>
+        <content type="html">&lt;p&gt;On the afternoon of 18 March 2025, my parents and I went to the cinema to watch  &lt;cite&gt;Ne Zha 2&lt;/cite&gt; (&lt;span lang=&quot;zh&quot;&gt;哪吒之魔童闹海&lt;/span&gt;), an animated film produced in mainland China.&lt;/p&gt;
+&lt;p&gt;To be honest, my parents were more excited about watching this film than I was. After finding out that &lt;cite&gt;Ne Zha 2&lt;/cite&gt; was a massive box office success in China, my parents were looking forward to its release in Malaysia. As soon as &lt;cite&gt;Ne Zha 2&lt;/cite&gt; started to be shown in cinema in Malaysia, my parents talked about their plans to watch the film, and even watched its predecessor, &lt;cite&gt;Ne Zha&lt;/cite&gt; (&lt;span lang=&quot;zh&quot;&gt;哪吒之魔童降世&lt;/span&gt;), at home the night before watching &lt;cite&gt;Ne Zha 2&lt;/cite&gt; to do their homework.&lt;/p&gt;
+&lt;p&gt;As for me, I have never paid close attention to mainland China&#39;s entertainment industry, especially when compared to my teenage years when I followed Hong Kong and Taiwan&#39;s entertainment industry closely to the extent of being described as an expert by my mother. Therefore, I accompanied my parents to see &lt;cite&gt;Ne Zha&lt;/cite&gt; merely out of curiosity and a desire to see what the hype was, and what made the film such a hit and the highest-grossing animated film in the world.&lt;/p&gt;
+&lt;p&gt;As a result, after sitting in the cinema for more than two hours and watching &lt;cite&gt;Ne Zha&lt;/cite&gt; for myself, my first impression was that the animation and visual effects of the film are truly stunning and full of action as well as tense and dramatic moments. However, I am not a fan of the film&#39;s portrayal and treatment of its female characters.&lt;/p&gt;
+&lt;p&gt;A &lt;a href=&quot;https://movie.douban.com/review/16499182/&quot;&gt;Ne Zha 2 review by circularuins on Douban (in Chinese)&lt;/a&gt; explains my issues with the portrayal and treatment of women in the film well. If you do not mind spoilers, I highly recommend reading the entire article. Even if you are unable to read Chinese, I would still suggest trying to read it with a machine translation.&lt;/p&gt;
+&lt;p&gt;I deeply relate to the author when they talked about how beginning to strongly identify as an Asian woman, and realise what that identity means in society, and thus starting to look at films&#39; portrayal of women in a critical eye. This is a big part of why my taste in entertainment media has changed drastically as an adult compared to when I was a teenager. As an adult, I began to learn about the concept of media representation, and how the portrayal of different groups of people—including women—in the media reflects and influences the audience impression of those demographics.&lt;/p&gt;
+&lt;p&gt;As for the portrayal of women in entertainment media such as film and television, I am particularly tired of and disgusted by the trope of women characters existing mainly or only as sacrifices for the development of male characters. There is even a name for this trope, &lt;a href=&quot;https://en.wikipedia.org/wiki/Women_in_refrigerators&quot;&gt;women in refrigerators&lt;/a&gt;. This is one of the reasons why I despise the 2023 Hong Kong film &lt;cite&gt;One More Chance&lt;/cite&gt; (&lt;span lang=&quot;zh&quot;&gt;别叫我“赌神”&lt;/span&gt;), which I also saw in the cinema with my parents, and regard it as a major stinker of a film. Unfortunately, the woman in refrigerator trope happens in &lt;cite&gt;Ne Zha 2&lt;/cite&gt; as well. Honestly, it is embarrassing and insulting to see these tired old sexist tropes in a hit film in the 2020s.&lt;/p&gt;
+&lt;p&gt;All in all, while I can understand, to a certain degree, how the animation and visual effects of &lt;cite&gt;Ne Zha 2&lt;/cite&gt; are a reason for the film&#39;s success, I cannot recommend it wholeheartedly, especially if you have high standards for the portrayal and treatment of women in film.&lt;/p&gt;
 </content>
     </entry><entry>
         <title>Changelog: 6 March 2025</title>
@@ -195,25 +210,6 @@ Me&lt;/p&gt;
         <content type="html">&lt;ul&gt;
 &lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2025-01-19-attending-42-school&quot;&gt;&amp;quot;Attending 42 the Computer Science School&amp;quot;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-    </entry><entry>
-        <title>Attending 42 the Computer Science School | Blog</title>
-        <link href="https://leilukin.com/blog/posts/2025-01-19-attending-42-school/"/>
-        <updated>2025-01-19T15:14:39Z</updated>
-        <id>https://leilukin.com/blog/posts/2025-01-19-attending-42-school/</id>
-        <content type="html">&lt;p&gt;After failing to pass my probation in my first web developer job and thus having to &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-16-leaving-my-first-developer-job/&quot;&gt;leave the job&lt;/a&gt;, I had been considering how to proceed to the next phase of my web development journey. After all, I chose to leave my previous company &lt;em&gt;because&lt;/em&gt; I intend to keep being a web developer, instead of sacrificing my time in continuing to learn web development to switch my job focus on digital marketing, a field I am less interested in and equipped for, just to keep my previous job that I would likely end up even more miserable in the long run if I chose to stay.&lt;/p&gt;
-&lt;p&gt;One day in December 2024, I suddenly remembered that my mother told me once that there was now a coding school somewhere relatively near to our house. We even talked about how my younger self would have appreciated the existence of such a school so I could become a developer much earlier. Out of curiosity, I searched the web to look for the school in question.&lt;/p&gt;
-&lt;p&gt;Turned out, the school is named &lt;a href=&quot;https://www.42network.org/&quot;&gt;42&lt;/a&gt;, and is an international school network that provides free computer science education, with many campuses around the world, including Malaysia. The main thing that differentiates 42 from traditional universities is its peer-to-peer and project-based learning models that do not involve any teachers.&lt;/p&gt;
-&lt;p&gt;According to the &lt;a href=&quot;https://42.fr/en/what-is-42/42-program-explained/&quot;&gt;official website of 42&#39;s Paris campus&lt;/a&gt; — where 42 originated — the name is a reference to Douglas Adams’ book &lt;cite&gt;The Hitchhiker’s Guide to the Galaxy&lt;/cite&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;In Douglas Adams’ book The Hitchhiker’s Guide to the Galaxy – H2G2 for short – an advanced alien species builds a super computer. It has only one job: to find the answer to the Ultimate Question of Life, the Universe and Everything. After 7 million years of calculation, the computer finds the answer: 42. In geek culture, 42 often represents the answer to a seemingly insuperable problem. This is why 42 is called 42. This is our answer to what IT education should be today and in the future.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;As a web developer without a computer science degree, a physical school that offers computer science education for free is certainly an attractive notion. Furthermore, as a developer who learned to code through online courses and learning resources, I have got used to learning new things without a teacher holding my hand. My years of working experience had also taught me to not expecting anyone to hold your hand if you want to upskill yourself. I have also found myself to prefer to learn to code by building projects.&lt;/p&gt;
-&lt;p&gt;Therefore, in late December 2024, I applied for the Malaysian campus of 42 near me, spent two hours in their application test consisted of a memory game and a logic game. On the next day, I was informed that I passed my application test, so I chose to enrol in their trial bootcamp, referred to as the Piscine, that will begin on April 2025. Participants need to pass the 4-week trial bootcamp before being able to take 42&#39;s core curriculum.&lt;/p&gt;
-&lt;p&gt;Meanwhile, through their official website, I learned that the campus would host an open day on 18 January 2025, so I decided to take the opportunity to visit the campus for myself to see what I can expect from the environment when I started my study there. When I attended the open day on January 18, I learned that the computers in their workstations use Linux, specifically the Ubuntu distribution with GNOME as its desktop environment.&lt;/p&gt;
-&lt;p&gt;However, to my surprise, the computers did not have any setting to adjust screen brightness, which was not a good thing for me due to my &lt;a href=&quot;https://leilukin.com/articles/living-with-retinitis-pigmentosa/&quot;&gt;retinitis pigmentosa&lt;/a&gt; making my eyes sensitive to bright light, including artificial lights. I would prefer not to rely on my clip-on sunglasses just to see a computer screen, since the surroundings including the keyboard would appear too dark for me. Therefore, I approached one of the staff members to request methods of dimming the computer screen when I attend my class there. The staff member suggested that they should be able to arrange that to accommodate my needs.&lt;/p&gt;
-&lt;p&gt;After visiting the campus on its open day, I have been looking forward to attending the school more. Wish me luck in passing my Piscine so I can become an official student of 42!&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Update, 17 February 2025:&lt;/strong&gt; Originally, I registered to join the Piscine scheduled for 24 February 2025, but I received an email from the school announcing that due to unforeseen circumstances, the Piscine scheduled late February 2025 will no longer take place as planned. Therefore, I registered for the Piscine beginning on 7 April 2025.&lt;/p&gt;
 </content>
     </entry>
 </feed>
