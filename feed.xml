@@ -4,29 +4,76 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2025-03-06T14:36:09Z</updated>
+    <updated>2025-03-19T03:28:25Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
         <email>contact@leilukin.com</email>
     </author>
     
+    
+
+    
+
+    <entry>
+        <title>Changelog: 19 March 2025</title>
+        <link href="
+    
+    https://leilukin.com/changelogs/2025/#2025-03-19
+    
+    "/>
+        <updated>2025-03-19T03:28:25Z</updated>
+        <id>
+    
+    https://leilukin.com/changelogs/2025/#2025-03-19
+    
+    </id>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;In the website&#39;s RSS feed, changelog items are now linked to its anchor links on the corresponding year&#39;s changelog page, instead of the website&#39;s home page.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </entry>
+    
+    
+
+    
+
     <entry>
         <title>Changelog: 6 March 2025</title>
-        <link href="https://leilukin.com/"/>
+        <link href="
+    
+    https://leilukin.com/changelogs/2025/#2025-03-06
+    
+    "/>
         <updated>2025-03-06T14:36:09Z</updated>
-        <id>https://leilukin.com/</id>
+        <id>
+    
+    https://leilukin.com/changelogs/2025/#2025-03-06
+    
+    </id>
         <content type="html">&lt;ul&gt;
 &lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2025-03-06-attended-42-discovery-piscine&quot;&gt;&amp;quot;Attended 42 the School&#39;s 5-Day Coding Bootcamp&amp;quot;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </entry>
     
+    
+
+    
+
     <entry>
         <title>Attended 42 the School's 5-Day Coding Bootcamp | Blog</title>
-        <link href="https://leilukin.com/blog/posts/2025-03-06-attended-42-discovery-piscine/"/>
+        <link href="
+    
+    https://leilukin.com/blog/posts/2025-03-06-attended-42-discovery-piscine/
+    
+    "/>
         <updated>2025-03-06T14:34:13Z</updated>
-        <id>https://leilukin.com/blog/posts/2025-03-06-attended-42-discovery-piscine/</id>
+        <id>
+    
+    https://leilukin.com/blog/posts/2025-03-06-attended-42-discovery-piscine/
+    
+    </id>
         <content type="html">&lt;p&gt;From 24 to 28 February 2025, I attended &lt;a href=&quot;https://leilukin.com/blog/posts/2025-01-19-attending-42-school/&quot;&gt;42 the computer science school&lt;/a&gt;&#39;s bite-sized coding bootcamp that lasted for 5 days, called the Discovery Piscine.&lt;/p&gt;
 &lt;p&gt;Originally, when I applied for 42 and passed their online assessment in December 2024, I registered to join their trial bootcamp, named Piscine, on 24 February 2025. However, on 17 February 2025, a week before my Piscine was supposed to start, I received an email from 42 announcing that due to unforeseen circumstances, the Piscine scheduled late February 2025 will no longer take place as planned. Therefore, I registered for the Piscine beginning on 7 April 2025.&lt;/p&gt;
 &lt;p&gt;On the next day, I received another email from 42 that instead of a full Piscine, a five-day bite-sized coding bootcamp named Discovery Piscine would take place from February 24 to 28 instead. I decided to register to join Discovery Piscine, so I could have a taste of what the Piscine is like, and allowing myself to be better prepared for the full Piscine in April.&lt;/p&gt;
@@ -42,22 +89,46 @@
 </content>
     </entry>
     
+    
+
+    
+
     <entry>
         <title>Changelog: 23 February 2025</title>
-        <link href="https://leilukin.com/"/>
+        <link href="
+    
+    https://leilukin.com/changelogs/2025/#2025-02-23
+    
+    "/>
         <updated>2025-02-23T09:14:37Z</updated>
-        <id>https://leilukin.com/</id>
+        <id>
+    
+    https://leilukin.com/changelogs/2025/#2025-02-23
+    
+    </id>
         <content type="html">&lt;ul&gt;
 &lt;li&gt;Create page for my &lt;a href=&quot;/links/mass-effect-le-mod-list/&quot;&gt;&lt;cite&gt;Mass Effect Legendary Edition&lt;/cite&gt; mod list&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </entry>
     
+    
+
+    
+
     <entry>
         <title>Changelog: 21 February 2025</title>
-        <link href="https://leilukin.com/"/>
+        <link href="
+    
+    https://leilukin.com/changelogs/2025/#2025-02-21
+    
+    "/>
         <updated>2025-02-21T12:54:36Z</updated>
-        <id>https://leilukin.com/</id>
+        <id>
+    
+    https://leilukin.com/changelogs/2025/#2025-02-21
+    
+    </id>
         <content type="html">&lt;ul&gt;
 &lt;li&gt;Create pages for my mod lists for the &lt;cite&gt;Star Wars: Knights of the Old Republic&lt;/cite&gt; series for my &lt;cite&gt;Star Wars: KotOR&lt;/cite&gt; shrine:
 &lt;ul&gt;
@@ -69,44 +140,92 @@
 </content>
     </entry>
     
+    
+
+    
+
     <entry>
         <title>Changelog: 17 February 2025</title>
-        <link href="https://leilukin.com/"/>
+        <link href="
+    
+    https://leilukin.com/changelogs/2025/#2025-02-17
+    
+    "/>
         <updated>2025-02-17T10:10:52Z</updated>
-        <id>https://leilukin.com/</id>
+        <id>
+    
+    https://leilukin.com/changelogs/2025/#2025-02-17
+    
+    </id>
         <content type="html">&lt;ul&gt;
 &lt;li&gt;Add buttons to copy code snippets to pages with code blocks. Credit to ttntm&#39;s article &lt;a href=&quot;https://ttntm.me/blog/adding-a-copy-button-to-code-blocks/&quot;&gt;&amp;quot;Adding a Copy Button to Code Blocks&amp;quot;&lt;/a&gt; for the JavaScript code to implement the buttons.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </entry>
     
+    
+
+    
+
     <entry>
         <title>Changelog: 12 February 2025</title>
-        <link href="https://leilukin.com/"/>
+        <link href="
+    
+    https://leilukin.com/changelogs/2025/#2025-02-12
+    
+    "/>
         <updated>2025-02-12T01:41:35Z</updated>
-        <id>https://leilukin.com/</id>
+        <id>
+    
+    https://leilukin.com/changelogs/2025/#2025-02-12
+    
+    </id>
         <content type="html">&lt;ul&gt;
 &lt;li&gt;Launched my new &lt;a href=&quot;https://fan.leilukin.com/programming/&quot;&gt;fanlisting for computer programming&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </entry>
     
+    
+
+    
+
     <entry>
         <title>Changelog: 10 February 2025</title>
-        <link href="https://leilukin.com/"/>
+        <link href="
+    
+    https://leilukin.com/changelogs/2025/#2025-02-10
+    
+    "/>
         <updated>2025-02-10T12:31:30Z</updated>
-        <id>https://leilukin.com/</id>
+        <id>
+    
+    https://leilukin.com/changelogs/2025/#2025-02-10
+    
+    </id>
         <content type="html">&lt;ul&gt;
 &lt;li&gt;New article: &lt;a href=&quot;/articles/love-letter-to-myself&quot;&gt;&amp;quot;A Love Letter to Myself&amp;quot;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </entry>
     
+    
+
+    
+
     <entry>
         <title>A Love Letter to Myself | Articles</title>
-        <link href="https://leilukin.com/articles/love-letter-to-myself/"/>
+        <link href="
+    
+    https://leilukin.com/articles/love-letter-to-myself/
+    
+    "/>
         <updated>2025-02-10T12:31:26Z</updated>
-        <id>https://leilukin.com/articles/love-letter-to-myself/</id>
+        <id>
+    
+    https://leilukin.com/articles/love-letter-to-myself/
+    
+    </id>
         <content type="html">&lt;p class=&quot;center-text&quot;&gt;&lt;a href=&quot;https://32bit.cafe/vday25/&quot; class=&quot;inline-img&quot;&gt;&lt;img src=&quot;https://leilukin.com/assets/images/articles/love-letter-to-myself/32bitcafe-partyforone.png&quot; alt=&quot;I am my own Valentine! - 32-Bit Cafe &amp;quot;Party for One&amp;quot; Code Jam button&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://32bit.cafe/&quot;&gt;32-Bit Cafe&lt;/a&gt; is hosting a code jam for Valentine&#39;s Day 2025, titled &lt;a href=&quot;https://32bit.cafe/vday25/&quot;&gt;&amp;quot;Party for One&amp;quot;&lt;/a&gt;, as the theme is making a digital Valentine&#39;s Day gift dedicated to yourself. After much consideration, I decided to take this opportunity to write a love letter to myself, as a Valentine&#39;s Day gift to myself and a reminder of my self-worth.&lt;/p&gt;
 &lt;hr&gt;
@@ -131,22 +250,46 @@ Me&lt;/p&gt;
 </content>
     </entry>
     
+    
+
+    
+
     <entry>
         <title>Changelog: 9 February 2025</title>
-        <link href="https://leilukin.com/"/>
+        <link href="
+    
+    https://leilukin.com/changelogs/2025/#2025-02-09
+    
+    "/>
         <updated>2025-02-09T14:58:38Z</updated>
-        <id>https://leilukin.com/</id>
+        <id>
+    
+    https://leilukin.com/changelogs/2025/#2025-02-09
+    
+    </id>
         <content type="html">&lt;ul&gt;
 &lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2025-02-09-my-first-smartwatch&quot;&gt;&amp;quot;My First Smartwatch&amp;quot;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </entry>
     
+    
+
+    
+
     <entry>
         <title>My First Smartwatch | Blog</title>
-        <link href="https://leilukin.com/blog/posts/2025-02-09-my-first-smartwatch/"/>
+        <link href="
+    
+    https://leilukin.com/blog/posts/2025-02-09-my-first-smartwatch/
+    
+    "/>
         <updated>2025-02-09T14:58:32Z</updated>
-        <id>https://leilukin.com/blog/posts/2025-02-09-my-first-smartwatch/</id>
+        <id>
+    
+    https://leilukin.com/blog/posts/2025-02-09-my-first-smartwatch/
+    
+    </id>
         <content type="html">&lt;p&gt;I just received my first smartwatch: Xiaomi Smart Band 9.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://leilukin.com/assets/images/posts/my-first-smartwatch/my-xiaomi-smart-band-9.avif&quot; alt=&quot;Close-up photo of my left wrist wearing a black Xiaomi Smart Band 9 smartwatch, with the screen on and displaying information about time, date and health.&quot;&gt;&lt;/p&gt;
 &lt;p&gt;This Xiaomi Smart Band 9 was a free gift from my father&#39;s purchase of Redmi Note 14 Pro 5G. My mother had bought the same Xiaomi smartwatch for herself a while ago, so my parents gave this new one to me. Since the &amp;quot;mi&amp;quot; (&lt;span lang=&quot;zh&quot;&gt;米&lt;/span&gt;) in Xiaomi&#39;s Chinese name &lt;span lang=&quot;zh&quot;&gt;小米&lt;/span&gt; also means rice in Chinese, my parents jokingly referred to my father buying a new Redmi Note smartphone as &amp;quot;buying rice&amp;quot; (&lt;span lang=&quot;zh&quot;&gt;买米&lt;/span&gt;).&lt;/p&gt;
@@ -155,22 +298,46 @@ Me&lt;/p&gt;
 </content>
     </entry>
     
+    
+
+    
+
     <entry>
         <title>Changelog: 6 February 2025</title>
-        <link href="https://leilukin.com/"/>
+        <link href="
+    
+    https://leilukin.com/changelogs/2025/#2025-02-06
+    
+    "/>
         <updated>2025-02-05T16:25:31Z</updated>
-        <id>https://leilukin.com/</id>
+        <id>
+    
+    https://leilukin.com/changelogs/2025/#2025-02-06
+    
+    </id>
         <content type="html">&lt;ul&gt;
 &lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2025-02-06-my-2025-lunar-new-year&quot;&gt;&amp;quot;My 2025 Lunar New Year&amp;quot;&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </entry>
     
+    
+
+    
+
     <entry>
         <title>My 2025 Lunar New Year | Blog</title>
-        <link href="https://leilukin.com/blog/posts/2025-02-06-my-2025-lunar-new-year/"/>
+        <link href="
+    
+    https://leilukin.com/blog/posts/2025-02-06-my-2025-lunar-new-year/
+    
+    "/>
         <updated>2025-02-05T16:25:22Z</updated>
-        <id>https://leilukin.com/blog/posts/2025-02-06-my-2025-lunar-new-year/</id>
+        <id>
+    
+    https://leilukin.com/blog/posts/2025-02-06-my-2025-lunar-new-year/
+    
+    </id>
         <content type="html">&lt;p&gt;Happy Lunar New Year and Year of the Snake to fellow Asians who celebrate! 🧧🐍&lt;/p&gt;
 &lt;p&gt;As a Chinese person, Lunar New Year is a major holiday, especially given the fact that here in Malaysia, Lunar New Year is the only traditional Chinese holiday that is also an official holiday in a national scale, which means the first two days of Lunar New Year are a holiday for non-Chinese people in Malaysia as well.&lt;/p&gt;
 &lt;div class=&quot;heading-wrapper h2&quot;&gt;
@@ -204,22 +371,46 @@ Me&lt;/p&gt;
 </content>
     </entry>
     
+    
+
+    
+
     <entry>
         <title>Changelog: 19 January 2025</title>
-        <link href="https://leilukin.com/"/>
+        <link href="
+    
+    https://leilukin.com/changelogs/2025/#2025-01-19
+    
+    "/>
         <updated>2025-01-19T15:14:44Z</updated>
-        <id>https://leilukin.com/</id>
+        <id>
+    
+    https://leilukin.com/changelogs/2025/#2025-01-19
+    
+    </id>
         <content type="html">&lt;ul&gt;
 &lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2025-01-19-attending-42-school&quot;&gt;&amp;quot;Attending 42 the Computer Science School&amp;quot;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </entry>
     
+    
+
+    
+
     <entry>
         <title>Attending 42 the Computer Science School | Blog</title>
-        <link href="https://leilukin.com/blog/posts/2025-01-19-attending-42-school/"/>
+        <link href="
+    
+    https://leilukin.com/blog/posts/2025-01-19-attending-42-school/
+    
+    "/>
         <updated>2025-01-19T15:14:39Z</updated>
-        <id>https://leilukin.com/blog/posts/2025-01-19-attending-42-school/</id>
+        <id>
+    
+    https://leilukin.com/blog/posts/2025-01-19-attending-42-school/
+    
+    </id>
         <content type="html">&lt;p&gt;After failing to pass my probation in my first web developer job and thus having to &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-16-leaving-my-first-developer-job/&quot;&gt;leave the job&lt;/a&gt;, I had been considering how to proceed to the next phase of my web development journey. After all, I chose to leave my previous company &lt;em&gt;because&lt;/em&gt; I intend to keep being a web developer, instead of sacrificing my time in continuing to learn web development to switch my job focus on digital marketing, a field I am less interested in and equipped for, just to keep my previous job that I would likely end up even more miserable in the long run if I chose to stay.&lt;/p&gt;
 &lt;p&gt;One day in December 2024, I suddenly remembered that my mother told me once that there was now a coding school somewhere relatively near to our house. We even talked about how my younger self would have appreciated the existence of such a school so I could become a developer much earlier. Out of curiosity, I searched the web to look for the school in question.&lt;/p&gt;
 &lt;p&gt;Turned out, the school is named &lt;a href=&quot;https://www.42network.org/&quot;&gt;42&lt;/a&gt;, and is an international school network that provides free computer science education, with many campuses around the world, including Malaysia. The main thing that differentiates 42 from traditional universities is its peer-to-peer and project-based learning models that do not involve any teachers.&lt;/p&gt;
@@ -233,17 +424,6 @@ Me&lt;/p&gt;
 &lt;p&gt;However, to my surprise, the computers did not have any setting to adjust screen brightness, which was not a good thing for me due to my &lt;a href=&quot;https://leilukin.com/articles/living-with-retinitis-pigmentosa/&quot;&gt;retinitis pigmentosa&lt;/a&gt; making my eyes sensitive to bright light, including artificial lights. I would prefer not to rely on my clip-on sunglasses just to see a computer screen, since the surroundings including the keyboard would appear too dark for me. Therefore, I approached one of the staff members to request methods of dimming the computer screen when I attend my class there. The staff member suggested that they should be able to arrange that to accommodate my needs.&lt;/p&gt;
 &lt;p&gt;After visiting the campus on its open day, I have been looking forward to attending the school more. Wish me luck in passing my Piscine so I can become an official student of 42!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update, 17 February 2025:&lt;/strong&gt; Originally, I registered to join the Piscine scheduled for 24 February 2025, but I received an email from the school announcing that due to unforeseen circumstances, the Piscine scheduled late February 2025 will no longer take place as planned. Therefore, I registered for the Piscine beginning on 7 April 2025.&lt;/p&gt;
-</content>
-    </entry>
-    
-    <entry>
-        <title>Changelog: 7 January 2025</title>
-        <link href="https://leilukin.com/"/>
-        <updated>2025-01-07T08:24:32Z</updated>
-        <id>https://leilukin.com/</id>
-        <content type="html">&lt;ul&gt;
-&lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2025-01-07-blog-questions-challenge&quot;&gt;&amp;quot;Blog Questions Challenge&amp;quot;&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
 </content>
     </entry>
 </feed>
