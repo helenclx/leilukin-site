@@ -19,16 +19,16 @@ eleventyComputed:
         <email>{{ sitemeta.siteAuthor.email }}</email>
     </author>
     {%- for item in collections["feed items"] | reverse | itemLimit(15) %}
-    {% set absolutePostUrl %}{{ item.url | absoluteUrl(feedMeta.baseUrl) }}{% endset %}
-    {% set absoluteChangelogUrl %}{{ feedMeta.baseUrl }}changelogs/{{ item.fileSlug.substring(0, 4) }}/#{{ item.fileSlug }}{% endset %}
+    {%- set absolutePostUrl -%}{{ item.url | absoluteUrl(feedMeta.baseUrl) }}{%- endset -%}
+    {%- set absoluteChangelogUrl -%}{{ feedMeta.baseUrl }}changelogs/{{ item.fileSlug.substring(0, 4) }}/#{{ item.fileSlug }}{%- endset -%}
 
-    {% set absoluteItemUrl %}
-    {% if item.data.tags.includes("changelogs") %}
+    {%- set absoluteItemUrl -%}
+    {%- if item.data.tags.includes("changelogs") -%}
     {{ absoluteChangelogUrl }}
-    {% else %}
+    {%- else -%}
     {{ absolutePostUrl }}
-    {% endif %}
-    {% endset %}
+    {%- endif -%}
+    {%- endset -%}
 
     <entry>
         <title>{{ item.data.title | safe }}</title>
