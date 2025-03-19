@@ -29,7 +29,7 @@
     
     </id>
         <content type="html">&lt;ul&gt;
-&lt;li&gt;In the website&#39;s RSS feed, changelog items are now linked to its anchor links on the corresponding year&#39;s changelog page, instead of the website&#39;s home page.&lt;/li&gt;
+&lt;li&gt;In the website&#39;s RSS feed, changelog items are now linked to their anchor links on the changelog pages, instead of the website&#39;s home page.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </entry>
