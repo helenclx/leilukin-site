@@ -4,12 +4,36 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2025-03-19T11:10:52Z</updated>
+    <updated>2025-03-21T14:05:19Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
         <email>contact@leilukin.com</email>
     </author><entry>
+        <title>Changelog: 21 March 2025</title>
+        <link href="https://leilukin.com/changelogs/2025/#2025-03-21"/>
+        <updated>2025-03-21T14:05:19Z</updated>
+        <id>https://leilukin.com/changelogs/2025/#2025-03-21</id>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2025-03-21-purelymail-online-accounts/&quot;&gt;&amp;quot;Purelymail and Online Account Spring Cleaning&amp;quot;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </entry><entry>
+        <title>Purelymail and Online Account Spring Cleaning | Blog</title>
+        <link href="https://leilukin.com/blog/posts/2025-03-21-purelymail-online-accounts/"/>
+        <updated>2025-03-21T14:05:14Z</updated>
+        <id>https://leilukin.com/blog/posts/2025-03-21-purelymail-online-accounts/</id>
+        <content type="html">&lt;p&gt;I have switched to &lt;a href=&quot;https://purelymail.com/&quot;&gt;Purelymail&lt;/a&gt; as my main email service provider.&lt;/p&gt;
+&lt;p&gt;I have been looking for an alternative email service provider to Gmail and Outlook for my personal use for a while, to reduce my reliance on Big Tech services as much as possible. However, price has always been the main obstacle: as an internet user who lives in a country with cheaper currency than both U.S. Dollars and Euro, I need to be conscious about how much money to spend on Western-based products, and I am honestly not comfortable spending on most of the alternative email service providers, especially for the ability to use custom domain names and create extra mailboxes or users for different purposes.&lt;/p&gt;
+&lt;p&gt;Purelymail, on the other hand, is really cheap: its standard pricing is already as low as 10 U.S. Dollars per year, while offering no hard limits on storage, and no extra charges for using custom domain names and creating extra mailboxes or users. After trying out Purelymail for a bit, I decided to officially activate my account with &lt;a href=&quot;https://purelymail.com/advancedpricing&quot;&gt;advanced pricing&lt;/a&gt;, which is its pay-as-you-go model, because I calculated that my usage would require spending less than 10 U.S. Dollars per year.&lt;/p&gt;
+&lt;p&gt;I created multiple mailboxes on my Purelymail account with my various domain names for different purposes: for personal communication or registering accounts on online service. This means I changed the email addresses of most of my online accounts as well.&lt;/p&gt;
+&lt;p&gt;Speaking of my online accounts, I also took this opportunity of changing the email addresses of my online accounts to close and delete the online accounts that I do not use or need any more. Thanks to a password manager like &lt;a href=&quot;https://bitwarden.com/&quot;&gt;BitWarden&lt;/a&gt;, I am able to not only save passwords and generate unique passwords without having to memorise every one of them myself, but also keep track of how many online accounts I have, including ones that I no longer use or need so I can get rid of those accounts. In the end of this round of online account spring cleaning, I closed and deleted at least 60 accounts.&lt;/p&gt;
+&lt;p&gt;After inspired by the resurgence of personal websites to code my own website for the first time in 2022, I have learned more about the importance of taking control and ownership of my online life and presence. It is telling that many of the online accounts I just deleted were related to services that I had settled for alternatives that I have been satisfied with.&lt;/p&gt;
+&lt;p&gt;For example, &lt;a href=&quot;https://obsidian.md/&quot;&gt;Obsidian&lt;/a&gt; has become my go-to note-taking software for pretty much everything, including projects, so I do not need other online project management services for personal use any more; &lt;a href=&quot;https://affinity.serif.com/en-gb/photo/&quot;&gt;Affinity Photo&lt;/a&gt; and &lt;a href=&quot;https://affinity.serif.com/en-gb/designer/&quot;&gt;Designer&lt;/a&gt; have replaced Adobe Photoshop and Illustrator for my photo editing and vector graphics needs, especially given the fact that I do not work as a graphic designer any more, so I do not need an Adobe account any more.&lt;/p&gt;
+&lt;p&gt;In conclusion, I am satisfied with my switch to Purelymail, and I have found online spring cleaning a good practice in declutter my online life.&lt;/p&gt;
+&lt;p&gt;Shout-out to Porkbun&#39;s support team for helping me to resolve a DNS issue with the leilukin.com domain name after switching from Porkbun&#39;s email forwarding service to Purelymail that was caused by the DNS records related to Porkbun&#39;s email forwarding being cached in leilukin.com&#39;s DNS records longer than expected.&lt;/p&gt;
+</content>
+    </entry><entry>
         <title>Changelog: 19 March 2025</title>
         <link href="https://leilukin.com/changelogs/2025/#2025-03-19"/>
         <updated>2025-03-19T11:10:52Z</updated>
@@ -164,51 +188,6 @@ Me&lt;/p&gt;
         <id>https://leilukin.com/changelogs/2025/#2025-02-06</id>
         <content type="html">&lt;ul&gt;
 &lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2025-02-06-my-2025-lunar-new-year&quot;&gt;&amp;quot;My 2025 Lunar New Year&amp;quot;&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </entry><entry>
-        <title>My 2025 Lunar New Year | Blog</title>
-        <link href="https://leilukin.com/blog/posts/2025-02-06-my-2025-lunar-new-year/"/>
-        <updated>2025-02-05T16:25:22Z</updated>
-        <id>https://leilukin.com/blog/posts/2025-02-06-my-2025-lunar-new-year/</id>
-        <content type="html">&lt;p&gt;Happy Lunar New Year and Year of the Snake to fellow Asians who celebrate! 🧧🐍&lt;/p&gt;
-&lt;p&gt;As a Chinese person, Lunar New Year is a major holiday, especially given the fact that here in Malaysia, Lunar New Year is the only traditional Chinese holiday that is also an official holiday in a national scale, which means the first two days of Lunar New Year are a holiday for non-Chinese people in Malaysia as well.&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;preparation&quot;&gt;Preparation&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-02-06-my-2025-lunar-new-year/#preparation&quot; aria-labelledby=&quot;preparation&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;As for my family specifically, our tradition for celebrating Lunar New Year is family gatherings with our relatives in my parents&#39; hometown. In addition, as Lunar New Year takes place in January or February, we start preparing to celebrate it since early January, soon after a new year in Gregorian calendar begins. Our Lunar New Year celebration in 2025, the Year of the Snake, is no exception.&lt;/p&gt;
-&lt;p&gt;This year, my younger brother, who has been living in Singapore since attending a university there and then working in Singapore since, returned to Malaysia from Singapore, which is not something we take for granted since he had skipped returning to Malaysia during Lunar New Year in the past, including the previous year.&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;lunar-new-year-eve&quot;&gt;Lunar New Year Eve&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-02-06-my-2025-lunar-new-year/#lunar-new-year-eve&quot; aria-labelledby=&quot;lunar-new-year-eve&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;Once we returned to my parents&#39; hometown, we gathered with our extended family on my father&#39;s side for a reunion lunch (yes, lunch, not dinner since we had our reunion meal in the afternoon) on Lunar New Year Eve on January 28.&lt;/p&gt;
-&lt;p&gt;After our lunch, my immediate family and I joined one of my paternal uncles, who owns the house we were staying in after the passing of my paternal grandmother, and his girlfriend in visiting our family&#39;s durian plantation. The highlight of the durian plantation visit is meeting my uncle&#39;s female dog Baak Baan for the first time.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://leilukin.com/assets/images/posts/my-2025-lunar-new-year/baak-baan-1.avif&quot; alt=&quot;Photo of a mixed breed white female dog with brown spots on her forehead, ears, backside and tail, at the compound of a house, looking at the camera while smiling, and a pot is beneath the dog&#39;s head.&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Baak Baan was a stray dog that was founded by my uncle when she walked into our durian plantation one day months ago. At the time, Baak Baan was injured, and starved to the extent that her ribs were visible. Thankfully, under my uncle&#39;s care, she had become healthier, so she became my uncle&#39;s pet and guard dog. She was named Baak Baan after the mahjong tile &lt;span lang=&quot;zh&quot;&gt;白板&lt;/span&gt; in Cantonese. Baak Baan was a good girl, and we enjoyed greeting and petting her.&lt;/p&gt;
-&lt;p&gt;When the evening came, we prepared to count down to the arrival of Lunar New Year. As soon as 12 am of the first day of Lunar New Year arrived, fireworks began.&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;first-day-of-lunar-new-year&quot;&gt;First Day of Lunar New Year&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-02-06-my-2025-lunar-new-year/#first-day-of-lunar-new-year&quot; aria-labelledby=&quot;first-day-of-lunar-new-year&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;My immediate family also has the tradition of visiting my maternal family in the morning of the first day of Lunar New Year and having lunch together in the afternoon, and 2025 was no different. I have large extended families on both parents&#39; sides, due to the combination of my father having many siblings, my mother&#39;s elder sister having many children, who would end up having children on their own.&lt;/p&gt;
-&lt;p&gt;Fun fact: both my parents were actually childhood neighbours who grew up in the same hometown, so I am lucky to have the convenience of being able to visit both sides of my extended families in the same place during Lunar New Year. While my maternal uncle had moved out several years ago, it is still not too far away from my parents&#39; hometown, so we still do not need to travel far to gather with my maternal family during Lunar New Year.&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;return-to-my-home&quot;&gt;Return to My Home&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-02-06-my-2025-lunar-new-year/#return-to-my-home&quot; aria-labelledby=&quot;return-to-my-home&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;We returned to my home from my parents&#39; hometown on the second day of Lunar New Year, after taking our lunch.&lt;/p&gt;
-&lt;p&gt;My brother went back to Singapore on the next day, which was also the third day of Lunar New Year.&lt;/p&gt;
-&lt;div class=&quot;heading-wrapper h2&quot;&gt;
-&lt;h2 id=&quot;watching-a-malaysian-lunar-new-year-film&quot;&gt;Watching a Malaysian Lunar New Year Film&lt;/h2&gt;
-&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-02-06-my-2025-lunar-new-year/#watching-a-malaysian-lunar-new-year-film&quot; aria-labelledby=&quot;watching-a-malaysian-lunar-new-year-film&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;While my family&#39;s Lunar New Year celebration in my parents&#39; hometown had been over, we are still in a Lunar New Year mood. Therefore, on February 3, which was also lichun (&lt;span lang=&quot;zh&quot;&gt;立春&lt;/span&gt;) and the sixth day of Lunar New Year, my parents and I watched a Malaysian Lunar New Year film named &lt;cite&gt;Money Games&lt;/cite&gt; (&lt;span lang=&quot;zh&quot;&gt;《半斤百两》&lt;/span&gt;) in a local cinema.&lt;/p&gt;
-&lt;p&gt;This was the first Malaysian film I watched with my parents in cinema. I did not expect much from a Lunar New Year film to be a masterpiece since such films are made for entertainment first and foremost, but I had some good laughs out of the film. Not to mention, given how rampant news about Malaysians encountering scams are, an entertaining film aiming to be anti-fraud is not a bad idea.&lt;/p&gt;
-</content>
-    </entry><entry>
-        <title>Changelog: 19 January 2025</title>
-        <link href="https://leilukin.com/changelogs/2025/#2025-01-19"/>
-        <updated>2025-01-19T15:14:44Z</updated>
-        <id>https://leilukin.com/changelogs/2025/#2025-01-19</id>
-        <content type="html">&lt;ul&gt;
-&lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2025-01-19-attending-42-school&quot;&gt;&amp;quot;Attending 42 the Computer Science School&amp;quot;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </entry>
