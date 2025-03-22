@@ -3,9 +3,9 @@ export default {
     permalink: "/links/{{ page.fileSlug }}/",
     hasBreadcrumbs: true,
     eleventyComputed: {
-        title: "{{ articleTitle | safe }} | Links",
+        title: (data) => `${data.articleTitle} | Links`,
         eleventyNavigation: {
-            key: "{{ articleTitle }}",
+            key: (data) => data.articleTitle,
             parent: "Links"
         }
     }

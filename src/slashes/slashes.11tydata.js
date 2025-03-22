@@ -4,7 +4,7 @@ export default {
     permalink: "/{{ page.fileSlug }}/",
     eleventyComputed: {
         eleventyNavigation: {
-            key: "{{ title }}"
+            key: (data) => data.title
         }
     }
 }
