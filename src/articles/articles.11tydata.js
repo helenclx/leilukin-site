@@ -4,9 +4,9 @@ export default {
     permalink: "/articles/{{ page.fileSlug }}/",
     isArticle: true,
     eleventyComputed: {
-        title: "{{ articleTitle | safe }} | Articles",
+        title: (data) => `${data.articleTitle} | Articles`,
         eleventyNavigation: {
-            key: "{{ articleTitle }}",
+            key: (data) => data.articleTitle,
             parent: "Articles"
         }
     }

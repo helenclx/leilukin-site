@@ -4,7 +4,7 @@ export default {
     permalink: "/changelogs/{{ page.fileSlug }}/",
     eleventyComputed: {
         eleventyNavigation: {
-            key: "{{ changelogNav }}",
+            key: (data) => data.changelogNav,
             parent: "Changelogs"
         }
     }

@@ -2,7 +2,7 @@ export default {
     tags: "archive",
     eleventyComputed:{
         eleventyNavigation: {
-            key: "{{ title }}"
+            key: (data) => data.title
         }
     }
 }

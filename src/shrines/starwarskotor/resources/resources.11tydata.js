@@ -4,9 +4,9 @@ export default {
     hasBreadcrumbs: true,
     articleElement: true,
     eleventyComputed: {
-        title: "{{ pageTitle | safe }} | Resources",
+        title: (data) => `${data.pageTitle} | Resources`,
         eleventyNavigation: {
-            key: "{{ pageTitle }}",
+            key: (data) => data.pageTitle,
             parent: "KotOR Resources"
         }
     }

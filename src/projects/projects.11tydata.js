@@ -4,7 +4,7 @@ export default {
     hasBreadcrumbs: true,
     eleventyComputed: {
         eleventyNavigation: {
-            key: "{{ title }}",
+            key: (data) => data.title,
             parent: "Projects"
         }
     }

@@ -3,9 +3,9 @@ export default {
     tags: "statements",
     articleElement: true,
     eleventyComputed: {
-        desc: "{{ sitemeta.siteName | safe }}'s {{ keyword }}.",
+        desc: (data) => `${data.sitemeta.siteName}'s ${data.keyword}`,
         eleventyNavigation:{
-            key: "{{ title }}"
+            key: (data) => data.title
         }
     }
 }
