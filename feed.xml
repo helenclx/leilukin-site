@@ -4,12 +4,21 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2025-03-21T14:05:19Z</updated>
+    <updated>2025-03-25T13:51:02Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
         <email>contact@leilukin.com</email>
     </author><entry>
+        <title>Changelog: 25 March 2025</title>
+        <link href="https://leilukin.com/changelogs/2025/#2025-03-25"/>
+        <updated>2025-03-25T13:51:02Z</updated>
+        <id>https://leilukin.com/changelogs/2025/#2025-03-25</id>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;Add new mod, &lt;a href=&quot;/projects/videogamemods/kotor2/#Consistent-Bastila-Recognition&quot;&gt;Consistent Bastila Recognition&lt;/a&gt;, to my &lt;a href=&quot;/projects/videogamemods/kotor2/&quot;&gt;&lt;cite&gt;Star Wars: Knights of the Old Republic II&lt;/cite&gt; mod page&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </entry><entry>
         <title>Changelog: 21 March 2025</title>
         <link href="https://leilukin.com/changelogs/2025/#2025-03-21"/>
         <updated>2025-03-21T14:05:19Z</updated>
@@ -180,15 +189,6 @@ Me&lt;/p&gt;
 &lt;p&gt;This Xiaomi Smart Band 9 was a free gift from my father&#39;s purchase of Redmi Note 14 Pro 5G. My mother had bought the same Xiaomi smartwatch for herself a while ago, so my parents gave this new one to me. Since the &amp;quot;mi&amp;quot; (&lt;span lang=&quot;zh&quot;&gt;米&lt;/span&gt;) in Xiaomi&#39;s Chinese name &lt;span lang=&quot;zh&quot;&gt;小米&lt;/span&gt; also means rice in Chinese, my parents jokingly referred to my father buying a new Redmi Note smartphone as &amp;quot;buying rice&amp;quot; (&lt;span lang=&quot;zh&quot;&gt;买米&lt;/span&gt;).&lt;/p&gt;
 &lt;p&gt;My parents and I have been Xiaomi customers for years since we purchased our first Redmi Note budget smartphones. My current smartphone is Redmi Note 13 Pro 5G, so I used my Redmi smartphone to set up my Xiaomi smartwatch as well. Yes, the photo above of me wearing Xiaomi Smart Band 9 was taken with the camera in my Redmi Note 13 Pro 5G.&lt;/p&gt;
 &lt;p&gt;As I have entered my 30s, my parents have encouraged me to do my best to take good care of my health before it is too late. Recently during Lunar New Year, my eldest paternal aunt commented that I had gained weight since the last time she saw me nearly a year ago. I never considered getting a smartwatch before, but now that I have one, I may as well make good use of it by keeping track of my health information, so hopefully it will help me to stay healthy.&lt;/p&gt;
-</content>
-    </entry><entry>
-        <title>Changelog: 6 February 2025</title>
-        <link href="https://leilukin.com/changelogs/2025/#2025-02-06"/>
-        <updated>2025-02-05T16:25:31Z</updated>
-        <id>https://leilukin.com/changelogs/2025/#2025-02-06</id>
-        <content type="html">&lt;ul&gt;
-&lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2025-02-06-my-2025-lunar-new-year&quot;&gt;&amp;quot;My 2025 Lunar New Year&amp;quot;&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
 </content>
     </entry>
 </feed>
