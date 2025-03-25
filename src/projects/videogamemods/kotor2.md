@@ -120,7 +120,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
     ]
 }) }}
 
-<h2>Party Members</h2>
+## Party Members
 
 {{ modEntry({
     title: "PartySwap",
@@ -208,6 +208,22 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
         {
             site: "Nexus Mods",
             url: "https://www.nexusmods.com/kotor2/mods/1180"
+        }
+    ]
+}) }}
+
+{{ modEntry({
+    title: "Consistent Bastila Recognition",
+    bannerFile: "kotor2mods/Consistent-Bastila-Recognition.avif",
+    desc: "Make the Exile refer to Bastila by name when talking to T3 about Bastila's hologram message, like the Exile does in the secret tomb on Korriban.",
+    downloads: [
+        {
+            site: "Deadly Stream",
+            url: "https://deadlystream.com/files/file/2695-consistent-bastila-recognition/"
+        },
+        {
+            site: "Nexus Mods",
+            url: "https://www.nexusmods.com/kotor2/mods/1285"
         }
     ]
 }) }}
