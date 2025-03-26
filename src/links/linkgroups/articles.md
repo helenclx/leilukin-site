@@ -1,7 +1,7 @@
 ---
 title: Articles
 date: 2024-07-03
-updated: 2024-12-13T22:10:06+0800
+updated: 2025-03-26T09:32:17+0800
 toc: true
 ---
 
@@ -42,6 +42,10 @@ toc: true
 * [You should have a website](https://nora.zone/manifesto.html) by Nora Reed
 
     Nora Reed's website manifesto has been my go-to recommendated reading for why you should make your own website rather than relying on social media for your web presence.{.item-list__indent}
+
+* [In Praise of Links](https://osteophage.neocities.org/writing/in-praise-of-links) by Coyote
+
+    Hyperlinks keep the web alive. This is also why link pages like this exist.{.item-list__indent}
 
 * [The one app to read them all already exists, and it’s called RSS](https://journal.jatan.space/why-use-rss/) by Jatan Mehta
 
