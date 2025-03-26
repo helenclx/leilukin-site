@@ -2,10 +2,10 @@ import slugify from "slugify";
 import { markdownLibrary } from "./markdown-it.js";
 
 export default function(eleventyConfig) {
-    // <cite> tag
+    // Shortcode: <cite> tag
     eleventyConfig.addShortcode('cite', (str) => `<cite>${str}</cite>`);
 
-    // Manual heading anchor
+    // Shortcode: Manual heading anchor
     eleventyConfig.addPairedShortcode('headingAnchor', (title, hLevel, id=slugify(title)) => {
         return `<div class="heading-wrapper h${hLevel}">
             <h${hLevel} id="${id}">${title}</h${hLevel}>
@@ -13,14 +13,14 @@ export default function(eleventyConfig) {
         </div>`;
     });
 
-    // Custom container
+    // Shortcode: Custom container
     eleventyConfig.addPairedShortcode('container', (children, el, className) => {
         const classMarkup = className ? ` class="${className}"` : "";
         const content = markdownLibrary.render(children);
         return `<${el}${classMarkup}>${content}</${el}>`;
     });
 
-    // Image figure and figcaption
+    // Shortcode: Image figure and figcaption
     eleventyConfig.addPairedShortcode('imgFigure', (
         caption, img, alt=caption, className, enableLazyLoading=true
     ) => {
@@ -32,7 +32,7 @@ export default function(eleventyConfig) {
         </figure>`;
     });
 
-    // Content disclosure
+    // Shortcode: Content disclosure
     eleventyConfig.addPairedShortcode('disclosure', (content, summary) => {
         const summaryMarkup = markdownLibrary.renderInline(summary);
         const contentMarkup = markdownLibrary.render(content);
@@ -42,7 +42,7 @@ export default function(eleventyConfig) {
         </details>`;
     });
 
-    // Paired shorcode: Content warning disclosure
+    // Shortcode: Content warning disclosure
     eleventyConfig.addPairedShortcode('contentWarning', (content, warning) => {
         const warningMarkup = markdownLibrary.renderInline(warning);
         const contentMarkup = markdownLibrary.render(content);
