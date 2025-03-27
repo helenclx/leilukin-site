@@ -1,7 +1,7 @@
 ---
 title: Webmastery
 date: 2024-07-01
-updated: 2025-03-27T09:15:05+0800
+updated: 2025-03-27T09:15:36+0800
 toc: true
 ---
 
@@ -26,12 +26,12 @@ toc: true
 * [Can I use...](https://caniuse.com/) — Check browser compatibility for web features
 * [SVGOMG](https://jakearchibald.github.io/svgomg/) — SVG optimiser
 * [URL-encoder for SVG](https://yoksel.github.io/url-encoder/)
-- [Bekah's Blog Idea Generator](https://www.thefrugalgamer.net/programming/blogPrompts/)
 
 ### Ideas for Your Website
 
 * [Ideas for Your Personal Website](https://32bit.cafe/websiteideas/) by 32-Bit Cafe
 * [Slash Pages](https://slashpages.net/)
+- [Bekah's Blog Idea Generator](https://www.thefrugalgamer.net/programming/blogPrompts/)
 
 ### Web Accessibility
 
