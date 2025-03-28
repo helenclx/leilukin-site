@@ -12,17 +12,10 @@ eleventyNavigation:
     order: 1
 ---
 
+{% from "global/macros.njk" import articleList with context %}
+
 ## My {% cite "Cassette Beasts" %} Articles
-<ul>
-{%- for article in collections["cassette beasts articles"] -%}
-    <li>
-        <p class="item-list__title">
-            <a href="{{ article.url }}">{{ article.data.articleTitle }}</a>
-        </p>
-        <time datetime="{{ article.date }}">{{ article.date | formatDate }}</time>
-    </li>
-{%- endfor -%}
-</ul>
+{{ articleList("cassette beasts articles") }}
 
 ## {% cite "Cassette Beasts" %} Articles I Recommend
 

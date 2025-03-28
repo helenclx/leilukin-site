@@ -1,3 +1,16 @@
+{%- macro articleList(tag) -%}
+<ul>
+    {%- for article in collections[tag] -%}
+    <li>
+        <p class="item-list__title">
+            <a href="{{ article.url }}">{{ article.data.articleTitle }}</a>
+        </p>
+        <time datetime="{{ article.date }}">{{ article.date | formatDate }}</time>
+    </li>
+    {%- endfor -%}
+</ul>
+{%- endmacro -%}
+
 {%- macro modEntry(params) -%}
 {% headingAnchor 3 %}{{ params.title }}{% endheadingAnchor %}
 <div class="mod-entry">

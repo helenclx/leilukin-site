@@ -12,17 +12,10 @@ eleventyNavigation:
     order: 2
 ---
 
+{% from "global/macros.njk" import articleList with context %}
+
 ## My KotOR Guides
-<ul>
-{%- for article in collections["kotor guides"] -%}
-    <li>
-        <p class="item-list__title">
-            <a href="{{ article.url }}">{{ article.data.articleTitle }}</a>
-        </p>
-        <time datetime="{{ article.date }}">{{ article.date | formatDate }}</time>
-    </li>
-{%- endfor -%}
-</ul>
+{{ articleList("kotor guides") }}
 
 ## KotOR 1 Guides by Others
 * [{% cite "Star Wars: Knights of the Old Republic" %} section](https://strategywiki.org/wiki/Star_Wars:_Knights_of_the_Old_Republic) on StrategyWiki

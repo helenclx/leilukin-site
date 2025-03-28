@@ -12,41 +12,16 @@ eleventyNavigation:
     order: 1
 ---
 
+{% from "global/macros.njk" import articleList with context %}
+
 ## My Articles for Both Games
-<ul>
-{%- for article in collections["kotor both articles"] -%}
-    <li>
-        <p class="item-list__title">
-            <a href="{{ article.url }}">{{ article.data.articleTitle }}</a>
-        </p>
-        <time datetime="{{ article.date }}">{{ article.date | formatDate }}</time>
-    </li>
-{%- endfor -%}
-</ul>
+{{ articleList("kotor both articles") }}
 
 ## My KotOR 1 Articles
-<ul>
-{%- for article in collections["kotor 1 articles"] -%}
-    <li>
-        <p class="item-list__title">
-            <a href="{{ article.url }}">{{ article.data.articleTitle }}</a>
-        </p>
-        <time datetime="{{ article.date }}">{{ article.date | formatDate }}</time>
-    </li>
-{%- endfor -%}
-</ul>
+{{ articleList("kotor 1 articles") }}
 
 ## My KotOR 2 Articles
-<ul>
-{%- for article in collections["kotor 2 articles"] -%}
-    <li>
-        <p class="item-list__title">
-            <a href="{{ article.url }}">{{ article.data.articleTitle }}</a>
-        </p>
-        <time datetime="{{ article.date }}">{{ article.date | formatDate }}</time>
-    </li>
-{%- endfor -%}
-</ul>
+{{ articleList("kotor 2 articles") }}
 
 ## KotOR Articles I Recommend
 

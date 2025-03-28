@@ -6,18 +6,11 @@ eleventyNavigation:
     order: 5
 ---
 
+{% from "global/macros.njk" import articleList with context %}
+
 ## My Articles
 Articles I have written.
-<ul>
-{%- for article in collections["my articles"] -%}
-    <li>
-        <p class="item-list__title">
-            <a href="{{ article.url }}">{{ article.data.articleTitle }}</a>
-        </p>
-        <time datetime="{{ article.date }}">{{ article.date | formatDate }}</time>
-    </li>
-{%- endfor -%}
-</ul>
+{{ articleList("my articles") }}
 
 ## My Articles for Video Games with Their Own Pages
 * My {% cite "Cassette Beasts" %} shrine [Articles](/shrines/cassettebeasts/articles/) page
@@ -25,13 +18,4 @@ Articles I have written.
 
 ## Featured Articles
 Articles featuring other people's interview with me.
-<ul>
-{%- for article in collections["featured articles"] -%}
-    <li>
-        <p class="item-list__title">
-            <a href="{{ article.url }}">{{ article.data.articleTitle }}</a>
-        </p>
-        <time datetime="{{ article.date }}">{{ article.date | formatDate }}</time>
-    </li>
-{%- endfor -%}
-</ul>
+{{ articleList("featured articles") }}
