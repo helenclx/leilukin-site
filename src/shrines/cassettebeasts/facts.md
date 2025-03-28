@@ -110,6 +110,9 @@ Late 2019
 15 January 2025
 : {% cite "Cassette Beasts" %} released on [Android](https://play.google.com/store/apps/details?id=com.RawFury.CassetteBeasts) and [iOS](https://apps.apple.com/sg/app/cassette-beasts/id6736517805).
 
+27 March 2025
+: Version 1.7 "Sunshine Update" and "Wings Pack" cosmetic DLC [announced](https://store.steampowered.com/news/app/1321440/view/543351239572719532) to be released on 7 April 2024, with an [announcement trailer](https://www.youtube.com/watch?v=MfEy-5hpi6I).
+
 ## Accolades
 
 {% cite "Cassette Beasts" %} was [nominated for The British Game](https://twitter.com/ByttenStudio/status/1765742782700782040) ([archived](https://web.archive.org/web/20240307212519/https://twitter.com/ByttenStudio/status/1765742782700782040)) at the 20th British Academy (BAFTA) Games Awards.
@@ -228,27 +231,6 @@ Jay Baylis had addressed the subject of {% cite "Cassette Beasts" %} not being a
 > Furthermore, Godot 3 (the game engine Cassette Beasts is made in) is not easy to port, and cannot be done "out the box" - it requires an external partnership to do so (unlike engines like Unity and Unreal). Only a handful of Godot games had been ported to Switch before Cassette Beasts and they were all 2D games. **{% cite "Cassette Beasts" %} is the first game developed from the ground up as a 3D Godot game to ever be ported to console**. This has been a huge challenge for both us and, more importantly, the porting team we've worked with! What's more, every update and DLC made takes longer to release with every platform you add.
 >
 > This doesn't mean that porting to Playstation won't/cannot *ever* happen, but we wouldn't promise anything unless we knew for sure. Game development is a series of trade-offs, and decisions like this aren't really made down to personal preference for platforms - personally, I mostly play games on PS5 at the moment.
-
-### Possibility of adding new partners
-
-Bytten Studio never hinted at any possibility of adding new partners to {% cite "Cassette Beasts" %}. In fact, Jay Baylis had [stated in Bytten Studio's AMA on the r/NintendoSwitch Subreddit on 1 July 2023](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/comment/jq9hy3n/?context=3) that:
-
-> [...]the current number of partner characters is baked into the design of the game in a number of ways, making it very difficult to organically add new ones in.
-
-### Sunny's lack of screen time and content
-
-Sunny, a minor NPC who appears after the completion of Eugene's quest line, has become immensely popular in the player base despite her limited screen time, wishing she could have a larger role in the game, most commonly to become a partner, with some players even expressing disappointment that Sunny only gets a minor role in the game, and questioning why.
-
-The reason why Sunny has little screen time and content was that she was added late into the game's development and only intended by Bytten Studio as a little side story after Eugene's quest to surprise players. Bytten Studio never intended Sunny to have a huge role or much content, and they did not expect Sunny would become this popular in the player base.
-
-> We believe that a lot of the secret sauce for Cassette Beasts' appeal is in its ability to surprise the player in various ways, so things don't get too predictable. Sunny is a character that I wrote into the game quite late, as I had envisioned her whole sequence of events as being something unexpected and funny that you wouldn't expect happening as a consequence of the questline that proceeds it. Sunny's appearance is, ultimately, just a fun little side story that I cooked up to add some more flavour to the goings-on in Harbourtown. However, it's clear that she's very popular for a character who appears in exactly two cutscenes, which isn't something we entirely expected!
-> — Jay Baylis (u/SamuriFerret). [Comment](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9mwtq/) during Bytten Studio's AMA on the r/NintendoSwitch Subreddit. 1 July 2023.
-
-> [...]in hindsight, given her popularity in the community, we all wish we'd given Sunny more screen-time. She was a late, unplanned addition as we neared the release.
-> — Tom Coxon (u/tcoxon). [Comment](https://www.reddit.com/r/JRPG/comments/1bniroh/comment/kwjb7w4/) during Bytten Studio's AMA on the r/JRPG Subreddit. 26 March 2024.
-
-> Sunny was a late addition to the game as I pitched a short storyline involving the gang rehabilitating a Landkeeper after Eugene's quest. It's very apparent we underestimated how popular she'd turn out to be!
-> — Jay Baylis. [Comment](https://www.reddit.com/r/JRPG/comments/1bniroh/comment/kwmb4j4/) during Bytten Studio's AMA on the r/JRPG Subreddit. 26 March 2024.
 
 [^cb-steam-blog-20230228]: ["Cassette Beasts Blog #13 - You asked, we answered!"](https://store.steampowered.com/news/app/1321440/view/3669908058337516561). {% cite "Cassette Beasts" %} Steam blog. 28 February 2023.
 
