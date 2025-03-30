@@ -20,6 +20,10 @@ You can also check out my [status.cafe profile](https://status.cafe/users/leiluk
 * {% cite "Neko Atsume" %}
 * {% cite "Pokémon Trading Card Game Pocket" %}
 
+## Switching to Vim and Neovim from Visual Studio Code as My Main Code Editor
+
+Visual Studio Code had been my main code editor for two years, since I started to teach myself web development, but I have been trying out Vim and Neovim (with [LazyVim](https://www.lazyvim.org/)'s setup for the latter), and am considering having them replace Visual Studio Code as my main code editor.
+
 ## Planning on Attending the 42 Computer Science School
 
 I have been planning on attending a Malaysian campus of the [42 computer science school](https://www.42network.org/). I have registered, passed their online game test and will join their trial bootcamp known as the Piscine beginning on 7 April 2025.
