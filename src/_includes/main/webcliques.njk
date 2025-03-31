@@ -1,7 +1,7 @@
 {%- css %}.color-bg { padding: 0.125em 0.3em; }{% endcss %}
 
 {%- macro webCliqueImg(file, width, height, alt="") -%}
-    <img src="/assets/cliques/{{ file }}" alt="{{ alt }}" class="inline-img" width="{{ width }}" height="{{ height }}" loading="lazy">
+<img src="/assets/cliques/{{ file }}" alt="{{ alt }}" class="inline-img" width="{{ width }}" height="{{ height }}" loading="lazy">
 {%- endmacro -%}
 
 <ul>
@@ -9,14 +9,18 @@
         {{ webCliqueImg("30plusclub.gif", 88, 31) }}
         <a href="https://moonpr1sm.com/random/30plusclub">30+ Club</a>
     </li>
-    <li><a href="http://aromatic.wings.nu/">aromatic</a> // lavender</li>
     <li><a href="http://cliqued.wings.nu/">rainbow</a> &#x1F308; <span class="color-bg" style="background-color: black; color: white;">black</span> and <span class="color-bg" style="background-color: purple; color: white;">purple</span></li>
-    <li>My favourite food is: <a href="https://frankie.fanacular.net/food">Mushrooms</a></li>
+    <li><a href="http://aromatic.wings.nu/">aromatic</a> // lavender</li>
+    <li>
+        <a href="https://dogspit.nekoweb.org/dogperson.html">dogperson</a> -
+        {{ webCliqueImg("dogperson.png", 14, 14) }} Pomeranians and Schipperkes
+    </li>
     <li>My favourite hot bevarage is <a href="https://cliques.moudoku.com/hot">Coffee</a></li>
     <li>
         {{ webCliqueImg("caffeineNATION.png", 80, 15) }}
         <a href="https://caffeinated.wings.nu/">caffeineNATION</a> &#x2615;&#xFE0E; mocha latte
     </li>
+    <li>My favourite food is: <a href="https://frankie.fanacular.net/food">Mushrooms</a></li>
     <li>
         <a href="http://cliqued.wings.nu/">OTF</a>
         {{ webCliqueImg("OTF.png", 15, 16) }}
