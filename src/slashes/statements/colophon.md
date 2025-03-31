@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2025-02-17T18:18:21+0800
+updated: 2025-03-31T19:00:04+0800
 toc: true
 eleventyNavigation:
     order: 14
@@ -14,7 +14,6 @@ Information about how this website is built.
 * Built with the static site generator [Eleventy](https://www.11ty.dev/) v{{ eleventy.version }}.
 * JavaScript runtime: [Bun](https://bun.sh).
 * Templating languages: Nunjucks and Markdown.
-* Code written with Visual Studio Code.
 * Tested browsers: Mozilla Firefox, Vivaldi and Lynx.
 * Source code available on [GitHub](https://github.com/helenclx/leilukin-site) and its [Gitea mirror](https://git.32bit.cafe/Leilukin/leilukin-site).
 
