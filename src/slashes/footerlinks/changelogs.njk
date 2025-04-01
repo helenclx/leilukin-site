@@ -16,8 +16,8 @@ eleventyNavigation:
 
 <h2>Latest Changelogs</h2>
 {% for log in changelogs %}
-    <h3 class="date-style"><time datetime="{{ log.date }}">{{ log.date | formatDate }}</time></h3>
-    {{ log.content | safe }}
+<h3 class="date-style"><time datetime="{{ log.date }}">{{ log.date | formatDate }}</time></h3>
+{{ log.content | safe }}
 {%- endfor %}
 
 {% include "global/pagination-oldnew.njk" %}

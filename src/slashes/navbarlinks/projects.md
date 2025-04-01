@@ -17,18 +17,18 @@ eleventyComputed:
 {% container "section", "content__section" %}
 ## My Code Projects
 <ul>
-{%- for project in collections["code projects"] -%}
+    {%- for project in collections["code projects"] -%}
     <li><a href="{{ project.url }}">{{ project.data.title }}</a> — {{ project.data.desc }}</li>
-{%- endfor -%}
+    {%- endfor -%}
 </ul>
 {% endcontainer %}
 
 {% container "section", "content__section" %}
 ## My Code Snippets
 <ul>
-{%- for snippet in collections["code snippets"] -%}
+    {%- for snippet in collections["code snippets"] -%}
     <li><a href="{{ snippet.url }}">{{ snippet.data.title }}</a> — {{ snippet.data.desc }}</li>
-{%- endfor -%}
+    {%- endfor -%}
 </ul>
 {% endcontainer %}
 
@@ -45,11 +45,11 @@ My drawings can be found on my art blog on Tumblr:
 
 I have created mods (short for "modifications") for the following video games:
 <ul>
-{%- for mods in collections["video game mods"] -%}
+    {%- for mods in collections["video game mods"] -%}
     <li>
         <a href="{{ mods.url }}">{{ mods.data.title }}</a>
     </li>
-{%- endfor -%}
+    {%- endfor -%}
 </ul>
 {% endcontainer %}
 

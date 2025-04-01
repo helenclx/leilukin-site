@@ -14,10 +14,10 @@ articleElement: true
         >Latest</a></li>
         {% set navPages = collections.all | eleventyNavigation("Changelogs") | reverse %}
         {%- for entry in navPages %}
-            <li><a
-                {% if entry.url == page.url %}aria-current="page"{% endif %}
-                href="{{ entry.url }}"
-            >{{ entry.title }}</a></li>
+        <li><a
+            {% if entry.url == page.url %}aria-current="page"{% endif %}
+            href="{{ entry.url }}"
+        >{{ entry.title }}</a></li>
         {%- endfor %}
     </ul>
 </nav>

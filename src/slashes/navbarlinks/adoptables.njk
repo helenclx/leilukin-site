@@ -10,25 +10,25 @@ eleventyNavigation:
 ---
 
 {%- macro virtualPet(url, img, alt, tooltip=alt) -%}
-    <li data-tooltip>
-        <a href="{{ url }}" data-tooltip-trigger title="{{ tooltip }}">
-            <img src="{{ img }}" alt="{{ alt }}" loading="lazy">
-        </a>
-    </li>
+<li data-tooltip>
+    <a href="{{ url }}" data-tooltip-trigger title="{{ tooltip }}">
+        <img src="{{ img }}" alt="{{ alt }}" loading="lazy">
+    </a>
+</li>
 {%- endmacro -%}
 
 {%- macro myPixelArt(file, alt, tooltip=alt) -%}
-    <li data-tooltip>
-        <img src="/assets/adoptables/{{ file }}" alt="{{ alt }}" data-tooltip-trigger title="{{ tooltip }}" loading="lazy" tabindex="0">
-    </li>
+<li data-tooltip>
+    <img src="/assets/adoptables/{{ file }}" alt="{{ alt }}" data-tooltip-trigger title="{{ tooltip }}" loading="lazy" tabindex="0">
+</li>
 {%- endmacro -%}
 
 {%- macro adoptable(url, file, alt, tooltip=alt) -%}
-    <li data-tooltip>
-        <a href="{{ url }}" data-tooltip-trigger title="{{ tooltip }}">
-            <img src="/assets/adoptables/{{ file }}" alt="{{ alt }}" loading="lazy">
-        </a>
-    </li>
+<li data-tooltip>
+    <a href="{{ url }}" data-tooltip-trigger title="{{ tooltip }}">
+        <img src="/assets/adoptables/{{ file }}" alt="{{ alt }}" loading="lazy">
+    </a>
+</li>
 {%- endmacro -%}
 
 <section class="content__section">
