@@ -24,20 +24,20 @@ eleventyComputed:
 <section class="content__section">
     <h2>Blog Posts</h2>
     <ul class="blog__posts">
-    {% for post in postList %}
+        {% for post in postList %}
         <li class="blog__post">
             <h3 class="blog__post--title">
                 <a href="{{ post.url }}">
                     {% if post.data.title %}{{ post.data.articleTitle }}
                     {% else %}
-                        <code>{{ post.url }}</code>
+                    <code>{{ post.url }}</code>
                     {% endif %}
                 </a>
             </h3>
             <p class="blog__post--time"><time datetime="{{ post.date }}">{{ post.date | formatDate }}</time></p>
             <p>{{ post.data.desc }}</p>
         </li>
-    {% endfor %}
+        {% endfor %}
     </ul>
 
     {% include "global/pagination-oldnew.njk" %}

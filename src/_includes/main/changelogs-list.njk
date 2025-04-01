@@ -1,7 +1,7 @@
 {% for log in changelogList | reverse %}
-    {% headingAnchor 2, log.fileSlug %}
-        {{ log.date | formatDate }}
-    {% endheadingAnchor %}
+{% headingAnchor 2, log.fileSlug %}
+{{ log.date | formatDate }}
+{% endheadingAnchor %}
 
-    {{ log.content | safe }}
+{{ log.content | safe }}
 {%- endfor %}

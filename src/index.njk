@@ -52,8 +52,8 @@ eleventyComputed:
     <h2>What is New?</h2>
     <div class="text-box">
         {% for log in collections["changelogs"] | reverse | itemLimit(1) %}
-            <h3>{{ log.data.title }}</h3>
-            {{ log.content | safe }}
+        <h3>{{ log.data.title }}</h3>
+        {{ log.content | safe }}
         {%- endfor %}
         <p><a href="/changelogs">View all site changelogs</a></p>
     </div>
@@ -66,9 +66,9 @@ eleventyComputed:
     <h2>Always Proud</h2>
     <div class="flag-el flag-progress-intersex-lesbian" role="img" aria-label="Custom pride flag which combines the lesbian pride flag and the progress pride flag triangle" style="margin-bottom: 1em;"></div>
     {%- macro prideButton(file, alt, width=88, height=31) -%}
-        <li data-tooltip>
-            <img src="/assets/buttons/pride/{{ file }}.png" alt="{{ alt }}" data-tooltip-trigger title="{{ alt }}" width="{{ width }}" height="{{ height }}" loading="lazy" tabindex="0">
-        </li>
+    <li data-tooltip>
+        <img src="/assets/buttons/pride/{{ file }}.png" alt="{{ alt }}" data-tooltip-trigger title="{{ alt }}" width="{{ width }}" height="{{ height }}" loading="lazy" tabindex="0">
+    </li>
     {%- endmacro -%}
     <ul class="web-graphics">
         {{ prideButton("progress", "Progress Flag by Daniel Quasar (2018)") }}

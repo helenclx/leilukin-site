@@ -5,10 +5,10 @@ shrineHomeUrl: /shrines/asummersend/
 {% extends "global/navbar.njk" %}
 
 {% block navbarLinks %}
-    {% set navPages = collections.all | eleventyNavigation("A Summer’s End Shrine") %}
-    {%- for entry in navPages %}
-        <li>
-            <a {% if entry.url == page.url %}aria-current="page"{% endif %} href="{{ entry.url }}">{{ entry.title }}</a>
-        </li>
-    {%- endfor %}
+{% set navPages = collections.all | eleventyNavigation("A Summer’s End Shrine") %}
+{%- for entry in navPages %}
+<li>
+    <a {% if entry.url == page.url %}aria-current="page"{% endif %} href="{{ entry.url }}">{{ entry.title }}</a>
+</li>
+{%- endfor %}
 {% endblock %}

@@ -17,9 +17,9 @@ isContentDivided: true
     <nav aria-labelledby="tabs-title">
         <h3 class="visually-hidden" id="tabs-title">Tabs Group</h3>
         <ul class="tabs">
-        {% for group in linkGroups %}
+            {% for group in linkGroups %}
             <li><a class="tab__btn" href="#{{ group.data.title | slugify }}">{{ group.data.title }}</a></li>
-        {%- endfor %}
+            {%- endfor %}
         </ul>
     </nav>
 </section>
@@ -44,5 +44,5 @@ isContentDivided: true
 
         <a href="#linktabs" class="tab__btn tab__back">Back to tabs</a>
     </section>
-{%- endfor %}
+    {%- endfor %}
 </article>
