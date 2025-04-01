@@ -11,7 +11,7 @@ While I am not a Muslim, I live in a majorly-Muslim country, so Eid al-Fitr is a
 
 When the Chief Minister of my state hosts a open house for Eid al-Fitr, we would attend for a free lunch. Unsurprisingly, the free meals have always attracted a lot of people. Unfortunately, as an autistic person, I do not do particularly well in crowds as I am sensitive to loud sounds and my mind is rather easy to be overwhelmed by an unpredictable environment.
 
-On top of that, my visual disabilities, especially with [retinitis pigmentosa](/articles/living-with-retinitis-pigmentosa/) (RP) weakening my peripheral vision, seeing and navigating my surroundings becomes more challenging in a large crowd. In fact, this year also marked my first visit to the Chief Minister's Eid al-Fitr open house since I got diagnosed with RP. During this visit, I tripped on a makeshift stair because I could not see the edge of the stars clearly.
+On top of that, my visual disabilities, especially with [retinitis pigmentosa](/articles/living-with-retinitis-pigmentosa/) (RP) weakening my peripheral vision, seeing and navigating my surroundings becomes more challenging in a large crowd. In fact, this year also marked my first visit to the Chief Minister's Eid al-Fitr open house since I got diagnosed with RP. During this visit, I tripped on a makeshift stair because I could not see the edge of the stairs clearly.
 
 As for the food, I took [char kway teow](https://en.wikipedia.org/wiki/Char_kway_teow), [biryani](https://en.wikipedia.org/wiki/Biryani), [cendol](https://en.wikipedia.org/wiki/Cendol), glutinous rice and watermelon.
 
