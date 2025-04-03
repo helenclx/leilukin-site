@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2025-03-30T22:39:32+800
+updated: 2025-04-03T20:31:06+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -22,7 +22,9 @@ You can also check out my [status.cafe profile](https://status.cafe/users/leiluk
 
 ## Switching to Vim and Neovim from Visual Studio Code as My Main Code Editor
 
-Visual Studio Code had been my main code editor for two years, since I started to teach myself web development, but I have been trying out Vim and Neovim (with [LazyVim](https://www.lazyvim.org/)'s setup for the latter), and am considering having them replace Visual Studio Code as my main code editor.
+Visual Studio Code had been my main code editor for two years, since I started to teach myself web development, but I have switched to Neovim (with [LazyVim](https://www.lazyvim.org/)'s setup) as my main code editor.
+
+You can read more about the switch in my blog post, ["I Use (Neo)Vim BTW"](/blog/posts/2025-04-03-i-use-neovim-btw/). 
 
 ## Planning on Attending the 42 Computer Science School
 
