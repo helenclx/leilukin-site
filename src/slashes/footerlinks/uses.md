@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-04-02T23:00:43+0800
+updated: 2025-04-03T11:47:24+0800
 toc: true
 eleventyNavigation:
      order: 13  
@@ -103,8 +103,8 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### Art and Design
 
-- Photo editor: [Affinity Photo](https://affinity.serif.com/photo/)
-- Vector graphic editor: [Affinity Designer](https://affinity.serif.com/designer/)
+- Photo editor: [Affinity Photo 2](https://affinity.serif.com/photo/)
+- Vector graphic editor: [Affinity Designer 2](https://affinity.serif.com/designer/)
 - Drawing: [Krita](https://krita.org/)
 - Video editor: [Kdenlive](https://kdenlive.org/)
 - Audio editor: [Tenacity](https://tenacityaudio.org/)
