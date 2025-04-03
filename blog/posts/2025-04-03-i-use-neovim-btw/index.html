@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="top">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        
+        
+        <meta property="og:title" content="I Use (Neo)Vim BTW | Blog">
+        
+        <link rel="canonical" href="https://leilukin.com/blog/posts/2025-04-03-i-use-neovim-btw/">
+<meta name="generator" content="Eleventy v3.0.0">
+<meta name="author" content="Leilukin">
+<meta name="description" content="I have officially joined the Vim ecosystem and switched to Neovim as my main code editor.">
+<meta name="fediverse:creator" content="@Leilukin@dragonscave.space">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:type" content="article">
+<meta property="og:description" content="I have officially joined the Vim ecosystem and switched to Neovim as my main code editor.">
+<meta property="og:url" content="https://leilukin.com/blog/posts/2025-04-03-i-use-neovim-btw/">
+<meta property="og:locale" content="en_MY">
+<meta property="og:image" content="https://leilukin.com/assets/leilukin/leilukins-hub-meta-img.png">
+<meta name="theme-color" content="#3d2163">
+
+        
+        <link rel="alternate" type="application/rss+xml" title="Leilukin&#39;s Hub" href="/feed.xml">
+
+        
+        <link rel="preload" href="/assets/fonts/readex-pro/readex-pro-v22-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/assets/fonts/readex-pro/readex-pro-v22-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<style>
+    @font-face {
+        font-display: swap;
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 400;
+        src: url('/assets/fonts/readex-pro/readex-pro-v22-latin-regular.woff2') format('woff2');
+    }
+    @font-face {
+        font-display: swap;
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 700;
+        src: url('/assets/fonts/readex-pro/readex-pro-v22-latin-700.woff2') format('woff2');
+    }
+</style>
+<link rel="stylesheet" href="/assets/fonts/fonts.css">
+
+
+        
+        <link rel="stylesheet" href="/assets/css/global.css"><link rel="stylesheet" href="/assets/css/a11y-syntax-highlighting-dark.css"><link rel="stylesheet" href="/assets/css/general.css"><link rel="stylesheet" href="/assets/css/content.css"><link rel="stylesheet" href="/assets/css/plugins.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="stylesheet" href="/assets/css/pridesymbols.css"><link rel="stylesheet" href="/assets/css/utility.css">
+        
+        <style>.toc__wrapper {
+    max-height: var(--ht-sticky-sidebar);
+    overflow-x: auto;
+    background-color: var(--clr-content-bg);
+    padding: 1rem 1.3rem;
+}
+
+.toc__heading {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--clr-sub-heading);
+}
+
+.toc__wrapper[open] > .toc__heading {
+    margin-bottom: 0.5em;
+}
+
+.toc ol, .toc ol ol {
+    display: grid;
+    gap: 0.3em;
+}
+
+.toc ol {
+    border-top: 0.1em solid var(--clr-title-border);
+    padding-left: 1.3em;
+    padding-top: 1em;
+}
+
+.toc ol ol {
+    border-top: none;
+    list-style-type: disc;
+    padding-left: 1em;
+    padding-top: 0.3em;
+}
+
+.toc ol a {
+    font-size: 1.1rem;
+    padding-left: 0.3em;
+}
+
+.toc ol ol a {
+    padding: 0;
+    font-size: 1rem;
+}
+.content__nav {
+        padding: 1.2em clamp(1em, 5%, 1.5em);
+        background-color: var(--clr-content-bg);
+    }
+
+    .content__nav--title {
+        font-size: 1.7rem;
+    }
+.breadcrumbs {
+        margin-bottom: 0.7em;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .blog__post--pagination {
+        padding-top: 1em;
+        margin-block-start: 2.5em;
+        border-top: 0.1em solid var(--clr-title-border);
+    }
+
+    .blog__post--nextprev {
+        list-style-type: "";
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 0.7em;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 'prev next';
+    }
+
+    .blog__post--prev { grid-area: prev; }
+    .blog__post--next { grid-area: next; }
+.hero img { filter: 
+drop-shadow(0.1rem 0.1rem 0.2rem black)
+drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
+; }
+.hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0.7em;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: contain;
+        overflow: hidden;
+        max-height: 16rem;
+    }
+.navbar {
+        background: var(--clr-navbar-bg);
+        width: 100%;
+        z-index: 998;
+        position: sticky;
+        top: 0;
+        padding: 0.6em;
+    }
+
+    .navbar__menu {
+        list-style-type: "";
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 1em;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .navbar__menu a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        font-weight: 700;
+        display: inline-block;
+    }
+
+    .navbar__menu a:hover { color: var(--clr-link-hover); }
+    .navbar__menu a:focus { outline-offset: 0.2em; }
+
+    .navbar__links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 0.5em;
+    }
+
+    .navbar__toggle {
+        background-color: inherit;
+        color: var(--clr-navbar-link);
+        border: none;
+        padding: 0;
+        font-size: 1.25rem;
+        font-weight: 700;
+        display: none;
+        align-items: center;
+        gap: 0.3em;
+    }
+
+    .navbar__toggle svg { fill: currentColor; }
+
+    .navbar__toggle:focus,
+    .navbar__menu a:focus { outline-offset: 0.1em; }
+    .navbar__toggle:focus,
+    .navbar__menu a:focus { outline: 0.15em solid var(--clr-navbar-link); }
+
+    .navbar__popover {
+        background: var(--clr-navbar-bg);
+        border: 0.15em solid var(--clr-navbar-link);
+        padding: 1.5em;
+        max-width: 85%;
+    }
+
+    .navbar__popover::backdrop {
+        background-color: black;
+        opacity: 0.5;
+    }
+
+    @supports selector([popover]) {
+        .navbar__toggle { display: flex; }
+        .navbar__links { display: none; }
+    }
+
+    /* Tablet screen size */
+    @media only screen and (min-width: 43.75rem) {
+        .navbar { padding: 1em 0.6em; }
+        .navbar__toggle, .navbar__popover { display: none; }
+        .navbar__links { display: flex; }
+    }
+.top-btn,
+    .top-btn:hover {
+        color: var(--clr-top-btn-txt);
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    .top-btn {
+        position: fixed;
+        bottom: 0.5rem;
+        right: 0.5rem;
+        z-index: 999;
+
+        background-color: var(--clr-top-btn-bg);
+        display: flex;
+        align-items: center;
+        border-radius: 50em;
+        padding: 0.3em 0.5em;
+        gap: 0.2em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn-bg);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn__arrow {
+        display: inline-block;
+        width: 1em;
+        aspect-ratio: 1 / 1;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+    }
+:root { --footer-gap: 0.5em; }
+
+    .footer {
+        margin-top: auto;
+        width: 100%;
+        background: var(--clr-main-footer-bg);
+        padding: 1.5rem 1rem clamp(1.5rem, calc(100% - 1.5rem), 3.5rem);
+        text-align: center;
+        display: grid;
+        gap: var(--footer-gap);
+    }
+
+    .footer__links,
+    .footer__shrines {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: var(--footer-gap);
+    }
+
+    .footer__links { justify-self: center; }
+    .footer__shrines { align-self: center; }</style>
+
+        
+        <link rel="icon" sizes="32x32" href="/favicon.ico">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon/leilukin-bee-favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+        
+        <link rel="me" href="https://dragonscave.space/@Leilukin">
+        <link rel="me" href="https://github.com/Leilukin">
+        <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+
+        
+        <script src="/assets/js/IXgPBemady.js" defer=""></script>
+        
+        <script src="/assets/js/details-utils.js" defer=""></script>
+        
+        
+        
+
+        <title>
+            I Use (Neo)Vim BTW | Blog | Leilukin's Hub
+        </title>
+    </head>
+    <body>
+        <div class="skip-btn"><a href="#content">Skip to content</a></div>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <img fetchpriority="high" src="/assets/leilukin/Leilukins-Hub-website-banner.avif" alt="Banner of Leilukin's Hub" width="900" height="300">
+
+    </div>
+</header>
+        
+
+<nav class="navbar" aria-labelledby="top-level-nav-title">
+    <h2 class="visually-hidden" id="top-level-nav-title">Top Level</h2>
+    <ul class="navbar__menu navbar__links">
+
+
+<li>
+    <a href="/">Home</a>
+</li>
+<li>
+    <a href="/about/">About</a>
+</li>
+<li>
+    <a href="/now/">Now</a>
+</li>
+<li>
+    <a href="/blog/">Blog</a>
+</li>
+<li>
+    <a href="/articles/">Articles</a>
+</li>
+<li>
+    <a href="/projects/">Projects</a>
+</li>
+<li>
+    <a href="/shrines/">Shrines</a>
+</li>
+<li>
+    <a href="/adoptables/">Adoptables</a>
+</li>
+<li>
+    <a href="/links/">Links</a>
+</li>
+<li>
+    <a href="/guestbook/">Guestbook</a>
+</li>
+</ul>
+    <button class="navbar__toggle" popovertarget="nav-menu" aria-label="Toggle navigation menu">
+        <svg aria-hidden="true" focusable="false" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path></svg>
+        Navigation
+    </button>
+</nav>
+<div popover="" id="nav-menu" class="navbar__popover">
+    <ul class="navbar__menu">
+
+
+<li>
+    <a href="/">Home</a>
+</li>
+<li>
+    <a href="/about/">About</a>
+</li>
+<li>
+    <a href="/now/">Now</a>
+</li>
+<li>
+    <a href="/blog/">Blog</a>
+</li>
+<li>
+    <a href="/articles/">Articles</a>
+</li>
+<li>
+    <a href="/projects/">Projects</a>
+</li>
+<li>
+    <a href="/shrines/">Shrines</a>
+</li>
+<li>
+    <a href="/adoptables/">Adoptables</a>
+</li>
+<li>
+    <a href="/links/">Links</a>
+</li>
+<li>
+    <a href="/guestbook/">Guestbook</a>
+</li>
+</ul>
+</div>
+        <main id="content">
+            <header class="main__header">
+    
+    <nav class="breadcrumbs" aria-labelledby="breadcrumbs-title">
+        <h2 class="visually-hidden" id="breadcrumbs-title">Breadcrumbs</h2>
+        
+        <a href="/blog/">Blog</a>
+        <span aria-hidden="true">➔</span>
+        <a href="/blog/posts/">Blog Archive</a>
+        <span aria-hidden="true">➔</span>
+    </nav>
+    
+
+    <h1>I Use (Neo)Vim BTW</h1>
+
+    
+    <div class="article__info">
+        <p>
+            1,246 words.
+            Posted on <time datetime="2025-04-03T20:23:44+0800">3 April 2025</time> by Leilukin
+        </p>
+        
+        
+        <p>Categories:
+            
+            <a href="/categories/vim">vim</a>, 
+            
+            <a href="/categories/neovim">neovim</a>, 
+            
+            <a href="/categories/42-the-school">42 the school</a>, 
+            
+            <a href="/categories/vs-code">vs code</a>
+            
+        </p>
+        
+    </div>
+    
+</header>
+
+<content-wrapper>
+    
+    <aside class="left-sidebar" aria-label="Left sidebar">
+    <details-utils force-open="(min-width: 60rem)" force-restore="">
+        <details class="toc__wrapper sidebar--sticky">
+            <summary class="toc__heading" id="toc-heading">
+                Table of Contents
+            </summary>
+            <nav class="toc" aria-labelledby="toc-heading"><ol><li><a href="#introduction">Introduction</a></li>
+<li><a href="#the-seed-of-using-vim">The Seed of Using Vim</a></li>
+<li><a href="#side-note-gnu-emacs">Side Note: GNU Emacs</a></li>
+<li><a href="#started-to-learn-to-use-vim">Started to Learn to Use Vim</a></li>
+<li><a href="#hello-neovim-and-lazyvim">Hello, Neovim and LazyVim</a></li>
+<li><a href="#from-vs-code-to-the-vim-ecosystem">From VS Code to the Vim Ecosystem</a></li></ol></nav>
+        </details>
+    </details-utils>
+</aside>
+
+    
+
+    
+
+    <article class="content">
+        <div class="heading-wrapper h2">
+<h2 id="introduction">Introduction</h2>
+<a class="heading-anchor" href="#introduction" aria-labelledby="introduction"><span hidden="">#</span></a></div>
+<p>It is official: I have switched from <a href="https://code.visualstudio.com/">Visual Studio Code</a> to <a href="https://neovim.io/">Neovim</a> as my main code editor.</p>
+<p>Since I started to teach myself web development, Visual Studio Code had been my integrated development environment (IDE) of choice for two years. I started out with VS Code because an IDE with a graphic user interface (GUI) were easier for a newbie web developer to get used to, especially given the fact that I came from a graphic design background, GUI ticked my graphic brain. It helped that VS Code's vast theme and extension ecosystems allowed me to customise my VS Code workspace to suit my needs.</p>
+<p>For two years, I was content with VS Code and my workspace in it. Occasionally, I discovered other code editors and IDEs, and I even briefly considered using <a href="https://vscodium.com/">VSCodium</a>, a community-driven binary releases of VS Code without Microsoft's branding, but I ended up still preferring VS Code for being easier to install extensions. I knew the existence of <a href="https://www.vim.org/">Vim</a>, but with the first thing I learned about them was jokes and memes about how to exit Vim, it was not exactly the best first impression. 😅 The idea of using a terminal-based code editor had not crossed my mind either.</p>
+<p>That changed when I attended <a href="/blog/posts/2025-03-06-attended-42-discovery-piscine/">42 the computer science school's 5-day bite-sized coding bootcamp</a>, called Discovery Piscine, in late February this year.</p>
+<div class="heading-wrapper h2">
+<h2 id="the-seed-of-using-vim">The Seed of Using Vim</h2>
+<a class="heading-anchor" href="#the-seed-of-using-vim" aria-labelledby="the-seed-of-using-vim"><span hidden="">#</span></a></div>
+<p>The computers of my local campus of 42 use Linux, specifically the Ubuntu distribution. Discovery Piscine's curriculum focused on Python, but the assignments also included using shell commands, specifically the Bash shell, thus encouraged students to use the terminal to do the assignments.</p>
+<p>When I was attending the Discovery Piscine, the only terminal-based text editor I had used was GNU nano, which I had used to edit some configuration files, so GNU nano was what I used for the Discovery Piscine assignments. This also marked my first time coding in GNU nano.</p>
+<p>However, as I made progressed in the assignments, I quickly realised GNU nano's simplicity would make it inefficient to do more advanced coding work on it. Meanwhile, evaluating my peers' assignments allowed me to discover that some of my peers were using Vim. I did not have the time to learn to use Vim when I attended Discovery Piscine, but it planted the seed of the idea of using Vim in my mind.</p>
+<p>The computers in my 42 campus allow us to install Visual Studio Code or VSCodium — in fact, I used VS Code briefly during the Discovery Piscine to check my assignment files The curriculum also does not impose restriction on which text or code editor we should use for our coding assignments. That said, I figured that with their shell command assignments, and the fact that I already interact with the terminal in my own computer a lot due to building my websites with a static site generator, it would be a good idea to incorporate the terminal in my coding workflow more, by familiarising myself with a powerful terminal-based code editor like Vim, especially as I was planning on attending 42's full Piscine trial bootcamp in April.</p>
+<p>In late March, as the April Piscine was approaching, and I wanted to get prepared for the Piscine as much as possible, I decided to finally learn to use Vim for real.</p>
+<div class="heading-wrapper h2">
+<h2 id="side-note-gnu-emacs">Side Note: GNU Emacs</h2>
+<a class="heading-anchor" href="#side-note-gnu-emacs" aria-labelledby="side-note-gnu-emacs"><span hidden="">#</span></a></div>
+<p>As a side note, it is worth pointing out that the computers in my 42 campus also had <a href="https://www.gnu.org/s/emacs/">GNU Emacs</a> pre-installed. I was already aware of the jokes and memes about the Vim vs. Emacs <a href="https://en.wikipedia.org/wiki/Editor_war">editor war</a>, and I did consider trying out GNU Emacs, but I eventually chose to learn to use Vim first, because I appreciate Vim for being lightweight and ubiquitous as it is pre-isntalled in most Linux distributions, which means even if I use a different Linux machine, I can still count on being able to use a powerful editor for coding. In fact, Vim came pre-installed in my Windows Subsystem for Linux (WSL) with Ubuntu as well.</p>
+<p>That said, I am still not completely ruling out the possibility of me using GNU Emacs one day, just not anytime soon.</p>
+<div class="heading-wrapper h2">
+<h2 id="started-to-learn-to-use-vim">Started to Learn to Use Vim</h2>
+<a class="heading-anchor" href="#started-to-learn-to-use-vim" aria-labelledby="started-to-learn-to-use-vim"><span hidden="">#</span></a></div>
+<p>I started learning the keyboard shortcuts and commands in Vim by typing the <code>vimtutor</code> tutorial in the terminal of my Windows Subsystem for Linux (WSL) with Ubuntu. I had realised that learning by doing is the best way for me to learn programming, so I appreciate tutorials like vimtutor that allows me to learn and practice by doing.</p>
+<p>Even when just trying out Vim's keyboard shortcuts and commands in the tutorial, I already had a much with Vim. Finally trying out Vim myself has certainly made me appreciate it a lot, and see why would developers choose Vim as their code editor of choice. Doing all the coding in keyboard reduces the context switch that would come with using a mouse, combined with Vim's minimal interface, it allows for a coding environment with fewer distractions.</p>
+<p>Even after completing vimtutor, sometimes I still revisit the tutorial to refresh my memory of certain Vim shortcuts and commands.</p>
+<p>After completing vimtutor, I downloaded and installed gVim in my Windows system. One of the first things I did after installing gVim was adding <a href="https://reubenlillie.com/">Reuben L. Lillie</a>'s <a href="https://github.com/ericwbailey/a11y-syntax-highlighting/blob/main/dist/vim/a11y-dark.vim">a11y dark theme</a>, which was based on <a href="https://ericwbailey.website/">Eric Bailey</a>'s <a href="https://github.com/ericwbailey/a11y-syntax-highlighting">a11y syntax highlighting</a>, as my default theme in Vim.</p>
+<div class="heading-wrapper h2">
+<h2 id="hello-neovim-and-lazyvim">Hello, Neovim and LazyVim</h2>
+<a class="heading-anchor" href="#hello-neovim-and-lazyvim" aria-labelledby="hello-neovim-and-lazyvim"><span hidden="">#</span></a></div>
+<p>As I explored the Vim ecosystem further, I discovered Neovim, a fork of Vim. Vim itself has a vast plugin ecosystem, but one particular Neovim setup that attracted my attention was <a href="https://www.lazyvim.org/">LazyVim</a>, as it not only turns Neovim into a full-fledged IDE, but also makes it easy to customise and extend your Neovim configuration.</p>
+<p>The plugin ecosystem of the Vim family made me consider making Vim and Neovim replace VS Code as my main code editor. LazyVim provided what I was looking for as a great replacement for VS Code: it includes plugins that replicates the various features I use VS Code for, mainly file tree, searching files by file name or file content and code snippets. The more I explored LazyVim's features, the happier I am with my decision to switch from VS Code to Neovim as my code editor of choice, and LazyVim certainly helped with the transition.</p>
+<p>With LazyVim turning Neovim into an IDE that serves my needs, I decided to keep Vim as my backup text editor in the terminal, so I keep my Vim setup simple, with no plugins other than themes and syntax highlighting.</p>
+<div class="heading-wrapper h2">
+<h2 id="from-vs-code-to-the-vim-ecosystem">From VS Code to the Vim Ecosystem</h2>
+<a class="heading-anchor" href="#from-vs-code-to-the-vim-ecosystem" aria-labelledby="from-vs-code-to-the-vim-ecosystem"><span hidden="">#</span></a></div>
+<p>As part of my efforts to transition to the Vim ecosystem as my main code editor, I'm building the habit of navigating the directories containing my code files with the terminal, and open the code files with Vim or Neovim in the terminal.</p>
+<p>Finally, as I settled in Vim and Neovim, I uninstalled most extensions in Visual Studio Code, officially marking my switch from VS Code to Neovim as my main code editor.</p>
+<p>Hello, Vim and Neovim!</p>
+
+
+    
+    <nav class="blog__post--pagination" aria-labelledby="nextprev-title">
+        <h2 class="visually-hidden" id="nextprev-title">Next and Previous Blog Posts</h2>
+        <ul class="blog__post--nextprev">
+            <li class="blog__post--prev">
+                <p>Previous Post:</p>
+                <a href="/blog/posts/2025-04-01-tdov-eid-al-fitr/">Happy Transgender Day of Visibility and Eid al-Fitr</a>
+            </li>
+            
+        </ul>
+    </nav>
+    
+    </article>
+
+    
+    <aside class="right-sidebar" aria-label="Right sidebar">
+    <nav class="content__nav sidebar--sticky" aria-labelledby="my-contents-title">
+        <h2 class="content__nav--title" id="my-contents-title">My Contents</h2>
+        <ul class="content__nav--links">
+            
+            <li><a href="/archive/">Content Archive</a></li>
+            
+            <li><a href="/categories/">Content Categories</a></li>
+            
+            <li><a href="/articles/">Articles</a></li>
+            
+            <li><a href="/blog/posts/">Blog Archive</a></li>
+            
+            <li><a href="/blog/">Blog Home</a></li>
+            
+        </ul>
+    </nav>
+</aside>
+
+    
+
+    
+</content-wrapper>
+        </main>
+        <footer class="footer">
+    <p>
+        <svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path></svg>
+        <a rel="nofollow, noindex" href="emailme/">Contact me by email</a> (<a href="https://useplaintext.email/">plain text email</a> encouraged)
+    </p>
+    <h2 class="visually-hidden">Footer Navigation:</h2>
+    
+    <ul class="inline-nav footer__links">
+        <li>
+            <a href="/feed.xml"><svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"></path></svg>RSS Feed</a>
+        </li>
+        <li><a href="/sitemap/
+        ">Site Map</a></li><li><a href="/changelogs/">Changelogs</a></li><li><a href="/uses/">Uses</a></li><li><a href="/accessibility/">Accessibility</a></li><li><a href="/colophon/">Colophon</a></li></ul>
+    <p>Made with ♥ by Leilukin since 11 September 2022</p>
+<p>
+        <svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M96 64c0-17.7 14.3-32 32-32l320 0 64 0c70.7 0 128 57.3 128 128s-57.3 128-128 128l-32 0c0 53-43 96-96 96l-192 0c-53 0-96-43-96-96L96 64zM480 224l32 0c35.3 0 64-28.7 64-64s-28.7-64-64-64l-32 0 0 128zM32 416l512 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 480c-17.7 0-32-14.3-32-32s14.3-32 32-32z"></path></svg>
+        <a href="https://ko-fi.com/leilukin">Support me on Ko-Fi</a>
+    </p><div class="h-card hidden">
+    <span class="p-name p-nickname">Leilukin</span>
+    <a href="/" class="u-url">Home page</a>
+    <img src="https://i.postimg.cc/RZJgS6tY/leilukin-bee.avif" alt="Leilukin" class="u-photo" loading="lazy">
+    <span class="p-country-name">Malaysia</span>
+    <span class="p-note">They/she. A proudly queer and autistic <span class="p-gender-identity">non-binary</span> lesbian from Malaysia.</span>
+</div><a href="#top" class="top-btn">
+    <svg class="top-btn__arrow" focusable="false" aria-hidden="true" viewBox="0 0 26 28">
+        <path d="M25.172 15.172c0 0.531-0.219 1.031-0.578 1.406l-1.172 1.172c-0.375 0.375-0.891 0.594-1.422 0.594s-1.047-0.219-1.406-0.594l-4.594-4.578v11c0 1.125-0.938 1.828-2 1.828h-2c-1.062 0-2-0.703-2-1.828v-11l-4.594 4.578c-0.359 0.375-0.875 0.594-1.406 0.594s-1.047-0.219-1.406-0.594l-1.172-1.172c-0.375-0.375-0.594-0.875-0.594-1.406s0.219-1.047 0.594-1.422l10.172-10.172c0.359-0.375 0.875-0.578 1.406-0.578s1.047 0.203 1.422 0.578l10.172 10.172c0.359 0.375 0.578 0.891 0.578 1.422z"></path>
+    </svg>
+    Back to Top
+</a>
+</footer>
+    </body>
+</html>

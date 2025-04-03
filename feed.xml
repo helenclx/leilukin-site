@@ -4,12 +4,68 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2025-04-01T04:24:43Z</updated>
+    <updated>2025-04-03T12:26:32Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
         <email>contact@leilukin.com</email>
     </author><entry>
+        <title>Changelog: 3 April 2025</title>
+        <link href="https://leilukin.com/changelogs/2025/#2025-04-03"/>
+        <updated>2025-04-03T12:26:32Z</updated>
+        <id>https://leilukin.com/changelogs/2025/#2025-04-03</id>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;Change the website&#39;s default font family to &lt;a href=&quot;https://fonts.google.com/specimen/Readex+Pro&quot;&gt;Readex Pro&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2025-04-03-i-use-neovim-btw/&quot;&gt;&amp;quot;I Use (Neo)Vim BTW&amp;quot;&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Add &lt;a href=&quot;/uses&quot;&gt;Uses&lt;/a&gt; page.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </entry><entry>
+        <title>I Use (Neo)Vim BTW | Blog</title>
+        <link href="https://leilukin.com/blog/posts/2025-04-03-i-use-neovim-btw/"/>
+        <updated>2025-04-03T12:23:44Z</updated>
+        <id>https://leilukin.com/blog/posts/2025-04-03-i-use-neovim-btw/</id>
+        <content type="html">&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-04-03-i-use-neovim-btw/#introduction&quot; aria-labelledby=&quot;introduction&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;It is official: I have switched from &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;Visual Studio Code&lt;/a&gt; to &lt;a href=&quot;https://neovim.io/&quot;&gt;Neovim&lt;/a&gt; as my main code editor.&lt;/p&gt;
+&lt;p&gt;Since I started to teach myself web development, Visual Studio Code had been my integrated development environment (IDE) of choice for two years. I started out with VS Code because an IDE with a graphic user interface (GUI) were easier for a newbie web developer to get used to, especially given the fact that I came from a graphic design background, GUI ticked my graphic brain. It helped that VS Code&#39;s vast theme and extension ecosystems allowed me to customise my VS Code workspace to suit my needs.&lt;/p&gt;
+&lt;p&gt;For two years, I was content with VS Code and my workspace in it. Occasionally, I discovered other code editors and IDEs, and I even briefly considered using &lt;a href=&quot;https://vscodium.com/&quot;&gt;VSCodium&lt;/a&gt;, a community-driven binary releases of VS Code without Microsoft&#39;s branding, but I ended up still preferring VS Code for being easier to install extensions. I knew the existence of &lt;a href=&quot;https://www.vim.org/&quot;&gt;Vim&lt;/a&gt;, but with the first thing I learned about them was jokes and memes about how to exit Vim, it was not exactly the best first impression. 😅 The idea of using a terminal-based code editor had not crossed my mind either.&lt;/p&gt;
+&lt;p&gt;That changed when I attended &lt;a href=&quot;https://leilukin.com/blog/posts/2025-03-06-attended-42-discovery-piscine/&quot;&gt;42 the computer science school&#39;s 5-day bite-sized coding bootcamp&lt;/a&gt;, called Discovery Piscine, in late February this year.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;the-seed-of-using-vim&quot;&gt;The Seed of Using Vim&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-04-03-i-use-neovim-btw/#the-seed-of-using-vim&quot; aria-labelledby=&quot;the-seed-of-using-vim&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;The computers of my local campus of 42 use Linux, specifically the Ubuntu distribution. Discovery Piscine&#39;s curriculum focused on Python, but the assignments also included using shell commands, specifically the Bash shell, thus encouraged students to use the terminal to do the assignments.&lt;/p&gt;
+&lt;p&gt;When I was attending the Discovery Piscine, the only terminal-based text editor I had used was GNU nano, which I had used to edit some configuration files, so GNU nano was what I used for the Discovery Piscine assignments. This also marked my first time coding in GNU nano.&lt;/p&gt;
+&lt;p&gt;However, as I made progressed in the assignments, I quickly realised GNU nano&#39;s simplicity would make it inefficient to do more advanced coding work on it. Meanwhile, evaluating my peers&#39; assignments allowed me to discover that some of my peers were using Vim. I did not have the time to learn to use Vim when I attended Discovery Piscine, but it planted the seed of the idea of using Vim in my mind.&lt;/p&gt;
+&lt;p&gt;The computers in my 42 campus allow us to install Visual Studio Code or VSCodium — in fact, I used VS Code briefly during the Discovery Piscine to check my assignment files The curriculum also does not impose restriction on which text or code editor we should use for our coding assignments. That said, I figured that with their shell command assignments, and the fact that I already interact with the terminal in my own computer a lot due to building my websites with a static site generator, it would be a good idea to incorporate the terminal in my coding workflow more, by familiarising myself with a powerful terminal-based code editor like Vim, especially as I was planning on attending 42&#39;s full Piscine trial bootcamp in April.&lt;/p&gt;
+&lt;p&gt;In late March, as the April Piscine was approaching, and I wanted to get prepared for the Piscine as much as possible, I decided to finally learn to use Vim for real.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;side-note-gnu-emacs&quot;&gt;Side Note: GNU Emacs&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-04-03-i-use-neovim-btw/#side-note-gnu-emacs&quot; aria-labelledby=&quot;side-note-gnu-emacs&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;As a side note, it is worth pointing out that the computers in my 42 campus also had &lt;a href=&quot;https://www.gnu.org/s/emacs/&quot;&gt;GNU Emacs&lt;/a&gt; pre-installed. I was already aware of the jokes and memes about the Vim vs. Emacs &lt;a href=&quot;https://en.wikipedia.org/wiki/Editor_war&quot;&gt;editor war&lt;/a&gt;, and I did consider trying out GNU Emacs, but I eventually chose to learn to use Vim first, because I appreciate Vim for being lightweight and ubiquitous as it is pre-isntalled in most Linux distributions, which means even if I use a different Linux machine, I can still count on being able to use a powerful editor for coding. In fact, Vim came pre-installed in my Windows Subsystem for Linux (WSL) with Ubuntu as well.&lt;/p&gt;
+&lt;p&gt;That said, I am still not completely ruling out the possibility of me using GNU Emacs one day, just not anytime soon.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;started-to-learn-to-use-vim&quot;&gt;Started to Learn to Use Vim&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-04-03-i-use-neovim-btw/#started-to-learn-to-use-vim&quot; aria-labelledby=&quot;started-to-learn-to-use-vim&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;I started learning the keyboard shortcuts and commands in Vim by typing the &lt;code&gt;vimtutor&lt;/code&gt; tutorial in the terminal of my Windows Subsystem for Linux (WSL) with Ubuntu. I had realised that learning by doing is the best way for me to learn programming, so I appreciate tutorials like vimtutor that allows me to learn and practice by doing.&lt;/p&gt;
+&lt;p&gt;Even when just trying out Vim&#39;s keyboard shortcuts and commands in the tutorial, I already had a much with Vim. Finally trying out Vim myself has certainly made me appreciate it a lot, and see why would developers choose Vim as their code editor of choice. Doing all the coding in keyboard reduces the context switch that would come with using a mouse, combined with Vim&#39;s minimal interface, it allows for a coding environment with fewer distractions.&lt;/p&gt;
+&lt;p&gt;Even after completing vimtutor, sometimes I still revisit the tutorial to refresh my memory of certain Vim shortcuts and commands.&lt;/p&gt;
+&lt;p&gt;After completing vimtutor, I downloaded and installed gVim in my Windows system. One of the first things I did after installing gVim was adding &lt;a href=&quot;https://reubenlillie.com/&quot;&gt;Reuben L. Lillie&lt;/a&gt;&#39;s &lt;a href=&quot;https://github.com/ericwbailey/a11y-syntax-highlighting/blob/main/dist/vim/a11y-dark.vim&quot;&gt;a11y dark theme&lt;/a&gt;, which was based on &lt;a href=&quot;https://ericwbailey.website/&quot;&gt;Eric Bailey&lt;/a&gt;&#39;s &lt;a href=&quot;https://github.com/ericwbailey/a11y-syntax-highlighting&quot;&gt;a11y syntax highlighting&lt;/a&gt;, as my default theme in Vim.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;hello-neovim-and-lazyvim&quot;&gt;Hello, Neovim and LazyVim&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-04-03-i-use-neovim-btw/#hello-neovim-and-lazyvim&quot; aria-labelledby=&quot;hello-neovim-and-lazyvim&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;As I explored the Vim ecosystem further, I discovered Neovim, a fork of Vim. Vim itself has a vast plugin ecosystem, but one particular Neovim setup that attracted my attention was &lt;a href=&quot;https://www.lazyvim.org/&quot;&gt;LazyVim&lt;/a&gt;, as it not only turns Neovim into a full-fledged IDE, but also makes it easy to customise and extend your Neovim configuration.&lt;/p&gt;
+&lt;p&gt;The plugin ecosystem of the Vim family made me consider making Vim and Neovim replace VS Code as my main code editor. LazyVim provided what I was looking for as a great replacement for VS Code: it includes plugins that replicates the various features I use VS Code for, mainly file tree, searching files by file name or file content and code snippets. The more I explored LazyVim&#39;s features, the happier I am with my decision to switch from VS Code to Neovim as my code editor of choice, and LazyVim certainly helped with the transition.&lt;/p&gt;
+&lt;p&gt;With LazyVim turning Neovim into an IDE that serves my needs, I decided to keep Vim as my backup text editor in the terminal, so I keep my Vim setup simple, with no plugins other than themes and syntax highlighting.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;from-vs-code-to-the-vim-ecosystem&quot;&gt;From VS Code to the Vim Ecosystem&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.com/blog/posts/2025-04-03-i-use-neovim-btw/#from-vs-code-to-the-vim-ecosystem&quot; aria-labelledby=&quot;from-vs-code-to-the-vim-ecosystem&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;As part of my efforts to transition to the Vim ecosystem as my main code editor, I&#39;m building the habit of navigating the directories containing my code files with the terminal, and open the code files with Vim or Neovim in the terminal.&lt;/p&gt;
+&lt;p&gt;Finally, as I settled in Vim and Neovim, I uninstalled most extensions in Visual Studio Code, officially marking my switch from VS Code to Neovim as my main code editor.&lt;/p&gt;
+&lt;p&gt;Hello, Vim and Neovim!&lt;/p&gt;
+</content>
+    </entry><entry>
         <title>Changelog: 1 April 2025</title>
         <link href="https://leilukin.com/changelogs/2025/#2025-04-01"/>
         <updated>2025-04-01T04:24:43Z</updated>
@@ -189,24 +245,6 @@
 &lt;li&gt;&lt;a href=&quot;/shrines/starwarskotor/resources/kotor2-mod-list&quot;&gt;Leilukin&#39;s Star Wars: Knights of the Old Republic II: The Sith Lords Mod Build&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </entry><entry>
-        <title>Changelog: 17 February 2025</title>
-        <link href="https://leilukin.com/changelogs/2025/#2025-02-17"/>
-        <updated>2025-02-17T10:10:52Z</updated>
-        <id>https://leilukin.com/changelogs/2025/#2025-02-17</id>
-        <content type="html">&lt;ul&gt;
-&lt;li&gt;Add buttons to copy code snippets to pages with code blocks. Credit to ttntm&#39;s article &lt;a href=&quot;https://ttntm.me/blog/adding-a-copy-button-to-code-blocks/&quot;&gt;&amp;quot;Adding a Copy Button to Code Blocks&amp;quot;&lt;/a&gt; for the JavaScript code to implement the buttons.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </entry><entry>
-        <title>Changelog: 12 February 2025</title>
-        <link href="https://leilukin.com/changelogs/2025/#2025-02-12"/>
-        <updated>2025-02-12T01:41:35Z</updated>
-        <id>https://leilukin.com/changelogs/2025/#2025-02-12</id>
-        <content type="html">&lt;ul&gt;
-&lt;li&gt;Launched my new &lt;a href=&quot;https://fan.leilukin.com/programming/&quot;&gt;fanlisting for computer programming&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </entry>
