@@ -19,11 +19,11 @@ This year, my younger brother, who has been living in Singapore since attending 
 
 Once we returned to my parents' hometown, we gathered with our extended family on my father's side for a reunion lunch (yes, lunch, not dinner since we had our reunion meal in the afternoon) on Lunar New Year Eve on January 28.
 
-After our lunch, my immediate family and I joined one of my paternal uncles, who owns the house we were staying in after the passing of my paternal grandmother, and his girlfriend in visiting our family's durian plantation. The highlight of the durian plantation visit is meeting my uncle's female dog Baak Baan for the first time.
+After our lunch, my immediate family and I joined one of my paternal uncles, who owns the house we were staying in after the passing of my paternal grandmother, and his girlfriend in visiting our family's durian plantation. The highlight of the durian plantation visit is meeting my uncle's female dog Bak Baan for the first time.
 
 ![Photo of a mixed breed white female dog with brown spots on her forehead, ears, backside and tail, at the compound of a house, looking at the camera while smiling, and a pot is beneath the dog's head.](/assets/images/posts/my-2025-lunar-new-year/baak-baan-1.avif)
 
-Baak Baan was a stray dog that was founded by my uncle when she walked into our durian plantation one day months ago. At the time, Baak Baan was injured, and starved to the extent that her ribs were visible. Thankfully, under my uncle's care, she had become healthier, so she became my uncle's pet and guard dog. She was named Baak Baan after the mahjong tile [白板]{lang=zh} in Cantonese. Baak Baan was a good girl, and we enjoyed greeting and petting her.
+Bak Baan was a stray dog that was founded by my uncle when she walked into our durian plantation one day months ago. At the time, Bak Baan was injured, and starved to the extent that her ribs were visible. Thankfully, under my uncle's care, she had become healthier, so she became my uncle's pet and guard dog. She was named Bak Baan after the mahjong tile [白板]{lang=zh} in Cantonese. Bak Baan was a good girl, and we enjoyed greeting and petting her.
 
 When the evening came, we prepared to count down to the arrival of Lunar New Year. As soon as 12 am of the first day of Lunar New Year arrived, fireworks began.
 
