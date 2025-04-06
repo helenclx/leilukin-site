@@ -7,8 +7,6 @@ categories: ["star wars kotor"]
 toc: true
 ---
 
-[This guide is also available on [Google Docs](https://docs.google.com/document/d/1cHed1SQZym-F3_4rynL0BbxfGjUNmIPWANWgL0L9SR8/edit)]{.center-text}
-
 ## Introduction
 
 This guide is requested by Deadly Stream user Sith Holocron.
