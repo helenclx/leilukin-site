@@ -6,8 +6,6 @@ categories: ["star wars kotor", "star wars kotor 2", "video game mods"]
 toc: true
 ---
 
-[This list is also available on [Google Docs](https://docs.google.com/document/d/1l5cThs2A8PaUR4BlSEnlb2ZS5zrcnS3CeL58psjPfKI/edit)]{.center-text}
-
 The first {% cite "Star Wars: Knights of the Old Republic" %} video game introduced Juhani, the very first confirmed gay character in any Star Wars media, including Legends, the old {% cite "Star Wars" %} Expanded Universe, and the very first canon same-gender romance option in any BioWare game. However, the {% cite "KotOR" %} series at large has little LGBTQ+ content, and except for Juhani, none of the romance options in both {% cite "KotOR" %} games are available for same-gender romances.
 
 Therefore, throughout the years, modders of the {% cite "KotOR" %} games have created various mods adding more same-gender romance options and content to the games to fill the void.

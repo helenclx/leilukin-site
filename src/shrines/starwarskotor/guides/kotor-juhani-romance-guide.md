@@ -8,8 +8,6 @@ categories: ["star wars kotor"]
 toc: true
 ---
 
-[This guide is also available on [Google Docs](https://docs.google.com/document/d/1X_EUsoKVpaCfbbi-t5NNqMsoPeAoFsxvIRMcv5rHFBQ/edit)]{.center-text}
-
 ## Introduction
 
 Since I could not find a solid and detailed guide for Juhani's romance anywhere, and many players (I used to be one of them as well) have troubles with triggering Juhani's final romance conversation, I have decided to write a guide myself. Even though there is very little content for Juhani's romance, if you want to experience the very first canon same-gender romance option in BioWare games first hand, this guide is for you.

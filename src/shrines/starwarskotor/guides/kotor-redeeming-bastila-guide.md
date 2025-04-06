@@ -7,8 +7,6 @@ categories: ["star wars kotor"]
 toc: true
 ---
 
-[This guide is also available on [Google Docs](https://docs.google.com/document/d/1HrrzojpHv9oekvDPjTmBAwdXTf6QhY8tC8RuioKFXmE/edit)]{.center-text}
-
 ## Introduction
 
 In {% cite "Star Wars: Knights of the Old Republic" %}, towards the end of the game you will be provided the opportunity to determine which ending you will get, and there will be consequences of your choice there.
