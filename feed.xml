@@ -4,12 +4,39 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.com/feed.xml" rel="self"/>
     <link href="https://leilukin.com"/>
-    <updated>2025-04-03T12:26:32Z</updated>
+    <updated>2025-04-06T14:03:56Z</updated>
     <id>https://leilukin.com/</id>
     <author>
         <name>Leilukin</name>
         <email>contact@leilukin.com</email>
     </author><entry>
+        <title>Changelog: 6 April 2025</title>
+        <link href="https://leilukin.com/changelogs/2025/#2025-04-06"/>
+        <updated>2025-04-06T14:03:56Z</updated>
+        <id>https://leilukin.com/changelogs/2025/#2025-04-06</id>
+        <content type="html">&lt;ul&gt;
+&lt;li&gt;New blog post: &lt;a href=&quot;/blog/posts/2025-04-06-my-2025-qingming/&quot;&gt;&amp;quot;My 2025 Qingming Festival&amp;quot;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </entry><entry>
+        <title>My 2025 Qingming Festival | Blog</title>
+        <link href="https://leilukin.com/blog/posts/2025-04-06-my-2025-qingming/"/>
+        <updated>2025-04-06T13:47:59Z</updated>
+        <id>https://leilukin.com/blog/posts/2025-04-06-my-2025-qingming/</id>
+        <content type="html">&lt;p&gt;In 2025, &lt;a href=&quot;https://en.wikipedia.org/wiki/Qingming_Festival&quot;&gt;Qingming Festival&lt;/a&gt;, also known as Tomb-Sweeping Day, fell on April 4. It is an interesting coincidence that an important day about dead people in Chinese people in both 2024 and 2025 fell on 04/04, since in at least some Chinese languages, including Mandarin and Cantonese, the number four (&lt;span lang=&quot;zh&quot;&gt;四&lt;/span&gt;) and the word death (&lt;span lang=&quot;zh&quot;&gt;死&lt;/span&gt;) have similar pronunciations, which is why 4 is considered an &amp;quot;unlucky&amp;quot; number in Chinese culture.&lt;/p&gt;
+&lt;p&gt;In my family, we observe Qingming Festival every year by travelling to my parents&#39; hometown, and visiting my paternal grandparents&#39; and great uncle&#39;s graves. My great uncle and paternal grandfather died many years before I was even born, while my paternal grandmother passed when I was in my mid-20s.&lt;/p&gt;
+&lt;p&gt;This year, my parents and paternal relatives visit my grandparents&#39; and great uncle&#39;s tombs as usual. However, this year my parents and I agreed that I stayed in a hotel while my parents visited great uncle&#39;s grave, because the path to visit my great uncle&#39;s tomb was already h to travel especially on foot due to being full of stones and slopes, while my retinitis pigmentosa (RP) would make my movements on such uneven paths even more difficult. By comparison, walking to my grandparents&#39; tombs are considerably easier.&lt;/p&gt;
+&lt;p&gt;Sweeping tombs was not the only activity we did during this year&#39;s Qingming Festival, however.&lt;/p&gt;
+&lt;p&gt;On April 4, my parents and I visited our family&#39;s durian plantation, which is currently taken care of by one of my paternal uncles. My last visit to the plantation was during &lt;a href=&quot;https://leilukin.com/blog/posts/2025-02-06-my-2025-lunar-new-year/&quot;&gt;this year&#39;s Lunar New Year&lt;/a&gt;, when I also met my uncle&#39;s dog, Bak Baan, for the first time. Since our last visit, I learned that Bak Baan has become pregnant, and my uncle estimated that she will give birth a month later.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://leilukin.com/assets/images/posts/my-2025-qingming/bak-baan-1.avif&quot; alt=&quot;Photo of a pregnant mixed breed white female dog with brown spots on her forehead, ears, and tail, at the compound of a house, looking away from the camera while miling.&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://leilukin.com/assets/images/posts/my-2025-qingming/bak-baan-2.avif&quot; alt=&quot;Photo of a pregnant mixed breed white female dog with brown spots on her forehead, ears, and neck, standing in a grass field, and looking away from the camera while smiling.&quot;&gt;&lt;/p&gt;
+&lt;p&gt;According to my uncle, Bak Baan is a dutiful guard dog. Therefore, my uncle was also looking forward to having puppies and be a dog grandpa, as it means he would have more dogs to help to guard the durian plantation.  It is incredible to think about how Bak Baan went from a starved and injured stray when she met my uncle to a happy guard dog who is going to start her own dog family.&lt;/p&gt;
+&lt;p&gt;During our trips both to and from my parents&#39; hometown, we also enjoyed &lt;a href=&quot;https://en.wikipedia.org/wiki/Cendol&quot;&gt;cendol&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I love cendol, and the one served in a shop near my parents&#39; hometown is my favourite, so we like to visit that shop to enjoy cendol when we travel to my parents&#39; hometown.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://leilukin.com/assets/images/posts/my-2025-qingming/cendol.avif&quot; alt=&quot;Photo of cendol, an iced sweet dessert that contains pandan-flavoured green rice flour jelly, coconut milk, and palm sugar syrup, in a white bowl with a Chinese spoon.&quot;&gt;&lt;/p&gt;
+&lt;p&gt;My parents and I stayed in a hotel for this year&#39;s Qingming Festival trip for one night. After returning to my home, I will soon need to prepare to attend &lt;a href=&quot;https://leilukin.com/blog/posts/2025-01-19-attending-42-school/&quot;&gt;42 the computer science school&lt;/a&gt;&#39;s 26-day bootcamp, which will start on April 7.&lt;/p&gt;
+</content>
+    </entry><entry>
         <title>Changelog: 3 April 2025</title>
         <link href="https://leilukin.com/changelogs/2025/#2025-04-03"/>
         <updated>2025-04-03T12:26:32Z</updated>
@@ -223,29 +250,6 @@
 &lt;p&gt;The fact that 42&#39;s curriculum has no teacher encouraged us to learn through searching the web, and it certainly helped that there have been a lot of resources, including free ones, to learn to code. 42&#39;s curriculum reminded me of how I started to teach myself to code for this reason, with the added bonus of learning in a physical coding school and meeting other people who were also interested in learning to code.&lt;/p&gt;
 &lt;p&gt;There were 10 modules of Python exercises in Discovery Piscine&#39;s curriculum, and I managed to do all the exercises, though not all of them got evaluated because of time constraints, and 42 only considers you having completed a module after you pass peer evaluations, so I ended up completing 5 out of 10 modules. However, this also earned me a certificate of completion after I graduated from the Discovery Piscine.&lt;/p&gt;
 &lt;p&gt;Despite already having programming experience — including &lt;a href=&quot;https://leilukin.com/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer/&quot;&gt;professional experience&lt;/a&gt; albeit &lt;a href=&quot;https://leilukin.com/blog/posts/2024-12-16-leaving-my-first-developer-job/&quot;&gt;a short one&lt;/a&gt; — I find 42 a good school for me. I am looking forward to the full Piscine in April.&lt;/p&gt;
-</content>
-    </entry><entry>
-        <title>Changelog: 23 February 2025</title>
-        <link href="https://leilukin.com/changelogs/2025/#2025-02-23"/>
-        <updated>2025-02-23T09:14:37Z</updated>
-        <id>https://leilukin.com/changelogs/2025/#2025-02-23</id>
-        <content type="html">&lt;ul&gt;
-&lt;li&gt;Create page for my &lt;a href=&quot;/links/mass-effect-le-mod-list/&quot;&gt;&lt;cite&gt;Mass Effect Legendary Edition&lt;/cite&gt; mod list&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-    </entry><entry>
-        <title>Changelog: 21 February 2025</title>
-        <link href="https://leilukin.com/changelogs/2025/#2025-02-21"/>
-        <updated>2025-02-21T12:54:36Z</updated>
-        <id>https://leilukin.com/changelogs/2025/#2025-02-21</id>
-        <content type="html">&lt;ul&gt;
-&lt;li&gt;Create pages for my mod lists for the &lt;cite&gt;Star Wars: Knights of the Old Republic&lt;/cite&gt; series for my &lt;cite&gt;Star Wars: KotOR&lt;/cite&gt; shrine:
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;/shrines/starwarskotor/resources/kotor1-mod-list&quot;&gt;Leilukin&#39;s Star Wars: Knights of the Old Republic Mod Build&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;/shrines/starwarskotor/resources/kotor2-mod-list&quot;&gt;Leilukin&#39;s Star Wars: Knights of the Old Republic II: The Sith Lords Mod Build&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 </content>
     </entry>
 </feed>
