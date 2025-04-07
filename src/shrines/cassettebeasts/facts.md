@@ -113,6 +113,9 @@ Late 2019
 27 March 2025
 : Version 1.7 "Sunshine Update" and "Wings Pack" cosmetic DLC [announced](https://store.steampowered.com/news/app/1321440/view/543351239572719532) to be released on 7 April 2024, with an [announcement trailer](https://www.youtube.com/watch?v=MfEy-5hpi6I).
 
+7 April 2025
+: Version 1.8 "Sunshine Update" [live](https://store.steampowered.com/news/app/1321440/view/543351239572719530). "Wings Pack" cosmetic premium DLC released.
+
 ## Accolades
 
 {% cite "Cassette Beasts" %} was [nominated for The British Game](https://twitter.com/ByttenStudio/status/1765742782700782040) ([archived](https://web.archive.org/web/20240307212519/https://twitter.com/ByttenStudio/status/1765742782700782040)) at the 20th British Academy (BAFTA) Games Awards.
