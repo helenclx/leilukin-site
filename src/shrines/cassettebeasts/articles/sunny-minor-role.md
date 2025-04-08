@@ -1,6 +1,7 @@
 ---
 articleTitle: Why I Did Not Mind Sunny Had Only a Minor Role
 date: 2025-03-28T13:33:46+0800
+updated: 2025-04-08T23:07:47+0800
 desc: Despite liking the character of Sunny in Cassette Beasts, I did not mind her only had little screen-time in the game.
 tags: cassette beasts articles
 categories: ["cassette beasts"]
@@ -33,12 +34,14 @@ Why? The main reason is that it would not be a poor game design in terms of the 
 
 Therefore, the idea of making Sunny a partner character means having a partner locked behind another partner's questline that already took up a huge chunk of the game to complete. Making Sunny a partner in the base game would make it feel like you only have little time to spend with Sunny before facing the final boss of the game.
 
-I believed that if Sunny were to become a partner character, making her unlocked as a partner in the post-game would be better than doing so in the base game. Fortunately, this appears to be Bytten Studio's approach for making Sunny a partner character in the "Sunshine Update", as revealed in [their Steam post announcing the content update](https://store.steampowered.com/news/app/1321440/view/543351239572719532):
+I believed that if Sunny were to become a partner character, making her unlocked as a partner in the post-game would be better than doing so in the base game. Fortunately, this is Bytten Studio's approach for making Sunny a partner character in the "Sunshine Update", as revealed in [their Steam post announcing the content update](https://store.steampowered.com/news/app/1321440/view/543351239572719532):
 
 > Sunny's quest will be available to those who have finished the base game's story
+
+When version 1.8, the "Sunshine Update" went live on April 7, it turned out that Sunny's partner quest, in which Sunny is unlocked as a partner, becomes available only after the final boss of the main story has been defeated.
 
 Another reason I would prefer Sunny, or any possible future new partners, to be unlocked as partners in the post-game is that I believe the base game having six partner characters are enough.
 
 Learning that Sunny was a late addition to the game during the game's development only cemented my feelings that I was fine with Sunny having little screen time in the game. To be honest, if I were the developers, I would not expect a minor NPC I added to my game only at the last minute to become this popular with the players either.
 
-With all that being said, I am looking forward to recruiting Sunny as a partner and exploring her story more in the "Sunshine Update". Partner characters are a major appeal of {% cite "Cassette Beasts" %} to me, so I welcome more content updates involving partner characters.
+With all that being said, I was looking forward to recruiting Sunny as a partner and exploring her story more in the "Sunshine Update" as soon as the announcement trailer was revealed. Partner characters are a major appeal of {% cite "Cassette Beasts" %} to me, so I welcome more content updates involving partner characters. Shortly after the "Sunshine Update" went live, I played the game, unlocked Sunny as a partner, completed her partner quest, and enjoyed how Sunny's story got expanded.
