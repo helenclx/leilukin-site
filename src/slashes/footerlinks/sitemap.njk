@@ -20,28 +20,28 @@ eleventyComputed:
 {{ collections.all | eleventyNavigation | eleventyNavigationToHtml(navigationOptions) | safe }}
 
 {%- css %}
-    main ul {
-        display: grid;
-        gap: 0.5rem;
-        margin-top: 0.3em;
-    }
+main ul {
+    display: grid;
+    gap: 0.5rem;
+    margin-top: 0.3em;
+}
 
-    .sitemap {
-        margin: 1em 0;
-        padding: 0 0 0 1em;
-        list-style-type: "";
-    }
+.sitemap {
+    margin: 1em 0;
+    padding: 0 0 0 1em;
+    list-style-type: "";
+}
 
-    .sitemap a:focus { outline: 0.15rem solid var(--clr-link); }
+.sitemap a:focus { outline: 0.15rem solid var(--clr-link); }
 
-    .sitemap li {
-        padding-left: 0.5em;
-        align-items: start;
-    }
+.sitemap li {
+    padding-left: 0.5em;
+    align-items: start;
+}
 
-    .sitemap li::marker { content: "▶"; }
-    .sitemap ul { padding-left: 1em; }
-    .sitemap ul li::marker { content: "★"; }
-    .sitemap ul ul li::marker { content: "♥"; }
-    .sitemap ul ul ul li::marker { content: "❣"; }
+.sitemap li::marker { content: "▶"; }
+.sitemap ul { padding-left: 1em; }
+.sitemap ul li::marker { content: "★"; }
+.sitemap ul ul li::marker { content: "♥"; }
+.sitemap ul ul ul li::marker { content: "❣"; }
 {% endcss %}

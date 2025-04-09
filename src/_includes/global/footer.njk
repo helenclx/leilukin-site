@@ -5,17 +5,17 @@
     </p>
 
 {%- block footerContent %}
-    {{ footerContent }}
+{{ footerContent }}
 {% endblock -%}
 
 {%- if tags and tags.includes("shrine pages") %}
-    <nav class="footer__shrines" aria-labelledby="backto-title">
-        <p id="backto-title">Back to:</p>
-        <ul class="inline-nav footer__links">
-            <li><a href="/shrines/">Shrine Directory</a></li>
-            <li><a href="/">{{ sitemeta.siteName }}</a></li>
-        </ul>
-    </nav>
+<nav class="footer__shrines" aria-labelledby="backto-title">
+    <p id="backto-title">Back to:</p>
+    <ul class="inline-nav footer__links">
+        <li><a href="/shrines/">Shrine Directory</a></li>
+        <li><a href="/">{{ sitemeta.siteName }}</a></li>
+    </ul>
+</nav>
 {%- endif -%}
 
     <p>
@@ -28,26 +28,26 @@
 </footer>
 
 {%- css %}
-    :root { --footer-gap: 0.5em; }
+:root { --footer-gap: 0.5em; }
 
-    .footer {
-        margin-top: auto;
-        width: 100%;
-        background: var(--clr-main-footer-bg);
-        padding: 1.5rem 1rem clamp(1.5rem, calc(100% - 1.5rem), 3.5rem);
-        text-align: center;
-        display: grid;
-        gap: var(--footer-gap);
-    }
+.footer {
+    margin-top: auto;
+    width: 100%;
+    background: var(--clr-main-footer-bg);
+    padding: 1.5rem 1rem clamp(1.5rem, calc(100% - 1.5rem), 3.5rem);
+    text-align: center;
+    display: grid;
+    gap: var(--footer-gap);
+}
 
-    .footer__links,
-    .footer__shrines {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        column-gap: var(--footer-gap);
-    }
+.footer__links,
+.footer__shrines {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: var(--footer-gap);
+}
 
-    .footer__links { justify-self: center; }
-    .footer__shrines { align-self: center; }
+.footer__links { justify-self: center; }
+.footer__shrines { align-self: center; }
 {% endcss %}
