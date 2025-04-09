@@ -1,8 +1,5 @@
----
-shrineHomeUrl: /shrines/pokemonoras/
----
-
 {% extends "global/navbar.njk" %}
+{% set shrineHomeUrl = "/shrines/pokemonoras/" %}
 
 {% block navbarLinks %}
 {% set navPages = collections.all | eleventyNavigation("ORAS Shrine") %}

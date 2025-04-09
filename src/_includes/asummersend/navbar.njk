@@ -1,8 +1,5 @@
----
-shrineHomeUrl: /shrines/asummersend/
----
-
 {% extends "global/navbar.njk" %}
+{% set shrineHomeUrl = "/shrines/asummersend/" %}
 
 {% block navbarLinks %}
 {% set navPages = collections.all | eleventyNavigation("A Summer’s End Shrine") %}

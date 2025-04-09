@@ -1,13 +1,13 @@
 {% set navLinksEl %}
     {%- if tags and tags.includes("shrine pages") %}
-        <li>
-            <a {% if currentUrl === shrineHomeUrl %}aria-current="page"{% endif %} href="{{ shrineHomeUrl }}">Shrine Home</a>
-        </li>
+    <li>
+        <a {% if currentUrl === shrineHomeUrl %}aria-current="page"{% endif %} href="{{ shrineHomeUrl }}">Shrine Home</a>
+    </li>
     {%- endif -%}
     {% block navbarLinks %}{% endblock %}
     {%- if tags and tags.includes("shrine pages") %}
-        <li><a href="/shrines/">Shrine Directory</a></li>
-        <li><a href="/">Main Site</a></li>
+    <li><a href="/shrines/">Shrine Directory</a></li>
+    <li><a href="/">Main Site</a></li>
     {%- endif -%}
 {% endset %}
 
