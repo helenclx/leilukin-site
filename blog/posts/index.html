@@ -62,202 +62,200 @@
     margin-bottom: 0.2em;
 }
 .content__nav {
-        padding: 1.2em clamp(1em, 5%, 1.5em);
-        background-color: var(--clr-content-bg);
-    }
+    padding: 1.2em clamp(1em, 5%, 1.5em);
+    background-color: var(--clr-content-bg);
+}
 
-    .content__nav--title {
-        font-size: 1.7rem;
-    }
+.content__nav--title { font-size: 1.7rem; }
 .breadcrumbs {
-        margin-bottom: 0.7em;
-        display: flex;
-        gap: 0.5em;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+    margin-bottom: 0.7em;
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-    .blog__post--pagination {
-        padding-top: 1em;
-        margin-block-start: 2.5em;
-        border-top: 0.1em solid var(--clr-title-border);
-    }
+.blog__post--pagination {
+    padding-top: 1em;
+    margin-block-start: 2.5em;
+    border-top: 0.1em solid var(--clr-title-border);
+}
 
-    .blog__post--nextprev {
-        list-style-type: "";
-        padding: 0;
-        margin: 0;
-        display: grid;
-        gap: 0.7em;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: 'prev next';
-    }
+.blog__post--nextprev {
+    list-style-type: "";
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.7em;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 'prev next';
+}
 
-    .blog__post--prev { grid-area: prev; }
-    .blog__post--next { grid-area: next; }
+.blog__post--prev { grid-area: prev; }
+.blog__post--next { grid-area: next; }
 .hero img { filter: 
 drop-shadow(0.1rem 0.1rem 0.2rem black)
 drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
 ; }
 .hero {
-        width: 100%;
-        background-color: var(--clr-hero-bg);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
+    width: 100%;
+    background-color: var(--clr-hero-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 
-    .hero__top-bar {
-        background: var(--clr-navbar-bg);
-        width: 100%;
-        padding: 0.5em 0.7em;
-    }
+.hero__top-bar {
+    background: var(--clr-navbar-bg);
+    width: 100%;
+    padding: 0.5em 0.7em;
+}
 
-    .hero__img {
-        display: grid;
-        place-content: center;
-    }
+.hero__img {
+    display: grid;
+    place-content: center;
+}
 
-    .hero img {
-        object-fit: contain;
-        overflow: hidden;
-        max-height: 16rem;
-    }
+.hero img {
+    object-fit: contain;
+    overflow: hidden;
+    max-height: 16rem;
+}
 .navbar {
-        background: var(--clr-navbar-bg);
-        width: 100%;
-        z-index: 998;
-        position: sticky;
-        top: 0;
-        padding: 0.6em;
-    }
+    background: var(--clr-navbar-bg);
+    width: 100%;
+    z-index: 998;
+    position: sticky;
+    top: 0;
+    padding: 0.6em;
+}
 
-    .navbar__menu {
-        list-style-type: "";
-        margin: 0;
-        padding: 0;
-        display: flex;
-        gap: 1em;
-        flex-wrap: wrap;
-        text-align: center;
-    }
+.navbar__menu {
+    list-style-type: "";
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    text-align: center;
+}
 
-    .navbar__menu a {
-        color: var(--clr-navbar-link);
-        text-decoration: none;
-        font-weight: 700;
-        display: inline-block;
-    }
+.navbar__menu a {
+    color: var(--clr-navbar-link);
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+}
 
-    .navbar__menu a:hover { color: var(--clr-link-hover); }
-    .navbar__menu a:focus { outline-offset: 0.2em; }
+.navbar__menu a:hover { color: var(--clr-link-hover); }
+.navbar__menu a:focus { outline-offset: 0.2em; }
 
-    .navbar__links {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        gap: 0.5em;
-    }
+.navbar__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 0.5em;
+}
 
-    .navbar__toggle {
-        background-color: inherit;
-        color: var(--clr-navbar-link);
-        border: none;
-        padding: 0;
-        font-size: 1.25rem;
-        font-weight: 700;
-        display: none;
-        align-items: center;
-        gap: 0.3em;
-    }
+.navbar__toggle {
+    background-color: inherit;
+    color: var(--clr-navbar-link);
+    border: none;
+    padding: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: none;
+    align-items: center;
+    gap: 0.3em;
+}
 
-    .navbar__toggle svg { fill: currentColor; }
+.navbar__toggle svg { fill: currentColor; }
 
-    .navbar__toggle:focus,
-    .navbar__menu a:focus { outline-offset: 0.1em; }
-    .navbar__toggle:focus,
-    .navbar__menu a:focus { outline: 0.15em solid var(--clr-navbar-link); }
+.navbar__toggle:focus,
+.navbar__menu a:focus { outline-offset: 0.1em; }
+.navbar__toggle:focus,
+.navbar__menu a:focus { outline: 0.15em solid var(--clr-navbar-link); }
 
-    .navbar__popover {
-        background: var(--clr-navbar-bg);
-        border: 0.15em solid var(--clr-navbar-link);
-        padding: 1.5em;
-        max-width: 85%;
-    }
+.navbar__popover {
+    background: var(--clr-navbar-bg);
+    border: 0.15em solid var(--clr-navbar-link);
+    padding: 1.5em;
+    max-width: 85%;
+}
 
-    .navbar__popover::backdrop {
-        background-color: black;
-        opacity: 0.5;
-    }
+.navbar__popover::backdrop {
+    background-color: black;
+    opacity: 0.5;
+}
 
-    @supports selector([popover]) {
-        .navbar__toggle { display: flex; }
-        .navbar__links { display: none; }
-    }
+@supports selector([popover]) {
+    .navbar__toggle { display: flex; }
+    .navbar__links { display: none; }
+}
 
-    /* Tablet screen size */
-    @media only screen and (min-width: 43.75rem) {
-        .navbar { padding: 1em 0.6em; }
-        .navbar__toggle, .navbar__popover { display: none; }
-        .navbar__links { display: flex; }
-    }
+/* Tablet screen size */
+@media only screen and (min-width: 43.75rem) {
+    .navbar { padding: 1em 0.6em; }
+    .navbar__toggle, .navbar__popover { display: none; }
+    .navbar__links { display: flex; }
+}
 .top-btn,
-    .top-btn:hover {
-        color: var(--clr-top-btn-txt);
-        text-decoration: none;
-        font-weight: 700;
-    }
+.top-btn:hover {
+    color: var(--clr-top-btn-txt);
+    text-decoration: none;
+    font-weight: 700;
+}
 
-    .top-btn {
-        position: fixed;
-        bottom: 0.5rem;
-        right: 0.5rem;
-        z-index: 999;
+.top-btn {
+    position: fixed;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    z-index: 999;
 
-        background-color: var(--clr-top-btn-bg);
-        display: flex;
-        align-items: center;
-        border-radius: 50em;
-        padding: 0.3em 0.5em;
-        gap: 0.2em;
-    }
+    background-color: var(--clr-top-btn-bg);
+    display: flex;
+    align-items: center;
+    border-radius: 50em;
+    padding: 0.3em 0.5em;
+    gap: 0.2em;
+}
 
-    .top-btn:focus {
-        outline: 0.25em solid var(--clr-top-btn-bg);
-        outline-offset: 0.15em;
-    }
+.top-btn:focus {
+    outline: 0.25em solid var(--clr-top-btn-bg);
+    outline-offset: 0.15em;
+}
 
-    .top-btn__arrow {
-        display: inline-block;
-        width: 1em;
-        aspect-ratio: 1 / 1;
-        stroke-width: 0;
-        stroke: currentColor;
-        fill: currentColor;
-    }
+.top-btn__arrow {
+    display: inline-block;
+    width: 1em;
+    aspect-ratio: 1 / 1;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
 :root { --footer-gap: 0.5em; }
 
-    .footer {
-        margin-top: auto;
-        width: 100%;
-        background: var(--clr-main-footer-bg);
-        padding: 1.5rem 1rem clamp(1.5rem, calc(100% - 1.5rem), 3.5rem);
-        text-align: center;
-        display: grid;
-        gap: var(--footer-gap);
-    }
+.footer {
+    margin-top: auto;
+    width: 100%;
+    background: var(--clr-main-footer-bg);
+    padding: 1.5rem 1rem clamp(1.5rem, calc(100% - 1.5rem), 3.5rem);
+    text-align: center;
+    display: grid;
+    gap: var(--footer-gap);
+}
 
-    .footer__links,
-    .footer__shrines {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        column-gap: var(--footer-gap);
-    }
+.footer__links,
+.footer__shrines {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: var(--footer-gap);
+}
 
-    .footer__links { justify-self: center; }
-    .footer__shrines { align-self: center; }</style>
+.footer__links { justify-self: center; }
+.footer__shrines { align-self: center; }</style>
 
         
         <link rel="icon" sizes="32x32" href="/favicon.ico">
@@ -271,7 +269,7 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
         <link rel="authorization_endpoint" href="https://indieauth.com/auth">
 
         
-        <script src="/assets/js/IXgPBemady.js" defer=""></script>
+        <script src="/assets/js/ur6aGJXhg4.js" defer=""></script>
         
         
         
@@ -290,6 +288,7 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
 
     </div>
 </header>
+
         
 
 <nav class="navbar" aria-labelledby="top-level-nav-title">
@@ -369,6 +368,7 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
 </li>
 </ul>
 </div>
+
         <main id="content">
             <header class="main__header">
     
@@ -394,8 +394,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2025-04-06-my-2025-qingming/">
-        My 2025 Qingming Festival
-        
+            My 2025 Qingming Festival
+            
             </a>
         </h2>
         <time datetime="Sun Apr 06 2025 13:47:59 GMT+0000 (Coordinated Universal Time)">6 April 2025</time>
@@ -404,8 +404,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2025-04-03-i-use-neovim-btw/">
-        I Use (Neo)Vim BTW
-        
+            I Use (Neo)Vim BTW
+            
             </a>
         </h2>
         <time datetime="Thu Apr 03 2025 12:23:44 GMT+0000 (Coordinated Universal Time)">3 April 2025</time>
@@ -414,8 +414,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2025-04-01-tdov-eid-al-fitr/">
-        Happy Transgender Day of Visibility and Eid al-Fitr
-        
+            Happy Transgender Day of Visibility and Eid al-Fitr
+            
             </a>
         </h2>
         <time datetime="Tue Apr 01 2025 04:24:19 GMT+0000 (Coordinated Universal Time)">1 April 2025</time>
@@ -424,8 +424,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2025-03-21-purelymail-online-accounts/">
-        Purelymail and Online Account Spring Cleaning
-        
+            Purelymail and Online Account Spring Cleaning
+            
             </a>
         </h2>
         <time datetime="Fri Mar 21 2025 14:05:14 GMT+0000 (Coordinated Universal Time)">21 March 2025</time>
@@ -434,8 +434,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2025-03-19-ne-zha-2-impressions/">
-        &quot;Ne Zha 2&quot; Impressions
-        
+            &quot;Ne Zha 2&quot; Impressions
+            
             </a>
         </h2>
         <time datetime="Wed Mar 19 2025 11:10:47 GMT+0000 (Coordinated Universal Time)">19 March 2025</time>
@@ -444,8 +444,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2025-03-06-attended-42-discovery-piscine/">
-        Attended 42 the School&#39;s 5-Day Coding Bootcamp
-        
+            Attended 42 the School&#39;s 5-Day Coding Bootcamp
+            
             </a>
         </h2>
         <time datetime="Thu Mar 06 2025 14:34:13 GMT+0000 (Coordinated Universal Time)">6 March 2025</time>
@@ -454,8 +454,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2025-02-09-my-first-smartwatch/">
-        My First Smartwatch
-        
+            My First Smartwatch
+            
             </a>
         </h2>
         <time datetime="Sun Feb 09 2025 14:58:32 GMT+0000 (Coordinated Universal Time)">9 February 2025</time>
@@ -464,8 +464,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2025-02-06-my-2025-lunar-new-year/">
-        My 2025 Lunar New Year
-        
+            My 2025 Lunar New Year
+            
             </a>
         </h2>
         <time datetime="Wed Feb 05 2025 16:25:22 GMT+0000 (Coordinated Universal Time)">5 February 2025</time>
@@ -474,8 +474,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2025-01-19-attending-42-school/">
-        Attending 42 the Computer Science School
-        
+            Attending 42 the Computer Science School
+            
             </a>
         </h2>
         <time datetime="Sun Jan 19 2025 15:14:39 GMT+0000 (Coordinated Universal Time)">19 January 2025</time>
@@ -484,8 +484,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2025-01-07-blog-questions-challenge/">
-        Blog Questions Challenge
-        
+            Blog Questions Challenge
+            
             </a>
         </h2>
         <time datetime="Tue Jan 07 2025 08:24:26 GMT+0000 (Coordinated Universal Time)">7 January 2025</time>
@@ -494,8 +494,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2024-12-27-my-2024-christmas-season/">
-        My Christmas Season in 2024
-        
+            My Christmas Season in 2024
+            
             </a>
         </h2>
         <time datetime="Fri Dec 27 2024 04:09:39 GMT+0000 (Coordinated Universal Time)">27 December 2024</time>
@@ -504,8 +504,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2024-12-26-indian-ocean-tsunami-20-years/">
-        Remembering the 2004 Indian Ocean Tsunami
-        
+            Remembering the 2004 Indian Ocean Tsunami
+            
             </a>
         </h2>
         <time datetime="Thu Dec 26 2024 11:11:55 GMT+0000 (Coordinated Universal Time)">26 December 2024</time>
@@ -514,8 +514,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2024-12-25-leilukins-2024-in-review/">
-        Leilukin&#39;s 2024: A Year In Review
-        
+            Leilukin&#39;s 2024: A Year In Review
+            
             </a>
         </h2>
         <time datetime="Wed Dec 25 2024 06:25:57 GMT+0000 (Coordinated Universal Time)">25 December 2024</time>
@@ -524,8 +524,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2024-12-16-leaving-my-first-developer-job/">
-        Leaving My First Developer Job
-        
+            Leaving My First Developer Job
+            
             </a>
         </h2>
         <time datetime="Mon Dec 16 2024 10:21:48 GMT+0000 (Coordinated Universal Time)">16 December 2024</time>
@@ -534,8 +534,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2024-12-01-indieweb-carnival-november-2024-impact/">
-        IndieWeb Carnival November 2024: Impact
-        
+            IndieWeb Carnival November 2024: Impact
+            
             </a>
         </h2>
         <time datetime="Sun Dec 01 2024 05:01:27 GMT+0000 (Coordinated Universal Time)">1 December 2024</time>
@@ -544,8 +544,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2024-10-28-re-social-media-personal-blog/">
-        Re: Social Media Hasn&#39;t Killed the Personal Blog Just Yet
-        
+            Re: Social Media Hasn&#39;t Killed the Personal Blog Just Yet
+            
             </a>
         </h2>
         <time datetime="Mon Oct 28 2024 09:16:14 GMT+0000 (Coordinated Universal Time)">28 October 2024</time>
@@ -554,8 +554,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2024-08-18-from-hobbyist-to-professional-web-developer/">
-        From Hobbyist to Professional Web Developer
-        
+            From Hobbyist to Professional Web Developer
+            
             </a>
         </h2>
         <time datetime="Sun Aug 18 2024 12:28:21 GMT+0000 (Coordinated Universal Time)">18 August 2024</time>
@@ -564,8 +564,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2024-07-27-hostinger-migration-leilukins-hub/">
-        Leilukin&#39;s Hub Has Migrated to Hostinger
-        
+            Leilukin&#39;s Hub Has Migrated to Hostinger
+            
             </a>
         </h2>
         <time datetime="Fri Jul 26 2024 16:44:00 GMT+0000 (Coordinated Universal Time)">26 July 2024</time>
@@ -574,8 +574,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2024-07-02-fanlisting-collective-launch/">
-        Cassette Beasts Fanlisting and My Fanlisting Collective Launched
-        
+            Cassette Beasts Fanlisting and My Fanlisting Collective Launched
+            
             </a>
         </h2>
         <time datetime="Mon Jul 01 2024 16:37:00 GMT+0000 (Coordinated Universal Time)">1 July 2024</time>
@@ -584,8 +584,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2024-06-24-cassette-beasts-fanlisting-approved/">
-        My Cassette Beasts Fanlisting Application has been Approved
-        
+            My Cassette Beasts Fanlisting Application has been Approved
+            
             </a>
         </h2>
         <time datetime="Mon Jun 24 2024 05:23:00 GMT+0000 (Coordinated Universal Time)">24 June 2024</time>
@@ -594,8 +594,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2024-06-21-leilukins-hub-tumbleblog-launched/">
-        Leilukin&#39;s Hub Tumbleblog Launched
-        
+            Leilukin&#39;s Hub Tumbleblog Launched
+            
             </a>
         </h2>
         <time datetime="Thu Jun 20 2024 17:53:00 GMT+0000 (Coordinated Universal Time)">20 June 2024</time>
@@ -604,8 +604,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2024-06-12-performance-improvement-leilukins-hub/">
-        Improving Site Performance of Leilukin&#39;s Hub
-        
+            Improving Site Performance of Leilukin&#39;s Hub
+            
             </a>
         </h2>
         <time datetime="Wed Jun 12 2024 11:06:00 GMT+0000 (Coordinated Universal Time)">12 June 2024</time>
@@ -614,8 +614,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2024-05-31-domain-name-hosting-change-leilukins-hub/">
-        Custom Domain Name and Hosting Change for Leilukin&#39;s Hub
-        
+            Custom Domain Name and Hosting Change for Leilukin&#39;s Hub
+            
             </a>
         </h2>
         <time datetime="Fri May 31 2024 13:33:00 GMT+0000 (Coordinated Universal Time)">31 May 2024</time>
@@ -624,8 +624,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2024-05-29-new-guestbook-leilukins-hub/">
-        The Search for a Guestbook Solution for Leilukin&#39;s Hub
-        
+            The Search for a Guestbook Solution for Leilukin&#39;s Hub
+            
             </a>
         </h2>
         <time datetime="Wed May 29 2024 09:11:00 GMT+0000 (Coordinated Universal Time)">29 May 2024</time>
@@ -634,8 +634,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2024-05-14-james-somerton-my-video-game-footage/">
-        James Somerton Used My Video Game Footage Without Credit or Permission
-        
+            James Somerton Used My Video Game Footage Without Credit or Permission
+            
             </a>
         </h2>
         <time datetime="Tue May 14 2024 03:02:00 GMT+0000 (Coordinated Universal Time)">14 May 2024</time>
@@ -644,8 +644,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2024-04-27-lesbian-visibility-day1-year-anniversary-of-cassette-beasts/">
-        Happy Lesbian Visibility Day and 1-Year Anniversary of Cassette Beasts
-        
+            Happy Lesbian Visibility Day and 1-Year Anniversary of Cassette Beasts
+            
             </a>
         </h2>
         <time datetime="Sat Apr 27 2024 06:06:00 GMT+0000 (Coordinated Universal Time)">27 April 2024</time>
@@ -654,8 +654,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/">
-        April 2024 Leilukin&#39;s Hub Overhaul with Eleventy
-        
+            April 2024 Leilukin&#39;s Hub Overhaul with Eleventy
+            
             </a>
         </h2>
         <time datetime="Sun Apr 21 2024 11:53:00 GMT+0000 (Coordinated Universal Time)">21 April 2024</time>
@@ -664,8 +664,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2024-03-06-i-received-a-lifetime-premium-membership-on-nexus-mods-for-free/">
-        I Received a Lifetime Premium Membership on Nexus Mods for Free
-        
+            I Received a Lifetime Premium Membership on Nexus Mods for Free
+            
             </a>
         </h2>
         <time datetime="Wed Mar 06 2024 00:00:00 GMT+0000 (Coordinated Universal Time)">6 March 2024</time>
@@ -674,8 +674,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2023-11-20-finally-beat-a-bugs-life-video-game-24-years-later/">
-        Finally Beat A Bug&#39;s Life The Video Game — 24 Years Later
-        
+            Finally Beat A Bug&#39;s Life The Video Game — 24 Years Later
+            
             </a>
         </h2>
         <time datetime="Mon Nov 20 2023 00:00:00 GMT+0000 (Coordinated Universal Time)">20 November 2023</time>
@@ -684,8 +684,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2023-11-19-i-can-finally-game-on-a-solid-state-drive/">
-        I Can Finally Game on a Solid-State Drive
-        
+            I Can Finally Game on a Solid-State Drive
+            
             </a>
         </h2>
         <time datetime="Sun Nov 19 2023 00:00:00 GMT+0000 (Coordinated Universal Time)">19 November 2023</time>
@@ -694,8 +694,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2023-10-30-support-for-my-steam-review-of-a-summers-end/">
-        Support for My Steam Review of A Summer’s End — Hong Kong 1986
-        
+            Support for My Steam Review of A Summer’s End — Hong Kong 1986
+            
             </a>
         </h2>
         <time datetime="Mon Oct 30 2023 00:00:00 GMT+0000 (Coordinated Universal Time)">30 October 2023</time>
@@ -704,8 +704,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2023-10-13-my-cassette-beasts-pombomb-plushie-arrived/">
-        My Cassette Beasts Pombomb Plushie Arrived!
-        
+            My Cassette Beasts Pombomb Plushie Arrived!
+            
             </a>
         </h2>
         <time datetime="Fri Oct 13 2023 00:00:00 GMT+0000 (Coordinated Universal Time)">13 October 2023</time>
@@ -714,8 +714,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2023-09-11-happy-1st-anniversary-to-leilukins-hub/">
-        Happy 1st Anniversary to Leilukin&#39;s Hub
-        
+            Happy 1st Anniversary to Leilukin&#39;s Hub
+            
             </a>
         </h2>
         <time datetime="Mon Sep 11 2023 00:00:00 GMT+0000 (Coordinated Universal Time)">11 September 2023</time>
@@ -724,8 +724,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2023-07-28-my-first-birthday-after-the-launch-of-leilukins-hub/">
-        My First Birthday After the Launch of Leilukin&#39;s Hub
-        
+            My First Birthday After the Launch of Leilukin&#39;s Hub
+            
             </a>
         </h2>
         <time datetime="Fri Jul 28 2023 00:00:00 GMT+0000 (Coordinated Universal Time)">28 July 2023</time>
@@ -734,8 +734,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2023-06-23-june-2023-leilukins-hub-layout-rewrite/">
-        June 2023 Leilukin&#39;s Hub Layout Rewrite
-        
+            June 2023 Leilukin&#39;s Hub Layout Rewrite
+            
             </a>
         </h2>
         <time datetime="Fri Jun 23 2023 00:00:00 GMT+0000 (Coordinated Universal Time)">23 June 2023</time>
@@ -744,8 +744,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2023-05-09-onboard-the-dracula-daily-hype-train/">
-        Onboard the Dracula Daily Hype Train
-        
+            Onboard the Dracula Daily Hype Train
+            
             </a>
         </h2>
         <time datetime="Tue May 09 2023 00:00:00 GMT+0000 (Coordinated Universal Time)">9 May 2023</time>
@@ -754,8 +754,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2023-01-28-leilukins-hub-now-has-a-blog/">
-        Leilukin&#39;s Hub Now has a Blog!
-        
+            Leilukin&#39;s Hub Now has a Blog!
+            
             </a>
         </h2>
         <time datetime="Sat Jan 28 2023 00:00:00 GMT+0000 (Coordinated Universal Time)">28 January 2023</time>
@@ -764,8 +764,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     <li class="blog__postlist--item">
         <h2 class="blog__postlist--title">
             <a href="/blog/posts/2023-01-26-new-year-leilukins-hub-redesign/">
-        2023 New Year Redesign of Leilukin&#39;s Hub
-        
+            2023 New Year Redesign of Leilukin&#39;s Hub
+            
             </a>
         </h2>
         <time datetime="Thu Jan 26 2023 00:00:00 GMT+0000 (Coordinated Universal Time)">26 January 2023</time>
@@ -801,6 +801,7 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
 
     
 </content-wrapper>
+
         </main>
         <footer class="footer">
     <p>
@@ -831,6 +832,8 @@ drop-shadow(0.1rem 0.1rem 0.2rem rgba(30, 30, 30, 0.8))
     </svg>
     Back to Top
 </a>
+
 </footer>
+
     </body>
 </html>

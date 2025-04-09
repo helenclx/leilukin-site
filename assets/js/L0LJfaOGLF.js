@@ -1,8 +1,8 @@
 const hero = document.querySelector(".hero");
-    const heroTopBarEl = document.querySelector(".hero__top-bar");
-    const headerImgEl = document.querySelector(".hero__img");
+const heroTopBarEl = document.querySelector(".hero__top-bar");
+const headerImgEl = document.querySelector(".hero__img");
 
-    
+
     const todayEvent = getTodayEvent();
 
     if (todayEvent) {
