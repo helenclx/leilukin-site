@@ -1,7 +1,7 @@
 ---
 articleTitle: How Cassette Beasts is Much More than a Pokémon Clone
 date: 2023-08-26
-updated: 2023-10-22
+updated: 2025-04-10T00:45:07+0800
 desc: Despite some superficial similarities, calling Cassette Beasts as just a Pokémon clone is doing the former a massive disserverce, and here are the many reasons why.
 tags: cassette beasts articles
 categories: ["cassette beasts"]
@@ -96,6 +96,8 @@ Towards the end of the main quest, it is revealed that Archangels are [egregores
 While {% cite "Pokémon" %} has its own fair share of sinister villains, the threat the main villain of {% cite "Cassette Beasts" %} poses is even greater in scope than any {% cite "Pokémon" %} villain, maybe except for Rainbow Rocket Giovanni from {% cite "Ultra Sun" %} and {% cite "Ultra Moon" %}, who shares the goal of ruling the multiverse.
 
 Moreover, even though the player character and their party are able to defeat the main villain in the end, the game makes it clear that since Archangels are not flesh and blood and born from human ideas, as long as humans are interested in conquest Aleph will return at some point. This reflects our world in that defeating a tyrant does not magically solve everything, especially when the system that enables tyrants' rise to power still exists.
+
+In a similar vein, even after the player character defeats Archangel Mammon, an incarnation of capitalism, which results in one of the Landkeepers — Mammon's underlings — getting the chance to be rehabilitated and starting a new life freed from Mammon's control, said former Landkeeper's quest in the post-game reveals that the other Landkeepers do not reform even after Mammon's defeat, and the remaining Landkeepers continue to be staunch capitalists.
 {% enddisclosure %}
 
 ## Features {% cite "Cassette Beasts" %} Has But {% cite "Pokémon" %} Lacks
@@ -126,7 +128,7 @@ In {% cite "Cassette Beasts" %}, monster fusions are a defining feature both in 
 
 While the primary draw of the {% cite "Pokémon" %} franchise has always been the monster creatures, like other media in the mons genre, human characters do play a notable role in the {% cite "Pokémon" %} franchise from the beginning: in the main series games, you play as a human trainer of Pokémon, battling other human NPC trainers including your rivals, Gym Leaders/Trial Captains, Elite Four, Champions and villains. In some games, you also occasionally team up with other human NPC trainers in battles. However, the main series {% cite "Pokémon" %} games do not have any dedicated companion and relationship mechanic with human characters.
 
-Conversely, human relationships are a major focus in {% cite "Cassette Beasts" %} both in story and game mechanics: you are accompanied by a companion character throughout your adventures in New Wirral, with 5 out of 6 of the potential partners being humans; each companion character has their own story and quest for you to explore; each have a relationship level that can be raised by gaining experience points with them, and higher relationship levels make you stronger when you fuse in battle.
+Conversely, human relationships are a major focus in {% cite "Cassette Beasts" %} both in story and game mechanics: you are accompanied by a companion character throughout your adventures in New Wirral, with most of the potential partners being humans; each companion character has their own story and quest for you to explore; each have a relationship level that can be raised by gaining experience points with them, and higher relationship levels make you stronger when you fuse in battle.
 
 Human characters in {% cite "Pokémon" %} interest me as much as the creatures themselves, because the Pokémon world is populated by both Pokémon and humans, thus I find the humans' relationships with the creatures and each other also an important element of the Pokémon world. Unfortunately, I often feel that human characters are an aspect of the {% cite "Pokémon" %} games that are underappreciated by the Western Pokémon fandom, who tend to focus more on the creatures themselves. Therefore, seeing a {% cite "Pokémon" %}-inspired game, especially one that is developed by a Western studio like {% cite "Cassette Beasts" %}, actually make the effort in fleshing out human characters and relationships was the biggest pleasant surprise for me when I started playing {% cite "Cassette Beasts" %} for the first time.
 
@@ -144,7 +146,7 @@ Even though I do not play monster collecting games for romances, nor am I asking
 
 **They Did Not Need To But They Did It Anyway counter: 4**
 
-If the existence of the option to romance your human companion is not enough, in {% cite "Cassette Beasts" %} you can romance any of the human companions regardless of your player character's gender. In other words, all the human companions in {% cite "Cassette Beasts" %} are available as same-gender romance options, which is a blessing for LGBTQ+ players like me.
+If the existence of the option to romance your human companion is not enough, in {% cite "Cassette Beasts" %} you can romance a companion regardless of your player character's gender. In other words, all the companions that can be romanced by the player character in {% cite "Cassette Beasts" %} are available as same-gender romance options, which is a blessing for LGBTQ+ players like me.
 
 **They Did Not Need To But They Did It Anyway counter: 5**
 
@@ -152,7 +154,7 @@ If the existence of the option to romance your human companion is not enough, in
 
 {% cite "Pokémon" %} is not known for explicitly canon LGBTQ+ representation. The franchise does not have a single confirmed canon same-gender couple. In the shipping side of the {% cite "Pokémon" %} fandom, particularly among LGBTQ+ fans, some same-gender pairings are popular, but it does not change the fact that there is no character in the {% cite "Pokémon" %} franchise who is officially confirmed to be attracted to the same-gender.
 
-On the flip side, {% cite "Cassette Beasts" %} has canon LGBTQ+ characters. For characters who are attracted to the samge gender, the most notable ones are the human companions, who can be romanced by the player character regardless of gender, meaning they are canonically bisexual. Furthermore, the game also has a pair of NPCs who are revealed in-game to be a gay married couple.
+On the flip side, {% cite "Cassette Beasts" %} has canon LGBTQ+ characters. For characters who are attracted to the samge gender, the most notable ones are the companions that can be romanced by the player character, as they are romance options regardless of the player character's gender, meaning those companion characters are canonically bisexual. In fact, Kayleigh, the first companion that joins the player and a romance option, has a rug with the bisexual pride flag design in her house. Furthermore, the game also has a pair of NPCs who are revealed in-game to be a gay married couple.
 
 {%- disclosure 'Minor Quest Spoilers for <cite>Cassette Beasts</cite>' %}
 To be specific, this pair of NPCs in question are Leader Ianthe and Ranger Wilma, members of the Ranger Guild. After you defeat all 12 Ranger Captains, and you challenge Ianthe to a battle, Ianthe will reveal that she will fight alongside her wife, who is none other than Ranger Wilma, the woman in charge of the Ranger Guild store. Yes, {% cite "Cassette Beasts" %} has a canon married lesbian couple.
