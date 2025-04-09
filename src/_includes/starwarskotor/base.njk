@@ -3,18 +3,18 @@
 {% extends "global/baselayout.njk" %}
 
 {% block metaTitle %}
-    <meta property="og:title" content="{{ title + ' | ' if title }}Star Wars: Knights of the Old Republic Shrine">
+<meta property="og:title" content="{{ title + ' | ' if title }}Star Wars: Knights of the Old Republic Shrine">
 {% endblock %}
 
 {% block pageTitle %}
-    {{ title + " | " if title }}Star Wars: Knights of the Old Republic Shrine | {{ sitemeta.siteName | safe }}
+{{ title + " | " if title }}Star Wars: Knights of the Old Republic Shrine | {{ sitemeta.siteName | safe }}
 {% endblock %}
 
 {% block favicon %}
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/shrines/starwarskotor/images/kotor-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/shrines/starwarskotor/images/kotor-icon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/shrines/starwarskotor/images/kotor-icon.png">
-    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/shrines/starwarskotor/images/kotor-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/shrines/starwarskotor/images/kotor-icon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/shrines/starwarskotor/images/kotor-icon.png">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
 {% endblock %}
 
 {% block hero %}{% include "starwarskotor/hero.njk" %}{% endblock %}

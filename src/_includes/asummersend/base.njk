@@ -3,18 +3,18 @@
 {% extends "global/baselayout.njk" %}
 
 {% block metaTitle %}
-    <meta property="og:title" content="{{ title + ' | ' if title }}A Summer’s End — Hong Kong 1986 Shrine">
+<meta property="og:title" content="{{ title + ' | ' if title }}A Summer’s End — Hong Kong 1986 Shrine">
 {% endblock %}
 
 {% block pageTitle %}
-    {{ title + " | " if title }}A Summer’s End — Hong Kong 1986 Shrine | {{ sitemeta.siteName | safe }}
+{{ title + " | " if title }}A Summer’s End — Hong Kong 1986 Shrine | {{ sitemeta.siteName | safe }}
 {% endblock %}
 
 {% block favicon %}
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/shrines/asummersend/images/ase-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/shrines/asummersend/images/ase-icon.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/shrines/asummersend/images/ase-icon.png">
-    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/shrines/asummersend/images/ase-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/shrines/asummersend/images/ase-icon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/shrines/asummersend/images/ase-icon.png">
+<link rel="manifest" href="/assets/favicon/site.webmanifest">
 {% endblock %}
 
 {% block hero %}{% include "asummersend/hero.njk" %}{% endblock %}
