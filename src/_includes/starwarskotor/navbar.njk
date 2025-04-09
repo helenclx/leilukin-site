@@ -1,8 +1,5 @@
----
-shrineHomeUrl: /shrines/starwarskotor/
----
-
 {% extends "global/navbar.njk" %}
+{% set shrineHomeUrl = "/shrines/starwarskotor/" %}
 
 {% block navbarLinks %}
 {% set navPages = collections.all | eleventyNavigation("KotOR Shrine") %}
