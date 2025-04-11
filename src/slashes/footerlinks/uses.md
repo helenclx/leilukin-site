@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-04-05T22:57:36+0800
+updated: 2025-04-11T21:35:51+0800
 toc: true
 eleventyNavigation:
      order: 13  
@@ -21,7 +21,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### General
 
-- Fonts: [Lexend](https://www.lexend.com/), [Readex Pro](https://fonts.google.com/specimen/Readex+Pro), and [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html)
+- Fonts: [Readex Pro](https://fonts.google.com/specimen/Readex+Pro), and [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html)
 
 ### Operating Systems
 
