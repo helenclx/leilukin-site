@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-04-11T21:35:51+0800
+updated: 2025-04-13T07:19:46+0800
 toc: true
 eleventyNavigation:
      order: 13  
@@ -72,6 +72,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Personal finance: [Money Manager EX](https://moneymanagerex.org/)
 - Calculator: [Qalculate!](https://qalculate.github.io/)
 - Spellchecker: [LanguageTool](https://languagetool.org/)
+- Translator: [DeepL Translate](https://www.deepl.com/)
 - File archiver: [PeaZip](https://peazip.github.io/)
 
 ### Security
