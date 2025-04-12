@@ -1,7 +1,7 @@
 ---
 articleTitle: "Frequently Asked Questions (FAQ) for My Star Wars: KotOR Same-Gender Romance Mods"
 date: 2021-09-25
-updated: 2025-03-11T10:17:30+0800
+updated: 2025-04-13T07:24:26+0800
 desc: "Frequently asked questions for my same-gender romance mods for Star Wars: Knights of the Old Republic series."
 tags: kotor both articles
 categories: ["star wars kotor", "star wars kotor 2", "video game mods"]
@@ -127,7 +127,7 @@ Sorry, **I cannot directly help with modding the {% cite "KotOR" %} games on any
 
 Some of my mods require installers, namely TSLPatcher or HoloPatcher, to make the mods work properly, especially if you want to use other mods in addition to my mods and for {% cite "KotOR 2" %}, The Sith Lords Restored Content Mod. Simply copying and pasting files from my mod to your game's directory does NOT guarantee my mod will work as intended, and you may encounter bugs that could possibly game-breaking.
 
-For Android and iOS users, I suggest referring to the [KotOR Community Portal's modding guide](https://kotor.neocities.org/modding/), specifically their general instructions in their mobile mod builds. See [this page for {% cite "KotOR 1" %}](https://kotor.neocities.org/modding/mod_builds/k1/full_mobile#General_Instructions) and [this page for {% cite "KotOR 2" %}](https://kotor.neocities.org/modding/mod_builds/k2/full_mobile#General_Instructions).
+For Android and iOS users, I suggest referring to the [KotOR Community Portal's modding guide](https://kotor.neocities.org/modding/), specifically their instructions in their mobile mod builds. See [this page for {% cite "KotOR 1" %}](https://kotor.neocities.org/modding/mod_builds/k1/full_mobile) and [this page for {% cite "KotOR 2" %}](https://kotor.neocities.org/modding/mod_builds/k2/full_mobile).
 
 For Nintendo Switch users, in order to mod the {% cite "KotOR" %} game on Switch, first you need to hack your Switch or install a modchip in your Switch, then use the [KotOR Switch Modding Framework](https://deadlystream.com/files/file/2102-kotor-switch-modding-framework/) and [KotOR II Switch Modding Framework](https://deadlystream.com/files/file/2106-kotor-ii-switch-modding-framework/) to install mods. According to JacqylFrost, the creator of these frameworks, both TSLRCM and my Handmaiden same-geneder romance mod work with the {% cite "KotOR 2" %} version of the framework. I suggest you ask JacqylFrost directly if you need help with modding the {% cite "KotOR" %} games on Switch.
 
