@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2025-04-08T08:49:00+0800
+updated: 2025-04-13T08:00:06+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -17,7 +17,7 @@ You can also check out my [status.cafe profile](https://status.cafe/users/leiluk
 
 I am attending a Malaysian campus of the [42 computer science school](https://www.42network.org/). I have registered, passed their online game test and am currently in their 26-daybootcamp known as the Piscine beginning on 7 April 2025.
 
-You can read more about it on my plans for attending 42 in the blog post, ["Attending 42 the Computer Science School"](/blog/posts/2025-01-19-attending-42-school).
+You can read more about my life at 42 the computer science school in my blog posts under the ["42 the school"](/categories/42-the-school/) category.
 
 ## Switching to Vim and Neovim from Visual Studio Code as My Main Code Editor
 
