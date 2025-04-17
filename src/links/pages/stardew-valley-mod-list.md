@@ -571,6 +571,7 @@ Content Patcher Required
 
 Mod Name
 : [Custom Spouse Patio Redux](https://www.nexusmods.com/stardewvalley/mods/10889)
+
 Mod Author
 : aedenthorn
 
@@ -592,6 +593,7 @@ Content Patcher Required
 
 Mod Name
 : [Bed Tweaks](https://www.nexusmods.com/stardewvalley/mods/10023)
+
 Mod Author
 : aedenthorn
 
