@@ -3,7 +3,7 @@ articleTitle: Leilukin's Stardew Valley Mod Build
 desc: A list of Stardew Valley mods I use.
 tags: ["contents", "mod lists"]
 categories: ["stardew valley", "video game mods"]
-updated: 2024-12-30T22:51:43+0800
+updated: 2025-04-18T06:30:06+0800
 isContentDivided: true
 toc: true
 ---
@@ -570,10 +570,9 @@ Content Patcher Required
 ### Custom Spouse Patio
 
 Mod Name
-: [Custom Spouse Patio Redux](https://www.nexusmods.com/stardewvalley/mods/10889) ([Unofficial Update](http://forums.stardewvalley.net/threads/unofficial-mod-updates.2096/post-121068))
-
+: [Custom Spouse Patio Redux](https://www.nexusmods.com/stardewvalley/mods/10889)
 Mod Author
-: aedenthorn; unofficial update by FlyingTNT
+: aedenthorn
 
 Category
 : Modified Content
@@ -592,10 +591,9 @@ Content Patcher Required
 ### Bed Tweaks
 
 Mod Name
-: [Bed Tweaks](https://www.nexusmods.com/stardewvalley/mods/10023) ([Unofficial Update](http://forums.stardewvalley.net/threads/unofficial-mod-updates.2096/post-121068))
-
+: [Bed Tweaks](https://www.nexusmods.com/stardewvalley/mods/10023)
 Mod Author
-: aedenthorn; unofficial update by FlyingTNT
+: aedenthorn
 
 Category
 : Appearance Change
