@@ -9,7 +9,7 @@ Recommended JavaScript runtime: [Bun](https://bun.sh).
 
 1. Clone this repository locally
     ```
-    git clone https://github.com/helenclx/leilukin-site.git
+    git clone https://git.32bit.cafe/Leilukin/leilukin-site
     ```
 1. Install dependencies
     ```
