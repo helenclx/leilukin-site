@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2025-04-02T23:31:43+0800
+updated: 2025-04-19T21:52:21+0800
 toc: true
 eleventyNavigation:
     order: 15
@@ -15,7 +15,7 @@ Information about how this website is built.
 * JavaScript runtime: [Bun](https://bun.sh).
 * Templating languages: Nunjucks and Markdown.
 * Tested browsers: Mozilla Firefox, Vivaldi and Lynx.
-* Source code available on [GitHub](https://github.com/helenclx/leilukin-site) and its [Gitea mirror](https://git.32bit.cafe/Leilukin/leilukin-site).
+* Source code available on [32-Bit Cafe's Gitea instance](https://git.32bit.cafe/Leilukin/leilukin-site).
 
 ## Host and Domain
 
