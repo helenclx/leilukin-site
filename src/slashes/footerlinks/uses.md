@@ -87,7 +87,11 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Code editors: [Vim](https://www.vim.org/) and [Notepad++](https://notepad-plus-plus.org/)
 - Terminal emulator: [Windows Terminal](https://en.wikipedia.org/wiki/Windows_Terminal)
 - Shell: [PowerShell](https://microsoft.com/powershell) on Windows and [Zsh](https://www.zsh.org/) on Linux
+<<<<<<< HEAD
 - Version control: [Git](https://git-scm.com/) with [GitHub](https://github.com/) and [32-Bit Cafe's Gitea instance](https://git.32bit.cafe/)
+=======
+- Version control: [Git](https://git-scm.com/) with [GitHub](https://github.com/)
+>>>>>>> 3e1fc8babc1f267dee54a9c7858ec6fe5cba1f2d
 
 ### Media
 
