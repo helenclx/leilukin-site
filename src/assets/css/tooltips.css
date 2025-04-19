@@ -1,0 +1,49 @@
+/* ARIA Tooltips by Scott O'Hara: https://github.com/scottaohara/a11y_tooltips */
+
+[data-tooltip] {
+	display: inline-block;
+	position: relative;
+}
+
+[data-tooltip-block] { display: block; }
+
+.tooltip {
+	font-size: .825rem;
+	left: 0;
+	min-width: 20ch;
+	max-width: 44ch;
+	pointer-events: none;
+	position: absolute;
+	top: 100%;
+	z-index: 2;
+}
+
+.push-up .tooltip {
+	bottom: 100%;
+	top: auto;
+}
+
+.push-right .tooltip {
+	left: auto;
+	right: 0;
+}
+
+.tooltip__content {
+	background-color: var(--clr-quote-bg);
+	border: 0.15em solid var(--clr-main-heading);
+	display: inline-block;
+	opacity: 0;
+	padding: .625em;
+	visibility: hidden;
+}
+
+.tooltip__content > * { margin: .5em 0; }
+.tooltip__content :last-child { margin-bottom: 0; }
+.tooltip__content :first-child { margin-top: 0; }
+
+.tooltip--show .tooltip__content {
+	opacity: 1;
+	pointer-events: auto;
+	transition: opacity .1s ease-in;
+	visibility: visible;
+}
