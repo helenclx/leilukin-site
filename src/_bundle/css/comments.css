@@ -1,0 +1,139 @@
+/**
+* Author: Vera Konigin
+* Site: https://groundedwren.neocities.org
+* Contact: vera@groundedwren.com
+*
+* File Description: Styles for the guestbook control
+* CSS variables come from https://groundedwren.neocities.org/styles/gwBoilerPlatePersonalization.css
+*/
+:root { --icon-color: var(--clr-body-txt); }
+
+.comment-form {
+    display: grid;
+    border: 0.1rem solid var(--clr-body-txt);
+    padding: 1em;
+    margin: 2em 0;
+}
+
+.comment-form,
+.input-horizontal-wrapper { gap: 1em; }
+
+.comment-form-title {
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+
+.comment-form input,
+.comment-form textarea {
+    color: var(--clr-body-txt);
+    background-color: var(--clr-quote-bg);
+}
+
+.input-horizontal-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%/1, max(16rem, 100%/3)), 1fr));
+}
+
+.input-vertical,
+.comment-box-container {
+    display: grid;
+    gap: 0.3em;
+}
+
+.input-vertical input:focus,
+.comment-box-container textarea:focus { outline: 0.15em solid var(--clr-link); }
+
+.comment-box-container textarea { resize: vertical; }
+
+.inline-banner {
+	padding: 0.5em;
+	word-break: break-word;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	gap: 0.5em;
+    background-color: var(--clr-quote-bg);
+}
+
+.inline-banner.warning { background-color: #9e0f00; }
+
+.inline-banner.warning a { color: unset; }
+
+.form-footer,
+.comment-footer {
+    display: flex;
+    gap: 0.5em;
+}
+
+.form-footer { justify-content: flex-end; }
+
+.form-footer input,
+.comment-footer button,
+.show-comment {
+    border: none;
+    background: var(--clr-link-btn-bg);
+    color: var(--clr-link-btn-txt);
+    padding: 0.3em 0.6em;
+    border-radius: 0.2em;
+}
+
+.comment-footer button,
+.show-comment { font-size: initial; }
+
+gw-comment-card:not(.collapsed) .show-comment { display: none; }
+gw-comment-card.collapsed .comment-article > *:not(.comment-header) { display: none !important; }
+gw-comment-card.collapsed .show-comment { display: block; }
+gw-comment-card.collapsed .comment-header-right time { display: none; }
+
+.comments-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 100%;
+    gap: 1.5em;
+}
+
+.comment-article {
+    padding: 0.3em 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-article blockquote {
+    max-width: unset !important;
+    overflow-wrap: break-word;
+    margin: 0.5em 0;
+}
+
+.comment-article > button { max-width: fit-content; }
+
+.comment-header {
+    display: grid;
+    grid-template-columns: 0fr auto 1fr;
+    gap: 0.4em;
+    align-items: baseline;
+}
+
+.comment-article .comment-article {
+    margin-left: 2em;
+    margin-top: 0.5em;
+    padding-right: 0;
+}
+
+.comment-id, .comment-header-right > time  {
+    font-size: 0.85em;
+    font-style: italic;
+    word-break: keep-all;
+}
+
+.comment-header-right {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.commenter-name {
+    font-size: 1.1em;
+    font-weight: 700;
+    overflow-wrap: break-word;
+}

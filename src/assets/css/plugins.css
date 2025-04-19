@@ -1,0 +1,46 @@
+/* HEADING WRAPPER AND ANCHOR */
+.heading-wrapper {
+    display: flex;
+    gap: 0.3em;
+    align-items: baseline;
+}
+
+* + .heading-wrapper { margin-top: 1.8em; }
+
+.heading-anchor {
+    order: -1;
+    text-underline-offset: 0.1em;
+}
+
+.heading-anchor:focus {
+    outline: 0.13em solid currentColor;
+    outline-offset: 0.05em;
+}
+
+.heading-anchor [hidden] { display: block; }
+
+/* BLOCKQUOTES With CITATIONS */
+.c-blockquote__attribution { text-align: left; }
+
+.c-blockquote__attribution::before {
+    content: "—";
+    margin-right: 0.3em;
+}
+
+/* FOOTNOTES */
+.footnote-ref { margin-left: 0.2em; }
+.footnote-ref a:target { scroll-margin-block: calc(var(--sz-navbar-ht) + 5ex); }
+.footnotes { padding-top: 2em; }
+.footnotes-sep { margin-top: 2.5em; }
+
+.footnotes-list {
+    display: grid;
+    gap: 1em;
+}
+
+.footnotes-list :target {
+    background-color: var(--clr-quote-bg);
+    outline: 0.1em dashed var(--clr-title-border);
+    outline-offset: 0.1em;
+}
+*:not([class]) + .footnote-item__back { margin-top: 0.5em; }

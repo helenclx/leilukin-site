@@ -1,0 +1,52 @@
+/* Readex Pro */
+@font-face {
+    font-display: swap;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/assets/fonts/readex-pro/readex-pro-v22-latin-600.woff2') format('woff2');
+}
+/* Intel One Mono */
+@font-face {
+    font-display: swap;
+    font-family: 'Intel One Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/intel-one-mono/IntelOneMono-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Intel One Mono';
+    font-style: italic;
+    font-weight: 400;
+    src: url('/assets/fonts/intel-one-mono/IntelOneMono-Italic.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Intel One Mono';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/assets/fonts/intel-one-mono/IntelOneMono-Medium.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Intel One Mono';
+    font-style: italic;
+    font-weight: 600;
+    src: url('/assets/fonts/intel-one-mono/IntelOneMono-MediumItalic.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Intel One Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/assets/fonts/intel-one-mono/IntelOneMono-Bold.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Intel One Mono';
+    font-style: italic;
+    font-weight: 700;
+    src: url('/assets/fonts/intel-one-mono/IntelOneMono-BoldItalic.woff2') format('woff2');
+}
