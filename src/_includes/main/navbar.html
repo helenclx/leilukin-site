@@ -1,0 +1,11 @@
+{% extends "global/navbar.html" %}
+
+{% block navbarLinks %}
+{% set currentUrl %}{{ page.url }}{% endset %}
+{% set navPages = collections["navbar links"] | eleventyNavigation %}
+{%- for entry in navPages %}
+<li>
+    <a {% if entry.url == page.url %}aria-current="page"{% endif %} href="{{ entry.url }}">{{ entry.title }}</a>
+</li>
+{%- endfor %}
+{% endblock %}

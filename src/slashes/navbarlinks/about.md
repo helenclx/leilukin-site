@@ -33,7 +33,7 @@ More information about this site can be found on the following pages:
 
 ### Link to This Site
 
-{% include "main/my-button.njk" %}
+{% include "main/my-button.html" %}
 {% endcontainer %}
 
 {% container "article", "content__section" %}
@@ -76,5 +76,5 @@ Other online platforms you can find me on:
 
 ### Support Me
 
-{% include "main/support-me.njk" %}
+{% include "main/support-me.html" %}
 {% endcontainer %}

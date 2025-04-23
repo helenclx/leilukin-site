@@ -1,0 +1,19 @@
+{%- css %}{% include "src/assets/css/pokemonoras.css" %}{%- endcss %}
+
+{% extends "global/baselayout.html" %}
+
+{% block metaTitle %}
+<meta property="og:title" content="{{ title + ' | ' if title }}Pokémon Omega Ruby and Alpha Sapphire Shrine">
+{% endblock %}
+
+{% block pageTitle %}
+{{ title + " | " if title }}Pokémon Omega Ruby and Alpha Sapphire Shrine | {{ sitemeta.siteName | safe }}
+{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/x-icon" href="/assets/shrines/pokemonoras/images/favicon.ico">
+{% endblock %}
+
+{% block hero %}{% include "pokemonoras/hero.html" %}{% endblock %}
+{% block navbar %}{% include "pokemonoras/navbar.html" %}{% endblock %}
+{% block footer %}{% include "pokemonoras/footer.html" %}{% endblock %}

@@ -1,0 +1,19 @@
+{%- css %}{% include "src/assets/css/starwarskotor.css" %}{%- endcss %}
+
+{% extends "global/baselayout.html" %}
+
+{% block metaTitle %}
+<meta property="og:title" content="{{ title + ' | ' if title }}Star Wars: Knights of the Old Republic Shrine">
+{% endblock %}
+
+{% block pageTitle %}
+{{ title + " | " if title }}Star Wars: Knights of the Old Republic Shrine | {{ sitemeta.siteName | safe }}
+{% endblock %}
+
+{% block favicon %}
+<link rel="icon" type="image/x-icon" href="/assets/shrines/starwarskotor/images/favicon.ico">
+{% endblock %}
+
+{% block hero %}{% include "starwarskotor/hero.html" %}{% endblock %}
+{% block navbar %}{% include "starwarskotor/navbar.html" %}{% endblock %}
+{% block footer %}{% include "starwarskotor/footer.html" %}{% endblock %}

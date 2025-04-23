@@ -44,5 +44,5 @@ Oracle and Bone compiled this playlist as a tribute to Anita Mui, who was a majo
 
 ## My Dear Summer Lover
 
-{% from "asummersend/myplaylist.njk" import myASEPlaylist %}
+{% from "asummersend/myplaylist.html" import myASEPlaylist %}
 {{ myASEPlaylist("My fanmix for") }}
