@@ -54,15 +54,13 @@ export default function(eleventyConfig) {
         html: true,
         linkify: true,
     })
+        .set({ fuzzyLink: false })
         .use(markdownItAnchor, markdownItAnchorOptions)
         .use(markdownItAttribution)
         .use(markdownItAttrs)
         .use(markdownItBracketedSpans)
         .use(markdownItDefList)
         .use(markdownItFootnote);
-
-    // Configure linkify
-    markdownLibrary.linkify.set({ fuzzyLink: false });
 
     // Configure markdown-it-footnote
     markdownLibrary.renderer.rules.footnote_block_open = () => (
