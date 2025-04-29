@@ -20,7 +20,15 @@ export default function(eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(pluginEleventyNavigation);
     eleventyConfig.addPlugin(pluginSyntaxHighlight, { preAttributes: { tabindex: 0 } });
-    eleventyConfig.addPlugin(pluginEmbedEverything, { add: ['soundcloud'] });
+    eleventyConfig.addPlugin(pluginEmbedEverything, {
+        youtube: {
+            options: {
+                lazy: true,
+                lite: true,
+                recommendSelfOnly: true,
+            }
+        }
+    });
     eleventyConfig.addPlugin(pluginWordcount);
     eleventyConfig.addPlugin(pluginTOC, {
         tags: ['h2', 'h3', 'h4', 'h5', 'h6'],
