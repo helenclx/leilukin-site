@@ -15,7 +15,7 @@ import filtersConfig from "./src/_config/filters.js";
 import shortCodesConfig from "./src/_config/shortcodes.js";
 
 export default function(eleventyConfig) {
-    // Plugins
+    // ----- Plugins
     eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(pluginEleventyNavigation);
@@ -37,14 +37,14 @@ export default function(eleventyConfig) {
         },
     });
 
-    // Custom Configurations
+    // ----- Custom Configurations
     eleventyConfig.addPlugin(markdownItConfig);
     eleventyConfig.addPlugin(filesConfig);
     eleventyConfig.addPlugin(collectionsConfig);
     eleventyConfig.addPlugin(filtersConfig);
     eleventyConfig.addPlugin(shortCodesConfig);
 
-    // Eleventy bundle plugin
+    // ----- Eleventy bundle plugin
     eleventyConfig.addBundle("css");
     eleventyConfig.addBundle("js", { toFileDirectory: "assets/js" });
 
