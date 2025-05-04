@@ -1,5 +1,5 @@
 ---
-layout: cassettebeasts/content
+layout: layouts/cassettebeasts
 title: Resources
 pageTitle: Cassette Beasts Resources
 desc: A collection of resources for Cassette Beasts.

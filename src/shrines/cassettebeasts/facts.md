@@ -1,5 +1,5 @@
 ---
-layout: cassettebeasts/content
+layout: layouts/cassettebeasts
 title: Facts
 pageTitle: Cassette Beasts Facts
 desc: A collection of facts and trivia about Cassette Beasts.

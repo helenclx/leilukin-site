@@ -1,5 +1,5 @@
 ---
-layout: cassettebeasts/content
+layout: layouts/cassettebeasts
 pageTitle: Cassette Beasts Shrine
 tags: ["shrine home", "contents"]
 categories: ["shrines", "cassette beasts"]

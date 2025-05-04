@@ -1,5 +1,5 @@
 ---
-layout: starwarskotor/content
+layout: layouts/starwarskotor
 pageTitle: "Star Wars: Knights of the Old Republic Shrine"
 tags: ["shrine home", "contents"]
 categories: ["shrines", "star wars kotor", "star wars kotor 2"]

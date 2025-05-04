@@ -1,5 +1,5 @@
 ---
-layout: cassettebeasts/content
+layout: layouts/cassettebeasts
 title: Articles
 pageTitle: Cassette Beasts Articles
 desc: List of articles written by me or other people that I recommend for Cassette Beasts.

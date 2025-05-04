@@ -1,5 +1,5 @@
 ---
-layout: asummersend/content
+layout: layouts/asummersend
 title: Playlists
 pageTitle: A Summer’s End — Hong Kong 1986 Playlists
 desc: List of A Summer’s End — Hong Kong 1986 playlists.

@@ -1,5 +1,5 @@
 ---
-layout: starwarskotor/content
+layout: layouts/starwarskotor
 title: Guides
 pageTitle: "Star Wars: Knights of the Old Republic Guides"
 desc: "List of guides for the Star Wars: Knights of the Old Republic series I have written or found useful. This page also includes lists of cheats."

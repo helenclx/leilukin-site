@@ -1,5 +1,5 @@
 ---
-layout: asummersend/content
+layout: layouts/asummersend
 pageTitle: A Summer’s End — Hong Kong 1986 Shrine
 tags: ["shrine home", "contents"]
 categories: ["shrines", "a summer's end"]

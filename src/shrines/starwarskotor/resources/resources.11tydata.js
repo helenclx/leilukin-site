@@ -1,6 +1,6 @@
 export default {
     tags: ["contents", "kotor resources"],
-    layout: "starwarskotor/content",
+    layout: "layouts/starwarskotor",
     hasBreadcrumbs: true,
     articleElement: true,
     eleventyComputed: {

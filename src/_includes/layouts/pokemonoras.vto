@@ -1,0 +1,72 @@
+---
+layout: layouts/content
+sectionName: Pokémon Omega Ruby and Alpha Sapphire Shrine
+---
+{{- css }}{{ include "src/assets/css/pokemonoras.css" }}{{- /css }}
+
+{{ set favicon }}
+<link rel="icon" type="image/x-icon" href="/assets/shrines/pokemonoras/images/favicon.ico">
+{{ /set }}
+
+{{ layout "partials/hero.vto" }}
+{{ set heroImg }}
+<picture>
+    <source srcset="/assets/shrines/pokemonoras/images/pokemonoras-header-320.avif" media="(orientation: landscape)" />
+    <img src="/assets/shrines/pokemonoras/images/pokemonoras-header-640.avif" alt="Banner of Pokémon Omega Ruby and Alpha Sapphire Shrine" />
+</picture>
+{{ /set }}
+
+{{ set eventScript }}
+const todayEvent = getTodayEvent();
+
+if (todayEvent) {
+    heroTopBarEl.classList.remove('hidden');
+    heroTopBarEl.innerHTML = todayEvent;
+}
+
+function getTodayEvent() {
+    const date = new Date();
+    const month = date.getMonth() + 1;
+    const day = date.getDate();
+    const year = date.getFullYear();
+
+    const orasReleaseDate = new Date("2014-11-21").getFullYear();
+    const orasAnniversary = year - orasReleaseDate;
+
+    if (month === 11 && day === 21)
+        return `
+            Today is the ${orasAnniversary}-year anniversary of the release of <cite>Pokémon Omega Ruby"</cite> and <cite>Alpha Sapphire</cite>!
+        `;
+    else
+        return null;
+}
+{{ /set }}
+{{ /layout }}
+
+{{ layout "partials/navbar.vto" }}
+{{ set shrineHomeUrl = "/shrines/pokemonoras/" }}
+
+{{ set navbarLinks }}
+{{ set navPages = collections.all |> eleventyNavigation("ORAS Shrine") }}
+{{ for entry of navPages }}
+<li>
+    <a {{ if entry.url == page.url }}aria-current="page"{{ /if }} href="{{ entry.url }}">{{ entry.title }}</a>
+</li>
+{{ /for }}
+{{ /set }}
+{{ /layout }}
+
+{{ layout "partials/shrineinfo.vto" }}
+{{ set shrineAbout }}
+<p>Welcome to {{ sitemeta.siteAuthor.name }}'s shrine for {{ cite "Pokémon Omega Ruby and Alpha Sapphire" }}, remakes of the 2002 Game Boy Advance role-playing video games {{ cite "Pokémon Ruby" }} and {{ cite "Pokémon Sapphire" }}. The games are part of the sixth generation of the {{ cite "Pokémon" }} main series of video games, developed by Game Freak and published by The Pokémon Company and Nintendo for the Nintendo 3DS.</p>
+{{ /set }}
+
+{{ set shrineLinks }}
+<li><a href="https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Omega_Ruby_and_Alpha_Sapphire">Bulbapedia</a></li>
+<li><a href="https://pkmn.redcrown.net/hoenn/"><cite>Pokémon Ruby</cite>, <cite>Sapphire</cite>, <cite>Omega Ruby</cite> and <cite>Alpha Sapphire</cite> fanlisting</a></li>
+{{ /set }}
+{{ /layout }}
+
+{{ layout "partials/footer.vto" }}
+<p>Made with ♥ by {{ sitemeta.siteAuthor.name }} • Shrine Launched: 21 November 2024</p>
+{{ /layout }}

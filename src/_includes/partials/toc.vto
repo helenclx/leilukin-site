@@ -1,0 +1,57 @@
+<aside class="left-sidebar" aria-label="Left sidebar">
+    <details-utils force-open="(min-width: 60rem)" force-restore>
+        <details class="toc__wrapper sidebar--sticky">
+            <summary class="toc__heading" id="toc-heading">
+                Table of Contents
+            </summary>
+            {{ content |> toc }}
+        </details>
+    </details-utils>
+</aside>
+
+{{- css }}
+.toc__wrapper {
+    max-height: var(--ht-sticky-sidebar);
+    overflow-x: auto;
+    background-color: var(--clr-content-bg);
+    padding: 1rem 1.3rem;
+}
+
+.toc__heading {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--clr-sub-heading);
+}
+
+.toc__wrapper[open] > .toc__heading {
+    margin-bottom: 0.5em;
+}
+
+.toc ol, .toc ol ol {
+    display: grid;
+    gap: 0.3em;
+}
+
+.toc ol {
+    border-top: 0.1em solid var(--clr-title-border);
+    padding-left: 1.3em;
+    padding-top: 1em;
+}
+
+.toc ol ol {
+    border-top: none;
+    list-style-type: disc;
+    padding-left: 1em;
+    padding-top: 0.3em;
+}
+
+.toc ol a {
+    font-size: 1.1rem;
+    padding-left: 0.3em;
+}
+
+.toc ol ol a {
+    padding: 0;
+    font-size: 1rem;
+}
+{{ endcss }}

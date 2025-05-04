@@ -1,5 +1,5 @@
 ---
-layout: starwarskotor/content
+layout: layouts/starwarskotor
 title: Resources
 pageTitle: "Star Wars: Knights of the Old Republic Resources"
 desc: "List of Star Wars: Knights of the Old Republic resources I have created or compiled myself.."

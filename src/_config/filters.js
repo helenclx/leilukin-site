@@ -25,6 +25,9 @@ export default function(eleventyConfig) {
         return array.slice(0, maximum);
     });
 
+    // Filter: Collection item count
+    eleventyConfig.addFilter("itemCount", (array) => array.length() );
+
     // Filter: Thousands separator
     eleventyConfig.addFilter("thousands", function(num) {
         return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");

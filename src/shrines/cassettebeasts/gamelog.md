@@ -1,5 +1,5 @@
 ---
-layout: cassettebeasts/content
+layout: layouts/cassettebeasts
 title: Game Log
 pageTitle: Cassette Beasts Game Log
 desc: A catalogue of my Cassette Beasts characters and save profiles.

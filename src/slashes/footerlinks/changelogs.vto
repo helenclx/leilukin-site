@@ -1,0 +1,25 @@
+---
+layout: main/changelogs
+title: Changelogs
+pageTitle: Website Changelogs
+desc: Changelogs of my website.
+pagination:
+    data: collections["changelogs"]
+    size: 20
+    alias: changelogs
+    reverse: true
+permalink: "/{{ page.fileSlug }}{{ if pagination.pageNumber > 0 }}/page/{{ pagination.pageNumber + 1 }}{{ /if }}/"
+eleventyNavigation:
+    key: Changelogs
+    order: 9
+---
+
+<h2>Latest Changelogs</h2>
+{{ for log of changelogs }}
+<h3 class="date-style"><time datetime="{{ log.date }}">{{ log.date |> formatDate }}</time></h3>
+{{ log.content }}
+{{ /for }}
+
+{{ include "components/pagination-oldnew.vto" }}
+
+{{- css }}* + h2, * + h3 { margin-top: 1.5em; }{{ /css }}

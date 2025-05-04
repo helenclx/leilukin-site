@@ -1,6 +1,6 @@
 export default {
     tags: ["contents", "feed items", "cassette beasts articles"],
-    layout: "cassettebeasts/content",
+    layout: "layouts/cassettebeasts",
     isArticle: true,
     eleventyComputed: {
         title: (data) => `${data.articleTitle} | Articles`,

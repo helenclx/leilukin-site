@@ -1,5 +1,5 @@
 ---
-layout: starwarskotor/content
+layout: layouts/starwarskotor
 title: Articles
 pageTitle: "Star Wars: Knights of the Old Republic Articles"
 desc: "List of articles written by me or other people that I recommend for the Star Wars: Knights of the Old Republic series."

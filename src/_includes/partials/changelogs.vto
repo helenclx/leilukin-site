@@ -1,0 +1,62 @@
+---
+layout: layouts/content
+articleElement: true
+---
+
+{{ set currentUrl =  page.url }}
+
+<nav class="changelog__nav" aria-labelledby="changelog-nav-title">
+    <p class="changelog__nav--title" id="changelog-nav-title">Changelog Archive:</p>
+    <ul class="inline-nav changelog__nav--links">
+        <li><a
+            {{ if currentUrl === "/changelogs/" }}aria-current="page"{{ /if }}
+            href="/changelogs"
+        >Latest</a></li>
+        {{ set navPages = collections.all |> eleventyNavigation("Changelogs") |> toReversed }}
+        {{ for entry of navPages }}
+        <li><a
+            {{ if entry.url == page.url }}aria-current="page"{{ /if }}
+            href="{{ entry.url }}"
+        >{{ entry.title }}</a></li>
+        {{ /for }}
+    </ul>
+</nav>
+
+<p>To get notified of the updates on this website, you can subscribe to its <a href="{{ sitemeta.feedPath }}"><svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>RSS feed</a>, which contains new articles, blog posts and website changelogs.</p>
+
+{{ content }}
+
+{{- css }}
+.changelog__nav,
+.changelog__nav--links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.changelog__nav {
+    flex-direction: column;
+    gap: 0.2em;
+    align-self: center;
+    font-weight: 700;
+    gap: 0.5em;
+}
+
+.changelog__nav--links li {
+    text-align: center;
+    align-self: center;
+}
+
+.changelog__nav--links [aria-current="page"] {
+    text-decoration: none;
+    color: var(--clr-bold-txt);
+}
+
+@media (min-width: 640px) {
+    .changelog__nav {
+        flex-direction: row;
+        gap: 1em;
+    }
+}
+{{ /css }}

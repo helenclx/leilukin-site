@@ -1,5 +1,5 @@
 ---
-layout: asummersend/content
+layout: layouts/asummersend
 title: Trivia
 pageTitle: A Summer’s End — Hong Kong 1986 Trivia
 desc: A collection of trivia about A Summer’s End — Hong Kong 1986.

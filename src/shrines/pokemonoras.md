@@ -1,5 +1,5 @@
 ---
-layout: pokemonoras/content
+layout: layouts/pokemonoras
 pageTitle: Pokémon Omega Ruby and Alpha Sapphire Shrine
 tags: ["shrine home", "contents"]
 categories: ["shrines", "pokemon", "pokemon oras"]

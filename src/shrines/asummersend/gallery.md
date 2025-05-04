@@ -1,5 +1,5 @@
 ---
-layout: asummersend/content
+layout: layouts/asummersend
 title: Gallery
 pageTitle: A Summer’s End — Hong Kong 1986 Gallery
 desc: My gallery for A Summer’s End — Hong Kong 1986.

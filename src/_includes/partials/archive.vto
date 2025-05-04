@@ -1,0 +1,16 @@
+<ul>
+    {{ for content of contentList }}
+    <li>
+        <p class="item-list__title">
+            <a href="{{ content.url }}">
+                {{ if content.data.pageTitle }}{{ content.data.pageTitle }}
+                {{ else if content.data.title }}{{ content.data.title }}
+                {{ else }}
+                <code>{{ content.url }}</code>
+                {{ /if }}
+            </a>
+        </p>
+        <time datetime="{{ content.date }}">{{ content.date |> formatDate }}</time>
+    </li>
+    {{ /for }}
+</ul>

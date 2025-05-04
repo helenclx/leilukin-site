@@ -1,5 +1,5 @@
 ---
-layout: cassettebeasts/content
+layout: layouts/cassettebeasts
 title: Featured
 pageTitle: Cassette Beasts Featured Pieces
 desc: A collection of reviews, articles and commentary videos from other people about Cassette Beasts.

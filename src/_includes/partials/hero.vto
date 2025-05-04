@@ -1,0 +1,42 @@
+<header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        {{ heroImg }}
+    </div>
+</header>
+
+{{ css }}
+.hero {
+    width: 100%;
+    background-color: var(--clr-hero-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero__top-bar {
+    background: var(--clr-navbar-bg);
+    width: 100%;
+    padding: 0.5em 0.7em;
+}
+
+.hero__img {
+    display: grid;
+    place-content: center;
+}
+
+.hero img {
+    object-fit: contain;
+    overflow: hidden;
+    max-height: 16rem;
+}
+{{ /css }}
+
+{{ js }}
+const hero = document.querySelector(".hero");
+const heroTopBarEl = document.querySelector(".hero__top-bar");
+const headerImgEl = document.querySelector(".hero__img");
+
+{{ eventScript }}
+{{ /js }}

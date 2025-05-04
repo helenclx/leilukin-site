@@ -1,0 +1,26 @@
+{{ export function articleList(tag) }}
+<ul>
+    {{ for article of collections[tag] }}
+    <li>
+        <p class="item-list__title">
+            <a href="{{ article.url }}">{{ article.data.articleTitle }}</a>
+        </p>
+        <time datetime="{{ article.date }}">{{ article.date |> formatDate }}</time>
+    </li>
+    {{ /for }}
+</ul>
+{{ /export }}
+
+{{ export function modEntry(params) }}
+{{ headingAnchor 3 }}{{ params.title }}{{ \/headingAnchor }}
+<div class="mod-entry">
+    <img src="/assets/projects/{{ params.bannerFile }}" alt="Banner of {{ params.title }} mod" loading="lazy">
+    <p>{{ params.desc }}</p>
+    <h4>Download the mod:</h4>
+    <div class="mod-entry__downloads">
+        {{ for download of params.downloads }}
+        <a class="link-btn" href="{{ download.url }}">{{ download.site }}</a>
+        {{ /for }}
+    </div>
+</div>
+{{ /export }}
