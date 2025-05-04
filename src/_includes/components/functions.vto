@@ -12,7 +12,8 @@
 {{ /export }}
 
 {{ export function modEntry(params) }}
-{{ headingAnchor 3 }}{{ params.title }}{{ /headingAnchor }}
+{{# {{ headingAnchor 3 }}{{ params.title }}{{ /headingAnchor }} #}}
+### {{ params.title }}
 <div class="mod-entry">
     <img src="/assets/projects/{{ params.bannerFile }}" alt="Banner of {{ params.title }} mod" loading="lazy">
     <p>{{ params.desc }}</p>
