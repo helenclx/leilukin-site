@@ -33,7 +33,7 @@ More information about this site can be found on the following pages:
 
 ### Link to This Site
 
-{% include "main/my-button.html" %}
+{% include "components/my-button.vto" %}
 {% endcontainer %}
 
 {% container "article", "content__section" %}
