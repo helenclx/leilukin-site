@@ -53,7 +53,7 @@ function getTodayEvent() {
 {{ set shrineHomeUrl = "/shrines/cassettebeasts/" }}
 
 {{ set navbarLinks }}
-{{ set navPages = collections.all | eleventyNavigation("Cassette Beasts Shrine") }}
+{{ set navPages = collections.all |> eleventyNavigation("Cassette Beasts Shrine") }}
 {{ for entry of navPages }}
 <li>
     <a {{ if entry.url == page.url }}aria-current="page"{{ /if }} href="{{ entry.url }}">{{ entry.title }}</a>

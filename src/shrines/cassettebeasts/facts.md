@@ -12,7 +12,7 @@ eleventyNavigation:
     order: 4
 ---
 
-## Where to Find {% cite "Cassette Beasts" %} Facts and Trivia
+## Where to Find {{ cite "Cassette Beasts" }} Facts and Trivia
 
 You can find facts and trivia about the game from:
 
@@ -25,7 +25,7 @@ You can find facts and trivia about the game from:
     * [Reddit AMA on r/JRPG](https://www.reddit.com/r/JRPG/comments/1bniroh/we_are_bytten_studio_developers_of_the/) on 25 March 2024
     * [Reddit AMA on r/cassettebeasts](https://www.reddit.com/r/cassettebeasts/comments/1gvucl7/we_are_bytten_studio_the_developers_of_cassette/) on 20 November 2024
 
-[Here is a list of interviews](https://wiki.cassettebeasts.com/wiki/List_of_Interviews) that staff who worked on Cassette Beasts participated in and discussed {% cite "Cassette Beasts" %}.
+[Here is a list of interviews](https://wiki.cassettebeasts.com/wiki/List_of_Interviews) that staff who worked on Cassette Beasts participated in and discussed {{ cite "Cassette Beasts" }}.
 
 ## Development History
 
@@ -42,7 +42,7 @@ Late 2019
 : Main voice cast [announced](https://twitter.com/ByttenStudio/status/1641106350376665091).
 
 26 April 2023
-: {% cite "Cassette Beasts" %} released on PC and Xbox PC Game Pass with a [PC release trailer](https://www.youtube.com/watch?v=_OLST_Fw5Ms), which also confirmed the release date of Xbox Series X/S, Xbox One, and Nintendo Switch versions to be 25 May 2023.
+: {{ cite "Cassette Beasts" }} released on PC and Xbox PC Game Pass with a [PC release trailer](https://www.youtube.com/watch?v=_OLST_Fw5Ms), which also confirmed the release date of Xbox Series X/S, Xbox One, and Nintendo Switch versions to be 25 May 2023.
 
 27 April 2023
 : [Hotfix 1.1.2](https://store.steampowered.com/news/app/1321440/view/3727334659005649764) live.
@@ -51,7 +51,7 @@ Late 2019
 : [Hotfix 1.1.3](https://store.steampowered.com/news/app/1321440/view/3727335925783976124) live.
 
 25 May 2023
-: {% cite "Cassette Beasts" %} released on Xbox Series X|S, Xbox One, Gamepass and Nintendo Switch, with a [console release trailer](https://www.youtube.com/watch?v=YDSiPEtAW-0).
+: {{ cite "Cassette Beasts" }} released on Xbox Series X|S, Xbox One, Gamepass and Nintendo Switch, with a [console release trailer](https://www.youtube.com/watch?v=YDSiPEtAW-0).
 
 22 June 2023
 : 1.2 Update [announced](https://x.com/ByttenStudio/status/1671901115187707905).
@@ -108,7 +108,7 @@ Late 2019
 : Android and iOS version confirmed to be released on January 15, with an [announcement trailer](https://www.youtube.com/watch?v=cq2Y3JukO1I).
 
 15 January 2025
-: {% cite "Cassette Beasts" %} released on [Android](https://play.google.com/store/apps/details?id=com.RawFury.CassetteBeasts) and [iOS](https://apps.apple.com/sg/app/cassette-beasts/id6736517805).
+: {{ cite "Cassette Beasts" }} released on [Android](https://play.google.com/store/apps/details?id=com.RawFury.CassetteBeasts) and [iOS](https://apps.apple.com/sg/app/cassette-beasts/id6736517805).
 
 27 March 2025
 : Version 1.7 "Sunshine Update" and "Wings Pack" cosmetic DLC [announced](https://store.steampowered.com/news/app/1321440/view/543351239572719532) to be released on 7 April 2024, with an [announcement trailer](https://www.youtube.com/watch?v=MfEy-5hpi6I).
@@ -118,31 +118,31 @@ Late 2019
 
 ## Accolades
 
-{% cite "Cassette Beasts" %} was [nominated for The British Game](https://twitter.com/ByttenStudio/status/1765742782700782040) ([archived](https://web.archive.org/web/20240307212519/https://twitter.com/ByttenStudio/status/1765742782700782040)) at the 20th British Academy (BAFTA) Games Awards.
+{{ cite "Cassette Beasts" }} was [nominated for The British Game](https://twitter.com/ByttenStudio/status/1765742782700782040) ([archived](https://web.archive.org/web/20240307212519/https://twitter.com/ByttenStudio/status/1765742782700782040)) at the 20th British Academy (BAFTA) Games Awards.
 
 Bytten Studio was [nominated for "Best Small Studio"](https://x.com/ByttenStudio/status/1791085233216823769) ([archived](https://archive.is/n3TcT)) at the Develop:Star Awards 2024.
 
-{% cite "Cassette Beasts: Deluxe Edition" %} [won Debug Indie Game Award for "Best Physical Release"](https://bsky.app/profile/byttenstudio.bsky.social/post/3ljazkisrvk2w) ([archived](https://archive.is/RFQVc)).
+{{ cite "Cassette Beasts: Deluxe Edition" }} [won Debug Indie Game Award for "Best Physical Release"](https://bsky.app/profile/byttenstudio.bsky.social/post/3ljazkisrvk2w) ([archived](https://archive.is/RFQVc)).
 
 ## Design Philosophy
 
-On 12 October 2023, Bytten Studio wrote a Steam blog post ["Cassette Beasts - Design & Expectations"](https://store.steampowered.com/news/app/1321440/view/6349565145235433772) about their design philosophy of {% cite "Cassette Beasts" %} to celebrate the game reaching 350,000+ players.
+On 12 October 2023, Bytten Studio wrote a Steam blog post ["Cassette Beasts - Design & Expectations"](https://store.steampowered.com/news/app/1321440/view/6349565145235433772) about their design philosophy of {{ cite "Cassette Beasts" }} to celebrate the game reaching 350,000+ players.
 
-{% cite "Cassette Beasts" %} very consciously opens with exploration and combat within the first minute of the game and leaves the lore for later, because Bytten Studio believes in giving players the game first and selling the players on the story later.^[Jay Baylis' (@SamuriFerret) [quote tweet](https://x.com/SamuriFerret/status/1788943762594369890) from @DavidKayConrad. 10 May 2024.]
+{{ cite "Cassette Beasts" }} very consciously opens with exploration and combat within the first minute of the game and leaves the lore for later, because Bytten Studio believes in giving players the game first and selling the players on the story later.^[Jay Baylis' (@SamuriFerret) [quote tweet](https://x.com/SamuriFerret/status/1788943762594369890) from @DavidKayConrad. 10 May 2024.]
 
 ## Influences and Inspirations
 
 The YouTube channel Lockstin & Gnoggin has a video that explains the names and designs of the monsters and Archangels: [EVERY Cassette Beast EXPLAINED! 🖭](https://www.youtube.com/watch?v=GlKQzL6gpxc). The video was [retweeted](/assets/shrines/cassettebeasts/socmed/Screenshot-2023-10-05-at-14-27-39-Lockstin-on-X.avif) by Bytten Studio.
 
-The idea of copying monster forms to transform into came from Tom Coxon's dream. Jay Baylis, inspired by {% cite "Kamen Rider" %}, later suggested doing the copying and transforming with physical cassette tapes.[^cb-steam-blog-20230228]
+The idea of copying monster forms to transform into came from Tom Coxon's dream. Jay Baylis, inspired by {{ cite "Kamen Rider" }}, later suggested doing the copying and transforming with physical cassette tapes.[^cb-steam-blog-20230228]
 
 Another oddball source of inspiration for Tom the story [“The Beatles Never Broke Up”](https://thebeatlesneverbrokeup.com/story/), about a man who in 2009 hit his head and woke up in another world where the Beatles still exist, where people still use analogue technology, and where parallel universe travel is commonplace.[^cb-steam-blog-20230228]
 
-The presentation of Archangels is inspired a little by the Witches in {% cite "Puella Magi Madoka Magica" %}.[^cb-steam-blog-20230228]
+The presentation of Archangels is inspired a little by the Witches in {{ cite "Puella Magi Madoka Magica" }}.[^cb-steam-blog-20230228]
 
-The way the relationship system ties into fusions is heavily influenced by {% cite "Steven Universe" %}, which both Tom and Jay are fans of.[^cb-steam-blog-20230228]
+The way the relationship system ties into fusions is heavily influenced by {{ cite "Steven Universe" }}, which both Tom and Jay are fans of.[^cb-steam-blog-20230228]
 
-The AP system in {% cite "Cassette Beasts" %} is taken from board and card games.[^cb-steam-blog-20230228]
+The AP system in {{ cite "Cassette Beasts" }} is taken from board and card games.[^cb-steam-blog-20230228]
 
 Jay cited comic author Grant Morrison as an influence on the broader themes of the game (as well as the strange English surrealism of the setting), as Morrison's stories often explore the nature of fiction, multiple realities, and their influence on one another.[^cb-steam-blog-20230228]
 
@@ -150,7 +150,7 @@ Archangels Morgante and Aleph were inspired by Morgan le Fay and King Arthur fro
 
 The ideas for the other Archangels came after Morgante and Aleph. Their themes were kind of arbitrarily chosen to match the design Jay had given them.[^bytten-ama-july-2023-archangels]
 
-Bytten Studio made a point to not put in a huge amount of Japanese mythological monsters in comparison to mythology from other nations, especially since well-known mons franchises such as {% cite "Shin Megami Tensei" %}, {% cite "Pokémon" %} and {% cite "Digimon" %} are Japanese franchises; they do not want to seem derivative.^[Jay Baylis's (samuri) [message](https://discord.com/channels/594939411775619102/709417227652431942/1206255854211305523). Bytten Studio Discord server. 11 February 2024.]
+Bytten Studio made a point to not put in a huge amount of Japanese mythological monsters in comparison to mythology from other nations, especially since well-known mons franchises such as {{ cite "Shin Megami Tensei" }}, {{ cite "Pokémon" }} and {{ cite "Digimon" }} are Japanese franchises; they do not want to seem derivative.^[Jay Baylis's (samuri) [message](https://discord.com/channels/594939411775619102/709417227652431942/1206255854211305523). Bytten Studio Discord server. 11 February 2024.]
 
 Barkley was not inspired by anything in particular; he was added in the game to surprise players as a non-human partner.^[Tom Coxon's (u/tcoxon) [comment](https://www.reddit.com/r/JRPG/comments/1bniroh/comment/kwiqbm5/). Bytten Studio's AMA on r/JRPG. 25 March 2024.]
 
@@ -217,24 +217,24 @@ Common words and phrases:
 
 ## The Developers
 
-Jay Baylis' favourite monster catching game is {% cite "Pokémon Ruby/Sapphire" %}.^[Jay Baylis' (u/SamuriFerret) [comment](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9qo03/). Bytten Studio's AMA on r/NintendoSwitch. 1 July 2023.]
+Jay Baylis' favourite monster catching game is {{ cite "Pokémon Ruby/Sapphire" }}.^[Jay Baylis' (u/SamuriFerret) [comment](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9qo03/). Bytten Studio's AMA on r/NintendoSwitch. 1 July 2023.]
 
-Tom Coxon's favourite monster catching game is {% cite "Siralim Ultimate" %}.^[Tom Coxon's (u/tcoxon) [comment](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9qicf/). Bytten Studio's AMA on r/NintendoSwitch. 1 July 2023.]
+Tom Coxon's favourite monster catching game is {{ cite "Siralim Ultimate" }}.^[Tom Coxon's (u/tcoxon) [comment](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9qicf/). Bytten Studio's AMA on r/NintendoSwitch. 1 July 2023.]
 
 ## Frequently Asked Topics
 
-This section compiles topics that do not fit into other sections of this page, but are commonly asked about by {% cite "Cassette Beasts" %} players that have been answered officially by Bytten Studio.
+This section compiles topics that do not fit into other sections of this page, but are commonly asked about by {{ cite "Cassette Beasts" }} players that have been answered officially by Bytten Studio.
 
-### {% cite "Cassette Beasts" %} not available on PlayStation
+### {{ cite "Cassette Beasts" }} not available on PlayStation
 
-Jay Baylis had addressed the subject of {% cite "Cassette Beasts" %} not being available on PlayStation in a [thread on the official {% cite "Cassette Beasts" %} Subreddit](https://discord.com/channels/@me/1151846241588752474/1238016445498134548):
+Jay Baylis had addressed the subject of {{ cite "Cassette Beasts" }} not being available on PlayStation in a [thread on the official {{ cite "Cassette Beasts" }} Subreddit](https://discord.com/channels/@me/1151846241588752474/1238016445498134548):
 
 > Releasing a game on any platform is a huge undertaking and lots of choices have to be made. Originally we focused on Cassette Beasts as a game for PC and Switch as we didn't think we'd have the resources to port to anything beyond that - however, getting the opportunity for Cassette Beasts to be a part of the Xbox Game Pass service meant we would also have to port the game to Xbox, of course.
 >
-> Furthermore, Godot 3 (the game engine Cassette Beasts is made in) is not easy to port, and cannot be done "out the box" - it requires an external partnership to do so (unlike engines like Unity and Unreal). Only a handful of Godot games had been ported to Switch before Cassette Beasts and they were all 2D games. **{% cite "Cassette Beasts" %} is the first game developed from the ground up as a 3D Godot game to ever be ported to console**. This has been a huge challenge for both us and, more importantly, the porting team we've worked with! What's more, every update and DLC made takes longer to release with every platform you add.
+> Furthermore, Godot 3 (the game engine Cassette Beasts is made in) is not easy to port, and cannot be done "out the box" - it requires an external partnership to do so (unlike engines like Unity and Unreal). Only a handful of Godot games had been ported to Switch before Cassette Beasts and they were all 2D games. **{{ cite "Cassette Beasts" }} is the first game developed from the ground up as a 3D Godot game to ever be ported to console**. This has been a huge challenge for both us and, more importantly, the porting team we've worked with! What's more, every update and DLC made takes longer to release with every platform you add.
 >
 > This doesn't mean that porting to Playstation won't/cannot *ever* happen, but we wouldn't promise anything unless we knew for sure. Game development is a series of trade-offs, and decisions like this aren't really made down to personal preference for platforms - personally, I mostly play games on PS5 at the moment.
 
-[^cb-steam-blog-20230228]: ["Cassette Beasts Blog #13 - You asked, we answered!"](https://store.steampowered.com/news/app/1321440/view/3669908058337516561). {% cite "Cassette Beasts" %} Steam blog. 28 February 2023.
+[^cb-steam-blog-20230228]: ["Cassette Beasts Blog #13 - You asked, we answered!"](https://store.steampowered.com/news/app/1321440/view/3669908058337516561). {{ cite "Cassette Beasts" }} Steam blog. 28 February 2023.
 
 [^bytten-ama-july-2023-archangels]: Tom Coxon's (u/tcoxon) [comment](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9v6q5/). Bytten Studio's AMA on r/NintendoSwitch. 1 July 2023.

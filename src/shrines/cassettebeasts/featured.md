@@ -12,15 +12,15 @@ eleventyNavigation:
     order: 3
 ---
 
-Here is a collection of reviews, articles and commentary videos from other people about {% cite "Cassette Beasts" %}. If you need more convincing than my words about why you should play {% cite "Cassette Beasts" %}, check these links out. 😎
+Here is a collection of reviews, articles and commentary videos from other people about {{ cite "Cassette Beasts" }}. If you need more convincing than my words about why you should play {{ cite "Cassette Beasts" }}, check these links out. 😎
 
 ## Reviews
 
 * [Cassette Beasts Review](https://techraptor.net/gaming/reviews/cassette-beasts-review) by Brittany Alva at TechRaptor (26 April 2023)
 * [Review: Cassette Beasts](https://hardcoregamer.com/reviews/review-cassette-beasts/439840/) by Jeremy Peeples at Hardcore Gamer (26 April 2023)
-* [{% cite "Cassette Beasts" %} Review: Where {% cite "Pokémon" %}, {% cite "Persona" %} and {% cite "Breath of the Wild" %} Collide](https://www.heypoorplayer.com/2023/04/26/cassette-beasts-review-pc/) by Josh Speer at Hey Poor Player (26 April 2023)
+* [{{ cite "Cassette Beasts" }} Review: Where {{ cite "Pokémon" }}, {{ cite "Persona" }} and {{ cite "Breath of the Wild" }} Collide](https://www.heypoorplayer.com/2023/04/26/cassette-beasts-review-pc/) by Josh Speer at Hey Poor Player (26 April 2023)
 * [Cassette Beasts review: dropping the mic on the Pokémon-like](https://www.rockpapershotgun.com/cassette-beasts-review) by Katharine Castle at Rock Paper Shotgun (26 April 2023)
-* [{% cite "Cassette Beasts" %} Review: Where {% cite "Pokémon" %}, {% cite "Persona" %} and {% cite "Breath of the Wild" %} Collide](https://ladiesgamers.com/cassette-beasts-review/) by Lottie Childs at LadiesGamers (26 April 2023)
+* [{{ cite "Cassette Beasts" }} Review: Where {{ cite "Pokémon" }}, {{ cite "Persona" }} and {{ cite "Breath of the Wild" }} Collide](https://ladiesgamers.com/cassette-beasts-review/) by Lottie Childs at LadiesGamers (26 April 2023)
 * [Cassette Beasts review](https://www.godisageek.com/reviews/cassette-beasts-review/) by Lyle Carr at GodisaGeek (26 April 2023)
 * [Cassette Beasts Review](https://www.thesixthaxis.com/2023/04/26/cassette-beasts-review/) by Nic Bunce at TheSixthAxis (26 April 2023)
 * [Cassette Beasts Review in 3 Minutes – An Excellent, Imaginative Monster-Catcher Game](https://www.escapistmagazine.com/cassette-beasts-review-in-3-minutes/) by Amy Campbell at The Escapist (27 April 2023)
