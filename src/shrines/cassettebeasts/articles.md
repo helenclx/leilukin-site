@@ -12,7 +12,7 @@ eleventyNavigation:
     order: 1
 ---
 
-{{ import { articlesList } from "components/functions.vto" }}
+{{ import { articleList } from "components/functions.vto" }}
 
 ## My {% cite "Cassette Beasts" %} Articles
 {{ articleList("cassette beasts articles") }}

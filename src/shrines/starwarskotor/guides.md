@@ -12,7 +12,7 @@ eleventyNavigation:
     order: 2
 ---
 
-{{ import { articlesList } from "components/functions.vto" }}
+{{ import { articleList } from "components/functions.vto" }}
 
 ## My KotOR Guides
 {{ articleList("kotor guides") }}

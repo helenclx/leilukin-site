@@ -6,7 +6,7 @@ eleventyNavigation:
     order: 5
 ---
 
-{{ import { articlesList } from "components/functions.vto" }}
+{{ import { articleList } from "components/functions.vto" }}
 
 ## My Articles
 Articles I have written.

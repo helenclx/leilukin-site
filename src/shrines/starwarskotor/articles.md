@@ -12,7 +12,7 @@ eleventyNavigation:
     order: 1
 ---
 
-{{ import { articlesList } from "components/functions.vto" }}
+{{ import { articleList } from "components/functions.vto" }}
 
 ## My Articles for Both Games
 {{ articleList("kotor both articles") }}
