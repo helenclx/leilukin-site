@@ -1,5 +1,5 @@
 ---
-layout: main/changelogs
+layout: partials/changelogs
 title: Website Layout Archive
 desc: An archive for the page layout designs mt website has used.
 changelogNav: Website Layouts
