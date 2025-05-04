@@ -8,12 +8,12 @@ eleventyNavigation:
     order: 1
 ---
 
-{%- macro siteLayout(params) -%}
+{{ function siteLayout(params) }}
 ## {{ params.title }}
-{% for screenshot in params.screenshots %}
+{{ for screenshot of params.screenshots }}
 <img src="/assets/layouts/{{ screenshot.imgFile }}" alt="{{ screenshot.imgAlt }}" loading="lazy">
-{% endfor %}
-{%- endmacro -%}
+{{ /for }}
+{{ /function }}
 
 {{ siteLayout({
     title: "20 April 2024",
