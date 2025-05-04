@@ -12,7 +12,7 @@ eleventyNavigation:
     order: 1
 ---
 
-{% from "global/macros.njk" import articleList with context %}
+{{ import { articlesList } from "components/functions.vto" }}
 
 ## My {% cite "Cassette Beasts" %} Articles
 {{ articleList("cassette beasts articles") }}

@@ -6,7 +6,7 @@ eleventyNavigation:
     order: 5
 ---
 
-{% from "global/macros.njk" import articleList with context %}
+{{ import { articlesList } from "components/functions.vto" }}
 
 ## My Articles
 Articles I have written.

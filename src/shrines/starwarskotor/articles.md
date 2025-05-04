@@ -12,7 +12,7 @@ eleventyNavigation:
     order: 1
 ---
 
-{% from "global/macros.njk" import articleList with context %}
+{{ import { articlesList } from "components/functions.vto" }}
 
 ## My Articles for Both Games
 {{ articleList("kotor both articles") }}

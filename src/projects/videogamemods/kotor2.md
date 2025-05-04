@@ -12,7 +12,7 @@ eleventyNavigation:
 
 If your issue is not addressed on my mod's page, ask for support or report issues with my mods on the mod's page on Deadly Stream, Nexus Mods or [send me an email]({{ sitemeta.siteAuthor.emailDecoyUrl }}){rel="nofollow, noindex"}.
 
-{% from "global/macros.njk" import modEntry %}
+{{ import { modEntry } from "components/functions.vto" }}
 
 ## Important Note for Steam Users
 
