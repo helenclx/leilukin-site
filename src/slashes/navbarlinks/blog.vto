@@ -24,7 +24,7 @@ eleventyComputed:
 <section class="content__section">
     <h2>Blog Posts</h2>
     <ul class="blog__posts">
-        {{ for post in postList }}
+        {{ for post of postList }}
         <li class="blog__post">
             <h3 class="blog__post--title">
                 <a href="{{ post.url }}">
@@ -37,7 +37,7 @@ eleventyComputed:
             <p class="blog__post--time"><time datetime="{{ post.date }}">{{ post.date |> formatDate }}</time></p>
             <p>{{ post.data.desc }}</p>
         </li>
-        {{ endfor }}
+        {{ /for }}
     </ul>
 
     {{ include "components/pagination-oldnew.vto" }}
