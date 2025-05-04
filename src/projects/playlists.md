@@ -7,14 +7,14 @@ eleventyNavigation:
 ---
 ## My Dear Summer Lover
 
-{% from "asummersend/myplaylist.html" import myASEPlaylist %}
+{{ import { myASEPlaylist } from "components/aseplaylist.vto" }}
 {{ myASEPlaylist("A fanmix for the visual novel") }}
 
 ## Mandopop LGBTQ+ Anthem [華語流行音樂同志國歌]{lang="zh"}
 
-{% imgFigure "/assets/projects/playlists/Mandopop-LGBTQ+-Anthem-Cover.avif", "Cover of the Mandopop LGBTQ+ Anthem playlist" %}
+{{ imgFigure "/assets/projects/playlists/Mandopop-LGBTQ+-Anthem-Cover.avif", "Cover of the Mandopop LGBTQ+ Anthem playlist" }}
 [Image description: A progress pride flag, with the Traditional Chinese words, [同志國歌]{lang="zh"}, meaning queer anthem on top.]
-{% endimgFigure %}
+{{ /imgFigure }}
 
 A collection of Mandarin queer anthems.
 
