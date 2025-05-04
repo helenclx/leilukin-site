@@ -24,11 +24,11 @@ toc: true
 #### Video Game Mods
 These are lists of video game mods I use for my own playthroughs.
 <ul>
-    {%- for list in collections["mod lists"] -%}
+    {{ for list in collections["mod lists"] }}
     <li>
-        <a href="{{ list.url }}">{{ list.data.pageTitle or list.data.articleTitle }}</a>
+        <a href="{{ list.url }}">{{ list.data.pageTitle || list.data.articleTitle }}</a>
     </li>
-    {%- endfor -%}
+    {{ /for }}
 </ul>
 
 ### Images
