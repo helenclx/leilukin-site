@@ -7,8 +7,8 @@ eleventyNavigation:
 ---
 ## My Dear Summer Lover
 
-{{ import { myASEPlaylist } from "components/aseplaylist.vto" }}
-{{ myASEPlaylist("A fanmix for the visual novel") }}
+{{# {{ import { myASEPlaylist } from "components/aseplaylist.vto" }}
+{{ myASEPlaylist("A fanmix for the visual novel") }} #}}
 
 ## Mandopop LGBTQ+ Anthem [華語流行音樂同志國歌]{lang="zh"}
 
