@@ -1,5 +1,5 @@
 export default {
-    layout: "main/content",
+    layout: "layouts/content",
     permalink: "/links/{{ page.fileSlug }}/",
     hasBreadcrumbs: true,
     eleventyComputed: {
