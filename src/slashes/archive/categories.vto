@@ -8,7 +8,7 @@ eleventyNavigation:
 
 <ul>
     {{ for category of collections.categories }}
-    {{ set categoryUrl }}/categories/{{ category | slugify }}/{{ /set }}
+    {{ set categoryUrl }}/categories/{{ category |> slugify }}/{{ /set }}
     {{ set categoryPostCount = collections.contents |> filterByCategory(category) |> itemCount }}
     <li><a href="{{ categoryUrl }}">{{ category }}</a> ({{ categoryPostCount }})</li>
     {{ /for }}
