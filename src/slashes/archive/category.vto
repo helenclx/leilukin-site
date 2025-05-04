@@ -14,6 +14,6 @@ eleventyComputed:
 <h2>{{ contentCount }} Contents Filed Under "{{ category }}"</h2>
 
 {{ set contentList = collections.contents |> filterByCategory(category) |> toReversed }}
-{{ include "layouts/archive.vto" }}
+{{ include "partials/archive.vto" }}
 
 <p>See <a href="/categories/">all content categories</a>.</p>
