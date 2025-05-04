@@ -23,7 +23,7 @@ layout: layouts/base
         </p>
         {{ if updated }}
         <p>Last updated on <time datetime="{{ updated }}">{{ updated |> formatDate }}</time></p>
-        {{ endif }}
+        {{ /if }}
         {{ if categories }}
         <p>Categories:
             {{ for cat of categories }}
