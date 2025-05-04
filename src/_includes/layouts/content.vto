@@ -76,8 +76,7 @@ layout: layouts/base
     {{ /if }}
     </{{contentEl}}>
 
-    {{ if
-        (tags && tags.includes("articles"))
+    {{ if (tags && tags.includes("articles"))
         || (tags && tags.includes("posts"))
         || (page.url === "/articles/")
         || (tags && tags.includes("blog pages"))
