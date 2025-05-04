@@ -56,8 +56,8 @@ export default function(eleventyConfig) {
     });
 
     return {
-        markdownTemplateEngine: "njk",
-        htmlTemplateEngine: "njk",
+        markdownTemplateEngine: "vto",
+        htmlTemplateEngine: "vto",
         dir: {
             input: "src"
         }
