@@ -26,7 +26,7 @@ export default function(eleventyConfig) {
     });
 
     // Filter: Collection item count
-    eleventyConfig.addFilter("itemCount", (array) => array.length() );
+    eleventyConfig.addFilter("itemCount", (array) => array.length );
 
     // Filter: Thousands separator
     eleventyConfig.addFilter("thousands", function(num) {
