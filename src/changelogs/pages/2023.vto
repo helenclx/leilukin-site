@@ -7,5 +7,5 @@ eleventyNavigation:
     order: 3
 ---
 
-{% set changelogList = collections["changelog 2023"] %}
-{% include "main/changelogs-list.html" %}
+{{ set changelogList = collections["changelog 2023"] }}
+{{ include "partials/changelogs-list.vto" }}
