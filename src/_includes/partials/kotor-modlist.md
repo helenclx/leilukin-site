@@ -9,7 +9,7 @@ WARNING: The full list of my mod build contains spoilers for <cite>Star Wars: Kn
 My mod build is not designed for new <cite>KotOR{{ kotor2ShortTitle }}</cite> players, so I will not censor any information that contains spoilers for the game. In general, I do not recommend using mods in your very first playthrough of any video game, so you can judge and choose which mods you want to use after finishing the game for the first time. The only exceptions are the [KotOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/) for {% cite "KotOR 1" %} and [The Sith Lords Restored Content Mod](https://deadlystream.com/files/file/578-tsl-restored-content-mod/) for <cite>KotOR{{ kotor2ShortTitle }}</cite>, which are absolutely essential mods that even if you want to use them in your first playthrough, you definitely have my support.
 
 If you are going to play <cite>KotOR{{ kotor2ShortTitle }}</cite> for the first time, and you do not mind using mods, I would suggest checking out the Spoiler-Free version of [KotOR Community Portal’s KotOR mod builds](https://kotor.neocities.org/modding/) instead.
-{% endcontainer  %}
+{% /container  %}
 
 {% container "article", "content__section" %}
 ## Mod Categories
@@ -45,7 +45,7 @@ Restored Content
 
 Sound Change
 : As the name implies, these mods make changes to the sound in the vanilla game. The sound could be music or ambient audios.
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## Mod Tiers
@@ -64,4 +64,4 @@ Tier 3 - Somewhat Important
 Tier 4 - Optional
 : This tier indicates mods that make even smaller or more subjective changes than Tier 3 mods, to the point that using these mods is optional. I include Tier 4 mods in my build for the purpose of maximizing my immersion, or because I use these mods for customization purposes for my characters.
 {.deflist-1col}
-{% endcontainer %}
+{% /container %}

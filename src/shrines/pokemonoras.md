@@ -23,7 +23,7 @@ eleventyComputed:
 {% cite "Pokémon Omega Ruby" %} and {% cite "Pokémon Alpha Sapphire" %} are remakes of the 2002 Game Boy Advance role-playing video games {% cite "Pokémon Ruby" %} and {% cite "Pokémon Sapphire" %}. The games are part of the sixth generation of the {% cite "Pokémon" %} main series of video games, developed by Game Freak and published by The Pokémon Company and Nintendo for the Nintendo 3DS.
 
 Announced worldwide on the official Pokémon websites on 7 May 2014, {% cite "Omega Ruby" %} and {% cite "Alpha Sapphire" %} were released in most regions of the world on 21 November 2014 except for Europe, where the games were released on 28 November 2014.
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## My History with {% cite "Pokémon Ruby" %} and {% cite "Sapphire" %}
@@ -43,7 +43,7 @@ I decided to give Generation 3 another chance, many years after my initial disap
 My rekindled interest in Pokémon remained throughout the rest of Generation 4 and then Generation 5. When I played Generation 3 and 4 for the first time to catch up, it was known that {% cite "Pokémon HeartGold" %} and {% cite "SoulSilver" %}, remakes of the {% cite "Pokémon Gold" %} and {% cite "Silver" %}, would be released soon. I was already looking forward to {% cite "HeartGold" %} and {% cite "SoulSilver" %} because Generation 2 was my favourite, and when I played {% cite "HeartGold" %} for the first time, it instantly became my favourite Pokémon game. Later I followed the release of Generation 5 games, and played {% cite "Pokémon Black" %} and its sequel {% cite "Pokémon Black 2" %} and enjoyed them as well.
 
 However, in the early 2010s, my video game interest started to shift focus to BioWare games and the {% cite "Ace Attorney" %} series. As a result, my interest in {% cite "Pokémon" %} became dormant again until 2021.
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## How I Got into {% cite "Pokémon Omega Ruby" %} and {% cite "Alpha Sapphire" %}
@@ -57,7 +57,7 @@ However, by the time Generation 6 of {% cite "Pokémon" %} began in 2013 with {%
 Fast-forward to 2021, for some reason I was compelled to return to the {% cite "Pokémon" %} franchise again, which started my second phase of catching up with the {% cite "Pokémon" %} main series by playing Generation 6, 7 and {% cite "Pokémon Swotd" %} and {% cite "Shield" %}. Specifically, the Hoenn game remake I chose to picked up was {% cite "Alpha Sapphire" %}.
 
 To my surprise, this time after catching up with the {% cite "Pokémon" %} main series games again, I found {% cite "Pokémon Omega Ruby" %} and {% cite "Alpha Sapphire" %} my favourite Pokémon games.
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## Why {% cite "Omega Ruby" %} and {% cite "Alpha Sapphire" %} are My Favourite Pokémon Games
@@ -77,4 +77,4 @@ My taste in entertainment media, including video games, have changed a lot since
 How high my standards for monster collecting games were raised by {% cite "Cassette Beasts" %} cannot be overstated, due to me finding {% cite "Cassette Beasts" %} better than {% cite "Pokémon" %} in many ways. This sentiment only gets reinforced by the disappointing direction of the {% cite "Pokémon" %} franchise since the Nintendo Switch era, due to frequent releases and rushed development schedules taking their toll on the quality of recent {% cite "Pokémon" %} titles. Even though I still harbour nostalgia for the {% cite "Pokémon" %} franchise due to it being a huge part of my childhood and adolescence, I also firmly believe there is nothing inherently wrong with letting something newer and better replace your old favourite, which is what {% cite "Cassette Beasts" %} has done to {% cite "Pokémon" %} as my favourite monster collecting game, and {% cite "Omega Ruby" %} and {% cite "Alpha Sapphire" %} have done to {% cite "HeartGold" %} and {% cite "SoulSilver" %} as my favourite Pokémon games.
 
 This is also why the only Pokémon shrine I am making for my website is dedicated to {% cite "Omega Ruby" %} and {% cite "Alpha Sapphire" %} only, and not the franchise in general.
-{% endcontainer %}
+{% /container %}

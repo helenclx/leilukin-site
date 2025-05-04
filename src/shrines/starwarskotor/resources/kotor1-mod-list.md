@@ -20,7 +20,7 @@ I usually play {% cite "KotOR 1" %} on GOG, though I also own the Steam version 
 The format of this mod list is inspired by [KOTOR Community Portal's mod lists](https://kotor.neocities.org/modding/).
 
 (This mod list was last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time>)
-{% endcontainer  %}
+{% /container  %}
 
 {% container "article", "content__section" %}
 ## KotOR 1 Restoration Compatibility
@@ -34,7 +34,7 @@ I have no plans on including K1R in my mod build because:
 * I have read the [list of content restored by K1R](https://deadlystream.com/topic/3075-whats-restored-in-k1r/), and in my opinion some of those content were cut for good reasons.
 * The mod has not been updated since 2017, and most of the K1R’s development team, including the project leader, has disappeared from the KotOR modding scene, so do not expect updates any time soon.
 * Some of the mods that I consider essential to my KotOR 1 playthrough are not compatible with K1R.
-{% endcontainer  %}
+{% /container  %}
 
 {% include "starwarskotor/modlist-info.md" %}
 
@@ -4281,10 +4281,10 @@ Description
 : This is a program which modifies your game's executable file to be able to utilize up to 4 gigabytes of RAM, since {% cite "KotOR" %} is a 32-bit application and by default can only utilize 2 gigabytes. This will help the game run smoothly even with the larger texture throughout this mod build creates, and also reduces issues caused by a memory leak which is native to the game, preventing crashes and savegame corruption.
 
 ---
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## Final Note
 
 In addition to the mods above, I also use some face and Jedi robe reskins of my player character that were for personal use only.
-{% endcontainer %}
+{% /container %}

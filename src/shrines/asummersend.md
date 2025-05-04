@@ -26,7 +26,7 @@ Initially released in English on 23 April 2020, {% cite "A Summer’s End" %} ha
 {% cite "A Summer’s End" %} is available on [Steam](https://store.steampowered.com/app/1111370/A_Summers_End__Hong_Kong_1986/) and [itch.io](https://oracleandbone.itch.io/a-summers-end). It also has an [official website](https://www.asummersend.com/).
 
 On 22 April 2023, a day before {% cite "A Summer’s End" %}'s third year anniversary, Oracle and Bone [announced](https://www.asummersend.com/blog-intheocean/a-message-from-oracle-and-bone) a spiritual sequel: [{% cite "In the Ocean I Learned to Float" %}](https://www.asummersend.com/about-intheocean), which takes place in the winter of 1988, two years after the events of {% cite "A Summer’s End" %}.
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## How I Discovered {% cite "A Summer’s End — Hong Kong 1986" %}
@@ -36,7 +36,7 @@ On 22 April 2023, a day before {% cite "A Summer’s End" %}'s third year annive
 I first learned about {% cite "A Summer’s End — Hong Kong 1986" %} through [Linux Game Consortium](https://linuxgameconsortium.com/a-summers-end-hong-kong-1986-just-announced/), a Linux gaming news website. There was a period where I set up my gaming laptop to dual boot Windows 10 and Linux, so I ended up following Linux gaming news for a while. While Windows is still my main platform for gaming, the discovery of {% cite "A Summer’s End" %} was the biggest unexpected benefit and surprise when I tried out Linux.
 
 As a lesbian, the premise of a visual novel about a sapphic romance already caught my interest, but what urged me to play it even more was the Hong Kong setting, which made my interest in the game personal, since I am a Cantonese-speaking Chinese lesbian who grew up with Hong Kong media. Not to mention, it is rare to see a fiction that tells of a sapphic love story that takes place in Hong Kong.
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## Why {% cite "A Summer’s End — Hong Kong 1986" %} Means a Great Deal to Me
@@ -54,7 +54,7 @@ If you ask me to list just one piece of queer art that means everything to me, t
 I seriously cannot recommend {% cite "A Summer’s End" %} enough, especially for Asian sapphic women.
 
 (I also posted this section of text as my review of {% cite "A Summer’s End" %} on Steam, and [received a lot of support](/blog/posts/2023-10-30-support-for-my-steam-review-of-a-summers-end) for it)
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## Featured Articles About {% cite "A Summer’s End — Hong Kong 1986" %}
@@ -62,4 +62,4 @@ I seriously cannot recommend {% cite "A Summer’s End" %} enough, especially fo
 * [Trust, Confidence, and Hope in A Summer’s End – Hong Kong 1986: A Reparative Reading](https://www.gamejournal.it/i11-02_poirier-poulin) by Samuel Poirier-Poulin
 
 You can find [articles and interviews that featured {% cite "A Summer’s End — Hong Kong 1986" %}](https://www.asummersend.com/press-kit-featured-articles) on the official {% cite "A Summer’s End" %} website.
-{% endcontainer %}
+{% /container %}

@@ -16,7 +16,7 @@ Here I’m compiling a list of all the modifications, or mods in short, that I u
 The format of this mod list is inspired by [KOTOR Community Portal's mod lists](https://kotor.neocities.org/modding/).
 
 (This mod list was last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time>)
-{% endcontainer  %}
+{% /container  %}
 
 {% container "article", "content__section" %}
 ## Mod Categories
@@ -34,7 +34,7 @@ Interface Change
 
 Mechanics Change
 : This type of mod makes changes to the game’s system which directly impacts the way you play the game, varying from changing the camera angle of a location to altering the core stats of a class.
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## Mod Tiers
@@ -53,7 +53,7 @@ Tier 3 - Somewhat Important
 Tier 4 - Optional
 : This tier indicates mods that makes even smaller or more subjective changes than Tier 3 mods, to the point that using these mods are optional. I include Tier 4 mods in my build for the purpose of maximizing my immersion, or because I use these mods for customization purposes for my characters.
 {.deflist-1col}
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## {% cite "Stardew Valley" %} Mod Build - Full List
@@ -1355,4 +1355,4 @@ Content Patcher Required
 : Yes
 
 ---
-{% endcontainer %}
+{% /container %}

@@ -34,7 +34,7 @@ More information about this site can be found on the following pages:
 ### Link to This Site
 
 {% include "components/my-button.vto" %}
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## About the Webmaster
@@ -77,4 +77,4 @@ Other online platforms you can find me on:
 ### Support Me
 
 {% include "main/support-me.html" %}
-{% endcontainer %}
+{% /container %}

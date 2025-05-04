@@ -16,7 +16,7 @@ Here I’m compiling a list of all the modifications, or mods in short, that I u
 The format of this mod list is inspired by [KOTOR Community Portal's mod lists](https://kotor.neocities.org/modding/).
 
 (This mod list was last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time>)
-{% endcontainer  %}
+{% /container  %}
 
 {% container "article", "content__section" %}
 ## Important Notes
@@ -24,7 +24,7 @@ The format of this mod list is inspired by [KOTOR Community Portal's mod lists](
 In order to prevent mod conflicts as much as possible, installation order matters if you are using a lot of mods. Therefore, the full list of my mod build below has been arranged in the proper installation order to make all these mods compatible. If you are interested in following my mod build, you should install the mods in the order you are presented with them.
 
 It is important to note that **you cannot use mods for the original edition of the {% cite "Mass Effect" %} trilogy in the Legendary Edition, and vice versa**. Therefore, since the release of the Legendary Edition, mod authors need to either port or recreate the original trilogy mods, so they can be used for the Legendary Edition.
-{% endcontainer  %}
+{% /container  %}
 
 {% container "article", "content__section" %}
 ## Mod Categories
@@ -63,7 +63,7 @@ Restored Content
 
 Sound Change
 : As the name implies, these mods make changes to the sound in the vanilla game. The sound could be music or ambient audio.
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## {% cite "Mass Effect Legendary Edition" %} Modding Tools
@@ -71,7 +71,7 @@ Sound Change
 * [ME3Tweaks Mod Manager](https://me3tweaks.com/modmanager/): This mod manager can be used for both the original edition and the Legendary Edition of the Mass Effect trilogy.
 * [Mass Effect Legendary Edition Character Code Translator](https://answers.ea.com/t5/Mass-Effect-Legendary-Edition/Import-your-Shepard-from-the-original-trilogy/td-p/10340553): This app allows you to convert your Shepard’s face code from the original edition of {% cite "Mass Effect 2" %} and {% cite "3" %} into the Legendary Edition. The Legendary Edition adds new options to the character creator, so you cannot just directly copy and paste the face code from the original edition and expect your Shepard to look the same in LE. [[(Download Mass Effect Legendary Edition Character Code Translator from Google Drive)](https://drive.google.com/drive/u/0/folders/1ixMj8Eyvfu6DVczMgSIR826xPO1GfMym)]
 * [Trilogy Save Editor](https://www.nexusmods.com/masseffectlegendaryedition/mods/20): A save editor for the {% cite "Mass Effect" %} trilogy. If you are using any custom hair mods, using a save editor is required.
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## {% cite "Mass Effect 1" %} Legendary Edition Mods
@@ -1007,7 +1007,7 @@ Installation Note
 : I install (LE1) LCM LE3 Liara Nipples.mem and (LE1) 'Ashley' Nipples.mem.
 
 ---
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## {% cite "Mass Effect 2" %} Legendary Edition Mods
@@ -2275,7 +2275,7 @@ Installation Note
 : I install (LE2) LCM ERS LE3 Liara Nipples.mem and (LE2) 'Ashley' Nipples.mem.
 
 ---
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## {% cite "Mass Effect 3" %} Legendary Edition Mods
@@ -3382,4 +3382,4 @@ Category
 : Appearance Change
 
 ---
-{% endcontainer %}
+{% /container %}

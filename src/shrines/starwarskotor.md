@@ -32,7 +32,7 @@ I had been a {% cite "Star Wars" %} fan since I was 13 in 2005 after watching {%
 I was hooked immediately to the {% cite "KotOR" %} series when I played them. The first {% cite "KotOR" %} game was the first Western RPG I had played. I was drawn to the games' story and characters and the games' focus on them, since the {% cite "KotOR" %} series was also the most story-heavy games I played at the time. KotOR was also the first video game I played where you can pursue a romance with a character, which was a concept that blew my young mind at the time, because before {% cite "KotOR" %}, I thought a romance between your player character and an NPC you like could only exist in imagination via shipping or fanfiction.
 
 My investment in the {% cite "KotOR" %} series has evolved over time, leading to me learning to mod the games and become a modder.
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## My History with {% cite "KotOR" %} Modding
@@ -48,4 +48,4 @@ Making same-gender romance mods for {% cite "KotOR 2" %} was the primary motivat
 I love modding the {% cite "KotOR" %} games, not only because the games are a special interest of mine, but also I love creating things for my interests. Modifying the games made me feel like I have the power to change the game to make them better and more enjoyable, and thus improve my experience with playing the games.
 
 You can check out all the {% cite "KotOR" %} mods I have created, including [{% cite "KotOR 1" %} mods](/projects/videogamemods/kotor1) and [{% cite "KotOR 2" %} mods](/projects/videogamemods/kotor2), on my main site's [Projects](/projects/#my-video-game-mods) pages.
-{% endcontainer %}
+{% /container %}

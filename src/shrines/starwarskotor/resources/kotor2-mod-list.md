@@ -20,7 +20,7 @@ I own {% cite "KotOR 2" %} on both Steam and GOG. I play the Steam version of {%
 The format of this mod list is inspired by [KOTOR Community Portal's mod lists](https://kotor.neocities.org/modding/).
 
 (This mod list was last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time>)
-{% endcontainer  %}
+{% /container  %}
 
 {% container "article", "content__section" %}
 ## Important Things About This Mod Build
@@ -32,7 +32,7 @@ Important things to keep in mind about my {% cite "KotOR 2" %} mod build:
 2. My {% cite "KotOR 2" %} mod build may not be compatible with M4-78 Enhancement Project (M4-78EP). I have played M4-78EP for a few playthroughs but honestly, I find the mod very tedious after multiple playthroughs, so I do not play {% cite "KotOR 2" %} with M4-78EP any more, and I definitely do not recommend M4-78EP for players who play KotOR 2 or TSLRCM for the first time.
 
 3. My {% cite "KotOR 2" %} mod build is NOT compatible with the Steam Workshop. Frankly, the Steam Workshop is terrible for modding the {% cite "KotOR" %} games and a mod compatibility nightmare for the {% cite "KotOR" %} games. I strongly recommend reading Snigaroo's post on Deadly Stream on [why Steam Workshop is NOT recommended for modding {% cite "KotOR" %}](https://deadlystream.com/topic/7321-why-not-to-use-the-steam-workshop/). Therefore, I do not use nor support the Steam Workshop, and I do not wish any of my mods to be uploaded to the Steam Workshop.  If you are interested in following my KotOR 2 mod build, DO NOT use the Steam Workshop version of the mods listed below.
-{% endcontainer  %}
+{% /container  %}
 
 {% include "starwarskotor/modlist-info.md" %}
 
@@ -3801,7 +3801,7 @@ Leilukin’s Comment
 : I’ve always hated how skimpy the vanilla dancer outfit is, like how much I hate the vanilla dancer model. With this mod and the dancer model fix from Player & Party Underwear make the “dancing for Vogga” sequence more bearable.
 
 ---
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## Final Note
@@ -3819,4 +3819,4 @@ Since I play {% cite "KotOR 2" %} with the Aspyr patch, so the game can run smoo
 7. Repeat this step for every text file in the folder that has the MOV result.color, r0 line. That can take some time and there might be ways to automate the process but explaining it might take so long that you're probably just better off doing the whole thing manually.
 8. After you pasted this into every file that has the MOV result.color, r0 line near the end, copy all text files into the shader\_override folder.
 9. Launch the game, the fog should now be fixed.
-{% endcontainer %}
+{% /container %}

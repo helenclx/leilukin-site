@@ -32,7 +32,7 @@ You can purchase or download {% cite "Cassette Beasts" %} from the below links:
 * [Nintendo Switch](https://www.nintendo.com/store/products/cassette-beasts-switch/)
 * [Google Play Store](https://play.google.com/store/apps/details?id=com.RawFury.CassetteBeasts)
 * [Apple App Store](https://apps.apple.com/sg/app/cassette-beasts/id6736517805)
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## Why You Should Play {% cite "Cassette Beasts" %}
@@ -46,7 +46,7 @@ Indie monster collecting games in particular need all the support they can get t
 I cannot recommend {% cite "Cassette Beasts" %} enough if you like monster collecting games, including, if not especially, if you like {% cite "Pokémon" %} but want an indie alternative, or something different after finding {% cite "Pokémon" %} games getting stale, or becoming jaded by the direction of the {% cite "Pokémon" %} games.
 
 If you need more convincing on how {% cite "Cassette Beasts" %} is much more than a {% cite "Pokémon" %} clone, [I have written a huge essay on this shrine](/shrines/cassettebeasts/articles/cassette-beasts-more-than-a-pokemon-clone).
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## My Interest In {% cite "Cassette Beasts" %}
@@ -64,7 +64,7 @@ I love {% cite "Cassette Beasts" %} so much that I also purchased its Deluxe Edi
 Moreover, I ended up unlocking all 123 achievements on Steam on 13 March 2024. Very few RPGs make me want to unlock all the achievements, so it is telling how much I love {% cite "Cassette Beasts" %} that I am willing to spend time and effort to work for all the achievements.
 
 {% cite "Cassette Beasts" %} not only is my Game of the Year of 2023, but also it has become my absolute favourite monster collecting game, and even my all-time favourite video game ever.
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## {% cite "Cassette Beasts" %} — My Ultimate Comfort Media
@@ -90,7 +90,7 @@ I enjoy every moment of {% cite "Cassette Beasts" %}, a sentiment I can genuinel
 
 {% cite "Cassette Beasts" %} has the distinct honour of being one of my favourite entertainment media because not only I like it and find it entertaining, but also I genuinely consider it a well-made masterpiece. The more I played and explored {% cite "Cassette Beasts" %}, the more amazed I was for how much thought was clearly put into making the game, which only got reinforced after reading trivia about the game [on its official wiki](https://wiki.cassettebeasts.com/wiki/Main_Page).
 
-{% endcontainer %}
+{% /container %}
 
 {% container "article", "content__section" %}
 ## My Contributions to the {% cite "Cassette Beasts" %} Community
@@ -108,4 +108,4 @@ I created and am running [Land of Confusion](https://fan.leilukin.com/cassettebe
 On Tumblr, I run the [Cassette Beasts Source](https://cassettebeastssource.tumblr.com/), an unofficial {% cite "Cassette Beasts" %} fan site blog that I created on 25 February 2024. I decided to create a fan site blog on Tumblr due to the fact that Bytten Studio does not have an official Tumblr account, and I wanted a Tumblr blog dedicated to sharing and archiving {% cite "Cassette Beasts" %} news and fan works.
 
 I have also contributed to [{% cite "Cassette Beasts" %} TVTropes pages](https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/CassetteBeasts) (I have had a TVTropes account since 18 February 2012), by editing the pages to add information about the game. I was the one who created the [Trivia page](https://tvtropes.org/pmwiki/pmwiki.php/Trivia/CassetteBeasts) for the game on TVTropes.
-{% endcontainer %}
+{% /container %}
