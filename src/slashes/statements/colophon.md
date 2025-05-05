@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2025-04-30T02:03:21+0800
+updated: 2025-05-05T20:39:47+0800
 toc: true
 eleventyNavigation:
     order: 15
@@ -13,7 +13,7 @@ Information about how this website is built.
 
 * Built with the static site generator [Eleventy](https://www.11ty.dev/) v{{ eleventy.version }}.
 * JavaScript runtime: [Bun](https://bun.sh).
-* Templating languages: Nunjucks and Markdown.
+* Templating languages: [Vento](https://vento.js.org/), Markdown and Nunjucks (only for the site's RSS feed).
 * Tested browsers: Mozilla Firefox, Vivaldi and Lynx.
 * Source code available on [32-Bit Cafe's Gitea instance](https://git.32bit.cafe/Leilukin/leilukin-site).
 
@@ -34,6 +34,7 @@ Previously, this website was hosted on [Neocities](https://neocities.org/) until
 
 ### Eleventy Community Plugins
 
+* [eleventy-plugin-vento](https://github.com/noelforte/eleventy-plugin-vento)
 * [eleventy-plugin-wordcount-extended](https://www.npmjs.com/package/eleventy-plugin-wordcount-extended)
 * [eleventy-plugin-embed-everything](https://www.npmjs.com/package/eleventy-plugin-embed-everything)
 * [@uncenter/eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc)
