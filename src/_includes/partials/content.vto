@@ -38,7 +38,7 @@
 
 <content-wrapper>
     {{ if toc }}
-    {{ include "partials/toc.vto" }}
+    {{ include "components/toc.vto" }}
     {{ /if }}
 
     {{ set contentEl = (isArticle || articleElement) ? "article" : "div" }}
