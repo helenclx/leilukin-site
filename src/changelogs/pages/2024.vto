@@ -1,0 +1,17 @@
+---
+layout: partials/changelogs
+title: "Website Changelog Archive: 2024"
+desc: Changelog of my website during the year of 2024.
+changelogNav: "2024"
+eleventyNavigation:
+    order: 4
+---
+
+{{ set changelogList = collections["changelog 2024"] |> toReversed }}
+{{ for log of changelogList }}
+{{ headingAnchor 2, log.fileSlug }}
+{{ log.date |> formatDate }}
+{{ /headingAnchor }}
+
+{{ log.content }}
+{{ /for }}

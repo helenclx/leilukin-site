@@ -41,6 +41,6 @@ My brother went back to Singapore on the next day, which was also the third day 
 
 ## Watching a Malaysian Lunar New Year Film
 
-While my family's Lunar New Year celebration in my parents' hometown had been over, we are still in a Lunar New Year mood. Therefore, on February 3, which was also lichun ([立春]{lang=zh}) and the sixth day of Lunar New Year, my parents and I watched a Malaysian Lunar New Year film named {% cite "Money Games" %} ([《半斤百两》]{lang=zh}) in a local cinema.
+While my family's Lunar New Year celebration in my parents' hometown had been over, we are still in a Lunar New Year mood. Therefore, on February 3, which was also lichun ([立春]{lang=zh}) and the sixth day of Lunar New Year, my parents and I watched a Malaysian Lunar New Year film named {{ cite "Money Games" }} ([《半斤百两》]{lang=zh}) in a local cinema.
 
 This was the first Malaysian film I watched with my parents in cinema. I did not expect much from a Lunar New Year film to be a masterpiece since such films are made for entertainment first and foremost, but I had some good laughs out of the film. Not to mention, given how rampant news about Malaysians encountering scams are, an entertaining film aiming to be anti-fraud is not a bad idea.

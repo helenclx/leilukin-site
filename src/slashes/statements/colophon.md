@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2025-04-30T02:03:21+0800
+updated: 2025-05-05T20:39:47+0800
 toc: true
 eleventyNavigation:
     order: 15
@@ -13,7 +13,7 @@ Information about how this website is built.
 
 * Built with the static site generator [Eleventy](https://www.11ty.dev/) v{{ eleventy.version }}.
 * JavaScript runtime: [Bun](https://bun.sh).
-* Templating languages: Nunjucks and Markdown.
+* Templating languages: [Vento](https://vento.js.org/), Markdown and Nunjucks (only for the site's RSS feed).
 * Tested browsers: Mozilla Firefox, Vivaldi and Lynx.
 * Source code available on [32-Bit Cafe's Gitea instance](https://git.32bit.cafe/Leilukin/leilukin-site).
 
@@ -34,6 +34,7 @@ Previously, this website was hosted on [Neocities](https://neocities.org/) until
 
 ### Eleventy Community Plugins
 
+* [eleventy-plugin-vento](https://github.com/noelforte/eleventy-plugin-vento)
 * [eleventy-plugin-wordcount-extended](https://www.npmjs.com/package/eleventy-plugin-wordcount-extended)
 * [eleventy-plugin-embed-everything](https://www.npmjs.com/package/eleventy-plugin-embed-everything)
 * [@uncenter/eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc)
@@ -69,11 +70,11 @@ Due to this website being a static site, JavaScript is used to create dynamic an
 * The header of every page uses JavaScript to detect the visitor's current date, so the header will display a top blurb and in some cases also changes the header background on certain dates, including:
     * LGBTQ+ events, International Women's Day, Disability Pride Month, website anniversary and my birthday;
     * Release anniversaries of media with dedicated shrines, including:
-        * [{% cite "A Summer’s End — Hong Kong 1986" %}](/shrines/asummersend)
-        * [{% cite "Star Wars: Knights of the Old Republic" %}](/shrines/starwarskotor)
-        * [{% cite "Cassette Beasts" %}](/shrines/cassettebeasts)
-        * [{% cite "Pokémon Omega Ruby" %} and {% cite "Alpha Sapphire" %}](/shrines/pokemonoras)
-    * Birthdays of characters from {% cite "A Summer’s End — Hong Kong 1986" %} on its shrine.
+        * [{{ cite "A Summer’s End — Hong Kong 1986" }}](/shrines/asummersend)
+        * [{{ cite "Star Wars: Knights of the Old Republic" }}](/shrines/starwarskotor)
+        * [{{ cite "Cassette Beasts" }}](/shrines/cassettebeasts)
+        * [{{ cite "Pokémon Omega Ruby" }} and {{ cite "Alpha Sapphire" }}](/shrines/pokemonoras)
+    * Birthdays of characters from {{ cite "A Summer’s End — Hong Kong 1986" }} on its shrine.
 * Add buttons to copy code snippets to pages with code blocks.
 * Scott O'Hara's [ARIA Tooltips](https://github.com/scottaohara/a11y_tooltips) script is used to implement accessible tooltips that meet Web Content Accessibility Guidelines (WCAG) 2.2 success criterion for [1.4.13: Content on Hover or Focus (Level AA)](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), by allowing visitors to see tooltips on keyboard focus and dismiss tooltips by pressing the Escape key.
 * Zach Leatherman's [details-utils](https://www.npmjs.com/package/@zachleat/details-utils) JavaScript package is used to automatically expand sidebar table of contents on wide screens.

@@ -23,7 +23,7 @@ On [32-Bit Cafe's Discourse forum](https://discourse.32bit.cafe/), I made a [pos
 
 Plagiarism.org [defines footnotes](https://www.plagiarism.org/article/what-are-footnotes) as notes placed at the bottom of a page, and what footnotes do is to cite references or comment on a designated part of the text above it.
 
-My use case of footnotes is citing sources of information, particularly citing the same source multiple times on the same page when information from the same source is spread across my page. As of this writing, my website pages that use footnotes include the [trivia page of my {% cite "A Summer’s End — Hong Kong 1986" %} shrine 1](/shrines/asummersend/trivia/) and the [facts page of my {% cite "Cassette Beasts" %} shrine](/shrines/cassettebeasts/facts/). You are free to look at the HTML and CSS for reference.
+My use case of footnotes is citing sources of information, particularly citing the same source multiple times on the same page when information from the same source is spread across my page. As of this writing, my website pages that use footnotes include the [trivia page of my {{ cite "A Summer’s End — Hong Kong 1986" }} shrine 1](/shrines/asummersend/trivia/) and the [facts page of my {{ cite "Cassette Beasts" }} shrine](/shrines/cassettebeasts/facts/). You are free to look at the HTML and CSS for reference.
 
 Footnotes are used both on print and on the web. However, maintaining footnotes on the web can be tedious, especially if you want to update a web page to add or remove them, since you will need to change the number references of existing footnotes.
 
@@ -225,12 +225,12 @@ For extra comments and tangents, by favourite approach is using HTML's details d
 
 I have been using the disclosure element for additional comments or information on this website, like in my blog post, ["My Cassette Beasts Fanlisting Application has been Approved"](/blog/posts/2024-06-24-cassette-beasts-fanlisting-approved/). As for the styling, initially I indented the content inside the disclosure to differentiate the disclosure content from the rest of the content of the page, but recently I switched to adding borders to the content after being inspired by [Starbreaker](https://starbreaker.org/)'s website, who also has a post about footnotes, ["Footnotes: No Fun to Create, Either"](https://starbreaker.org/blog/tech/footnotes-no-fun-to-create-either/index.html).
 
-{% disclosure "More ways to use `<details>` and `<summary>` elements" %}
+{{ disclosure "More ways to use `<details>` and `<summary>` elements" }}
 `<details>` and `<summary>` have become among my favourite HTML elements due to how useful they are. In addition to extra comments and info, Leilukin's Hub has also used the elements for the following purposes:
 - Table of contents, like the one this very article has
-- Hiding spoilers, like in my {% cite "Cassette Beasts" %} shrine article, ["How Cassette Beasts is Much More than a Pokémon Clone"](/shrines/cassettebeasts/articles/cassette-beasts-more-than-a-pokemon-clone/)
-- Content warnings, like in my [{% cite "A Summer’s End — Hong Kong 1986" %} shrine's gallery page](/shrines/asummersend/gallery/), with its styling being inspired by another Kitty Giraudel's blog post, ["A content warning component"](https://kittygiraudel.com/2022/09/04/a-content-warning-component/)
-{% enddisclosure %}
+- Hiding spoilers, like in my {{ cite "Cassette Beasts" }} shrine article, ["How Cassette Beasts is Much More than a Pokémon Clone"](/shrines/cassettebeasts/articles/cassette-beasts-more-than-a-pokemon-clone/)
+- Content warnings, like in my [{{ cite "A Summer’s End — Hong Kong 1986" }} shrine's gallery page](/shrines/asummersend/gallery/), with its styling being inspired by another Kitty Giraudel's blog post, ["A content warning component"](https://kittygiraudel.com/2022/09/04/a-content-warning-component/)
+{{ enddisclosure }}
 
 As for citing sources, the simplest way would be naming and linking to the source in the main text of your page, though it does mean you may end up repeating the title of the source if you want to attribute to it more than once on your page. This was once the approach of my shrine pages, though I found the pages looked rather cluttered, so I eventually chose to use markdown-it-footnote alongside Eleventy.
 

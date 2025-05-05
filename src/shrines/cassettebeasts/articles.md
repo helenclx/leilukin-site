@@ -1,5 +1,5 @@
 ---
-layout: cassettebeasts/content
+layout: layouts/cassettebeasts
 title: Articles
 pageTitle: Cassette Beasts Articles
 desc: List of articles written by me or other people that I recommend for Cassette Beasts.
@@ -12,12 +12,12 @@ eleventyNavigation:
     order: 1
 ---
 
-{% from "global/macros.njk" import articleList with context %}
+{{ import { articleList } from "components/functions.vto" }}
 
-## My {% cite "Cassette Beasts" %} Articles
+## My {{ cite "Cassette Beasts" }} Articles
 {{ articleList("cassette beasts articles") }}
 
-## {% cite "Cassette Beasts" %} Articles I Recommend
+## {{ cite "Cassette Beasts" }} Articles I Recommend
 
 * [Cassette Beasts Level-Up Dialogue Summaries (Meredith)](https://www.pillowfort.social/posts/3642949) by ArgentDandelion on Pillowfort
 

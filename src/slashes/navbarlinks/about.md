@@ -8,7 +8,7 @@ eleventyNavigation:
     order: 2
 ---
 
-{% container "article", "content__section" %}
+{{ container "section", "content__section" }}
 ## About the Website
 
 {{ sitemeta.siteName }} is a literal queer-coded website (as in, this website is coded by a queer person) that serves as a personal hub for my interests and self-expression.
@@ -33,23 +33,16 @@ More information about this site can be found on the following pages:
 
 ### Link to This Site
 
-{% include "main/my-button.html" %}
-{% endcontainer %}
+{{ include "components/my-button.vto" }}
+{{ /container }}
 
-{% container "article", "content__section" %}
+{{ container "section", "content__section" }}
 ## About the Webmaster
 
-{% imgFigure "/assets/leilukin/leilukin-bee.avif", "Leilukin bee avatar", "avatar" %}
+{{ imgFigure "/assets/leilukin/leilukin-bee.avif", "Leilukin bee avatar", "avatar" }}
 [Image description: Digital illustration of a bee wearing red glasses with an oval-shaped body and wings on a light green background. Leilukin's signature is at the bottom right of the bee. Description ends]
-{% endimgFigure %}
+{{ /imgFigure }}
 
-{%- css %}
-.avatar img {
-    border-radius: 50%;
-    width: 15rem;
-    margin: 0.5em auto;
-}
-{% endcss %}
 
 You can call me {{ sitemeta.siteAuthor.name }}. I am a Malaysian Chinese, queer, non-binary lesbian on the asexual and aromantic spectrum born in the early 90s. My pronouns are they/them and she/her in English, [他]{lang="zh"} and [她]{lang="zh"} in Chinese. I am a web deevloper with 8 years of experience in the graphic design field.
 
@@ -63,7 +56,7 @@ Leilukin is not my real name, but it is an internet pseudonym that I have used s
 
 ### Contact Me
 
-The best way to contact me is via email: [{{ sitemeta.siteAuthor.emailEncoded | safe }}]({{ sitemeta.siteAuthor.emailDecoyUrl }}){rel="nofollow, noindex"}. Using [plain text email](https://useplaintext.email/) is encouraged.
+The best way to contact me is via email: [{{ sitemeta.siteAuthor.emailEncoded }}]({{ sitemeta.siteAuthor.emailDecoyUrl }}){rel="nofollow, noindex"}. Using [plain text email](https://useplaintext.email/) is encouraged.
 
 Other online platforms you can find me on:
 
@@ -76,5 +69,13 @@ Other online platforms you can find me on:
 
 ### Support Me
 
-{% include "main/support-me.html" %}
-{% endcontainer %}
+{{ include "components/support-me.vto" }}
+{{ /container }}
+
+{{- css }}
+.avatar img {
+    border-radius: 50%;
+    width: 15rem;
+    margin: 0.5em auto;
+}
+{{ endcss }}

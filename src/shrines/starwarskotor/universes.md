@@ -1,5 +1,5 @@
 ---
-layout: starwarskotor/content
+layout: layouts/starwarskotor
 title: Universes
 pageTitle: "Leilukin's Star Wars: Knights of the Old Republic Universes"
 desc: "My universes and headcanons for Star Wars: Knights of the Old Republic series."
@@ -12,7 +12,7 @@ eleventyNavigation:
     title: Universes
     order: 4
 ---
-{% set universeAssetBase = '/assets/shrines/starwarskotor/universes/' %}
+{{ set universeAssetBase = '/assets/shrines/starwarskotor/universes/' }}
 
 ## My KotOR Timeline
 

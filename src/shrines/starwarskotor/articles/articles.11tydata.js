@@ -1,6 +1,6 @@
 export default {
     tags: ["contents", "feed items", "kotor articles"],
-    layout: "starwarskotor/content",
+    layout: "layouts/starwarskotor",
     isArticle: true,
     eleventyComputed: {
         title: (data) => `${data.articleTitle} | Articles`,

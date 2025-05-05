@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ sitemeta.siteLanguage }}" dir="ltr" id="top">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Open Graph Meta -->
+        <meta property="og:title" content="{{ title ? title : (sectionName || sitemeta.siteName) }}">
+        {{ include "partials/meta.vto" }}
+        <!-- Feeds -->
+        {{ include "partials/feeds.vto" }}
+        <!-- Fonts -->
+        {{ include "partials/fonts.vto" }}
+        <!-- CSS -->
+        {{ include "partials/css.vto" }}
+        {{ if hasTooltips }}
+        <link rel="stylesheet" href="/assets/css/tooltips.css">
+        {{ /if }}
+        <style>{{ getBundle "css" }}</style>
+        <!-- Favicon -->
+        {{ favicon }}
+        <!-- Verifications -->
+        <link rel="me" href="https://dragonscave.space/@Leilukin">
+        <link rel="me" href="https://github.com/Leilukin">
+        <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+        <!-- JavaScript -->
+        <script src="{{ getBundleFileUrl 'js' }}" defer></script>
+        {{ if toc }}
+        <script src="{{'/assets/js/details-utils.js'}}" defer></script>
+        {{ /if }}
+        {{ if hasCodeBlock }}
+        <script src="/assets/js/copycode.js" defer></script>
+        {{ /if }}
+        {{ if hasTooltips }}
+        <script src="/assets/js/tooltips.js" defer></script>
+        {{ /if }}
+
+        <title>
+            {{- title ? title + " | " : "" -}}
+            {{- sectionName ? sectionName + " | " : "" -}}
+            {{- sitemeta.siteName -}}
+        </title>
+    </head>
+    <body>
+        <div class="skip-btn"><a href="#content">Skip to content</a></div>
+        {{ include "partials/hero.vto" }}
+        {{ include "partials/navbar.vto" }}
+        <main id="content">
+            {{ include "partials/content.vto" }}
+        </main>
+        {{ include "partials/footer.vto" }}
+    </body>
+</html>

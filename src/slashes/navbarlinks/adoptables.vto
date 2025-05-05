@@ -1,0 +1,159 @@
+---
+title: Adoptables
+desc: A collection of stuff I have adopted from other websites.
+isContentDivided: true
+hasTooltips: true
+toc: true
+updated: 2024-12-09T10:20:36+0800
+eleventyNavigation:
+    order: 8
+---
+
+{{ function virtualPet(url, img, alt, tooltip=alt) -}}
+<li data-tooltip>
+    <a href="{{ url }}" data-tooltip-trigger title="{{ tooltip }}">
+        <img src="{{ img }}" alt="{{ alt }}" loading="lazy">
+    </a>
+</li>
+{{ /function }}
+
+{{ function myPixelArt(file, alt, tooltip=alt) -}}
+<li data-tooltip>
+    <img src="/assets/adoptables/{{ file }}" alt="{{ alt }}" data-tooltip-trigger title="{{ tooltip }}" loading="lazy" tabindex="0">
+</li>
+{{ /function }}
+
+{{ function adoptable(url, file, alt, tooltip=alt) }}
+<li data-tooltip>
+    <a href="{{ url }}" data-tooltip-trigger title="{{ tooltip }}">
+        <img src="/assets/adoptables/{{ file }}" alt="{{ alt }}" loading="lazy">
+    </a>
+</li>
+{{ /function }}
+
+<section class="content__section">
+    <p>(This page was last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time>)</p>
+</section>
+
+<section class="content__section">
+    {{ headingAnchor 2 }}Virtual Pets{{ /headingAnchor }}
+
+    {{ headingAnchor 3 }}TamaNOTchi{{ /headingAnchor }}
+    <p>Feel free to check out my TamaNOTchi virtual pets and feed them!</p>
+    <ul class="web-graphics adoptables">
+        {{ virtualPet("https://tamanotchi.world/13150c", "https://tamanotchi.world/i2/13150", "Pix") }}
+        {{ virtualPet("https://tamanotchi.world/14391c", "https://tamanotchi.world/i2/14391", "Neko") }}
+    </ul>
+
+    {{ headingAnchor 3 }}Pixel Cat's End{{ /headingAnchor }}
+    <p>I play <a href="https://www.pixelcatsend.com/">Pixel Cat's End</a>, so feel free to check out <a href="https://www.pixelcatsend.com/profile&id=24121">my profile and my not-cats</a>! You may send me a friend request too if you also play Pixel Cat's End.</p>
+</section>
+
+<section class="content__section">
+    {{ headingAnchor 2 }}Personal Website Adoptables{{ /headingAnchor }}
+    <p>These are adopted from other personal websites.</p>
+
+    <ul class="web-graphics adoptables">
+        {{ adoptable("https://xandra.cc/", "alexandra-diddles.png", "Diddles the raccoon by Alexandra") }}
+        {{ adoptable("https://lostletters.neocities.org/", "lostletters-moomin.png", "Moomin pixel art by Lost Letters") }}
+        {{ adoptable("https://pixels.elfwink.net/", "lou-frog.gif", "Green frog by Lou") }}
+        {{ adoptable("https://pixels.elfwink.net/", "lou-greenkaoani.gif", "Green kao-ani by Lou") }}
+        {{ adoptable("https://pixels.elfwink.net/", "lou-maneki-neko.png", "Maneki neko (beckoning cat) by Lou") }}
+        {{ adoptable("https://pixels.elfwink.net/", "lou-tamagotchi.gif", "Tamagotchi pixel art by Lou") }}
+        {{ adoptable("https://pixel.wings.nu/", "wings-dolphinclassic.gif", "Dolphin classic by Rin") }}
+        {{ adoptable("https://pixel.wings.nu/", "wings-rainbowmoon.png", "Rainbow moon by Rin") }}
+    </ul>
+</section>
+
+<section class="content__section">
+    {{ headingAnchor 2 }}Pixel Cliques{{ /headingAnchor }}
+
+    {{ headingAnchor 3 }}The Apple{{ /headingAnchor }}
+    <a href="https://pixelrevival.xyz/apple/"><img src="/assets/adoptables/pixelcliques/theapple.gif" alt="The Apple pixel clique" loading="lazy"></a>
+
+    {{ headingAnchor 3 }}Made by a Girl{{ /headingAnchor }}
+    <a href="https://lovesick.cafe/grrrl"><img src="/assets/adoptables/pixelcliques/madebyagirl.png" alt="Made by a Girl pixel clique" loading="lazy"></a>
+</section>
+
+<section class="content__section">
+    {{ headingAnchor 2 }}Kitty Friends Pixel Club{{ /headingAnchor }}
+    <p>An old pixel club about cats, revived by <a href="https://divergentrays.com/kitty">Divergent Rays</a>.</p>
+
+    {{ headingAnchor 3 }}My Kitty Friends{{ /headingAnchor }}
+    <ul class="web-graphics adoptables">
+        {{ myPixelArt("kittyfriends/leilukin-blackkitty.png", "Leilukin's black kitty friend") }}
+        {{ myPixelArt("kittyfriends/leilukin-purplekitty.png", "Leilukin's purple kitty friend") }}
+    </ul>
+    <p>Created on 21 July 2024. If you want to adopt any of my kitty friends, please link back to my website and do not hotlink the images.</p>
+
+    {{ headingAnchor 3 }}Adopted Kitty Friends{{ /headingAnchor }}
+    <ul class="web-graphics adoptables">
+        {{ adoptable("https://artwork.neocities.org/cliques", "kittyfriends/artwork-bat.gif", "artwork's bat kitty") }}
+        {{ adoptable("https://artwork.neocities.org/cliques", "kittyfriends/artwork-pumpkin.gif", "artwork's pumpkin kitty") }}
+        {{ adoptable("https://artwork.neocities.org/cliques", "kittyfriends/artwork-vampire.gif", "artwork's vampire kitty") }}
+        {{ adoptable("https://artwork.neocities.org/cliques", "kittyfriends/artwork-witch.gif", "artwork's witch kitty") }}
+        {{ adoptable("https://sanguineroyal.com/com/pixelcliques/", "kittyfriends/krish.png", "Krish's kitty friend") }}
+        {{ adoptable("https://amalinalai.github.io/precipice/toybox/?z=cliques", "kittyfriends/lina-strawberry-kitty.gif", "lina's strawberry kitty") }}
+        {{ adoptable("https://owlsroost.xyz/", "kittyfriends/owl-small-owlcat.gif", "Owl's small owlcat", "It's an owl! It's a cat! It's an owlcat! Made by Owl") }}
+        {{ adoptable("https://hillhouse.neocities.org/pixels", "kittyfriends/rosemary-ghostcat.gif", "rosemary's ghost cat") }}
+        {{ adoptable("https://sakuradreams.neocities.org/", "kittyfriends/sakuradreams-Simba.gif", "Sakura Dream's Simba") }}
+        {{ adoptable("https://solaria.neocities.org/", "kittyfriends/solaria-creampuffs.png", "Solaria's mama cat Creampuff and her 3 little puffs") }}
+        {{ adoptable("https://solaria.neocities.org/", "kittyfriends/solaria-garfield.gif", "Solaria's Garfield art") }}
+    </ul>
+</section>
+
+<section class="content__section">
+    {{ headingAnchor 2 }}Pantson Color Club{{ /headingAnchor }}
+    <p>A pixel club created by <a href="https://pantson.xandra.cc/">Alexandra</a>.</p>
+    <div class="web-graphics adoptables"><img src="/assets/adoptables/pantson/00-join.gif" alt="Join the Pantson Color Club!"></div>
+
+    {{ headingAnchor 3 }}My Colour Cards{{ /headingAnchor }}
+    <ul class="web-graphics adoptables">
+        {{ myPixelArt("pantson/leilukin-grape-juice.png", "Leilukin's GRAPE JUICE, colour number 19-3220 TPX") }}
+    </ul>
+    <p>Created on 17 September 2024. If you are a member of the Pantson Color Club and you would like to exchange colour cards with me, feel free to ask on <a href="/guestbook">my guestbook</a>!</p>
+
+    {{ headingAnchor 3 }}Exchanged Colour Cards{{ /headingAnchor }}
+    <ul class="web-graphics adoptables">
+        {{ adoptable("https://aetherbiome.neocities.org/", "pantson/anna-not-a-brick.png", "Anna's NOT A BRICK, colour number 7580U") }}
+        {{ adoptable("https://aetherbiome.neocities.org/", "pantson/anna-kale.png", "Anna's KALE, colour number 18-0107") }}
+        {{ adoptable("https://vulpecula.neocities.org/", "pantson/ebony-mosstone.png", "Ebony's MOSSTONE, colour number PQ-17-0525 TCX") }}
+        {{ adoptable("https://vulpecula.neocities.org/", "pantson/ebony-total-eclipse.png", "Ebony's TOTAL ECLIPSE, colour number 19-4010 TPG") }}
+        {{ adoptable("https://bohemiansultriness.nekoweb.org/", "pantson/fritzi-rubber-soul.png", "Fritzi's RUBBER SOUL, colour number 1965U") }}
+        {{ adoptable("https://bohemiansultriness.nekoweb.org/", "pantson/fritzi-magical-tour.png", "Fritzi's MAGICAL TOUR, colour number 1967U") }}
+        {{ adoptable("https://bohemiansultriness.nekoweb.org/", "pantson/fritzi-plastic-ono.png", "Fritzi's PLASTIC ONO, colour number 1970U") }}
+        {{ adoptable("https://ginnygravity.neocities.org/", "pantson/ginnygravity-robins-egg.png", "Ginny Gravity's ROBINS EGG, colour number 99F0F7") }}
+        {{ adoptable("https://bulltown.joejenett.com/", "pantson/joejenett-chocolato.png", "Joe Jenett's CHOCOLATO, colour number B22U") }}
+        {{ adoptable("https://amalinalai.github.io/precipice/", "pantson/lina-morning-mist.png", "Lina's MORNING MIST, colour number 12-5204") }}
+        {{ adoptable("https://manyface.neocities.org/", "pantson/manyface-lizard.png", "Manyface's LIZARD, colour number 1200U") }}
+        {{ adoptable("https://manyface.neocities.org/", "pantson/manyface-psyche.png", "Manyface's PSYCHE, colour number 777U") }}
+        {{ adoptable("https://sakuradreams.neocities.org/", "pantson/sakuradreams-lilac-dreams.png", "Sakura Dreams' LILAC DREAMS, colour number 2023U") }}
+        {{ adoptable("https://sakuradreams.neocities.org/", "pantson/sakuradreams-sakura-pink.png", "Sakura Dreams' SAKURA PINK, colour number 0904U") }}
+        {{ adoptable("https://hauntedweb.neocities.org/", "pantson/v-star-sticker.png", "V's STAR STICKER, colour number 11U") }}
+        {{ adoptable("https://velvet-boutique.neocities.org/", "pantson/velvet-cherry-red.png", "Velvet's CHERRY RED, colour number 3571 C") }}
+    </ul>
+</section>
+
+<section class="content__section">
+    {{ headingAnchor 2 }}Salad Magazine{{ /headingAnchor }}
+    <p><a href="https://zine.kalechips.net/index">Salad Magazine</a> is a web-based zine for creative works run by <a href="https://kalechips.net/">Kalechips</a>.</p>
+
+    {{ headingAnchor 3 }}Ink Snail and Sparkle Snail{{ /headingAnchor }}
+    <div class="web-graphics adoptables">
+        <img src="/assets/adoptables/salad-magazine/semper-inksnail-black.png" alt="Black ink snail pixel art by Semper" loading="lazy">
+        <img src="/assets/adoptables/salad-magazine/semper-inksnail-sparkle.png" alt="Sparkle snail pixel art by Semper" loading="lazy">
+    </div>
+    <p>These snails were made by <a href="https://mycorrhiza.space/">Semper</a> as part of the <a href="https://zine.kalechips.net/issues/3/semper/index.html">Sparkle Snails</a> entry for <a href="https://zine.kalechips.net/issues/3/">Issue 3</a>.</p>
+</section>
+
+<section class="content__section">
+    {{ headingAnchor 2 }}32-Bit Cafe Code Jam: Destination Vacation{{ /headingAnchor }}
+    <p>Stuff I collected from <a href="https://tilde.32bit.cafe/~ribose/events/destination/map.html">32-Bit Cafe's Community Code Jam #4: Destination Vacation</a> in June 2024, including a passport with stamps from the code jam entries, and extra goodies from some of the participants.</p>
+    <ul class="web-graphics adoptables">
+        <li>
+            <img src="/assets/adoptables/32bitcafe-vacation/passport.png" alt="32-Bit Cafe's Destination Vacation code jam passport with stamps" loading="lazy">
+        </li>
+        {{ adoptable("https://xandra.cc/codejam/vacation/", "32bitcafe-vacation/alexandra-stamp.png", "Alexandra's stamp") }}
+        {{ adoptable("https://ribo.zone/sunday/fish/", "32bitcafe-vacation/ribose-riverfish.png", "Ribose's fishing button") }}
+    </ul>
+</section>

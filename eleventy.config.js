@@ -6,6 +6,7 @@ import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginEmbedEverything from "eleventy-plugin-embed-everything";
 import pluginWordcount from "eleventy-plugin-wordcount-extended";
 import pluginTOC from "@uncenter/eleventy-plugin-toc";
+import { VentoPlugin } from 'eleventy-plugin-vento';
 
 // Custom Configurations
 import markdownItConfig from "./src/_config/markdown-it.js";
@@ -48,9 +49,15 @@ export default function(eleventyConfig) {
     eleventyConfig.addBundle("css");
     eleventyConfig.addBundle("js", { toFileDirectory: "assets/js" });
 
+    // ----- Vento plugin for Eleventy
+    // Must be loaded after plugins that modify filters
+    eleventyConfig.addPlugin(VentoPlugin, {
+        autotrim: true,
+    });
+
     return {
-        markdownTemplateEngine: "njk",
-        htmlTemplateEngine: "njk",
+        markdownTemplateEngine: "vto",
+        htmlTemplateEngine: "vto",
         dir: {
             input: "src"
         }

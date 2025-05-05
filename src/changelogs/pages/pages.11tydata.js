@@ -1,6 +1,6 @@
 export default {
     tags: "changelog pages",
-    layout: "main/changelogs",
+    layout: "partials/changelogs",
     permalink: "/changelogs/{{ page.fileSlug }}/",
     eleventyComputed: {
         eleventyNavigation: {

@@ -1,5 +1,5 @@
 export default {
-    layout: "main/slashpage",
+    layout: "layouts/slashpage",
     tags: "statements",
     articleElement: true,
     eleventyComputed: {

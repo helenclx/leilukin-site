@@ -1,5 +1,5 @@
 ---
-layout: starwarskotor/content
+layout: layouts/starwarskotor
 title: Guides
 pageTitle: "Star Wars: Knights of the Old Republic Guides"
 desc: "List of guides for the Star Wars: Knights of the Old Republic series I have written or found useful. This page also includes lists of cheats."
@@ -12,13 +12,13 @@ eleventyNavigation:
     order: 2
 ---
 
-{% from "global/macros.njk" import articleList with context %}
+{{ import { articleList } from "components/functions.vto" }}
 
 ## My KotOR Guides
 {{ articleList("kotor guides") }}
 
 ## KotOR 1 Guides by Others
-* [{% cite "Star Wars: Knights of the Old Republic" %} section](https://strategywiki.org/wiki/Star_Wars:_Knights_of_the_Old_Republic) on StrategyWiki
+* [{{ cite "Star Wars: Knights of the Old Republic" }} section](https://strategywiki.org/wiki/Star_Wars:_Knights_of_the_Old_Republic) on StrategyWiki
 
 ## KotOR 2: TSL Guides by Others
 * [Influence Walkthrough](https://web.archive.org/web/20190104130924/www.starwarsknights.com/influence.php) by by Achilles

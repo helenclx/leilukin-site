@@ -1,5 +1,5 @@
 ---
-layout: asummersend/content
+layout: layouts/asummersend
 title: Playlists
 pageTitle: A Summer’s End — Hong Kong 1986 Playlists
 desc: List of A Summer’s End — Hong Kong 1986 playlists.
@@ -11,9 +11,9 @@ eleventyNavigation:
     order: 1
 ---
 
-{% cite "A Summer’s End — Hong Kong 1986" %} is a gold mine of music. Not only that the visual novel has a great soundtrack (its [official soundtrack](https://www.asummersend.com/original-soundtrack) was released on August 21, 2020), but the developer Oracle and Bone has also compiled playlists related to the game.
+{{ cite "A Summer’s End — Hong Kong 1986" }} is a gold mine of music. Not only that the visual novel has a great soundtrack (its [official soundtrack](https://www.asummersend.com/original-soundtrack) was released on August 21, 2020), but the developer Oracle and Bone has also compiled playlists related to the game.
 
-As a tribute to {% cite "A Summer’s End" %}, I have also created a fanmix myself.
+As a tribute to {{ cite "A Summer’s End" }}, I have also created a fanmix myself.
 
 ## Sam's Mixtape
 
@@ -44,5 +44,4 @@ Oracle and Bone compiled this playlist as a tribute to Anita Mui, who was a majo
 
 ## My Dear Summer Lover
 
-{% from "asummersend/myplaylist.html" import myASEPlaylist %}
-{{ myASEPlaylist("My fanmix for") }}
+{{ include "components/aseplaylist.vto" { intro: "My fanmix for" } }}

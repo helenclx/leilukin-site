@@ -6,19 +6,19 @@ categories: ["star wars kotor", "star wars kotor 2", "video game mods"]
 toc: true
 ---
 
-The first {% cite "Star Wars: Knights of the Old Republic" %} video game introduced Juhani, the very first confirmed gay character in any Star Wars media, including Legends, the old {% cite "Star Wars" %} Expanded Universe, and the very first canon same-gender romance option in any BioWare game. However, the {% cite "KotOR" %} series at large has little LGBTQ+ content, and except for Juhani, none of the romance options in both {% cite "KotOR" %} games are available for same-gender romances.
+The first {{ cite "Star Wars: Knights of the Old Republic" }} video game introduced Juhani, the very first confirmed gay character in any Star Wars media, including Legends, the old {{ cite "Star Wars" }} Expanded Universe, and the very first canon same-gender romance option in any BioWare game. However, the {{ cite "KotOR" }} series at large has little LGBTQ+ content, and except for Juhani, none of the romance options in both {{ cite "KotOR" }} games are available for same-gender romances.
 
-Therefore, throughout the years, modders of the {% cite "KotOR" %} games have created various mods adding more same-gender romance options and content to the games to fill the void.
+Therefore, throughout the years, modders of the {{ cite "KotOR" }} games have created various mods adding more same-gender romance options and content to the games to fill the void.
 
-Below is a list of all the same-gender romance mods that had been created for the {% cite "KotOR" %} game series throughout {% cite "KotOR" %}'s modding history, sorted by their Initial Releases in chronological order.
+Below is a list of all the same-gender romance mods that had been created for the {{ cite "KotOR" }} game series throughout {{ cite "KotOR" }}'s modding history, sorted by their Initial Releases in chronological order.
 
-Wanting to make your {% cite "KotOR" %} games more gay? Then this list is for you! This list also serves as an archive to document the history of same-gender romance mods for the KotOR series. Happy gayming!
+Wanting to make your {{ cite "KotOR" }} games more gay? Then this list is for you! This list also serves as an archive to document the history of same-gender romance mods for the KotOR series. Happy gayming!
 
 NOTE: Some listed mods below have overlapping concepts and thus are not compatible with each other. Mods that are hosted exclusively on Gamefront are very old mods that were made in the 2000s, and thus may have compatibility issues with newer mods (not just ones that listed here).
 
-**Warning: this list contains spoilers for both {% cite "KotOR" %} games.**
+**Warning: this list contains spoilers for both {{ cite "KotOR" }} games.**
 
-## For {% cite "Knights of the Old Republic I" %}
+## For {{ cite "Knights of the Old Republic I" }}
 
 ### Bastila & Female Revan (Untold Love Story)
 
@@ -141,7 +141,7 @@ Download
 Description
 : Inspired by the aforementioned Bi Carth mod, this is my version of a male Revan and Carth romance mod. The biggest differences between my version and forgetcanon’s are that my mod is installed by patching relevant dialogue files, instead of putting modified dialogue files in the Override folder, and I have also edited Carth’s dialogue and spliced audio files to prevent Carth from referring to male Revan as a woman.
 
-## For {% cite "Knights of the Old Republic II: The Sith Lords" %}
+## For {{ cite "Knights of the Old Republic II: The Sith Lords" }}
 
 ### Worthy of Note
 

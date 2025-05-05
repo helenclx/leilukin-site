@@ -1,5 +1,5 @@
 ---
-layout: asummersend/content
+layout: layouts/asummersend
 title: Gallery
 pageTitle: A Summer’s End — Hong Kong 1986 Gallery
 desc: My gallery for A Summer’s End — Hong Kong 1986.
@@ -11,11 +11,11 @@ eleventyNavigation:
     order: 3
 ---
 
-{% cite "A Summer’s End — Hong Kong 1986" %} was lovingly crafted by its developer Oracle and Bone with gorgeous art, so i want to make a page dedicated to my appreciation for the visual novel’s art.
+{{ cite "A Summer’s End — Hong Kong 1986" }} was lovingly crafted by its developer Oracle and Bone with gorgeous art, so i want to make a page dedicated to my appreciation for the visual novel’s art.
 
 The game has an in-game gallery that gradually unlocks as you progress the story, though certain scene art only unlocks if you pick certain dialogue options. Check out [Dialog Choices Guide (AKA Lesbianism 101)](https://steamcommunity.com/sharedfiles/filedetails/?id=2072736837) on Steam for how to unlock all scenes, and thus the entire in-game gallery.
 
-I also highly recommend checking out the [official site](https://www.asummersend.com/) of {% cite "A Summer’s End" %} and the social media accounts of Oracle and Bone's for more beauriful art about the visual novel!
+I also highly recommend checking out the [official site](https://www.asummersend.com/) of {{ cite "A Summer’s End" }} and the social media accounts of Oracle and Bone's for more beauriful art about the visual novel!
 
 ## My Favourite Screenshots
 
@@ -39,13 +39,13 @@ I also highly recommend checking out the [official site](https://www.asummersend
 
 ## Passion Patch Screenshots
 
-{% cite "A Summer’s End — Hong Kong 1986" %} offers an optional adult content patch, also referred to as Passion Patch, to the game. [Installation guide for the patch](https://www.asummersend.com/game-manual-installation-guide) can be found on the official website.
+{{ cite "A Summer’s End — Hong Kong 1986" }} offers an optional adult content patch, also referred to as Passion Patch, to the game. [Installation guide for the patch](https://www.asummersend.com/game-manual-installation-guide) can be found on the official website.
 
-I had played {% cite "A Summer’s End" %} with the Passion Patch enabled and unlocked all scenes from the patch by referring to the [Dialog Choices Guide (AKA Lesbianism 101)](https://steamcommunity.com/sharedfiles/filedetails/?id=2072736837) on Steam.
+I had played {{ cite "A Summer’s End" }} with the Passion Patch enabled and unlocked all scenes from the patch by referring to the [Dialog Choices Guide (AKA Lesbianism 101)](https://steamcommunity.com/sharedfiles/filedetails/?id=2072736837) on Steam.
 
-The sex scenes between Sam and Michelle added by the Passion Patch are easily the best sapphic sex scenes I have ever seen in any game. Furthermore, Oracle and Bone had written a blog post about their thought process behind the [sexual content in {% cite "A Summer’s End" %}](https://www.asummersend.com/blog/sexual-content). Therefore, I want to dedicate this section to screenshots of these scenes.
+The sex scenes between Sam and Michelle added by the Passion Patch are easily the best sapphic sex scenes I have ever seen in any game. Furthermore, Oracle and Bone had written a blog post about their thought process behind the [sexual content in {{ cite "A Summer’s End" }}](https://www.asummersend.com/blog/sexual-content). Therefore, I want to dedicate this section to screenshots of these scenes.
 
-{% contentWarning "Adult Content" %}
+{{ contentWarning "Adult Content" }}
 <!-- NOTE: Due to these images being NSFW, these image files are not stored in this repository locally, and instead are uploaded manually to the host -->
 ![Sam kisses Michelle's cleavage and strokes Michelle's thigh](/host/images/asummersend/HK1986-2021-02-06-16-15-22-789.avif){loading="lazy"}
 ![Sam licks Michelle's bare stomach](/host/images/asummersend/HK1986-2021-02-06-16-15-32-530.avif){loading="lazy"}
@@ -59,5 +59,5 @@ The sex scenes between Sam and Michelle added by the Passion Patch are easily th
 [![Sam fingers Michelle from the back, and Michelle's breasts and stomach are exposed](https://i.postimg.cc/sXn13npS/HK1986-2021-02-06-16-16-55-049.avif){loading="lazy"}](https://postimg.cc/njDnkGSc)
 [![Sam naked on top of Michelle, who caresses Sam's bare breast](https://i.postimg.cc/Hs8jC9jc/HK1986-2021-02-06-16-17-03-633.avif){loading="lazy"}](https://postimg.cc/gndGVRVm) -->
 
-These screenshots of {% cite "A Summer’s End" %}'s Passion Patch can also be viewed on [my Postimages gallery](https://postimg.cc/gallery/YBhz5TbR), and are available in PNG and AVIF formats.
-{% endcontentWarning %}
+These screenshots of {{ cite "A Summer’s End" }}'s Passion Patch can also be viewed on [my Postimages gallery](https://postimg.cc/gallery/YBhz5TbR), and are available in PNG and AVIF formats.
+{{ /contentWarning }}

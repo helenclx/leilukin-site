@@ -1,5 +1,5 @@
 ---
-layout: asummersend/content
+layout: layouts/asummersend
 title: Trivia
 pageTitle: A Summer’s End — Hong Kong 1986 Trivia
 desc: A collection of trivia about A Summer’s End — Hong Kong 1986.
@@ -11,7 +11,7 @@ eleventyNavigation:
     order: 2
 ---
 
-Here is a collection of trivia about the characters from {% cite "A Summer’s End — Hong Kong 1986" %} provided by the developer Oracle and Bone on their social media pages, especially [Tumblr](https://oracleandbone.tumblr.com/).
+Here is a collection of trivia about the characters from {{ cite "A Summer’s End — Hong Kong 1986" }} provided by the developer Oracle and Bone on their social media pages, especially [Tumblr](https://oracleandbone.tumblr.com/).
 
 ## Movies and Music References
 

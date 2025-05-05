@@ -1,5 +1,5 @@
 ---
-layout: cassettebeasts/content
+layout: layouts/cassettebeasts
 title: Game Log
 pageTitle: Cassette Beasts Game Log
 desc: A catalogue of my Cassette Beasts characters and save profiles.
@@ -12,7 +12,7 @@ eleventyNavigation:
     order: 2
 ---
 
-{% set universeAssetBase = '/assets/shrines/cassettebeasts/gamelog/' %}
+{{ set universeAssetBase = '/assets/shrines/cassettebeasts/gamelog/' }}
 
 ## Character Profile: Kristine
 

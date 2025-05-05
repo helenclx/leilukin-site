@@ -1,6 +1,6 @@
 export default {
     tags: "project pages",
-    layout: "main/content.html",
+    layout: "layouts/main",
     hasBreadcrumbs: true,
     eleventyComputed: {
         eleventyNavigation: {

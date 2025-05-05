@@ -1,0 +1,47 @@
+---
+title: Site Map
+eleventyExcludeFromCollections: true
+navigationOptions:
+    listClass: "sitemap"
+eleventyComputed:
+    desc: Site map of {{ sitemeta.siteName }}.
+---
+
+<p>Navigation for browsing {{ sitemeta.siteName }}.</p>
+
+<h2>Subsites</h2>
+<ul class="sitemap">
+{{ for site of sitemeta.subsites }}
+    <li><a href="{{ site.siteUrl() }}">{{ site.siteName }}</a></li>
+{{ endfor }}
+</ul>
+
+<h2>Main Site</h2>
+{{ collections.all |> eleventyNavigation |> eleventyNavigationToHtml(navigationOptions) }}
+
+{{- css }}
+main ul {
+    display: grid;
+    gap: 0.5rem;
+    margin-top: 0.3em;
+}
+
+.sitemap {
+    margin: 1em 0;
+    padding: 0 0 0 1em;
+    list-style-type: "";
+}
+
+.sitemap a:focus { outline: 0.15rem solid var(--clr-link); }
+
+.sitemap li {
+    padding-left: 0.5em;
+    align-items: start;
+}
+
+.sitemap li::marker { content: "▶"; }
+.sitemap ul { padding-left: 1em; }
+.sitemap ul li::marker { content: "★"; }
+.sitemap ul ul li::marker { content: "♥"; }
+.sitemap ul ul ul li::marker { content: "❣"; }
+{{ /css }}
