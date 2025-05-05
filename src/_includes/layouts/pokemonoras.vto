@@ -1,5 +1,5 @@
 ---
-layout: layouts/content
+layout: layouts/base
 sectionName: Pokémon Omega Ruby and Alpha Sapphire Shrine
 ---
 {{- css }}{{ include "../../assets/css/pokemonoras.css" }}{{- /css }}
@@ -50,7 +50,7 @@ function getTodayEvent() {
 {{ set navPages = collections.all |> eleventyNavigation("ORAS Shrine") }}
 {{ for entry of navPages }}
 <li>
-    <a {{ if entry.url == page.url }}aria-current="page"{{ /if }} href="{{ entry.url }}">{{ entry.title }}</a>
+    <a {{ if entry.url == page.url }} aria-current="page"{{ /if }} href="{{ entry.url }}">{{ entry.title }}</a>
 </li>
 {{ /for }}
 {{ /set }}

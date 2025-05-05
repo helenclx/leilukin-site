@@ -1,5 +1,5 @@
 ---
-layout: layouts/content
+layout: layouts/base
 articleElement: true
 ---
 
@@ -9,13 +9,13 @@ articleElement: true
     <p class="changelog__nav--title" id="changelog-nav-title">Changelog Archive:</p>
     <ul class="inline-nav changelog__nav--links">
         <li><a
-            {{ if currentUrl === "/changelogs/" }}aria-current="page"{{ /if }}
+            {{ if currentUrl === "/changelogs/" }} aria-current="page"{{ /if }}
             href="/changelogs"
         >Latest</a></li>
         {{ set navPages = collections.all |> eleventyNavigation("Changelogs") |> toReversed }}
         {{ for entry of navPages }}
         <li><a
-            {{ if entry.url == page.url }}aria-current="page"{{ /if }}
+            {{ if entry.url == page.url }} aria-current="page"{{ /if }}
             href="{{ entry.url }}"
         >{{ entry.title }}</a></li>
         {{ /for }}

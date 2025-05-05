@@ -1,5 +1,5 @@
 ---
-layout: layouts/content
+layout: layouts/base
 sectionName: A Summer’s End — Hong Kong 1986 Shrine
 ---
 {{- css }}{{ include "../../assets/css/asummersend.css" }}{{- /css }}
@@ -60,7 +60,7 @@ function getTodayEvent() {
 {{ set navPages = collections.all |> eleventyNavigation("A Summer’s End Shrine") }}
 {{- for entry of navPages }}
 <li>
-    <a {{ if entry.url == page.url }}aria-current="page"{{ /if }} href="{{ entry.url }}">{{ entry.title }}</a>
+    <a {{ if entry.url == page.url }} aria-current="page"{{ /if }} href="{{ entry.url }}">{{ entry.title }}</a>
 </li>
 {{ /for }}
 {{ /set }}

@@ -1,6 +1,6 @@
 export default {
     tags: "pages",
-    layout: "layouts/content",
+    layout: "layouts/base",
     permalink: "/{{ page.fileSlug }}/",
     eleventyComputed: {
         eleventyNavigation: {

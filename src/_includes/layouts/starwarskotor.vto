@@ -1,5 +1,5 @@
 ---
-layout: layouts/content
+layout: layouts/base
 sectionName: "Star Wars: Knights of the Old Republic Shrine" 
 ---
 {{- css }}{{ include "../../assets/css/starwarskotor.css" }}{{- /css }}
@@ -56,7 +56,7 @@ function getTodayEvent() {
 {{ set navPages = collections.all |> eleventyNavigation("KotOR Shrine") }}
 {{ for entry of navPages }}
 <li>
-    <a {{ if entry.url == page.url }}aria-current="page"{{ /if }} href="{{ entry.url }}">{{ entry.title }}</a>
+    <a {{ if entry.url == page.url }} aria-current="page"{{ /if }} href="{{ entry.url }}">{{ entry.title }}</a>
 </li>
 {{ /for }}
 {{ /set }}
