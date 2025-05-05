@@ -9,7 +9,7 @@ toc: true
 
 {{ imgFigure "/assets/banners/harry-potter-free-site.png", "An anime girl crossing arms with a sidelong look and a Harry Potter-free message" }}
 This site is Harry Potter free. Lookin [<i>sic</i>] for it? Leave.
-{{ endimgFigure }}
+{{ /imgFigure }}
 
 (Credit to Tumblr user [comradesaucegay](https://comradesaucegay.tumblr.com/post/621403039459426304) ([archived](https://web.archive.org/web/20241122135107/https://comradesaucegay.tumblr.com/post/621403039459426304/grumpsaesthetics-you-know-those-old-hentai-free)) for this Harry Potter-free website banner){.center-text}
 
