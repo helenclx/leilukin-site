@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2025-05-05T20:39:47+0800
+updated: 2025-05-05T22:20:39+0800
 toc: true
 eleventyNavigation:
     order: 15
@@ -15,11 +15,11 @@ Information about how this website is built.
 * JavaScript runtime: [Bun](https://bun.sh).
 * Templating languages: [Vento](https://vento.js.org/), Markdown and Nunjucks (only for the site's RSS feed).
 * Tested browsers: Mozilla Firefox, Vivaldi and Lynx.
-* Source code available on [32-Bit Cafe's Gitea instance](https://git.32bit.cafe/Leilukin/leilukin-site).
+* Source code available on [32-Bit Cafe's Gitea instance](https://git.32bit.cafe/Leilukin/leilukin-site) and the [repository's GitHub mirror](https://github.com/helenclx/leilukin-site).
 
 ## Host and Domain
 
-* Deployed to [Hostinger](https://www.hostinger.my/) from this site's Gitea repository with a Gitea Action, using the [easingthemes/ssh-deploy](https://github.com/easingthemes/ssh-deploy) GitHub Action.
+* Deployed to [Hostinger](https://www.hostinger.my/) from this site's repository mirror on GitHub, using the [easingthemes/ssh-deploy](https://github.com/easingthemes/ssh-deploy) GitHub Action.
 * The domain name, {{ sitemeta.siteDomain }}, was registered on 30 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/)
 
 Previously, this website was hosted on [Neocities](https://neocities.org/) until 31 May 2024, and [Netlify](https://www.netlify.com/) until 25 July 2024.
