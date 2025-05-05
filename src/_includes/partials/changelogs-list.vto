@@ -1,4 +1,4 @@
-{{ for log of changelogList |> toReversed }}
+{{ for log of changelogList }}
 {{ headingAnchor 2, log.fileSlug }}
 {{ log.date |> formatDate }}
 {{ /headingAnchor }}

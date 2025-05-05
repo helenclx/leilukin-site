@@ -7,5 +7,11 @@ eleventyNavigation:
     order: 5
 ---
 
-{{ set changelogList = collections["changelog 2025"] }}
-{{ include "partials/changelogs-list.vto" }}
+{{ set changelogList = collections["changelog 2025"] |> toReversed }}
+{{ for log of changelogList }}
+{{ headingAnchor 2, log.fileSlug }}
+{{ log.date |> formatDate }}
+{{ /headingAnchor }}
+
+{{ log.content }}
+{{ /for }}
