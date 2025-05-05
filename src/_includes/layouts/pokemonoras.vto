@@ -1,14 +1,13 @@
 ---
-layout: layouts/base
 sectionName: Pokémon Omega Ruby and Alpha Sapphire Shrine
 ---
+{{ layout "layouts/base.vto" }}
 {{- css }}{{ include "../../assets/css/pokemonoras.css" }}{{- /css }}
 
 {{ set favicon }}
 <link rel="icon" type="image/x-icon" href="/assets/shrines/pokemonoras/images/favicon.ico">
 {{ /set }}
 
-{{ layout "partials/hero.vto" }}
 {{ set heroImg }}
 <picture>
     <source srcset="/assets/shrines/pokemonoras/images/pokemonoras-header-320.avif" media="(orientation: landscape)" />
@@ -41,9 +40,7 @@ function getTodayEvent() {
         return null;
 }
 {{ /set }}
-{{ /layout }}
 
-{{ layout "partials/navbar.vto" }}
 {{ set shrineHomeUrl = "/shrines/pokemonoras/" }}
 
 {{ set navbarLinks }}
@@ -54,9 +51,9 @@ function getTodayEvent() {
 </li>
 {{ /for }}
 {{ /set }}
-{{ /layout }}
 
-{{ layout "partials/shrineinfo.vto" }}
+{{ content }}
+
 {{ set shrineAbout }}
 <p>Welcome to {{ sitemeta.siteAuthor.name }}'s shrine for {{ cite "Pokémon Omega Ruby and Alpha Sapphire" }}, remakes of the 2002 Game Boy Advance role-playing video games {{ cite "Pokémon Ruby" }} and {{ cite "Pokémon Sapphire" }}. The games are part of the sixth generation of the {{ cite "Pokémon" }} main series of video games, developed by Game Freak and published by The Pokémon Company and Nintendo for the Nintendo 3DS.</p>
 {{ /set }}
@@ -65,9 +62,7 @@ function getTodayEvent() {
 <li><a href="https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Omega_Ruby_and_Alpha_Sapphire">Bulbapedia</a></li>
 <li><a href="https://pkmn.redcrown.net/hoenn/"><cite>Pokémon Ruby</cite>, <cite>Sapphire</cite>, <cite>Omega Ruby</cite> and <cite>Alpha Sapphire</cite> fanlisting</a></li>
 {{ /set }}
-{{ /layout }}
 
-{{ layout "partials/footer.vto" }}
 {{ set footerContent }}
 <p>Made with ♥ by {{ sitemeta.siteAuthor.name }} • Shrine Launched: 21 November 2024</p>
 {{ /set }}

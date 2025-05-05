@@ -81,7 +81,9 @@
     {{ include "partials/content-nav.vto" }}
     {{ /if }}
 
-    {{ shrineInfo }}
+    {{ if tags && tags.includes("shrine pages") }}
+    {{ include "partials/shrineinfo.vto" }}
+    {{ /if }}
 </content-wrapper>
 
 {{- css }}

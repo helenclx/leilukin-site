@@ -1,14 +1,13 @@
 ---
-layout: layouts/base
 sectionName: Cassette Beasts Shrine
 ---
+{{ layout "layouts/base.vto" }}
 {{- css }}{{ include "../../assets/css/cassettebeasts.css" }}{{- /css }}
 
 {{ set favicon }}
 <link rel="icon" type="image/x-icon" href="/assets/shrines/cassettebeasts/images/favicon.ico">
 {{ /set }}
 
-{{ layout "partials/hero.vto" }}
 {{ set heroImg }}
 <picture>
     <source srcset="/assets/shrines/cassettebeasts/images/cassettebeasts-header-320.avif" media="(orientation: landscape)" />
@@ -47,9 +46,7 @@ function getTodayEvent() {
         return null;
 }
 {{ /set }}
-{{ /layout }}
 
-{{ layout "partials/navbar.vto" }}
 {{ set shrineHomeUrl = "/shrines/cassettebeasts/" }}
 
 {{ set navbarLinks }}
@@ -60,9 +57,9 @@ function getTodayEvent() {
 </li>
 {{ /for }}
 {{ /set }}
-{{ /layout }}
 
-{{ layout "partials/shrineinfo.vto" }}
+{{ content }}
+
 {{ set shrineAbout }}
 <p>Welcome to {{ sitemeta.siteAuthor.name }}'s shrine for {{ cite "Cassette Beasts" }}, an indie monster collecting turn-based open-world role-playing video game developed by Bytten Studio and published by Raw Fury.</p>
 {{ /set }}
@@ -75,9 +72,7 @@ function getTodayEvent() {
 <li><a href="https://bytten-studio.com/">Bytten Studio</a></li>
 <li><a href="https://fan.leilukin.com/cassettebeasts/">Cassette Beasts fanlisting</a></li>
 {{ /set }}
-{{ /layout }}
 
-{{ layout "partials/footer.vto" }}
 {{ set footerContent }}
 <p>Made with ♥ by {{ sitemeta.siteAuthor.name }} • Shrine Launched: 3 August 2023</p>
 {{ /set }}

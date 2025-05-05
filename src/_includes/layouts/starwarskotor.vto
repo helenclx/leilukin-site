@@ -1,14 +1,13 @@
 ---
-layout: layouts/base
 sectionName: "Star Wars: Knights of the Old Republic Shrine" 
 ---
+{{ layout "layouts/base.vto" }}
 {{- css }}{{ include "../../assets/css/starwarskotor.css" }}{{- /css }}
 
 {{ set favicon }}
 <link rel="icon" type="image/x-icon" href="/assets/shrines/starwarskotor/images/favicon.ico">
 {{ /set }}
 
-{{ layout "partials/hero.vto" }}
 {{ set heroImg }}
 <picture>
     <source srcset="/assets/shrines/starwarskotor/images/swkotor-header-320.avif" media="(orientation: landscape)" />
@@ -47,9 +46,7 @@ function getTodayEvent() {
         return null;
 }
 {{ /set }}
-{{ /layout }}
 
-{{ layout "partials/navbar.vto" }}
 {{ set shrineHomeUrl = "/shrines/starwarskotor/" }}
 
 {{ set navbarLinks }}
@@ -60,9 +57,9 @@ function getTodayEvent() {
 </li>
 {{ /for }}
 {{ /set }}
-{{ /layout }}
 
-{{ layout "partials/shrineinfo.vto" }}
+{{ content }}
+
 {{ set shrineAbout }}
 <p>Welcome to {{ sitemeta.siteAuthor.name }}'s shrine for {{ cite "Star Wars: Knights of the Old Republic" }}, a series of role-playing video games set in the {{ cite "Star Wars" }} universe, taking place almost 4,000 years before the events of the Skywalker film saga.</p>
 {{ /set }}
@@ -72,9 +69,7 @@ function getTodayEvent() {
 <li><a href="https://glitterskies.org/kotor/"><cite>Star Wars: KotOR</cite> fanlisting</a></li>
 <li><a href="https://glitterskies.org/kotor2/"><cite>Star Wars: KotOR II</cite> fanlisting</a></li>
 {{ /set }}
-{{ /layout }}
 
-{{ layout "partials/footer.vto" }}
 {{ set footerContent }}
 <p>Made with ♥ and the Force by {{ sitemeta.siteAuthor.name }} • Shrine Launched: 17 February 2023</p>
 {{ /set }}
