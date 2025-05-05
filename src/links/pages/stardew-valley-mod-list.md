@@ -8,17 +8,17 @@ isContentDivided: true
 toc: true
 ---
 
-{% container "article", "content__section" %}
-Welcome to Leilukin’s {% cite "Stardew Valley" %} Mod Build!
+{{ container "article", "content__section" }}
+Welcome to Leilukin’s {{ cite "Stardew Valley" }} Mod Build!
 
-Here I’m compiling a list of all the modifications, or mods in short, that I use for {% cite "Stardew Valley" %}, the independent farming simulator video game developed by ConcernedApe, for the best experience with the game. This document is made for my reference and to share with others.
+Here I’m compiling a list of all the modifications, or mods in short, that I use for {{ cite "Stardew Valley" }}, the independent farming simulator video game developed by ConcernedApe, for the best experience with the game. This document is made for my reference and to share with others.
 
 The format of this mod list is inspired by [KOTOR Community Portal's mod lists](https://kotor.neocities.org/modding/).
 
 (This mod list was last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time>)
-{% /container  %}
+{{ /container  }}
 
-{% container "article", "content__section" %}
+{{ container "article", "content__section" }}
 ## Mod Categories
 
 The mods I included in my mod build are divided into the following categories, which clarifies the types of changes the mod makes:
@@ -34,18 +34,18 @@ Interface Change
 
 Mechanics Change
 : This type of mod makes changes to the game’s system which directly impacts the way you play the game, varying from changing the camera angle of a location to altering the core stats of a class.
-{% /container %}
+{{ /container }}
 
-{% container "article", "content__section" %}
+{{ container "article", "content__section" }}
 ## Mod Tiers
 
-The tiers for each mod included in my mod build are not necessary a judgement on the quality of the mods themselves. In my mod builds, mod tiers are ranked on a scale of 1-4, based on how important the individual mods are for my experience with {% cite "Stardew Valley" %}.
+The tiers for each mod included in my mod build are not necessary a judgement on the quality of the mods themselves. In my mod builds, mod tiers are ranked on a scale of 1-4, based on how important the individual mods are for my experience with {{ cite "Stardew Valley" }}.
 
 Tier 1 - Essential
-: This tier indicates mods that I cannot play {% cite "Stardew Valley" %} without. Usually this is because I find those mods make very crucial changes to the game, typically by fixing things that bother me the most in the vanilla game. Similarly, mods of the Patch category that belong to this tier make critical changes to other mods. I consider excluding Tier 1 mods will negatively affect my experience with {% cite "Stardew Valley" %}.
+: This tier indicates mods that I cannot play {{ cite "Stardew Valley" }} without. Usually this is because I find those mods make very crucial changes to the game, typically by fixing things that bother me the most in the vanilla game. Similarly, mods of the Patch category that belong to this tier make critical changes to other mods. I consider excluding Tier 1 mods will negatively affect my experience with {{ cite "Stardew Valley" }}.
 
 Tier 2 - Very Important
-: This tier indicates mods that vastly improve my experience with the game. Mods belong to this tier are the bread and butter of my mod build. That said, unlike Tier 1 mods, excluding Tier 2 mods from my playthrough does not actively make my {% cite "Stardew Valley" %} experience worse either.
+: This tier indicates mods that vastly improve my experience with the game. Mods belong to this tier are the bread and butter of my mod build. That said, unlike Tier 1 mods, excluding Tier 2 mods from my playthrough does not actively make my {{ cite "Stardew Valley" }} experience worse either.
 
 Tier 3 - Somewhat Important
 : This tier indicates mods that make changes that are in smaller scope or more subjective compared to Tier 1 and Tier 2 mods. Usually this is because the changes made by Tier 3 mods are less noticeable or more of a matter of personal taste.
@@ -53,19 +53,19 @@ Tier 3 - Somewhat Important
 Tier 4 - Optional
 : This tier indicates mods that makes even smaller or more subjective changes than Tier 3 mods, to the point that using these mods are optional. I include Tier 4 mods in my build for the purpose of maximizing my immersion, or because I use these mods for customization purposes for my characters.
 {.deflist-1col}
-{% /container %}
+{{ /container }}
 
-{% container "article", "content__section" %}
-## {% cite "Stardew Valley" %} Mod Build - Full List
+{{ container "article", "content__section" }}
+## {{ cite "Stardew Valley" }} Mod Build - Full List
 
 ### Mod Tools
 
-Frameworks that are essential to install for {% cite "Stardew Valley" %} mods to function:
+Frameworks that are essential to install for {{ cite "Stardew Valley" }} mods to function:
 
 * [Stardew Modding API](https://smapi.io/) by Pathoschild
 * [Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915) by Pathoschild
 
-{% cite "Stardew Valley" %} mod manager:
+{{ cite "Stardew Valley" }} mod manager:
 
 * [Stardrop](https://www.nexusmods.com/stardewvalley/mods/10455)
 
@@ -271,7 +271,7 @@ Content Patcher Required
 : No
 
 Leilukin’s Comment
-: What bothers me about the hay in {% cite "Stardew Valley" %} is that if your silos are full, you cannot collect hay at all, not even as extra items in your inventory. This mod fixes that.
+: What bothers me about the hay in {{ cite "Stardew Valley" }} is that if your silos are full, you cannot collect hay at all, not even as extra items in your inventory. This mod fixes that.
 
 ---
 
@@ -1038,7 +1038,7 @@ Other Required Files
 : Linus Modded config option
 
 Leilukin’s Comment
-: As much as I like {% cite "Stardew Valley" %}, I cannot help but notice that the characters are overwhelmingly white. Therefore, the existence of the Diverse Stardew Valley mod is a gift and I consider this mod essential for my game.
+: As much as I like {{ cite "Stardew Valley" }}, I cannot help but notice that the characters are overwhelmingly white. Therefore, the existence of the Diverse Stardew Valley mod is a gift and I consider this mod essential for my game.
 
 ---
 
@@ -1355,4 +1355,4 @@ Content Patcher Required
 : Yes
 
 ---
-{% /container %}
+{{ /container }}

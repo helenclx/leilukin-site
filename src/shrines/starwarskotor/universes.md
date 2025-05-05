@@ -12,7 +12,7 @@ eleventyNavigation:
     title: Universes
     order: 4
 ---
-{% set universeAssetBase = '/assets/shrines/starwarskotor/universes/' %}
+{{ set universeAssetBase = '/assets/shrines/starwarskotor/universes/' }}
 
 ## My KotOR Timeline
 

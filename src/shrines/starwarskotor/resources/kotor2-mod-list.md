@@ -8,41 +8,41 @@ isContentDivided: true
 toc: true
 ---
 
-{% container "article", "content__section" %}
-Welcome to Leilukin’s {% cite "Star Wars: Knights of the Old Republic II: The Sith Lords" %} Mod Build!
+{{ container "article", "content__section" }}
+Welcome to Leilukin’s {{ cite "Star Wars: Knights of the Old Republic II: The Sith Lords" }} Mod Build!
 
-Here I am compiling a list of all the modifications, or mods in short, that I use for {% cite "Star Wars: Knights of the Old Republic II: The Sith Lords" %} ({% cite "KotOR 2" %}), the single-player role-playing video game set in the {% cite "Star Wars" %} universe video game developed by Obsidian Entertainment and sequel to {% cite "Star Wars: Knights of the Old Republic" %}, for the best experience with the game. This document is made for my reference and to share with others.
+Here I am compiling a list of all the modifications, or mods in short, that I use for {{ cite "Star Wars: Knights of the Old Republic II: The Sith Lords" }} ({{ cite "KotOR 2" }}), the single-player role-playing video game set in the {{ cite "Star Wars" }} universe video game developed by Obsidian Entertainment and sequel to {{ cite "Star Wars: Knights of the Old Republic" }}, for the best experience with the game. This document is made for my reference and to share with others.
 
-In order to prevent mod conflicts as much as possible, installation order matters a lot if you are using many mods for the {% cite "KotOR" %} games. Therefore, the full list of my mod build below has been arranged in the proper installation order to make these mods compatible. If you are interested in following my mod build, you should install the mods in the order you are presented with them. Also, when you install the mods according to my build, overwrite any files when prompted.
+In order to prevent mod conflicts as much as possible, installation order matters a lot if you are using many mods for the {{ cite "KotOR" }} games. Therefore, the full list of my mod build below has been arranged in the proper installation order to make these mods compatible. If you are interested in following my mod build, you should install the mods in the order you are presented with them. Also, when you install the mods according to my build, overwrite any files when prompted.
 
-I own {% cite "KotOR 2" %} on both Steam and GOG. I play the Steam version of {% cite "KotOR 2" %} with the Aspyr update.
+I own {{ cite "KotOR 2" }} on both Steam and GOG. I play the Steam version of {{ cite "KotOR 2" }} with the Aspyr update.
 
 The format of this mod list is inspired by [KOTOR Community Portal's mod lists](https://kotor.neocities.org/modding/).
 
 (This mod list was last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time>)
-{% /container  %}
+{{ /container  }}
 
-{% container "article", "content__section" %}
+{{ container "article", "content__section" }}
 ## Important Things About This Mod Build
 
-Important things to keep in mind about my {% cite "KotOR 2" %} mod build:
+Important things to keep in mind about my {{ cite "KotOR 2" }} mod build:
 
-1. ALL the mods included in my {% cite "KotOR 2" %} mod build are compatible with The Sith Lords Restored Content Mod (TSLRCM). I consider TSLRCM a mandatory mod for {% cite "KotOR 2" %} that not only I can never play {% cite "KotOR 2" %} without it, I suggest everyone who plays {% cite "KotOR 2" %} on PC should at least have one complete playthrough with TSLRCM installed. Therefore, a {% cite "KotOR 2" %} mod must be compatible with TSLRCM to be considered for inclusion in my mod build.
+1. ALL the mods included in my {{ cite "KotOR 2" }} mod build are compatible with The Sith Lords Restored Content Mod (TSLRCM). I consider TSLRCM a mandatory mod for {{ cite "KotOR 2" }} that not only I can never play {{ cite "KotOR 2" }} without it, I suggest everyone who plays {{ cite "KotOR 2" }} on PC should at least have one complete playthrough with TSLRCM installed. Therefore, a {{ cite "KotOR 2" }} mod must be compatible with TSLRCM to be considered for inclusion in my mod build.
 
-2. My {% cite "KotOR 2" %} mod build may not be compatible with M4-78 Enhancement Project (M4-78EP). I have played M4-78EP for a few playthroughs but honestly, I find the mod very tedious after multiple playthroughs, so I do not play {% cite "KotOR 2" %} with M4-78EP any more, and I definitely do not recommend M4-78EP for players who play KotOR 2 or TSLRCM for the first time.
+2. My {{ cite "KotOR 2" }} mod build may not be compatible with M4-78 Enhancement Project (M4-78EP). I have played M4-78EP for a few playthroughs but honestly, I find the mod very tedious after multiple playthroughs, so I do not play {{ cite "KotOR 2" }} with M4-78EP any more, and I definitely do not recommend M4-78EP for players who play KotOR 2 or TSLRCM for the first time.
 
-3. My {% cite "KotOR 2" %} mod build is NOT compatible with the Steam Workshop. Frankly, the Steam Workshop is terrible for modding the {% cite "KotOR" %} games and a mod compatibility nightmare for the {% cite "KotOR" %} games. I strongly recommend reading Snigaroo's post on Deadly Stream on [why Steam Workshop is NOT recommended for modding {% cite "KotOR" %}](https://deadlystream.com/topic/7321-why-not-to-use-the-steam-workshop/). Therefore, I do not use nor support the Steam Workshop, and I do not wish any of my mods to be uploaded to the Steam Workshop.  If you are interested in following my KotOR 2 mod build, DO NOT use the Steam Workshop version of the mods listed below.
-{% /container  %}
+3. My {{ cite "KotOR 2" }} mod build is NOT compatible with the Steam Workshop. Frankly, the Steam Workshop is terrible for modding the {{ cite "KotOR" }} games and a mod compatibility nightmare for the {{ cite "KotOR" }} games. I strongly recommend reading Snigaroo's post on Deadly Stream on [why Steam Workshop is NOT recommended for modding {{ cite "KotOR" }}](https://deadlystream.com/topic/7321-why-not-to-use-the-steam-workshop/). Therefore, I do not use nor support the Steam Workshop, and I do not wish any of my mods to be uploaded to the Steam Workshop.  If you are interested in following my KotOR 2 mod build, DO NOT use the Steam Workshop version of the mods listed below.
+{{ /container  }}
 
-{% include "starwarskotor/modlist-info.md" %}
+{{ include "partials/kotor-modlist.md" }}
 
-{% container "article", "content__section" %}
-## {% cite "Star Wars: Knights of the Old Republic II: The Sith Lords" %} Mod Build - Full List
+{{ container "article", "content__section" }}
+## {{ cite "Star Wars: Knights of the Old Republic II: The Sith Lords" }} Mod Build - Full List
 
 ### Mod Tools
 
 * [Quicker TSLPatching](https://www.nexusmods.com/kotor/mods/1214) by xypherh — Makes it easier to install mods that use the TSLPatcher.
-* [KOTORModSync](https://deadlystream.com/files/file/2317-kotormodsync/) by th3w1zard1 — A multi-mod installer for the {% cite "KotOR" %} games.
+* [KOTORModSync](https://deadlystream.com/files/file/2317-kotormodsync/) by th3w1zard1 — A multi-mod installer for the {{ cite "KotOR" }} games.
 
 ---
 
@@ -61,7 +61,7 @@ Tier
 : Tier 1 - Essential
 
 Installation Note
-: Since I play {% cite "KotOR 2" %} on Steam, I install the files within the “override” folder first, then the “override_steam_version” folder.
+: Since I play {{ cite "KotOR 2" }} on Steam, I install the files within the “override” folder first, then the “override_steam_version” folder.
 
 ---
 
@@ -80,7 +80,7 @@ Tier
 : Tier 0 - Mandatory
 
 Leilukin’s Comment
-: The single most important and must-have mod for {% cite "KotOR 2" %}. If you play {% cite "KotOR 2" %} on a device where you can install mods into the game, I absolutely do not recommend playing {% cite "KotOR 2" %} without TSLRCM. I would even say your {% cite "KotOR 2" %} experience will not be complete without TSLRCM. Therefore, TSLRCM deserves the honour of being ranked as TIer 0, which is above Tier 1.
+: The single most important and must-have mod for {{ cite "KotOR 2" }}. If you play {{ cite "KotOR 2" }} on a device where you can install mods into the game, I absolutely do not recommend playing {{ cite "KotOR 2" }} without TSLRCM. I would even say your {{ cite "KotOR 2" }} experience will not be complete without TSLRCM. Therefore, TSLRCM deserves the honour of being ranked as TIer 0, which is above Tier 1.
 
 ---
 
@@ -134,7 +134,7 @@ Tier
 : Tier 1 - Essential
 
 Download Note
-: I download `k2rs_30fps_1920x1080.7z` and `k2rs_30fps_mods_1920x1080.7z`. Note that while this is the best {% cite "KotOR" %} movie cutscene mod for to date, this mod has a *huge* file size (at least 21 GB), so if you have poor Internet connection or limited drive space, it would be a better idea to use Naelavok's version of remastered cutscenes below instead.
+: I download `k2rs_30fps_1920x1080.7z` and `k2rs_30fps_mods_1920x1080.7z`. Note that while this is the best {{ cite "KotOR" }} movie cutscene mod for to date, this mod has a *huge* file size (at least 21 GB), so if you have poor Internet connection or limited drive space, it would be a better idea to use Naelavok's version of remastered cutscenes below instead.
 
 ---
 
@@ -646,7 +646,7 @@ Tier
 : Tier 2 - Very Important
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -781,7 +781,7 @@ Tier
 : Tier 2 - Very Important
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -800,7 +800,7 @@ Tier
 : Tier 3 - Somewhat Important
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -876,7 +876,7 @@ Installation Note
 : After putting the files to my Override folder, I use an image editing software to delete the alpha channel of `C_Hutt03.tga`, or Vogga the Hutt would appear semi-transparent.
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -895,7 +895,7 @@ Tier
 : Tier 3 - Somewhat Important
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -914,7 +914,7 @@ Tier
 : Tier 3 - Somewhat Important
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -933,7 +933,7 @@ Tier
 : Tier 3 - Somewhat Important
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -971,7 +971,7 @@ Installation Note
 : In addition to the main file, I also install the files within the “Malak (Blue Eyes)” folder
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -990,7 +990,7 @@ Tier
 : Tier 2 - Very Important
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -1063,7 +1063,7 @@ Download Note
 : I download and install the 2023 version.
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -1117,7 +1117,7 @@ Tier
 : Tier 2 - Very Important
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 Installation Note
 : Before moving the files to override, make a copy of `N_Duros02.tga` and paste it into the same location you extracted the mod to. On a Windows OS, this should create a file called `N_Duros.tga-COPY`. Rename this file to `N_Duros04.tga`. Repeat this process with the file `N_Duros03`, creating two copies and naming them `N_Duros05.tga `and `N_Duros06.tga`. When you move all the files to the override, you should be moving eight total. Following this, download and install the patch.
@@ -1139,7 +1139,7 @@ Tier
 : Tier 3 - Somewhat Important
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -1158,7 +1158,7 @@ Tier
 : Tier 3 - Somewhat Important
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -1177,7 +1177,7 @@ Tier
 : Tier 3 - Somewhat Important
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -1196,7 +1196,7 @@ Tier
 : Tier 3 - Somewhat Important
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -1383,7 +1383,7 @@ Installation Note
 : I download and install both Door Mural and Sith Art files.
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -1440,7 +1440,7 @@ Tier
 : Tier 3 - Somewhat Important
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -1462,7 +1462,7 @@ Download Notes
 : I download and install the "Kiosk HD 15.03.2024.rar" version.
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -1481,7 +1481,7 @@ Tier
 : Tier 3 - Somewhat Important
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -1500,7 +1500,7 @@ Tier
 : Tier 3 - Somewhat Important
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -1519,7 +1519,7 @@ Tier
 : Tier 2 - Very Important
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -1792,7 +1792,7 @@ Installation Note
 : After extracting the archive file, copy the two files within and paste them into the same folder. This should create duplicates of the original files with a slightly different filename (such as `PLC_CompPnl-COPY`). Take the two copied files and rename them to `PLC_CompPnl_b`. Make sure you have one .tga filetype and one .txi filetype. When the files are moved to the override, you should be moving four files: `PLC_CompPnl.tga`, `PLC_CompPnl.txi`, `PLC_CompPnl_b.tga`, and `PLC_CompPnl_b.txi`.
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -3374,7 +3374,7 @@ Required Mod
 : TSLRCM
 
 Leilukin’s Comment
-: It’s worth noting that this is the only content in {% cite "KotOR 2" %} that mentions Mission and Zaalbar.
+: It’s worth noting that this is the only content in {{ cite "KotOR 2" }} that mentions Mission and Zaalbar.
 
 ---
 
@@ -3475,7 +3475,7 @@ Installation Note
 : I choose the “Default” option when installing this mod.
 
 Leilukin’s Comment
-: Although this was not the first [mod that allows female Exiles to recruit Handmaiden and male Exiles to recruit Disciple](/shrines/starwarskotor/resources/kotor2-female-exile-recruit-handmaiden-mods/), this was the first mod that allows you to recruit *both* Handmaiden *and* Disciple in the same playthrough regardless of the Exile’s gender. Given the fact that official materials of {% cite "Star Wars Legends" %} after the release of {% cite "KotOR 2" %} established that the Exile is female and light side, and she travels with both Handmaiden and Disciple, PartySwap is one of the best things that ever happened to {% cite "KotOR 2" %}.
+: Although this was not the first [mod that allows female Exiles to recruit Handmaiden and male Exiles to recruit Disciple](/shrines/starwarskotor/resources/kotor2-female-exile-recruit-handmaiden-mods/), this was the first mod that allows you to recruit *both* Handmaiden *and* Disciple in the same playthrough regardless of the Exile’s gender. Given the fact that official materials of {{ cite "Star Wars Legends" }} after the release of {{ cite "KotOR 2" }} established that the Exile is female and light side, and she travels with both Handmaiden and Disciple, PartySwap is one of the best things that ever happened to {{ cite "KotOR 2" }}.
 
 ---
 
@@ -3757,7 +3757,7 @@ Installation Note
 : I install the “Orange and Black” version.
 
 Note
-: This mod was created for {% cite "KotOR 1" %}, but it work with {% cite "KotOR 2" %} as well.
+: This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
 
 ---
 
@@ -3801,16 +3801,16 @@ Leilukin’s Comment
 : I’ve always hated how skimpy the vanilla dancer outfit is, like how much I hate the vanilla dancer model. With this mod and the dancer model fix from Player & Party Underwear make the “dancing for Vogga” sequence more bearable.
 
 ---
-{% /container %}
+{{ /container }}
 
-{% container "article", "content__section" %}
+{{ container "article", "content__section" }}
 ## Final Note
 
 In addition to the mods above, I also use some reskins of my character that were for personal use only.
 
-Since I play {% cite "KotOR 2" %} with the Aspyr patch, so the game can run smoothly on my PC, I also install [ShaderOverride](https://github.com/HappyFunTimes01/ShaderOverride) to fix the fog issue with the Aspyr patch. You can find a step-by-step instruction in [a KotOR subreddit comment](https://www.reddit.com/r/kotor/comments/67578l/comment/dgp1r6w/):
+Since I play {{ cite "KotOR 2" }} with the Aspyr patch, so the game can run smoothly on my PC, I also install [ShaderOverride](https://github.com/HappyFunTimes01/ShaderOverride) to fix the fog issue with the Aspyr patch. You can find a step-by-step instruction in [a KotOR subreddit comment](https://www.reddit.com/r/kotor/comments/67578l/comment/dgp1r6w/):
 
-1. [Download this `opengl32.dll` file](https://github.com/HappyFunTimes01/ShaderOverride/blob/master/Release/opengl32.dll) and put it into your {% cite "KotOR 2" %} root folder.
+1. [Download this `opengl32.dll` file](https://github.com/HappyFunTimes01/ShaderOverride/blob/master/Release/opengl32.dll) and put it into your {{ cite "KotOR 2" }} root folder.
 2. Start the game.
 3. You should now have two folders called `shaders_original` and `shadow_override` in your KOTOR folder.
 4. Go into the `shaders_original` folder and open the first file with a program like Notepad++.
@@ -3819,4 +3819,4 @@ Since I play {% cite "KotOR 2" %} with the Aspyr patch, so the game can run smoo
 7. Repeat this step for every text file in the folder that has the MOV result.color, r0 line. That can take some time and there might be ways to automate the process but explaining it might take so long that you're probably just better off doing the whole thing manually.
 8. After you pasted this into every file that has the MOV result.color, r0 line near the end, copy all text files into the shader\_override folder.
 9. Launch the game, the fog should now be fixed.
-{% /container %}
+{{ /container }}

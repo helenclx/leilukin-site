@@ -8,24 +8,24 @@ isContentDivided: true
 toc: true
 ---
 
-{% container "article", "content__section" %}
-Welcome to Leilukin’s {% cite "Star Wars: Knights of the Old Republic" %} Mod Build!
+{{ container "article", "content__section" }}
+Welcome to Leilukin’s {{ cite "Star Wars: Knights of the Old Republic" }} Mod Build!
 
-Here I am compiling a list of all the modifications, or mods in short, that I use for {% cite "Star Wars: Knights of the Old Republic" %} ({% cite "KotOR" %}), the single-player role-playing video game set in the {% cite "Star Wars" %} universe video game developed by BioWare, for the best experience with the game. This document is made for my reference and to share with others.
+Here I am compiling a list of all the modifications, or mods in short, that I use for {{ cite "Star Wars: Knights of the Old Republic" }} ({{ cite "KotOR" }}), the single-player role-playing video game set in the {{ cite "Star Wars" }} universe video game developed by BioWare, for the best experience with the game. This document is made for my reference and to share with others.
 
-In order to prevent mod conflicts as much as possible, installation order matters a lot if you are using many mods for the {% cite "KotOR" %} games. Therefore, the full list of my mod build below has been arranged in the proper installation order to make these mods compatible. If you are interested in following my mod build, you should install the mods in the order you are presented with them. Also, when you install the mods according to my build, overwrite any files when prompted.
+In order to prevent mod conflicts as much as possible, installation order matters a lot if you are using many mods for the {{ cite "KotOR" }} games. Therefore, the full list of my mod build below has been arranged in the proper installation order to make these mods compatible. If you are interested in following my mod build, you should install the mods in the order you are presented with them. Also, when you install the mods according to my build, overwrite any files when prompted.
 
-I usually play {% cite "KotOR 1" %} on GOG, though I also own the Steam version of {% cite "KotOR 1" %}.
+I usually play {{ cite "KotOR 1" }} on GOG, though I also own the Steam version of {{ cite "KotOR 1" }}.
 
 The format of this mod list is inspired by [KOTOR Community Portal's mod lists](https://kotor.neocities.org/modding/).
 
 (This mod list was last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time>)
-{% /container  %}
+{{ /container  }}
 
-{% container "article", "content__section" %}
+{{ container "article", "content__section" }}
 ## KotOR 1 Restoration Compatibility
 
-IMPORTANT NOTE: My {% cite "KotOR 1" %} mod build is not compatible with the KotOR 1 Restoration (K1R) mod.
+IMPORTANT NOTE: My {{ cite "KotOR 1" }} mod build is not compatible with the KotOR 1 Restoration (K1R) mod.
 
 I have no plans on including K1R in my mod build because:
 
@@ -34,18 +34,18 @@ I have no plans on including K1R in my mod build because:
 * I have read the [list of content restored by K1R](https://deadlystream.com/topic/3075-whats-restored-in-k1r/), and in my opinion some of those content were cut for good reasons.
 * The mod has not been updated since 2017, and most of the K1R’s development team, including the project leader, has disappeared from the KotOR modding scene, so do not expect updates any time soon.
 * Some of the mods that I consider essential to my KotOR 1 playthrough are not compatible with K1R.
-{% /container  %}
+{{ /container  }}
 
-{% include "starwarskotor/modlist-info.md" %}
+{{ include "partials/kotor-modlist.md" }}
 
-{% container "article", "content__section" %}
-## {% cite "Star Wars: Knights of the Old Republic" %} Mod Build - Full List
+{{ container "article", "content__section" }}
+## {{ cite "Star Wars: Knights of the Old Republic" }} Mod Build - Full List
 
 ### Mod Tools
 
-* [UniWS](https://www.wsgf.org/article/star-wars-knights-old-republic) — The widescreen patch for {% cite "KotOR" %}. [Here is a YouTube video tutorial](https://www.youtube.com/watch?v=9SKMzwKE34E) on how to use it.
+* [UniWS](https://www.wsgf.org/article/star-wars-knights-old-republic) — The widescreen patch for {{ cite "KotOR" }}. [Here is a YouTube video tutorial](https://www.youtube.com/watch?v=9SKMzwKE34E) on how to use it.
 * [Quicker TSLPatching](https://www.nexusmods.com/kotor/mods/1214) by xypherh — Makes it easier to install mods that use the TSLPatcher.
-* [KOTORModSync](https://deadlystream.com/files/file/2317-kotormodsync/) by th3w1zard1 — A multi-mod installer for the {% cite "KotOR" %} games.
+* [KOTORModSync](https://deadlystream.com/files/file/2317-kotormodsync/) by th3w1zard1 — A multi-mod installer for the {{ cite "KotOR" }} games.
 
 ---
 
@@ -64,7 +64,7 @@ Tier
 : Tier 1 - Essential
 
 Download Note
-: I choose the 60 FPS 1920x1080 version. Note that while this is the best {% cite "KotOR" %} movie cutscene mod for to date, this mod has a *huge* file size (at least 15 GB), so if you have poor Internet connection or limited drive space, it would be a better idea to use Naelavok's version of remastered cutscenes below instead.
+: I choose the 60 FPS 1920x1080 version. Note that while this is the best {{ cite "KotOR" }} movie cutscene mod for to date, this mod has a *huge* file size (at least 15 GB), so if you have poor Internet connection or limited drive space, it would be a better idea to use Naelavok's version of remastered cutscenes below instead.
 
 ---
 
@@ -386,7 +386,7 @@ Installation Note
 : The patch is required to avoid the issue of missing the feats to equip weapons and basic light armour if using auto level-up.
 
 Leilukin’s Comment
-: Just the fact that this mod makes Persuade a class skill for the player character of any class is already enough to make this mod essential to me. As a {% cite "KotOR" %} player who is more interested in role-playing than min-maxing, a mod that allows greater flexibility for character customization is very welcome.
+: Just the fact that this mod makes Persuade a class skill for the player character of any class is already enough to make this mod essential to me. As a {{ cite "KotOR" }} player who is more interested in role-playing than min-maxing, a mod that allows greater flexibility for character customization is very welcome.
 
 ---
 
@@ -421,7 +421,7 @@ Tier
 : Tier 1 - Essential
 
 Leilukin’s Comment
-: I have always preferred the Ebon Hawk camera angle in {% cite "KotOR 2" %}, and disliked the vanilla {% cite "KotOR 1" %} version as the camera is too close to the player character, making it rather difficult to see the surroundings of the Ebon Hawk because of how much the player character takes up the screen, so I consider this mod essential.
+: I have always preferred the Ebon Hawk camera angle in {{ cite "KotOR 2" }}, and disliked the vanilla {{ cite "KotOR 1" }} version as the camera is too close to the player character, making it rather difficult to see the surroundings of the Ebon Hawk because of how much the player character takes up the screen, so I consider this mod essential.
 
 ---
 
@@ -472,7 +472,7 @@ Tier
 : Tier 1 - Essential
 
 Leilukin’s Comment
-: I am not a huge fan of swoop racing, and in particular I find the Manaan swoop races frustratingly difficult, but I still want to complete all side quests in the {% cite "KotOR" %} games for the rewards, so I consider this mod essential.
+: I am not a huge fan of swoop racing, and in particular I find the Manaan swoop races frustratingly difficult, but I still want to complete all side quests in the {{ cite "KotOR" }} games for the rewards, so I consider this mod essential.
 
 ---
 
@@ -4149,7 +4149,7 @@ Installation Note
 : In addition to the standard installation, I also install the options for SithSpecter's High Quality Blasters and Colored Loadscreens.
 
 Leilukin’s Comment
-: In my opinion, this is one of the best content mods ever made for either KotOR game. This mod provides an immersive experience to explore Revan's story that is lore-friendly to both {% cite "KotOR 2" %} and {% cite "Star Wars: The Old Republic" %}. The story, writing and voice acting of this mod are very well-done.
+: In my opinion, this is one of the best content mods ever made for either KotOR game. This mod provides an immersive experience to explore Revan's story that is lore-friendly to both {{ cite "KotOR 2" }} and {{ cite "Star Wars: The Old Republic" }}. The story, writing and voice acting of this mod are very well-done.
 
 ---
 
@@ -4278,13 +4278,13 @@ Tier
 : Tier 1 - Essential
 
 Description
-: This is a program which modifies your game's executable file to be able to utilize up to 4 gigabytes of RAM, since {% cite "KotOR" %} is a 32-bit application and by default can only utilize 2 gigabytes. This will help the game run smoothly even with the larger texture throughout this mod build creates, and also reduces issues caused by a memory leak which is native to the game, preventing crashes and savegame corruption.
+: This is a program which modifies your game's executable file to be able to utilize up to 4 gigabytes of RAM, since {{ cite "KotOR" }} is a 32-bit application and by default can only utilize 2 gigabytes. This will help the game run smoothly even with the larger texture throughout this mod build creates, and also reduces issues caused by a memory leak which is native to the game, preventing crashes and savegame corruption.
 
 ---
-{% /container %}
+{{ /container }}
 
-{% container "article", "content__section" %}
+{{ container "article", "content__section" }}
 ## Final Note
 
 In addition to the mods above, I also use some face and Jedi robe reskins of my player character that were for personal use only.
-{% /container %}
+{{ /container }}

@@ -17,7 +17,7 @@ BellaBuffs includes the optional features to email new members after submitting 
 
 This fork replaces the PHP `mail()` functions from BellaBuffs with PHPMailer, allowing a fanlisting to send out emails with SMTP, provided the fanlisting owner chooses to enable them, even if the hosting server does not support the PHP `mail()` function.
 
-I created this BellaBuffs fork when I was building the [{% cite "Cassette Beasts" %} fanlisting](https://fan.leilukin.com/cassettebeasts) with BellaBuffs and hosting the fanlisting on [InfinityFree](https://www.infinityfree.com/). I learned that InfinityFree's free hosting plan [does not support PHP `mail()` function](https://forum.infinityfree.com/t/sending-email-from-your-website-php-mail/49242), so incorporating PHPMailer was the solution to allow the {% cite "Cassette Beasts" %} fanlisting to send emails.
+I created this BellaBuffs fork when I was building the [{{ cite "Cassette Beasts" }} fanlisting](https://fan.leilukin.com/cassettebeasts) with BellaBuffs and hosting the fanlisting on [InfinityFree](https://www.infinityfree.com/). I learned that InfinityFree's free hosting plan [does not support PHP `mail()` function](https://forum.infinityfree.com/t/sending-email-from-your-website-php-mail/49242), so incorporating PHPMailer was the solution to allow the {{ cite "Cassette Beasts" }} fanlisting to send emails.
 
 More information about my BellaBuffs fork and instructions for how to use it can be found on [its GitHub repository](https://github.com/helenclx/BellaBuffs-PHPMailer) and [its Gitea repository mirror](https://git.32bit.cafe/Leilukin/BellaBuffs-PHPMailer).
 

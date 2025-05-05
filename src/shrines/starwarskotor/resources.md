@@ -14,8 +14,8 @@ eleventyNavigation:
 
 ## My Mods
 Here are the modifications for the KotOR series I have created.
-* [{% cite "Star Wars: Knights of the Old Republic" %}](/projects/videogamemods/kotor1/)
-* [{% cite "Star Wars: Knights of the Old Republic II: The Sith Lords" %}](/projects/videogamemods/kotor2/)
+* [{{ cite "Star Wars: Knights of the Old Republic" }}](/projects/videogamemods/kotor1/)
+* [{{ cite "Star Wars: Knights of the Old Republic II: The Sith Lords" }}](/projects/videogamemods/kotor2/)
 
 ## My Modder's Resource
 * [Missing K1 Party Member Ports for TSL](https://deadlystream.com/files/file/2249-missing-k1-party-member-ports-for-tsl-modders-resource/)
@@ -25,8 +25,8 @@ Here are the modifications for the KotOR series I have created.
 * [KotOR 2 Light Side Female Saves with The Sith Lords Restored Content Mod and PartySwap](https://deadlystream.com/files/file/2213-kotor-2-light-side-female-saves-with-tslrcm-and-partyswap/)
 
 ## My Mod Lists
-* [List of Same-Gender Romance Mods for the {% cite "KotOR" %} Series](./kotor-same-gender-romance-mods)
-* [List of {% cite "KotOR 2" %} Mods that Allow Female Exiles to Recruit the Handmaiden as a Party Member](./kotor2-female-exile-recruit-handmaiden-mods)
+* [List of Same-Gender Romance Mods for the {{ cite "KotOR" }} Series](./kotor-same-gender-romance-mods)
+* [List of {{ cite "KotOR 2" }} Mods that Allow Female Exiles to Recruit the Handmaiden as a Party Member](./kotor2-female-exile-recruit-handmaiden-mods)
 
 ## References
 * [The Sith Lords Restored Content Mod + M4-78 Enhancement Project Modules, Warp Codes & Music Overview](./tslrcm-m478ep-modules-music)

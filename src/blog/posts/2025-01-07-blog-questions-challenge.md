@@ -10,7 +10,7 @@ I was tagged by [~hedy](https://home.hedy.dev/) for a [blog questions challenge]
 
 ## Why did you start blogging in the first place?
 
-I learned about the concept of blogs for the first time when I was a secondary school student in the later half of the 2000s. I was introduced to blogs by a Malaysian Chinese secondary school magazine named {% cite "Xuehai Weekly" %} ([《学海周刊》]{lang=zh}).
+I learned about the concept of blogs for the first time when I was a secondary school student in the later half of the 2000s. I was introduced to blogs by a Malaysian Chinese secondary school magazine named {{ cite "Xuehai Weekly" }} ([《学海周刊》]{lang=zh}).
 
 As an undiagnosed autistic kid who was more comfortable communicating and expressing themself through writing, and had been keeping a journal, I was fascinated by the concept of a personal journal on the internet. Therefore, after trying it out, blogging immediately became one of my main hobbies, and I enjoyed browsing and reading other people's blogs as well. I loved blogs for allowing ordinary people to write and publish their writing to express themselves outside traditional publishing channels.
 

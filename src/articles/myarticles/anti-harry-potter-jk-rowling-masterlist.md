@@ -7,19 +7,19 @@ categories: ["harry potter", "jk rowling"]
 toc: true
 ---
 
-{% imgFigure "/assets/banners/harry-potter-free-site.png", "An anime girl crossing arms with a sidelong look and a Harry Potter-free message" %}
+{{ imgFigure "/assets/banners/harry-potter-free-site.png", "An anime girl crossing arms with a sidelong look and a Harry Potter-free message" }}
 This site is Harry Potter free. Lookin [<i>sic</i>] for it? Leave.
-{% endimgFigure %}
+{{ endimgFigure }}
 
 (Credit to Tumblr user [comradesaucegay](https://comradesaucegay.tumblr.com/post/621403039459426304) ([archived](https://web.archive.org/web/20241122135107/https://comradesaucegay.tumblr.com/post/621403039459426304/grumpsaesthetics-you-know-those-old-hentai-free)) for this Harry Potter-free website banner){.center-text}
 
-Like many Millennials, I grew up with the {% cite "Harry Potter" %} series and was a major fan of the series. I had read the original 7 books and watched their film adaptations. The series was a passion of mine during my early- to mid-teen years. While the {% cite "Harry Potter" %} novels were far from the first books I read, they were the first fantasy novels I read, and the series’ concept of a magical world set in a contemporary setting fascinated teenage me.
+Like many Millennials, I grew up with the {{ cite "Harry Potter" }} series and was a major fan of the series. I had read the original 7 books and watched their film adaptations. The series was a passion of mine during my early- to mid-teen years. While the {{ cite "Harry Potter" }} novels were far from the first books I read, they were the first fantasy novels I read, and the series’ concept of a magical world set in a contemporary setting fascinated teenage me.
 
-However, even during my {% cite "Harry Potter" %} fixation years, there were things from the series that bothered me, from the idea of house elves being a slave race that naturally love being slaves, to Snape’s unconvincing “redemption” arc. As I got older and became more aware of social issues, I started to notice more problems with the series. In addition, reading more books has also made me realise that even on a technical writing level, the {% cite "Harry Potter" %} series was mediocre at best. As a result, I had stopped becoming a {% cite "Harry Potter" %} fan even before J. K. Rowling’s anti-trans sentiments got mainstream attention.
+However, even during my {{ cite "Harry Potter" }} fixation years, there were things from the series that bothered me, from the idea of house elves being a slave race that naturally love being slaves, to Snape’s unconvincing “redemption” arc. As I got older and became more aware of social issues, I started to notice more problems with the series. In addition, reading more books has also made me realise that even on a technical writing level, the {{ cite "Harry Potter" }} series was mediocre at best. As a result, I had stopped becoming a {{ cite "Harry Potter" }} fan even before J. K. Rowling’s anti-trans sentiments got mainstream attention.
 
-Unfortunately, many adults with nostalgia goggles still refuse to let go of {% cite "Harry Potter" %}, and they believe {% cite "Harry Potter" %} can be separated or “reclaimed” by J. K. Rowling, despite how much Rowling’s worldview and prejudice are inextricably linked to her writing.
+Unfortunately, many adults with nostalgia goggles still refuse to let go of {{ cite "Harry Potter" }}, and they believe {{ cite "Harry Potter" }} can be separated or “reclaimed” by J. K. Rowling, despite how much Rowling’s worldview and prejudice are inextricably linked to her writing.
 
-Therefore, I am compiling this masterlist by curating various materials that are critical of the {% cite "Harry Potter" %} series and J. K. Rowling. Items are ordered in chronological order. This is far from a comprehensive list of all the pieces that criticise {% cite "Harry Potter" %} and Rowling; this list is my curated list of ones that I have read, watched or listened to, and I personally endorse.
+Therefore, I am compiling this masterlist by curating various materials that are critical of the {{ cite "Harry Potter" }} series and J. K. Rowling. Items are ordered in chronological order. This is far from a comprehensive list of all the pieces that criticise {{ cite "Harry Potter" }} and Rowling; this list is my curated list of ones that I have read, watched or listened to, and I personally endorse.
 
 ## Articles
 
@@ -55,4 +55,4 @@ Therefore, I am compiling this masterlist by curating various materials that are
 
 * [The Shrieking Shack](https://soundcloud.com/shriekingshack), hosted by Xeecee and Liz
 
-    A book reading podcast that originally started out as a {% cite "Harry Potter" %} reread podcast made by and for lapsed fans that goes through every chapter of the {% cite "Harry Potter" %} books and their film adaptations and analyses the writing and politics of the series and J. K. Rowling.{.item-list__indent}
+    A book reading podcast that originally started out as a {{ cite "Harry Potter" }} reread podcast made by and for lapsed fans that goes through every chapter of the {{ cite "Harry Potter" }} books and their film adaptations and analyses the writing and politics of the series and J. K. Rowling.{.item-list__indent}

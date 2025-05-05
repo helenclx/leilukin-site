@@ -9,7 +9,7 @@ toc: true
 
 ## Introduction
 
-In {% cite "Star Wars: Knights of the Old Republic" %}, towards the end of the game you will be provided the opportunity to determine which ending you will get, and there will be consequences of your choice there.
+In {{ cite "Star Wars: Knights of the Old Republic" }}, towards the end of the game you will be provided the opportunity to determine which ending you will get, and there will be consequences of your choice there.
 
 Specifically, on the Rakatan temple summit at the Unknown World, you will meet Basila, who at that point has fallen to the dark side. After some dialogue and you fought Bastila, Bastila will suggest you to reclaim the title of the Dark Lord of the Sith and rule the galaxy. If you choose to agree with Bastila's suggestion, you will get the dark side ending, with a lot of dark side points. However, if you choose to reject Bastila's suggestion, you will get the light side ending, with a lot of light side points.
 
@@ -27,7 +27,7 @@ In general, to successfully convince Bastila to return to the light side, you ne
 
 In the final part of Bastila's dialogue, when Bastila says she is beyond saving, do not agree with her because it will make you kill her.
 
-There will be \[Persuade\] options in the final part of Bastila's dialogue. While it is possible to save Bastila without choosing the \[Persuade\] options as long as you choose the right dialogue options, if you invest skill points in Persuade and pass the Persuade check, it would also be easier to save Bastila. If you want to learn more about the Persuade mechanic in KotOR, you can check out [StretegyWiki's page about Skills in {% cite "KotOR" %}](https://strategywiki.org/wiki/Star_Wars:_Knights_of_the_Old_Republic/Skills#Persuade).
+There will be \[Persuade\] options in the final part of Bastila's dialogue. While it is possible to save Bastila without choosing the \[Persuade\] options as long as you choose the right dialogue options, if you invest skill points in Persuade and pass the Persuade check, it would also be easier to save Bastila. If you want to learn more about the Persuade mechanic in KotOR, you can check out [StretegyWiki's page about Skills in {{ cite "KotOR" }}](https://strategywiki.org/wiki/Star_Wars:_Knights_of_the_Old_Republic/Skills#Persuade).
 
 An active romance with Bastila will make it easier to save Bastila. Although in vanilla KotOR, only a male player character can romance Bastila, this mechanic also works for a female PC who romances Bastila with mods like [JC's Romance Enhancement: Biromantic Bastila](https://deadlystream.com/files/file/1548-jcs-romance-enhancement-biromantic-bastila-for-k1/). That said, it is still possible to redeem Bastila even if you do not romance her.
 

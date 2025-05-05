@@ -18,7 +18,7 @@ eleventyNavigation:
 {{ articleList("kotor guides") }}
 
 ## KotOR 1 Guides by Others
-* [{% cite "Star Wars: Knights of the Old Republic" %} section](https://strategywiki.org/wiki/Star_Wars:_Knights_of_the_Old_Republic) on StrategyWiki
+* [{{ cite "Star Wars: Knights of the Old Republic" }} section](https://strategywiki.org/wiki/Star_Wars:_Knights_of_the_Old_Republic) on StrategyWiki
 
 ## KotOR 2: TSL Guides by Others
 * [Influence Walkthrough](https://web.archive.org/web/20190104130924/www.starwarsknights.com/influence.php) by by Achilles
