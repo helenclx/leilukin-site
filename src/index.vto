@@ -51,7 +51,7 @@ eleventyComputed:
 <section class="content__section">
     <h2>What is New?</h2>
     <div class="text-box">
-        {{ for log of collections["changelogs"] |> toReversed |> slice(0, 1) }}
+        {{ for log of collections["changelogs"] |> toReversed |> itemLimit(1) }}
         <h3>{{ log.data.title }}</h3>
         {{ log.content }}
         {{ /for }}
