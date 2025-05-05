@@ -1,5 +1,4 @@
 export default {
-    layout: "layouts/base",
     tags: ["posts", "contents", "feed items"],
     isArticle: true,
     eleventyComputed: {
