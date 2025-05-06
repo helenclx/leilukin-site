@@ -19,7 +19,7 @@ I own {{ cite "KotOR 2" }} on both Steam and GOG. I play the Steam version of {{
 
 The format of this mod list is inspired by [KOTOR Community Portal's mod lists](https://kotor.neocities.org/modding/).
 
-(This mod list was last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time>)
+(This mod list was last updated on <time datetime="{{ updated }}">{{ updated |> formatDate }}</time>)
 {{ /container  }}
 
 {{ container "article", "content__section" }}

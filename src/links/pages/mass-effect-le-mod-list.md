@@ -15,7 +15,7 @@ Here I’m compiling a list of all the modifications, or mods in short, that I u
 
 The format of this mod list is inspired by [KOTOR Community Portal's mod lists](https://kotor.neocities.org/modding/).
 
-(This mod list was last updated on <time datetime="{{ updated }}">{{ updated | formatDate }}</time>)
+(This mod list was last updated on <time datetime="{{ updated }}">{{ updated |> formatDate }}</time>)
 {{ /container  }}
 
 {{ container "article", "content__section" }}
