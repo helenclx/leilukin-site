@@ -36,8 +36,8 @@
         {{ /if }}
 
         <title>
-            {{- title ? title + " | " : "" -}}
-            {{- sectionName ? sectionName + " | " : "" -}}
+            {{- title ? `${title} | ` : '' -}}
+            {{- sectionName ? `${sectionName} | ` : '' -}}
             {{- sitemeta.siteName -}}
         </title>
     </head>
