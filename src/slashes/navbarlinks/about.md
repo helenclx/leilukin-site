@@ -43,6 +43,13 @@ More information about this site can be found on the following pages:
 [Image description: Digital illustration of a bee wearing red glasses with an oval-shaped body and wings on a light green background. Leilukin's signature is at the bottom right of the bee. Description ends]
 {{ /imgFigure }}
 
+{{- css }}
+.avatar img {
+    border-radius: 50%;
+    width: 15rem;
+    margin: 0.5em auto;
+}
+{{ /css }}
 
 You can call me {{ sitemeta.siteAuthor.name }}. I am a Malaysian Chinese, queer, non-binary lesbian on the asexual and aromantic spectrum born in the early 90s. My pronouns are they/them and she/her in English, [他]{lang="zh"} and [她]{lang="zh"} in Chinese. I am a web deevloper with 8 years of experience in the graphic design field.
 
@@ -71,11 +78,3 @@ Other online platforms you can find me on:
 
 {{ include "components/support-me.vto" }}
 {{ /container }}
-
-{{- css }}
-.avatar img {
-    border-radius: 50%;
-    width: 15rem;
-    margin: 0.5em auto;
-}
-{{ endcss }}

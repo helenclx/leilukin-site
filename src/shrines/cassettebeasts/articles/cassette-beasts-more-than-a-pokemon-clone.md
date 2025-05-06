@@ -98,7 +98,7 @@ While {{ cite "Pokémon" }} has its own fair share of sinister villains, the thr
 Moreover, even though the player character and their party are able to defeat the main villain in the end, the game makes it clear that since Archangels are not flesh and blood and born from human ideas, as long as humans are interested in conquest Aleph will return at some point. This reflects our world in that defeating a tyrant does not magically solve everything, especially when the system that enables tyrants' rise to power still exists.
 
 In a similar vein, even after the player character defeats Archangel Mammon, an incarnation of capitalism, which results in one of the Landkeepers — Mammon's underlings — getting the chance to be rehabilitated and starting a new life freed from Mammon's control, said former Landkeeper's quest in the post-game reveals that the other Landkeepers do not reform even after Mammon's defeat, and the remaining Landkeepers continue to be staunch capitalists.
-{{ enddisclosure }}
+{{ /disclosure }}
 
 ## Features {{ cite "Cassette Beasts" }} Has But {{ cite "Pokémon" }} Lacks
 

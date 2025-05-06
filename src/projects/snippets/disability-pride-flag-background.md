@@ -19,7 +19,7 @@ Since Ann Magill released the Disability Pride flag to the public domain under [
 {{ set demoHeight = "23rem" }}
 {{- css }}
 .flag-disability.demo { height: {{ demoHeight }}; }
-{{ endcss }}
+{{ /css }}
 
 <div class="flag-disability demo" role="img" aria-label="Demo of the Disability Pride flag coded in CSS"></div>
 
