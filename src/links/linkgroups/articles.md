@@ -1,7 +1,7 @@
 ---
 title: Articles
 date: 2024-07-03
-updated: 2025-03-26T09:32:17+0800
+updated: 2025-05-07T17:12:05+0800
 toc: true
 ---
 
@@ -42,6 +42,10 @@ toc: true
 * [You should have a website](https://nora.zone/manifesto.html) by Nora Reed
 
     Nora Reed's website manifesto has been my go-to recommendated reading for why you should make your own website rather than relying on social media for your web presence.{.item-list__indent}
+
+* [Moderating Communities is Not a Burden](https://library.xandra.cc/moderation/) by Xandra
+
+    How to prevent your community from becoming a [Nazi bar](https://en.wiktionary.org/wiki/Nazi_bar).
 
 * [In Praise of Links](https://osteophage.neocities.org/writing/in-praise-of-links) by Coyote
 
