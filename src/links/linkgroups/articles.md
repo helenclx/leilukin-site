@@ -45,7 +45,7 @@ toc: true
 
 * [Moderating Communities is Not a Burden](https://library.xandra.cc/moderation/) by Xandra
 
-    How to prevent your community from becoming a [Nazi bar](https://en.wiktionary.org/wiki/Nazi_bar).
+    How to prevent your community from becoming a [Nazi bar](https://en.wiktionary.org/wiki/Nazi_bar).{.item-list__indent}
 
 * [In Praise of Links](https://osteophage.neocities.org/writing/in-praise-of-links) by Coyote
 
@@ -53,7 +53,7 @@ toc: true
 
 * [The one app to read them all already exists, and it’s called RSS](https://journal.jatan.space/why-use-rss/) by Jatan Mehta
 
-    I have been subscribing to RSS feeds since the 2000s to follow website and blog updates, and I encourage more internet users to do the same.
+    I have been subscribing to RSS feeds since the 2000s to follow website and blog updates, and I encourage more internet users to do the same.{.item-list__indent}
 
 * [Nostalgia is Bullshit](https://wings.nu/nostalgia/) by Rin
 
