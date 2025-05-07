@@ -9,4 +9,14 @@ export default function(eleventyConfig) {
         });
         return Array.from(categories).sort();
     });
+
+    // Filter: Filter contents by category
+    eleventyConfig.addFilter("filterByCategory", function(contents, cat) {
+        cat = cat.toLowerCase();
+        let result = contents.filter(item => {
+            let cats = item.data.categories.map(c => c.toLowerCase());
+            return cats.includes(cat);
+        });
+        return result;
+    });
 }
