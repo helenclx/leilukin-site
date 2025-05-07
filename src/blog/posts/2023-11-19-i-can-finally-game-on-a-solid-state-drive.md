@@ -2,7 +2,7 @@
 articleTitle: I Can Finally Game on a Solid-State Drive
 desc: I just got the solid-state drive (SSD) of my 5-year-old gaming laptop replaced with a new onw with a larger storage capacity.
 date: 2023-11-19
-categories: ["life updates"]
+topics: ["life updates"]
 ---
 
 The laptop I am using for doing everything on desktop — including coding and managing this very website and blog — is the first gaming laptop I ever had. I bought this laptop in 2018, meaning I have used it for 5 years by the time of this writing.

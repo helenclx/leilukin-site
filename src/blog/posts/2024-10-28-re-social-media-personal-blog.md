@@ -2,7 +2,7 @@
 articleTitle: "Re: Social Media Hasn't Killed the Personal Blog Just Yet"
 desc: My reflection on the question of if social media killed personal blogs, inspired by Jim Mitchell's blog post.
 date: 2024-10-28T17:16:14+0800
-categories: ["blogging", "social media"]
+topics: ["blogging", "social media"]
 ---
 
 [Jim Mitchell](https://jimmitchell.org/) wrote a blog post, ["Social Media Hasn't Killed the Personal Blog Just Yet"](https://jimmitchell.org/2024/09/21/social-media-hasnt.html), discussing the decline of personal blogs after social media took off, and the question of if social media killed personal blogs, and if personal blogging can make a comeback. This post caught me by surprise when I discovered it, because recently I have been reflecting on my blogging history, and how social media changed that, with my thoughts ended up being incredibly similar to Jim's.

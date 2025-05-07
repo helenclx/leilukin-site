@@ -2,7 +2,7 @@
 articleTitle: First Week of 42's Piscine Bootcamp
 desc: My first week attending 42 the computer science school's 26-day bootcamp named Piscine.
 date: 2025-04-13T07:53:37+0800
-categories: ["life updates", "42 the school"]
+topics: ["life updates", "42 the school"]
 ---
 
 On 7 April 2025, my attendance to [42 the computer science school](2025-01-19-attending-42-school.md)'s 26-day bootcamp named Piscine has finally begun. I have been looking forward to this day for nearly three months, after visiting my local campus of the school on its open day in January, applying to join the Piscine that was originally scheduled on February 24 but was later replaced by a 5-day bite-sized version of the bootcamp called [Discovery Piscine](2025-03-06-attended-42-discovery-piscine.md), and applying to join the full Piscine that was scheduled for April 7.

@@ -2,7 +2,7 @@
 articleTitle: Cassette Beasts Fanlisting and My Fanlisting Collective Launched
 desc: Announcing the launch of my fanlisting collective, Cassette Beasts fanlisting and the release of my BellaBuffs fork.
 date: 2024-07-02T00:37:00+0800
-categories: ["cassette beasts", "site updates", "code projects"]
+topics: ["cassette beasts", "site updates", "code projects"]
 ---
 
 I am incredibly excited to announce the official launch of [Land of Confusion](https://fan.leilukin.com/cassettebeasts), [The Fanlistings Network](https://thefanlistings.org/)-approved fanlisting for {{ cite "Cassette Beasts" }}, and [Beehive](https://fan.leilukin.com), my fanlisting collective! 🥳

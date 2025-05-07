@@ -3,7 +3,7 @@ articleTitle: How I (Tried to) Implement Accessible Footnotes
 date: 2024-08-06T00:04:00+0800
 updated: 2024-12-03T23:51:27+0800
 desc: "How I implement accessible footnotes, at least to the best of my ability. Written for 32-Bit Cafe's Community Code Jam #5."
-categories: ["32-bit cafe", "accessibility", "html", "css", "eleventy", "markdown-it"]
+topics: ["32-bit cafe", "accessibility", "html", "css", "eleventy", "markdown-it"]
 toc: true
 hasCodeBlock: true
 ---

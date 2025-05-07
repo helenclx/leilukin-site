@@ -2,7 +2,7 @@
 articleTitle: Purelymail and Online Account Spring Cleaning
 desc: I started to use Purelymail as my email provider, and took the opportunity to clean up my online accounts.
 date: 2025-03-21T22:05:14+0800
-categories: ["emails", "online life"]
+topics: ["emails", "online life"]
 ---
 
 I have switched to [Purelymail](https://purelymail.com/) as my main email service provider.

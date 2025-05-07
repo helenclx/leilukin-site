@@ -2,7 +2,7 @@
 articleTitle: My Cassette Beasts Pombomb Plushie Arrived!
 desc: The official Cassette Beasts Pombomb plushie I purchased finally arrived.
 date: 2023-10-13
-categories: ["cassette beasts"]
+topics: ["cassette beasts"]
 ---
 
 YAAAYYYYYYYY! I finally received my Pombomb plushie on 11 October 2023!

@@ -2,7 +2,7 @@
 articleTitle: Leilukin's Stardew Valley Mod Build
 desc: A list of Stardew Valley mods I use.
 tags: ["contents", "mod lists"]
-categories: ["stardew valley", "video game mods"]
+topics: ["stardew valley", "video game mods"]
 updated: 2025-04-18T06:30:06+0800
 isContentDivided: true
 toc: true

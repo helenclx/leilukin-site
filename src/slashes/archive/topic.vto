@@ -1,0 +1,19 @@
+---
+pagination:
+    data: collections.topics
+    size: 1
+    alias: topic
+permalink: /topics/{{ topic |> slugify }}/
+eleventyExcludeFromCollections: true
+eleventyComputed:
+    title: 'Content Topic: "{{ topic }}"'
+    desc: All contents under the "{{ topic }}" topic on {{ sitemeta.siteName }}.
+---
+
+{{ set contentCount = collections.contents |> filterByTopic(topic) |> itemCount }}
+<h2>{{ contentCount }} Contents Filed Under "{{ topic }}"</h2>
+
+{{ set contentList = collections.contents |> filterByTopic(topic) |> toReversed }}
+{{ include "partials/archive.vto" }}
+
+<p>See <a href="topics.vto">all content topics</a>.</p>

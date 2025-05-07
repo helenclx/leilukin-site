@@ -2,7 +2,7 @@
 articleTitle: Happy Lesbian Visibility Day and 1-Year Anniversary of Cassette Beasts
 desc: Celebrating both Lesbian Visibility Day and the 1st year anniversary of Cassette Beasts' release on 26 April 2024.
 date: 2024-04-27T14:06:00+0800
-categories: ["lesbian", "cassette beasts"]
+topics: ["lesbian", "cassette beasts"]
 ---
 
 26 April 2024 was a day of celebration for me, as it was both Lesbian Visibility Day and the [first anniversary of the release of {{ cite "Cassette Beasts" }}](https://store.steampowered.com/news/app/1321440/view/4179979397366287532), my all-time favourite video game.

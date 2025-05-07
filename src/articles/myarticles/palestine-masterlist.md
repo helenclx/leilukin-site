@@ -3,7 +3,7 @@ articleTitle: Palestine Masterlist
 date: 2024-06-19T22:19:00+0800
 updated: 2024-12-11T23:46:44+0800
 desc: My masterlist of resources related to Palestine.
-categories: ["palestine"]
+topics: ["palestine"]
 toc: true
 ---
 

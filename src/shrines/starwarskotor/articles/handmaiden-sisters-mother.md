@@ -3,7 +3,7 @@ articleTitle: Where is the Mother of the Handmaiden's Sisters?
 date: 2020-02-19
 desc: "The mother of the Handmaiden Sister is a mystery in Star Wars: Knights of the Old Republic II: The Sith Lords that the game strangely never explores, despite how important family is to the Handmaiden's story."
 tags: kotor 2 articles
-categories: ["star wars kotor 2"]
+topics: ["star wars kotor 2"]
 ---
 
 (Note: This article was originally published on Tumblr)

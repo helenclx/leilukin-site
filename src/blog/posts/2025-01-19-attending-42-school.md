@@ -3,7 +3,7 @@ articleTitle: Attending 42 the Computer Science School
 desc: I have applied to attend one of the Malaysian campuses of 42, an international computer science school.
 date: 2025-01-19T23:14:39+0800
 updated: 2025-02-17T18:08:45+0800
-categories: ["life updates", "42 the school"]
+topics: ["life updates", "42 the school"]
 ---
 
 After failing to pass my probation in my first web developer job and thus having to [leave the job](2024-12-16-leaving-my-first-developer-job.md), I had been considering how to proceed to the next phase of my web development journey. After all, I chose to leave my previous company *because* I intend to keep being a web developer, instead of sacrificing my time in continuing to learn web development to switch my job focus on digital marketing, a field I am less interested in and equipped for, just to keep my previous job that I would likely end up even more miserable in the long run if I chose to stay.

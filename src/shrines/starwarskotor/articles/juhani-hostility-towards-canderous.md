@@ -3,7 +3,7 @@ articleTitle: How to Access Juhani's Conversaion about Canderous without Restora
 date: 2022-10-11
 desc: "If you follow the modding scene of Star Wars: Knights of the Old Republic, you might be aware of a conversation with Juhani where the player asks her why she is hostile towards Canderous. It is a commonly assumed that it is cut content, but the truth is that it is possible to access the conversation without mods, though it is extremely easy to miss."
 tags: kotor 1 articles
-categories: ["star wars kotor"]
+topics: ["star wars kotor"]
 ---
 
 https://www.youtube.com/watch?v=9_SPW-x_a-I

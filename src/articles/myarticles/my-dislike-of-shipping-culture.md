@@ -2,7 +2,7 @@
 articleTitle: My Disinterest in Shipping and Dislike of Shipping Culture
 date: 2023-08-14
 desc: About my lack of interest in shipping and dislike of shipping culture in fandom, and why.
-categories: ["fandom culture"]
+topics: ["fandom culture"]
 ---
 
 *(Note: The original version of this writing was posted on my Tumblr blog on 3 May 2021)*

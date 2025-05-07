@@ -2,7 +2,7 @@
 articleTitle: I Use (Neo)Vim BTW
 desc: I have officially joined the Vim ecosystem and switched to Neovim as my main code editor.
 date: 2025-04-03T20:23:44+0800
-categories: ["vim", "neovim", "42 the school", "vs code"]
+topics: ["vim", "neovim", "42 the school", "vs code"]
 toc: true
 ---
 

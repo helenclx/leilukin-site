@@ -11,7 +11,7 @@ import { VentoPlugin } from 'eleventy-plugin-vento';
 // Custom Configurations
 import markdownItConfig from "./src/_config/markdown-it.js";
 import filesConfig from "./src/_config/files.js";
-import categoriesConfig from "./src/_config/categories.js";
+import topicsConfig from "./src/_config/topics.js";
 import filtersConfig from "./src/_config/filters.js";
 import shortCodesConfig from "./src/_config/shortcodes.js";
 
@@ -41,7 +41,7 @@ export default function(eleventyConfig) {
     // ----- Custom Configurations
     eleventyConfig.addPlugin(markdownItConfig);
     eleventyConfig.addPlugin(filesConfig);
-    eleventyConfig.addPlugin(categoriesConfig);
+    eleventyConfig.addPlugin(topicsConfig);
     eleventyConfig.addPlugin(filtersConfig);
     eleventyConfig.addPlugin(shortCodesConfig);
 

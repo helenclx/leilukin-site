@@ -2,7 +2,7 @@
 articleTitle: My First Smartwatch
 desc: My first time owning a smartwatch.
 date: 2025-02-09T22:58:32+0800
-categories: ["life updates"]
+topics: ["life updates"]
 ---
 
 I just received my first smartwatch: Xiaomi Smart Band 9.

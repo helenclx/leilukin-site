@@ -3,7 +3,7 @@ articleTitle: Custom Domain Name and Hosting Change for Leilukin's Hub
 desc: Leilukin's Hub now has a custom domain name and a new host.
 date: 2024-05-31T21:33:00+0800
 updated: 2024-06-04
-categories: ["site updates"]
+topics: ["site updates"]
 toc: true
 ---
 

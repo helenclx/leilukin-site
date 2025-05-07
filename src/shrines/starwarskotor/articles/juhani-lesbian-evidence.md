@@ -4,7 +4,7 @@ date: 2017-07-15
 updated: 2024-05-10
 desc: "Juhani is a canon lesbian character and she has always been intended as such by the developers of Knights of the Old Republic. Here I am presenting evidence from the game files to prove it."
 tags: kotor 1 articles
-categories: ["star wars kotor"]
+topics: ["star wars kotor"]
 hasCodeBlock: true
 ---
 

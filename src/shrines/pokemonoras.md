@@ -2,7 +2,7 @@
 layout: layouts/pokemonoras
 pageTitle: Pokémon Omega Ruby and Alpha Sapphire Shrine
 tags: ["shrine home", "contents"]
-categories: ["shrines", "pokemon", "pokemon oras"]
+topics: ["shrines", "pokemon", "pokemon oras"]
 date: 2024-11-21T00:55:37+0800
 isContentDivided: true
 toc: true

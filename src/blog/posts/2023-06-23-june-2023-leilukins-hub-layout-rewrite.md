@@ -2,7 +2,7 @@
 articleTitle: June 2023 Leilukin's Hub Layout Rewrite
 desc: The HTML, CSS and JavaScript of my entire website have been rewritten in June 2023 to improve its layout.
 date: 2023-06-23
-categories: ["site updates"]
+topics: ["site updates"]
 ---
 
 ![A screenshot of Leilukin's Hub home page, with its new layout released on June 23, 2023](/assets/layouts/Leilukins-Hub-layout-2023-06.avif)

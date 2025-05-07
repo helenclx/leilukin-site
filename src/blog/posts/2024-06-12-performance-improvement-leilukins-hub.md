@@ -2,7 +2,7 @@
 articleTitle: Improving Site Performance of Leilukin's Hub
 desc: Steps I hae taken to improve my website's performance.
 date: 2024-06-12T19:06:00+0800
-categories: ["site updates", "web development"]
+topics: ["site updates", "web development"]
 ---
 
 Since Leilukin's Hub [migrated to Netlify and got a custom domain name](/blog/posts/2024-05-31-domain-name-hosting-change-leilukins-hub/) on 31 May 2024, I have been working on improving the performance of this website. After discovering the static site generator [Eleventy](https://www.11ty.dev/) and began to [rebuilt Leilukin's Hub with Eleventy](/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/), I found the [Eleventy Leaderboard](https://www.11ty.dev/speedlify/) which inspired me to look into [Google Lighthouse](https://developer.chrome.com/docs/lighthouse/) more, since the Eleventy Leaderboard measures the Lighthouse score of websites built with Eleventy.

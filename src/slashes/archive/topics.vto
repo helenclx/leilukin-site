@@ -1,0 +1,17 @@
+---
+title: Content Topics
+eleventyComputed:
+    desc: All content topics on {{ sitemeta.siteName }}.
+eleventyNavigation:
+    order: 12
+---
+
+<ul>
+    {{ for topic of collections.topics }}
+    {{ set topicUrl }}/topics/{{ topic |> slugify }}/{{ /set }}
+    {{ set topicPostCount = collections.contents |> filterByTopic(topic) |> itemCount }}
+    <li><a href="{{ topicUrl }}">{{ topic }}</a> ({{ topicPostCount }})</li>
+    {{ /for }}
+</ul>
+
+<p>See all contents on this website in the <a href="archive.vto">archive</a>.</p>

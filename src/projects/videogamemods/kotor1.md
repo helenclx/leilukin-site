@@ -1,7 +1,7 @@
 ---
 title: "My Mods for Star Wars: Knights of the Old Republic"
 desc: "List of video game mods I have made for Star Wars: Knights of the Old Republic."
-categories: ["star wars kotor"]
+topics: ["star wars kotor"]
 date: 2022-09-11
 toc: true
 eleventyNavigation:

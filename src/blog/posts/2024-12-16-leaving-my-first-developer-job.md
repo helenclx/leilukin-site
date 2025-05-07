@@ -3,7 +3,7 @@ articleTitle: Leaving My First Developer Job
 desc: Unfortunately, mismatched expectations made me choose to leave my first job as a web developer, effective in January 2025.
 date: 2024-12-16T18:21:48+0800
 updated: 2025-01-03T21:52:57+0800
-categories: ["life updates", "web development"]
+topics: ["life updates", "web development"]
 ---
 
 Back in August, I shared about [my transition from hobbyist to professional web developer](2024-08-18-from-hobbyist-to-professional-web-developer.md), after spending almost two years in teaching myself web development to switch my career path from graphic design. I received a lot of positive reception to my story about my career change, with some even telling me they found my story inspiring.

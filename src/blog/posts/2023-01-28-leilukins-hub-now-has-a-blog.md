@@ -3,7 +3,7 @@ articleTitle: Leilukin's Hub Now has a Blog!
 desc: I have finally set up a blog on my own website.
 date: 2023-01-28
 updated: 2024-04-16
-categories: ["site updates"]
+topics: ["site updates"]
 ---
 
 I finally built a blog on my own website!

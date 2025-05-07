@@ -3,7 +3,7 @@ articleTitle: From Hobbyist to Professional Web Developer
 desc: How building my personal website led to me getting a web developer job.
 date: 2024-08-18T20:28:21+0800
 updated: 2024-12-16T18:35:00+0800
-categories: ["life updates", "web development"]
+topics: ["life updates", "web development"]
 toc: true
 ---
 

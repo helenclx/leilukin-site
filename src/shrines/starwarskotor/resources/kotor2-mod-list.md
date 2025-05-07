@@ -2,7 +2,7 @@
 pageTitle: "Leilukin's Star Wars: Knights of the Old Republic II: The Sith Lords Mod Build"
 desc: "A list of Star Wars: Knights of the Old Republic II: The Sith Lords mods I use."
 tags: ["contents", "mod lists"]
-categories: ["star wars kotor 2", "video game mods"]
+topics: ["star wars kotor 2", "video game mods"]
 updated: 2025-03-11T11:19:47+0800
 isContentDivided: true
 toc: true

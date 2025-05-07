@@ -3,7 +3,7 @@ articleTitle: Sandral-Matale Feud Ending Guide
 date: 2018-09-22
 desc: "Walkthrogh of the different ways to resolve the Sandral-Matale Feud quest in Star Wars: Knights of the Old Republic."
 tags: kotor 1 guides
-categories: ["star wars kotor"]
+topics: ["star wars kotor"]
 toc: true
 ---
 

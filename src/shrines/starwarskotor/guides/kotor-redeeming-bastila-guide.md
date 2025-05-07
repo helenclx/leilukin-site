@@ -3,7 +3,7 @@ articleTitle: Redeeming Bastila Guide
 date: 2018-09-16
 desc: "Walkthrough of how to redeem Bastila in the light side ending of Star Wars: Knights of the Old Republic."
 tags: kotor 1 guides
-categories: ["star wars kotor"]
+topics: ["star wars kotor"]
 toc: true
 ---
 

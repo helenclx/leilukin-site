@@ -2,7 +2,7 @@
 articleTitle: A Love Letter to Myself
 date: 2025-02-10T20:31:26+0800
 desc: I decided to take the opportunity of 32-Bit Cafe's 2025 Valentine's Day code jam to write a love letter to myself.
-categories: ["personal life"]
+topics: ["personal life"]
 ---
 
 [![I am my own Valentine! - 32-Bit Cafe "Party for One" Code Jam button](/assets/images/articles/love-letter-to-myself/32bitcafe-partyforone.png)](https://32bit.cafe/vday25/){.inline-img}

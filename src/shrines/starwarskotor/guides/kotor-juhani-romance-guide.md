@@ -4,7 +4,7 @@ date: 2016-03-05
 updated: 2024-06-09
 desc: "Walkthrough of how to successfully romance Juhani in Star Wars: Knights of the Old Republic."
 tags: kotor 1 guides
-categories: ["star wars kotor"]
+topics: ["star wars kotor"]
 toc: true
 ---
 

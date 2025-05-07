@@ -2,7 +2,7 @@
 articleTitle: April 2024 Leilukin's Hub Overhaul with Eleventy
 desc: I rebuilt my website with the static site generator Eleventy in April 2024.
 date: 2024-04-21T19:53:00+0800
-categories: ["site updates", "eleventy"]
+topics: ["site updates", "eleventy"]
 toc: true
 ---
 
@@ -40,7 +40,7 @@ Having a plugin that automatically generates heading anchor links also allows me
 
 ### Content Categories
 
-Eleventy's [collection](https://www.11ty.dev/docs/collections/) feature allows users to group site content by tags and create custom collections. This feature allows me to add categories to my articles and blog posts, and in turn allows visitors to browse my website by [categories](/categories).
+Eleventy's [collection](https://www.11ty.dev/docs/collections/) feature allows users to group site content by tags and create custom collections. This feature allows me to add categories to my articles and blog posts, and in turn allows visitors to browse my website by [categories](/topics).
 
 ### Archive for All My Articles and Blog Posts
 
@@ -84,7 +84,7 @@ The page listing the things I have created has been renamed from "My Creation" t
 
 ### Site Updates being Blog Posts
 
-Previously, longer [site updates](/categories/site-updates/) were made into their own pages, since Leilukin's Hub did not have its own blog when I made the first site update post. Now these updates are converted into blog posts.
+Previously, longer [site updates](/topics/site-updates/) were made into their own pages, since Leilukin's Hub did not have its own blog when I made the first site update post. Now these updates are converted into blog posts.
 
 ### Featured Articles being Part of Articles
 

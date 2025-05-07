@@ -2,7 +2,7 @@
 articleTitle: Happy 1st Anniversary to Leilukin's Hub
 desc: Celebrating the first anniversary of Leilukin's Hub and reflecting on the evolution of my website throughout past year.
 date: 2023-09-11
-categories: ["site updates", "site anniversary"]
+topics: ["site updates", "site anniversary"]
 ---
 
 11 September 2023 marks the first anniversary of Leilukin's Hub, my personal website, hosted on Neocities. I am proud to be able to succeed in not only building my own website, but also updating, improving and maintaining my website to achieve my vision for my own personal hub on the internet outside social media platforms.

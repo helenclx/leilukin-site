@@ -21,10 +21,10 @@
         {{ if updated }}
         <p>Last updated on <time datetime="{{ updated }}">{{ updated |> formatDate }}</time></p>
         {{ /if }}
-        {{ if categories }}
-        <p>Categories:
-            {{ for cat of categories }}
-            <a href="/categories/{{ cat |> slugify }}">{{ cat }}</a>{{ if categories.indexOf(cat) !== categories.length - 1 }}, {{ /if }}
+        {{ if topics }}
+        <p>Topics:
+            {{ for topic of topics }}
+            <a href="/topics/{{ topic |> slugify }}">{{ topic }}</a>{{ if topics.indexOf(topic) !== topics.length - 1 }}, {{ /if }}
             {{ /for }}
         </p>
         {{ /if }}

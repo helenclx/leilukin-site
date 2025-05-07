@@ -2,7 +2,7 @@
 articleTitle: I Love Pomeranian Dogs
 desc: Gushing over Pomeranians, one of my favourite dog breeds.
 date: 2025-05-06T20:05:49+0800
-categories: ["dogs", "cassette beasts", "ghost trick"]
+topics: ["dogs", "cassette beasts", "ghost trick"]
 ---
 I have been a dog lover throughout my life. Both my parents, and my father's side of the family, have decades of experience with raising dogs, so I grew up with dogs as pets in my home as well.
 

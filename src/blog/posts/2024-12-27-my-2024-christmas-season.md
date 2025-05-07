@@ -2,7 +2,7 @@
 articleTitle: My Christmas Season in 2024
 desc: How I spent the Christmas season in 2024.
 date: 2024-12-27T12:09:39+0800
-categories: ["life updates"]
+topics: ["life updates"]
 ---
 
 Happy Holidays!

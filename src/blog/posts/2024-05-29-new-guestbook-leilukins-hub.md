@@ -2,7 +2,7 @@
 articleTitle: The Search for a Guestbook Solution for Leilukin's Hub
 desc: I spent a great deal of time in searching for a guestbook for Leilukin's hub.
 date: 2024-05-29T17:11:00+0800
-categories: ["site updates"]
+topics: ["site updates"]
 ---
 
 On 4 May 2024, the guestbook service 123Guestbook announced that [their service would be closed on 1 July 2024](https://web.archive.org/web/20240504201300/https://www.123guestbook.com/news.php?id=closure).

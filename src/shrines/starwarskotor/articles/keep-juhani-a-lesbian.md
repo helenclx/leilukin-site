@@ -4,7 +4,7 @@ date: 2023-06-28
 updated: 2025-02-20T15:46:41+0800
 desc: "A statement about my stance that Juhani should remain a lesbian, her romance should remain exclusive to female chracters, and she should not be a romance option for male characters under any circumstances, and why."
 tags: kotor 1 articles
-categories: ["star wars kotor"]
+topics: ["star wars kotor"]
 ---
 
 For those who do not know, Juhani is a character introduced in the video game {{ cite "Star Wars: Knights of the Old Republic" }} ({{ cite "KotOR" }}), which was developed by BioWare. She is best known not only for being a lesbian and a romance option for female player characters, but also the very first confirmed gay character in both the {{ cite "Star Wars" }} franchise (including the old {{ cite "Star Wars" }} Expanded Universe now known as {{ cite "Star Wars Legends" }}) and BioWare games.

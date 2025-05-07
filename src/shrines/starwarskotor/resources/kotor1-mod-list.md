@@ -2,7 +2,7 @@
 pageTitle: "Leilukin's Star Wars: Knights of the Old Republic Mod Build"
 desc: "A list of Star Wars: Knights of the Old Republic mods I use."
 tags: ["contents", "mod lists"]
-categories: ["star wars kotor", "video game mods"]
+topics: ["star wars kotor", "video game mods"]
 updated: 2025-03-11T10:17:16+0800
 isContentDivided: true
 toc: true

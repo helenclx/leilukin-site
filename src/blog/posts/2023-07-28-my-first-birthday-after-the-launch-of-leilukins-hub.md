@@ -2,7 +2,7 @@
 articleTitle: My First Birthday After the Launch of Leilukin's Hub
 desc: 28th July 2023 marks my first birthday after the launch of this personal website.
 date: 2023-07-28
-categories: ["my birthday", "cassette beasts"]
+topics: ["my birthday", "cassette beasts"]
 ---
 
 28 July is my birthday, and in 2023, it also marks my first birthday after the launch of this personal website. I have had a nice birthday this year.

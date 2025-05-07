@@ -2,7 +2,7 @@
 layout: layouts/cassettebeasts
 pageTitle: Cassette Beasts Shrine
 tags: ["shrine home", "contents"]
-categories: ["shrines", "cassette beasts"]
+topics: ["shrines", "cassette beasts"]
 date: 2023-08-03
 isContentDivided: true
 toc: true

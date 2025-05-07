@@ -2,7 +2,7 @@
 articleTitle: Leilukin's Hub Tumbleblog Launched
 desc: Leilukin's Hub now has a tumbleblog built with Chyrp Lite and hosted on InfinityFree.
 date: 2024-06-21T01:53:00+0800
-categories: ["site updates"]
+topics: ["site updates"]
 ---
 
 Leilukin's Hub now has a [tumbleblog](https://jaypeeonline.net/internet/tumbleblogs/) at [tumbleblog.leilukin.com](https://tumbleblog.leilukin.com/)!

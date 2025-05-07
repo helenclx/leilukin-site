@@ -2,7 +2,7 @@
 articleTitle: Onboard the Dracula Daily Hype Train
 desc: I have signed up to join the Dracula Daily hype.
 date: 2023-05-09
-categories: ["dracula daily"]
+topics: ["dracula daily"]
 ---
 
 [Dracula Daily](https://draculadaily.com/), the free subscription newsletter that sends Bram Stoker's 1897 novel Dracula to subscribers via email, became an internet sensation, especially on Tumblr. Some of my Tumblr mutuals were also on the hype train, though I missed it.

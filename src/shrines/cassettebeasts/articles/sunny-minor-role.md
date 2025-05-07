@@ -4,7 +4,7 @@ date: 2025-03-28T13:33:46+0800
 updated: 2025-04-08T23:07:47+0800
 desc: Despite liking the character of Sunny in Cassette Beasts, I did not mind her only had little screen-time in the game.
 tags: cassette beasts articles
-categories: ["cassette beasts"]
+topics: ["cassette beasts"]
 ---
 
 On 27 March 2025 in Western time zones and 12 a.m. on 28 March 2025 in my time zone, the 2025 edition of [Cassette Beasts Showcase](https://wiki.cassettebeasts.com/wiki/Cassette_Beasts_Showcase), an annual video presentation in which news and updates about {{ cite "Cassette Beasts" }} are shared, was aired on the game's publisher [Raw Fury's YouTube channel](https://www.youtube.com/watch?v=AJe9aRZCc3U). The main highlight of the 2025 Showcase was the announcement of version update 1.8, named the "Sunshine Update", revealing that among other things, Sunny, a fan favourite character will be a new partner character, along with a new story quest involving her.

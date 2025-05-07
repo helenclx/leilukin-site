@@ -2,7 +2,7 @@
 articleTitle: My Cassette Beasts Fanlisting Application has been Approved
 desc: The Fanlistings Network has approved my application to run and build a Cassette Beasts fanlisting.
 date: 2024-06-24T13:23:00+0800
-categories: ["cassette beasts", "site updates"]
+topics: ["cassette beasts", "site updates"]
 ---
 
 On 22 June 2024, I submitted an [application form](https://thefanlistings.org/start/apply.php) to [The Fanlistings Network](https://thefanlistings.org/), also known as TFL.org, to build and run a {{ cite "Cassette Beasts" }} fanlisting, and now TFL.org has approved my application! {{ cite "Cassette Beasts" }} is now on TFL.org's approved list under the Games category and the [Computer, Console, & Video Games subcategory](https://www.thefanlistings.org/browse.php?show=games&start=8) ([view the web archive version](https://web.archive.org/web/20240624045621/https%3A%2F%2Fwww.thefanlistings.org%2Fbrowse.php%3Fshow%3Dgames%26start%3D8)).

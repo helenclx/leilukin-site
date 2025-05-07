@@ -17,4 +17,4 @@ You can also check out my [status.cafe profile](https://status.cafe/users/leiluk
 
 From April 7 to May 2, I attended a Malaysian campus of the [42 computer science school](https://www.42network.org/), by participating in their 26-day bootcamp named the Piscine.
 
-You can read more about my life at 42 the computer science school in my blog posts under the ["42 the school"](/categories/42-the-school/) category.
+You can read more about my life at 42 the computer science school in my blog posts under the ["42 the school"](/topics/42-the-school/) category.

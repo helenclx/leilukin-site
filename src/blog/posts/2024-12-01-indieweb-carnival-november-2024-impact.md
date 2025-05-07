@@ -2,7 +2,7 @@
 articleTitle: "IndieWeb Carnival November 2024: Impact"
 desc: My participation in IndieWeb Carnival November 2024, by reflecting on our capabilities of making an impact on other people and the world.
 date: 2024-12-01T13:01:27+0800
-categories: ["indieweb", "life", "personal web"]
+topics: ["indieweb", "life", "personal web"]
 toc: true
 ---
 

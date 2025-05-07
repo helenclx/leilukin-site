@@ -2,7 +2,7 @@
 articleTitle: 2023 New Year Redesign of Leilukin's Hub
 desc: About giving my website a new design in light of a new year of 2023.
 date: 2023-01-26
-categories: ["site updates"]
+topics: ["site updates"]
 ---
 
 ![A screenshot of Leilukin's Hub home page, with its layout design released on January 26, 2023](/assets/layouts/Leilukins-Hub-layout-2023-01.avif)

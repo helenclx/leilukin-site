@@ -3,7 +3,7 @@ articleTitle: Why I Personally Do Not Subscribe to the “Arren Kae is Kreia” 
 date: 2021-01-27
 desc: "The Star Wars: Knights of the Old Republic II: The Sith Lords theory that Arren Kae and Kreia are the same person is very popular among fans of the game. However, I personally do not subscribe to it or incorporate it into my KotOR 2 headcanons. Here is why."
 tags: kotor 2 articles
-categories: ["star wars kotor 2"]
+topics: ["star wars kotor 2"]
 ---
 
 (Note: This article was originally published on Tumblr)

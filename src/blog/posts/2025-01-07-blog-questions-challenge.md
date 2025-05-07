@@ -2,7 +2,7 @@
 articleTitle: Blog Questions Challenge
 desc: My answers to a blog questions challenge I was tagged for.
 date: 2025-01-07T16:24:26+0800
-categories: ["site meta"]
+topics: ["site meta"]
 toc: true
 ---
 

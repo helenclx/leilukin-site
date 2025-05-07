@@ -2,7 +2,7 @@
 articleTitle: Remembering the 2004 Indian Ocean Tsunami
 desc: It is hard to believe that it has been 20 years since the 2004 Indian Ocean tsunami happened.
 date: 2024-12-26T19:11:55+0800
-categories: ["asia"]
+topics: ["asia"]
 ---
 
 Twenty years ago today, the 2004 Indian Ocean earthquake and tsunami happened.
