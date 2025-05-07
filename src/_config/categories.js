@@ -5,7 +5,9 @@ export default function(eleventyConfig) {
         let contents = collectionApi.getFilteredByTag('contents');
         contents.forEach(p => {
             let cats = p.data.categories;
-            cats.forEach(c => categories.add(c));
+            if (cats) {
+                cats.forEach(c => categories.add(c));
+            }
         });
         return Array.from(categories).sort();
     });
@@ -15,7 +17,9 @@ export default function(eleventyConfig) {
         cat = cat.toLowerCase();
         let result = contents.filter(item => {
             let cats = item.data.categories.map(c => c.toLowerCase());
-            return cats.includes(cat);
+            if (cats) {
+                return cats.includes(cat);
+            }
         });
         return result;
     });
