@@ -1,7 +1,6 @@
 export default {
-    tags: ["articles", "contents", "feed items"],
+    tags: ["my articles", "contents", "feed items"],
     layout: "layouts/main",
-    permalink: "/articles/{{ page.fileSlug }}/",
     isArticle: true,
     eleventyComputed: {
         title: (data) => `${data.articleTitle} | Articles`,

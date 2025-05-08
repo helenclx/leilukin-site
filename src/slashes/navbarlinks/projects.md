@@ -3,7 +3,7 @@ title: Projects
 isContentDivided: true
 toc: true
 eleventyNavigation:
-    order: 6
+    order: 7
 eleventyComputed:
     desc: Things {{ sitemeta.siteAuthor.name }} has created.
 ---

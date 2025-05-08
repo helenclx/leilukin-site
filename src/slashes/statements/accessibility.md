@@ -3,7 +3,7 @@ title: Accessibility
 keyword: accessibility statement
 updated: 2025-02-20T21:13:48+0800
 eleventyNavigation:
-    order: 14
+    order: 15
 ---
 
 Accessibility is highly relevant to me as a disabled and neurodivergent person. Therefore, even though this website is primarily meant to be my own space of self-expression, I also want visitors to my website to have the best possible experience of browsing my website.
