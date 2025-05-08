@@ -7,13 +7,13 @@ eleventyComputed:
     desc: Site map of {{ sitemeta.siteName }}.
 ---
 
-<p>Navigation for browsing {{ sitemeta.siteName }}.</p>
+<p>List of pages on {{ sitemeta.siteName }}.</p>
 
 <h2>Subsites</h2>
 <ul class="sitemap">
-{{ for site of sitemeta.subsites }}
+    {{ for site of sitemeta.subsites }}
     <li><a href="{{ site.siteUrl() }}">{{ site.siteName }}</a></li>
-{{ endfor }}
+    {{ /for }}
 </ul>
 
 <h2>Main Site</h2>
