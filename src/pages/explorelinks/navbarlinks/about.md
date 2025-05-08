@@ -61,6 +61,8 @@ Leilukin is not my real name, but it is an internet pseudonym that I have used s
 
 [Check out my Now page](/now) to learn what I am doing currently.
 
+I have been featured in other media as well; see my [Featured page](/featured) for more.
+
 ### Contact Me
 
 The best way to contact me is via email: [{{ sitemeta.siteAuthor.emailEncoded }}]({{ sitemeta.siteAuthor.emailDecoyUrl }}){rel="nofollow, noindex"}. Using [plain text email](https://useplaintext.email/) is encouraged.
