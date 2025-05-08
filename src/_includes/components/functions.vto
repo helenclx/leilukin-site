@@ -12,7 +12,6 @@
 {{ /export }}
 
 {{ export function modEntry(params) }}
-{{# {{ headingAnchor 3 }}{{ params.title }}{{ /headingAnchor }} #}}
 ### {{ params.title }}
 <div class="mod-entry">
     <img src="/assets/projects/{{ params.bannerFile }}" alt="Banner of {{ params.title }} mod" loading="lazy">
@@ -24,4 +23,12 @@
         {{ /for }}
     </div>
 </div>
+{{ /export }}
+
+{{ export function siteButton(url, file, alt, tooltip=alt, width=88, height=31) -}}
+<li data-tooltip>
+    <a href="{{ url }}" data-tooltip-trigger title="{{ tooltip }}">
+        <img src="/assets/buttons/{{ file }}" alt="{{ alt }}" width="{{ width }}" height="{{ height }}" loading="lazy">
+    </a>
+</li>
 {{ /export }}

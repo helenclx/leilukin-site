@@ -3,6 +3,7 @@
 .center-text { text-align: center; }
 .inline-img { display: inline-block; }
 .update-info { margin-top: 3em; }
+.p-margin-top { margin-top: var(--sz-paragraph-margin); }
 
 .indent-text {
     padding: 1em 0 1em 2em;
