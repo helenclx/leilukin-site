@@ -2,6 +2,7 @@
 articleTitle: "A More Civilized Age: A Star Wars Podcast Episode 110"
 desc: "I, my website and my queer romance mods for Star Wars: Knights of the Old Republic II: The Sith Lords got mentioned in the Star Wars podcast, A More Civilized Age."
 date: 2025-05-08T18:27:36+0800
+topics: ["my features", "star wars kotor 2", "video game mods"]
 ---
 
 It was an honour and a pleasant surprise that I, my website and my queer romance mods for {{ cite "Star Wars: Knights of the Old Republic II: The Sith Lords" }} ({{ cite "KotOR 2" }}) got mentioned in the {{ cite "Star Wars" }} podcast, [A More Civilized Age](https://amorecivilizedage.net/) (AMCA).
