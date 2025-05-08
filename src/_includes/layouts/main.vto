@@ -142,9 +142,10 @@ function getTodayEvent() {
 {{ set navPages = collections["navbar links"] |> eleventyNavigation }}
 {{ for entry of navPages }}
 <li>
-    <a {{ if entry.url == page.url }} aria-current="page"{{ /if }} href="{{ entry.url }}">{{ entry.title }}</a>
+    <a {{ if entry.url == currentUrl }} aria-current="page"{{ /if }} href="{{ entry.url }}">{{ entry.title }}</a>
 </li>
 {{ /for }}
+<li><a {{ if currentUrl.includes("/explore") }} aria-current="page"{{ /if }} href="/explore/">Explore</a></li>
 {{ /set }}
 
 {{ content }}

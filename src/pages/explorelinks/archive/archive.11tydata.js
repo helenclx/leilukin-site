@@ -1,5 +1,5 @@
 export default {
-    tags: "archive",
+    tags: ["archive"],
     eleventyComputed:{
         eleventyNavigation: {
             key: (data) => data.title

@@ -1,9 +1,10 @@
 ---
 title: Explore
+eleventyExcludeFromCollections: true
 eleventyComputed:
     desc: Explore {{ sitemeta.siteName }}.
 ---
-{{ set explorePages = collections.pages |> eleventyNavigation }}
+{{ set explorePages = collections["explore links"] |> eleventyNavigation }}
 
 <ul>
 {{ for entry of explorePages }}
