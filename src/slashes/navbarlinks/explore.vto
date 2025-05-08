@@ -1,0 +1,17 @@
+---
+title: Explore
+eleventyComputed:
+    desc: Explore {{ sitemeta.siteName }}.
+---
+{{ set explorePages = collections.pages |> eleventyNavigation }}
+
+<ul>
+{{ for entry of explorePages }}
+    <li>
+        <p class="item-list__title">
+            <a href="{{ entry.url }}">{{ entry.title }}</a>
+        </p>
+        <p>{{ entry.data.desc }}</p>
+    </li>
+{{ /for }}
+</ul>
