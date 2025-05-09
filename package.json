@@ -7,10 +7,11 @@
         "url": "https://git.32bit.cafe/Leilukin/leilukin-site"
     },
     "scripts": {
-        "start": "bunx @11ty/eleventy --serve --quiet",
-        "build": "bunx @11ty/eleventy",
-        "start-pagefind": "bunx @11ty/eleventy --quiet && bunx -y pagefind --site _site --serve",
-        "build-pagefind": "bunx @11ty/eleventy --quiet && bunx -y pagefind --site _site"
+        "build-11ty": "bunx @11ty/eleventy",
+        "start-11ty": "bunx @11ty/eleventy --serve --quiet",
+        "create-search-index": "bunx -y pagefind --site _site",
+        "build": "bun build-11ty --quiet && bun create-search-index",
+        "start": "bun run build --serve"
     },
     "type": "module",
     "devDependencies": {

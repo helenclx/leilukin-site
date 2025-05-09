@@ -3,10 +3,10 @@ title: Search
 eleventyComputed:
     desc: Search {{ sitemeta.siteName }}.
 ---
+<p>Looking for something on my website? If you have JavaScript enabled, you can use the search field below, which is powered by the static search library <a href="https://pagefind.app/">Pagefind</a>. Your search query will not be recorded anywhere.</p>
+
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 <script src="/pagefind/pagefind-ui.js"></script>
-
-<p>Looking for something on my website? If you have JavaScript enabled, you can use the search field below, which is powered by the static search library <a href="https://pagefind.app/">Pagefind</a>. Your search query will not be recorded anywhere.</p>
 <div id="search"></div>
 <script>
     window.addEventListener('DOMContentLoaded', (event) => {
