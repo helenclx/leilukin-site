@@ -16,7 +16,12 @@ Recommended JavaScript runtime: [Bun](https://bun.sh).
     bun install
     ```
 1. Run the project
+    Option A: Run without the [Pagefind](https://pagefind.app/) search library.
     ```
     bun start
+    ```
+    Option B: Run with Pagefind.
+    ```
+    bun start-pagefind
     ```
 1. Open http://localhost:8080/ in your browser

@@ -22,7 +22,7 @@ jobs:
         run: bun install
 
       - name: Build
-        run: bun run build
+        run: bun run build-pagefind
 
       - name: SSH Deploy to Hostinger
         uses: easingthemes/ssh-deploy@main

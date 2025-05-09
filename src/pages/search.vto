@@ -1,0 +1,38 @@
+---
+title: Search
+eleventyComputed:
+    desc: Search {{ sitemeta.siteName }}.
+---
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js"></script>
+
+<p>Looking for something on my website? If you have JavaScript enabled, you can use the search field below, which is powered by the static search library <a href="https://pagefind.app/">Pagefind</a>. Your search query will not be recorded anywhere.</p>
+<h2>Accessibility Note</h2>
+<p>Unfortunately, it is a <a href="https://github.com/CloudCannon/pagefind/issues/158">known issue</a> that Pagefind's search field is not properly labelled, which affects screen readers' ability to understand the search field.</p>
+<h2>Search This Website</h2>
+<div id="search"></div>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ element: "#search", showSubResults: true });
+    });
+</script>
+
+<noscript>
+    <p>Looks like you have JavaScript disabled. This search field requires JavaScript to function.</p>
+</noscript>
+
+<style>
+:root {
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-font: var(--ff-default);
+    --pagefind-ui-primary: var(--clr-body-text);
+    --pagefind-ui-text: var(--clr-body-text);
+    --pagefind-ui-background: var(--clr-quote-bg);
+}
+.pagefind-ui__result-title.svelte-4xnkmf .pagefind-ui__result-link.svelte-4xnkmf {
+    color: var(--clr-link);
+}
+.pagefind-ui__search-input.svelte-e9gkc3::placeholder {
+    opacity:.6;
+}
+</style>

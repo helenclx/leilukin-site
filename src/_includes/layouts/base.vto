@@ -45,7 +45,7 @@
         <div class="skip-btn"><a href="#content">Skip to content</a></div>
         {{ include "partials/hero.vto" }}
         {{ include "partials/navbar.vto" }}
-        <main id="content">
+        <main id="content" {{ if !excludeFromSearch }} data-pagefind-body{{ /if }}>
             {{ include "partials/content.vto" }}
         </main>
         {{ include "partials/footer.vto" }}

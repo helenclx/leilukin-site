@@ -1,7 +1,7 @@
 ---
 title: Accessibility
 keyword: accessibility statement
-updated: 2025-02-20T21:13:48+0800
+updated: 2025-05-09T10:05:02+0800
 eleventyNavigation:
     order: 15
 ---
@@ -37,6 +37,10 @@ I use the following tools to test my site for accessibility:
 * TalkBack screen reader for Android
 
 In addition, I test the accessibility of my website manually by navigating with keyboard alone.
+
+## Known Issues
+
+The website's [Search page](/search/) includes a search field that is powered by [Pagefind](https://pagefind.app/), which has a [known issue](https://github.com/CloudCannon/pagefind/issues/158) of its search field input not being properly labelled, which affects screen readers' ability to understand the search field.
 
 ## Feedback
 
