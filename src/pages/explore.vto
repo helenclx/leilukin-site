@@ -4,8 +4,9 @@ eleventyExcludeFromCollections: true
 eleventyComputed:
     desc: Explore {{ sitemeta.siteName }}.
 ---
-{{ set explorePages = collections["explore links"] |> eleventyNavigation }}
+<p>You can start with the following pages to explore my website.</p>
 
+{{ set explorePages = collections["explore links"] |> eleventyNavigation }}
 <ul>
     {{ for entry of explorePages }}
     <li>
