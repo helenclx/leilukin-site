@@ -9,6 +9,7 @@ pagination:
     alias: changelogs
     reverse: true
 permalink: "/{{ page.fileSlug }}{{ if pagination.pageNumber > 0 }}/page/{{ pagination.pageNumber + 1 }}{{ /if }}/"
+excludeFromSearch: true
 eleventyNavigation:
     key: Changelogs
     order: 13
