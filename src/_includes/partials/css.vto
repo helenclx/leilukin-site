@@ -16,7 +16,7 @@
 {{ /if }}
 {{ if externalCss }}
 {{ for file of externalCss }}
-<link rel="stylesheet" href="{{ externalCss }}">
+<link rel="stylesheet" href="{{ file }}">
 {{ /for }}
 {{ /if }}
 <style>{{ getBundle "css" }}</style>

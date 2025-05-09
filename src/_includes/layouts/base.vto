@@ -13,15 +13,6 @@
         {{ include "partials/fonts.vto" }}
         <!-- CSS -->
         {{ include "partials/css.vto" }}
-        {{ if hasTooltips }}
-        <link rel="stylesheet" href="/assets/css/tooltips.css">
-        {{ /if }}
-        {{ if externalCss }}
-        {{ for file of externalCss }}
-        <link rel="stylesheet" href="{{ externalCss }}">
-        {{ /for }}
-        {{ /if }}
-        <style>{{ getBundle "css" }}</style>
         <!-- Favicon -->
         {{ favicon }}
         <!-- Verifications -->
@@ -29,16 +20,7 @@
         <link rel="me" href="https://github.com/Leilukin">
         <link rel="authorization_endpoint" href="https://indieauth.com/auth">
         <!-- JavaScript -->
-        <script src="{{ getBundleFileUrl 'js' }}" defer></script>
-        {{ if toc }}
-        <script src="{{'/assets/js/details-utils.js'}}" defer></script>
-        {{ /if }}
-        {{ if hasCodeBlock }}
-        <script src="/assets/js/copycode.js" defer></script>
-        {{ /if }}
-        {{ if hasTooltips }}
-        <script src="/assets/js/tooltips.js" defer></script>
-        {{ /if }}
+        {{ include "partials/js.vto" }}
 
         <title>
             {{- title ? `${title} | ` : '' -}}
