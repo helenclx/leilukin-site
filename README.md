@@ -24,4 +24,4 @@ It is recommended to use [Bun](https://bun.sh) as the JavaScript runtime for thi
 
 The `bun start` command runs both Eleventy and [Pagefind](https://pagefind.app/) to build the website and create the website's search index respectively, then serve the project output in a local server.
 
-After creating and updating the website's search index (you can do so by simply running the `bun create-search-index` command), if you want to run the website locally again, you can instead run the `bun start-11ty` command, which runs Eleventy to build the website and serve the output in a hot-reloading local server, then open `http:localhost:8080/` in your web browser.
+After creating and updating the website's search index, if you want to run the website locally again, you can instead run the `bun start-11ty` command, which runs Eleventy to build the website and serve the output in a hot-reloading local server, then open `http:localhost:8080/` in your web browser.
