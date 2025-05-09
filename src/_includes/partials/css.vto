@@ -8,7 +8,15 @@
     "pridesymbols",
     "utility"
 ] }}
-
 {{ for file of cssFiles }}
 <link rel="stylesheet" href="{{'/assets/css/' + file + '.css'}}">
 {{ /for }}
+{{ if hasTooltips }}
+<link rel="stylesheet" href="/assets/css/tooltips.css">
+{{ /if }}
+{{ if externalCss }}
+{{ for file of externalCss }}
+<link rel="stylesheet" href="{{ externalCss }}">
+{{ /for }}
+{{ /if }}
+<style>{{ getBundle "css" }}</style>
