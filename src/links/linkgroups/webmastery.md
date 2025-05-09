@@ -1,7 +1,7 @@
 ---
 title: Webmastery
 date: 2024-07-01
-updated: 2025-03-27T09:15:36+0800
+updated: 2025-05-09T13:00:46+0800
 toc: true
 ---
 
@@ -43,6 +43,7 @@ toc: true
 * [Three Common Accessibility Problems and How to Fix Them](https://solaria.neocities.org/beginnersaccessibility) by Solaria
 * [What I've Learned About Web Accessibility as a Dyslexic, Sighted, Mouse User](https://solaria.neocities.org/accessibility) by Solaria
 * [Screen reader testing: how to test your website's accessibility](https://www.siteimprove.com/glossary/screen-reader-testing/) by Siteimprove
+* [Web Content Accessibility Guidelines (WCAG) in Plain English](https://aaardvarkaccessibility.com/wcag-plain-english/) by Ardvark
 
 ### Eleventy
 Resources for learning to use the static site generator [Eleventy](https://www.11ty.dev/), which is also used for building {{ sitemeta.siteName }}.
