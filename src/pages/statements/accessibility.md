@@ -38,10 +38,6 @@ I use the following tools to test my site for accessibility:
 
 In addition, I test the accessibility of my website manually by navigating with keyboard alone.
 
-## Known Issues
-
-The website's [Search page](/search/) includes a search field that is powered by [Pagefind](https://pagefind.app/), which has a [known issue](https://github.com/CloudCannon/pagefind/issues/158) of its search field input not being properly labelled, which affects screen readers' ability to understand the search field.
-
 ## Feedback
 
 Feedback from disabled and neurodivergent people are welcome. You can [contact me via email](mailto:{{ sitemeta.siteAuthor.emailEncoded | safe }}) for feedbacks and suggestions for improving the accessibility of this site.

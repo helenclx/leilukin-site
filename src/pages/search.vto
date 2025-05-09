@@ -7,9 +7,6 @@ eleventyComputed:
 <script src="/pagefind/pagefind-ui.js"></script>
 
 <p>Looking for something on my website? If you have JavaScript enabled, you can use the search field below, which is powered by the static search library <a href="https://pagefind.app/">Pagefind</a>. Your search query will not be recorded anywhere.</p>
-<h2>Accessibility Note</h2>
-<p>Unfortunately, it is a <a href="https://github.com/CloudCannon/pagefind/issues/158">known issue</a> that Pagefind's search field is not properly labelled, which affects screen readers' ability to understand the search field.</p>
-<h2>Search This Website</h2>
 <div id="search"></div>
 <script>
     window.addEventListener('DOMContentLoaded', (event) => {
@@ -18,6 +15,7 @@ eleventyComputed:
 </script>
 
 <noscript>
+    <h2>You have disabled JavaScript</h2>
     <p>Looks like you have JavaScript disabled. This search field requires JavaScript to function.</p>
 </noscript>
 
