@@ -8,7 +8,7 @@
     },
     "scripts": {
         "build-11ty": "bunx @11ty/eleventy",
-        "start-11ty": "bunx @11ty/eleventy --serve --quiet",
+        "start-11ty": "bun run build-11ty --serve --quiet",
         "create-search-index": "bunx -y pagefind --site _site",
         "build": "bun build-11ty --quiet && bun create-search-index",
         "start": "bun run build --serve"
