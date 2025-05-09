@@ -1,11 +1,11 @@
 ---
 title: Search
+externalCss: "/pagefind/pagefind-ui.css"
 eleventyComputed:
     desc: Search {{ sitemeta.siteName }}.
 ---
 <p>Looking for something on my website? If you have JavaScript enabled, you can use the search field below, which is powered by the static search library <a href="https://pagefind.app/">Pagefind</a>. Your search query will not be recorded anywhere.</p>
 
-<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 <script src="/pagefind/pagefind-ui.js"></script>
 <div id="search"></div>
 <script>
@@ -19,7 +19,7 @@ eleventyComputed:
     <p>Looks like you have JavaScript disabled. This search field requires JavaScript to function.</p>
 </noscript>
 
-<style>
+{{- css }}
 :root {
     --pagefind-ui-scale: 1;
     --pagefind-ui-font: var(--ff-default);
@@ -33,4 +33,4 @@ eleventyComputed:
 .pagefind-ui__search-input.svelte-e9gkc3::placeholder {
     opacity:.6;
 }
-</style>
+{{ /css }}
