@@ -16,7 +16,7 @@ eleventyComputed:
 
 {{ container "section", "content__section" }}
 ## My Code Projects
-<ul>
+<ul data-pagefind-ignore>
     {{ for project of collections["code projects"] }}
     <li><a href="{{ project.url }}">{{ project.data.title }}</a> — {{ project.data.desc }}</li>
     {{ /for }}
@@ -25,7 +25,7 @@ eleventyComputed:
 
 {{ container "section", "content__section" }}
 ## My Code Snippets
-<ul>
+<ul data-pagefind-ignore>
     {{ for snippet of collections["code snippets"] }}
     <li><a href="{{ snippet.url }}">{{ snippet.data.title }}</a> — {{ snippet.data.desc }}</li>
     {{ /for }}
@@ -44,7 +44,7 @@ My drawings can be found on my art blog on Tumblr:
 ## My Video Game Mods
 
 I have created mods (short for "modifications") for the following video games:
-<ul>
+<ul data-pagefind-ignore>
     {{ for mods of collections["video game mods"] }}
     <li>
         <a href="{{ mods.url }}">{{ mods.data.title }}</a>
