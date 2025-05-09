@@ -3,11 +3,10 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic Mod Build"
 desc: "A list of Star Wars: Knights of the Old Republic mods I use."
 tags: ["contents", "mod lists"]
 topics: ["star wars kotor", "video game mods"]
-updated: 2025-03-11T10:17:16+0800
+updated: 2025-05-09T08:09:33+0800
 isContentDivided: true
 toc: true
 ---
-
 {{ container "article", "content__section" }}
 Welcome to Leilukin’s {{ cite "Star Wars: Knights of the Old Republic" }} Mod Build!
 
@@ -4266,10 +4265,10 @@ Installation Note
 ### 4GB Patch
 
 Mod Name
-: [4GB Patch](https://ntcore.com/?page_id=371)
+: [4GB Patch](https://ntcore.com/4gb-patch/)
 
 Mod Author
-: Erik Pistelli
+: Daniel Pistelli
 
 Category
 : Patch
@@ -4278,7 +4277,7 @@ Tier
 : Tier 1 - Essential
 
 Description
-: This is a program which modifies your game's executable file to be able to utilize up to 4 gigabytes of RAM, since {{ cite "KotOR" }} is a 32-bit application and by default can only utilize 2 gigabytes. This will help the game run smoothly even with the larger texture throughout this mod build creates, and also reduces issues caused by a memory leak which is native to the game, preventing crashes and savegame corruption.
+: This is a program which modifies your game's executable file to be able to utilize up to 4 gigabytes of RAM, since the {{ cite "KotOR" }} games are 32-bit applications and by default can only utilize 2 gigabytes. This will help the game run smoothly even with large texture mods, and also reduces issues caused by a memory leak which is native to the game, preventing crashes and savegame corruption.
 
 ---
 {{ /container }}

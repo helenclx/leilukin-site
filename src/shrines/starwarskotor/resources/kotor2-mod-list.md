@@ -3,11 +3,10 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic II: The Sith Lords
 desc: "A list of Star Wars: Knights of the Old Republic II: The Sith Lords mods I use."
 tags: ["contents", "mod lists"]
 topics: ["star wars kotor 2", "video game mods"]
-updated: 2025-03-11T11:19:47+0800
+updated: 2025-05-09T08:09:48+0800
 isContentDivided: true
 toc: true
 ---
-
 {{ container "article", "content__section" }}
 Welcome to Leilukin’s {{ cite "Star Wars: Knights of the Old Republic II: The Sith Lords" }} Mod Build!
 
@@ -3801,6 +3800,24 @@ Leilukin’s Comment
 : I’ve always hated how skimpy the vanilla dancer outfit is, like how much I hate the vanilla dancer model. With this mod and the dancer model fix from Player & Party Underwear make the “dancing for Vogga” sequence more bearable.
 
 ---
+### 4GB Patch
+
+Mod Name
+: [4GB Patch](https://ntcore.com/4gb-patch/)
+
+Mod Author
+: Daniel Pistelli
+
+Category
+: Patch
+
+Tier
+: Tier 1 - Essential
+
+Description
+: This is a program which modifies your game's executable file to be able to utilize up to 4 gigabytes of RAM, since the {{ cite "KotOR" }} games are 32-bit applications and by default can only utilize 2 gigabytes. This will help the game run smoothly even with large texture mods, and also reduces issues caused by a memory leak which is native to the game, preventing crashes and savegame corruption.
+
+---
 {{ /container }}
 
 {{ container "article", "content__section" }}
@@ -3813,10 +3830,10 @@ Since I play {{ cite "KotOR 2" }} with the Aspyr patch, so the game can run smoo
 1. [Download this `opengl32.dll` file](https://github.com/HappyFunTimes01/ShaderOverride/blob/master/Release/opengl32.dll) and put it into your {{ cite "KotOR 2" }} root folder.
 2. Start the game.
 3. You should now have two folders called `shaders_original` and `shadow_override` in your KOTOR folder.
-4. Go into the `shaders_original` folder and open the first file with a program like Notepad++.
+4. Go into the `shaders_original` folder and open the first file with a text editor like Notepad++.
 5. Locate the line that says "MOV result.color, r0" (second to last line usually).
 6. Right above that line paste the content of the [quote under "Fog Issue" that starts with PARAM p =...](https://github.com/HappyFunTimes01/ShaderOverride/blob/master/README.md). [Your file should look like this screenshot](https://i.imgur.com/QeAODN4.png).
-7. Repeat this step for every text file in the folder that has the MOV result.color, r0 line. That can take some time and there might be ways to automate the process but explaining it might take so long that you're probably just better off doing the whole thing manually.
+7. Repeat this step for every text file in the folder that has the MOV result.color, r0 line.
 8. After you pasted this into every file that has the MOV result.color, r0 line near the end, copy all text files into the shader\_override folder.
 9. Launch the game, the fog should now be fixed.
 {{ /container }}
