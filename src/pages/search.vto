@@ -10,7 +10,14 @@ eleventyComputed:
 <div id="search"></div>
 <script>
     window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({ element: "#search", showSubResults: true });
+        new PagefindUI({
+            element: "#search",
+            showSubResults: true,
+            showImages: false,
+            translations: {
+                placeholder: "Search {{ sitemeta.siteName }}",
+            },
+        });
     });
 </script>
 
