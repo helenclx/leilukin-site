@@ -41,7 +41,7 @@ As a lesbian, the premise of a visual novel about a sapphic romance already caug
 {{ container "article", "content__section" }}
 ## Why {{ cite "A Summer’s End — Hong Kong 1986" }} Means a Great Deal to Me
 
-![Screenshot of A Summer’s End with Sam and Michelle kissing](/assets/shrines/asummersend/screenshots/ASE-Screenshot-05.avif)
+![Screenshot of A Summer’s End with Sam and Michelle kissing](/assets/shrines/asummersend/screenshots/ASE-Screenshot-05.webp)
 
 As a Chinese lesbian who speaks Cantonese and had engaged with a lot of Hong Kong media during my teenage years, {{ cite "A Summer’s End — Hong Kong 1986" }} is the lesbian story that I relate to and feel represented the most.
 
