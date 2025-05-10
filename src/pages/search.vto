@@ -38,6 +38,11 @@ eleventyComputed:
     color: var(--clr-link);
 }
 .pagefind-ui__search-input.svelte-e9gkc3::placeholder {
-    opacity:.6;
+    opacity: .6;
 }
+
+.pagefind-ui__search-input.svelte-e9gkc3 {
+    padding: 0 calc(70px * var(--pagefind-ui-scale)) 0 calc(24px * var(--pagefind-ui-scale));
+}
+
 {{ /css }}
