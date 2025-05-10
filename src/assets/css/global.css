@@ -84,7 +84,7 @@
         text-wrap: balance;
     }
 
-    img, picture, video, canvas {
+    img, picture, video, audio, canvas {
         max-width: 100%;
         height: auto;
         display: block;

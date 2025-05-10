@@ -11,6 +11,10 @@ Specifically, in [Episode 110, "Character Creation and Repairing the Ebon Hawk (
 
 <iframe title="Libsyn Player" style="border: none" src="//html5-player.libsyn.com/embed/episode/id/36472305/height/90/theme/custom/thumbnail/yes/direction/forward/render-playlist/no/custom-color/292d36/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
+If you just want to listen to the part about me and my mods, here is the audio clip:
+
+<audio controls src="/host/audio/AMCA_110_Leilukin.mp3"></audio>
+
 Just before I got mentioned, the episode also brought up [PartySwap](/projects/videogamemods/kotor2/#partyswap), another {{ cite "KotOR 2" }} mod that I am maintaining [after the original creator left the {{ cite "KotOR" }} modding scene](/shrines/starwarskotor/articles/partyswap-management-takeover/).
 
 AMCA was not a podcast I was following, so I was not aware of them mentioning me and my works until I received a message from someone named Liam in [my guestbook](/guestbook/):
