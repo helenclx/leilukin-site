@@ -25,7 +25,6 @@ export default function(eleventyConfig) {
         youtube: {
             options: {
                 lazy: true,
-                lite: true,
                 recommendSelfOnly: true,
             }
         }
