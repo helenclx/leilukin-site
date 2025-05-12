@@ -11,7 +11,8 @@
         "start-11ty": "bun run build-11ty --serve --quiet",
         "create-search-index": "bunx -y pagefind --site _site",
         "build": "bun build-11ty --quiet && bun create-search-index",
-        "start": "bun run build --serve"
+        "start": "bun run build --serve",
+        "build-action": "npx @11ty/eleventy --quiet && npx -y pagefind --site _site"
     },
     "type": "module",
     "devDependencies": {
