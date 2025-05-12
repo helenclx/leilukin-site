@@ -3,7 +3,7 @@ articleTitle: Leilukin's Mass Effect Legendary Edition Mod Build
 desc: A list of Mass Effect Legendary Edition mods I use.
 tags: ["contents", "mod lists"]
 topics: ["mass effect", "video game mods"]
-updated: 2025-02-23T17:14:33+0800
+updated: 2025-05-12T16:39:41+0800
 isContentDivided: true
 toc: true
 ---
@@ -2777,6 +2777,19 @@ Mod Author
 
 Category
 : Mechanics Change
+
+---
+
+#### iOS Datapad Messages Integration
+
+Mod Name
+: [iOS Datapad Messages Integration (Text Message Delivery System)](https://www.nexusmods.com/masseffectlegendaryedition/mods/2765)
+
+Mod Author
+: beccatoria
+
+Category
+: Restored Content
 
 ---
 
