@@ -13,7 +13,7 @@ Specifically, in [Episode 110, "Character Creation and Repairing the Ebon Hawk (
 
 If you just want to listen to the part about me and my mods, here is the audio clip:
 
-<audio controls src="/host/audio/AMCA_110_Leilukin.mp3"></audio>
+<audio controls src="https://files.leilukin.com/audio/AMCA_110_Leilukin.mp3"></audio>
 
 Just before I got mentioned, the episode also brought up [PartySwap](/projects/videogamemods/kotor2/#partyswap), another {{ cite "KotOR 2" }} mod that I am maintaining [after the original creator left the {{ cite "KotOR" }} modding scene](/shrines/starwarskotor/articles/partyswap-management-takeover/).
 

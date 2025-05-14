@@ -47,11 +47,11 @@ The sex scenes between Sam and Michelle added by the Passion Patch are easily th
 
 {{ contentWarning "Adult Content" }}
 <!-- NOTE: Due to these images being NSFW, these image files are not stored in this repository locally, and instead are uploaded to the website's /host directory -->
-![Sam kisses Michelle's cleavage and strokes Michelle's thigh](/host/images/asummersend/HK1986-2021-02-06-16-15-22-789.webp){loading="lazy"}
-![Sam licks Michelle's bare stomach](/host/images/asummersend/HK1986-2021-02-06-16-15-32-530.webp){loading="lazy"}
-![Michelle, with her shirt opened and bra exposed, pulls Sam's hand towards her lower body](/host/images/asummersend/HK1986-2021-02-06-16-16-42-897.webp){loading="lazy"}
-![Sam fingers Michelle from the back, and Michelle's breasts and stomach are exposed](/host/images/asummersend/HK1986-2021-02-06-16-16-55-049.webp){loading="lazy"}
-![Sam naked on top of Michelle, who caresses Sam's bare breast](/host/images/asummersend/HK1986-2021-02-06-16-17-03-633.webp){loading="lazy"}
+![Sam kisses Michelle's cleavage and strokes Michelle's thigh](https://files.leilukin.com/images/asummersend/HK1986-2021-02-06-16-15-22-789.webp){loading="lazy"}
+![Sam licks Michelle's bare stomach](https://files.leilukin.com/images/asummersend/HK1986-2021-02-06-16-15-32-530.webp){loading="lazy"}
+![Michelle, with her shirt opened and bra exposed, pulls Sam's hand towards her lower body](https://files.leilukin.com/images/asummersend/HK1986-2021-02-06-16-16-42-897.webp){loading="lazy"}
+![Sam fingers Michelle from the back, and Michelle's breasts and stomach are exposed](https://files.leilukin.com/images/asummersend/HK1986-2021-02-06-16-16-55-049.webp){loading="lazy"}
+![Sam naked on top of Michelle, who caresses Sam's bare breast](https://files.leilukin.com/images/asummersend/HK1986-2021-02-06-16-17-03-633.webp){loading="lazy"}
 
 The screenshots of {{ cite "A Summer’s End" }} Passion Patch on this web page are in WEBP format. I have also uploaded PNG format of these screenshots to [my Postimages gallery](https://postimg.cc/gallery/YBhz5TbR).
 {{ /contentWarning }}

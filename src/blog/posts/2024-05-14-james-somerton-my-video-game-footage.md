@@ -20,12 +20,12 @@ Here is a back-to-back comparison between the clips from my original footage and
 
 <!-- https://www.youtube.com/watch?v=hYyq_hzIIKI -->
 <video controls width="250">
-    <source src="/host/videos/My-Footage-vs-James-Somertons-Video.webm" type="video/webm">
-    <source src="/host/videos/My-Footage-vs-James-Somertons-Video.mp4" type="video/mp4">
+    <source src="https://files.leilukin.com/videos/My-Footage-vs-James-Somertons-Video.webm" type="video/webm">
+    <source src="https://files.leilukin.com/videos/My-Footage-vs-James-Somertons-Video.mp4" type="video/mp4">
     Download the
-    <a href="/host/videos/My-Footage-vs-James-Somertons-Video.webm">WEBM</a>
+    <a href="https://files.leilukin.com/videos/My-Footage-vs-James-Somertons-Video.webm">WEBM</a>
     or
-    <a href="/host/videos/My-Footage-vs-James-Somertons-Video.mp4">MP4</a>
+    <a href="https://files.leilukin.com/videos/My-Footage-vs-James-Somertons-Video.mp4">MP4</a>
     video.
 </video>
 
