@@ -23,7 +23,7 @@ Since I am an adult, I made my website with an adult audience in mind. Therefore
 
 ### Site Meta
 
-{{ sitemeta.siteDomain }} is hosted on [Hostinger](https://www.hostinger.my/).
+{{ sitemeta.siteDomain }} is hosted on a virtual private server (VPS).
 
 Initially, {{ sitemeta.siteName }} was hosted on [Neocities](https://neocities.org/). Now visiting leilukin.neocities.org will redirect you to leilukin.com. That said, I still post about updates to Leilukin's Hub on my Neocities profile, so if you also have a Neocities account, you can still follow me through [my Neocities profile](https://neocities.org/site/leilukin).
 

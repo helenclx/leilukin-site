@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2025-05-14T11:00:28+0800
+updated: 2025-05-14T21:58:55+0800
 toc: true
 eleventyNavigation:
     order: 16
@@ -23,7 +23,7 @@ Information about how this website is built.
 * Web server: [Caddy](https://caddyserver.com/).
 * The domain name, {{ sitemeta.siteDomain }}, was registered on 30 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/)
 
-Previously, this website was hosted on [Neocities](https://neocities.org/) until 31 May 2024, and [Netlify](https://www.netlify.com/) until 25 July 2024.
+Previously, this website was hosted on [Neocities](https://neocities.org/) until 31 May 2024, [Netlify](https://www.netlify.com/) until 25 July 2024, and [Hostinger](https://www.hostinger.com/my) until 14 May 2025.
 
 ## Plugins
 
