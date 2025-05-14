@@ -1,6 +1,6 @@
 # Leilukin's Hub
 
-Source code of my hobby website, [Leilukin's Hub](https://leilukin.com/). Built with [Eleventy](https://www.11ty.dev/) and hosted on [Hostinger](https://www.hostinger.my/).
+Source code of my hobby website, [Leilukin's Hub](https://leilukin.com/). Built with [Eleventy](https://www.11ty.dev/).
 
 More technical information about this website can be found on my site's [colophon page](https://leilukin.com/colophon).
 
@@ -10,7 +10,7 @@ It is recommended to use [Bun](https://bun.sh) as the JavaScript runtime for thi
 
 1. Clone the project repository locally:
     ```
-    git clone https://git.32bit.cafe/Leilukin/leilukin-site.git
+    git clone https://git.leilukin.com/Leilukin/leilukin-site.git
     ```
 1. Install dependencies:
     ```
