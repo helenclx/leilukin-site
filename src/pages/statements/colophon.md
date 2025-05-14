@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2025-05-09T18:42:58+0800
+updated: 2025-05-14T11:00:28+0800
 toc: true
 eleventyNavigation:
     order: 16
@@ -15,11 +15,12 @@ Information about how this website is built.
 * JavaScript runtime: [Bun](https://bun.sh).
 * Templating languages: [Vento](https://vento.js.org/), Markdown and Nunjucks (only for the site's RSS feed).
 * Tested browsers: Mozilla Firefox, Vivaldi and Lynx.
-* Source code available on [32-Bit Cafe's Gitea instance](https://git.32bit.cafe/Leilukin/leilukin-site) and the [repository's GitHub mirror](https://github.com/helenclx/leilukin-site).
+* Source code available on [my Gitea instance](https://git.leilukin.com/Leilukin/leilukin-site) and the [repository's GitHub mirror](https://github.com/helenclx/leilukin-site).
 
 ## Host and Domain
 
-* Deployed to [Hostinger](https://www.hostinger.my/) from this site's repository mirror on GitHub, using the [easingthemes/ssh-deploy](https://github.com/easingthemes/ssh-deploy) GitHub Action.
+* Deployed to my virtual private server (VPS) rented from [Chunkserve](https://chunkserve.com/) from my Gitea instance, using the [easingthemes/ssh-deploy](https://github.com/easingthemes/ssh-deploy) GitHub Action.
+* Web server: [Caddy](https://caddyserver.com/).
 * The domain name, {{ sitemeta.siteDomain }}, was registered on 30 May 2024, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/)
 
 Previously, this website was hosted on [Neocities](https://neocities.org/) until 31 May 2024, and [Netlify](https://www.netlify.com/) until 25 July 2024.
