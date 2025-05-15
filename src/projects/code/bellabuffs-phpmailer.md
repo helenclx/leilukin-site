@@ -1,15 +1,15 @@
 ---
 title: BellaBuffs with PHPMailer Integration
 desc: My fork of BellaBuffs, with PHPMailer powering the email sending features.
-eleventyNavigation:
-    order: 4
 ---
+{{ import { linkBtns } from "components/functions.vto" }}
 
-* [Demo](https://fan.leilukin.com/cassettebeasts){.link-btn}
-* [Source Code (GitHub)](https://github.com/helenclx/BellaBuffs-PHPMailer){.link-btn}
-* [Source Code (Gitea)](https://git.leilukin.com/Leilukin/BellaBuffs-PHPMailer){.link-btn}
-* [Download (GitHub)](https://github.com/helenclx/BellaBuffs-PHPMailer/releases/latest){.link-btn}
-{.link-btn--wrapper}
+{{ linkBtns([
+    { label: "Demo", url: "https://fan.leilukin.com/cassettebeasts" },
+    { label: "Source Code (GitHub)", url: "https://github.com/helenclx/BellaBuffs-PHPMailer" },
+    { label: "Source Code (Gitea)", url: "https://git.leilukin.com/Leilukin/BellaBuffs-PHPMailer" },
+    { label: "Download (GitHub)", url: "https://github.com/helenclx/BellaBuffs-PHPMailer/releases/latest" },
+]) }}
 
 This is a fork of the fanlisting PHP script [BullaBuffs](https://github.com/jemjabella/BellaBuffs), with the email sending library [PHPMailer](https://github.com/PHPMailer/PHPMailer) integrated.
 

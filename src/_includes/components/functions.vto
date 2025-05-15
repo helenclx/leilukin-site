@@ -11,6 +11,14 @@
 </ul>
 {{ /export }}
 
+{{ export function linkBtns(links, marginTop=false) }}
+<div class="link-btn--wrapper {{ marginTop ? " p-margin-top" : "" }}">
+    {{ for link of links }}
+    <a href="{{ link.url }}" class="link-btn">{{ link.label }}</a>
+    {{ /for }}
+</div>
+{{ /export }}
+
 {{ export function modEntry(params) }}
 ### {{ params.title }}
 <div class="mod-entry">

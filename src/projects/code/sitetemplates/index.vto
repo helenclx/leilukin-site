@@ -1,0 +1,22 @@
+---
+title: Website Templates
+desc: Website templates that I designed to be open for public use.
+isContentDivided: true
+---
+<section class="content__section">
+    <p>All my website templates are licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>, meaning they are free to use with no conditions.</p>
+    <p>Unless stated otherwise, all my website layouts are mobile-friendly.</p>
+</section>
+
+{{ import { linkBtns } from "components/functions.vto" }}
+
+<section class="content__section">
+    {{ headingAnchor 2 }}Mocha Latte{{ /headingAnchor }}
+    <img src="/assets/projects/sitetemplates/mochalatte.avif" alt="Preview of Mocha Latte website template">
+    <p>A coffee-themed template, based on and named after my favourite coffee flavour, mocha latte.</p>
+    <p>I created and designed this template as my entry to <a href="https://32bit.cafe/">32-Bit Cafe</a>'s <a href="https://32bit.cafe/spring25/">Spring 2025 Tea Party</a> event.</p>
+    {{ linkBtns([
+        { label: "Demo", url: "./demo/mochalatte/" },
+        { label: "Download Template", url: "https://files.leilukin.com/sitetemplates/mochalatte.7z" },
+    ], true) }}
+</section>

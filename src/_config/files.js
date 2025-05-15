@@ -8,4 +8,5 @@ export default function(eleventyConfig) {
         "./src/assets/favicon/apple-touch-icon.png": "/apple-touch-icon.png",
         "node_modules/@zachleat/details-utils/details-utils.js": "assets/js/details-utils.js",
     });
+    eleventyConfig.addPassthroughCopy("./src/projects/code/sitetemplates/");
 }
