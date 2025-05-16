@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2025-05-05T21:33:03+0800
+updated: 2025-05-16T22:31:51+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -15,6 +15,10 @@ You can also check out my [status.cafe profile](https://status.cafe/users/leiluk
 
 ## Attended 42 the Computer Science School
 
-From April 7 to May 2, I attended a Malaysian campus of the [42 computer science school](https://www.42network.org/), by participating in their 26-day bootcamp named the Piscine.
+From April 7 to May 2, I attended a Malaysian campus of the [42 computer science school](https://www.42network.org/), by participating in their 26-day bootcamp named the Piscine. On 16 May 2025, I was informed that I succeed in passing the Piscine and is eligible for 42's core curriculum.
 
 You can read more about my life at 42 the computer science school in my blog posts under the ["42 the school"](/topics/42-the-school/) category.
+
+## Starting to Self-Host on a Virtual Private Server (VPS)
+
+In November 2024, I rented a virtual private server (VPS) because I was interested in self-hosting, and now I have officially started hosting things on my VPS, including all my websites.
