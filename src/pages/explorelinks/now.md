@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2025-05-16T22:31:51+0800
+updated: 2025-05-20T00:00:29+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -22,3 +22,5 @@ You can read more about my life at 42 the computer science school in my blog pos
 ## Starting to Self-Host on a Virtual Private Server (VPS)
 
 In November 2024, I rented a virtual private server (VPS) because I was interested in self-hosting, and now I have officially started hosting things on my VPS, including all my websites.
+
+You can learn more about my journey to self-hosting on my blog post, ["My Virtual Private Server Arc Has Officially Begun"](/blog/posts/2025-05-19-my-vps-arc-began/).
