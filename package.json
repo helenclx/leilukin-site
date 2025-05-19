@@ -4,7 +4,7 @@
     "author": "Leilukin",
     "repository": {
         "type": "git",
-        "url": "https://git.32bit.cafe/Leilukin/leilukin-site"
+        "url": "https://git.leilukin.com/Leilukin/leilukin-site"
     },
     "scripts": {
         "build-11ty": "bunx @11ty/eleventy",
