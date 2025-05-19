@@ -23,4 +23,4 @@ You can read more about my life at 42 the computer science school in my blog pos
 
 In November 2024, I rented a virtual private server (VPS) because I was interested in self-hosting, and now I have officially started hosting things on my VPS, including all my websites.
 
-You can learn more about my journey to self-hosting on my blog post, ["My Virtual Private Server Arc Has Officially Begun"](/blog/posts/2025-05-19-my-vps-arc-began/).
+You can learn more about my journey to learn VPS and self-hosting on my blog post, ["My Virtual Private Server Arc Has Officially Begun"](/blog/posts/2025-05-19-my-vps-arc-began/).
