@@ -28,3 +28,4 @@ More information about my BellaBuffs fork and instructions for how to use it can
 * Update list of countries
 * Add a buttons folder (with a placeholder file to enable the folder to be pushed via Git), so users do not need to manually create the folder to store uploaded buttons
 * Allows fnalisting members to change their favourites with the update form if favourites field is enabled
+* Add the option to enable a security question field on the join and contact forms to improve anti-spam measures.
