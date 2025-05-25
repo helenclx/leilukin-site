@@ -17,8 +17,6 @@
     outline-offset: 0.05em;
 }
 
-.heading-anchor [hidden] { display: block; }
-
 /* BLOCKQUOTES With CITATIONS */
 .c-blockquote__attribution { text-align: left; }
 
