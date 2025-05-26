@@ -4,7 +4,7 @@ date: 2025-05-26T08:32:36+0800
 desc: If it has not existed already, I would like a variation of RTFM for when commenters clearly do not read the video description.
 topics: ["youtube"]
 ---
-I have never considered myself a YouTuber, since despite having uploaded videos to YouTube, I do not make money from YouTube, and I have no intention to. I am not a "content creator" either — I dislike the term and how various kinds of art or creative output gets flattened to the meaningless term of "content", so I refuse to identify as a "content creator" and be called a "content creator".
+I have never considered myself a YouTuber, since despite having uploaded videos to YouTube, I do not make money from YouTube, and I have no intention to. I am not a "content creator" either — I dislike the term and how various kinds of art or creative output gets flattened into the meaningless term of "content", so I refuse to identify as a "content creator" and be called a "content creator".
 
 The videos I upload to my YouTube channel are also footages from video games I love or play a lot, especially footages of cutscenes that very few people or even no one else has shared on YouTube. I shared these videos for free for others to enjoy. I made the deliberate decision to not add my voice commentary to the video game footages I uploaded, because I also shared these videos for archival and reference purposes.
 
