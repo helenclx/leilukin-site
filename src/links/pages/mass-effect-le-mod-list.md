@@ -3,7 +3,7 @@ articleTitle: Leilukin's Mass Effect Legendary Edition Mod Build
 desc: A list of Mass Effect Legendary Edition mods I use.
 tags: ["contents", "mod lists"]
 topics: ["mass effect", "video game mods"]
-updated: 2025-05-28T17:42:59+0800
+updated: 2025-05-28T17:48:49+0800
 isContentDivided: true
 toc: true
 ---
@@ -1257,6 +1257,19 @@ Mod Author
 
 Category
 : Immersion
+
+---
+
+#### Cerberus Daily News Emails (LE2)
+
+Mod Name
+: [Cerberus Daily News Emails (LE2)](https://www.nexusmods.com/masseffectlegendaryedition/mods/1624)
+
+Mod Author
+: Cirosan
+
+Category
+: Restored Content
 
 ---
 
@@ -3029,7 +3042,7 @@ Mod Author
 : Cirosan
 
 Category
-: Modified Content
+: Immersion & Modified Content
 
 ---
 
