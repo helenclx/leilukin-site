@@ -3,7 +3,7 @@ articleTitle: Leilukin's Stardew Valley Mod Build
 desc: A list of Stardew Valley mods I use.
 tags: ["contents", "mod lists"]
 topics: ["stardew valley", "video game mods"]
-updated: 2025-04-18T06:30:06+0800
+updated: 2025-05-28T17:38:00+0800
 isContentDivided: true
 toc: true
 ---
@@ -1092,10 +1092,6 @@ SMAPI Required
 
 Content Patcher Required
 : Yes
-
-Other Required Files
-: * [Anti-Social NPCs](https://www.nexusmods.com/stardewvalley/mods/5371) by Super Aardvark
-: * [Custom NPC Exclusions](https://www.nexusmods.com/stardewvalley/mods/7089) by Esca-MMC
 
 Leilukin’s Comment
 : I highly recommend reading Tumblr user jojaqualityheadcanons‘ post about the [issues with the Ginger Island content](https://jojaqualityheadcanons.tumblr.com/post/646056190629052416/sdvs-15-update-contains-content-that-plays-into).
