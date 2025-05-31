@@ -1,5 +1,5 @@
 ---
-articleTitle: "RTFVD - Read the Fucking Video Description"
+articleTitle: "RTFVD: Read the Fucking Video Description"
 date: 2025-05-26T08:32:36+0800
 desc: If it has not existed already, I would like a variation of RTFM for when commenters clearly do not read the video description.
 topics: ["youtube"]
