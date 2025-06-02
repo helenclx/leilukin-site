@@ -1,8 +1,23 @@
 ---
-layout: layouts/links
+layout: layouts/main
 title: Links
 desc: A curated collection of links.
-hasTooltips: true
+isContentDivided: true
 eleventyNavigation:
     order: 10
 ---
+<section class="content__section">
+    <h2>Link to My Website</h2>
+    {{ include "components/my-button.vto" }}
+</section>
+
+{{ set linkGroups = collections["link groups"] }}
+<section class="content__section">
+    <h2>Links by Category</h2>
+    <p>My curated collection of links, grouped by category.</p>
+    <ul>
+        {{ for group of linkGroups }}
+        <li><a href="{{ group.url }}">{{ group.data.pageTitle }}</a></li>
+        {{ /for }}
+    </ul>
+</section>

@@ -1,5 +1,5 @@
 ---
-articleTitle: Leilukin's Stardew Valley Mod Build
+pageTitle: Leilukin's Stardew Valley Mod Build
 desc: A list of Stardew Valley mods I use.
 tags: ["contents", "mod lists"]
 topics: ["stardew valley", "video game mods"]

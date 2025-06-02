@@ -1,7 +1,8 @@
 ---
-title: Resources
+pageTitle: Resources
 date: 2024-08-02
 updated: 2025-02-24T08:50:56+0800
+desc: Resources I have curated.
 toc: true
 ---
 

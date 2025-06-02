@@ -1,5 +1,5 @@
 ---
-articleTitle: Leilukin's Mass Effect Legendary Edition Mod Build
+pageTitle: Leilukin's Mass Effect Legendary Edition Mod Build
 desc: A list of Mass Effect Legendary Edition mods I use.
 tags: ["contents", "mod lists"]
 topics: ["mass effect", "video game mods"]

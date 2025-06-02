@@ -1,7 +1,8 @@
 ---
-title: Webweaving
+pageTitle: Webweaving
 date: 2024-07-01
 updated: 2025-06-02T09:15:35+0800
+desc: My curated resources and guides for making your own website.
 toc: true
 ---
 

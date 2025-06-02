@@ -1,11 +1,11 @@
 export default {
-    layout: "layouts/main",
+    layout: "layouts/slashpage",
     permalink: "/links/{{ page.fileSlug }}/",
     hasBreadcrumbs: true,
     eleventyComputed: {
-        title: (data) => `${data.articleTitle} | Links`,
+        title: (data) => `${data.pageTitle} | Links`,
         eleventyNavigation: {
-            key: (data) => data.articleTitle,
+            key: (data) => data.pageTitle,
             parent: "Links"
         }
     }
