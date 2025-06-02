@@ -1,11 +1,17 @@
 ---
-title: Webmastery
+title: Webweaving
 date: 2024-07-01
-updated: 2025-05-09T13:00:46+0800
+updated: 2025-06-02T09:15:35+0800
 toc: true
 ---
 
-### Webmastery Tutorials
+I adopted the term "webweaving" from [32-Bit Cafe](https://32bit.cafe/), particularly its [Discourse forum](https://discourse.32bit.cafe/) to refer to the activity of creating and developing websites especially in hobby contexts.
+
+### Getting Started in Webweaving
+
+* [You Can Make A Website](https://osteophage.neocities.org/essays/you-can-make-a-website) by Coyote
+
+### Webweaving Tutorials
 
 * [HTML for People](https://htmlforpeople.com/) by Blake Watson
 * [Make Your Own Website](https://web.pixelshannon.com/make/) by Shannon Kay
@@ -14,13 +20,13 @@ toc: true
 * [How to build your own RSS Feed](https://caffeineandlasers.neocities.org/blogs/rss) by Cameron Jones
 * [Roll your own RSS feed](https://thedabbler.patatas.ca/pages/roll_your_own_rss.html) by patatas
 
-### Webmastery Guides
+### Webweaving Guides
 
 * [Reducing HTML Redundancy](https://owlsroost.xyz/articles/2023-12-23-reducing-html-redundancy.html) by Owl
 * [How to Make Your Site Mobile-Friendly](https://owlsroost.xyz/articles/2024-06-24-how-to-make-your-site-mobile-friendly.html) by Owl
 * [How to Favicon: Three files that fit most needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs) by Irina Nazarova
 
-### Webmastery Resources
+### Webweaving Resources
 
 * [Resources List for the Personal Web](https://discourse.32bit.cafe/t/resources-list-for-the-personal-web/49) by 32-Bit Cafe — I have also contributed to this list
 * [Can I use...](https://caniuse.com/) — Check browser compatibility for web features
@@ -31,7 +37,7 @@ toc: true
 
 * [Ideas for Your Personal Website](https://32bit.cafe/websiteideas/) by 32-Bit Cafe
 * [Slash Pages](https://slashpages.net/)
-- [Bekah's Blog Idea Generator](https://www.thefrugalgamer.net/programming/blogPrompts/)
+* [Bekah's Blog Idea Generator](https://www.thefrugalgamer.net/programming/blogPrompts/)
 
 ### Web Accessibility
 
