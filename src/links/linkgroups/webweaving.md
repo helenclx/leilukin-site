@@ -5,14 +5,17 @@ updated: 2025-06-02T09:15:35+0800
 desc: My curated resources and guides for making your own website.
 toc: true
 ---
+I adopted the term "webweaving" from [32-Bit Cafe](https://32bit.cafe/), particularly its [Discourse forum](https://discourse.32bit.cafe/) to refer to the activity of making and developing websites in hobby contexts. In essence, webweaving is hobbyist web design and web development.
 
-I adopted the term "webweaving" from [32-Bit Cafe](https://32bit.cafe/), particularly its [Discourse forum](https://discourse.32bit.cafe/) to refer to the activity of creating and developing websites especially in hobby contexts.
+## Why Have Your Own Website
 
-### Getting Started in Webweaving
+* [You should have a website](https://nora.zone/manifesto.html) by Nora Reed
+
+## Getting Started with Making Your Website
 
 * [You Can Make A Website](https://osteophage.neocities.org/essays/you-can-make-a-website) by Coyote
 
-### Webweaving Tutorials
+## Webweaving Tutorials
 
 * [HTML for People](https://htmlforpeople.com/) by Blake Watson
 * [Make Your Own Website](https://web.pixelshannon.com/make/) by Shannon Kay
@@ -21,26 +24,26 @@ I adopted the term "webweaving" from [32-Bit Cafe](https://32bit.cafe/), particu
 * [How to build your own RSS Feed](https://caffeineandlasers.neocities.org/blogs/rss) by Cameron Jones
 * [Roll your own RSS feed](https://thedabbler.patatas.ca/pages/roll_your_own_rss.html) by patatas
 
-### Webweaving Guides
+## Webweaving Guides
 
 * [Reducing HTML Redundancy](https://owlsroost.xyz/articles/2023-12-23-reducing-html-redundancy.html) by Owl
 * [How to Make Your Site Mobile-Friendly](https://owlsroost.xyz/articles/2024-06-24-how-to-make-your-site-mobile-friendly.html) by Owl
 * [How to Favicon: Three files that fit most needs](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs) by Irina Nazarova
 
-### Webweaving Resources
+## Webweaving Resources
 
 * [Resources List for the Personal Web](https://discourse.32bit.cafe/t/resources-list-for-the-personal-web/49) by 32-Bit Cafe — I have also contributed to this list
 * [Can I use...](https://caniuse.com/) — Check browser compatibility for web features
 * [SVGOMG](https://jakearchibald.github.io/svgomg/) — SVG optimiser
 * [URL-encoder for SVG](https://yoksel.github.io/url-encoder/)
 
-### Ideas for Your Website
+## Ideas for Your Website
 
 * [Ideas for Your Personal Website](https://32bit.cafe/websiteideas/) by 32-Bit Cafe
 * [Slash Pages](https://slashpages.net/)
 * [Bekah's Blog Idea Generator](https://www.thefrugalgamer.net/programming/blogPrompts/)
 
-### Web Accessibility
+## Web Accessibility
 
 * [The Access Manifesto](https://joeclark.org/book/sashay/serialization/AccessManifesto.html) by Joe Clark — Worth noting that this was originally written in 2002
 * [You Should Care About Accessibility](https://owlsroost.xyz/articles/2023-08-20-you-should-care-about-accessibility.html) by Owl
@@ -52,7 +55,7 @@ I adopted the term "webweaving" from [32-Bit Cafe](https://32bit.cafe/), particu
 * [Screen reader testing: how to test your website's accessibility](https://www.siteimprove.com/glossary/screen-reader-testing/) by Siteimprove
 * [Web Content Accessibility Guidelines (WCAG) in Plain English](https://aaardvarkaccessibility.com/wcag-plain-english/) by Ardvark
 
-### Eleventy
+## Eleventy
 Resources for learning to use the static site generator [Eleventy](https://www.11ty.dev/), which is also used for building {{ sitemeta.siteName }}.
 
 * [The 11ty Bundle](https://11tybundle.dev/) — Collection of Eleventy resources
