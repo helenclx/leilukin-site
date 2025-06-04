@@ -65,7 +65,7 @@ I have been featured in other media as well; see my [Featured page](/featured) f
 
 ### Contact Me
 
-The best way to contact me is via email: [{{ sitemeta.siteAuthor.emailEncoded }}]({{ sitemeta.siteAuthor.emailDecoyUrl }}){rel="nofollow, noindex"}. Using [plain text email](https://useplaintext.email/) is encouraged.
+The best way to contact me is via email: [{{ sitemeta.siteAuthor.emailEncoded }}]({{ sitemeta.siteAuthor.emailDecoyUrl }}){rel="nofollow, noindex"}. I also have a [PGP key](https://keys.openpgp.org/search?q=contact%40leilukin.com) ([Learn more about PGP](https://www.maketecheasier.com/pgp-encryption-how-it-works/)). Using [plain text email](https://useplaintext.email/) is encouraged.
 
 Other online platforms you can find me on:
 
