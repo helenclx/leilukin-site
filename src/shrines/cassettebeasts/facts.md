@@ -228,6 +228,16 @@ Tom Coxon's favourite monster catching game is {{ cite "Siralim Ultimate" }}.^[T
 
 This section compiles topics that do not fit into other sections of this page, but are commonly asked about by {{ cite "Cassette Beasts" }} players that have been answered officially by Bytten Studio.
 
+### {{ cite "Cassette Beasts" }} on Nintendo Switch 2
+
+On 6 June 2025, Bytten Studio made an [official statement](https://bsky.app/profile/byttenstudio.bsky.social/post/3lqx2q4lne226) about how {{ cite "Cassette Beasts" }} performs on Nintendo Switch 2, and potential plans for Nintendo Switch 2 version of the game:
+
+> Hey everyone! With the release of the Nintendo Switch 2, we've found that whilst Cassette Beasts has improved loading times on the console, it also has hitches not present when played on original Switch hardware.
+>
+> We believe that this is because a shader cache that was developed to improve performance on Switch does not load correctly on the new console.
+>
+> We're hoping to be able to develop a Switch 2 version of the game that can fix these problems (and possibly have further graphical improvements) as soon as we're able. We'll keep the community updated whenever possible!
+
 ### {{ cite "Cassette Beasts" }} not available on PlayStation
 
 Jay Baylis had addressed the subject of {{ cite "Cassette Beasts" }} not being available on PlayStation in a [thread on the official {{ cite "Cassette Beasts" }} Subreddit](https://discord.com/channels/@me/1151846241588752474/1238016445498134548):
