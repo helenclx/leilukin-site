@@ -3,7 +3,7 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic Mod Build"
 desc: "A list of Star Wars: Knights of the Old Republic mods I use."
 tags: ["contents", "mod lists"]
 topics: ["star wars kotor", "video game mods"]
-updated: 2025-05-09T08:09:33+0800
+updated: 2025-06-07T08:59:49+0800
 isContentDivided: true
 toc: true
 ---
@@ -51,7 +51,7 @@ I have no plans on including K1R in my mod build because:
 ### Rescaled and Remastered Cutscenes
 
 Mod Name
-: [K1 Cutscenes Rescaled](https://www.nexusmods.com/kotor/mods/1306)
+: [K1 Cutscenes Rescaled](https://deadlystream.com/files/file/2380-k1-cutscenes-rescaled/)
 
 Mod Author
 : Pops Maellard
@@ -63,7 +63,7 @@ Tier
 : Tier 1 - Essential
 
 Download Note
-: I choose the 60 FPS 1920x1080 version. Note that while this is the best {{ cite "KotOR" }} movie cutscene mod for to date, this mod has a *huge* file size (at least 15 GB), so if you have poor Internet connection or limited drive space, it would be a better idea to use Naelavok's version of remastered cutscenes below instead.
+: I choose the 30 FPS 1920x1080 version. Note that while this is the best {{ cite "KotOR" }} movie cutscene mod for to date, this mod has a *huge* file size (at least 15 GB), so if you have poor Internet connection or limited drive space, it would be a better idea to use Naelavok's version of remastered cutscenes below instead.
 
 ---
 
