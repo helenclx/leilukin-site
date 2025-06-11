@@ -1,0 +1,23 @@
+---
+articleTitle: Bye, Bandicam, and Hello Again, OBS Studio
+desc: I finally decided to ditch Bandicam for good and instead use OBS Studio as my PC gaming screenshot and recording software.
+date: 2025-06-11T19:58:56+0800
+topics: ['gaming']
+---
+I have played video games for most of my life, but I did not truly consider gaming my hobby, and myself a gamer, until I attended university more than a decade ago. It was during the time when I discovered [Fraps](https://en.wikipedia.org/wiki/Fraps), the first screen capture and screen recording software I ever used. I am primarily a PC gamer, and enjoy taking screenshots or recordings of various moments of video games to preserve memories of those moments with images or videos. Various YouTube channels dedicated to sharing footage of video games also encouraged me to use [my own YouTube channel](https://www.youtube.com/Leilukin) for that purpose, especially for scenes in video games that lack similar footage elsewhere on YouTube.
+
+Unfortunately, as years gone by, those of us who used Fraps began to realise that Fraps was dead, as its last release was in 2013, not long after I started to consider myself a gamer. As a result, I looked for alternatives, and settled for [Bandicam](https://en.wikipedia.org/wiki/Bandicam). Since I use a screen capture and screen recording a lot, I was willing to pay for a licence to permanently unlock more features if Bandicam, such as unlimited time for screen recording.
+
+I purchased the Bandicam licence in November 2016, and the software has served my needs well throughout the years... until now.
+
+Enter [OBS Studio](https://obsproject.com/) — I discovered the free and open-source screen recording and livestreaming software when I started to use Linux via dual booting Windows and Linux back in around 2020 when I looked for alternatives to Bandicam that supported Linux. Unfortunately, back then OBS Studio did not support taking screenshots, which was *the* purpose I used Bandicam for other than screen recording. Therefore, I continued to stick to Bandicam for screen capture and screen recording, and OBS Studio not being enough to be a true replacement at the time was one of the reasons I did not play video games on Linux.
+
+(Side note: after dual booting Windows and Linux for about a year, I decided that dual booting was too much of a hassle, so I went back to Windows as my main operating system again. After [Windows Subsystem for Linux](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) was released, it became my main method of using Linux)
+
+Two days ago, I decided to reset my PC, by deleting all my personal files in the system drive to reinstall the software I use from scratch. However, when I downloaded and installed Bandicam 2025, the latest version of Bandicam, the software informed me that I needed to upgrade my licence to use the latest version of Bandicam, since the old Bandicam licence only supports Bandicam versions older than Bandicam 2025. In other words, despite already having spent money for premium access to the software, I needed to spend more money if I want to use the latest version of Bandicam with premium features unlocked.
+
+This compelled me to look into OBS Studio again, and was pleased to discover that OBS Studio has added support for taking screenshots with a hotkey. When I tested using OBS Studio with a video game open, I was even more pleased to find that both the screenshot and screen recording features worked great. With Bandicam, I had to choose to save screenshots in BMP format and convert it to PNG, mu preferred format, since I found that taking screenshots in PNG format directly with Bandicam actually caused the games I opened to lag for a bit. In contrast, that was not an issue with OBS Studio, which saves screenshots in PNG format by default.
+
+At this point, my decision to ditch Bandicam and switch to OBS Studio as my video game screen capture and recording software for good is a no-brainer. In addition to having more useful features for screen capture and screen recording than even the paid version of Bandicam, OBS Studio is a free — in both freedom *and* price — and open-source software that supports Windows, macOS and Linux, while Bandicam is closed-source that supports Windows only. Despite having used Bandicam for almost a decade, I am not going to miss Bandicam for a bit, especially when a free and open-source software like OBS Studio has outclassed it.
+
+As a PC gamer, I can now confidently say that OBS Studio is superior to Fraps and Bandicam, and I would recommend it in a heartbeat to any other PC gamers who want to take screenshots and record footage of the video games they play.
