@@ -2,6 +2,7 @@
 <meta name=fediverse:creator content={{ sitemeta.fediverseHandle }}>
 <meta name=description content={{ desc }}>
 <meta property=og:description content={{ desc }}>
+<meta property="og:title" content="{{ title ? title : sitemeta.siteName }}">
 <meta property="og:site_name" content="{{ sitemeta.siteName }}">
 <meta property=og:type content={{ (isArticle || articleElement) ? "article" : "website" }}>
 <meta property=og:url content={{ sitemeta.siteUrl }}{{ page.url }}>
