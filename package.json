@@ -13,6 +13,7 @@
         "build": "bun build-11ty --quiet && bun create-search-index",
         "start": "bun run build --serve",
         "rebuild": "rm -r _site && bun run build",
+        "restart": "rm -r _site && bun run build --serve",
         "build-action": "npx @11ty/eleventy && npx -y pagefind --site _site"
     },
     "type": "module",
