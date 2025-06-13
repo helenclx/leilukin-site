@@ -3,7 +3,7 @@ pageTitle: Leilukin's Mass Effect Legendary Edition Mod Build
 desc: A list of Mass Effect Legendary Edition mods I use.
 tags: ["contents", "mod lists"]
 topics: ["mass effect", "video game mods"]
-updated: 2025-05-28T17:48:49+0800
+updated: 2025-06-14T04:45:07+0800
 isContentDivided: true
 toc: true
 ---
@@ -2923,6 +2923,19 @@ Category
 
 ---
 
+#### Samara's Daughters
+
+Mod Name
+: [Samara's Daughters](https://www.nexusmods.com/masseffectlegendaryedition/mods/1554)
+
+Mod Author
+: Murple
+
+Category
+: Appearance Change
+
+---
+
 #### Virmire Savior Mod (LE3)
 
 Mod Name
@@ -3004,10 +3017,10 @@ Download Note
 
 ---
 
-#### MIranda Mod
+#### Miranda Mod
 
 Mod Name
-: [MIranda Mod (LE)](https://www.nexusmods.com/masseffectlegendaryedition/mods/1350)
+: [Miranda Mod (LE)](https://www.nexusmods.com/masseffectlegendaryedition/mods/1350)
 
 Mod Author
 : Kinkojiro
