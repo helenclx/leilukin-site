@@ -1,0 +1,23 @@
+---
+articleTitle: Nexus Mods Has Been Sold
+desc: As a PC gamer who has created video game mods, the acquisition of the largest video game mod website on Earth is a major news.
+date: 2025-06-19T22:39:41+0800
+topics: ['gaming']
+---
+[Nexus Mods](https://www.nexusmods.com/), the largest video game mods on Earth, has been sold.
+
+I first learned of the news from [AlternativeTo](https://alternativeto.net/news/2025/6/nexus-mods-sold-after-24-years-veteran-staff-take-lead-as-founder-steps-back/), which I use regularly as a resource for discovering more software, and subscribed to its RSS feed to follow software news. The founder of Nexus Mods [announced](https://www.nexusmods.com/news/15301) the ownership transfer, and he is stepping down due to burnout in an official post. A founder being burnt out from the responsibilities and thus wanting to transfer ownership is understandable. However, I already sensed that not disclosing the identity of the new owner was not a good sign.
+
+If you are a PC gamer, doubly so if you are ever interested in video game mods, you most likely would have at least heard of Nexus Mods, so the acquisition of Nexus Mods is a big news. I have created mods for [{{ cite "Star Wars: Knights of the Old Republic" }}](/projects/videogamemods/kotor1/) and its sequel [{{ cite "The Sith Lords" }}](/projects/videogamemods/kotor2/) and I use many mods for both games myself. I also use mods for some other video games, including [{{ cite "Stardew Valley" }}](/links/stardew-valley-mod-list/) and [{{ cite "Mass Effect" }}](/links/mass-effect-le-mod-list/). Therefore, I am a regular user of Nexus Mods, and in March 2024, I even received a [lifetime premium membership for free](/blog/posts/2024-03-06-i-received-a-lifetime-premium-membership-on-nexus-mods-for-free/) from Nexus Mods themselves for my mods.
+
+Two days after Nexus Mods' official announcement, [Aftermath](https://aftermath.site/)'s article about Nexus Mods getting sold, ["New Nexus Mods Owners Scramble To Assuage Community Concerns Following Sale By Burnt Out Founder"](https://aftermath.site/nexus-mods-new-owners-chosen-monetization), arrived at my RSS feed reader. This article was when I learned that people have been digging and finding out the new owner of Nexus Mods is a company named [Chosen](https://wearechosen.io/), which, as described by Aftermath:
+
+> [...] bills itself as a less-terrible alternative to venture capital and private equity, but it still very much speaks in terms of scale and monetization.
+
+It is true that running a huge website that hosts files for the public to download, especially one that has a large user base, costs a serious amount of money. It also does not help that like other forms of fan works and derivative works, video game modifications are in a [legal grey area](https://en.wikipedia.org/wiki/Video_game_modding#Legal_status_of_mods) due to potential copyright infringement, thus most modding communities forbid selling mods. However, with [enshitiffication](https://en.wikipedia.org/wiki/Enshittification) of online platforms being a phenomenon, users have every right to be worried that transferring ownership to a company focusing on monetisation would speed up the decline of Nexus Mods.
+
+On my part, I am not ruling out the possibility of me pulling my mods out from Nexus Mods in the future. All my mods that are hosted on Nexus Mods are for {{ cite "Star Wars: Knights of the Old Republic" }} series, and the main hub for {{ cite "KotOR" }}'s modding community is actually [Deadly Stream](https://deadlystream.com/), not Nexus Mods, so even if I remove all my mods from Nexus Mods, you can still find them on and downloaded them from Deadly Stream.
+
+To be honest, the only reason I uploaded my mods to Nexus was in the first place because it is _the_ largest video game mod website, so sharing my mods on Nexus Mods helped improved my mods' visibility, especially for my same-gender romance mods, which I created and shared for fellow queer {{ cite "KotOR" }} players. In fact, sharing my same-gender romance mods for {{ cite "KotOR 2" }} on Nexus Mods was what led me to [get interviewed by Ars Technica](/featured/kotor2-modder-interview-ars-technica/) at one point. However, Deadly Stream remains my go-to recommendation for others for looking for {{ cite "KotOR" }} mods. Nexus Mods' acquisition makes me appreciate the existence of Deadly Stream as a modding community platform independent of large, centralised platforms like Nexus Mods even more.
+
+We shall see what will happen with Nexus Mods under the new ownership, but I have no expectation that the platform will become better.
