@@ -3,7 +3,7 @@ pageTitle: Leilukin's Stardew Valley Mod Build
 desc: A list of Stardew Valley mods I use.
 tags: ["contents", "mod lists"]
 topics: ["stardew valley", "video game mods"]
-updated: 2025-05-28T17:38:00+0800
+updated: 2025-06-25T13:49:33+0800
 isContentDivided: true
 toc: true
 ---
@@ -988,7 +988,7 @@ Content Patcher Required
 ### Elaho's Babies and Toddlers Expanded
 
 Mod Name
-: [Elaho's Babies and Toddlers Expanded](https://www.nexusmods.com/stardewvalley)
+: [Elaho's Babies and Toddlers Expanded](https://www.nexusmods.com/stardewvalley/mods/10411)
 
 Mod Author
 : Elaho
@@ -1073,7 +1073,7 @@ Leilukin’s Comment
 
 ---
 
-### inger Island NPC Overhaul
+### Ginger Island NPC Overhaul
 
 Mod Name
 : [Ginger Island NPC Overhaul](https://www.nexusmods.com/stardewvalley/mods/9242)
@@ -1142,7 +1142,7 @@ Content Patcher Required
 
 ---
 
-### lle's Cat Replacements
+### Elle's Cat Replacements
 
 Mod Name
 : [Elle's Cat Replacements](https://www.nexusmods.com/stardewvalley/mods/3872)
