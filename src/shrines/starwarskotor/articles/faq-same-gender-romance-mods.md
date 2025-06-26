@@ -1,7 +1,7 @@
 ---
 articleTitle: "Frequently Asked Questions (FAQ) for My Star Wars: KotOR Same-Gender Romance Mods"
 date: 2021-09-25
-updated: 2025-04-13T07:24:26+0800
+updated: 2025-06-26T20:45:00+0800
 desc: "Frequently asked questions for my same-gender romance mods for Star Wars: Knights of the Old Republic series."
 tags: kotor both articles
 topics: ["star wars kotor", "star wars kotor 2", "video game mods"]
@@ -113,13 +113,18 @@ If you are having issues with using TSLRCM, I suggest you report the bugs you en
 
 ### How to install your mods on macOS or Linux?
 
-Unfortunately, I cannot directly help with modding the {{ cite "KotOR" }} games on macOS or Linux, because I have only played the games on Windows. However, the {{ cite "KotOR" }} games can be modded on macOS or Linux.
+Unfortunately, I cannot directly help with modding the {{ cite "KotOR" }} games on macOS, because I have never played video games on macOS. However, you may refer to [KOTOR Community Portal's guide for modding {{ cite "KotOR" }} on macOS](https://kotor.neocities.org/modding/mod_builds/macos).
 
-For macOS, you may refer to [KOTOR Community Portal's guide for modding {{ cite "KotOR" }} on macOS](https://kotor.neocities.org/modding/mod_builds/macos).
+For Linux, if you play Steam's native Linux version of {{ cite "KotOR 2" }}, there are specific steps you need to take if you want to install mods, so the mods would work properly.
 
-For Linux, KOTOR Community Portal's modding guide [recommends](https://kotor.neocities.org/modding/mod_builds/k2/full#Linux_Players) installing mods on a case-insensitive file system, with VFAT recommended as an option by other users. Otherwise, you will need to rename a huge number of files. Additionally, the [FAQ page of KOTOR Community Portal's modding guide](https://kotor.neocities.org/modding/mod_builds/faq) notes that:
+Firstly, you need to install mods in the `steamassets` folder of Steam's directory for its native Linux version of {{ cite "KotOR 2" }}. This means all override files need to be placed into the override folder in this `steamassets` folder, and all executable installers need to be pointed to the `steamassets` folder as if it were the base installation directory. 
 
-> The Linux version on Steam (possibly also on GoG; this is unconfirmed) has two override folders, one in the main game directory and one in a "steamassets" folder. For the installation to function properly, all override files need to be placed into the override folder in this steamassets folder, and all executable installers need to be pointed to the steamassets folder as if it were the base installation directory.
+Secondly, you need to find a way to handle Linux file system's case sensitivity, to ensure the mods you install will be detected and loaded properly by the game. There are two ways to solve this:
+
+1. Install Steam's native Linux version of {{ cite "KotOR 2" }} and {{ cite "KotOR 2" }} mods on a case-insensitive file system, such as VFAT.
+1. Rename all files of the mods you want to install to lowercase file names.
+
+However, if you do not play Steam's native Linux port of {{ cite "KotOR 2" }} (such as switching to the legacypc version by setting the game's properties on Steam, or playing the GOG version), you can simply play {{ cite "KotOR 2" }} with Wine/Proton, and follow the same steps to install mods as the Windows version of the game.
 
 ### How to install your mods on a console (Xbox/Nintendo Switch) or mobile (Android/iOS) version of {{ cite "KotOR" }} or {{ cite "KotOR 2" }}?
 
