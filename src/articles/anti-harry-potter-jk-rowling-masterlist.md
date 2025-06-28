@@ -1,7 +1,7 @@
 ---
 articleTitle: Anti-Harry Potter and Anti-J. K. Rowling Masterlist
 date: 2023-03-19
-updated: 2025-03-05T07:43:53+0800
+updated: 2025-06-28T08:51:47+0800
 desc: My masterlist of criticisms of the Harry Potter series and J. K. Rowling.
 topics: ["harry potter", "jk rowling"]
 toc: true
@@ -11,7 +11,7 @@ toc: true
 This site is Harry Potter free. Lookin [<i>sic</i>] for it? Leave.
 {{ /imgFigure }}
 
-(Credit to Tumblr user [comradesaucegay](https://comradesaucegay.tumblr.com/post/621403039459426304) ([archived](https://web.archive.org/web/20241122135107/https://comradesaucegay.tumblr.com/post/621403039459426304/grumpsaesthetics-you-know-those-old-hentai-free)) for this Harry Potter-free website banner){.center-text}
+(Credit to Tumblr user [comradesaucegay](https://comradesaucegay.tumblr.com/post/621403039459426304) ([Archived](https://web.archive.org/web/20241122135107/https://comradesaucegay.tumblr.com/post/621403039459426304/grumpsaesthetics-you-know-those-old-hentai-free)) for this Harry Potter-free website banner){.center-text}
 
 Like many Millennials, I grew up with the {{ cite "Harry Potter" }} series and was a major fan of the series. I had read the original 7 books and watched their film adaptations. The series was a passion of mine during my early- to mid-teen years. While the {{ cite "Harry Potter" }} novels were far from the first books I read, they were the first fantasy novels I read, and the series’ concept of a magical world set in a contemporary setting fascinated teenage me.
 
@@ -28,9 +28,9 @@ Therefore, I am compiling this masterlist by curating various materials that are
 * [The Antisemitism of ‘Harry Potter’ Returns in ‘Hogwarts Legacy’](https://www.themarysue.com/is-hogwarts-legacy-anti-semitic-hogwarts-legacy-anti-semitic-allegations-explained/) by Jack Doyle (8 February 2023)
 * [Hogwarts Legacy wants to make everyone happy, but Harry Potter gets in the way](https://www.polygon.com/reviews/23603142/hogwarts-legacy-review-harry-potter-jk-rowling-transphobic-ps5-pc-xbox) by by Gita Jackson (17 February 2023)
 * [Is J.K. Rowling transphobic? Let’s let her speak for herself.](https://www.vox.com/culture/23622610/jk-rowling-transphobic-statements-timeline-history-controversy) by Aja Romano (3 March 2023)
-* [Talking Shit About Harry Potter](https://starbreaker.org/blog/entertainment/talking-shit-about-harry-potter/index.html) by Matthew Graybosch (19 June 2024)
+* [Talking Shit About Harry Potter](https://starbreaker.org/grimoire/entries/talking-shit-about-harry-potter/index.html) by Matthew Cambion (19 June 2024)
 
-    This post was in fact prompted by this very masterlist and our email exchange about the topic.{.item-list__indent}
+    Matthew's post was in fact prompted by this very masterlist and our email exchange about the topic.{.item-list__indent}
 
 ## Videos
 
