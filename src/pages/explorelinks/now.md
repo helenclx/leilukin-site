@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2025-06-27T21:48:03+0800
+updated: 2025-07-01T22:09:52+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -12,6 +12,10 @@ eleventyComputed:
 This is my [/now page](https://nownownow.com/about). You can find more pages like this at [nownownow.com](https://nownownow.com/).
 
 You can also check out my [status.cafe profile](https://status.cafe/users/leilukin) for my latest short status updates.
+
+## Participating in freeCodeCamp Summer 2025 Hackathon
+
+I registered and was selected to participate in [freeCodeCamp](https://www.freecodecamp.org/)'s Summer 2025 Hackathon, which takes place throughout July. I am working with my team to develop a full-stack web application for this hackathon.
 
 ## Attending 42 the Computer Science School
 
