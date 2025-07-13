@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-07-10T20:42:44+0800
+updated: 2025-07-13T20:21:13+0800
 toc: true
 eleventyNavigation:
      order: 10
@@ -13,7 +13,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ## Hardware
 
-- Laptop: Acer Predator Helios 300. Purchased in February 2018.
+- PC: Asus TUS Gaming A15. Purchased in July 2025.
 - Smartphone: Xiaomi Redmi Note 13 Pro 5G. Purchased in August 2024.
 - Smartwatch: Xiaomi Smart Band 9
 - Video game consoles: Nintendo 3DS XL (with [custom firmware](https://3ds.hacks.guide/) installed), and Nintendo Switch
@@ -30,7 +30,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### Operating Systems
 
-- Laptop: [Fedora Linux](https://fedoraproject.org/) with [KDE Plasma](https://kde.org/plasma-desktop/) desktop environment
+- PC: [Arch Linux](https://archlinux.org/) with [KDE Plasma](https://kde.org/plasma-desktop/) desktop environment
 - Virtual private server: [Debian](https://www.debian.org/) Stable
 - Smartphone: Xiaomi HyperOS 2.0, based on smartphone 15
 - Smartwatch: Xiaomi HyperOS 2.0
