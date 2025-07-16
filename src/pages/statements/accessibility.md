@@ -1,7 +1,7 @@
 ---
 title: Accessibility
 keyword: accessibility statement
-updated: 2025-05-09T10:05:02+0800
+updated: 2025-07-16T21:09:02+0800
 eleventyNavigation:
     order: 15
 ---
@@ -34,6 +34,7 @@ I use the following tools to test my site for accessibility:
 * [axe DevTools - Web Accessibility Testing](https://www.deque.com/axe/browser-extensions/) browser extension
 * [Alex Clapperton's Colour Contrast Checker](https://colourcontrast.cc/)
 * [NVDA](https://www.nvaccess.org/about-nvda/) screen reader for Windows
+* [Orca](https://orca.gnome.org/) screen reader for Linux
 * TalkBack screen reader for Android
 
 In addition, I test the accessibility of my website manually by navigating with keyboard alone.
