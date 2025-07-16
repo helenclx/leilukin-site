@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2025-07-01T22:09:52+0800
+updated: 2025-07-16T10:20:20+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -25,6 +25,6 @@ You can read more about my life at 42 the computer science school in my blog pos
 
 ## Switched to Using Linux Full-Time
 
-In June 2025, I spent around two weeks in preparing for and setting up my official migration from Windows to Linux desktop, and become a full-time Linux user. On 22 June, I finally made the switch by installing Fedora Linux on my 7-year-old gaming laptop, fulling replacing Windows.
+In June 2025, I spent around two weeks in preparing for and setting up my official migration from Windows to Linux desktop, and become a full-time Linux user. On 22 June, I finally made the switch by [installing Fedora Linux on my 7-year-old gaming laptop](/blog/posts/2025-06-27-migrate-linux-full-time/), fully replacing Windows.
 
-You can read more about my transition to a full-time Linux user on my blog post, ["I am Officially a Full-Time Linux User"](/blog/posts/2025-06-27-migrate-linux-full-time/).
+In early July, I bought myself a new gaming laptop, and I took the opportunity to [start using Arch Linux for the first time](/blog/posts/2025-07-16-new-laptop-arch-linux/), thus Arch Linux is now my Linux distribution of choice for my daily use.
