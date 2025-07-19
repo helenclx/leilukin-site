@@ -3,7 +3,7 @@ pageTitle: Leilukin's Mass Effect Legendary Edition Mod Build
 desc: A list of Mass Effect Legendary Edition mods I use.
 tags: ["contents", "mod lists"]
 topics: ["mass effect", "video game mods"]
-updated: 2025-07-19T07:57:24+0800
+updated: 2025-07-19T08:59:32+0800
 isContentDivided: true
 toc: true
 ---
@@ -70,8 +70,10 @@ Sound Change
 
 * [ME3Tweaks Mod Manager](https://me3tweaks.com/modmanager/): This mod manager can be used on both the original edition and the Legendary Edition of the {{ cite "Mass Effect" }} trilogy.
     - If you play {{ cite "Mass Effect Legendary Edition" }} on Linux, refer to [Parilia](https://parilia.dev/)'s ["ME3 Tweaks on Linux"](https://parilia.dev/a/gaming/me3-linux/) guide ([archived](https://web.archive.org/web/20250624090054/https://parilia.dev/a/gaming/me3-linux/)), which is based on Steam user SLABBY's ["Running ME Mod Manager on Steam Deck"](https://steamcommunity.com/sharedfiles/filedetails/?id=2924374014) guide ([archived](https://web.archive.org/web/20250624090106/https://steamcommunity.com/sharedfiles/filedetails/?id=2924374014)), for how to mod MELE on Linux.
-* [Mass Effect Legendary Edition Character Code Translator](https://answers.ea.com/t5/Mass-Effect-Legendary-Edition/Import-your-Shepard-from-the-original-trilogy/td-p/10340553): This app allows you to convert your Shepard’s face code from the original edition of {{ cite "Mass Effect 2" }} and {{ cite "3" }} into the Legendary Edition. The Legendary Edition adds new options to the character creator, so you cannot just directly copy and paste the face code from the original edition and expect your Shepard to look the same in LE. [[(Download Mass Effect Legendary Edition Character Code Translator from Google Drive)](https://drive.google.com/drive/u/0/folders/1ixMj8Eyvfu6DVczMgSIR826xPO1GfMym)]
+* [Mass Effect Legendary Edition Character Code Translator](https://answers.ea.com/t5/Mass-Effect-Legendary-Edition/Import-your-Shepard-from-the-original-trilogy/td-p/10340553): This app allows you to convert your Shepard’s face code from the original edition of {{ cite "Mass Effect 2" }} and {{ cite "3" }} into the Legendary Edition. The Legendary Edition adds new options to the character creator, so you cannot just directly copy and paste the face code from the original edition and expect your Shepard to look the same in LE.
+    * Download Mass Effect Legendary Edition Character Code Translator from [Google Drive](https://drive.google.com/drive/u/0/folders/1ixMj8Eyvfu6DVczMgSIR826xPO1GfMym)
 * [Trilogy Save Editor](https://www.nexusmods.com/masseffectlegendaryedition/mods/20) ([Linux Version](https://www.nexusmods.com/masseffectlegendaryedition/mods/1605)): A save editor for the {{ cite "Mass Effect" }} trilogy. If you are using any custom hair mods, using a save editor is required.
+    * For the Linux version, I need to install Arch Linux's [`webkit2gtk`](https://archlinux.org/packages/extra/x86_64/webkit2gtk/) package, and then run the `trilogy-save-editor` binary with the terminal command `WEBKIT_DISABLE_DMABUF_RENDERER=1 ./trilogy-save-editor` get the save editor run on my Arch Linux desktop system.
 {{ /container }}
 
 {{ container "article", "content__section" }}
