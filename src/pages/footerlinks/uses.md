@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-07-21T01:32:55+0800
+updated: 2025-07-21T18:41:02+0800
 toc: true
 eleventyNavigation:
      order: 10
@@ -52,6 +52,8 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 - `cat` command alternative: [bat](https://github.com/sharkdp/bat)
 - `cd` command alternative: [zoxide](https://github.com/ajeetdsouza/zoxide)
+- `find` command alternative: [fd](https://github.com/sharkdp/fd)
+- `grep` command alternative: [ripgrep](https://github.com/BurntSushi/ripgrep) (rg)
 - Fuzzy finder: [fzf](https://github.com/junegunn/fzf)
 - Terminal clipboard utilities: [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
 
