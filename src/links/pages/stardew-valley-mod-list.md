@@ -983,6 +983,9 @@ SMAPI Required
 Content Patcher Required
 : Yes
 
+Download Note
+: I download the files "Babies Expanded -- Seasonal Cold-Weather" and "Toddlers Expanded -- Brother and Sister".
+
 Leilukin’s Comment
 : This mod is essential for me because I find the generic appearance of the babies rather immersion-breaking.
 
