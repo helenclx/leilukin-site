@@ -713,19 +713,6 @@ Category
 
 ---
 
-#### Virmire Savior Mod (LE1)
-
-Mod Name
-: [Virmire Savior Mod (LE1)](https://www.nexusmods.com/masseffectlegendaryedition/mods/1212)
-
-Mod Author
-: Vegz
-
-Category
-: Restored Content & Modified Content
-
----
-
 #### LE1 Diversification Project
 
 Mod Name
@@ -754,6 +741,19 @@ Mod Author
 
 Category
 : Immersion
+
+---
+
+#### Virmire Savior Mod (LE1)
+
+Mod Name
+: [Virmire Savior Mod (LE1)](https://www.nexusmods.com/masseffectlegendaryedition/mods/1212)
+
+Mod Author
+: Vegz
+
+Category
+: Restored Content & Modified Content
 
 ---
 
