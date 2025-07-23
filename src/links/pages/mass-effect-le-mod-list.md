@@ -3,7 +3,7 @@ pageTitle: Leilukin's Mass Effect Legendary Edition Mod Build
 desc: A list of Mass Effect Legendary Edition mods I use.
 tags: ["contents", "mod lists"]
 topics: ["mass effect", "video game mods"]
-updated: 2025-07-19T08:59:32+0800
+updated: 2025-07-23T10:26:39+0800
 isContentDivided: true
 toc: true
 ---
@@ -1771,19 +1771,6 @@ Category
 
 ---
 
-#### More Friendly Virmire Survivor Reunion
-
-Mod Name
-: [More Friendly Virmire Survivor Reunion (LE2)](https://www.nexusmods.com/masseffectlegendaryedition/mods/2854?mtm_kwd=subscribedGame)
-
-Mod Author
-: beckabooo
-
-Category
-: Modified Content
-
----
-
 #### Trigger Buttons (LE2)
 
 Mod Name
@@ -1943,6 +1930,19 @@ Mod Name
 
 Mod Author
 : phoenixsoul13
+
+Category
+: Modified Content
+
+---
+
+#### More Friendly Virmire Survivor Reunion
+
+Mod Name
+: [More Friendly Virmire Survivor Reunion (LE2)](https://www.nexusmods.com/masseffectlegendaryedition/mods/2854?mtm_kwd=subscribedGame)
+
+Mod Author
+: beckabooo
 
 Category
 : Modified Content
