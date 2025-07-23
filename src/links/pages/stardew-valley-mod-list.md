@@ -941,28 +941,6 @@ Content Patcher Required
 
 ---
 
-### Pelican Town Potluck
-
-Mod Name
-: [Pelican Town Potluck](https://www.moddrop.com/stardew-valley/mods/1032927-pelican-town-potluck/)
-
-Mod Author
-: LenneDalben
-
-Category
-: Modified Content
-
-Tier
-: Tier 2 - Very Important
-
-SMAPI Required
-: Yes
-
-Content Patcher Required
-: Yes
-
----
-
 ### Fixed Luau Bridge
 
 Mod Name
@@ -1033,9 +1011,7 @@ Content Patcher Required
 Other Required Files
 : * [Generic Mod Config Menu](https://www.nexusmods.com/stardewvalley/mods/5098) by spacechase0
 : * [Cross-Mod Compatibility Tokens (CMCT)](https://www.nexusmods.com/stardewvalley/mods/28284) by Spiderbuttons
-: * [Sprites in Detail](https://www.nexusmods.com/stardewvalley/mods/14487) by BleakCodex for the Marigold
-
-: Linus Modded config option
+: * [Sprites in Detail](https://www.nexusmods.com/stardewvalley/mods/14487) by BleakCodex for the Marigold Linus Modded config option
 
 Leilukin’s Comment
 : As much as I like {{ cite "Stardew Valley" }}, I cannot help but notice that the characters are overwhelmingly white. Therefore, the existence of the Diverse Stardew Valley mod is a gift and I consider this mod essential for my game.
