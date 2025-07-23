@@ -523,13 +523,13 @@ Content Patcher Required
 
 ---
 
-### Polyamory
+### Free Love
 
 Mod Name
-:  [Polyamory](https://github.com/EnderTedi/Polyamory)
+:  [Free Love](https://www.nexusmods.com/stardewvalley/mods/10021)
 
 Mod Author
-: EnderTedi
+: aedenthorn
 
 Category
 : Modified Content
