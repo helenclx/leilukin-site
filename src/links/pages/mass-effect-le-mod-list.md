@@ -3,7 +3,7 @@ pageTitle: Leilukin's Mass Effect Legendary Edition Mod Build
 desc: A list of Mass Effect Legendary Edition mods I use.
 tags: ["contents", "mod lists"]
 topics: ["mass effect", "video game mods"]
-updated: 2025-07-23T10:26:39+0800
+updated: 2025-07-23T21:03:14+0800
 isContentDivided: true
 toc: true
 ---
@@ -653,8 +653,8 @@ Download Note
 Mod Name
 : [ME3 Alliance Armor for LE1](https://www.nexusmods.com/masseffectlegendaryedition/mods/838)
 
-Moc Author
-y Knighthawk
+Mod Author
+: Knighthawk
 
 Category
 : Appearance Change & Immersion
@@ -737,7 +737,10 @@ Mod Author
 Category
 : Appearance Change & Immersion
 
-Required Mods: LE1 Community Patch, Halcyon Hairpack (LE1), Advanced Weapon Models for LE1
+Required Mods
+: - LE1 Community Patch
+: - Halcyon Hairpack (LE1)
+: - Advanced Weapon Models for LE1
 
 ---
 
