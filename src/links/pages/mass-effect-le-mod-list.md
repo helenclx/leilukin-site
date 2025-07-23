@@ -185,19 +185,6 @@ Category
 
 ---
 
-#### Flycam Keybinds (LE1)
-
-Mod Name
-: [Flycam Keybinds (LE1)](https://www.nexusmods.com/masseffectlegendaryedition/mods/1836)
-
-Mod Author
-: Vegz
-
-Category
-: Restored Content
-
----
-
 #### XP Rescale (LE1)
 
 Mod Name
@@ -579,22 +566,6 @@ Category
 
 ---
 
-#### Unique Moons
-
-Mod Name
-: [Unique Moons](https://www.nexusmods.com/masseffectlegendaryedition/mods/1735)
-
-Mod Author
-: SDeden
-
-Category
-: Graphics Improvement
-
-Download Note
-: I also download Galaxy Map Pictures. Install it after installing all the DLC mods I want to use via ME3Tweak Mod Manager.
-
----
-
 #### N7 MAKO (LE1)
 
 Mod Name
@@ -677,65 +648,13 @@ Download Note
 
 ---
 
-#### Ashley Heavy Phoneix Armor Consistency
-
-Mod Name
-: [Ashley Heavy Phoneix Armor Consistency](https://www.nexusmods.com/masseffectlegendaryedition/mods/1874)
-
-Mod Author
-: UTILITY PAWN
-
-Category
-: Immersion
-
----
-
-#### Wrex Heavy Mercenary Armor Consistency
-
-Mod Name
-: [Wrex Heavy Mercenary Armor Consistency](https://www.nexusmods.com/masseffectlegendaryedition/mods/1876)
-
-Mod Author
-: UTILITY PAWN
-
-Category
-: Immersion
-
----
-
-#### New Casuals for Femshep LE1
-
-Mod Name
-: [New Casuals for Femshep LE1](https://www.nexusmods.com/masseffectlegendaryedition/mods/804)
-
-Mod Author
-: rngdshep
-
-Category
-: Appearance Change
-
----
-
-#### Ported Casuals for Male Shepard
-
-Mod Name
-: [Ported Casuals for Male Shepard](https://www.nexusmods.com/masseffectlegendaryedition/mods/1071)
-
-Mod Author
-: MentalHygiene
-
-Category
-: Appearance Change
-
----
-
 #### ME3 Alliance Armor for LE1
 
 Mod Name
 : [ME3 Alliance Armor for LE1](https://www.nexusmods.com/masseffectlegendaryedition/mods/838)
 
-Mod Author
-: Knighthawk
+Moc Author
+y Knighthawk
 
 Category
 : Appearance Change & Immersion
