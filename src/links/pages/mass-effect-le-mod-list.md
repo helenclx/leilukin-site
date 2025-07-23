@@ -3,7 +3,7 @@ pageTitle: Leilukin's Mass Effect Legendary Edition Mod Build
 desc: A list of Mass Effect Legendary Edition mods I use.
 tags: ["contents", "mod lists"]
 topics: ["mass effect", "video game mods"]
-updated: 2025-07-23T21:03:14+0800
+updated: 2025-07-23T21:08:23+0800
 isContentDivided: true
 toc: true
 ---
@@ -895,22 +895,6 @@ Mod Author
 
 Category
 : Graphics Improvement
-
----
-
-#### Unique Moons (LE1)
-
-Mod Name
-: [Unique Moons](https://www.nexusmods.com/masseffectlegendaryedition/mods/1735)
-
-Mod Author
-: SDeden
-
-Category
-: Graphics Improvement
-
-Download Note
-: I also download and install Galaxy Map Pictures with Mass Effect Modder.
 
 ---
 
