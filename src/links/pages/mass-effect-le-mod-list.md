@@ -3,7 +3,7 @@ pageTitle: Leilukin's Mass Effect Legendary Edition Mod Build
 desc: A list of Mass Effect Legendary Edition mods I use.
 tags: ["contents", "mod lists"]
 topics: ["mass effect", "video game mods"]
-updated: 2025-07-23T23:20:32+0800
+updated: 2025-07-24T00:34:52+0800
 isContentDivided: true
 toc: true
 ---
@@ -728,19 +728,6 @@ Required Mods
 : - LE1 Community Patch
 : - Halcyon Hairpack (LE1)
 : - Advanced Weapon Models for LE1
-
----
-
-#### Immersive Normandy Transmissions (LE1)
-
-Mod Name
-: [Immersive Normandy Transmissions (LE1)](https://www.nexusmods.com/masseffectlegendaryedition/mods/1728)
-
-Mod Author
-: Audemus
-
-Category
-: Immersion
 
 ---
 
