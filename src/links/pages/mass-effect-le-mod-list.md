@@ -3,7 +3,7 @@ pageTitle: Leilukin's Mass Effect Legendary Edition Mod Build
 desc: A list of Mass Effect Legendary Edition mods I use.
 tags: ["contents", "mod lists"]
 topics: ["mass effect", "video game mods"]
-updated: 2025-07-23T21:08:23+0800
+updated: 2025-07-23T23:20:32+0800
 isContentDivided: true
 toc: true
 ---
@@ -616,22 +616,6 @@ Installation Note
 
 ---
 
-#### Liara Consistency Mod (ME1LE)
-
-Mod Name
-: [Liara Consistency Mod (ME1LE)](https://www.nexusmods.com/masseffectlegendaryedition/mods/1183)
-
-Mod Author
-: Khaar Machinima
-
-Category
-: Appearance Change & Immersion
-
-Installation Note
-: I install the LE3 face version.
-
----
-
 #### Alliance Uniform Consistency
 
 Mod Name
@@ -658,6 +642,22 @@ Mod Author
 
 Category
 : Appearance Change & Immersion
+
+---
+
+#### Liara Consistency Mod (ME1LE)
+
+Mod Name
+: [Liara Consistency Mod (ME1LE)](https://www.nexusmods.com/masseffectlegendaryedition/mods/1183)
+
+Mod Author
+: Khaar Machinima
+
+Category
+: Appearance Change & Immersion
+
+Installation Note
+: I install the LE3 face version.
 
 ---
 
