@@ -1,7 +1,7 @@
 ---
 pageTitle: Webweaving
 date: 2024-07-01
-updated: 2025-07-23T08:30:35+0800
+updated: 2025-07-26T08:18:55+0800
 desc: My curated resources and guides for making your own website.
 toc: true
 ---
@@ -62,7 +62,7 @@ Resources for learning to use the static site generator [Eleventy](https://www.1
 * [My Neocities workflow: using Eleventy and the CLI to speed up development](https://whiona.weblog.lol/2023/10/my-neocities-workflow:-using-eleventy-and-the-cli-to-speed-up-development) by Whiona — Written for Neocities users
 * [Eleventy for Neocities Users](https://github.com/nycki93/eleventy-for-neocities-users) by Nycki — An Eleventy website starter template aimed at Neocities users
 * [Strawberry Starter](https://strawberrystarter.neocities.org/) by Kate Bagenzo — An Eleventy blog template aimed at website beginners that can be uploaded automatically to Neocities
-* [Migrating to Eleventy](https://renkotsuban.com/posts/2023-11-15-Migrating-to-Eleventy.html) by Renkon — A beginner-friendly guide to get started with Eleventy
+* [Migrating to Eleventy](https://renkotsuban.com/posts/2025-07-25-Updates-to-the-Eleventy-guide.html) by Renkon — A beginner-friendly guide to get started with Eleventy
 * [How I teach Eleventy from scratch](https://hamatti.org/posts/how-i-teach-eleventy-from-scratch/) by Juha-Matti Santala
 * [Getting set up in Eleventy](https://cloudcannon.com/tutorials/eleventy-beginner-tutorial/) by Mike Neumegen
 * [Learn Eleventy](https://learn-eleventy.pages.dev/) by uncenter
