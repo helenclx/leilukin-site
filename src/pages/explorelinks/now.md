@@ -13,18 +13,12 @@ This is my [/now page](https://nownownow.com/about). You can find more pages lik
 
 You can also check out my [status.cafe profile](https://status.cafe/users/leilukin) for my latest short status updates.
 
-## Participating in freeCodeCamp Summer 2025 Hackathon
+## July 2025
 
-I registered and was selected to participate in [freeCodeCamp](https://www.freecodecamp.org/)'s Summer 2025 Hackathon, which takes place throughout July. I am working with my team to develop a full-stack web application for this hackathon.
+You can read about what I was up to in July 2025 in my blog post, ["July 2025 Birth Month Recap"](/blog/posts/2025-08-03-july-2025-recap/).
 
 ## Attending 42 the Computer Science School
 
 From April 7 to May 2, I attended a Malaysian campus of the [42 computer science school](https://www.42network.org/), by participating in their 26-day bootcamp named the Piscine. On 16 May 2025, I was informed that I succeed in passing the Piscine and is eligible for 42's core curriculum. Currently, I am waiting for 42's core curriculum to begin.
 
 You can read more about my life at 42 the computer science school in my blog posts under the ["42 the school"](/topics/42-the-school/) category.
-
-## Switched to Using Linux Full-Time
-
-In June 2025, I spent around two weeks in preparing for and setting up my official migration from Windows to Linux desktop, and become a full-time Linux user. On 22 June, I finally made the switch by [installing Fedora Linux on my 7-year-old gaming laptop](/blog/posts/2025-06-27-migrate-linux-full-time/), fully replacing Windows.
-
-In early July, I bought myself a new gaming laptop, and I took the opportunity to [start using Arch Linux for the first time](/blog/posts/2025-07-16-new-laptop-arch-linux/), thus Arch Linux is now my Linux distribution of choice for my daily use.
