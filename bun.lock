@@ -7,7 +7,7 @@
         "@11ty/eleventy": "^3.1.2",
         "@11ty/eleventy-navigation": "^1.0.4",
         "@11ty/eleventy-plugin-rss": "^2.0.4",
-        "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.1",
+        "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
         "@uncenter/eleventy-plugin-toc": "^1.0.3",
         "@zachleat/details-utils": "^2.0.2",
         "eleventy-plugin-embed-everything": "^1.21.0",
@@ -42,7 +42,7 @@
 
     "@11ty/eleventy-plugin-rss": ["@11ty/eleventy-plugin-rss@2.0.4", "", { "dependencies": { "@11ty/eleventy-utils": "^2.0.0", "@11ty/posthtml-urls": "^1.0.1", "debug": "^4.4.0", "posthtml": "^0.16.6" } }, "sha512-LF60sGVlxGTryQe3hTifuzrwF8R7XbrNsM2xfcDcNMSliLN4kmB+7zvoLRySRx0AQDjqhPTAeeeT0ra6/9zHUQ=="],
 
-    "@11ty/eleventy-plugin-syntaxhighlight": ["@11ty/eleventy-plugin-syntaxhighlight@5.0.1", "", { "dependencies": { "prismjs": "^1.30.0" } }, "sha512-xDPF3Ay38XlmWZe9ER0SLtMmNah7olUBlGORhUiCUkPh3jYGVCDTDayi4tbFI9Dxha8NwKlfBZ2FXM/s3aZzAg=="],
+    "@11ty/eleventy-plugin-syntaxhighlight": ["@11ty/eleventy-plugin-syntaxhighlight@5.0.2", "", { "dependencies": { "prismjs": "^1.30.0" } }, "sha512-T6xVVRDJuHlrFMHbUiZkHjj5o1IlLzZW+1IL9eUsyXFU7rY2ztcYhZew/64vmceFFpQwzuSfxQOXxTJYmKkQ+A=="],
 
     "@11ty/eleventy-utils": ["@11ty/eleventy-utils@2.0.7", "", {}, "sha512-6QE+duqSQ0GY9rENXYb4iPR4AYGdrFpqnmi59tFp9VrleOl0QSh8VlBr2yd6dlhkdtj7904poZW5PvGr9cMiJQ=="],
 
