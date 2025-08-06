@@ -1,6 +1,6 @@
 ---
-articleTitle: '"The Way We Talk" Impressions'
-desc: After waiting for months, I finally got the chance to watch "The Way We Talk". Did this Hong Kong film meet my expectations?
+articleTitle: "'The Way We Talk' Impressions"
+desc: After waiting for months, I finally got the chance to watch 'The Way We Talk'. Did this Hong Kong film meet my expectations?
 date: 2025-08-06T23:40:06+0800
 topics: ['films']
 ---
