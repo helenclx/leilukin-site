@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-08-14T17:22:15+0800
+updated: 2025-08-15T08:43:20+0800
 toc: true
 eleventyNavigation:
      order: 10
@@ -107,7 +107,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Integrated development environment (IDE): [Neovim](https://neovim.io/) with the [LazyVim](https://www.lazyvim.org/) setup
 - Code editors: [Vim](https://www.vim.org/) and [Kate](https://kate-editor.org/)
 - Terminal emulator: [Konsole](https://konsole.kde.org/)
-- Shell: [Zsh](https://www.zsh.org/)
+- Shell: [Fish](https://fishshell.com/)
 - Version control: [Git](https://git-scm.com/) with [GitHub](https://github.com/) and [my own Gitea instance](https://git.leilukin.com/)
     - Git terminal UI: [lazygit](https://github.com/jesseduffield/lazygit)
 
