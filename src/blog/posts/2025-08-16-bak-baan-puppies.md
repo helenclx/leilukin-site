@@ -1,6 +1,6 @@
 ---
 articleTitle: Bak Baan The Dog And Her Puppies
-desc: My uncle's fog Bak Baan has become a mum, and I finally got the chance to see her puppies.
+desc: My uncle's dog Bak Baan has become a mum, and I finally got the chance to see her puppies.
 date: 2025-08-16T08:59:53+0800
 topics: ['dogs', 'bak baan the dog']
 ---
