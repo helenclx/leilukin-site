@@ -2,6 +2,7 @@
 articleTitle: Bak Baan The Dog And Her Puppies
 desc: My uncle's dog Bak Baan has become a mum, and I finally got the chance to see her puppies.
 date: 2025-08-16T08:59:53+0800
+update: 2025-08-17T09:22:32+0800
 topics: ['dogs', 'bak baan the dog']
 ---
 Ever since I met my uncle's dog, Bak Baan, for the first time in late January 2025 during [Lunar New Year](2025-02-06-my-2025-lunar-new-year.md), seeing Bak Baan has become what I look forward to the most when we visit our family's durian plantation, for which my uncle is the main caretaker, in my parents' hometown.
@@ -23,3 +24,13 @@ Bak Baan's puppies are almost four months old, so they can already see and run, 
 ![A mixed breed puppy with light brown fur stand in a grass field and looks the camera with its mouth open.](/assets/images/posts/bak-baan-puppies/IMG_20250813_181102.avif)
 
 ![A white mixed breed female dog with brown patches scratches her head with one of her legs, while a puppy with brown fur stands beside her and looks away from the camera.](/assets/images/posts/bak-baan-puppies/IMG_20250813_181542.avif)
+
+---
+
+**Update, 17 August 2025:**
+
+After sharing this post with the [32-Bit Cafe](https://32bit.cafe/) community, [Divergent Rays](https://divergentrays.com/) asked me questions about Bak Baan and her puppies on the [forums](https://discourse.32bit.cafe/t/blogroll-share-your-blog-posts/502/2086?u=leilukin), so I figured I can share additional information based on [my reply](https://discourse.32bit.cafe/t/blogroll-share-your-blog-posts/502/2087?u=leilukin).
+
+My parents and I currently have a dog, Yat Tong ([一筒]{lang=zh} in Cantonese), but have no plans for adopting another dog, so we are not adopting any of Bak Baan's puppies, at least for now. That said, my uncle is open for giving some of the puppies for adoption provided there is someone interested.
+
+Bak Baan was named after a mahjong tile, so was our dog Yat Tong. None of the puppies were named after mahjong tiles though; instead, my uncle named some of them after different varieties of durians, such as Musang King and Black Thorn.
