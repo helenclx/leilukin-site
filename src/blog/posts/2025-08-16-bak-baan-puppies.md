@@ -19,7 +19,7 @@ Bak Baan's puppies are almost four months old, so they can already see and run, 
 
 ![Two puppies with light brown fur near a wood log stool, with their faces being close to each other, and one puppy standing in the shadow of the stool and looking at the camera.](/assets/images/posts/bak-baan-puppies/IMG_20250813_174134.avif)
 
-![A female dog and three puppies with brown fur walk away from the camera into a grass field.](/assets/images/posts/bak-baan-puppies/IMG_20250813_175647.avif)
+![A white mixed breed female dog and three puppies with brown fur walk away from the camera into a grass field.](/assets/images/posts/bak-baan-puppies/IMG_20250813_175647.avif)
 
 ![A mixed breed puppy with light brown fur stand in a grass field and looks the camera with its mouth open.](/assets/images/posts/bak-baan-puppies/IMG_20250813_181102.avif)
 
