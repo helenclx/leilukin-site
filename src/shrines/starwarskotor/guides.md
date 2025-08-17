@@ -28,6 +28,9 @@ eleventyNavigation:
 * [TSLRCM Influence Guide](https://www.reddit.com/r/kotor/comments/ruofg1/kotor_2_tslrcm_influence_guide/) by u/XDarkStrikerX
 * [TSLRCM Influence Guide Collaboration](https://www.reddit.com/r/kotor/comments/vmhn73/kotor_2_tslrcm_influence_guide_collaboration/), organised by u/Egg-MacGuffin. [Here is the direct link to the spreadsheet](https://docs.google.com/spreadsheets/d/1SppuhOhl3AU-EAKjSji1EIJm41OTjeRGfVHbnmRwqio/edit?usp=sharing).
 
+## My KotOR on Linux Guides
+{{ articleList("kotor on linux guides") }}
+
 ## KotOR Cheats
 * [KotOR1 Warp Code List](https://deadlystream.com/blogs/entry/414-blog-112-the-kotor1-warp-code-list/) by by Sith Holocron
 * [TSL Warp Code List](https://deadlystream.com/blogs/entry/413-blog-111-the-tsl-warp-code-list/) by by Sith Holocron
