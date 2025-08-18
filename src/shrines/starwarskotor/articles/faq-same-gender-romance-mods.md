@@ -1,7 +1,7 @@
 ---
 articleTitle: "Frequently Asked Questions (FAQ) for My Star Wars: KotOR Same-Gender Romance Mods"
 date: 2021-09-25
-updated: 2025-08-17T09:58:46+0800
+updated: 2025-08-18T20:40:48+0800
 desc: "Frequently asked questions for my same-gender romance mods for Star Wars: Knights of the Old Republic series."
 tags: kotor both articles
 topics: ["star wars kotor", "star wars kotor 2", "video game mods"]
@@ -119,16 +119,16 @@ For Linux, if you play Steam's Linux port of {{ cite "KotOR 2" }}, there are spe
 
 Firstly, you need to install mods in the `steamassets` folder of Steam's directory for its Linux port of {{ cite "KotOR 2" }}. This means all override files need to be placed into the override folder in this `steamassets` folder, and all executable installers need to be pointed to the `steamassets` folder as if it were the base installation directory. 
 
-Secondly, you need to find a way to handle Linux file system's case sensitivity, to ensure the mods you install will be detected and loaded properly by the game. There are two main ways to solve this:
+Secondly, you need to find a way to handle Linux file system's case sensitivity, to ensure the mods you install will be detected and loaded properly by the game. There are two main ways to address this:
 
 1. Install Steam's Linux port of {{ cite "KotOR 2" }} and {{ cite "KotOR 2" }} mods on a case-insensitive file system, such as VFAT.
-1. Rename all files of the mods you want to install to lowercase file names.
+1. Rename all files of the mods you want to install to lowercase file names. You can refer to Techmint's guide, ["Rename All Files and Directory Names to Lowercase in Linux"](https://www.tecmint.com/rename-all-files-and-directory-names-to-lowercase-in-linux/).
 
-However, if you do not play Steam's Linux port of {{ cite "KotOR 2" }} (such as playing the GOG version), you can simply play {{ cite "KotOR 2" }} with Wine or Proton, and follow the same steps to install mods as the Windows version of the game.
+However, if you do not play Steam's Linux port of {{ cite "KotOR 2" }} (such as playing the GOG version of the game), you can simply play {{ cite "KotOR 2" }} with the [Wine](https://www.winehq.org/) compatibility layer, or [Proton](https://github.com/ValveSoftware/Proton), Valve's fork of Wine, and follow the same steps to install mods as the Windows version of the game.
 
 ### How to install your mods on a console (Xbox/Nintendo Switch) or mobile (Android/iOS) version of {{ cite "KotOR" }} or {{ cite "KotOR 2" }}?
 
-Sorry, **I cannot directly help with modding the {{ cite "KotOR" }} games on any console or mobile devices, because I only own the PC version of the {{ cite "KotOR" }} games**. I make no promises that I will port my {{ cite "KotOR" }} mods for those platforms specifically either.
+Sorry, **I cannot directly help with modding the {{ cite "KotOR" }} games on any console or mobile devices, because I have only played the PC version of the {{ cite "KotOR" }} games**. I make no promises that I will port my {{ cite "KotOR" }} mods for those platforms specifically either.
 
 Some of my mods require installers, namely TSLPatcher or HoloPatcher, to make the mods work properly, especially if you want to use other mods in addition to my mods and for {{ cite "KotOR 2" }}, The Sith Lords Restored Content Mod. Simply copying and pasting files from my mod to your game's directory does NOT guarantee my mod will work as intended, and you may encounter bugs that could possibly game-breaking.
 
