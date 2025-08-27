@@ -7,11 +7,13 @@ desc: My fork of BellaBuffs, with PHPMailer powering the email sending features.
 {{ linkBtns([
     { label: "Demo", url: "https://fan.leilukin.com/cassettebeasts" },
     { label: "Source Code (GitHub)", url: "https://github.com/helenclx/BellaBuffs-PHPMailer" },
+    { label: "Source Code (Codeberg)", url: "https://codeberg.org/helenchong/BellaBuffs-PHPMailer" },
     { label: "Source Code (Gitea)", url: "https://git.leilukin.com/Leilukin/BellaBuffs-PHPMailer" },
     { label: "Download (GitHub)", url: "https://github.com/helenclx/BellaBuffs-PHPMailer/releases/latest" },
+    { label: "Download (Codeberg)", url: "https://codeberg.org/helenchong/BellaBuffs-PHPMailer/releases/latest" },
 ]) }}
 
-This is a fork of the fanlisting PHP script [BullaBuffs](https://github.com/jemjabella/BellaBuffs), with the email sending library [PHPMailer](https://github.com/PHPMailer/PHPMailer) integrated.
+This is a fork of the [BullaBuffs](https://github.com/jemjabella/BellaBuffs), a fanlisting script written in PHP, with the email sending library [PHPMailer](https://github.com/PHPMailer/PHPMailer) integrated.
 
 BellaBuffs includes the optional features to email new members after submitting the join form, email the fanlisting admin when a new member joins or email new members when their applications were approved. The original BellaBuffs script achieved this by using PHP's built-in `mail()` feature.
 
@@ -19,7 +21,7 @@ This fork replaces the PHP `mail()` functions from BellaBuffs with PHPMailer, al
 
 I created this BellaBuffs fork when I was building the [{{ cite "Cassette Beasts" }} fanlisting](https://fan.leilukin.com/cassettebeasts) with BellaBuffs and hosting the fanlisting on [InfinityFree](https://www.infinityfree.com/). I learned that InfinityFree's free hosting plan [does not support PHP `mail()` function](https://forum.infinityfree.com/t/sending-email-from-your-website-php-mail/49242), so incorporating PHPMailer was the solution to allow the {{ cite "Cassette Beasts" }} fanlisting to send emails.
 
-More information about my BellaBuffs fork and instructions for how to use it can be found on [its GitHub repository](https://github.com/helenclx/BellaBuffs-PHPMailer) and [its Gitea repository mirror](https://git.leilukin.com/Leilukin/BellaBuffs-PHPMailer).
+More information about my BellaBuffs fork and instructions for how to use it can be found on its Git repositories on [GitHub](https://github.com/helenclx/BellaBuffs-PHPMailer), [Codeberg](https://codeberg.org/helenchong/BellaBuffs-PHPMailer) and [Gitea](https://git.leilukin.com/Leilukin/BellaBuffs-PHPMailer).
 
 ## Features
 * Integrate PHPMailer for the email sending features, should the fanlisting owner enables these features
