@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2025-07-16T10:20:20+0800
+updated: 2025-08-29T18:56:32+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -13,12 +13,8 @@ This is my [/now page](https://nownownow.com/about). You can find more pages lik
 
 You can also check out my [status.cafe profile](https://status.cafe/users/leilukin) for my latest short status updates.
 
-## July 2025
-
-You can read about what I was up to in July 2025 in my blog post, ["July 2025 Birth Month Recap"](/blog/posts/2025-08-03-july-2025-recap/).
-
 ## Attending 42 the Computer Science School
 
-From April 7 to May 2, I attended a Malaysian campus of the [42 computer science school](https://www.42network.org/), by participating in their 26-day bootcamp named the Piscine. On 16 May 2025, I was informed that I succeed in passing the Piscine and is eligible for 42's core curriculum. Currently, I am waiting for 42's core curriculum to begin.
+From April 7 to May 2, I attended my local campus of the [42 computer science school](https://www.42network.org/), by participating in their 26-day bootcamp named the Piscine. On 16 May 2025, I was informed that I succeed in passing the Piscine and am eligible for 42's core curriculum. Currently, I am waiting for 42's core curriculum to begin on October 6.
 
 You can read more about my life at 42 the computer science school in my blog posts under the ["42 the school"](/topics/42-the-school/) category.
