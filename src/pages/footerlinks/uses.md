@@ -67,9 +67,9 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 
 ### Internet
 
-- Internet browser: [Mozilla Firefox](https://www.mozilla.org/firefox/), [Vivaldi](https://vivaldi.com/), [Lynx](https://lynx.invisible-island.net/), and [Tor Browser](https://www.torproject.org/)
+- Web browser: [Mozilla Firefox](https://www.mozilla.org/firefox/), [Vivaldi](https://vivaldi.com/), [Lynx](https://lynx.invisible-island.net/), and [Tor Browser](https://www.torproject.org/)
 - Search engine: [Ecosia](https://www.ecosia.org/) and [Mullvad Leta](https://leta.mullvad.net/)
-- Email service: [Purelymail](https://purelymail.com/), [Proton Mail](https://proton.me/mail) and Gmail (for backup purpose only)
+- Email service: [Purelymail](https://purelymail.com/), [Proton Mail](https://proton.me/mail) and Gmail
 - Email client: [Mozilla Thunderbird](https://www.thunderbird.net/)
 - Feed reader: [Miniflux](https://miniflux.app/) (my own instance), and [Capy Reader](https://capyreader.com/) on smartphone
 - VPN: [Proton VPN](https://protonvpn.com/)
