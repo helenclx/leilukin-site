@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-09-03T10:02:42+0800
+updated: 2025-09-07T14:55:21+0800
 toc: true
 eleventyNavigation:
      order: 10
@@ -27,7 +27,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
     - Serif: [Literata](https://github.com/googlefonts/literata)
     - Monospace: [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html)
     - Chinese: [Noto CJK](https://github.com/notofonts/noto-cjk)
-- Colour Scheme: [Catppuccin](https://catppuccin.com/) (especially the Mocha flavour and Mauve variant)
+- Colour Scheme: [Catppuccin](https://catppuccin.com/) (especially the Mocha flavour and Mauve accent)
 
 ### Operating Systems
 
