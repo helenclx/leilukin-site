@@ -158,7 +158,7 @@ On the flip side, {{ cite "Cassette Beasts" }} has canon LGBTQ+ characters. For 
 
 {{- disclosure 'Minor Quest Spoilers for <cite>Cassette Beasts</cite>' }}
 To be specific, this pair of NPCs in question are Leader Ianthe and Ranger Wilma, members of the Ranger Guild. After you defeat all 12 Ranger Captains, and you challenge Ianthe to a battle, Ianthe will reveal that she will fight alongside her wife, who is none other than Ranger Wilma, the woman in charge of the Ranger Guild store. Yes, {{ cite "Cassette Beasts" }} has a canon married lesbian couple.
-{{- enddisclosure }}
+{{- /disclosure }}
 
 As for transgender and non-binary representation, {{ cite "Pokémon" }} has a few ambiguously canon ones, namely [Beauty Nova](https://lgbtqgamearchive.com/2016/05/25/beauty-nova-in-pokemon-xy/), a minor female NPC Trainer from {{ cite "X" }} and {{ cite "Y" }} who is heavily implied to be a trans woman, and [Blanche](https://bulbapedia.bulbagarden.net/wiki/Blanche) from {{ cite "Pokémon GO" }}, who is not referred to by gendered pronouns in the English version of the game and official social media accounts. Some other human characters are also commonly interpreted or headcanonned as trans by LGBTQ+ fans, but none of them are officially confirmed to be trans or non-binary.
 
