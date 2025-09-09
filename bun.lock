@@ -11,7 +11,7 @@
         "@uncenter/eleventy-plugin-toc": "^1.0.3",
         "@zachleat/details-utils": "^2.0.2",
         "eleventy-plugin-embed-everything": "^1.21.0",
-        "eleventy-plugin-vento": "^4.5.1",
+        "eleventy-plugin-vento": "^4.6.0",
         "eleventy-plugin-wordcount-extended": "^0.2.1",
         "markdown-it-anchor": "^9.2.0",
         "markdown-it-attribution": "^0.1.4",
@@ -59,8 +59,6 @@
     "@sindresorhus/transliterate": ["@sindresorhus/transliterate@1.6.0", "", { "dependencies": { "escape-string-regexp": "^5.0.0" } }, "sha512-doH1gimEu3A46VX6aVxpHTeHrytJAG6HgdxntYnCFiIFHEM/ZGpG8KiZGBChchjQmG0XFIBL552kBTjVcMZXwQ=="],
 
     "@types/bun": ["@types/bun@1.2.21", "", { "dependencies": { "bun-types": "1.2.21" } }, "sha512-NiDnvEqmbfQ6dmZ3EeUO577s4P5bf4HCTXtI6trMc6f6RzirY5IrF3aIookuSpyslFzrnvv2lmEWv5HyC1X79A=="],
-
-    "@types/estree": ["@types/estree@1.0.8", "", {}, "sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w=="],
 
     "@types/linkify-it": ["@types/linkify-it@5.0.0", "", {}, "sha512-sVDA58zAw4eWAffKOaQH5/5j3XeayukzDk+ewSsnv3p4yJEZHCCzMDiZM8e0OUrRvmpGZ85jf4yDHkHsgBNr9Q=="],
 
@@ -170,7 +168,7 @@
 
     "eleventy-plugin-embed-twitter": ["eleventy-plugin-embed-twitter@1.4.2", "", { "dependencies": { "@11ty/eleventy-fetch": "^5.0.2", "deepmerge": "^4.3.1" } }, "sha512-40xTn3PhYG6RHOF1QHYo3fLKtdT7xO/oVHUVRmNI4hDqVGnYkOUJucgyH0i6FE1jATOD7q4dWAudhwh1df7rtA=="],
 
-    "eleventy-plugin-vento": ["eleventy-plugin-vento@4.5.1", "", { "dependencies": { "debug": "4.4.1", "ventojs": "1.15.2" } }, "sha512-b+F9UhwKyLBAp1yluSqYEMtCtSu3X63F0QVUzH1345nYEeJKxAY0Ijyvk0VCT2dAwJzKrp1Gi8TYxaVCCjmkcg=="],
+    "eleventy-plugin-vento": ["eleventy-plugin-vento@4.6.0", "", { "dependencies": { "debug": "4.4.1", "ventojs": "2.0.1" } }, "sha512-yL885zHfK8y/rBvPSayWmC3ZLjjHr9mC1d5vyhjkM49hCoIsu5dEohzPEXtMq9ROa89XQ7DrNPo7ImSM9dNLEg=="],
 
     "eleventy-plugin-vimeo-embed": ["eleventy-plugin-vimeo-embed@1.3.8", "", {}, "sha512-XU/XH/lrx9slUifFiRCsFh8XiDsZxCBh5MnFU8wAz8u8rCFX9PpmyveJ2oeDtDZjEINqaDC+YFSPsxoq59S3cQ=="],
 
@@ -191,8 +189,6 @@
     "esm-import-transformer": ["esm-import-transformer@3.0.3", "", { "dependencies": { "acorn": "^8.11.2" } }, "sha512-Wj9kBIA9vKZRYAQzhe229M7wmWb2f3vTu86CkszZUy2/iiVCYljXm/EkwJtWKc0vup30WHhxbm3rpkysBKczxQ=="],
 
     "esprima": ["esprima@4.0.1", "", { "bin": { "esparse": "./bin/esparse.js", "esvalidate": "./bin/esvalidate.js" } }, "sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A=="],
-
-    "estree-walker": ["estree-walker@3.0.3", "", { "dependencies": { "@types/estree": "^1.0.0" } }, "sha512-7RUKfXgSMMkzt6ZuXmqapOurLGPPfgj6l9uRZ7lRGolvk0y2yocc35LdcxKC5PQZdn2DMqioAQ2NoWcrTKmm6g=="],
 
     "etag": ["etag@1.8.1", "", {}, "sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg=="],
 
@@ -283,8 +279,6 @@
     "maximatch": ["maximatch@0.1.0", "", { "dependencies": { "array-differ": "^1.0.0", "array-union": "^1.0.1", "arrify": "^1.0.0", "minimatch": "^3.0.0" } }, "sha512-9ORVtDUFk4u/NFfo0vG/ND/z7UQCVZBL539YW0+U1I7H1BkZwizcPx5foFv7LCPcBnm2U6RjFnQOsIvN4/Vm2A=="],
 
     "mdurl": ["mdurl@2.0.0", "", {}, "sha512-Lf+9+2r+Tdp5wXDXC4PcIBjTDtq4UKjCPMQhKIuzpJNW0b96kVqSwW0bT7FhRSfmAiFYgP+SCRvdrDozfh0U5w=="],
-
-    "meriyah": ["meriyah@6.0.5", "", {}, "sha512-SrMqQCox7TTwtftWKHy/ZaVe+ZRpRl20pAgDo+PS9hzcAJrMjYsBJQPPiLXTnjztrqdfGS+Zz99r6Bwvydta1w=="],
 
     "mime": ["mime@3.0.0", "", { "bin": { "mime": "cli.js" } }, "sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A=="],
 
@@ -392,7 +386,7 @@
 
     "urlpattern-polyfill": ["urlpattern-polyfill@10.1.0", "", {}, "sha512-IGjKp/o0NL3Bso1PymYURCJxMPNAf/ILOpendP9f5B6e1rTJgdgiOvgfoT8VxCAdY+Wisb9uhGaJJf3yZ2V9nw=="],
 
-    "ventojs": ["ventojs@1.15.2", "", { "dependencies": { "estree-walker": "3.0.3", "meriyah": "6.0.5" } }, "sha512-/vparUOEKeL4fNzkOhZe3brXCJn/uiJBj3Q/rzrreap3Ef+rjJTT60jvI+Vnc0IhHiU8b5wwmDNLJtTQWJJ14g=="],
+    "ventojs": ["ventojs@2.0.1", "", {}, "sha512-qAlsSVKX2GzZSZ9+ClqUNtPCE9OA7KOJZ2bX8J4V802fYKfoRjbMSh5xp+OK8okS4wZR71z+Ro/AdxscVrufwQ=="],
 
     "ws": ["ws@8.18.3", "", { "peerDependencies": { "bufferutil": "^4.0.1", "utf-8-validate": ">=5.0.2" }, "optionalPeers": ["bufferutil", "utf-8-validate"] }, "sha512-PEIGCY5tSlUt50cqyMXfCzX+oOPqN0vuGqWzbcJ2xvnkzkq46oOpz7dQaTDBdfICb4N14+GARUDw2XV2N4tvzg=="],
 
