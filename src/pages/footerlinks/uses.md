@@ -1,7 +1,7 @@
 ---
 title: Uses
 desc: A non-exhaustive list of hardware and software that I use.
-updated: 2025-09-07T14:55:21+0800
+updated: 2025-09-10T00:15:00+0800
 toc: true
 eleventyNavigation:
      order: 10
@@ -27,7 +27,7 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
     - Serif: [Literata](https://github.com/googlefonts/literata)
     - Monospace: [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html)
     - Chinese: [Noto CJK](https://github.com/notofonts/noto-cjk)
-- Colour Scheme: [Catppuccin](https://catppuccin.com/) (especially the Mocha flavour and Mauve accent)
+- Colour scheme: [Catppuccin](https://catppuccin.com/) (especially the Mocha flavour and Mauve accent)
 
 ### Operating Systems
 
@@ -42,11 +42,12 @@ You can find more /uses pages on [uses.tech](https://uses.tech/).
 - Package manager:
     - PC: [pacman](https://wiki.archlinux.org/title/Pacman), [yay](https://github.com/Jguer/yay), and [Flatpak](https://flatpak.org/)
     - Virtual private server: [APT](https://wiki.debian.org/AptCLI)
-- [MIUI-Debloater](https://github.com/kirthandev/MIUI-Debloater-official)
+- Debloater: [MIUI-Debloater](https://github.com/kirthandev/MIUI-Debloater-official) on smartphone
 - Mobile app manager: [Obtanium](https://github.com/ImranR98/Obtainium)
 - Input method: [Fcitx](https://fcitx-im.org/) on PC, and Gboard on smartphone
 - Screen reader: [Orca](https://orca.gnome.org/) on PC, and TalkBack on smartphone
-- System fetch: [fastfetch](https://github.com/fastfetch-cli/fastfetch)
+- System information fetcher: [fastfetch](https://github.com/fastfetch-cli/fastfetch) on PC
+- File manager: [Dolphin](https://apps.kde.org/en-gb/dolphin/) (GUI) and [ranger](https://ranger.fm/) (terminal) on PC, and [Simple File Manager](https://github.com/SimpleMobileTools/Simple-File-Manager) on smartphone
 
 ### Terminal
 
