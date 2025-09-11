@@ -1,8 +1,6 @@
 {{- css }}.color-bg { padding: 0.125em 0.3em; }{{ /css }}
 
-{{ function webCliqueImg(file, width, height, alt="") -}}
-<img src="/assets/cliques/{{ file }}" alt="{{ alt }}" class="inline-img" width="{{ width }}" height="{{ height }}" loading="lazy">
-{{ /function }}
+{{ import { webCliqueImg } from "components/functions.vto" }}
 
 <ul>
     <li>

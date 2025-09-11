@@ -1,3 +1,13 @@
+{{ export function prideButton(file, alt, width=88, height=31) -}}
+<li data-tooltip>
+    <img src="/assets/buttons/pride/{{ file }}.png" alt="{{ alt }}" data-tooltip-trigger title="{{ alt }}" width="{{ width }}" height="{{ height }}" loading="lazy" tabindex="0">
+</li>
+{{ /export }}
+
+{{ export function webCliqueImg(file, width, height, alt="") -}}
+<img src="/assets/cliques/{{ file }}" alt="{{ alt }}" class="inline-img" width="{{ width }}" height="{{ height }}" loading="lazy">
+{{ /export }}
+
 {{ export function articleList(tag) }}
 <ul data-pagefind-ignore>
     {{ for article of collections[tag] }}
