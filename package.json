@@ -8,12 +8,12 @@
     },
     "scripts": {
         "build-11ty": "npx @11ty/eleventy",
-        "start-11ty": "npm run build-11ty --serve --quiet",
+        "start-11ty": "npm run build-11ty -- --serve --quiet",
         "create-search-index": "npx -y pagefind --site _site",
-        "build": "npm run build-11ty --quiet && npm run create-search-index",
-        "start": "npm run build --serve",
+        "build": "npm run build-11ty -- --quiet && npm run create-search-index",
+        "start": "npm run build -- --serve",
         "rebuild": "rm -r _site && npm run build",
-        "restart": "rm -r _site && npm run build --serve"
+        "restart": "rm -r _site && npm run start"
     },
     "type": "module",
     "dependencies": {
