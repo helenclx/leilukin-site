@@ -2,9 +2,11 @@
 
 Source code of my hobby website, [Leilukin's Hub](https://leilukin.com/). Built with [Eleventy](https://www.11ty.dev/).
 
-More technical information about this website can be found on my site's [colophon page](https://leilukin.com/colophon).
+More technical information about this website can be found on the site's [colophon page](https://leilukin.com/colophon).
 
 ## Run Locally
+
+Requirement: [Node.js](https://nodejs.org/).
 
 1. Clone the project repository locally:
     ```
