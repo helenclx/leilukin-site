@@ -7,18 +7,17 @@
         "url": "https://git.leilukin.com/Leilukin/leilukin-site"
     },
     "scripts": {
-        "build-11ty": "bunx @11ty/eleventy",
-        "start-11ty": "bun run build-11ty --serve --quiet",
-        "create-search-index": "bunx -y pagefind --site _site",
-        "build": "bun build-11ty --quiet && bun create-search-index",
-        "start": "bun run build --serve",
-        "rebuild": "rm -r _site && bun run build",
-        "restart": "rm -r _site && bun run build --serve",
-        "build-action": "npx @11ty/eleventy && npx -y pagefind --site _site"
+        "build-11ty": "npx @11ty/eleventy",
+        "start-11ty": "npm run build-11ty --serve --quiet",
+        "create-search-index": "npx -y pagefind --site _site",
+        "build": "npm run build-11ty --quiet && npm run create-search-index",
+        "start": "npm run build --serve",
+        "rebuild": "rm -r _site && npm run build",
+        "restart": "rm -r _site && npm run build --serve"
     },
     "type": "module",
     "devDependencies": {
-        "@types/bun": "^1.2.21"
+        "@types/npm": "^1.2.21"
     },
     "dependencies": {
         "@11ty/eleventy": "^3.1.2",
