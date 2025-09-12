@@ -16,9 +16,6 @@
         "restart": "rm -r _site && npm run build --serve"
     },
     "type": "module",
-    "devDependencies": {
-        "@types/npm": "^1.2.21"
-    },
     "dependencies": {
         "@11ty/eleventy": "^3.1.2",
         "@11ty/eleventy-navigation": "^1.0.4",
