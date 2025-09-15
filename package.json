@@ -4,16 +4,19 @@
     "author": "Leilukin",
     "repository": {
         "type": "git",
-        "url": "https://git.leilukin.com/Leilukin/leilukin-site"
+        "url": "https://git.leilukin.com/Leilukin/leilukin-site.git"
     },
     "scripts": {
         "build-11ty": "npx @11ty/eleventy",
-        "start-11ty": "npm run build-11ty -- --serve --quiet",
+        "build-11ty-quiet": "npm run build-11ty -- --quiet",
+        "start-11ty": "npm run build-11ty-quiet -- --serve",
         "create-search-index": "npx -y pagefind --site _site",
-        "build": "npm run build-11ty -- --quiet && npm run create-search-index",
-        "start": "npm run build -- --serve",
-        "rebuild": "rm -r _site && npm run build",
-        "restart": "rm -r _site && npm run start"
+        "serve-search-index": "npm run create-search-index -- --serve",
+        "build": "npm run build-11ty-quiet && npm run create-search-index",
+        "start": "npm run build-11ty-quiet && npm run serve-search-index",
+        "clean": "rm -r _site",
+        "rebuild": "npm run clean && npm run build",
+        "restart": "npm run clean && npm run start"
     },
     "type": "module",
     "dependencies": {
