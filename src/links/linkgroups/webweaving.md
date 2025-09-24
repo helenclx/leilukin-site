@@ -1,11 +1,11 @@
 ---
 pageTitle: Webweaving
 date: 2024-07-01
-updated: 2025-07-26T08:18:55+0800
+updated: 2025-09-24T17:43:50+0800
 desc: My curated resources and guides for making your own website.
 toc: true
 ---
-I adopted the term "webweaving" from [32-Bit Cafe](https://32bit.cafe/), particularly its [Discourse forum](https://discourse.32bit.cafe/) to refer to the activity of making and developing websites in hobby contexts. In essence, webweaving is hobbyist web design and web development.
+I adopted the term "webweaving" from [32-Bit Cafe](https://32bit.cafe/) to refer to the activity of making and developing websites in hobby contexts. In essence, webweaving is hobbyist web design and web development.
 
 ## Why Have Your Own Website
 
@@ -14,6 +14,9 @@ I adopted the term "webweaving" from [32-Bit Cafe](https://32bit.cafe/), particu
 ## Getting Started with Making Your Website
 
 * [You Can Make A Website](https://osteophage.neocities.org/essays/you-can-make-a-website) by Coyote
+- [Have Your Own Website](https://yourownwebsite.org/have/) by Shannon Kay
+- [Make Your Own Website](https://make.yourownwebsite.org/) by Shannon Kay
+- [Start a Blog](https://yourownwebsite.org/startablog/) by Shannon Kay
 
 ## Webweaving Tutorials
 
