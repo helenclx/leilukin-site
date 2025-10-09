@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2025-08-29T18:56:32+0800
+updated: 2025-10-10T05:54:36+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -15,6 +15,6 @@ You can also check out my [status.cafe profile](https://status.cafe/users/leiluk
 
 ## Attending 42 the Computer Science School
 
-From April 7 to May 2, I attended my local campus of the [42 computer science school](https://www.42network.org/), by participating in their 26-day bootcamp named the Piscine. On 16 May 2025, I was informed that I succeed in passing the Piscine and am eligible for 42's core curriculum. Currently, I am waiting for 42's core curriculum to begin on October 6.
+Since 6 October 2025, I am attending [42 computer science school](https://www.42network.org/), specifically its core curriculum.
 
 You can read more about my life at 42 the computer science school in my blog posts under the ["42 the school"](/topics/42-the-school/) category.
