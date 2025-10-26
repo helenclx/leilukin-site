@@ -46,10 +46,10 @@ Therefore, I am compiling this masterlist by curating various materials that are
 * [The ALLEGED Witch Trials of J.K. Rowling (What The Megan Phelps Podcast Won't Tell You)](https://www.youtube.com/watch?v=9ncYTEY7aVk) by Caelan Conrad (18 March 2023)
 * [The Harry Potter Villains Were Trans?](https://www.youtube.com/watch?v=7xJF4XYarzI) by Brigitte Empire (3 April 2023)
 * [Maybe The Wizard Game Just Wasn't Very Good (The Jimquisition)](https://www.youtube.com/watch?v=2pggtSI_95A) by James Stephanie Sterling (20 November 2023)
-* [J.K. Rowling & Holocaust Denial](https://www.youtube.com/watch?v=whJJGqVtkEk) by Caelan Conrad (16 March 2024)
-* [Did J.K. Rowling STEAL Harry Potter (Rip-off? Plagiarism?!)](https://www.youtube.com/watch?v=Cmx_YSPcujE) by Caelan Conrad (3 June 2024)
+* [Did J.K. Rowling Deny Nazi Crimes?](https://www.youtube.com/watch?v=whJJGqVtkEk) by Caelan Conrad (16 March 2024)
+* [Is Harry Potter Original?](https://www.youtube.com/watch?v=Cmx_YSPcujE) by Caelan Conrad (3 June 2024)
 * [Harry Potter is Also Ableist](https://www.youtube.com/watch?v=oYgFHBXyVE4) by Ember Green (9 December 2024)
-* [J. K. Rowling: The Real Story](https://www.youtube.com/watch?v=NeFUqCrmPC0) by Caelan Conrad (4 March 2025)
+* [Was J. K. Rowling's "Poverty" a lie?](https://www.youtube.com/watch?v=NeFUqCrmPC0) by Caelan Conrad (4 March 2025)
 
 ## Podcasts
 
