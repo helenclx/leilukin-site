@@ -1,7 +1,7 @@
 ---
 pageTitle: Articles
 date: 2024-07-03
-updated: 2025-06-28T08:28:56+0800
+updated: 2025-10-31T07:06:39+0800
 desc: Articles I find interesting or important.
 toc: true
 ---
@@ -24,6 +24,7 @@ toc: true
 ## Mental Health
 
 * [There Is No Moral Imperative to Be Miserable](https://mentalhellth.xyz/p/there-is-no-moral-imperative-to-be) by James Greig ([Archived](https://archive.is/20240201052345/https://mentalhellth.xyz/p/there-is-no-moral-imperative-to-be))
+- [Why Finding Your Autistic Community Didn’t Fix Your Loneliness](https://www.autismchrysalis.com/2025/10/28/why-finding-your-autistic-community-didnt-fix-your-loneliness-the-truth-no-one-talks-about/) by Heather Cook
 
 ## Race
 
