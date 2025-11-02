@@ -3,7 +3,7 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic Mod Build"
 desc: "A list of Star Wars: Knights of the Old Republic mods I use."
 tags: ["contents", "mod lists"]
 topics: ["star wars kotor", "video game mods"]
-updated: 2025-11-02T15:55:34+0800
+updated: 2025-11-02T16:22:20+0800
 isContentDivided: true
 toc: true
 ---
@@ -2802,22 +2802,41 @@ Installation Note
 
 ---
 
-### Weapon Base Stats Re-balance
+### Multifire and Autofire and Finesse
 
 Mod Name
-: [Weapon Base Stats Re-balance (K1)](https://deadlystream.com/files/file/1248-weapon-base-stats-re-balance-k1/)
+: [Multifire and Autofire and Finesse (KotOR)](https://www.nexusmods.com/kotor/mods/1711)
 
 Mod Author
-: TK-664
+: darthbdaman
 
 Category
 : Mechanics Change
 
 Tier
-: Tier 1 - Essential
+: Tier 2 - Very Important
 
 Installation Note
-: In addition to running the TSLPatcher to install the main components of the mod, I also install the files in the “OPEN ME” folder.
+: I install the "3 HW Attacks (-6), Increased Rifle Dmg" option.
+
+---
+
+### JC's Blaster Adjustment
+
+Mod Name
+: [JC's Blaster Adjustment for K1](https://deadlystream.com/files/file/2827-jcs-blaster-adjustment-for-k1/)
+
+Mod Author
+: JCarter426
+
+Category
+: Mechanic Changes
+
+Tier
+: Tier 2 - Very Important
+
+Installation Note
+: I install the "Blaster Pistol & Blaster Rifle + Critical" option.
 
 ---
 
