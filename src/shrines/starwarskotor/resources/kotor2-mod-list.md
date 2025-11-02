@@ -3,7 +3,7 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic II: The Sith Lords
 desc: "A list of Star Wars: Knights of the Old Republic II: The Sith Lords mods I use."
 tags: ["contents", "mod lists"]
 topics: ["star wars kotor 2", "video game mods"]
-updated: 2025-11-02T15:36:19+0800
+updated: 2025-11-02T15:55:45+0800
 isContentDivided: true
 toc: true
 ---
@@ -2538,25 +2538,6 @@ Leilukin’s Comment
 
 ---
 
-### Luxa Hair Fix
-
-Mod Name
-: [Luxa Hair Fix](https://deadlystream.com/files/file/452-luxa-hair-fix/)
-
-Mod Author
-: redrob41
-
-Category
-: Appearance Change
-
-Tier
-: Tier 2 - Very Important
-
-Installation Note
-: The components I install are “1 - Head Fix” and “2 - Regular Waist” for “2 - Body Options”.
-
----
-
 ### HD Luxa
 
 Mod Name
@@ -3635,7 +3616,6 @@ Download Note
 :   * Maintenance Officer Realistic Reskin
 :   * Thigh-High Boots for Twi'lek
 :   * Worn-Out Mando Armor
-: * Player and Party Underwear
 : * The Sith Lords Restored Content Mod
 
 ---
@@ -3760,25 +3740,22 @@ Note
 
 ---
 
-### Party & Player Underwear & UCO Patch
+### Character Textures & Model Fixes
 
 Mod Name
-: [Unofficial Party & Player Underwear+UCO Patch](https://deadlystream.com/files/file/2131-unofficial-party-player-underwearuco-patch-and-red-shoe-restoration/)
+: [4x Upscale+ Character Textures & Model Fixes](https://deadlystream.com/files/file/2660-4x-upscale-character-textures-model-fixes-tsl/)
 
 Mod Author
-: Ol' Cappy
+: redrob41
 
 Category
-: Patch
+: Graphics Improvement
 
 Tier
 : Tier 1 - Essential
 
-Required Mod
-: Ultimate Character Overhaul, Party & Player Underwear
-
-Installation Note
-: I download and install the TPC version. I install the files from the “Party & Player Underwear + UCO” folder.
+Download Note
+: I download the 2x tpc version.
 
 ---
 
@@ -3797,9 +3774,10 @@ Tier
 : Tier 1 - Essential
 
 Leilukin’s Comment
-: I’ve always hated how skimpy the vanilla dancer outfit is, like how much I hate the vanilla dancer model. With this mod and the dancer model fix from Player & Party Underwear make the “dancing for Vogga” sequence more bearable.
+: I’ve always hated how skimpy the vanilla dancer outfit is, like how much I hate the vanilla dancer model. With this mod and the dancer model fix from redrob41's character model fixes make the “dancing for Vogga” sequence more bearable.
 
 ---
+
 ### 4GB Patch
 
 Mod Name

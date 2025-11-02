@@ -3,7 +3,7 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic Mod Build"
 desc: "A list of Star Wars: Knights of the Old Republic mods I use."
 tags: ["contents", "mod lists"]
 topics: ["star wars kotor", "video game mods"]
-updated: 2025-11-02T15:36:05+0800
+updated: 2025-11-02T15:55:34+0800
 isContentDivided: true
 toc: true
 ---
@@ -1336,22 +1336,6 @@ Tier
 
 Mod Name
 : [Emperor Turnip's HD Hutts](https://deadlystream.com/files/file/1188-emperor-turnips-hd-hutts/)
-
-Mod Author
-: Emperor Turnip
-
-Category
-: Graphics Improvement
-
-Tier
-: Tier 3 - Somewhat Important
-
----
-
-### HD Rakghouls
-
-Mod Name
-: [Emperor Turnip's HD Rakghouls](https://deadlystream.com/files/file/1187-emperor-turnips-hd-rakghouls/)
 
 Mod Author
 : Emperor Turnip
@@ -4243,6 +4227,25 @@ Installation Note
 : * Miscellaneous Compatibility Patches
 :   * Juhani Cathar Head
 :   * Thigh-High Boots for Twi'lek
+
+---
+
+### Character Textures & Model Fixes
+
+Mod Name
+: [4x Upscale+ Character Textures & Model Fixes](https://deadlystream.com/files/file/2659-4x-upscale-character-textures-model-fixes/)
+
+Mod Author
+: redrob41
+
+Category
+: Graphics Improvement
+
+Tier
+: Tier 1 - Essential
+
+Download Note
+: I download the 2x tpc version.
 
 ---
 
