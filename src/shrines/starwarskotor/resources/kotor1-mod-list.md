@@ -3365,22 +3365,6 @@ Installation Note
 
 ---
 
-### Unique Sith Governor
-
-Mod Name
-: [Unique Sith Governor](https://deadlystream.com/files/file/2302-unique-sith-governor/)
-
-Mod Author
-: N-DReW25
-
-Category
-: Appearance Change
-
-Tier
-: Tier 3 - Somewhat Important
-
----
-
 ### Belaya's Unique Look
 
 Mod Name
