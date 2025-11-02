@@ -262,6 +262,25 @@ installation Note
 
 ---
 
+### Character Textures & Model Fixes
+
+Mod Name
+: [4x Upscale+ Character Textures & Model Fixes](https://deadlystream.com/files/file/2659-4x-upscale-character-textures-model-fixes/)
+
+Mod Author
+: redrob41
+
+Category
+: Graphics Improvement
+
+Tier
+: Tier 1 - Essential
+
+Download Note
+: I download the 2x tpc version.
+
+---
+
 ### Ultimate Character Overhaul
 
 Mod Name
@@ -4227,25 +4246,6 @@ Installation Note
 : * Miscellaneous Compatibility Patches
 :   * Juhani Cathar Head
 :   * Thigh-High Boots for Twi'lek
-
----
-
-### Character Textures & Model Fixes
-
-Mod Name
-: [4x Upscale+ Character Textures & Model Fixes](https://deadlystream.com/files/file/2659-4x-upscale-character-textures-model-fixes/)
-
-Mod Author
-: redrob41
-
-Category
-: Graphics Improvement
-
-Tier
-: Tier 1 - Essential
-
-Download Note
-: I download the 2x tpc version.
 
 ---
 

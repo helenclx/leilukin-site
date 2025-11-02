@@ -205,6 +205,25 @@ Leilukin’s Comment
 
 ---
 
+### Character Textures & Model Fixes
+
+Mod Name
+: [4x Upscale+ Character Textures & Model Fixes](https://deadlystream.com/files/file/2660-4x-upscale-character-textures-model-fixes-tsl/)
+
+Mod Author
+: redrob41
+
+Category
+: Graphics Improvement
+
+Tier
+: Tier 1 - Essential
+
+Download Note
+: I download the 2x tpc version.
+
+---
+
 ### Ultimate Character Overhaul
 
 Mod Name
@@ -3591,6 +3610,25 @@ Installation Note
 
 ---
 
+### Remove Duplicate TGA/TPC
+
+Mod Name
+: [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384) OR [Bash script for macOS/Linux](https://pastebin.com/6WCN122S)
+
+Mod Author
+: Flachzangen, bash version by th3w1zard1
+
+Category
+: Patch
+
+Tier
+: Tier 1 - Essential
+
+Installation Note
+: Place DelDuplicateTGA-TPC (or the bash script version) in the main game folder (NOT override), run it, say that TPC should be deleted and do not manually confirm.
+
+---
+
 ### Ultimate Character Overhaul Patches
 
 Mod Name
@@ -3636,22 +3674,22 @@ Tier
 
 ---
 
-### Remove Duplicate TGA/TPC
+### More Covered Dancer Outfit
 
 Mod Name
-: [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384) OR [Bash script for macOS/Linux](https://pastebin.com/6WCN122S)
+: [More Covered Dancer Outfit](https://www.nexusmods.com/kotor2/mods/42/?)
 
 Mod Author
-: Flachzangen, bash version by th3w1zard1
+: felixfelicitas
 
 Category
-: Patch
+: Appearance Change
 
 Tier
 : Tier 1 - Essential
 
-Installation Note
-: Place DelDuplicateTGA-TPC (or the bash script version) in the main game folder (NOT override), run it, say that TPC should be deleted and do not manually confirm.
+Leilukin’s Comment
+: I’ve always hated how skimpy the vanilla dancer outfit is, like how much I hate the vanilla dancer model. With this mod and the dancer model fix from redrob41's character model fixes make the “dancing for Vogga” sequence more bearable.
 
 ---
 
@@ -3737,44 +3775,6 @@ Installation Note
 
 Note
 : This mod was created for {{ cite "KotOR 1" }}, but it work with {{ cite "KotOR 2" }} as well.
-
----
-
-### Character Textures & Model Fixes
-
-Mod Name
-: [4x Upscale+ Character Textures & Model Fixes](https://deadlystream.com/files/file/2660-4x-upscale-character-textures-model-fixes-tsl/)
-
-Mod Author
-: redrob41
-
-Category
-: Graphics Improvement
-
-Tier
-: Tier 1 - Essential
-
-Download Note
-: I download the 2x tpc version.
-
----
-
-### More Covered Dancer Outfit
-
-Mod Name
-: [More Covered Dancer Outfit](https://www.nexusmods.com/kotor2/mods/42/?)
-
-Mod Author
-: felixfelicitas
-
-Category
-: Appearance Change
-
-Tier
-: Tier 1 - Essential
-
-Leilukin’s Comment
-: I’ve always hated how skimpy the vanilla dancer outfit is, like how much I hate the vanilla dancer model. With this mod and the dancer model fix from redrob41's character model fixes make the “dancing for Vogga” sequence more bearable.
 
 ---
 
