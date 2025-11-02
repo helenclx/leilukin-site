@@ -3,7 +3,7 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic Mod Build"
 desc: "A list of Star Wars: Knights of the Old Republic mods I use."
 tags: ["contents", "mod lists"]
 topics: ["star wars kotor", "video game mods"]
-updated: 2025-11-02T16:22:20+0800
+updated: 2025-11-02T16:24:49+0800
 isContentDivided: true
 toc: true
 ---
@@ -3732,22 +3732,6 @@ Mod Name
 
 Mod Author
 : Emperor Devon
-
-Category
-: Immersion
-
-Tier
-: Tier 3 - Somewhat Important
-
----
-
-### Taris Sith Uniform Disguise Extension
-
-Mod Name
-: [Taris Sith Uniform Disguise Extension](https://github.com/DarthParametric/K1_Taris_Sith_Uniform_Disguise_Extension/releases)
-
-Mod Author
-: DarthParametric
 
 Category
 : Immersion
