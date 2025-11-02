@@ -3,7 +3,7 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic II: The Sith Lords
 desc: "A list of Star Wars: Knights of the Old Republic II: The Sith Lords mods I use."
 tags: ["contents", "mod lists"]
 topics: ["star wars kotor 2", "video game mods"]
-updated: 2025-05-09T08:09:48+0800
+updated: 2025-11-02T15:36:19+0800
 isContentDivided: true
 toc: true
 ---
@@ -3659,10 +3659,10 @@ Tier
 ### Remove Duplicate TGA/TPC
 
 Mod Name
-: [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384)
+: [Remove Duplicate TGA/TPC](https://www.nexusmods.com/kotor/mods/1384) OR [Bash script for macOS/Linux](https://pastebin.com/6WCN122S)
 
 Mod Author
-: Flachzangen
+: Flachzangen, bash version by th3w1zard1
 
 Category
 : Patch
@@ -3671,7 +3671,7 @@ Tier
 : Tier 1 - Essential
 
 Installation Note
-: Place DelDuplicateTGA-TPC in the main game folder (NOT override), run it, say that TPC should be deleted and do not manually confirm.
+: Place DelDuplicateTGA-TPC (or the bash script version) in the main game folder (NOT override), run it, say that TPC should be deleted and do not manually confirm.
 
 ---
 
