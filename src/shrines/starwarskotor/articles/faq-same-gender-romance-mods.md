@@ -1,7 +1,7 @@
 ---
 articleTitle: "Frequently Asked Questions (FAQ) for My Star Wars: KotOR Same-Gender Romance Mods"
 date: 2021-09-25
-updated: 2025-08-18T20:40:48+0800
+updated: 2025-11-03T23:48:35+0800
 desc: "Frequently asked questions for my same-gender romance mods for Star Wars: Knights of the Old Republic series."
 tags: kotor both articles
 topics: ["star wars kotor", "star wars kotor 2", "video game mods"]
@@ -33,7 +33,7 @@ I have also compiled a [list of all the same-gender romance mods](/shrines/starw
 
 Please make sure you have downloaded and installed the latest version of my mods, and read the Read Me files of my mods to make sure you have followed ALL the information and instructions in my Read Me files before asking questions for technical support.
 
-When you are asking for technical support, please provide details for the issues you encountered: when and how did your problem start happening and what mods you have installed. Simply saying "mod doesn't work" DOES NOT help the mod author to figure out the cause of your issue. When I ask you for more details, please answer my questions honestly, so I can identify how to solve your problems. Telling me ALL the mods you use will help me greatly in figuring out if your issue was caused by mod conflict or not.
+When you are asking for technical support, please provide details for the issues you encountered: when and how did your problem start happening, what were the exact error or warning message you got, and what mods you have installed. Vague statements like "mod doesn't work" or "getting an error" DOES NOT help the mod author to figure out the cause of your issue. When I ask you for more details, please answer my questions honestly, so I can identify how to solve your problems. Telling me ALL the mods you use will help me greatly in figuring out if your issue was caused by mod conflict or not.
 
 If you play {{ cite "KotOR 2" }} on Steam, **make sure there are no leftover Steam Workshop folders in your Steam directory**, because Steam Workshop mods will likely conflict with my mods, and even unsubscribing Steam Workshop mods does not always remove all Workshop mod files completely. To check for any leftover Steam Workshop files, go to the Steam Workshop folder in your Steam directory (`/\Steam\SteamApps\Workshop\`), and delete all the sub-folders in the Steam Workshop folder if they are present.
 
@@ -102,12 +102,15 @@ Otherwise, you may install my same-gender romance mods at any point after KOTOR 
 
 No. I play and mod the {{ cite "KotOR" }} game in English exclusively. Some of my mods in particular will cause your game to crash if you are playing a non-English localization of the {{ cite "KotOR" }} games and TSLRCM, because those mods add custom dialogues that do not exist in the vanilla game in order to prevent characters from referring to the player character as the wrong gender.
 
-The only solution to crashes caused by you playing on a non-English localization is to play the {{ cite "KotOR" }} games and TSLRCM in English. Unless someone is willing to volunteer to translate or localize my mods, do not expect non-English version of my mods will happen.
+The only solution to crashes caused by you playing on a non-English localization is to play the {{ cite "KotOR" }} games and TSLRCM in English. Unless someone is willing to volunteer to translate or localise my mods, do not expect non-English version of my mods will happen.
 
-If you are interested in making a non-English translation or localization of my mods yourself, you may contact me to ask for my permission to do so. However, since I am not familiar with any of the non-English languages officially supported by the {{ cite "KotOR" }} games, I am unable to provide support for any issues players may have with using your non-English translation or localization of my mod. Therefore, you are on your own when it comes to providing support the non-English localizations.
+If you are interested in making a non-English translation or localisation of my mods yourself, you may contact me to ask for my permission to do so. However, since I am not familiar with any of the non-English languages officially supported by the {{ cite "KotOR" }} games, I am unable to provide support for any issues players may have with using your non-English translation or localisation of my mod. Therefore, you are on your own when it comes to providing support the non-English localisations.
 
 ### For your {{ cite "KotOR 2" }} mods that require The Sith Lords Restored Content Mod (TSLRCM) to work, will you make an alternate version that does not require TSLRCM?
-No, I will not make a no-TSLRCM version of my mods that require TSLRCM to function. TSLRCM is widely agreed by players, including {{ cite "KotOR" }} modders, to be an essential mod for the best experience with {{ cite "KotOR 2" }}. Making a non-TSLRCM version of content mod like this would require me to spend extra time to replay {{ cite "KotOR 2" }} without TSLRCM, and therefore subjecting myself to a lesser experience with the game, which I consider a massive waste of my time. In general, if you see any {{ cite "KotOR 2" }} mod that requires TSLRCM to work (not just my mods), do not expect to see a non-TSLRCM version.
+
+No, I will not make a no-TSLRCM version of my mods that require TSLRCM to function. TSLRCM is widely agreed by players, including {{ cite "KotOR" }} modders, to be an essential mod for the best experience with {{ cite "KotOR 2" }}. Making a non-TSLRCM version of content mod like this would require me to spend more of my free time to replay {{ cite "KotOR 2" }} without TSLRCM, just to provide mod support for what many players consider a lesser experience of {{ cite "KotOR 2" }}.
+
+In general, if you see any {{ cite "KotOR 2" }} mod that requires TSLRCM to work (not just my mods), do not expect to see a non-TSLRCM version. Remember that modders make mods out of their free time, and we do not get paid for making mods.
 
 If you are having issues with using TSLRCM, I suggest you report the bugs you encountered and ask for help for solving your issues on the [TSLRCM forum on Deadly Stream](https://deadlystream.com/forum/4-tslrcm/).
 
@@ -134,7 +137,7 @@ Some of my mods require installers, namely TSLPatcher or HoloPatcher, to make th
 
 For Android and iOS users, I suggest referring to the [KotOR Community Portal's modding guide](https://kotor.neocities.org/modding/), specifically their instructions in their mobile mod builds. See [this page for {{ cite "KotOR 1" }}](https://kotor.neocities.org/modding/mod_builds/k1/full_mobile) and [this page for {{ cite "KotOR 2" }}](https://kotor.neocities.org/modding/mod_builds/k2/full_mobile).
 
-For Nintendo Switch users, in order to mod the {{ cite "KotOR" }} game on Switch, first you need to hack your Switch or install a modchip in your Switch, then use the [KotOR Switch Modding Framework](https://deadlystream.com/files/file/2102-kotor-switch-modding-framework/) and [KotOR II Switch Modding Framework](https://deadlystream.com/files/file/2106-kotor-ii-switch-modding-framework/) to install mods. According to JacqylFrost, the creator of these frameworks, both TSLRCM and my Handmaiden same-geneder romance mod work with the {{ cite "KotOR 2" }} version of the framework. I suggest you ask JacqylFrost directly if you need help with modding the {{ cite "KotOR" }} games on Switch.
+For Nintendo Switch users, in order to mod the {{ cite "KotOR" }} game on Switch, first you need to hack your Switch or install a modchip in your Switch, then use the [KotOR Switch Modding Framework](https://deadlystream.com/files/file/2102-kotor-switch-modding-framework/) and [KotOR II Switch Modding Framework](https://deadlystream.com/files/file/2106-kotor-ii-switch-modding-framework/) to install mods. According to JacqylFrost, the creator of these frameworks, both TSLRCM and my Handmaiden same-gender romance mod work with the {{ cite "KotOR 2" }} version of the framework. I suggest you ask JacqylFrost directly if you need help with modding the {{ cite "KotOR" }} games on Switch.
 
 For Steam Deck users, you may refer to JacqylFrost's [Steam Deck modding guide](https://www.reddit.com/r/kotor/comments/10horqp/steam_deck_modding_including_modbuild/) on the KotOR subreddit.
 
@@ -142,17 +145,17 @@ For Steam Deck users, you may refer to JacqylFrost's [Steam Deck modding guide](
 
 ### Will you add kissing scenes to your romance mods?
 
-No. The goal of my same-gender romance mods is not necessary to add new content, but to allow players to experience the pre-existing romance content in the {{ cite "KotOR" }} series without the heterosexual gender restrictions. Kissing scenes are beyond the scope of my mods, and I do not necessary have the skills required (such as modelling, animations, etc.) to create them either, especially given how limited the animations in these old games are.
+No. The goal of my same-gender romance mods is not necessary to add new content, but to allow players to experience the existing romance content in the {{ cite "KotOR" }} series without the heterosexual gender restrictions. Kissing scenes are beyond the scope of my mods, and I do not necessary have the skills required (such as modelling, animations, etc.) to create them either, especially given how limited the animations in these old games are.
 
 For Carth Onasi and Male PC Romance mod for {{ cite "KotOR 1" }}, if you want your male PC to kiss Carth, you may install cjt0202's [Carth Romance Fix](http://www.cjt0202.net/carth_romance.php) mod, then install the compatibility patch provided in my mod.
 
 ### Will you make a romance mod for Canderous/Bao-Dur/Mira/any other character with no romance content in the vanilla game?
 
-No. Due to the fact that these characters were never intended to be romance options for the player character, creating romance content for these characters require extra work and effort, namely writing new dialogue, scripting and animating new scenes, and ideally, finding voice actors or using voice synthesithers for these new content, because some people (myself included) find it immersion-breaking to see party member suddenly become silent in certain lines despite being voiced in every other dialogue. This goes beyond my modding capabilities, and I do not have enough time and desire to put this large amount of work in video game mods for the foreseeable future.
+No. Due to the fact that these characters were never intended to be romance options for the player character, creating romance content for these characters require extra work and effort, namely writing new dialogue, scripting and animating new scenes, and ideally, finding voice actors or using voice synthesisers for these new content, because some people (myself included) find it immersion-breaking to see party member suddenly become silent in certain lines despite being voiced in every other dialogue. This goes beyond my modding capabilities, and I do not have enough time and desire to put this large amount of work in video game mods for the foreseeable future.
 
 ### Why do you make everyone gay?
 
-I am a lesbian who would like to see more representation of LGBTQ+ people and relationships in media, including {{ cite "Star Wars" }}, and I am not the only one who feels this way. I made these same-gender romance mods for fellow LGBTQ+ players who want more gay content in {{ cite "KotOR" }} as well. I find {{ cite "KotOR 2" }}'s complete lack of same-gender romance options especially disaappointing, since the first {{ cite "KotOR" }} at least has Juhani as a canon lesbian romance option, so I made these mods to fill the void. In fact, after releasing my same-gender romance mods, many other LGBTQ+ players have expressed gratitute for the existence of these mods, and consider these mods a huge improvement to their {{ cite "KotOR" }} experience.
+I am a lesbian who would like to see more representation of LGBTQ+ people and relationships in media, including {{ cite "Star Wars" }}, and I am not the only one who feels this way. I made these same-gender romance mods for fellow LGBTQ+ players who want more gay content in {{ cite "KotOR" }} as well. I find {{ cite "KotOR 2" }}'s complete lack of same-gender romance options especially disappointing, since the first {{ cite "KotOR" }} at least has Juhani as a canon lesbian romance option, so I made these mods to fill the void. In fact, after releasing my same-gender romance mods, many other LGBTQ+ players have expressed gratitude for the existence of these mods, and consider these mods a huge improvement to their {{ cite "KotOR" }} experience.
 
 Cisgender heterosexual people already get countless representations in media, including {{ cite "Star Wars" }}, bcause cishet people are considered the default and the norm. If the idea that everyone in your favorite piece of media could be gay makes you uncomfortable, perhaps you meed to examine why you feel that way. Keep in mind that **LGBTQ+ people already have to see countless pieces of mainstream media filled with cisgender heterosexual characters without a single LGBTQ+ character even existing**.
 
@@ -175,14 +178,14 @@ It is my firm belief that Juhani should remain a lesbian and her romance should 
 
 If Handmaiden does not join your female Exile's party when you are using my Handmaiden romance mod, the possible causes for this happening include:
 
-* **You did not install my mod correctly**. Either you get errors when installing the “Default Installation” option, or you did not install DarthTyren's PartySwap mod first before installing the “PartySwap Compatible” option of my mod.
+* **You did not install my mod correctly**. Either you get errors when installing the “Default Installation” option, or you did not install the PartySwap mod first before installing the “PartySwap Compatible” option of my mod.
 * **You have a `holorec.dlg` file in the Override folder**, either from a mod you are using or a mod you previously used. If there is a `holorec.dlg` in your Override folder, delete it.
 * **You may have some leftover Steam Workshop folders in your Steam directory** that overrides the portion where Handmaiden is supposed to join your party. To solve this, go to the Steam Workshop folder in your Steam directory (`/\Steam\SteamApps\Workshop\`), and delete all the sub-folders in the Steam Workshop folder.
 * Similar to the above, **you may have some leftover files from a mod you used in your previous playthrough** in your {{ cite "KotOR 2" }} game directory that interferes the portion where Handmaiden is supposed to join your party. The best way to solve this is to uninstall your game, delete your {{ cite "KotOR 2" }} game folder entirely, and then re-install the game and the mods you want to use.
 
 ### Can you make your mod so you always recruit Handmaiden or Disciple only regardless of the Exile's gender?
 
-No, and I see no point in making such mod when DarthTyren's [PartySwap](https://deadlystream.com/files/file/544-partyswap/) mod already exists to allow you to recruit both Handmaiden and Disciple in a single playthrough regardless of the Exile's gender. Additionally, my mod's primary goal is enabling same-gender romance options, so neither male Exile/Handmaiden nor female Exile/Disciple romance is a priority of my mod.
+No, and I see no point in making such mod when the [PartySwap](https://deadlystream.com/files/file/544-partyswap/) mod already exists to allow you to recruit both Handmaiden and Disciple in a single playthrough regardless of the Exile's gender. Additionally, my mod's primary goal is enabling same-gender romance options, so neither male Exile/Handmaiden nor female Exile/Disciple romance is a priority of my mod.
 
 Therefore, if you want Handmaiden or Disciple in your party regardless of your Exile's gender, my recommendation is to use PartySwap. If you also want same-gender romance with Handmaiden or Disciple, install the PartySwap compatible installation option of my mod after PartySwap. Even if you prefer Handmaiden to Disciple, or vice versa, I will still recommend you to use PartySwap instead so you can get the most out of the party members in a single playthrough.
 
