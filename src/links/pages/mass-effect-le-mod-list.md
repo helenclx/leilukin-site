@@ -3,7 +3,7 @@ pageTitle: Leilukin's Mass Effect Legendary Edition Mod Build
 desc: A list of Mass Effect Legendary Edition mods I use.
 tags: ["contents", "mod lists"]
 topics: ["mass effect", "video game mods"]
-updated: 2025-07-24T00:34:52+0800
+updated: 2025-11-09T07:45:48+0800
 isContentDivided: true
 toc: true
 ---
@@ -24,6 +24,8 @@ The format of this mod list is inspired by [KOTOR Community Portal's mod lists](
 In order to prevent mod conflicts as much as possible, installation order matters if you are using a lot of mods. Therefore, the full list of my mod build below has been arranged in the proper installation order to make all these mods compatible. If you are interested in following my mod build, you should install the mods in the order you are presented with them.
 
 It is important to note that **you cannot use mods for the original edition of the {{ cite "Mass Effect" }} trilogy in the Legendary Edition, and vice versa**. Therefore, since the release of the Legendary Edition, mod authors need to either port or recreate the original trilogy mods, so they can be used for the Legendary Edition.
+
+Many mods for {{ cite "Mass Effect Legendary Edition" }} require community patches, namely [LE1 Community Patch](https://www.nexusmods.com/masseffectlegendaryedition/mods/23), [Unofficial LE2 Patch](https://www.nexusmods.com/masseffectlegendaryedition/mods/8) and [LE3 Community Patch](https://www.nexusmods.com/masseffectlegendaryedition/mods/13) to function. Therefore, to reduce clutter in this mod list, I will not list these community patches as required mods for each individual mod. I highly recommend installing these community patches even if you do not plan to use any other mods, for the numerous bug fixes these patches provide.
 {{ /container  }}
 
 {{ container "article", "content__section" }}
@@ -593,9 +595,6 @@ Mod Author
 Category
 : Immersion
 
-Required Mod
-: [LE1 Sideloader Framework](https://www.nexusmods.com/masseffectlegendaryedition/mods/1309)
-
 ---
 
 #### No Sexual Harassment (LE1)
@@ -725,7 +724,6 @@ Category
 : Appearance Change & Immersion
 
 Required Mods
-: - LE1 Community Patch
 : - Halcyon Hairpack (LE1)
 : - Advanced Weapon Models for LE1
 
@@ -754,6 +752,9 @@ Mod Author
 
 Category
 : Appearance Change
+
+Installation Note
+: I install the Technologic Warlock option.
 
 ---
 
