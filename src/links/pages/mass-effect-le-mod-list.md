@@ -3,7 +3,7 @@ pageTitle: Leilukin's Mass Effect Legendary Edition Mod Build
 desc: A list of Mass Effect Legendary Edition mods I use.
 tags: ["contents", "mod lists"]
 topics: ["mass effect", "video game mods"]
-updated: 2025-11-09T07:45:48+0800
+updated: 2025-11-10T06:25:43+0800
 isContentDivided: true
 toc: true
 ---
@@ -768,6 +768,19 @@ Mod Author
 
 Category
 : Mechanics Change
+
+---
+
+#### Alternate Avina Appearance
+
+Mod Name
+: [Alternate Avina Appearance](https://www.nexusmods.com/masseffectlegendaryedition/mods/2998)
+
+Mod Author
+: DropTheSquid
+
+Category
+: Appearance Change
 
 ---
 
