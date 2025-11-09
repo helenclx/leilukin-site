@@ -85,7 +85,7 @@ See my answer to the previous question. I am not responsible for any bugs caused
 
 Please read the “Mod Compatibility” section of my mod description and Read Me files before asking. If there is a mod you want to use that was not mentioned in my mod description and Read Me files, you can still ask me. Just make sure you tell me the actual name of the mod and ideally, provide a link to the mod you want to ask about, so I can check the mod out myself to confirm if it is compatible with my mod. Do not expect me to know the existence of every single {{ cite "KotOR" }} mod out there.
 
-### Are your romance mods compatible with [KotOR Community Portal's mod builds](https://kotor.neocities.org/modding/)?
+### Are your romance mods compatible with [KotOR Community Portal's mod builds](https://kotor.neocities.org/modding/mod_builds/)?
 
 Yes, all my {{ cite "KotOR" }} mods, not just my same-gender romance mods, are compatible with KotOR Community Portal's mod builds. I endorse the mod builds and recommend them to anyone interested in modding the {{ cite "KotOR" }} games, so I am making sure my mods are compatible with the mod builds.
 

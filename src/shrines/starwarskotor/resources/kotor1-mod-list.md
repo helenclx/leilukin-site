@@ -16,7 +16,7 @@ In order to prevent mod conflicts as much as possible, installation order matter
 
 I usually play {{ cite "KotOR 1" }} on GOG, though I also own the Steam version of {{ cite "KotOR 1" }}.
 
-The format of this mod list is inspired by [KOTOR Community Portal's mod lists](https://kotor.neocities.org/modding/).
+The format of this mod list is inspired by [KOTOR Community Portal's mod lists](https://kotor.neocities.org/modding/mod_builds/).
 
 (This mod list was last updated on <time datetime="{{ updated }}">{{ updated |> formatDate }}</time>)
 {{ /container  }}

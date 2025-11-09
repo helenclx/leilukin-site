@@ -16,7 +16,7 @@ In order to prevent mod conflicts as much as possible, installation order matter
 
 I own {{ cite "KotOR 2" }} on both Steam and GOG. I play the Steam version of {{ cite "KotOR 2" }} with the Aspyr update.
 
-The format of this mod list is inspired by [KOTOR Community Portal's mod lists](https://kotor.neocities.org/modding/).
+The format of this mod list is inspired by [KOTOR Community Portal's mod lists](https://kotor.neocities.org/modding/mod_builds/).
 
 (This mod list was last updated on <time datetime="{{ updated }}">{{ updated |> formatDate }}</time>)
 {{ /container  }}
