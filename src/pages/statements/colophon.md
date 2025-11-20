@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2025-09-12T13:22:48+0800
+updated: 2025-11-20T12:32:46+0800
 toc: true
 eleventyNavigation:
     order: 16
@@ -61,6 +61,11 @@ Eleventy has the Markdown parser [markdown-it](https://www.npmjs.com/package/mar
 ## Branding
 
 I drew the Leilukin bee illustration and made my website's button in Adobe Photoshop CS5.
+
+## Writing
+
+ - [Obsidian](https://obsidian.md/) for drafting and writing web pages and blog posts.
+ - My custom Python script for creating new blog post files.
 
 ## JavaScript
 
