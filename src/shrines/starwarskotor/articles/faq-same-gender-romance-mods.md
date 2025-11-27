@@ -1,7 +1,7 @@
 ---
 articleTitle: "Frequently Asked Questions (FAQ) for My Star Wars: KotOR Same-Gender Romance Mods"
 date: 2021-09-25
-updated: 2025-11-10T07:16:38+0800
+updated: 2025-11-27T10:37:03+0800
 desc: "Frequently asked questions for my same-gender romance mods for Star Wars: Knights of the Old Republic series."
 tags: kotor both articles
 topics: ["star wars kotor", "star wars kotor 2", "video game mods"]
@@ -151,6 +151,8 @@ For Steam Deck users, you may refer to JacqylFrost's [Steam Deck modding guide](
 No. The goal of my same-gender romance mods is not necessary to add new content, but to allow players to experience the existing romance content in the {{ cite "KotOR" }} series without the heterosexual gender restrictions. Kissing scenes are beyond the scope of my mods, and I do not necessary have the skills required (such as modelling, animations, etc.) to create them either, especially given how limited the animations in these old games are.
 
 For Carth Onasi and Male PC Romance mod for {{ cite "KotOR 1" }}, if you want your male PC to kiss Carth, you may install cjt0202's [Carth Romance Fix](http://www.cjt0202.net/carth_romance.php) mod, then install the compatibility patch provided in my mod.
+
+If you want more romantic content for Atton in {{ cite "KotOR 2" }}, you can check out LenaHills's [Expanded Atton Romance Mod](https://deadlystream.com/files/file/2822-expanded-atton-romance-mod/), which is compatible with my Atton Rand and Male Exile Romance mod.
 
 ### Will you make a romance mod for Canderous/Bao-Dur/Mira/any other character with no romance content in the vanilla game?
 
