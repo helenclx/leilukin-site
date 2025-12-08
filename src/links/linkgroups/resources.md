@@ -1,7 +1,7 @@
 ---
 pageTitle: Resources
 date: 2024-08-02
-updated: 2025-06-02T10:38:16+0800
+updated: 2025-12-08T10:42:06+0800
 desc: Resources I have curated.
 toc: true
 ---
@@ -22,17 +22,6 @@ toc: true
 ## Gaming
 
 * [3DS Hacks Guide](https://3ds.hacks.guide/)
-
-### Video Game Mods
-
-These are lists of video game mods I use for my own playthroughs.
-<ul>
-    {{ for list of collections["mod lists"] }}
-    <li>
-        <a href="{{ list.url }}">{{ list.data.pageTitle || list.data.articleTitle }}</a>
-    </li>
-    {{ /for }}
-</ul>
 
 ## Images
 
