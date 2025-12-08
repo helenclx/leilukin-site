@@ -3,7 +3,7 @@ pageTitle: Leilukin's Mass Effect Legendary Edition Mod Build
 desc: A list of Mass Effect Legendary Edition mods I use.
 tags: ["contents", "mod lists"]
 topics: ["mass effect", "video game mods"]
-updated: 2025-12-08T09:27:19+0800
+listUpdated: 2025-12-08T09:27:19+0800
 isContentDivided: true
 toc: true
 ---
@@ -15,7 +15,7 @@ Here I’m compiling a list of all the modifications, or mods in short, that I u
 
 The format of this mod list is inspired by [KOTOR Community Portal's mod lists](https://kotor.neocities.org/modding/).
 
-(This mod list was last updated on <time datetime="{{ updated }}">{{ updated |> formatDate }}</time>)
+(This mod list was last updated on <time datetime="{{ listUpdated }}">{{ listUpdated |> formatDate }}</time>)
 {{ /container  }}
 
 {{ container "article", "content__section" }}
