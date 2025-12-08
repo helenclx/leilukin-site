@@ -12,7 +12,7 @@ export default function(eleventyConfig) {
         return Array.from(topics).sort();
     });
 
-    // Filter: Filter contents by topicegory
+    // Filter: Filter contents by topic
     eleventyConfig.addFilter("filterByTopic", function(contents, topic) {
         topic = topic.toLowerCase();
         let result = contents.filter(item => {
