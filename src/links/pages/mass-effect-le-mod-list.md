@@ -3,7 +3,7 @@ pageTitle: Leilukin's Mass Effect Legendary Edition Mod Build
 desc: A list of Mass Effect Legendary Edition mods I use.
 tags: ["contents", "mod lists"]
 topics: ["mass effect", "video game mods"]
-updated: 2025-12-05T09:27:18+0800
+updated: 2025-12-08T09:27:19+0800
 isContentDivided: true
 toc: true
 ---
@@ -552,6 +552,19 @@ Mod Author
 
 Category
 : Mechanics Change
+
+---
+
+#### ME1 Dossiers Restored
+
+Mod Name
+: [ME1 Dossiers Restored (LE1)](https://www.nexusmods.com/masseffectlegendaryedition/mods/2800)
+
+Mod Author
+: Cirosan
+
+Category
+: Restored Content
 
 ---
 
