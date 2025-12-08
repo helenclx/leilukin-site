@@ -26,7 +26,7 @@ In order to prevent mod conflicts as much as possible, installation order matter
 It is important to note that **you cannot use mods for the original edition of the {{ cite "Mass Effect" }} trilogy in the Legendary Edition, and vice versa**. Therefore, since the release of the Legendary Edition, mod authors need to either port or recreate the original trilogy mods, so they can be used for the Legendary Edition.
 
 Many mods for {{ cite "Mass Effect Legendary Edition" }} require community patches, namely [LE1 Community Patch](https://www.nexusmods.com/masseffectlegendaryedition/mods/23), [Unofficial LE2 Patch](https://www.nexusmods.com/masseffectlegendaryedition/mods/8) and [LE3 Community Patch](https://www.nexusmods.com/masseffectlegendaryedition/mods/13) to function. Therefore, to reduce clutter in this mod list, I will not list these community patches as required mods for each individual mod. I highly recommend installing these community patches even if you do not plan to use any other mods, for the numerous bug fixes these patches provide.
-{{ /container  }}
+{{ /container }}
 
 {{ container "article", "content__section" }}
 ## Mod Categories
@@ -3345,10 +3345,10 @@ Download Note
 
 ---
 
-#### LE3 Main Menu Screen Reaplacer
+#### LE3 Main Menu Screen Replacer
 
 Mod Name
-: [LE3 Main Menu Screen Reaplacer](https://www.nexusmods.com/masseffectlegendaryedition/mods/800)
+: [LE3 Main Menu Screen Replacer](https://www.nexusmods.com/masseffectlegendaryedition/mods/800)
 
 Mod Author
 : Jenya66
