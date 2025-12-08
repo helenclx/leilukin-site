@@ -3,7 +3,7 @@ articleTitle: Leilukin's Mass Effect Legendary Edition Mod Build
 desc: A list of Mass Effect Legendary Edition mods I use.
 tags: ["mod lists"]
 topics: ["mass effect", "video game mods"]
-updated: 2025-12-08T09:27:19+0800
+updated: 2025-12-08T11:35:30+0800
 isContentDivided: true
 toc: true
 ---
@@ -3343,10 +3343,10 @@ Download Note
 
 ---
 
-#### LE3 Main Menu Screen Replacer
+#### LE3 Main Menu Screen Reaplacer
 
 Mod Name
-: [LE3 Main Menu Screen Replacer](https://www.nexusmods.com/masseffectlegendaryedition/mods/800)
+: [LE3 Main Menu Screen Reaplacer](https://www.nexusmods.com/masseffectlegendaryedition/mods/800)
 
 Mod Author
 : Jenya66
