@@ -1,7 +1,7 @@
 ---
 articleTitle: "Frequently Asked Questions (FAQ) for My Star Wars: KotOR Same-Gender Romance Mods"
 date: 2021-09-25
-updated: 2025-11-27T10:37:03+0800
+updated: 2025-12-08T11:24:48+0800
 desc: "Frequently asked questions for my same-gender romance mods for Star Wars: Knights of the Old Republic series."
 tags: kotor both articles
 topics: ["star wars kotor", "star wars kotor 2", "video game mods"]
@@ -37,11 +37,7 @@ When you are asking for technical support, please provide details for the issues
 
 If you play {{ cite "KotOR 2" }} on Steam, **make sure there are no leftover Steam Workshop folders in your Steam directory**, because Steam Workshop mods will likely conflict with my mods, and even unsubscribing Steam Workshop mods does not always remove all Workshop mod files completely. To check for any leftover Steam Workshop files, go to the Steam Workshop folder in your Steam directory (`/\Steam\SteamApps\Workshop\`), and delete all the sub-folders in the Steam Workshop folder if they are present.
 
-### When I installed your mod, I got the error message: <i>"[ERROR] Unhandled exception: Access violation at address [a bunch of numbers]. Write of address [a bunch of numbers] (0)"</i>.
-
-Try to right-click your {{ cite "KotOR 2" }} folder or subfolders, go to Properties and uncheck the "Read-only", then try to install my mod again to see if it works.
-
-### When installing your {{ cite "KotOR 2" }} mod, I got errors saying "Modules\[_].mod" did not exist, even though I had installed the installer (.exe) version of The Sith Lords Restored Content Mod.
+## When installing your {{ cite "KotOR 2" }} mod, I got errors saying "Modules\[_].mod" did not exist, even though I had installed the installer (.exe) version of The Sith Lords Restored Content Mod.
 
 First, go to the folder where your {{ cite "KotOR 2" }} game is installed, and go to the Modules folder, then **check if the .mod files mentioned in the error messages are in your Modules folder**.
 
@@ -93,7 +89,7 @@ That said, some of my same-gender romance mods require you to install at very sp
 
 * **Handmaiden and Female Exile - Disciple and Male Exile Romance** should be installed *immediately* after PartySwap and before Extended Enclave. If you want to use PartySwap, make sure you choose the "PartySwap Compatible Installation" option when you install my Handmaiden/Disciple romance mod. If you also want to install Extended Enclave, you should use the compatibility patch included in my Handmaiden/Disciple romance mod, instead of the [standalone patch](https://deadlystream.com/files/file/1304-partyswap-and-extended-enclave-compatibility-patch/) I made for the mod build. If you plan on using Kreia's Fall In-Game Cutscene, you need to install the compatibility patch included in my Handmaiden/Disciple romance mod.
 
-    * **IMPORTANT:** It is crucial to closely follow my instructions for when should Handmaiden and Female Exile - Disciple and Male Exile Romance be installed to ensure mod compatibility. If you have already installed the entire KOTOR Community Portal mod build, the only way to make Handmaiden and Female Exile - Disciple and Male Exile Romance work with the mod build is to **reinstall everything**, including the {{ cite "KotOR 2" }} game, the mod builds and my mod. There is no way around this. Installation order is critical if you want to use many mods for the {{ cite "KotOR" }} games. This is why the KOTOR Community mod builds have been carefully designed with the correct installation order, and why the mod build have explicitly instructed that if you want to use mods that are not included in the mod builds, you should identify the mods you want to use BEFORE installing the mod builds. 
+    * **WARNING:** It is crucial to closely follow my instructions for when should Handmaiden and Female Exile - Disciple and Male Exile Romance be installed to ensure mod compatibility. If you have already installed the entire KOTOR Community Portal mod build, the only way to make Handmaiden and Female Exile - Disciple and Male Exile Romance work with the mod build is to **reinstall everything**, including the {{ cite "KotOR 2" }} game, the mod builds and my mod. There is no way around this. Installation order is critical if you want to use many mods for the {{ cite "KotOR" }} games. This is why the KOTOR Community mod builds have been carefully designed with the correct installation order, and why the mod build have explicitly instructed that if you want to use mods that are not included in the mod builds, you should identify the mods you want to use BEFORE installing the mod builds. 
 
 * **Atton Rand and Male Exile Romance** should be installed after PartySwap. If you also use Kreia's Fall In-Game Cutscene, you need to install the compatibility patch provided by Atton Rand and Male Exile Romance.
 * **Visas Marr and Female Exile Romance** needs to be installed at any point after PartySwap.
@@ -152,7 +148,7 @@ No. The goal of my same-gender romance mods is not necessary to add new content,
 
 For Carth Onasi and Male PC Romance mod for {{ cite "KotOR 1" }}, if you want your male PC to kiss Carth, you may install cjt0202's [Carth Romance Fix](http://www.cjt0202.net/carth_romance.php) mod, then install the compatibility patch provided in my mod.
 
-If you want more romantic content for Atton in {{ cite "KotOR 2" }}, you can check out LenaHills's [Expanded Atton Romance Mod](https://deadlystream.com/files/file/2822-expanded-atton-romance-mod/), which is compatible with my Atton Rand and Male Exile Romance mod.
+If you want more romantic content with Atton in {{ cite "KotOR 2" }}, you can check out LenaHills's [Expanded Atton Romance Mod](https://deadlystream.com/files/file/2822-expanded-atton-romance-mod/), which is compatible with my Atton Rand and Male Exile Romance mod.
 
 ### Will you make a romance mod for Canderous/Bao-Dur/Mira/any other character with no romance content in the vanilla game?
 
@@ -167,6 +163,7 @@ Cisgender heterosexual people already get countless representations in media, in
 Frankly, opposing the concept or existence of same-gender romance mods for video games is homophobic. As a gay person, this is a stance I will not change my mind on. Any comment or message that tries to argue with me otherwise will be ignored or deleted without response.
 
 ### Character X being gay does not fit his/her character.
+
 That is just your opinion, and an opinion I will never agree with. Like it or not, there will always be someone who would like to see gay content for any of the characters affected by my same-gender romance mods.
 
 ## Alternate Revan Romances REDUX Questions
