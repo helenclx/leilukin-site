@@ -15,8 +15,12 @@
     {{ if isArticle }}
     <div class="article__info">
         <p>
+            {{ if !disableWordCount }}
             {{ content |> wordcount |> thousands }} words.
+            {{ /if }}
+            {{ if date }}
             Posted on <time datetime="{{ date }}">{{ date |> formatDate }}</time> by {{ sitemeta.siteAuthor.name }}
+            {{ /if }}
         </p>
         {{ if updated }}
         <p>Last updated on <time datetime="{{ updated }}">{{ updated |> formatDate }}</time></p>

@@ -1,9 +1,9 @@
 ---
-pageTitle: Leilukin's Mass Effect Legendary Edition Mod Build
+articleTitle: Leilukin's Mass Effect Legendary Edition Mod Build
 desc: A list of Mass Effect Legendary Edition mods I use.
-tags: ["contents", "mod lists"]
+tags: ["mod lists"]
 topics: ["mass effect", "video game mods"]
-listUpdated: 2025-12-08T09:27:19+0800
+updated: 2025-12-08T09:27:19+0800
 isContentDivided: true
 toc: true
 ---
@@ -14,8 +14,6 @@ Welcome to Leilukin’s {{ cite "Mass Effect Legendary Edition" }} Mod Build!
 Here I’m compiling a list of all the modifications, or mods in short, that I use for {{ cite "Mass Effect Legendary Edition" }} (MELE), remaster of the {{ cite "Mass Effect" }} trilogy, a series of space opera role-playing video games developed by BioWare, for the best experience with the game. This document is made for my reference and to share with others.
 
 The format of this mod list is inspired by [KOTOR Community Portal's mod lists](https://kotor.neocities.org/modding/).
-
-(This mod list was last updated on <time datetime="{{ listUpdated }}">{{ listUpdated |> formatDate }}</time>)
 {{ /container  }}
 
 {{ container "article", "content__section" }}
