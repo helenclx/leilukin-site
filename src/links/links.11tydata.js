@@ -1,6 +1,6 @@
 export default {
     layout: "layouts/slashpage",
-    permalink: "/links/{{ page.fileSlug }}/",
+    tags: ["link pages"],
     hasBreadcrumbs: true,
     eleventyComputed: {
         title: (data) => `${data.pageTitle} | Links`,

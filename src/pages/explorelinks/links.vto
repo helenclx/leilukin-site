@@ -11,13 +11,13 @@ eleventyNavigation:
     {{ include "components/my-button.vto" }}
 </section>
 
-{{ set linkGroups = collections["link groups"] }}
+{{ set linkPages = collections["link pages"] }}
 <section class="content__section">
     <h2>Links by Category</h2>
     <p>My curated collection of links, grouped by category.</p>
     <ul>
-        {{ for group of linkGroups }}
-        <li><a href="{{ group.url }}">{{ group.data.pageTitle }}</a></li>
+        {{ for linkPage of linkPages }}
+        <li><a href="{{ linkPage.url }}">{{ linkPage.data.pageTitle }}</a></li>
         {{ /for }}
     </ul>
 </section>
