@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2025-10-10T05:54:36+0800
+updated: 2025-12-15T21:08:06+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -16,5 +16,7 @@ You can also check out my [status.cafe profile](https://status.cafe/users/leiluk
 ## Attending 42 the Computer Science School
 
 Since 6 October 2025, I am attending [42 computer science school](https://www.42network.org/), specifically its core curriculum.
+
+There are 7 milestones in the core curriculum: Milestone 0 to 6. Currently, I am in Milestone 2.
 
 You can read more about my life at 42 the computer science school in my blog posts under the ["42 the school"](/topics/42-the-school/) category.
