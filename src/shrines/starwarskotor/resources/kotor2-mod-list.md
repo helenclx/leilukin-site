@@ -3,7 +3,7 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic II: The Sith Lords
 desc: "A list of Star Wars: Knights of the Old Republic II: The Sith Lords mods I use."
 tags: ["contents", "mod lists"]
 topics: ["star wars kotor 2", "video game mods"]
-updated: 2025-11-02T15:55:45+0800
+updated: 2025-12-15T21:00:34+0800
 isContentDivided: true
 toc: true
 ---
@@ -2646,6 +2646,22 @@ Required Mod
 
 Installation Note
 : I install the “Base Installation” option only.
+
+---
+
+### Aligned Revan Hologram for TSLRCM
+
+Mod Name
+: [Aligned Revan Hologram for TSLRCM](https://deadlystream.com/files/file/2893-aligned-revan-hologram-for-tslrcm/)
+
+Mod Author
+:  offthegridmorty
+
+Category
+: Appearance Change & Immersion
+
+Tier
+: Tier 3 - Somewhat Important
 
 ---
 
