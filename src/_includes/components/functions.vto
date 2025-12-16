@@ -1,6 +1,6 @@
 {{ export function prideButton(file, alt, width=88, height=31) -}}
 <li data-tooltip>
-    <img src="/assets/buttons/pride/{{ file }}.png" alt="{{ alt }}" data-tooltip-trigger title="{{ alt }}" width="{{ width }}" height="{{ height }}" loading="lazy" tabindex="0">
+	<img src="/assets/buttons/pride/{{ file }}.png" alt="{{ alt }}" data-tooltip-trigger title="{{ alt }}" width="{{ width }}" height="{{ height }}" loading="lazy" tabindex="0">
 </li>
 {{ /export }}
 
@@ -10,43 +10,43 @@
 
 {{ export function articleList(tag) }}
 <ul data-pagefind-ignore>
-    {{ for article of collections[tag] }}
-    <li>
-        <p class="item-list__title">
-            <a href="{{ article.url }}">{{ article.data.articleTitle }}</a>
-        </p>
-        <time datetime="{{ article.date }}">{{ article.date |> formatDate }}</time>
-    </li>
-    {{ /for }}
+	{{ for article of collections[tag] }}
+	<li>
+		<p class="item-list__title">
+			<a href="{{ article.url }}">{{ article.data.articleTitle }}</a>
+		</p>
+		<time datetime="{{ article.date }}">{{ article.date |> formatDate }}</time>
+	</li>
+	{{ /for }}
 </ul>
 {{ /export }}
 
 {{ export function linkBtns(links, marginTop=false) }}
 <div class="link-btn--wrapper {{ marginTop ? " p-margin-top" : "" }}">
-    {{ for link of links }}
-    <a href="{{ link.url }}" class="link-btn">{{ link.label }}</a>
-    {{ /for }}
+	{{ for link of links }}
+	<a href="{{ link.url }}" class="link-btn">{{ link.label }}</a>
+	{{ /for }}
 </div>
 {{ /export }}
 
 {{ export function modEntry(params) }}
 ### {{ params.title }}
 <div class="mod-entry">
-    <img src="/assets/projects/{{ params.bannerFile }}" alt="Banner of {{ params.title }} mod" loading="lazy">
-    <p>{{ params.desc }}</p>
-    <h4>Download the mod:</h4>
-    <div class="mod-entry__downloads">
-        {{ for download of params.downloads }}
-        <a class="link-btn" href="{{ download.url }}">{{ download.site }}</a>
-        {{ /for }}
-    </div>
+	<img src="/assets/projects/{{ params.bannerFile }}" alt="Banner of {{ params.title }} mod" loading="lazy">
+	<p>{{ params.desc }}</p>
+	<h4>Download the mod:</h4>
+	<div class="mod-entry__downloads">
+		{{ for download of params.downloads }}
+		<a class="link-btn" href="{{ download.url }}">{{ download.site }}</a>
+		{{ /for }}
+	</div>
 </div>
 {{ /export }}
 
 {{ export function siteButton(url, file, alt, tooltip=alt, width=88, height=31) -}}
 <li data-tooltip>
-    <a href="{{ url }}" data-tooltip-trigger title="{{ tooltip }}">
-        <img src="/assets/buttons/{{ file }}" alt="{{ alt }}" width="{{ width }}" height="{{ height }}" loading="lazy">
-    </a>
+	<a href="{{ url }}" data-tooltip-trigger title="{{ tooltip }}">
+		<img src="/assets/buttons/{{ file }}" alt="{{ alt }}" width="{{ width }}" height="{{ height }}" loading="lazy">
+	</a>
 </li>
 {{ /export }}

@@ -18,58 +18,58 @@ eleventyComputed:
 ---
 
 <section class="content__section">
-    <h2>Other Blogs</h2>
-    <p>{{ sitemeta.siteName }} also has a tumbleblog at <a href="https://tumbleblog.leilukin.com/">tumbleblog.leilukin.com</a>, where I make shorter or more casual posts, as well as sharing stuff that I found interesting or inspirational. Feel free to check it out!</p>
+	<h2>Other Blogs</h2>
+	<p>{{ sitemeta.siteName }} also has a tumbleblog at <a href="https://tumbleblog.leilukin.com/">tumbleblog.leilukin.com</a>, where I make shorter or more casual posts, as well as sharing stuff that I found interesting or inspirational. Feel free to check it out!</p>
 </section>
 
 <section class="content__section">
-    <h2>Blog Posts</h2>
-    <ul class="blog__posts">
-        {{ for post of postList }}
-        <li class="blog__post">
-            <h3 class="blog__post--title">
-                <a href="{{ post.url }}">
-                    {{ if post.data.title }}{{ post.data.articleTitle }}
-                    {{ else }}
-                    <code>{{ post.url }}</code>
-                    {{ /if }}
-                </a>
-            </h3>
-            <p class="blog__post--time"><time datetime="{{ post.date }}">{{ post.date |> formatDate }}</time></p>
-            <p>{{ post.data.desc }}</p>
-        </li>
-        {{ /for }}
-    </ul>
+	<h2>Blog Posts</h2>
+	<ul class="blog__posts">
+		{{ for post of postList }}
+		<li class="blog__post">
+			<h3 class="blog__post--title">
+				<a href="{{ post.url }}">
+					{{ if post.data.title }}{{ post.data.articleTitle }}
+					{{ else }}
+					<code>{{ post.url }}</code>
+					{{ /if }}
+				</a>
+			</h3>
+			<p class="blog__post--time"><time datetime="{{ post.date }}">{{ post.date |> formatDate }}</time></p>
+			<p>{{ post.data.desc }}</p>
+		</li>
+		{{ /for }}
+	</ul>
 
-    {{ include "components/pagination-oldnew.vto" }}
+	{{ include "components/pagination-oldnew.vto" }}
 </section>
 
 {{- css }}
 .blog__posts, .blog__post { display: grid; }
 
 .blog__posts {
-    list-style-type: none;
-    padding: 0;
-    margin: 1.5em 0 0 0;
+	list-style-type: none;
+	padding: 0;
+	margin: 1.5em 0 0 0;
 }
 
 .blog__post {
-    --bdr-blogpost: 0.2em solid var(--clr-quote-border);
-    gap: 0.6em;
-    padding: 1.5em 0;
-    border-bottom: var(--bdr-blogpost);
+	--bdr-blogpost: 0.2em solid var(--clr-quote-border);
+	gap: 0.6em;
+	padding: 1.5em 0;
+	border-bottom: var(--bdr-blogpost);
 }
 
 .blog__post:first-of-type { border-top: var(--bdr-blogpost); }
 
 .blog__post--title {
-    font-size: clamp(1.55rem, 1rem + 3vw, 1.8rem);
-    line-height: 1.3;
-    margin-bottom: 0 !important;
+	font-size: clamp(1.55rem, 1rem + 3vw, 1.8rem);
+	line-height: 1.3;
+	margin-bottom: 0 !important;
 }
 
 .blog__post--time {
-    color: var(--clr-sub-heading);
-    font-weight: 700;
+	color: var(--clr-sub-heading);
+	font-weight: 700;
 }
 {{ /css }}

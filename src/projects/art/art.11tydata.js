@@ -1,4 +1,4 @@
 export default {
-    tags: ["artworks", "contents"],
-    topics: ["artworks"]
+	tags: ["artworks", "contents"],
+	topics: ["artworks"]
 }

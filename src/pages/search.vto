@@ -9,40 +9,40 @@ eleventyComputed:
 <script src="/pagefind/pagefind-ui.js"></script>
 <div id="search"></div>
 <script>
-    window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({
-            element: "#search",
-            showSubResults: true,
-            showImages: false,
-            translations: {
-                placeholder: "Search {{ sitemeta.siteName }}",
-            },
-        });
-    });
+	window.addEventListener('DOMContentLoaded', (event) => {
+		new PagefindUI({
+			element: "#search",
+			showSubResults: true,
+			showImages: false,
+			translations: {
+				placeholder: "Search {{ sitemeta.siteName }}",
+			},
+		});
+	});
 </script>
 
 <noscript>
-    <h2>You have disabled JavaScript</h2>
-    <p>Looks like you have JavaScript disabled. This search field requires JavaScript to function.</p>
+	<h2>You have disabled JavaScript</h2>
+	<p>Looks like you have JavaScript disabled. This search field requires JavaScript to function.</p>
 </noscript>
 
 {{- css }}
 :root {
-    --pagefind-ui-scale: 1;
-    --pagefind-ui-font: var(--ff-default);
-    --pagefind-ui-primary: var(--clr-body-text);
-    --pagefind-ui-text: var(--clr-body-text);
-    --pagefind-ui-background: var(--clr-quote-bg);
+	--pagefind-ui-scale: 1;
+	--pagefind-ui-font: var(--ff-default);
+	--pagefind-ui-primary: var(--clr-body-text);
+	--pagefind-ui-text: var(--clr-body-text);
+	--pagefind-ui-background: var(--clr-quote-bg);
 }
 .pagefind-ui__result-title.svelte-4xnkmf .pagefind-ui__result-link.svelte-4xnkmf {
-    color: var(--clr-link);
+	color: var(--clr-link);
 }
 .pagefind-ui__search-input.svelte-e9gkc3::placeholder {
-    opacity: .6;
+	opacity: .6;
 }
 
 .pagefind-ui__search-input.svelte-e9gkc3 {
-    padding: 0 calc(70px * var(--pagefind-ui-scale)) 0 calc(24px * var(--pagefind-ui-scale));
+	padding: 0 calc(70px * var(--pagefind-ui-scale)) 0 calc(24px * var(--pagefind-ui-scale));
 }
 
 {{ /css }}

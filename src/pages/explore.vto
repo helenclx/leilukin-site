@@ -8,14 +8,14 @@ eleventyComputed:
 
 {{ set explorePages = collections["explore links"] |> eleventyNavigation }}
 <ul>
-    {{ for entry of explorePages }}
-    <li>
-        <p class="item-list__title">
-            <a href="{{ entry.url }}">{{ entry.title }}</a>
-        </p>
-        <p>{{ entry.data.desc }}</p>
-    </li>
-    {{ /for }}
+	{{ for entry of explorePages }}
+	<li>
+		<p class="item-list__title">
+			<a href="{{ entry.url }}">{{ entry.title }}</a>
+		</p>
+		<p>{{ entry.data.desc }}</p>
+	</li>
+	{{ /for }}
 </ul>
 
 <p>You can also navigate this website through the <a href="/sitemap/">site map</a>, or <a href="/search/">search this website</a>.</p>

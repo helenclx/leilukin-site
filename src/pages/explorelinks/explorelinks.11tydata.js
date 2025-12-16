@@ -1,3 +1,3 @@
 export default {
-    tags: ["explore links"],
+	tags: ["explore links"],
 }

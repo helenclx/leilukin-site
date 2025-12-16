@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="{{ sitemeta.siteLanguage }}" dir="ltr" id="top">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Open Graph Meta -->
-        {{ include "partials/meta.vto" }}
-        <!-- Feeds -->
-        {{ include "partials/feeds.vto" }}
-        <!-- Fonts -->
-        {{ include "partials/fonts.vto" }}
-        <!-- CSS -->
-        {{ include "partials/css.vto" }}
-        <!-- Favicon -->
-        {{ favicon }}
-        <!-- Verifications -->
-        <link rel="me" href="https://dragonscave.space/@Leilukin">
-        <link rel="me" href="https://github.com/Leilukin">
-        <link rel="authorization_endpoint" href="https://indieauth.com/auth">
-        <!-- JavaScript -->
-        {{ include "partials/js.vto" }}
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Open Graph Meta -->
+		{{ include "partials/meta.vto" }}
+		<!-- Feeds -->
+		{{ include "partials/feeds.vto" }}
+		<!-- Fonts -->
+		{{ include "partials/fonts.vto" }}
+		<!-- CSS -->
+		{{ include "partials/css.vto" }}
+		<!-- Favicon -->
+		{{ favicon }}
+		<!-- Verifications -->
+		<link rel="me" href="https://dragonscave.space/@Leilukin">
+		<link rel="me" href="https://github.com/Leilukin">
+		<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+		<!-- JavaScript -->
+		{{ include "partials/js.vto" }}
 
-        <title>
-            {{- title ? `${title} | ` : '' -}}
-            {{- sectionName ? `${sectionName} | ` : '' -}}
-            {{- sitemeta.siteName -}}
-        </title>
-    </head>
-    <body>
-        <div class="skip-btn"><a href="#content">Skip to content</a></div>
-        {{ include "partials/hero.vto" }}
-        {{ include "partials/navbar.vto" }}
-        <main id="content" {{ if !excludeFromSearch }} data-pagefind-body{{ /if }}>
-            {{ include "partials/content.vto" }}
-        </main>
-        {{ include "partials/footer.vto" }}
-    </body>
+		<title>
+			{{- title ? `${title} | ` : '' -}}
+			{{- sectionName ? `${sectionName} | ` : '' -}}
+			{{- sitemeta.siteName -}}
+		</title>
+	</head>
+	<body>
+		<div class="skip-btn"><a href="#content">Skip to content</a></div>
+		{{ include "partials/hero.vto" }}
+		{{ include "partials/navbar.vto" }}
+		<main id="content" {{ if !excludeFromSearch }} data-pagefind-body{{ /if }}>
+			{{ include "partials/content.vto" }}
+		</main>
+		{{ include "partials/footer.vto" }}
+	</body>
 </html>

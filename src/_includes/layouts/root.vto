@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <!-- Open Graph meta -->
-        <meta property="og:title" content="{{ title ? title : sitemeta.siteName }}">
-        {{ include "partials/meta.vto" }}
-        <!-- Feeds -->
-        {{ include "partials/feeds.vto" }}
-        <!-- Style -->
-        {{ include "partials/fonts.vto" }}
-        <link rel="stylesheet" href="/assets/css/root.css">
+		<!-- Open Graph meta -->
+		<meta property="og:title" content="{{ title ? title : sitemeta.siteName }}">
+		{{ include "partials/meta.vto" }}
+		<!-- Feeds -->
+		{{ include "partials/feeds.vto" }}
+		<!-- Style -->
+		{{ include "partials/fonts.vto" }}
+		<link rel="stylesheet" href="/assets/css/root.css">
 
-        <title>{{ if title }} {{ title }} | {{ /if }} {{ sitemeta.siteName }}</title>
-    </head>
-    <body>
-        <main>
-            <img src="/assets/leilukin/Leilukins-Hub-website-banner.avif" alt="{{ sitemeta.siteName }} website banner">
-            <h1>{{ h1 }}</h1>
+		<title>{{ if title }} {{ title }} | {{ /if }} {{ sitemeta.siteName }}</title>
+	</head>
+	<body>
+		<main>
+			<img src="/assets/leilukin/Leilukins-Hub-website-banner.avif" alt="{{ sitemeta.siteName }} website banner">
+			<h1>{{ h1 }}</h1>
 
-            {{ content }}
-        </main>
-    </body>
+			{{ content }}
+		</main>
+	</body>
 </html>

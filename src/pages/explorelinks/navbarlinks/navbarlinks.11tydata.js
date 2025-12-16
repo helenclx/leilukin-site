@@ -1,3 +1,3 @@
 export default {
-    tags: ["navbar links"],
+	tags: ["navbar links"],
 }

@@ -1,10 +1,10 @@
 export default {
-    tags: "pages",
-    layout: "layouts/main",
-    permalink: "/{{ page.fileSlug }}/",
-    eleventyComputed: {
-        eleventyNavigation: {
-            key: (data) => data.title
-        }
-    }
+	tags: "pages",
+	layout: "layouts/main",
+	permalink: "/{{ page.fileSlug }}/",
+	eleventyComputed: {
+		eleventyNavigation: {
+			key: (data) => data.title
+		}
+	}
 }

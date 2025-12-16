@@ -1,22 +1,22 @@
 <aside class="right-sidebar" aria-label="Right sidebar">
-    <nav class="content__nav sidebar--sticky" aria-labelledby="my-contents-title">
-        <h2 class="content__nav--title" id="my-contents-title">My Contents</h2>
-        <ul class="content__nav--links">
-            {{ for archive of collections.archive }}
-            <li><a href="{{ archive.url }}">{{ archive.data.title }}</a></li>
-            {{ /for }}
-            <li><a href="/articles/">Articles</a></li>
-            {{ for page of collections["blog pages"] }}
-            <li><a href="{{ page.url }}">{{ page.data.navTitle || page.data.title }}</a></li>
-            {{ /for }}
-        </ul>
-    </nav>
+	<nav class="content__nav sidebar--sticky" aria-labelledby="my-contents-title">
+		<h2 class="content__nav--title" id="my-contents-title">My Contents</h2>
+		<ul class="content__nav--links">
+			{{ for archive of collections.archive }}
+			<li><a href="{{ archive.url }}">{{ archive.data.title }}</a></li>
+			{{ /for }}
+			<li><a href="/articles/">Articles</a></li>
+			{{ for page of collections["blog pages"] }}
+			<li><a href="{{ page.url }}">{{ page.data.navTitle || page.data.title }}</a></li>
+			{{ /for }}
+		</ul>
+	</nav>
 </aside>
 
 {{- css }}
 .content__nav {
-    padding: 1.2em clamp(1em, 5%, 1.5em);
-    background-color: var(--clr-content-bg);
+	padding: 1.2em clamp(1em, 5%, 1.5em);
+	background-color: var(--clr-content-bg);
 }
 
 .content__nav--title { font-size: 1.7rem; }

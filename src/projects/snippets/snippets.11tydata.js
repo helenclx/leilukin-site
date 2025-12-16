@@ -1,4 +1,4 @@
 export default {
-    tags: ["code snippets"],
-    hasCodeBlock: true
+	tags: ["code snippets"],
+	hasCodeBlock: true
 }

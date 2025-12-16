@@ -1,4 +1,4 @@
 export default {
-    layout: false,
-    eleventyExcludeFromCollections: true,
+	layout: false,
+	eleventyExcludeFromCollections: true,
 }

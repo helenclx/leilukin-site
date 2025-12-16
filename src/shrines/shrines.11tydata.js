@@ -1,3 +1,3 @@
 export default {
-    tags: "shrine pages"
+	tags: "shrine pages"
 }

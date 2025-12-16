@@ -1,236 +1,236 @@
 <!DOCTYPE html>
 <html lang="en" id="top">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Mocha Latte</title>
-        <link rel="icon" type="image/x-icon" href="./favicon.ico">
-        <style>
-            :root {
-                color-scheme: light dark;
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mocha Latte</title>
+		<link rel="icon" type="image/x-icon" href="./favicon.ico">
+		<style>
+			:root {
+				color-scheme: light dark;
 
-                /* CSS' light-dark() function allows you to set different colours for light and dark mode respectively */
-                /* Recommended reading: https://css-tricks.com/come-to-the-light-dark-side/ */
-                --color-body-background: #B58048;
-                --color-content-background: light-dark(#E8D2B9, #3E000E);
-                --color-body-text: light-dark(#1e0006, #F4F3F8);
-                --color-title: #F4F3F8;
-                --color-heading: light-dark(#785630, #E8D2B9);
-                --color-link: light-dark(#6a4826, #d6b18d);
+				/* CSS' light-dark() function allows you to set different colours for light and dark mode respectively */
+				/* Recommended reading: https://css-tricks.com/come-to-the-light-dark-side/ */
+				--color-body-background: #B58048;
+				--color-content-background: light-dark(#E8D2B9, #3E000E);
+				--color-body-text: light-dark(#1e0006, #F4F3F8);
+				--color-title: #F4F3F8;
+				--color-heading: light-dark(#785630, #E8D2B9);
+				--color-link: light-dark(#6a4826, #d6b18d);
 
-                --font-family-main: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
-                --font-family-headings: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+				--font-family-main: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+				--font-family-headings: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
 
-                --content-max-width: 800px;
-                --border-main: 3px solid var(--color-body-text);
-                --border-radius-main: 10px;
-                --shadow-main: 4px 4px 0 #3E000E;
-            }
+				--content-max-width: 800px;
+				--border-main: 3px solid var(--color-body-text);
+				--border-radius-main: 10px;
+				--shadow-main: 4px 4px 0 #3E000E;
+			}
 
-            /* General styling */
-            *, *::before, *::after {
-                box-sizing: border-box;
-            }
+			/* General styling */
+			*, *::before, *::after {
+				box-sizing: border-box;
+			}
 
-            * {
-                margin: 0;
-            }
+			* {
+				margin: 0;
+			}
 
-            body {
-                min-height: 100vh;
-                line-height: 1.5;
-                font-family: var(--font-family-main);
-                color: var(--color-body-text);
-                background-color: var(--color-body-background);
-            }
+			body {
+				min-height: 100vh;
+				line-height: 1.5;
+				font-family: var(--font-family-main);
+				color: var(--color-body-text);
+				background-color: var(--color-body-background);
+			}
 
-            h1, h2, h3, h4, h5, h6 {
-                font-family: var(--font-family-headings);
-                color: var(--color-heading);
-            }
+			h1, h2, h3, h4, h5, h6 {
+				font-family: var(--font-family-headings);
+				color: var(--color-heading);
+			}
 
-            a {
-                color: var(--color-link);
-            }
+			a {
+				color: var(--color-link);
+			}
 
-            input, button, textarea, select {
-                max-width: 100%;
-                border: 0.12em solid var(--color-body-text);
-                background-color: var(--color-content-background);
-                font: inherit;
-                padding-left: 5px;
-                padding-right: 5px;
-            }
+			input, button, textarea, select {
+				max-width: 100%;
+				border: 0.12em solid var(--color-body-text);
+				background-color: var(--color-content-background);
+				font: inherit;
+				padding-left: 5px;
+				padding-right: 5px;
+			}
 
-            :focus {
-                outline: 0.15em solid var(--color-link);
-            }
+			:focus {
+				outline: 0.15em solid var(--color-link);
+			}
 
-            /* Layout container */
-            .container {
-                width: 95%;
-                max-width: var(--content-max-width);
-                margin: 20px auto;
-                display: grid;
-                gap: 1em;
-            }
+			/* Layout container */
+			.container {
+				width: 95%;
+				max-width: var(--content-max-width);
+				margin: 20px auto;
+				display: grid;
+				gap: 1em;
+			}
 
-            /* Header */
-            .header {
-                text-align: center;
-            }
+			/* Header */
+			.header {
+				text-align: center;
+			}
 
-            .header__img {
-                height: 8em;
-            }
+			.header__img {
+				height: 8em;
+			}
 
-            .header__title {
-                font-size: 2.8em;
-                color: var(--color-title);
-                text-shadow: var(--shadow-main);
-            }
+			.header__title {
+				font-size: 2.8em;
+				color: var(--color-title);
+				text-shadow: var(--shadow-main);
+			}
 
-            /* Navigation bar */
-            .navbar {
-                display: grid;
-                place-content: center;
-            }
+			/* Navigation bar */
+			.navbar {
+				display: grid;
+				place-content: center;
+			}
 
-            .navbar__links {
-                list-style-type: "";
-                padding: 0;
-                display: flex;
-                flex-wrap: wrap;
-                gap: 0.7em;
-            }
+			.navbar__links {
+				list-style-type: "";
+				padding: 0;
+				display: flex;
+				flex-wrap: wrap;
+				gap: 0.7em;
+			}
 
-            .navbar__links li {
-                background-color: var(--color-content-background);
-                padding: 8px 15px;
-                border: var(--border-main);
-                border-radius: var(--border-radius-main);
-                font-size: 1.15em;
-                font-weight: bold;
-                box-shadow: var(--shadow-main);
-            }
+			.navbar__links li {
+				background-color: var(--color-content-background);
+				padding: 8px 15px;
+				border: var(--border-main);
+				border-radius: var(--border-radius-main);
+				font-size: 1.15em;
+				font-weight: bold;
+				box-shadow: var(--shadow-main);
+			}
 
-            .navbar__links li a:focus {
-                outline-offset: 0.2em;
-            }
+			.navbar__links li a:focus {
+				outline-offset: 0.2em;
+			}
 
-            /* Main content */
-            main {
-                background-color: var(--color-content-background);
-                font-size: 1.2em;
-                padding: 20px 25px 35px;
-                border: var(--border-main);
-                border-radius: var(--border-radius-main);
-                box-shadow: var(--shadow-main);
-            }
+			/* Main content */
+			main {
+				background-color: var(--color-content-background);
+				font-size: 1.2em;
+				padding: 20px 25px 35px;
+				border: var(--border-main);
+				border-radius: var(--border-radius-main);
+				box-shadow: var(--shadow-main);
+			}
 
-            .main__title {
-                border-bottom: var(--border-main);
-            }
+			.main__title {
+				border-bottom: var(--border-main);
+			}
 
-            main * + * {
-                margin-block-start: 1em;
-            }
+			main * + * {
+				margin-block-start: 1em;
+			}
 
-            /* Footer */
-            .footer {
-                text-align: center;
-                background-color: var(--color-content-background);
-                padding: 18px 25px;
-                border: var(--border-main);
-                border-radius: var(--border-radius-main);
-                box-shadow: var(--shadow-main);
-            }
-            footer * + * {
-                margin-block-start: 0.5em;
-            }
+			/* Footer */
+			.footer {
+				text-align: center;
+				background-color: var(--color-content-background);
+				padding: 18px 25px;
+				border: var(--border-main);
+				border-radius: var(--border-radius-main);
+				box-shadow: var(--shadow-main);
+			}
+			footer * + * {
+				margin-block-start: 0.5em;
+			}
 
-            /* Skip to content button */
-            /* See: https://kalechips.net/projects/snippets/skip */
-            .skip-btn a {
-                position: absolute;
-                display: inline-block;
-                left: 50%;
-                transform: translate(-50%, 0);
-                top: -1000px;
-                overflow: hidden;
-                transition: top 0.5s ease;
-                background: var(--color-content-background);
-                font-size: 1.25rem;
-                font-weight: 700;
-                z-index: 1000;
-                padding: 5px 10px;
-            }
+			/* Skip to content button */
+			/* See: https://kalechips.net/projects/snippets/skip */
+			.skip-btn a {
+				position: absolute;
+				display: inline-block;
+				left: 50%;
+				transform: translate(-50%, 0);
+				top: -1000px;
+				overflow: hidden;
+				transition: top 0.5s ease;
+				background: var(--color-content-background);
+				font-size: 1.25rem;
+				font-weight: 700;
+				z-index: 1000;
+				padding: 5px 10px;
+			}
 
-            .skip-btn a:focus {
-                top: 0;
-                transition: top 0.3s ease;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="skip-btn"><a href="#content">Skip to content</a></div>
-        <div class="container">
-            <header class="header">
-                <img class="header__img" src="./coffee.svg" alt="">
-                <h2 class="header__title">Mocha Latte</h2>
-            </header>
-            <nav class="navbar">
-                <ul class="navbar__links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Links</a></li>
-                </ul>
-            </nav>
-            <main id="content">
-                <h1 class="main__title">Heading 1</h1>
-                <p>This website template was my entry for <a href="https://32bit.cafe/spring25/">The 32-Bit Cafe Spring 2025 Tea Party</a>. Therefore, this template is open for public use.</p>
-                <p>I am a coffee lover, so I participated in the event, and designed and named this tempalte after my favourite coffee flavour, mocha latte.</p>
-                <p>Feel free to study the HTML and CSS of this template, use the code and customise it yourself!</p>
-                <h2>Features</h2>
-                <p>Main features of this layout's design include:</p>
-                <ul>
-                    <li>Light and dark mode support, by respecting user's system settings</li>
-                    <li>Mobile-friendliness</li>
-                    <li>Accessibility:</li>
-                    <ul>
-                        <li>Colour scheme with good colour contrasts</li>
-                        <li>Friendly to keyboard navigation, with visible outlines for when interactive elements (including links, buttons and form inputs) are focused on, as well as a "skip to content" link (visible only when you press the Tab key when you are at the top of the page) and a "back to top" link (at the footer)</li>
-                    </ul>
-                </ul>
-                <h2>Heading 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                <h3>Heading 3</h3>
-                <p>Facilisi Purus praesent est nec, lorem pharetra id. A elementum feugiat euismod class eget varius litora mauris.</p>
-                <h4>Heading 4</h4>
-                <p>Habitasse eu integer ultricies mauris sociis. Fusce fames adipiscing hymenaeos. Hymenaeos. Risus. Vivamus cursus lectus, curae; at vestibulum eu nam purus sociosqu bibendum nec.</p>
-                <h2>Input and Button Style Preview</h2>
-                <p><input type="text" name="test" id="input-test" value="Input" size="15"></p>
-                <p><textarea id="textarea-input" rows="3" cols="15">Textarea</textarea></p>
-                <p>
-                    <select name="menu" id="menu-id">
-                        <option selected>Selection</option>
-                        <option value="option-1">Option 1</option>
-                        <option value="option-2">Option 2</option>
-                        <option value="option-3">Option 3</option>
-                    </select>
-                </p>
-                <button>Button</button>
-                <h2>Credits</h2>
-                <ul>
-                    <li><a href="https://www.svgrepo.com/svg/530366/coffee">Coffee SVG Vector</a> by <a href="https://www.svgrepo.com/">SVG Repo</a></li>
-                    <li><a href="https://www.schemecolor.com/mocha-latte.php">Mocha Latte Color Scheme</a> by <a href="https://www.schemecolor.com/">SchemeColor.com</a>, which inspired the colours of this template, though I have modified the colours for better contrast.</li>
-                </ul>
-            </main>
-            <footer class="footer">
-                <p>Made with a love for coffee 💜☕</p>
-                <p>Mocha Latte Website Template by <a href="https://leilukin.com/">Leilukin</a> is marked with <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a></p>
-                <p><a href="#top">⬆️ Back to Top ⬆️</a></p>
-            </footer>
-        </div>
-    </body>
+			.skip-btn a:focus {
+				top: 0;
+				transition: top 0.3s ease;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="skip-btn"><a href="#content">Skip to content</a></div>
+		<div class="container">
+			<header class="header">
+				<img class="header__img" src="./coffee.svg" alt="">
+				<h2 class="header__title">Mocha Latte</h2>
+			</header>
+			<nav class="navbar">
+				<ul class="navbar__links">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Links</a></li>
+				</ul>
+			</nav>
+			<main id="content">
+				<h1 class="main__title">Heading 1</h1>
+				<p>This website template was my entry for <a href="https://32bit.cafe/spring25/">The 32-Bit Cafe Spring 2025 Tea Party</a>. Therefore, this template is open for public use.</p>
+				<p>I am a coffee lover, so I participated in the event, and designed and named this tempalte after my favourite coffee flavour, mocha latte.</p>
+				<p>Feel free to study the HTML and CSS of this template, use the code and customise it yourself!</p>
+				<h2>Features</h2>
+				<p>Main features of this layout's design include:</p>
+				<ul>
+					<li>Light and dark mode support, by respecting user's system settings</li>
+					<li>Mobile-friendliness</li>
+					<li>Accessibility:</li>
+					<ul>
+						<li>Colour scheme with good colour contrasts</li>
+						<li>Friendly to keyboard navigation, with visible outlines for when interactive elements (including links, buttons and form inputs) are focused on, as well as a "skip to content" link (visible only when you press the Tab key when you are at the top of the page) and a "back to top" link (at the footer)</li>
+					</ul>
+				</ul>
+				<h2>Heading 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+				<h3>Heading 3</h3>
+				<p>Facilisi Purus praesent est nec, lorem pharetra id. A elementum feugiat euismod class eget varius litora mauris.</p>
+				<h4>Heading 4</h4>
+				<p>Habitasse eu integer ultricies mauris sociis. Fusce fames adipiscing hymenaeos. Hymenaeos. Risus. Vivamus cursus lectus, curae; at vestibulum eu nam purus sociosqu bibendum nec.</p>
+				<h2>Input and Button Style Preview</h2>
+				<p><input type="text" name="test" id="input-test" value="Input" size="15"></p>
+				<p><textarea id="textarea-input" rows="3" cols="15">Textarea</textarea></p>
+				<p>
+					<select name="menu" id="menu-id">
+						<option selected>Selection</option>
+						<option value="option-1">Option 1</option>
+						<option value="option-2">Option 2</option>
+						<option value="option-3">Option 3</option>
+					</select>
+				</p>
+				<button>Button</button>
+				<h2>Credits</h2>
+				<ul>
+					<li><a href="https://www.svgrepo.com/svg/530366/coffee">Coffee SVG Vector</a> by <a href="https://www.svgrepo.com/">SVG Repo</a></li>
+					<li><a href="https://www.schemecolor.com/mocha-latte.php">Mocha Latte Color Scheme</a> by <a href="https://www.schemecolor.com/">SchemeColor.com</a>, which inspired the colours of this template, though I have modified the colours for better contrast.</li>
+				</ul>
+			</main>
+			<footer class="footer">
+				<p>Made with a love for coffee 💜☕</p>
+				<p>Mocha Latte Website Template by <a href="https://leilukin.com/">Leilukin</a> is marked with <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a></p>
+				<p><a href="#top">⬆️ Back to Top ⬆️</a></p>
+			</footer>
+		</div>
+	</body>
 </html>

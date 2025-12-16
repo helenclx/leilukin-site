@@ -1,13 +1,13 @@
 <div id="statuscafe" class="text-box">
-    <h3>My Lastest Status Update</h3>
-    <div id="statuscafe-userinfo"></div>
-    <div id="statuscafe-content">
-        <noscript>
-            <p>Looks like you have JavaScript disabled. JavaScript is required to fetch my latest status from status.cafe and display it here.</p>
-        </noscript>
-    </div>
+	<h3>My Lastest Status Update</h3>
+	<div id="statuscafe-userinfo"></div>
+	<div id="statuscafe-content">
+		<noscript>
+			<p>Looks like you have JavaScript disabled. JavaScript is required to fetch my latest status from status.cafe and display it here.</p>
+		</noscript>
+	</div>
 
-    <p><a href="https://status.cafe/users/leilukin">View my statuses on status.cafe</a></p>
+	<p><a href="https://status.cafe/users/leilukin">View my statuses on status.cafe</a></p>
 </div>
 
 {{- css }}#statuscafe-content { margin-bottom: 0.5em; }{{ /css }}
@@ -15,25 +15,25 @@
 {{- js }}
 const statusCafeContent = document.getElementById("statuscafe-content");
 statusCafeContent.innerHTML = `
-    <p>Fetching data from status.cafe...</p>
+	<p>Fetching data from status.cafe...</p>
 `;
 
 const fetchStatusCafe = async () => {
-    try {
-        const res = await fetch('https://status.cafe/users/leilukin/status.json');
-        const data = await res.json();
+	try {
+		const res = await fetch('https://status.cafe/users/leilukin/status.json');
+		const data = await res.json();
 
-        if (!data.content.length) {
-            document.getElementById("statuscafe-content").innerHTML = "No status yet."
-            return;
-        }
+		if (!data.content.length) {
+			document.getElementById("statuscafe-content").innerHTML = "No status yet."
+			return;
+		}
 
-        document.getElementById("statuscafe-userinfo").innerHTML = data.face + ' ' + data.timeAgo;
-        statusCafeContent.innerHTML = data.content;
-    } catch (error) {
-        console.error(error);
-        document.getElementById("statuscafe-content").textContent = `[ERROR] ${error}`;
-    }
+		document.getElementById("statuscafe-userinfo").innerHTML = data.face + ' ' + data.timeAgo;
+		statusCafeContent.innerHTML = data.content;
+	} catch (error) {
+		console.error(error);
+		document.getElementById("statuscafe-content").textContent = `[ERROR] ${error}`;
+	}
 };
 fetchStatusCafe();
 {{ /js }}

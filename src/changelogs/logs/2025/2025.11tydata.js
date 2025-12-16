@@ -1,3 +1,3 @@
 export default {
-    tags: "changelog 2025"
+	tags: "changelog 2025"
 }

@@ -60,8 +60,8 @@ a[href^="http"]:not([href*="leilukin.com"]):not(:has(img, svg, picture))::after,
 
 :not(.c-blockquote) > blockquote,
 .c-blockquote {
-	padding: 1em 1.4em 1.4em;
-	border-inline-start: 0.1em solid var(--clr-main-heading);
+    padding: 1em 1.4em 1.4em;
+    border-inline-start: 0.1em solid var(--clr-main-heading);
     background-color: var(--clr-quote-bg);
     margin-bottom: 1em;
 }

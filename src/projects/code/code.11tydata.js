@@ -1,3 +1,3 @@
 export default {
-    tags: ["code projects"]
+	tags: ["code projects"]
 }

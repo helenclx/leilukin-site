@@ -46,12 +46,12 @@
 .comment-box-container textarea { resize: vertical; }
 
 .inline-banner {
-	padding: 0.5em;
-	word-break: break-word;
-	display: flex;
-	align-items: center;
+    padding: 0.5em;
+    word-break: break-word;
+    display: flex;
+    align-items: center;
     justify-content: center;
-	gap: 0.5em;
+    gap: 0.5em;
     background-color: var(--clr-quote-bg);
 }
 
@@ -127,9 +127,9 @@ gw-comment-card.collapsed .comment-header-right time { display: none; }
 }
 
 .comment-header-right {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .commenter-name {

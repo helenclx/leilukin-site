@@ -1,89 +1,89 @@
 /* Text Box */
 .text-box {
-    background: var(--clr-quote-bg);
-    border: 0.1em solid var(--clr-main-heading);
-    padding: 0.8em;
-    margin: 1em 0;
-    display: grid;
-    gap: 1em;
+	background: var(--clr-quote-bg);
+	border: 0.1em solid var(--clr-main-heading);
+	padding: 0.8em;
+	margin: 1em 0;
+	display: grid;
+	gap: 1em;
 }
 
 /* Inline Navigation */
 .inline-nav {
-    --inline-nav-gap: 0.5em;
-    list-style-type: "";
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 0.25em var(--inline-nav-gap);
-    flex-wrap: wrap;
+	--inline-nav-gap: 0.5em;
+	list-style-type: "";
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 0.25em var(--inline-nav-gap);
+	flex-wrap: wrap;
 }
 
 .inline-nav li:not(:last-child)::after {
-    content: '•';
-    padding-left: var(--inline-nav-gap);
+	content: '•';
+	padding-left: var(--inline-nav-gap);
 }
 
 /* Mod Entry */
 .mod-entry,
 .mod-entry__downloads {
-    display: grid;
-    align-items: center;
+	display: grid;
+	align-items: center;
 }
 
 .mod-entry {
-    gap: 1em;
-    background: var(--clr-mod-entry-bg);
-    margin: 1em 0;
-    padding: 1em;
+	gap: 1em;
+	background: var(--clr-mod-entry-bg);
+	margin: 1em 0;
+	padding: 1em;
 }
 
 .mod-entry__downloads { gap: 0.5em; }
 
 @media only screen and (min-width: 37.5rem) {
-    .mod-entry__downloads {
-        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-    }
+	.mod-entry__downloads {
+		grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+	}
 }
 
 /* Skip to content button */
 .skip-btn a {
-    position: absolute;
-    display: inline-block;
-    left: 0;
-    top: -1000px;
-    overflow: hidden;
-    transition: top 0.5s ease;
-    background: var(--clr-content-bg);
-    font-size: 1.25rem;
-    z-index: 1000;
-    padding: 0.3em 0.7em;
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	top: -1000px;
+	overflow: hidden;
+	transition: top 0.5s ease;
+	background: var(--clr-content-bg);
+	font-size: 1.25rem;
+	z-index: 1000;
+	padding: 0.3em 0.7em;
 }
 
 .skip-btn a:focus {
-    top: 0;
-    transition: top 0.3s ease;
+	top: 0;
+	transition: top 0.3s ease;
 }
 
 /* Link button */
 .link-btn--wrapper {
-    list-style-type: "";
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5em;
+	list-style-type: "";
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5em;
 }
 
 .link-btn {
-    --btn-right-padding: 0.8em;
-    text-align: center;
-    display: inline-block;
-    border: 0.1em solid var(--clr-link-btn-bg);
-    border-radius: 0.5em;
-    padding: 0.4em var(--btn-right-padding);
-    background: var(--clr-link-btn-bg);
-    color: var(--clr-link-btn-txt);
-    font-weight: 700;
+	--btn-right-padding: 0.8em;
+	text-align: center;
+	display: inline-block;
+	border: 0.1em solid var(--clr-link-btn-bg);
+	border-radius: 0.5em;
+	padding: 0.4em var(--btn-right-padding);
+	background: var(--clr-link-btn-bg);
+	color: var(--clr-link-btn-txt);
+	font-weight: 700;
 }
 
 .link-btn,
@@ -91,27 +91,27 @@
 .link-btn:visited { text-decoration: none; }
 
 .link-btn:hover {
-    background: var(--clr-link-btn-hover);
-    transition: 0.2s;
+	background: var(--clr-link-btn-hover);
+	transition: 0.2s;
 }
 
 .link-btn:focus {
-    outline: 0.15em solid var(--clr-link-btn-txt);
-    outline-offset: -0.25em;
+	outline: 0.15em solid var(--clr-link-btn-txt);
+	outline-offset: -0.25em;
 }
 
 a.link-btn[href^="http"]:not([href*="leilukin.com"]) { padding-right: calc(var(--btn-right-padding) + var(--sz-external-link)); }
 
 /* Button to copy code snippets */
 .cc-btn {
-    font-size: 0.8em;
-    display: flex;
-    align-items: center;
-    gap: 0.2em;
-    border: 0.15em solid var(--clr-code-border);
-    border-radius: 0.2em;
-    background: var(--clr-link-btn-bg);
-    color: var(--clr-link-btn-txt);
+	font-size: 0.8em;
+	display: flex;
+	align-items: center;
+	gap: 0.2em;
+	border: 0.15em solid var(--clr-code-border);
+	border-radius: 0.2em;
+	background: var(--clr-link-btn-bg);
+	color: var(--clr-link-btn-txt);
 }
 
 /* Content Disclosure */
@@ -121,28 +121,28 @@ a.link-btn[href^="http"]:not([href*="leilukin.com"]) { padding-right: calc(var(-
 .content-disclosure__content p + p { margin-top: 1em; }
 
 .content-disclosure__content {
-    padding: 1em;
-    border: 0.15em solid var(--clr-title-border);
+	padding: 1em;
+	border: 0.15em solid var(--clr-title-border);
 }
 
 /* Content warning disclosure */
 * + .contnet-warning { margin-top: var(--sz-paragraph-margin); }
 
 .contnet-warning {
-    border: 0.1em solid var(--clr-title-border);
-    border-radius: 0.2em;
+	border: 0.1em solid var(--clr-title-border);
+	border-radius: 0.2em;
 }
 
 .contnet-warning__warning {
-    padding: 0.8em;
-    --stripe-color: var(--clr-quote-bg);
-    background-image: repeating-linear-gradient(
-        45deg,
-        transparent,
-        transparent 0.5em,
-        var(--stripe-color) 0.5em,
-        var(--stripe-color) 1em
-    );
+	padding: 0.8em;
+	--stripe-color: var(--clr-quote-bg);
+	background-image: repeating-linear-gradient(
+		45deg,
+		transparent,
+		transparent 0.5em,
+		var(--stripe-color) 0.5em,
+		var(--stripe-color) 1em
+	);
 }
 
 .contnet-warning__warning:hover,
@@ -151,55 +151,55 @@ a.link-btn[href^="http"]:not([href*="leilukin.com"]) { padding-right: calc(var(-
 
 /* Web graphic lists */
 .web-graphics {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5em;
-    list-style-type: "";
-    padding: 0;
-    margin: 0;
-    overflow-x: clip;
-    overflow-clip-margin: 0.5em;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5em;
+	list-style-type: "";
+	padding: 0;
+	margin: 0;
+	overflow-x: clip;
+	overflow-clip-margin: 0.5em;
 }
 @media only screen and (min-width: 60rem) {
-    .web-graphics {
-        overflow-x: unset;
-        overflow-clip-margin: unset;
-    }
+	.web-graphics {
+		overflow-x: unset;
+		overflow-clip-margin: unset;
+	}
 }
 
 .adoptables { align-items: flex-end; }
 p + .adoptables { margin-top: 1em; }
 
 .web-badges {
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0.5em;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0.5em;
 }
 
 /* Web ring */
 .webring {
-    border: 0.08em outset;
-    text-align: center;
+	border: 0.08em outset;
+	text-align: center;
 }
 
 .webring__name {
-    margin: 0;
-    padding: 0.2em 0.5em;
-    border: 0.08em solid;
+	margin: 0;
+	padding: 0.2em 0.5em;
+	border: 0.08em solid;
 }
 
 .webring__links {
-    list-style-type: "";
-    padding: 0;
-    margin: 0 !important;
-    display: flex;
-    flex-wrap: wrap;
+	list-style-type: "";
+	padding: 0;
+	margin: 0 !important;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .webring__link {
-    flex: 1;
-    border: 0.08em solid;
-    padding: 0.2em 0.4em;
+	flex: 1;
+	border: 0.08em solid;
+	padding: 0.2em 0.4em;
 }
 
 /* Remove external link icon from Website Carbon badge */

@@ -6,11 +6,11 @@ eleventyNavigation:
 ---
 <p>Pages with information I have gathered that do not fit into other parts of this website.</p>
 <ul data-pagefind-ignore>
-    {{ for note of collections["notes"] }}
-    <li>
-        <p class="item-list__title">
-            <a href="{{ note.url }}">{{ note.data.articleTitle }}</a>
-        </p>
-    </li>
-    {{ /for }}
+	{{ for note of collections["notes"] }}
+	<li>
+		<p class="item-list__title">
+			<a href="{{ note.url }}">{{ note.data.articleTitle }}</a>
+		</p>
+	</li>
+	{{ /for }}
 </ul>

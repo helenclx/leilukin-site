@@ -1,36 +1,36 @@
 :root {
-    color-scheme: light dark;
+	color-scheme: light dark;
 
-    --clr-body-bg: linear-gradient(90deg, rgba(255,137,137,1) 0%, rgba(130,176,255,1) 100%);
-    --clr-body-txt: light-dark(#141414, #fff);
-    --clr-content-bg: light-dark(#ffffff, #242424);
+	--clr-body-bg: linear-gradient(90deg, rgba(255,137,137,1) 0%, rgba(130,176,255,1) 100%);
+	--clr-body-txt: light-dark(#141414, #fff);
+	--clr-content-bg: light-dark(#ffffff, #242424);
 
-    --clr-top-btn-bg: #000885;
-    --clr-top-btn-txt: #ffffff;
+	--clr-top-btn-bg: #000885;
+	--clr-top-btn-txt: #ffffff;
 
-    --clr-main-heading: #171717;
-    --clr-sub-heading: light-dark(#111111, #fff);
-    --clr-title-border: #6e0000;
-    --clr-bold-txt: light-dark(#ff0000, #ff4444);
-    --clr-link: light-dark(#302aff, #7bb4ff);
-    --clr-link-hover: light-dark(rgb(1, 48, 110), #1c7dfd);
-    --clr-quote-bg: light-dark(#f3f2f2, #141414);
-    --clr-quote-border: light-dark(#c60000, #ff0000);
-    --clr-cw-hover: #fae5e5;
+	--clr-main-heading: #171717;
+	--clr-sub-heading: light-dark(#111111, #fff);
+	--clr-title-border: #6e0000;
+	--clr-bold-txt: light-dark(#ff0000, #ff4444);
+	--clr-link: light-dark(#302aff, #7bb4ff);
+	--clr-link-hover: light-dark(rgb(1, 48, 110), #1c7dfd);
+	--clr-quote-bg: light-dark(#f3f2f2, #141414);
+	--clr-quote-border: light-dark(#c60000, #ff0000);
+	--clr-cw-hover: #fae5e5;
 
-    --clr-code-bg: #f3f2f2;
-    --clr-code-border: #414141;
-    --clr-dates: #3a96ff;
+	--clr-code-bg: #f3f2f2;
+	--clr-code-border: #414141;
+	--clr-dates: #3a96ff;
 
-    --clr-link-btn-bg: #873eb5;
-    --clr-link-btn-txt: white;
-    --clr-link-btn-hover: #241445;
+	--clr-link-btn-bg: #873eb5;
+	--clr-link-btn-txt: white;
+	--clr-link-btn-hover: #241445;
 
-    --clr-hero-bg: #7944B6;
-    --clr-navbar-bg: linear-gradient(90deg, rgba(193,0,0,1) 0%, rgba(0,70,189,1) 100%);
-    --clr-navbar-link: white;
+	--clr-hero-bg: #7944B6;
+	--clr-navbar-bg: linear-gradient(90deg, rgba(193,0,0,1) 0%, rgba(0,70,189,1) 100%);
+	--clr-navbar-link: white;
 
-    --clr-main-footer-bg: var(--clr-navbar-bg);
+	--clr-main-footer-bg: var(--clr-navbar-bg);
 }
 
 .main__header p { color: var(--clr-main-heading); }

@@ -9,17 +9,17 @@ More technical information about this website can be found on the site's [coloph
 Requirement: [Node.js](https://nodejs.org/).
 
 1. Clone the project repository locally:
-    ```
-    git clone https://git.leilukin.com/Leilukin/leilukin-site.git
-    ```
+	```
+	git clone https://git.leilukin.com/Leilukin/leilukin-site.git
+	```
 1. Install dependencies:
-    ```
-    npm install
-    ```
+	```
+	npm install
+	```
 1. Run the project:
-    ```
-    npm run start
-    ```
+	```
+	npm run start
+	```
 1. Open http://localhost:1414/ in your web browser.
 
 The `npm run start` command runs both Eleventy and [Pagefind](https://pagefind.app/) to build the website and create the website's search index respectively, then serve the project output in a local server.
