@@ -8,34 +8,34 @@ eleventyComputed:
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ sitemeta.siteLanguage or page.lang }}">
-	<title>{{ sitemeta.siteName }}</title>
-	<subtitle>{{ sitemeta.siteDescription }}</subtitle>
-	<link href="{{ sitemeta.feedUrl }}" rel="self"/>
-	<link href="{{ sitemeta.siteUrl }}"/>
-	<updated>{{ collections["feed items"] | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
-	<id>{{ feedMeta.baseUrl }}</id>
-	<author>
-		<name>{{ sitemeta.siteAuthor.name }}</name>
-		<email>{{ sitemeta.siteAuthor.email }}</email>
-	</author>
-	{%- for item in collections["feed items"] | reverse | itemLimit(15) %}
-	{%- set absolutePostUrl -%}{{ item.url | absoluteUrl(feedMeta.baseUrl) }}{%- endset -%}
-	{%- set absoluteChangelogUrl -%}{{ feedMeta.baseUrl }}changelogs/{{ item.fileSlug.substring(0, 4) }}/#{{ item.fileSlug }}{%- endset -%}
+    <title>{{ sitemeta.siteName }}</title>
+    <subtitle>{{ sitemeta.siteDescription }}</subtitle>
+    <link href="{{ sitemeta.feedUrl }}" rel="self"/>
+    <link href="{{ sitemeta.siteUrl }}"/>
+    <updated>{{ collections["feed items"] | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+    <id>{{ feedMeta.baseUrl }}</id>
+    <author>
+    <name>{{ sitemeta.siteAuthor.name }}</name>
+    <email>{{ sitemeta.siteAuthor.email }}</email>
+    </author>
+    {%- for item in collections["feed items"] | reverse | itemLimit(15) %}
+    {%- set absolutePostUrl -%}{{ item.url | absoluteUrl(feedMeta.baseUrl) }}{%- endset -%}
+    {%- set absoluteChangelogUrl -%}{{ feedMeta.baseUrl }}changelogs/{{ item.fileSlug.substring(0, 4) }}/#{{ item.fileSlug }}{%- endset -%}
 
-	{%- set absoluteItemUrl -%}
-	{%- if item.data.tags.includes("changelogs") -%}
-	{{ absoluteChangelogUrl }}
-	{%- else -%}
-	{{ absolutePostUrl }}
-	{%- endif -%}
-	{%- endset -%}
+    {%- set absoluteItemUrl -%}
+        {%- if item.data.tags.includes("changelogs") -%}
+        {{ absoluteChangelogUrl }}
+        {%- else -%}
+        {{ absolutePostUrl }}
+        {%- endif -%}
+    {%- endset -%}
 
-	<entry>
-		<title>{{ item.data.title | safe }}</title>
-		<link href="{{ absoluteItemUrl }}"/>
-		<updated>{{ item.date | dateToRfc3339 }}</updated>
-		<id>{{ absoluteItemUrl }}</id>
-		<content type="html">{{ item.content | renderTransforms(item.data.page, feedMeta.baseUrl) }}</content>
-	</entry>
-	{%- endfor %}
+    <entry>
+        <title>{{ item.data.title | safe }}</title>
+        <link href="{{ absoluteItemUrl }}"/>
+        <updated>{{ item.date | dateToRfc3339 }}</updated>
+        <id>{{ absoluteItemUrl }}</id>
+        <content type="html">{{ item.content | renderTransforms(item.data.page, feedMeta.baseUrl) }}</content>
+    </entry>
+    {%- endfor %}
 </feed>
