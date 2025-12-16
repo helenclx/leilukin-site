@@ -1,116 +1,121 @@
+---js
+{
+	layout: "layouts/main",
+	tags: ["navbar links"],
+	metadata: {
+		title: "Home",
+	},
+	isContentDivided: true,
+	hasTooltips: true,
+	excludeFromSearch: true,
+	eleventyNavigation: {
+		key: "Home",
+		order: 1,
+	},
+	eleventyComputed: {
+		pageTitle: "Welcome to {{ sitemeta.siteName }}!",
+		desc: "Home page of {{ sitemeta.siteName }}.",
+	}
+}
 ---
-layout: layouts/main
-tags: navbar links
-metadata:
-    title: Home
-isContentDivided: true
-hasTooltips: true
-excludeFromSearch: true
-eleventyNavigation:
-    key: Home
-    order: 1
-eleventyComputed:
-    pageTitle: Welcome to {{ sitemeta.siteName }}!
-    desc: Home page of {{ sitemeta.siteName }}.
----
 
 <section class="content__section">
-    <p>Hello! You can call me {{ sitemeta.siteAuthor.name }}. Welcome to my website! This site is my own personal hub and corner on the internet.</p>
+	<p>Hello! You can call me {{ sitemeta.siteAuthor.name }}. Welcome to my website! This site is my own personal hub and corner on the internet.</p>
 
-    <p>You can browse all my contents published on this site through the <a href="/archive">Archive</a> page, or the <a href="/topics">Topics</a> page. You can also use the <a href="/explore">Explore page</a> or the <a href="/sitemap">site map</a> to browse my website, or <a href="/search">search my website</a>.</p>
+	<p>You can browse all my contents published on this site through the <a href="/archive">Archive</a> page, or the <a href="/topics">Topics</a> page. You can also use the <a href="/explore">Explore page</a> or the <a href="/sitemap">site map</a> to browse my website, or <a href="/search">search my website</a>.</p>
 
-    <p>Feel free to drop a message and say hi on <a href="/guestbook">my guestbook</a>! You can also contact me by <a rel="nofollow, noindex" href="{{ sitemeta.siteAuthor.emailDecoyUrl }}">sending me an email</a>. Using <a href="https://useplaintext.email/">plain text email</a> is encouraged.</p>
+	<p>Feel free to drop a message and say hi on <a href="/guestbook">my guestbook</a>! You can also contact me by <a rel="nofollow, noindex" href="{{ sitemeta.siteAuthor.emailDecoyUrl }}">sending me an email</a>. Using <a href="https://useplaintext.email/">plain text email</a> is encouraged.</p>
 
-    <p>Read the <a href="/about">About</a> page to learn more about this site and its webmaster.</p>
+	<p>Read the <a href="/about">About</a> page to learn more about this site and its webmaster.</p>
 
-    <p>Enjoy your stay!</p>
+	<p>Enjoy your stay!</p>
 
-    <noscript>
-        <div class="text-box">
-            <h2>You have disabled JavaScript</h2>
-            <p>This website uses JavaScript. While you can still access most of the content of this site with JavaScript disabled, some components of this site will not work as intended.</p>
-            <p>You can learn more about how JavaScript is used on this site on the <a href="/colophon/#javascript">JavaScript section of the colophon page</a>.</p>
-        </div>
-    </noscript>
+	<noscript>
+		<div class="text-box">
+			<h2>You have disabled JavaScript</h2>
+			<p>This website uses JavaScript. While you can still access most of the content of this site with JavaScript disabled, some components of this site will not work as intended.</p>
+			<p>You can learn more about how JavaScript is used on this site on the <a href="/colophon/#javascript">JavaScript section of the colophon page</a>.</p>
+		</div>
+	</noscript>
 </section>
 
 <section class="content__section">
-    <h2>Link to My Website</h2>
+	<h2>Link to My Website</h2>
 
-    {{ include "components/my-button.vto" }}
+	{{ include "components/my-button.vto" }}
 </section>
 
 <section class="content__section">
-    <h2>Spotlight: Palestine</h2>
-    <img src="/assets/buttons/misc/standwithpalestine.png" alt="Stand with Palestine" width="88" height="31" loading="lazy">
-    <p>From the river to the sea, Palestine will be free.</p>
-    <p>Check out my <a href="/articles/palestine-masterlist">Palestine Masterlist</a>, which includes a <a href="/articles/palestine-masterlist/#spotlight-crowdfunding-campaigns">Spotlight Crowdfunding Campaigns</a> section, where I highlight fundraising campaigns for Palestinians that I have been asked by the Palestinians in question to share.</p>
-    <p>(Credit to <a href="https://hillhouse.neocities.org/journal/notes/palestine">rosemary</a> for the Stand with Palestine button)</p>
+	<h2>Spotlight: Palestine</h2>
+	<img src="/assets/buttons/misc/standwithpalestine.png" alt="Stand with Palestine" width="88" height="31" loading="lazy">
+	<p>From the river to the sea, Palestine will be free.</p>
+	<p>Check out my <a href="/articles/palestine-masterlist">Palestine Masterlist</a>, which includes a <a href="/articles/palestine-masterlist/#spotlight-crowdfunding-campaigns">Spotlight Crowdfunding Campaigns</a> section, where I highlight fundraising campaigns for Palestinians that I have been asked by the Palestinians in question to share.</p>
+	<p>(Credit to <a href="https://hillhouse.neocities.org/journal/notes/palestine">rosemary</a> for the Stand with Palestine button)</p>
 </section>
 
 <section class="content__section">
-    <h2>What is New?</h2>
-    <div class="text-box">
-        {{ for log of collections["changelogs"] |> toReversed |> itemLimit(1) }}
-        <h3>{{ log.data.title }}</h3>
-        {{ log.content }}
-        {{ /for }}
-        <p><a href="/changelogs">View all site changelogs</a></p>
-    </div>
-    <p>You can subscribe to the <a href="{{ sitemeta.feedPath }}"><svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>{{ sitemeta.siteName }} RSS feed</a> to get notified of the updates on this website, including new articles, blog posts and website changelogs.</p>
+	<h2>What is New?</h2>
+	<div class="text-box">
+		{{ for log of collections["changelogs"] |> toReversed |> itemLimit(1) }}
+		<h3>{{ log.data.title }}</h3>
+		{{ log.content }}
+		{{ /for }}
+		<p><a href="/changelogs">View all site changelogs</a></p>
+	</div>
+	<p>You can subscribe to the <a href="{{ sitemeta.feedPath }}"><svg class="inline-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>{{ sitemeta.siteName }} RSS feed</a> to get notified of the updates on this website, including new articles, blog posts and website changelogs.</p>
 
-    {{ include "components/statuscafe.vto" }}
+	{{ include "components/statuscafe.vto" }}
 </section>
 
 <section class="content__section">
-    <h2>Always Proud</h2>
-    <div class="flag-el flag-progress-intersex-lesbian" role="img" aria-label="Custom pride flag which combines the lesbian pride flag and the progress pride flag triangle" style="margin-bottom: 1em;"></div>
-    {{ import { prideButton } from "components/functions.vto" }}
-    <ul class="web-graphics">
-        {{ prideButton("progress", "Progress Flag by Daniel Quasar (2018)") }}
-        {{ prideButton("9_stripe", "Nine-Stripe Rainbow Flag by Gilbert Baker (2017)") }}
-        {{ prideButton("lesbian", "Lesbian pride flag") }}
-        {{ prideButton("nonbinary", "Non-binary pride flag") }}
-        {{ prideButton("demigirl", "Demigirl pride flag") }}
-        {{ prideButton("agender", "Agender pride flag") }}
-        {{ prideButton("bigender", "Bigender pride flag") }}
-        {{ prideButton("greyromantic", "Greyromantic pride flag") }}
-        {{ prideButton("greysexual", "Greysexual pride flag") }}
-        {{ prideButton("disability", "Visually Safe Disability Pride Flag by Ann Magill (2021)") }}
-    </ul>
-    <p>Credit to <a href="https://rainy.gay/pride/pridebuttons">Dime</a> for these pride buttons!</p>
+	<h2>Always Proud</h2>
+	<div class="flag-el flag-progress-intersex-lesbian" role="img" aria-label="Custom pride flag which combines the lesbian pride flag and the progress pride flag triangle" style="margin-bottom: 1em;"></div>
+	{{ import { prideButton } from "components/functions.vto" }}
+	<ul class="web-graphics">
+		{{ prideButton("progress", "Progress Flag by Daniel Quasar (2018)") }}
+		{{ prideButton("9_stripe", "Nine-Stripe Rainbow Flag by Gilbert Baker (2017)") }}
+		{{ prideButton("lesbian", "Lesbian pride flag") }}
+		{{ prideButton("nonbinary", "Non-binary pride flag") }}
+		{{ prideButton("demigirl", "Demigirl pride flag") }}
+		{{ prideButton("agender", "Agender pride flag") }}
+		{{ prideButton("bigender", "Bigender pride flag") }}
+		{{ prideButton("greyromantic", "Greyromantic pride flag") }}
+		{{ prideButton("greysexual", "Greysexual pride flag") }}
+		{{ prideButton("disability", "Visually Safe Disability Pride Flag by Ann Magill (2021)") }}
+	</ul>
+	<p>Credit to <a href="https://rainy.gay/pride/pridebuttons">Dime</a> for these pride buttons!</p>
 </section>
 
 <section class="content__section">
-    <h2>Web Cliques</h2>
-    {{ include "components/webcliques.vto" }}
+	<h2>Web Cliques</h2>
+	{{ include "components/webcliques.vto" }}
 </section>
 
 <section class="content__section">
-    <h2>Webrings</h2>
-    <p>{{ sitemeta.siteName }} is part of the following webrings:</p>
-   {{ include "components/webring-text.vto" }} 
+	<h2>Webrings</h2>
+	<p>{{ sitemeta.siteName }} is part of the following webrings:</p>
+	{{ include "components/webring-text.vto" }}
 </section>
 
 <section class="content__section">
-    <h2>Badges</h2>
-    <div class="web-graphics web-badges">
-        <a href="https://validator.w3.org/feed/check.cgi?url=https%3A//leilukin.com/feed.xml"><img src="/assets/buttons/badges/valid-atom.png" alt="Valid Atom 1.0" width="88" height="31" loading="lazy"></a>
-        <a href="https://ko-fi.com/s/798b83fbcc"><img src="/assets/buttons/badges/coffee-powered.svg" alt="Coffee powered" width="88" height="31" loading="lazy"></a>
-        <a href="https://people.pledge.party/"><img src="/assets/buttons/badges/people-pledge.svg" alt="The People Pledge" width="88" height="31" loading="lazy"></a>
-        <a href="https://fightfascism.neocities.org/"><img src="/assets/buttons/badges/fight-fascism.jpg" alt="Fight fascism" width="220" height="37" loading="lazy"></a>
-        <a href="https://internet.nl/site/leilukin.com/3290589/"><img src="/assets/buttons/badges/internet.nl-websitetest.svg" alt="Badge with a green check mark and text: 100% score in website test, internet.nl" width="204" height="38" loading="lazy"></a>
-        <div id="wcb" class="carbonbadge wcb-d">
-        <noscript>
-            <p>Looks like you have JavaScript disabled. JavaScript is required to display the <a href="https://www.websitecarbon.com/badge/">Website Carbon badge</a>.</p>
-        </noscript>
-    </div>
-    </div>
-    
-    <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
+	<h2>Badges</h2>
+	<div class="web-graphics web-badges">
+		<a href="https://validator.w3.org/feed/check.cgi?url=https%3A//leilukin.com/feed.xml"><img src="/assets/buttons/badges/valid-atom.png" alt="Valid Atom 1.0" width="88" height="31" loading="lazy"></a>
+		<a href="https://ko-fi.com/s/798b83fbcc"><img src="/assets/buttons/badges/coffee-powered.svg" alt="Coffee powered" width="88" height="31" loading="lazy"></a>
+		<a href="https://people.pledge.party/"><img src="/assets/buttons/badges/people-pledge.svg" alt="The People Pledge" width="88" height="31" loading="lazy"></a>
+		<a href="https://fightfascism.neocities.org/"><img src="/assets/buttons/badges/fight-fascism.jpg" alt="Fight fascism" width="220" height="37" loading="lazy"></a>
+		<a href="https://internet.nl/site/leilukin.com/3290589/"><img src="/assets/buttons/badges/internet.nl-websitetest.svg" alt="Badge with a green check mark and text: 100% score in website test, internet.nl" width="204" height="38" loading="lazy"></a>
+		<div id="wcb" class="carbonbadge wcb-d">
+			<noscript>
+				<p>Looks like you have JavaScript disabled. JavaScript is required to display the <a href="https://www.websitecarbon.com/badge/">Website Carbon badge</a>.</p>
+			</noscript>
+		</div>
+	</div>
+	
+	<script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>
 </section>
 
 <section class="content__section">
-    <h2>Support Me</h2>
-    {{ include "components/support-me.vto" }}
+	<h2>Support Me</h2>
+	{{ include "components/support-me.vto" }}
 </section>
