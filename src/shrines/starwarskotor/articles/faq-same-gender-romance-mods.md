@@ -1,7 +1,7 @@
 ---
 articleTitle: "Frequently Asked Questions (FAQ) for My Star Wars: KotOR Same-Gender Romance Mods"
 date: 2021-09-25
-updated: 2025-12-08T11:24:48+0800
+updated: 2025-12-19T09:53:49+0800
 desc: "Frequently asked questions for my same-gender romance mods for Star Wars: Knights of the Old Republic series."
 tags: kotor both articles
 topics: ["star wars kotor", "star wars kotor 2", "video game mods"]
@@ -93,7 +93,7 @@ That said, some of my same-gender romance mods require you to install at very sp
 
 * **Atton Rand and Male Exile Romance** should be installed after PartySwap. If you also use Kreia's Fall In-Game Cutscene, you need to install the compatibility patch provided by Atton Rand and Male Exile Romance.
 * **Visas Marr and Female Exile Romance** needs to be installed at any point after PartySwap.
-* **Alternate Revan Romances REDUX** must be installed after Thematic Obscured Mausoleum Burial (TOMB), by selecting one of the TOMB Compatible installation options.
+* **Alternate Revan Romances REDUX** must be installed after both TSL Expanded Ending and Thematic Obscured Mausoleum Burial (TOMB), by selecting the installation option that is compatible with both mods.
 
 Otherwise, you may install my same-gender romance mods at any point after KOTOR 1 Community Patch (for {{ cite "KotOR 1" }} mods) or The Sith Lords Restored Content Mod (for {{ cite "KotOR 2" }} mods).
 
