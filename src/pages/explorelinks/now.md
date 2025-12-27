@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2025-12-15T21:08:06+0800
+updated: 2025-12-27T17:05:09+0800
 eleventyNavigation:
     order: 3
 eleventyComputed:
@@ -20,3 +20,7 @@ Since 6 October 2025, I am attending [42 computer science school](https://www.42
 There are 7 milestones in the core curriculum: Milestone 0 to 6. Currently, I am in Milestone 2.
 
 You can read more about my life at 42 the computer science school in my blog posts under the ["42 the school"](/topics/42-the-school/) category.
+
+## Planning on Moving to a New House
+
+My parents and I have been planning to move to a new house, which will be located in a new residential area in our city. My parents bought the new house in 2025, and currently the residential area is under construction, but estimated to complete construction in 2026.
