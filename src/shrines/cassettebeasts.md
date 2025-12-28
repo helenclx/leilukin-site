@@ -23,11 +23,12 @@ eleventyComputed:
 
 First released on Steam and Windows on 26 April 2023, later on console on 25 May 2023 and on mobile on 15 January 2025, {{ cite "Cassette Beasts" }} is available on Windows, Linux, Steam, Xbox Series X|S, Xbox One, Gamepass, Nintendo Switch, Android and iOS.
 
-{{ cite "Cassette Beasts" }} also has an [official website](https://www.cassettebeasts.com/) and [official wiki](https://wiki.cassettebeasts.com/wiki/Main_Page).
+{{ cite "Cassette Beasts" }} also has an [official website](https://www.cassettebeasts.com/) and an [official wiki](https://wiki.cassettebeasts.com/wiki/Main_Page).
 
-You can purchase or download {{ cite "Cassette Beasts" }} from the below links:
+You can purchase or download {{ cite "Cassette Beasts" }} from the following platforms:
 
 * [Steam](https://store.steampowered.com/app/1321440/Cassette_Beasts/)
+* [Epic Games Store](https://store.epicgames.com/p/cassette-beasts-32c8e0)
 * [Xbox](https://www.xbox.com/en-us/games/store/cassette-beasts/9n82snqtzvmq)
 * [Nintendo Switch](https://www.nintendo.com/store/products/cassette-beasts-switch/)
 * [Google Play Store](https://play.google.com/store/apps/details?id=com.RawFury.CassetteBeasts)
