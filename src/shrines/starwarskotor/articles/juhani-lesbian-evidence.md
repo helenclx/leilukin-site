@@ -30,11 +30,11 @@ As shown in the screenshot above, once you begin this conversation, the script `
 ```c
 void main()
 {
-    int iGender = GetGender(GetPCSpeaker());
-    if (iGender == GENDER_FEMALE)
-    {
-        SetGlobalBoolean("T_JUHANIROM", TRUE);
-    }
+	int iGender = GetGender(GetPCSpeaker());
+	if (iGender == GENDER_FEMALE)
+	{
+		SetGlobalBoolean("T_JUHANIROM", TRUE);
+	}
 }
 ```
 

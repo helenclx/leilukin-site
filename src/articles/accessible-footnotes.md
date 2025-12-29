@@ -56,10 +56,10 @@ Here is a sample of what the HTML markup output of markdown-it-footnote looks li
 
 <hr class="footnotes-sep">
 <section class="footnotes">
-    <ol class="footnotes-list">
-        <li id="fn1" class="footnote-item">First footnote <a href="#fnref1" class="footnote-backref">↩︎</a> <a href="#fnref1:1" class="footnote-backref">↩︎</a></li>
-        <li id="fn2" class="footnote-item">Second footnote <a href="#fnref2" class="footnote-backref">↩︎</a></li>
-    </ol>
+	<ol class="footnotes-list">
+		<li id="fn1" class="footnote-item">First footnote <a href="#fnref1" class="footnote-backref">↩︎</a> <a href="#fnref1:1" class="footnote-backref">↩︎</a></li>
+		<li id="fn2" class="footnote-item">Second footnote <a href="#fnref2" class="footnote-backref">↩︎</a></li>
+	</ol>
 </section>
 ```
 
@@ -175,39 +175,39 @@ const markdownItFootnote = require("markdown-it-footnote");
 let markdownLibrary;
 
 module.exports = function (eleventyConfig) {
-    /* Markdown Overrides */
-    markdownLibrary = markdownIt({
-        html: true,
-    }).use(markdownItFootnote);
+	/* Markdown Overrides */
+	markdownLibrary = markdownIt({
+		html: true,
+	}).use(markdownItFootnote);
 
-    // Configure markdown-it-footnote
-    markdownLibrary.renderer.rules.footnote_block_open = () => (
-        '<hr class="footnotes-sep">\n' +
-        '<section class="footnotes">\n' +
-        `<h2>Footnotes</h2>\n`
-    );
+	// Configure markdown-it-footnote
+	markdownLibrary.renderer.rules.footnote_block_open = () => (
+		'<hr class="footnotes-sep">\n' +
+		'<section class="footnotes">\n' +
+		`<h2>Footnotes</h2>\n`
+	);
 
-    markdownLibrary.renderer.rules.footnote_anchor = (tokens, idx, options, env, slf) => {
-        let id = slf.rules.footnote_anchor_name(tokens, idx, options, env, slf);
+	markdownLibrary.renderer.rules.footnote_anchor = (tokens, idx, options, env, slf) => {
+		let id = slf.rules.footnote_anchor_name(tokens, idx, options, env, slf);
 
-        if (tokens[idx].meta.subId > 0) id += `:${tokens[idx].meta.subId}`;
+		if (tokens[idx].meta.subId > 0) id += `:${tokens[idx].meta.subId}`;
 
-        /* ↩ with escape code to prevent display as Apple Emoji on iOS */
-        return ` <a aria-label="Back to reference #${id}" href="#fnref${id}" class="footnote-backref">\u21a9\uFE0E</a>`;
-    };
+		/* ↩ with escape code to prevent display as Apple Emoji on iOS */
+		return ` <a aria-label="Back to reference #${id}" href="#fnref${id}" class="footnote-backref">\u21a9\uFE0E</a>`;
+	};
 
-    const renderRules = {
-        footnote_caption: ['[', '[<span class="visually-hidden">Footnote #</span>'],
-    };
-    Object.keys(renderRules).map(rule => {
-        let defaultRender = markdownLibrary.renderer.rules[rule];
-        markdownLibrary.renderer.rules[rule] = (tokens, idx, options, env, self) => {
-            return defaultRender(tokens, idx, options, env, self).replace(...renderRules[rule]);
-        }
-    });
+	const renderRules = {
+		footnote_caption: ['[', '[<span class="visually-hidden">Footnote #</span>'],
+	};
+	Object.keys(renderRules).map(rule => {
+		let defaultRender = markdownLibrary.renderer.rules[rule];
+		markdownLibrary.renderer.rules[rule] = (tokens, idx, options, env, self) => {
+			return defaultRender(tokens, idx, options, env, self).replace(...renderRules[rule]);
+		}
+	});
 
-    /* This is the part that tells 11ty to swap to our custom config */
-    eleventyConfig.setLibrary("md", markdownLibrary);
+	/* This is the part that tells 11ty to swap to our custom config */
+	eleventyConfig.setLibrary("md", markdownLibrary);
 }
 ```
 
@@ -291,45 +291,45 @@ const markdownItFootnote = require("markdown-it-footnote");
 let markdownLibrary;
 
 module.exports = function (eleventyConfig) {
-    /* Markdown Overrides */
-    markdownLibrary = markdownIt({
-        html: true,
-    }).use(markdownItFootnote);
+	/* Markdown Overrides */
+	markdownLibrary = markdownIt({
+		html: true,
+	}).use(markdownItFootnote);
 
-    // Configure markdown-it-footnote
-    markdownLibrary.renderer.rules.footnote_block_open = () => (
-        '<hr class="footnotes-sep">\n' +
-        '<section class="footnotes">\n' +
-        `<h2>Footnotes</h2>\n`
-    );
+	// Configure markdown-it-footnote
+	markdownLibrary.renderer.rules.footnote_block_open = () => (
+		'<hr class="footnotes-sep">\n' +
+		'<section class="footnotes">\n' +
+		`<h2>Footnotes</h2>\n`
+	);
 
-    markdownLibrary.renderer.rules.footnote_anchor = (tokens, idx, options, env, slf) => {
-        let id = slf.rules.footnote_anchor_name(tokens, idx, options, env, slf);
+	markdownLibrary.renderer.rules.footnote_anchor = (tokens, idx, options, env, slf) => {
+		let id = slf.rules.footnote_anchor_name(tokens, idx, options, env, slf);
 
-        if (tokens[idx].meta.subId > 0) id += `:${tokens[idx].meta.subId}`;
+		if (tokens[idx].meta.subId > 0) id += `:${tokens[idx].meta.subId}`;
 
-        /* ↩ with escape code to prevent display as Apple Emoji on iOS */
-        return `
-            <p class="footnote-item__back">
-                <a href="#fnref${id}" class="footnote-backref">
-                    <span aria-hidden="true">\u21a9\uFE0E</span>
-                    Back to reference ${id}
-                </a>
-            </p>
-        `;
-    };
+		/* ↩ with escape code to prevent display as Apple Emoji on iOS */
+		return `
+			<p class="footnote-item__back">
+				<a href="#fnref${id}" class="footnote-backref">
+					<span aria-hidden="true">\u21a9\uFE0E</span>
+					Back to reference ${id}
+				</a>
+			</p>
+		`;
+	};
 
-    const renderRules = {
-        footnote_caption: ['[', '[Note '],
-    };
-    Object.keys(renderRules).map(rule => {
-        let defaultRender = markdownLibrary.renderer.rules[rule];
-        markdownLibrary.renderer.rules[rule] = (tokens, idx, options, env, self) => {
-            return defaultRender(tokens, idx, options, env, self).replace(...renderRules[rule]);
-        }
-    });
+	const renderRules = {
+		footnote_caption: ['[', '[Note '],
+	};
+	Object.keys(renderRules).map(rule => {
+		let defaultRender = markdownLibrary.renderer.rules[rule];
+		markdownLibrary.renderer.rules[rule] = (tokens, idx, options, env, self) => {
+			return defaultRender(tokens, idx, options, env, self).replace(...renderRules[rule]);
+		}
+	});
 
-    /* This is the part that tells 11ty to swap to our custom config */
-    eleventyConfig.setLibrary("md", markdownLibrary);
+	/* This is the part that tells 11ty to swap to our custom config */
+	eleventyConfig.setLibrary("md", markdownLibrary);
 }
 ```

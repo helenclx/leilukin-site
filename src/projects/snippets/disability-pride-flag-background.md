@@ -2,7 +2,7 @@
 title: Responsive Disability Pride flag CSS Background
 desc: CSS code snippet of Disability Pride flag background that can adapt to different widths and screen sizes.
 eleventyNavigation:
-    order: 5
+  order: 5
 ---
 
 There have been CSS code snippets of LGBTQ+ pride flag backgrounds out there, such as [Alvaro Montoro's LGBTQ+ Flags Coded in CSS demo](https://codepen.io/alvaromontoro/full/NWyBrZJ), but I could not find one for the [Disability Pride flag](https://www.womansday.com/life/a43964487/disability-pride-flag/), which was created by [Ann Magill](https://capri0mni.dreamwidth.org/837596.html) and released in 2021.
@@ -29,17 +29,17 @@ CSS:
 
 ```css
 .disability-pride-flag {
-    background:
-        linear-gradient(
-            37deg,
-            #595959 0 35%,
-            #CF7280 30% 41%,
-            #EEDE77 30% 47%,
-            #E8E8E8 30% 53%,
-            #7bc2e0 30% 59%,
-            #3BB07D 30% 65%,
-            #595959 0
-        );
+	background:
+		linear-gradient(
+			37deg,
+			#595959 0 35%,
+			#CF7280 30% 41%,
+			#EEDE77 30% 47%,
+			#E8E8E8 30% 53%,
+			#7bc2e0 30% 59%,
+			#3BB07D 30% 65%,
+			#595959 0
+		);
 }
 ```
 
