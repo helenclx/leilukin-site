@@ -1,7 +1,7 @@
 ---
 pageTitle: Resources
 date: 2024-08-02
-updated: 2025-12-08T10:42:06+0800
+updated: 2025-12-29T11:42:39+0800
 desc: Resources I have curated.
 toc: true
 ---
@@ -22,6 +22,7 @@ toc: true
 ## Gaming
 
 * [3DS Hacks Guide](https://3ds.hacks.guide/)
+- [ProtonDB](https://www.protondb.com/) — Crowdsourced Linux and Steam Deck game compatibility reports.
 
 ## Images
 
