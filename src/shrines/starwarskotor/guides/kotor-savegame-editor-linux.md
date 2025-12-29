@@ -2,7 +2,6 @@
 articleTitle: KotOR SaveGame Editor on Linux
 date: 2025-08-17T09:31:57+0800
 desc: A guide for using KotOR SaveGame Editor on Linux.
-tags: kotor on linux guides
 topics: ["star wars kotor", "star wars kotor 2", "star wars kotor on linux", "linux gaming"]
 toc: true
 hasCodeBlock: true
