@@ -7,11 +7,11 @@ date: 2023-02-16
 isContentDivided: true
 toc: true
 eleventyNavigation:
-    key: A Summer’s End Shrine
-    parent: Shrines
-    title: A Summer’s End — Hong Kong 1986 Shrine
+  key: A Summer’s End Shrine
+  parent: Shrines
+  title: A Summer’s End — Hong Kong 1986 Shrine
 eleventyComputed:
-    desc: "{{ sitemeta.siteAuthor.name }}'s shrine for A Summer’s End — Hong Kong 1986."
+  desc: "{{ sitemeta.siteAuthor.name }}'s shrine for A Summer’s End — Hong Kong 1986."
 ---
 
 {{ container "article", "content__section" }}

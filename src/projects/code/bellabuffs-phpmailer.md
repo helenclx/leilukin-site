@@ -5,12 +5,12 @@ desc: My fork of BellaBuffs, with PHPMailer powering the email sending features.
 {{ import { linkBtns } from "components/functions.vto" }}
 
 {{ linkBtns([
-    { label: "Demo", url: "https://fan.leilukin.com/cassettebeasts" },
-    { label: "Source Code (GitHub)", url: "https://github.com/helenclx/BellaBuffs-PHPMailer" },
-    { label: "Source Code (Codeberg)", url: "https://codeberg.org/helenchong/BellaBuffs-PHPMailer" },
-    { label: "Source Code (Gitea)", url: "https://git.leilukin.com/Leilukin/BellaBuffs-PHPMailer" },
-    { label: "Download (GitHub)", url: "https://github.com/helenclx/BellaBuffs-PHPMailer/releases/latest" },
-    { label: "Download (Codeberg)", url: "https://codeberg.org/helenchong/BellaBuffs-PHPMailer/releases/latest" },
+	{ label: "Demo", url: "https://fan.leilukin.com/cassettebeasts" },
+	{ label: "Source Code (GitHub)", url: "https://github.com/helenclx/BellaBuffs-PHPMailer" },
+	{ label: "Source Code (Codeberg)", url: "https://codeberg.org/helenchong/BellaBuffs-PHPMailer" },
+	{ label: "Source Code (Gitea)", url: "https://git.leilukin.com/Leilukin/BellaBuffs-PHPMailer" },
+	{ label: "Download (GitHub)", url: "https://github.com/helenclx/BellaBuffs-PHPMailer/releases/latest" },
+	{ label: "Download (Codeberg)", url: "https://codeberg.org/helenchong/BellaBuffs-PHPMailer/releases/latest" },
 ]) }}
 
 This is a fork of the [BullaBuffs](https://github.com/jemjabella/BellaBuffs), a fanlisting script written in PHP, with the email sending library [PHPMailer](https://github.com/PHPMailer/PHPMailer) integrated.

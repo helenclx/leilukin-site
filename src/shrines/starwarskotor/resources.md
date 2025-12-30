@@ -6,10 +6,10 @@ desc: "List of Star Wars: Knights of the Old Republic resources I have created o
 tags: kotor shrine page
 toc: true
 eleventyNavigation:
-    key: KotOR Resources
-    parent: KotOR Shrine
-    title: Resources
-    order: 3
+  key: KotOR Resources
+  parent: KotOR Shrine
+  title: Resources
+  order: 3
 ---
 
 ## My Mods

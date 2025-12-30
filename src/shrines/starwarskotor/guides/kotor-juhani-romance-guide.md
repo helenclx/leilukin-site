@@ -203,17 +203,17 @@ These mods are not required to complete Juhani's romance, but they add or enhanc
 
 * [Juhani Romance Enhancement](http://deadlystream.com/files/file/772-juhani-romance-enhancement/) by Kexikus: Improves the final romance conversation with Juhani, including triggering the conversation automatically when you are about to leave the temple summit, instead of having to talk to Juhani yourself to initiate the conversation, provided you have met the conditions to make this conversation available (detailed in the Walkthrough section above), as well as adding a kiss between Juhani and the female player character.
 * [KOTOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/): Even though this bug fix mod is not specifically about Juhani, it fixes many bugs and issues related to Juhani's content, including:
-    * Juhani wouldn't spawn in the post-Leviathan scene on the Ebon Hawk
-    * If doing certain Juhani's conversations in the wrong order, it was possible to block any further progress in Juhani's Personal Conversation path, and prevent you from accessing Juhani's final romance conversation
-    * No other messengers could appear once the "Threat From Xor" quest is started
-    * The second Xor encounter was impossible to start if you first meet him and his goons without Juhani in your party
-    * The second Xor encounter is unavailable on Tatooine
-    * Xor is a Twi'lek, despite him being a human in the Xbox version of KotOR, and him openly making anti-alien comments (NOTE: This fix was originally done by my [Human Xor Restoration](http://deadlystream.com/files/file/1091-human-xor-restoration/) mod. I have given permission to include my mod in this Community Patch)
-    * Asking Juhani about the planet you were currently on was impossible due to a faulty global setting
+	* Juhani wouldn't spawn in the post-Leviathan scene on the Ebon Hawk
+	* If doing certain Juhani's conversations in the wrong order, it was possible to block any further progress in Juhani's Personal Conversation path, and prevent you from accessing Juhani's final romance conversation
+	* No other messengers could appear once the "Threat From Xor" quest is started
+	* The second Xor encounter was impossible to start if you first meet him and his goons without Juhani in your party
+	* The second Xor encounter is unavailable on Tatooine
+	* Xor is a Twi'lek, despite him being a human in the Xbox version of KotOR, and him openly making anti-alien comments (NOTE: This fix was originally done by my [Human Xor Restoration](http://deadlystream.com/files/file/1091-human-xor-restoration/) mod. I have given permission to include my mod in this Community Patch)
+	* Asking Juhani about the planet you were currently on was impossible due to a faulty global setting
 * [Juhani Dialogue Restoration](https://deadlystream.com/files/file/2173-juhani-dialogue-restoration/) by Leilukin: My mod. Restores Juhani's conversations with the player that are unused or easy to miss in vanilla KotOR, including:
-    * Asking Juhani about the planet you are on
-    * Asking Juhani about why she is hostile towards Canderous
-    * Juhani talking about the evils on Korriban
+	* Asking Juhani about the planet you are on
+	* Asking Juhani about why she is hostile towards Canderous
+	* Juhani talking about the evils on Korriban
 * [Human Xor Unique Look](https://deadlystream.com/files/file/2147-human-xor-unique-look/) by Leilukin: My mod. Changes Xor's species from a Twi'lek to a human to fit his anti-alien nature and dialogue, with a unique appearance different from other human NPCs. This mod is listed on this guide because Xor is tied to Juhani's personal quest.
 * [Party on the Leviathan!](https://deadlystream.com/files/file/567-party-on-the-leviathan/) by Fair Strides: Restores Juhani's conversation, including romance conversation with a female player character, on the Leviathan, by spawning the rest of the Ebon Hawk crew on the Leviathan after you are rescued.
 

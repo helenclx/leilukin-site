@@ -7,10 +7,10 @@ tags: kotor shrine page
 topics: ["star wars kotor", "star wars kotor 2"]
 toc: true
 eleventyNavigation:
-    key: KotOR Universes
-    parent: KotOR Shrine
-    title: Universes
-    order: 4
+  key: KotOR Universes
+  parent: KotOR Shrine
+  title: Universes
+  order: 4
 ---
 {{ set universeAssetBase = '/assets/shrines/starwarskotor/universes/' }}
 

@@ -6,10 +6,10 @@ desc: A collection of reviews, articles and commentary videos from other people 
 tags: cassette beasts shrine page
 toc: true
 eleventyNavigation:
-    key: Cassette Beasts Featured
-    parent: Cassette Beasts Shrine
-    title: Featured
-    order: 3
+  key: Cassette Beasts Featured
+  parent: Cassette Beasts Shrine
+  title: Featured
+  order: 3
 ---
 
 Here is a collection of reviews, articles and commentary videos from other people about {{ cite "Cassette Beasts" }}. If you need more convincing than my words about why you should play {{ cite "Cassette Beasts" }}, check these links out. 😎

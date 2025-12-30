@@ -6,10 +6,10 @@ desc: List of articles written by me or other people that I recommend for Casset
 tags: cassette beasts shrine page
 toc: true
 eleventyNavigation:
-    key: Cassette Beasts Articles
-    parent: Cassette Beasts Shrine
-    title: Articles
-    order: 1
+  key: Cassette Beasts Articles
+  parent: Cassette Beasts Shrine
+  title: Articles
+  order: 1
 ---
 
 {{ import { articleList } from "components/functions.vto" }}
@@ -21,12 +21,12 @@ eleventyNavigation:
 
 * [Cassette Beasts Level-Up Dialogue Summaries (Meredith)](https://www.pillowfort.social/posts/3642949) by ArgentDandelion on Pillowfort
 
-    An analysis of Meredith's character.{.item-list__indent}
+	An analysis of Meredith's character.{.item-list__indent}
 
 * [Cassette Beasts Level-Up Dialogue Summaries (Viola)](https://www.pillowfort.social/posts/3792935) by ArgentDandelion on Pillowfort
 
-    An analysis of Viola's character.{.item-list__indent}
+	An analysis of Viola's character.{.item-list__indent}
 
 * [A Case Of Autism: Meredith (Cassette Beasts)](https://www.youtube.com/watch?v=jFJ6tMeGsLg) by Optical Drop
 
-    A video analysis of Meredith's autistic coding.{.item-list__indent}
+	A video analysis of Meredith's autistic coding.{.item-list__indent}

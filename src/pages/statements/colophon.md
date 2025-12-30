@@ -4,7 +4,7 @@ keyword: colophon page
 updated: 2025-11-20T12:32:46+0800
 toc: true
 eleventyNavigation:
-    order: 16
+  order: 16
 ---
 Information about how this website is built.
 
@@ -72,13 +72,13 @@ I drew the Leilukin bee illustration and made my website's button in Adobe Photo
 Due to this website being a static site, JavaScript is used to create dynamic and interactive components of this site. Here is a list of how JavaScript is used on this site:
 
 * The header of every page uses JavaScript to detect the visitor's current date, so the header will display a top blurb and in some cases also changes the header background on certain dates, including:
-    * LGBTQ+ events, International Women's Day, Disability Pride Month, website anniversary and my birthday;
-    * Release anniversaries of media with dedicated shrines, including:
-        * [{{ cite "A Summer’s End — Hong Kong 1986" }}](/shrines/asummersend)
-        * [{{ cite "Star Wars: Knights of the Old Republic" }}](/shrines/starwarskotor)
-        * [{{ cite "Cassette Beasts" }}](/shrines/cassettebeasts)
-        * [{{ cite "Pokémon Omega Ruby" }} and {{ cite "Alpha Sapphire" }}](/shrines/pokemonoras)
-    * Birthdays of characters from {{ cite "A Summer’s End — Hong Kong 1986" }} on its shrine.
+	* LGBTQ+ events, International Women's Day, Disability Pride Month, website anniversary and my birthday;
+	* Release anniversaries of media with dedicated shrines, including:
+		* [{{ cite "A Summer’s End — Hong Kong 1986" }}](/shrines/asummersend)
+		* [{{ cite "Star Wars: Knights of the Old Republic" }}](/shrines/starwarskotor)
+		* [{{ cite "Cassette Beasts" }}](/shrines/cassettebeasts)
+		* [{{ cite "Pokémon Omega Ruby" }} and {{ cite "Alpha Sapphire" }}](/shrines/pokemonoras)
+	* Birthdays of characters from {{ cite "A Summer’s End — Hong Kong 1986" }} on its shrine.
 * Add buttons to copy code snippets to pages with code blocks.
 * Scott O'Hara's [ARIA Tooltips](https://github.com/scottaohara/a11y_tooltips) script is used to implement accessible tooltips that meet Web Content Accessibility Guidelines (WCAG) 2.2 success criterion for [1.4.13: Content on Hover or Focus (Level AA)](https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus.html), by allowing visitors to see tooltips on keyboard focus and dismiss tooltips by pressing the Escape key.
 * Zach Leatherman's [details-utils](https://www.npmjs.com/package/@zachleat/details-utils) JavaScript package is used to automatically expand sidebar table of contents on wide screens.

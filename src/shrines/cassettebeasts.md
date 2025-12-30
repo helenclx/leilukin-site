@@ -7,10 +7,10 @@ date: 2023-08-03
 isContentDivided: true
 toc: true
 eleventyNavigation:
-    key: Cassette Beasts Shrine
-    parent: Shrines
+  key: Cassette Beasts Shrine
+  parent: Shrines
 eleventyComputed:
-    desc: "{{ sitemeta.siteAuthor.name }}'s shrine for Cassette Beasts."
+  desc: "{{ sitemeta.siteAuthor.name }}'s shrine for Cassette Beasts."
 ---
 {{ set imageAssetBaseUrl = '/assets/shrines/cassettebeasts/images/' }}
 

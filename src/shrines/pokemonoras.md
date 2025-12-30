@@ -7,11 +7,11 @@ date: 2024-11-21T00:55:37+0800
 isContentDivided: true
 toc: true
 eleventyNavigation:
-    key: ORAS Shrine
-    title: Pokémon Omega Ruby and Alpha Sapphire Shrine
-    parent: Shrines
+  key: ORAS Shrine
+  title: Pokémon Omega Ruby and Alpha Sapphire Shrine
+  parent: Shrines
 eleventyComputed:
-    desc: "{{ sitemeta.siteAuthor.name }}'s shrine for Pokémon Omega Ruby and Alpha Sapphire."
+  desc: "{{ sitemeta.siteAuthor.name }}'s shrine for Pokémon Omega Ruby and Alpha Sapphire."
 ---
 {{ set imageAssetBaseUrl = '/assets/shrines/pokemonoras/images/' }}
 

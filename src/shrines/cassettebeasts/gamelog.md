@@ -6,10 +6,10 @@ desc: A catalogue of my Cassette Beasts characters and save profiles.
 tags: cassette beasts shrine page
 toc: true
 eleventyNavigation:
-    key: Cassette Beasts Game Log
-    parent: Cassette Beasts Shrine
-    title: Game Log
-    order: 2
+  key: Cassette Beasts Game Log
+  parent: Cassette Beasts Shrine
+  title: Game Log
+  order: 2
 ---
 
 {{ set universeAssetBase = '/assets/shrines/cassettebeasts/gamelog/' }}

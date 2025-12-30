@@ -6,10 +6,10 @@ desc: A collection of facts and trivia about Cassette Beasts.
 tags: cassette beasts shrine page
 toc: true
 eleventyNavigation:
-    key: Cassette Beasts Facts
-    parent: Cassette Beasts Shrine
-    title: Facts
-    order: 4
+  key: Cassette Beasts Facts
+  parent: Cassette Beasts Shrine
+  title: Facts
+  order: 4
 ---
 
 ## Where to Find {{ cite "Cassette Beasts" }} Facts and Trivia
@@ -19,11 +19,11 @@ You can find facts and trivia about the game from:
 * [Cassette Beasts: The Art Book](https://store.steampowered.com/app/2259040/Cassette_Beasts_The_Art_Book/)
 * Trivia sections on the [official Cassette Beasts wiki](https://wiki.cassettebeasts.com/wiki/Main_Page) articles.
 * Bytten Studio's Q&A and Ask Me Anything (AMA) sessions:
-    * [Cassette Beasts Blog #13 - You asked, we answered!](https://store.steampowered.com/news/app/1321440/view/3669908058337516561) (28 February 2023)
-    * [Reddit AMA on r/JRPG](https://www.reddit.com/r/JRPG/comments/12kobbo/were_bytten_studio_the_developers_of_cassette/) on 13 April 2023
-    * [Reddit AMA on r/NintendoSwitch](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/) on 1 July 2023
-    * [Reddit AMA on r/JRPG](https://www.reddit.com/r/JRPG/comments/1bniroh/we_are_bytten_studio_developers_of_the/) on 25 March 2024
-    * [Reddit AMA on r/cassettebeasts](https://www.reddit.com/r/cassettebeasts/comments/1gvucl7/we_are_bytten_studio_the_developers_of_cassette/) on 20 November 2024
+	* [Cassette Beasts Blog #13 - You asked, we answered!](https://store.steampowered.com/news/app/1321440/view/3669908058337516561) (28 February 2023)
+	* [Reddit AMA on r/JRPG](https://www.reddit.com/r/JRPG/comments/12kobbo/were_bytten_studio_the_developers_of_cassette/) on 13 April 2023
+	* [Reddit AMA on r/NintendoSwitch](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/) on 1 July 2023
+	* [Reddit AMA on r/JRPG](https://www.reddit.com/r/JRPG/comments/1bniroh/we_are_bytten_studio_developers_of_the/) on 25 March 2024
+	* [Reddit AMA on r/cassettebeasts](https://www.reddit.com/r/cassettebeasts/comments/1gvucl7/we_are_bytten_studio_the_developers_of_cassette/) on 20 November 2024
 
 [Here is a list of interviews](https://wiki.cassettebeasts.com/wiki/List_of_Interviews) that staff who worked on Cassette Beasts participated in and discussed {{ cite "Cassette Beasts" }}.
 

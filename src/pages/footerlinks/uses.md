@@ -4,7 +4,7 @@ desc: A non-exhaustive list of hardware and software that I use.
 update: 2025-12-16T10:19:45+0800
 toc: true
 eleventyNavigation:
-     order: 10
+   order: 10
 ---
 
 Below is a non-exhaustive list of the hardware and software that I use.

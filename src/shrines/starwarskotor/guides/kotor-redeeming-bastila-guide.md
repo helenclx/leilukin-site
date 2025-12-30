@@ -63,9 +63,9 @@ After you defeat Bastila for the second time, Bastila will say, "You are growing
 
 * Choose **"Your emotions get the better of you, Bastila. Remember the Jedi code."** to gain 1 point.
 * Alternately, choose **"Then strike me down, Bastila. I won't defend myself."** to gain 2 points. Any of the dialogue options following this will gain another 2 points. Specifically:
-    * **"Remember what you once were, Bastila. A Jedi would never strike down a defenseless opponent."**
-    * **"You are not evil, Bastila. You will not strike down a defenseless opponent."**
-    * If you romance Bastila, you have an additional option: **"We meant something to each other, once. I don't believe you will strike me down."**
+	* **"Remember what you once were, Bastila. A Jedi would never strike down a defenseless opponent."**
+	* **"You are not evil, Bastila. You will not strike down a defenseless opponent."**
+	* If you romance Bastila, you have an additional option: **"We meant something to each other, once. I don't believe you will strike me down."**
 
 You and Bastila will fight again.
 
@@ -82,8 +82,8 @@ After Bastila says "You cannot let me live", choose **"You can reject the dark s
 When Bastila says, "I can no longer find peace in the Force":
 
 * Choose the \[Persuade\] option. The \[Persuade\] options are different depending on if you romance Bastila or not.
-    * If romanced, choose **"\[Persuade\] Use our bond, then. Take your strength from me."** Succeeding in this persuasion option requires an Easy Persuade check. If you pass the check, you will gain 2 points. Later, choose **"\[Persuade\] I love you, Bastila. I can't abandon you, ever."** Again, succeeding in this persuasion option requires an Easy Persuade check. If you pass the check, you will gain 5 points.
-    * If not romanced, choose **"\[Persuade\] Turn to the Jedi code, Bastila. It can help you."** This requires a Medium Persuade check. If you pass the check, you will gain 2 points. Later, choose **"\[Persuade\] Look into your heart, Bastila, and you will find the light."** Again, succeeding in this persuasion option requires a Medium Persuade check. If you pass the check, you will gain 3 points.
+	* If romanced, choose **"\[Persuade\] Use our bond, then. Take your strength from me."** Succeeding in this persuasion option requires an Easy Persuade check. If you pass the check, you will gain 2 points. Later, choose **"\[Persuade\] I love you, Bastila. I can't abandon you, ever."** Again, succeeding in this persuasion option requires an Easy Persuade check. If you pass the check, you will gain 5 points.
+	* If not romanced, choose **"\[Persuade\] Turn to the Jedi code, Bastila. It can help you."** This requires a Medium Persuade check. If you pass the check, you will gain 2 points. Later, choose **"\[Persuade\] Look into your heart, Bastila, and you will find the light."** Again, succeeding in this persuasion option requires a Medium Persuade check. If you pass the check, you will gain 3 points.
 
 * Alternately, if you are worried that you may fail the \[Persuade\] check, you can choose **"I was redeemed, Bastila. You can be, too."** to add 1 point. When Bastila responses with "I was supposed to protect you from the dark side", choose **"You can't protect someone from the dark side. Each individual must choose their own path."** to add 1 point, or if you romance her, choose **"You did more than protect me, Bastila."** to gain 1 point. Note that these dialogue options were also available after you choose the \[Persuade\] options, so if you want to gain the maximum amount of points, you may choose all these options.
 

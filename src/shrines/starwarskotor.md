@@ -7,11 +7,11 @@ date: 2023-02-17
 isContentDivided: true
 toc: true
 eleventyNavigation:
-    key: KotOR Shrine
-    parent: Shrines
-    title: "Star Wars: Knights of the Old Republic Shrine"
+  key: KotOR Shrine
+  parent: Shrines
+  title: "Star Wars: Knights of the Old Republic Shrine"
 eleventyComputed:
-    desc: "{{ sitemeta.siteAuthor.name }}'s shrine for Star Wars: Knights of the Old Republic series."
+  desc: "{{ sitemeta.siteAuthor.name }}'s shrine for Star Wars: Knights of the Old Republic series."
 ---
 
 {{ container "article", "content__section" }}
