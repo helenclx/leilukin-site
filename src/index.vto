@@ -1,22 +1,17 @@
----js
-{
-	layout: "layouts/main",
-	tags: ["navbar links"],
-	metadata: {
-		title: "Home",
-	},
-	isContentDivided: true,
-	hasTooltips: true,
-	excludeFromSearch: true,
-	eleventyNavigation: {
-		key: "Home",
-		order: 1,
-	},
-	eleventyComputed: {
-		pageTitle: "Welcome to {{ sitemeta.siteName }}!",
-		desc: "Home page of {{ sitemeta.siteName }}.",
-	}
-}
+---
+layout: layouts/main
+tags: ["navbar links"]
+metadata:
+  title: Home
+isContentDivided: true
+hasTooltips: true
+excludeFromSearch: true
+eleventyNavigation:
+  key: Home
+  order: 1
+eleventyComputed:
+  pageTitle: "Welcome to {{ sitemeta.siteName }}!"
+  desc: "Home page of {{ sitemeta.siteName }}."
 ---
 
 <section class="content__section">
