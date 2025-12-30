@@ -2,55 +2,55 @@
 /* Custom Properties   */
 /* ------------------- */
 :root {
-    --clr-body-bg: #08031A;
-    --clr-body-txt: #fceaff;
-    --clr-content-bg: #3d2163;
+	--clr-body-bg: #08031A;
+	--clr-body-txt: #fceaff;
+	--clr-content-bg: #3d2163;
 
-    --clr-top-btn-bg: #FFD05A;
-    --clr-top-btn-txt: #08031A;
+	--clr-top-btn-bg: #FFD05A;
+	--clr-top-btn-txt: #08031A;
 
-    --clr-main-heading: #ED64F5;
-    --clr-sub-heading: #e8b86f;
-    --clr-title-border: #d3aad5;
-    --clr-bold-txt: #ff9933;
-    --clr-link: #f98bff;
-    --clr-link-hover: #c355c9;
-    --clr-quote-bg: #13092D;
-    --clr-quote-border: #999999;
-    --clr-cw-hover: #3a0000;
+	--clr-main-heading: #ED64F5;
+	--clr-sub-heading: #e8b86f;
+	--clr-title-border: #d3aad5;
+	--clr-bold-txt: #ff9933;
+	--clr-link: #f98bff;
+	--clr-link-hover: #c355c9;
+	--clr-quote-bg: #13092D;
+	--clr-quote-border: #999999;
+	--clr-cw-hover: #3a0000;
 
-    --clr-code-bg: #241445;
-    --clr-code-border: #82668f;
-    --clr-dates: #79b8ff;
+	--clr-code-bg: #241445;
+	--clr-code-border: #82668f;
+	--clr-dates: #79b8ff;
 
-    --clr-link-btn-bg: #873eb5;
-    --clr-link-btn-txt: white;
-    --clr-link-btn-hover: #241445;
+	--clr-link-btn-bg: #873eb5;
+	--clr-link-btn-txt: white;
+	--clr-link-btn-hover: #241445;
 
-    --clr-hero-bg: black;
-    --clr-navbar-bg: #222;
-    --clr-navbar-link: white;
-    --clr-main-footer-bg: #13092D;
+	--clr-hero-bg: black;
+	--clr-navbar-bg: #222;
+	--clr-navbar-link: white;
+	--clr-main-footer-bg: #13092D;
 
-    --clr-mod-entry-bg: #241445;
+	--clr-mod-entry-bg: #241445;
 
-    --ff-default: 'Readex Pro', Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
-    --ff-monospace: 'Intel One Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+	--ff-default: 'Readex Pro', Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+	--ff-monospace: 'Intel One Mono', ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 
-    --fs-main: clamp(1.125rem, 1.104rem + 0.107vw, 1.2rem);
-    --fs-h1: clamp(2rem, 1.8rem + 1vw, 2.7rem);
-    --fs-h2: clamp(1.7rem, 1.557rem + 0.714vw, 2.2rem);
-    --fs-h3: clamp(1.5rem, 1.414rem + 0.429vw, 1.8rem);
-    --fs-h4: clamp(1.4rem, 1.343rem + 0.286vw, 1.6rem);
+	--fs-main: clamp(1.125rem, 1.104rem + 0.107vw, 1.2rem);
+	--fs-h1: clamp(2rem, 1.8rem + 1vw, 2.7rem);
+	--fs-h2: clamp(1.7rem, 1.557rem + 0.714vw, 2.2rem);
+	--fs-h3: clamp(1.5rem, 1.414rem + 0.429vw, 1.8rem);
+	--fs-h4: clamp(1.4rem, 1.343rem + 0.286vw, 1.6rem);
 
-    --sz-paragraph-margin: 1.15em;
-    --sz-main-padding: clamp(1rem, 5%, 4rem);
-    --sz-navbar-ht: 4rem;
-    --sz-external-link: 1.25em;
-    --sz-content-list-gap: 0.7em;
-    --sz-def-indent: 1.5em;
+	--sz-paragraph-margin: 1.15em;
+	--sz-main-padding: clamp(1rem, 5%, 4rem);
+	--sz-navbar-ht: 4rem;
+	--sz-external-link: 1.25em;
+	--sz-content-list-gap: 0.7em;
+	--sz-def-indent: 1.5em;
 
-    --ht-sticky-sidebar: 86vh;
+	--ht-sticky-sidebar: 86vh;
 }
 
 /* ------------------- */
@@ -58,51 +58,51 @@
 /* ------------------- */
 
 @layer reset {
-    *, *::before, *::after {
-        box-sizing: border-box;
-    }
+	*, *::before, *::after {
+		box-sizing: border-box;
+	}
 
-    * {
-        margin: 0;
-    }
+	* {
+		margin: 0;
+	}
 
-    body {
-        min-height: 100vh;
-        line-height: 1.5;
-    }
+	body {
+		min-height: 100vh;
+		line-height: 1.5;
+	}
 
-    h1, h2, h3, h4, h5, h6,
-    button, input, label {
-        line-height: 1.1;
-    }
+	h1, h2, h3, h4, h5, h6,
+	button, input, label {
+		line-height: 1.1;
+	}
 
-    p, h1, h2, h3, h4, h5, h6 {
+	p, h1, h2, h3, h4, h5, h6 {
 		overflow-wrap: break-word;
 	}
 
-    h1, h2, h3, h4, h5, h6 {
-        text-wrap: balance;
-    }
+	h1, h2, h3, h4, h5, h6 {
+		text-wrap: balance;
+	}
 
-    img, picture, video, audio, canvas {
-        max-width: 100%;
-        height: auto;
-        display: block;
-    }
+	img, picture, video, audio, canvas {
+		max-width: 100%;
+		height: auto;
+		display: block;
+	}
 
-    input, button, textarea, select {
-        font: inherit;
-    }
+	input, button, textarea, select {
+		font: inherit;
+	}
 
-    textarea:not([rows]) {
-        min-height: 10em;
-    }
+	textarea:not([rows]) {
+		min-height: 10em;
+	}
 
-    :target {
-        scroll-margin-block: 5ex;
-    }
+	:target {
+		scroll-margin-block: 5ex;
+	}
 
-    [popover] {
-        margin: auto;
-    }
+	[popover] {
+		margin: auto;
+	}
 }

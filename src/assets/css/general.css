@@ -1,24 +1,24 @@
 /* GENERAL STYLES */
 body {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    font-family: var(--ff-default);
-    color: var(--clr-body-txt);
-    background: var(--clr-body-bg);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-family: var(--ff-default);
+	color: var(--clr-body-txt);
+	background: var(--clr-body-bg);
 }
 
 main {
-    width: 100%;
-    font-size: var(--fs-main);
+	width: 100%;
+	font-size: var(--fs-main);
 }
 
 h1 {
-    color: var(--clr-main-heading);
-    font-size: var(--fs-h1);
-    border-bottom: 0.18rem solid var(--clr-title-border);
-    padding-bottom: 0.3em;
-    margin-bottom: 0.5em;
+	color: var(--clr-main-heading);
+	font-size: var(--fs-h1);
+	border-bottom: 0.18rem solid var(--clr-title-border);
+	padding-bottom: 0.3em;
+	margin-bottom: 0.5em;
 }
 
 h2, h3, h4, h5, h6 { color: var(--clr-sub-heading); }
@@ -45,25 +45,25 @@ a[href^="http"]:not([href*="leilukin.com"]):not(:has(img, svg, picture)),
 
 a[href^="http"]:not([href*="leilukin.com"]):not(:has(img, svg, picture))::after,
 .external-link::after {
-    position: absolute;
-    content: "";
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    margin-left: 0.3em;
-    background-color: currentColor;
-    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath d='M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z'/%3E%3C/svg%3E");
-    mask-repeat: no-repeat;
-    mask-size: 90%;
-    transform: translateY(0.25em);
+	position: absolute;
+	content: "";
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin-left: 0.3em;
+	background-color: currentColor;
+	mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath d='M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z'/%3E%3C/svg%3E");
+	mask-repeat: no-repeat;
+	mask-size: 90%;
+	transform: translateY(0.25em);
 }
 
 :not(.c-blockquote) > blockquote,
 .c-blockquote {
-    padding: 1em 1.4em 1.4em;
-    border-inline-start: 0.1em solid var(--clr-main-heading);
-    background-color: var(--clr-quote-bg);
-    margin-bottom: 1em;
+	padding: 1em 1.4em 1.4em;
+	border-inline-start: 0.1em solid var(--clr-main-heading);
+	background-color: var(--clr-quote-bg);
+	margin-bottom: 1em;
 }
 
 blockquote > * + :not([class]),
@@ -75,42 +75,42 @@ details:focus { outline-offset: 0.2em; }
 video { width: 100%; }
 
 figure {
-    margin-bottom: var(--sz-paragraph-margin);
-    display: grid;
-    place-content: center;
-    justify-items: center;
+	margin-bottom: var(--sz-paragraph-margin);
+	display: grid;
+	place-content: center;
+	justify-items: center;
 }
 
 figcaption {
-    text-align: center;
-    font-size: 0.9em;
-    margin-top: 0.2em;
+	text-align: center;
+	font-size: 0.9em;
+	margin-top: 0.2em;
 }
 
 code {
-    font-family: var(--ff-monospace);
-    word-break: break-word;
-    font-size: 0.85em;
+	font-family: var(--ff-monospace);
+	word-break: break-word;
+	font-size: 0.85em;
 }
 
 :not(pre) > code {
-    padding: 0.125em 0.25em;
-    background-color: var(--clr-code-bg);
+	padding: 0.125em 0.25em;
+	background-color: var(--clr-code-bg);
 }
 
 pre {
-    border: 0.1em solid var(--clr-code-border);
-    max-width: 90vw;
-    overflow: auto;
-    padding: 1rem;
-    tab-size: 2;
-    white-space: pre;
+	border: 0.1em solid var(--clr-code-border);
+	max-width: 90vw;
+	overflow: auto;
+	padding: 1rem;
+	tab-size: 2;
+	white-space: pre;
 }
 
 dl {
-    container-type: inline-size;
-    display: grid;
-    gap: var(--sz-content-list-gap);
+	container-type: inline-size;
+	display: grid;
+	gap: var(--sz-content-list-gap);
 }
 
 dt { font-weight: 700; }
@@ -118,9 +118,9 @@ dd { margin-left: var(--sz-def-indent); }
 dd ul { padding-left: 1em; }
 
 @container (min-width: 20rem) {
-    dl { grid-template-columns: 1fr 2fr; }
-    dd {
-        grid-column-start: 2;
-        margin-left: 0;
-    }
+	dl { grid-template-columns: 1fr 2fr; }
+	dd {
+		grid-column-start: 2;
+		margin-left: 0;
+	}
 }
