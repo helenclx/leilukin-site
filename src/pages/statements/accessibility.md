@@ -1,7 +1,7 @@
 ---
 title: Accessibility
 keyword: accessibility statement
-updated: 2025-07-16T21:09:02+0800
+updated: 2026-01-03T11:22:53+0800
 eleventyNavigation:
   order: 15
 ---
@@ -22,16 +22,15 @@ High-level overview of the accessibility features of this site:
 * Logical content and heading flow.
 * Links to skip to the main content or the top of the page.
 * Sufficient font size that can be enlarged without breaking the site layout
-* No autoplaying audio or video.
+* No auto-playing audio or video.
 * A button below code blocks to copy code snippets with one click. (Requires JavaScript enabled in the browser)
 
-This site uses the [Lexend](https://www.lexend.com/) font family as the default font and [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) as the monospaced font to improve text readability.
+This site uses the [Readex Pro](https://fonts.google.com/specimen/Readex+Pro) font family as the default font and [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) as the monospace font to improve text readability.
 
 ## Testing
 
 I use the following tools to test my site for accessibility:
 * WebAIM's [WAVE Browser Extension](https://wave.webaim.org/extension/)
-* [axe DevTools - Web Accessibility Testing](https://www.deque.com/axe/browser-extensions/) browser extension
 * [Alex Clapperton's Colour Contrast Checker](https://colourcontrast.cc/)
 * [NVDA](https://www.nvaccess.org/about-nvda/) screen reader for Windows
 * [Orca](https://orca.gnome.org/) screen reader for Linux
